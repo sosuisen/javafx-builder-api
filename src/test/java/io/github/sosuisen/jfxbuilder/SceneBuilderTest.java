@@ -2,7 +2,6 @@ package io.github.sosuisen.jfxbuilder;
 
 import javafx.event.EventHandler;
 import javafx.geometry.NodeOrientation;
-import javafx.scene.Camera;
 import javafx.scene.Cursor;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
