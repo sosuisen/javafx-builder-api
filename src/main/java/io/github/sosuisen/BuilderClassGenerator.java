@@ -37,8 +37,28 @@ public class BuilderClassGenerator {
 
     // Generate constructors
     Constructor<?>[] constructors = clazz.getConstructors();
+    boolean hasDefaultConstructor = false;
+    
+    // Check if there's a default constructor (no parameters)
     for (Constructor<?> constructor : constructors) {
-      parseConstructor(constructor, clazz, content);
+      if (constructor.getParameterCount() == 0) {
+        hasDefaultConstructor = true;
+        break;
+      }
+    }
+    
+    // If default constructor exists, only generate that one. Otherwise, generate all.
+    if (hasDefaultConstructor) {
+      for (Constructor<?> constructor : constructors) {
+        if (constructor.getParameterCount() == 0) {
+          parseConstructor(constructor, clazz, content);
+          break;
+        }
+      }
+    } else {
+      for (Constructor<?> constructor : constructors) {
+        parseConstructor(constructor, clazz, content);
+      }
     }
 
     content.append("    public ").append(className).append(" build() { return in; }\n");
@@ -122,7 +142,6 @@ public class BuilderClassGenerator {
     }
 
     // Add required imports for constructors and method types
-    imports.add("javafx.scene.Node");
     imports.add(clazz.getName());
 
     return imports;
