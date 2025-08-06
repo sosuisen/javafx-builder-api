@@ -1,5 +1,4 @@
 package io.github.sosuisen.jfxbuilder;
-import javafx.event.ActionEvent;
 import javafx.event.EventDispatcher;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
@@ -11,12 +10,6 @@ import javafx.scene.CacheHint;
 import javafx.scene.Cursor;
 import javafx.scene.DepthTest;
 import javafx.scene.Node;
-import javafx.scene.control.Button;
-import javafx.scene.control.ContentDisplay;
-import javafx.scene.control.ContextMenu;
-import javafx.scene.control.OverrunStyle;
-import javafx.scene.control.Skin;
-import javafx.scene.control.Tooltip;
 import javafx.scene.effect.BlendMode;
 import javafx.scene.effect.Effect;
 import javafx.scene.input.ContextMenuEvent;
@@ -33,40 +26,44 @@ import javafx.scene.input.TouchEvent;
 import javafx.scene.input.ZoomEvent;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.Border;
-import javafx.scene.paint.Paint;
+import javafx.scene.layout.Priority;
+import javafx.scene.layout.VBox;
 import javafx.scene.shape.Shape;
-import javafx.scene.text.Font;
-import javafx.scene.text.TextAlignment;
 
-public class ButtonBuilder {
+public class VBoxBuilder {
     private Object[] constructorArgs;
     private Object[] mandatoryParams;
-    private java.util.List<java.util.function.Consumer<Button>> operations = new java.util.ArrayList<>();
-    public static  ButtonBuilder create() { return new ButtonBuilder(); }
-    private ButtonBuilder() {}
-    public static  ButtonBuilder create(String text, Node graphic) {
-        ButtonBuilder builder = new ButtonBuilder();
-        builder.constructorArgs = new Object[]{text, graphic};
+    private java.util.List<java.util.function.Consumer<VBox>> operations = new java.util.ArrayList<>();
+    public static  VBoxBuilder create() { return new VBoxBuilder(); }
+    private VBoxBuilder() {}
+    public static  VBoxBuilder create(double spacing) {
+        VBoxBuilder builder = new VBoxBuilder();
+        builder.constructorArgs = new Object[]{spacing};
         return builder;
     }
-    public static  ButtonBuilder create(String text) {
-        ButtonBuilder builder = new ButtonBuilder();
-        builder.constructorArgs = new Object[]{text};
+    public static  VBoxBuilder create(Node[] children) {
+        VBoxBuilder builder = new VBoxBuilder();
+        builder.constructorArgs = new Object[]{children};
         return builder;
     }
-    public Button build() {
-        Button newInstance;
+    public static  VBoxBuilder create(double spacing, Node[] children) {
+        VBoxBuilder builder = new VBoxBuilder();
+        builder.constructorArgs = new Object[]{spacing, children};
+        return builder;
+    }
+    public VBox build() {
+        VBox newInstance;
         if (constructorArgs == null && mandatoryParams == null) {
-            newInstance = new Button();
+            newInstance = new VBox();
         } else {
             // Use reflection for parameterized constructor
             try {
                 Object[] args = (constructorArgs != null) ? constructorArgs : mandatoryParams;
-                java.lang.reflect.Constructor<?>[] constructors = Button.class.getConstructors();
+                java.lang.reflect.Constructor<?>[] constructors = VBox.class.getConstructors();
                 newInstance = null;
                 for (java.lang.reflect.Constructor<?> constructor : constructors) {
                     if (constructor.getParameterCount() == args.length && isConstructorCompatible(constructor, args)) {
-                        newInstance = (Button) constructor.newInstance(args);
+                        newInstance = (VBox) constructor.newInstance(args);
                         break;
                     }
                 }
@@ -77,7 +74,7 @@ public class ButtonBuilder {
                 throw new RuntimeException("Failed to create instance", e);
             }
         }
-        for (java.util.function.Consumer<Button> op : operations) {
+        for (java.util.function.Consumer<VBox> op : operations) {
             op.accept(newInstance);
         }
         return newInstance;
@@ -124,456 +121,400 @@ public class ButtonBuilder {
         return false;
     }
     
-    public ButtonBuilder apply(java.util.function.Consumer<Button> func) {
+    public VBoxBuilder apply(java.util.function.Consumer<VBox> func) {
         operations.add(func);
         return this;
     }
-    public  ButtonBuilder defaultButton(boolean value) {
-        operations.add(obj -> obj.setDefaultButton(value));
+    public  VBoxBuilder vgrow(Node child, Priority value) {
+        operations.add(obj -> obj.setVgrow(child, value));
         return this;
     }
-    public  ButtonBuilder cancelButton(boolean value) {
-        operations.add(obj -> obj.setCancelButton(value));
+    public  VBoxBuilder margin(Node child, Insets value) {
+        operations.add(obj -> obj.setMargin(child, value));
         return this;
     }
-    public  ButtonBuilder onAction(EventHandler<ActionEvent> value) {
-        operations.add(obj -> obj.setOnAction(value));
+    public  VBoxBuilder spacing(double value) {
+        operations.add(obj -> obj.setSpacing(value));
         return this;
     }
-    public  ButtonBuilder text(String value) {
-        operations.add(obj -> obj.setText(value));
-        return this;
-    }
-    public  ButtonBuilder graphic(Node value) {
-        operations.add(obj -> obj.setGraphic(value));
-        return this;
-    }
-    public  ButtonBuilder font(Font value) {
-        operations.add(obj -> obj.setFont(value));
-        return this;
-    }
-    public  ButtonBuilder mnemonicParsing(boolean value) {
-        operations.add(obj -> obj.setMnemonicParsing(value));
-        return this;
-    }
-    public  ButtonBuilder textFill(Paint value) {
-        operations.add(obj -> obj.setTextFill(value));
-        return this;
-    }
-    public  ButtonBuilder contentDisplay(ContentDisplay value) {
-        operations.add(obj -> obj.setContentDisplay(value));
-        return this;
-    }
-    public  ButtonBuilder alignment(Pos value) {
+    public  VBoxBuilder alignment(Pos value) {
         operations.add(obj -> obj.setAlignment(value));
         return this;
     }
-    public  ButtonBuilder underline(boolean value) {
-        operations.add(obj -> obj.setUnderline(value));
+    public  VBoxBuilder fillWidth(boolean value) {
+        operations.add(obj -> obj.setFillWidth(value));
         return this;
     }
-    public  ButtonBuilder lineSpacing(double value) {
-        operations.add(obj -> obj.setLineSpacing(value));
-        return this;
-    }
-    public  ButtonBuilder textAlignment(TextAlignment value) {
-        operations.add(obj -> obj.setTextAlignment(value));
-        return this;
-    }
-    public  ButtonBuilder ellipsisString(String value) {
-        operations.add(obj -> obj.setEllipsisString(value));
-        return this;
-    }
-    public  ButtonBuilder graphicTextGap(double value) {
-        operations.add(obj -> obj.setGraphicTextGap(value));
-        return this;
-    }
-    public  ButtonBuilder wrapText(boolean value) {
-        operations.add(obj -> obj.setWrapText(value));
-        return this;
-    }
-    public  ButtonBuilder textOverrun(OverrunStyle value) {
-        operations.add(obj -> obj.setTextOverrun(value));
-        return this;
-    }
-    public  ButtonBuilder skin(Skin<?> value) {
-        operations.add(obj -> obj.setSkin(value));
-        return this;
-    }
-    public  ButtonBuilder tooltip(Tooltip value) {
-        operations.add(obj -> obj.setTooltip(value));
-        return this;
-    }
-    public  ButtonBuilder contextMenu(ContextMenu value) {
-        operations.add(obj -> obj.setContextMenu(value));
-        return this;
-    }
-    public  ButtonBuilder padding(Insets value) {
+    public  VBoxBuilder padding(Insets value) {
         operations.add(obj -> obj.setPadding(value));
         return this;
     }
-    public  ButtonBuilder minSize(double minWidth, double minHeight) {
+    public  VBoxBuilder minSize(double minWidth, double minHeight) {
         operations.add(obj -> obj.setMinSize(minWidth, minHeight));
         return this;
     }
-    public  ButtonBuilder border(Border value) {
+    public  VBoxBuilder border(Border value) {
         operations.add(obj -> obj.setBorder(value));
         return this;
     }
-    public  ButtonBuilder shape(Shape value) {
+    public  VBoxBuilder shape(Shape value) {
         operations.add(obj -> obj.setShape(value));
         return this;
     }
-    public  ButtonBuilder maxSize(double maxWidth, double maxHeight) {
+    public  VBoxBuilder maxSize(double maxWidth, double maxHeight) {
         operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
         return this;
     }
-    public  ButtonBuilder minHeight(double value) {
+    public  VBoxBuilder minHeight(double value) {
         operations.add(obj -> obj.setMinHeight(value));
         return this;
     }
-    public  ButtonBuilder prefHeight(double value) {
+    public  VBoxBuilder prefHeight(double value) {
         operations.add(obj -> obj.setPrefHeight(value));
         return this;
     }
-    public  ButtonBuilder prefWidth(double value) {
+    public  VBoxBuilder prefWidth(double value) {
         operations.add(obj -> obj.setPrefWidth(value));
         return this;
     }
-    public  ButtonBuilder maxWidth(double value) {
+    public  VBoxBuilder maxWidth(double value) {
         operations.add(obj -> obj.setMaxWidth(value));
         return this;
     }
-    public  ButtonBuilder maxHeight(double value) {
+    public  VBoxBuilder maxHeight(double value) {
         operations.add(obj -> obj.setMaxHeight(value));
         return this;
     }
-    public  ButtonBuilder minWidth(double value) {
+    public  VBoxBuilder minWidth(double value) {
         operations.add(obj -> obj.setMinWidth(value));
         return this;
     }
-    public  ButtonBuilder snapToPixel(boolean value) {
+    public  VBoxBuilder snapToPixel(boolean value) {
         operations.add(obj -> obj.setSnapToPixel(value));
         return this;
     }
-    public  ButtonBuilder background(Background value) {
+    public  VBoxBuilder background(Background value) {
         operations.add(obj -> obj.setBackground(value));
         return this;
     }
-    public  ButtonBuilder opaqueInsets(Insets value) {
+    public  VBoxBuilder opaqueInsets(Insets value) {
         operations.add(obj -> obj.setOpaqueInsets(value));
         return this;
     }
-    public  ButtonBuilder scaleShape(boolean value) {
+    public  VBoxBuilder scaleShape(boolean value) {
         operations.add(obj -> obj.setScaleShape(value));
         return this;
     }
-    public  ButtonBuilder cacheShape(boolean value) {
+    public  VBoxBuilder cacheShape(boolean value) {
         operations.add(obj -> obj.setCacheShape(value));
         return this;
     }
-    public  ButtonBuilder prefSize(double prefWidth, double prefHeight) {
+    public  VBoxBuilder prefSize(double prefWidth, double prefHeight) {
         operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
         return this;
     }
-    public  ButtonBuilder centerShape(boolean value) {
+    public  VBoxBuilder centerShape(boolean value) {
         operations.add(obj -> obj.setCenterShape(value));
         return this;
     }
-    public  ButtonBuilder cache(boolean value) {
+    public  VBoxBuilder cache(boolean value) {
         operations.add(obj -> obj.setCache(value));
         return this;
     }
-    public  ButtonBuilder userData(Object value) {
+    public  VBoxBuilder userData(Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
     }
-    public  ButtonBuilder id(String value) {
+    public  VBoxBuilder id(String value) {
         operations.add(obj -> obj.setId(value));
         return this;
     }
-    public  ButtonBuilder style(String value) {
+    public  VBoxBuilder style(String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
     }
-    public  ButtonBuilder cursor(Cursor value) {
+    public  VBoxBuilder cursor(Cursor value) {
         operations.add(obj -> obj.setCursor(value));
         return this;
     }
-    public  ButtonBuilder clip(Node value) {
+    public  VBoxBuilder clip(Node value) {
         operations.add(obj -> obj.setClip(value));
         return this;
     }
-    public  ButtonBuilder managed(boolean value) {
+    public  VBoxBuilder managed(boolean value) {
         operations.add(obj -> obj.setManaged(value));
         return this;
     }
-    public  ButtonBuilder disable(boolean value) {
+    public  VBoxBuilder disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
     }
-    public  ButtonBuilder scaleZ(double value) {
+    public  VBoxBuilder scaleZ(double value) {
         operations.add(obj -> obj.setScaleZ(value));
         return this;
     }
-    public  ButtonBuilder onZoom(EventHandler<? super ZoomEvent> value) {
+    public  VBoxBuilder onZoom(EventHandler<? super ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoom(value));
         return this;
     }
-    public  ButtonBuilder scaleY(double value) {
+    public  VBoxBuilder scaleY(double value) {
         operations.add(obj -> obj.setScaleY(value));
         return this;
     }
-    public  ButtonBuilder scaleX(double value) {
+    public  VBoxBuilder scaleX(double value) {
         operations.add(obj -> obj.setScaleX(value));
         return this;
     }
-    public  ButtonBuilder rotate(double value) {
+    public  VBoxBuilder rotate(double value) {
         operations.add(obj -> obj.setRotate(value));
         return this;
     }
-    public  ButtonBuilder visible(boolean value) {
+    public  VBoxBuilder visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
-    public  ButtonBuilder onMouseDragReleased(EventHandler<? super MouseDragEvent> value) {
+    public  VBoxBuilder onMouseDragReleased(EventHandler<? super MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragReleased(value));
         return this;
     }
-    public  ButtonBuilder onMouseDragExited(EventHandler<? super MouseDragEvent> value) {
+    public  VBoxBuilder onMouseDragExited(EventHandler<? super MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragExited(value));
         return this;
     }
-    public  ButtonBuilder focusTraversable(boolean value) {
+    public  VBoxBuilder focusTraversable(boolean value) {
         operations.add(obj -> obj.setFocusTraversable(value));
         return this;
     }
-    public  ButtonBuilder onContextMenuRequested(EventHandler<? super ContextMenuEvent> value) {
+    public  VBoxBuilder onContextMenuRequested(EventHandler<? super ContextMenuEvent> value) {
         operations.add(obj -> obj.setOnContextMenuRequested(value));
         return this;
     }
-    public  ButtonBuilder onTouchStationary(EventHandler<? super TouchEvent> value) {
+    public  VBoxBuilder onTouchStationary(EventHandler<? super TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchStationary(value));
         return this;
     }
-    public  ButtonBuilder onRotationStarted(EventHandler<? super RotateEvent> value) {
+    public  VBoxBuilder onRotationStarted(EventHandler<? super RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationStarted(value));
         return this;
     }
-    public  ButtonBuilder onRotationFinished(EventHandler<? super RotateEvent> value) {
+    public  VBoxBuilder onRotationFinished(EventHandler<? super RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationFinished(value));
         return this;
     }
-    public  ButtonBuilder mouseTransparent(boolean value) {
+    public  VBoxBuilder mouseTransparent(boolean value) {
         operations.add(obj -> obj.setMouseTransparent(value));
         return this;
     }
-    public  ButtonBuilder inputMethodRequests(InputMethodRequests value) {
+    public  VBoxBuilder inputMethodRequests(InputMethodRequests value) {
         operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }
-    public  ButtonBuilder onMouseDragEntered(EventHandler<? super MouseDragEvent> value) {
+    public  VBoxBuilder onMouseDragEntered(EventHandler<? super MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragEntered(value));
         return this;
     }
-    public  ButtonBuilder onScrollFinished(EventHandler<? super ScrollEvent> value) {
+    public  VBoxBuilder onScrollFinished(EventHandler<? super ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollFinished(value));
         return this;
     }
-    public  ButtonBuilder accessibleRole(AccessibleRole value) {
+    public  VBoxBuilder accessibleRole(AccessibleRole value) {
         operations.add(obj -> obj.setAccessibleRole(value));
         return this;
     }
-    public  ButtonBuilder pickOnBounds(boolean value) {
+    public  VBoxBuilder pickOnBounds(boolean value) {
         operations.add(obj -> obj.setPickOnBounds(value));
         return this;
     }
-    public  ButtonBuilder viewOrder(double value) {
+    public  VBoxBuilder viewOrder(double value) {
         operations.add(obj -> obj.setViewOrder(value));
         return this;
     }
-    public  ButtonBuilder depthTest(DepthTest value) {
+    public  VBoxBuilder depthTest(DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
     }
-    public  ButtonBuilder blendMode(BlendMode value) {
+    public  VBoxBuilder blendMode(BlendMode value) {
         operations.add(obj -> obj.setBlendMode(value));
         return this;
     }
-    public  ButtonBuilder onDragEntered(EventHandler<? super DragEvent> value) {
+    public  VBoxBuilder onDragEntered(EventHandler<? super DragEvent> value) {
         operations.add(obj -> obj.setOnDragEntered(value));
         return this;
     }
-    public  ButtonBuilder cacheHint(CacheHint value) {
+    public  VBoxBuilder cacheHint(CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
     }
-    public  ButtonBuilder onDragExited(EventHandler<? super DragEvent> value) {
+    public  VBoxBuilder onDragExited(EventHandler<? super DragEvent> value) {
         operations.add(obj -> obj.setOnDragExited(value));
         return this;
     }
-    public  ButtonBuilder onDragOver(EventHandler<? super DragEvent> value) {
+    public  VBoxBuilder onDragOver(EventHandler<? super DragEvent> value) {
         operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }
-    public  ButtonBuilder onDragDropped(EventHandler<? super DragEvent> value) {
+    public  VBoxBuilder onDragDropped(EventHandler<? super DragEvent> value) {
         operations.add(obj -> obj.setOnDragDropped(value));
         return this;
     }
-    public  ButtonBuilder onDragDone(EventHandler<? super DragEvent> value) {
+    public  VBoxBuilder onDragDone(EventHandler<? super DragEvent> value) {
         operations.add(obj -> obj.setOnDragDone(value));
         return this;
     }
-    public  ButtonBuilder onMouseExited(EventHandler<? super MouseEvent> value) {
+    public  VBoxBuilder onMouseExited(EventHandler<? super MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }
-    public  ButtonBuilder onTouchReleased(EventHandler<? super TouchEvent> value) {
+    public  VBoxBuilder onTouchReleased(EventHandler<? super TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchReleased(value));
         return this;
     }
-    public  ButtonBuilder onKeyReleased(EventHandler<? super KeyEvent> value) {
+    public  VBoxBuilder onKeyReleased(EventHandler<? super KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }
-    public  ButtonBuilder rotationAxis(Point3D value) {
+    public  VBoxBuilder rotationAxis(Point3D value) {
         operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }
-    public  ButtonBuilder translateZ(double value) {
+    public  VBoxBuilder translateZ(double value) {
         operations.add(obj -> obj.setTranslateZ(value));
         return this;
     }
-    public  ButtonBuilder translateX(double value) {
+    public  VBoxBuilder translateX(double value) {
         operations.add(obj -> obj.setTranslateX(value));
         return this;
     }
-    public  ButtonBuilder translateY(double value) {
+    public  VBoxBuilder translateY(double value) {
         operations.add(obj -> obj.setTranslateY(value));
         return this;
     }
-    public  ButtonBuilder onScrollStarted(EventHandler<? super ScrollEvent> value) {
+    public  VBoxBuilder onScrollStarted(EventHandler<? super ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollStarted(value));
         return this;
     }
-    public  ButtonBuilder onMouseClicked(EventHandler<? super MouseEvent> value) {
+    public  VBoxBuilder onMouseClicked(EventHandler<? super MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseClicked(value));
         return this;
     }
-    public  ButtonBuilder onMouseEntered(EventHandler<? super MouseEvent> value) {
+    public  VBoxBuilder onMouseEntered(EventHandler<? super MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseEntered(value));
         return this;
     }
-    public  ButtonBuilder onMouseMoved(EventHandler<? super MouseEvent> value) {
+    public  VBoxBuilder onMouseMoved(EventHandler<? super MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
         return this;
     }
-    public  ButtonBuilder onZoomStarted(EventHandler<? super ZoomEvent> value) {
+    public  VBoxBuilder onZoomStarted(EventHandler<? super ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }
-    public  ButtonBuilder onSwipeUp(EventHandler<? super SwipeEvent> value) {
+    public  VBoxBuilder onSwipeUp(EventHandler<? super SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }
-    public  ButtonBuilder onKeyPressed(EventHandler<? super KeyEvent> value) {
+    public  VBoxBuilder onKeyPressed(EventHandler<? super KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyPressed(value));
         return this;
     }
-    public  ButtonBuilder onRotate(EventHandler<? super RotateEvent> value) {
+    public  VBoxBuilder onRotate(EventHandler<? super RotateEvent> value) {
         operations.add(obj -> obj.setOnRotate(value));
         return this;
     }
-    public  ButtonBuilder onZoomFinished(EventHandler<? super ZoomEvent> value) {
+    public  VBoxBuilder onZoomFinished(EventHandler<? super ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomFinished(value));
         return this;
     }
-    public  ButtonBuilder nodeOrientation(NodeOrientation orientation) {
+    public  VBoxBuilder nodeOrientation(NodeOrientation orientation) {
         operations.add(obj -> obj.setNodeOrientation(orientation));
         return this;
     }
-    public  ButtonBuilder onMouseDragged(EventHandler<? super MouseEvent> value) {
+    public  VBoxBuilder onMouseDragged(EventHandler<? super MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseDragged(value));
         return this;
     }
-    public  ButtonBuilder onMouseDragOver(EventHandler<? super MouseDragEvent> value) {
+    public  VBoxBuilder onMouseDragOver(EventHandler<? super MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }
-    public  ButtonBuilder onSwipeLeft(EventHandler<? super SwipeEvent> value) {
+    public  VBoxBuilder onSwipeLeft(EventHandler<? super SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
     }
-    public  ButtonBuilder onTouchMoved(EventHandler<? super TouchEvent> value) {
+    public  VBoxBuilder onTouchMoved(EventHandler<? super TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchMoved(value));
         return this;
     }
-    public  ButtonBuilder onScroll(EventHandler<? super ScrollEvent> value) {
+    public  VBoxBuilder onScroll(EventHandler<? super ScrollEvent> value) {
         operations.add(obj -> obj.setOnScroll(value));
         return this;
     }
-    public  ButtonBuilder onSwipeDown(EventHandler<? super SwipeEvent> value) {
+    public  VBoxBuilder onSwipeDown(EventHandler<? super SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
         return this;
     }
-    public  ButtonBuilder onSwipeRight(EventHandler<? super SwipeEvent> value) {
+    public  VBoxBuilder onSwipeRight(EventHandler<? super SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeRight(value));
         return this;
     }
-    public  ButtonBuilder onTouchPressed(EventHandler<? super TouchEvent> value) {
+    public  VBoxBuilder onTouchPressed(EventHandler<? super TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchPressed(value));
         return this;
     }
-    public  ButtonBuilder onMouseReleased(EventHandler<? super MouseEvent> value) {
+    public  VBoxBuilder onMouseReleased(EventHandler<? super MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseReleased(value));
         return this;
     }
-    public  ButtonBuilder onMousePressed(EventHandler<? super MouseEvent> value) {
+    public  VBoxBuilder onMousePressed(EventHandler<? super MouseEvent> value) {
         operations.add(obj -> obj.setOnMousePressed(value));
         return this;
     }
-    public  ButtonBuilder onDragDetected(EventHandler<? super MouseEvent> value) {
+    public  VBoxBuilder onDragDetected(EventHandler<? super MouseEvent> value) {
         operations.add(obj -> obj.setOnDragDetected(value));
         return this;
     }
-    public  ButtonBuilder onKeyTyped(EventHandler<? super KeyEvent> value) {
+    public  VBoxBuilder onKeyTyped(EventHandler<? super KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
     }
-    public  ButtonBuilder accessibleText(String value) {
+    public  VBoxBuilder accessibleText(String value) {
         operations.add(obj -> obj.setAccessibleText(value));
         return this;
     }
-    public  ButtonBuilder accessibleHelp(String value) {
+    public  VBoxBuilder accessibleHelp(String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
     }
-    public  ButtonBuilder eventDispatcher(EventDispatcher value) {
+    public  VBoxBuilder eventDispatcher(EventDispatcher value) {
         operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }
-    public  ButtonBuilder accessibleRoleDescription(String value) {
+    public  VBoxBuilder accessibleRoleDescription(String value) {
         operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }
-    public  ButtonBuilder onInputMethodTextChanged(EventHandler<? super InputMethodEvent> value) {
+    public  VBoxBuilder onInputMethodTextChanged(EventHandler<? super InputMethodEvent> value) {
         operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
     }
-    public  ButtonBuilder layoutX(double value) {
+    public  VBoxBuilder layoutX(double value) {
         operations.add(obj -> obj.setLayoutX(value));
         return this;
     }
-    public  ButtonBuilder opacity(double value) {
+    public  VBoxBuilder opacity(double value) {
         operations.add(obj -> obj.setOpacity(value));
         return this;
     }
-    public  ButtonBuilder effect(Effect value) {
+    public  VBoxBuilder effect(Effect value) {
         operations.add(obj -> obj.setEffect(value));
         return this;
     }
-    public  ButtonBuilder layoutY(double value) {
+    public  VBoxBuilder layoutY(double value) {
         operations.add(obj -> obj.setLayoutY(value));
+        return this;
+    }
+    public  VBoxBuilder children(javafx.scene.Node... elements) {
+        operations.add(obj -> obj.getChildren().setAll(elements));
         return this;
     }
 }

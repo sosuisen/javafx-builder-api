@@ -21,7 +21,6 @@ import javafx.scene.input.ZoomEvent;
 import javafx.scene.paint.Paint;
 
 public class SceneBuilder {
-    private Scene instance;
     private Object[] constructorArgs;
     private Object[] mandatoryParams;
     private java.util.List<java.util.function.Consumer<Scene>> operations = new java.util.ArrayList<>();
@@ -62,29 +61,71 @@ public class SceneBuilder {
         return builder;
     }
     public Scene build() {
-        if (instance == null) {
-            // Use reflection for parameterized constructor
-            try {
-                Object[] args = (constructorArgs != null) ? constructorArgs : mandatoryParams;
-                java.lang.reflect.Constructor<?>[] constructors = Scene.class.getConstructors();
-                for (java.lang.reflect.Constructor<?> constructor : constructors) {
-                    if (constructor.getParameterCount() == args.length) {
-                        instance = (Scene) constructor.newInstance(args);
-                        break;
+        Scene newInstance;
+        // Use reflection for parameterized constructor
+        try {
+            Object[] args = (constructorArgs != null) ? constructorArgs : mandatoryParams;
+            java.lang.reflect.Constructor<?>[] constructors = Scene.class.getConstructors();
+            newInstance = null;
+            for (java.lang.reflect.Constructor<?> constructor : constructors) {
+                if (constructor.getParameterCount() == args.length && isConstructorCompatible(constructor, args)) {
+                    newInstance = (Scene) constructor.newInstance(args);
+                    break;
+                }
+            }
+            if (newInstance == null) {
+                throw new RuntimeException("No suitable constructor found");
+            }
+        } catch (Exception e) {
+            throw new RuntimeException("Failed to create instance", e);
+        }
+        for (java.util.function.Consumer<Scene> op : operations) {
+            op.accept(newInstance);
+        }
+        return newInstance;
+    }
+    
+    private static boolean isConstructorCompatible(java.lang.reflect.Constructor<?> constructor, Object[] args) {
+        Class<?>[] paramTypes = constructor.getParameterTypes();
+        if (paramTypes.length != args.length) return false;
+        
+        for (int i = 0; i < paramTypes.length; i++) {
+            if (args[i] != null) {
+                Class<?> paramType = paramTypes[i];
+                Class<?> argType = args[i].getClass();
+                
+                // Check if argument type is assignable to parameter type
+                if (!paramType.isAssignableFrom(argType)) {
+                    // Handle primitive types
+                    if (paramType.isPrimitive()) {
+                        if (!isPrimitiveCompatible(paramType, argType)) {
+                            return false;
+                        }
+                    } else if (argType.isPrimitive()) {
+                        if (!isPrimitiveCompatible(argType, paramType)) {
+                            return false;
+                        }
+                    } else {
+                        return false;
                     }
                 }
-                if (instance == null) {
-                    throw new RuntimeException("No suitable constructor found");
-                }
-            } catch (Exception e) {
-                throw new RuntimeException("Failed to create instance", e);
-            }
-            for (java.util.function.Consumer<Scene> op : operations) {
-                op.accept(instance);
             }
         }
-        return instance;
+        return true;
     }
+    
+    private static boolean isPrimitiveCompatible(Class<?> primitiveType, Class<?> wrapperType) {
+        if (primitiveType == boolean.class) return wrapperType == Boolean.class;
+        if (primitiveType == byte.class) return wrapperType == Byte.class;
+        if (primitiveType == char.class) return wrapperType == Character.class;
+        if (primitiveType == short.class) return wrapperType == Short.class;
+        if (primitiveType == int.class) return wrapperType == Integer.class;
+        if (primitiveType == long.class) return wrapperType == Long.class;
+        if (primitiveType == float.class) return wrapperType == Float.class;
+        if (primitiveType == double.class) return wrapperType == Double.class;
+        return false;
+    }
+    
     public SceneBuilder apply(java.util.function.Consumer<Scene> func) {
         operations.add(func);
         return this;
@@ -93,44 +134,32 @@ public class SceneBuilder {
         operations.add(obj -> obj.setRoot(value));
         return this;
     }
-    public  SceneBuilder onInputMethodTextChanged(EventHandler<? super InputMethodEvent> value) {
-        operations.add(obj -> obj.setOnInputMethodTextChanged(value));
+    public  SceneBuilder userData(Object value) {
+        operations.add(obj -> obj.setUserData(value));
         return this;
     }
-    public  SceneBuilder camera(Camera value) {
-        operations.add(obj -> obj.setCamera(value));
+    public  SceneBuilder cursor(Cursor value) {
+        operations.add(obj -> obj.setCursor(value));
         return this;
     }
-    public  SceneBuilder fill(Paint value) {
-        operations.add(obj -> obj.setFill(value));
-        return this;
-    }
-    public  SceneBuilder userAgentStylesheet(String url) {
-        operations.add(obj -> obj.setUserAgentStylesheet(url));
-        return this;
-    }
-    public  SceneBuilder onTouchStationary(EventHandler<? super TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchStationary(value));
-        return this;
-    }
-    public  SceneBuilder onContextMenuRequested(EventHandler<? super ContextMenuEvent> value) {
-        operations.add(obj -> obj.setOnContextMenuRequested(value));
+    public  SceneBuilder onZoom(EventHandler<? super ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoom(value));
         return this;
     }
     public  SceneBuilder onMouseDragReleased(EventHandler<? super MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragReleased(value));
         return this;
     }
-    public  SceneBuilder onMouseDragEntered(EventHandler<? super MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragEntered(value));
-        return this;
-    }
-    public  SceneBuilder onScrollFinished(EventHandler<? super ScrollEvent> value) {
-        operations.add(obj -> obj.setOnScrollFinished(value));
-        return this;
-    }
     public  SceneBuilder onMouseDragExited(EventHandler<? super MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragExited(value));
+        return this;
+    }
+    public  SceneBuilder onContextMenuRequested(EventHandler<? super ContextMenuEvent> value) {
+        operations.add(obj -> obj.setOnContextMenuRequested(value));
+        return this;
+    }
+    public  SceneBuilder onTouchStationary(EventHandler<? super TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchStationary(value));
         return this;
     }
     public  SceneBuilder onRotationStarted(EventHandler<? super RotateEvent> value) {
@@ -141,76 +170,40 @@ public class SceneBuilder {
         operations.add(obj -> obj.setOnRotationFinished(value));
         return this;
     }
-    public  SceneBuilder cursor(Cursor value) {
-        operations.add(obj -> obj.setCursor(value));
+    public  SceneBuilder onMouseDragEntered(EventHandler<? super MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragEntered(value));
         return this;
     }
-    public  SceneBuilder onMouseExited(EventHandler<? super MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseExited(value));
+    public  SceneBuilder onScrollFinished(EventHandler<? super ScrollEvent> value) {
+        operations.add(obj -> obj.setOnScrollFinished(value));
         return this;
     }
-    public  SceneBuilder nodeOrientation(NodeOrientation orientation) {
-        operations.add(obj -> obj.setNodeOrientation(orientation));
+    public  SceneBuilder userAgentStylesheet(String url) {
+        operations.add(obj -> obj.setUserAgentStylesheet(url));
         return this;
     }
     public  SceneBuilder onDragEntered(EventHandler<? super DragEvent> value) {
         operations.add(obj -> obj.setOnDragEntered(value));
         return this;
     }
-    public  SceneBuilder onDragDone(EventHandler<? super DragEvent> value) {
-        operations.add(obj -> obj.setOnDragDone(value));
-        return this;
-    }
-    public  SceneBuilder userData(Object value) {
-        operations.add(obj -> obj.setUserData(value));
-        return this;
-    }
     public  SceneBuilder onDragExited(EventHandler<? super DragEvent> value) {
         operations.add(obj -> obj.setOnDragExited(value));
-        return this;
-    }
-    public  SceneBuilder onDragDropped(EventHandler<? super DragEvent> value) {
-        operations.add(obj -> obj.setOnDragDropped(value));
         return this;
     }
     public  SceneBuilder onDragOver(EventHandler<? super DragEvent> value) {
         operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }
-    public  SceneBuilder onMouseClicked(EventHandler<? super MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseClicked(value));
+    public  SceneBuilder onDragDropped(EventHandler<? super DragEvent> value) {
+        operations.add(obj -> obj.setOnDragDropped(value));
         return this;
     }
-    public  SceneBuilder onMouseDragged(EventHandler<? super MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragged(value));
+    public  SceneBuilder onDragDone(EventHandler<? super DragEvent> value) {
+        operations.add(obj -> obj.setOnDragDone(value));
         return this;
     }
-    public  SceneBuilder onMouseEntered(EventHandler<? super MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseEntered(value));
-        return this;
-    }
-    public  SceneBuilder onZoom(EventHandler<? super ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoom(value));
-        return this;
-    }
-    public  SceneBuilder eventDispatcher(EventDispatcher value) {
-        operations.add(obj -> obj.setEventDispatcher(value));
-        return this;
-    }
-    public  SceneBuilder onRotate(EventHandler<? super RotateEvent> value) {
-        operations.add(obj -> obj.setOnRotate(value));
-        return this;
-    }
-    public  SceneBuilder onMouseMoved(EventHandler<? super MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseMoved(value));
-        return this;
-    }
-    public  SceneBuilder onZoomStarted(EventHandler<? super ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoomStarted(value));
-        return this;
-    }
-    public  SceneBuilder onSwipeDown(EventHandler<? super SwipeEvent> value) {
-        operations.add(obj -> obj.setOnSwipeDown(value));
+    public  SceneBuilder onMouseExited(EventHandler<? super MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }
     public  SceneBuilder onTouchReleased(EventHandler<? super TouchEvent> value) {
@@ -221,60 +214,108 @@ public class SceneBuilder {
         operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }
-    public  SceneBuilder onZoomFinished(EventHandler<? super ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoomFinished(value));
+    public  SceneBuilder onScrollStarted(EventHandler<? super ScrollEvent> value) {
+        operations.add(obj -> obj.setOnScrollStarted(value));
         return this;
     }
-    public  SceneBuilder onTouchPressed(EventHandler<? super TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchPressed(value));
+    public  SceneBuilder onMouseClicked(EventHandler<? super MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseClicked(value));
         return this;
     }
-    public  SceneBuilder onKeyPressed(EventHandler<? super KeyEvent> value) {
-        operations.add(obj -> obj.setOnKeyPressed(value));
+    public  SceneBuilder onMouseEntered(EventHandler<? super MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseEntered(value));
         return this;
     }
-    public  SceneBuilder onSwipeLeft(EventHandler<? super SwipeEvent> value) {
-        operations.add(obj -> obj.setOnSwipeLeft(value));
+    public  SceneBuilder onMouseMoved(EventHandler<? super MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseMoved(value));
         return this;
     }
-    public  SceneBuilder onScroll(EventHandler<? super ScrollEvent> value) {
-        operations.add(obj -> obj.setOnScroll(value));
-        return this;
-    }
-    public  SceneBuilder onMousePressed(EventHandler<? super MouseEvent> value) {
-        operations.add(obj -> obj.setOnMousePressed(value));
-        return this;
-    }
-    public  SceneBuilder onSwipeRight(EventHandler<? super SwipeEvent> value) {
-        operations.add(obj -> obj.setOnSwipeRight(value));
+    public  SceneBuilder onZoomStarted(EventHandler<? super ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }
     public  SceneBuilder onSwipeUp(EventHandler<? super SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }
-    public  SceneBuilder onKeyTyped(EventHandler<? super KeyEvent> value) {
-        operations.add(obj -> obj.setOnKeyTyped(value));
+    public  SceneBuilder onKeyPressed(EventHandler<? super KeyEvent> value) {
+        operations.add(obj -> obj.setOnKeyPressed(value));
         return this;
     }
-    public  SceneBuilder onDragDetected(EventHandler<? super MouseEvent> value) {
-        operations.add(obj -> obj.setOnDragDetected(value));
+    public  SceneBuilder onRotate(EventHandler<? super RotateEvent> value) {
+        operations.add(obj -> obj.setOnRotate(value));
         return this;
     }
-    public  SceneBuilder onScrollStarted(EventHandler<? super ScrollEvent> value) {
-        operations.add(obj -> obj.setOnScrollStarted(value));
+    public  SceneBuilder onZoomFinished(EventHandler<? super ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoomFinished(value));
+        return this;
+    }
+    public  SceneBuilder nodeOrientation(NodeOrientation orientation) {
+        operations.add(obj -> obj.setNodeOrientation(orientation));
+        return this;
+    }
+    public  SceneBuilder onMouseDragged(EventHandler<? super MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragged(value));
         return this;
     }
     public  SceneBuilder onMouseDragOver(EventHandler<? super MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }
+    public  SceneBuilder onSwipeLeft(EventHandler<? super SwipeEvent> value) {
+        operations.add(obj -> obj.setOnSwipeLeft(value));
+        return this;
+    }
     public  SceneBuilder onTouchMoved(EventHandler<? super TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchMoved(value));
         return this;
     }
+    public  SceneBuilder onScroll(EventHandler<? super ScrollEvent> value) {
+        operations.add(obj -> obj.setOnScroll(value));
+        return this;
+    }
+    public  SceneBuilder onSwipeDown(EventHandler<? super SwipeEvent> value) {
+        operations.add(obj -> obj.setOnSwipeDown(value));
+        return this;
+    }
+    public  SceneBuilder onSwipeRight(EventHandler<? super SwipeEvent> value) {
+        operations.add(obj -> obj.setOnSwipeRight(value));
+        return this;
+    }
+    public  SceneBuilder onTouchPressed(EventHandler<? super TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchPressed(value));
+        return this;
+    }
     public  SceneBuilder onMouseReleased(EventHandler<? super MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseReleased(value));
+        return this;
+    }
+    public  SceneBuilder onMousePressed(EventHandler<? super MouseEvent> value) {
+        operations.add(obj -> obj.setOnMousePressed(value));
+        return this;
+    }
+    public  SceneBuilder onDragDetected(EventHandler<? super MouseEvent> value) {
+        operations.add(obj -> obj.setOnDragDetected(value));
+        return this;
+    }
+    public  SceneBuilder onKeyTyped(EventHandler<? super KeyEvent> value) {
+        operations.add(obj -> obj.setOnKeyTyped(value));
+        return this;
+    }
+    public  SceneBuilder eventDispatcher(EventDispatcher value) {
+        operations.add(obj -> obj.setEventDispatcher(value));
+        return this;
+    }
+    public  SceneBuilder onInputMethodTextChanged(EventHandler<? super InputMethodEvent> value) {
+        operations.add(obj -> obj.setOnInputMethodTextChanged(value));
+        return this;
+    }
+    public  SceneBuilder fill(Paint value) {
+        operations.add(obj -> obj.setFill(value));
+        return this;
+    }
+    public  SceneBuilder camera(Camera value) {
+        operations.add(obj -> obj.setCamera(value));
         return this;
     }
 }
