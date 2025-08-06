@@ -418,9 +418,17 @@ public class BuilderClassGenerator {
       Method getChildrenMethod = clazz.getMethod("getChildren");
       // Verify that getChildren returns ObservableList<Node>
       if (getChildrenMethod.getReturnType().getName().equals("javafx.collections.ObservableList")) {
+        // Instance method: children()
         content.append("    public  ").append(builderClassName).append(" children(javafx.scene.Node... elements) {\n");
         content.append("        operations.add(obj -> obj.getChildren().setAll(elements));\n");
         content.append("        return this;\n");
+        content.append("    }\n");
+        content.append("\n");
+        
+        // Static method: withChildren()
+        content.append("    public static ").append(className).append(" withChildren(javafx.scene.Node... elements) {\n");
+        content.append("        ").append(builderClassName).append(" builder = new ").append(builderClassName).append("();\n");
+        content.append("        return builder.children(elements).build();\n");
         content.append("    }\n");
       }
     } catch (NoSuchMethodException e) {
