@@ -50,8 +50,9 @@ public class BuilderClassGenerator {
       }
     }
     
-    // If default constructor exists, only generate that one. Otherwise, find common parameters.
+    // Generate constructors
     if (hasDefaultConstructor) {
+      // Generate default constructor first
       for (Constructor<?> constructor : constructors) {
         if (constructor.getParameterCount() == 0) {
           parseConstructor(constructor, clazz, content);
@@ -59,9 +60,16 @@ public class BuilderClassGenerator {
         }
       }
     } else {
-      // Find common parameters across all constructors
+      // Find common parameters and generate withXXX method
       java.util.List<Parameter> commonParams = findCommonParameters(constructors);
       generateWithMethods(commonParams, clazz, content);
+    }
+    
+    // Always generate create(parameters) methods for ALL parameterized constructors
+    for (Constructor<?> constructor : constructors) {
+      if (constructor.getParameterCount() > 0) {
+        parseConstructor(constructor, clazz, content);
+      }
     }
 
     // Generate build method based on whether we have default constructor
