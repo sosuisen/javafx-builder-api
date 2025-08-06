@@ -60,6 +60,14 @@
         <configuration>
           <mainClass>io.github.sosuisen.Main</mainClass>
         </configuration>
+        <executions>
+          <execution>
+            <phase>test-compile</phase>
+            <goals>
+              <goal>java</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -72,6 +80,21 @@
         <version>3.11.0</version>
         <configuration>
           <release>${maven.compiler.release}</release>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-clean-plugin</artifactId>
+        <version>3.2.0</version>
+        <configuration>
+          <filesets>
+            <fileset>
+              <directory>src/main/java/io/github/sosuisen/jfxbuilder</directory>
+              <includes>
+                <include>**/*.java</include>
+              </includes>
+            </fileset>
+          </filesets>
         </configuration>
       </plugin>
     </plugins>
