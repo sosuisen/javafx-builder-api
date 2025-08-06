@@ -33,7 +33,6 @@ public class BuilderClassGenerator {
     content.append("\n");
 
     content.append("public class ").append(builderClassName).append(" {\n");
-    content.append("    private ").append(className).append(" instance;\n");
     content.append("    private Object[] constructorArgs;\n");
     content.append("    private Object[] mandatoryParams;\n");
     content.append("    private java.util.List<java.util.function.Consumer<").append(className).append(">> operations = new java.util.ArrayList<>();\n");
@@ -72,64 +71,97 @@ public class BuilderClassGenerator {
       }
     }
 
-    // Generate build method based on whether we have default constructor
+    // Generate build method - always create new instance
+    content.append("    public ").append(className).append(" build() {\n");
+    content.append("        ").append(className).append(" newInstance;\n");
     if (hasDefaultConstructor) {
-      // Has default constructor - include fallback
-      content.append("    public ").append(className).append(" build() {\n");
-      content.append("        if (instance == null) {\n");
-      content.append("            if (constructorArgs == null && mandatoryParams == null) {\n");
-      content.append("                instance = new ").append(className).append("();\n");
-      content.append("            } else {\n");
-      content.append("                // Use reflection for parameterized constructor\n");
-      content.append("                try {\n");
-      content.append("                    Object[] args = (constructorArgs != null) ? constructorArgs : mandatoryParams;\n");
-      content.append("                    java.lang.reflect.Constructor<?>[] constructors = ").append(className).append(".class.getConstructors();\n");
-      content.append("                    for (java.lang.reflect.Constructor<?> constructor : constructors) {\n");
-      content.append("                        if (constructor.getParameterCount() == args.length) {\n");
-      content.append("                            instance = (").append(className).append(") constructor.newInstance(args);\n");
-      content.append("                            break;\n");
-      content.append("                        }\n");
-      content.append("                    }\n");
-      content.append("                    if (instance == null) {\n");
-      content.append("                        throw new RuntimeException(\"No suitable constructor found\");\n");
-      content.append("                    }\n");
-      content.append("                } catch (Exception e) {\n");
-      content.append("                    throw new RuntimeException(\"Failed to create instance\", e);\n");
-      content.append("                }\n");
-      content.append("            }\n");
-      content.append("            for (java.util.function.Consumer<").append(className).append("> op : operations) {\n");
-      content.append("                op.accept(instance);\n");
-      content.append("            }\n");
-      content.append("        }\n");
-      content.append("        return instance;\n");
-      content.append("    }\n");
-    } else {
-      // No default constructor - only use parameters
-      content.append("    public ").append(className).append(" build() {\n");
-      content.append("        if (instance == null) {\n");
+      content.append("        if (constructorArgs == null && mandatoryParams == null) {\n");
+      content.append("            newInstance = new ").append(className).append("();\n");
+      content.append("        } else {\n");
       content.append("            // Use reflection for parameterized constructor\n");
       content.append("            try {\n");
       content.append("                Object[] args = (constructorArgs != null) ? constructorArgs : mandatoryParams;\n");
       content.append("                java.lang.reflect.Constructor<?>[] constructors = ").append(className).append(".class.getConstructors();\n");
+      content.append("                newInstance = null;\n");
       content.append("                for (java.lang.reflect.Constructor<?> constructor : constructors) {\n");
-      content.append("                    if (constructor.getParameterCount() == args.length) {\n");
-      content.append("                        instance = (").append(className).append(") constructor.newInstance(args);\n");
+      content.append("                    if (constructor.getParameterCount() == args.length && isConstructorCompatible(constructor, args)) {\n");
+      content.append("                        newInstance = (").append(className).append(") constructor.newInstance(args);\n");
       content.append("                        break;\n");
       content.append("                    }\n");
       content.append("                }\n");
-      content.append("                if (instance == null) {\n");
+      content.append("                if (newInstance == null) {\n");
       content.append("                    throw new RuntimeException(\"No suitable constructor found\");\n");
       content.append("                }\n");
       content.append("            } catch (Exception e) {\n");
       content.append("                throw new RuntimeException(\"Failed to create instance\", e);\n");
       content.append("            }\n");
-      content.append("            for (java.util.function.Consumer<").append(className).append("> op : operations) {\n");
-      content.append("                op.accept(instance);\n");
-      content.append("            }\n");
       content.append("        }\n");
-      content.append("        return instance;\n");
-      content.append("    }\n");
+    } else {
+      content.append("        // Use reflection for parameterized constructor\n");
+      content.append("        try {\n");
+      content.append("            Object[] args = (constructorArgs != null) ? constructorArgs : mandatoryParams;\n");
+      content.append("            java.lang.reflect.Constructor<?>[] constructors = ").append(className).append(".class.getConstructors();\n");
+      content.append("            newInstance = null;\n");
+      content.append("            for (java.lang.reflect.Constructor<?> constructor : constructors) {\n");
+      content.append("                if (constructor.getParameterCount() == args.length && isConstructorCompatible(constructor, args)) {\n");
+      content.append("                    newInstance = (").append(className).append(") constructor.newInstance(args);\n");
+      content.append("                    break;\n");
+      content.append("                }\n");
+      content.append("            }\n");
+      content.append("            if (newInstance == null) {\n");
+      content.append("                throw new RuntimeException(\"No suitable constructor found\");\n");
+      content.append("            }\n");
+      content.append("        } catch (Exception e) {\n");
+      content.append("            throw new RuntimeException(\"Failed to create instance\", e);\n");
+      content.append("        }\n");
     }
+    content.append("        for (java.util.function.Consumer<").append(className).append("> op : operations) {\n");
+    content.append("            op.accept(newInstance);\n");
+    content.append("        }\n");
+    content.append("        return newInstance;\n");
+    content.append("    }\n");
+    content.append("    \n");
+    content.append("    private static boolean isConstructorCompatible(java.lang.reflect.Constructor<?> constructor, Object[] args) {\n");
+    content.append("        Class<?>[] paramTypes = constructor.getParameterTypes();\n");
+    content.append("        if (paramTypes.length != args.length) return false;\n");
+    content.append("        \n");
+    content.append("        for (int i = 0; i < paramTypes.length; i++) {\n");
+    content.append("            if (args[i] != null) {\n");
+    content.append("                Class<?> paramType = paramTypes[i];\n");
+    content.append("                Class<?> argType = args[i].getClass();\n");
+    content.append("                \n");
+    content.append("                // Check if argument type is assignable to parameter type\n");
+    content.append("                if (!paramType.isAssignableFrom(argType)) {\n");
+    content.append("                    // Handle primitive types\n");
+    content.append("                    if (paramType.isPrimitive()) {\n");
+    content.append("                        if (!isPrimitiveCompatible(paramType, argType)) {\n");
+    content.append("                            return false;\n");
+    content.append("                        }\n");
+    content.append("                    } else if (argType.isPrimitive()) {\n");
+    content.append("                        if (!isPrimitiveCompatible(argType, paramType)) {\n");
+    content.append("                            return false;\n");
+    content.append("                        }\n");
+    content.append("                    } else {\n");
+    content.append("                        return false;\n");
+    content.append("                    }\n");
+    content.append("                }\n");
+    content.append("            }\n");
+    content.append("        }\n");
+    content.append("        return true;\n");
+    content.append("    }\n");
+    content.append("    \n");
+    content.append("    private static boolean isPrimitiveCompatible(Class<?> primitiveType, Class<?> wrapperType) {\n");
+    content.append("        if (primitiveType == boolean.class) return wrapperType == Boolean.class;\n");
+    content.append("        if (primitiveType == byte.class) return wrapperType == Byte.class;\n");
+    content.append("        if (primitiveType == char.class) return wrapperType == Character.class;\n");
+    content.append("        if (primitiveType == short.class) return wrapperType == Short.class;\n");
+    content.append("        if (primitiveType == int.class) return wrapperType == Integer.class;\n");
+    content.append("        if (primitiveType == long.class) return wrapperType == Long.class;\n");
+    content.append("        if (primitiveType == float.class) return wrapperType == Float.class;\n");
+    content.append("        if (primitiveType == double.class) return wrapperType == Double.class;\n");
+    content.append("        return false;\n");
+    content.append("    }\n");
+    content.append("    \n");
     content.append("    public ").append(builderClassName).append(" apply(java.util.function.Consumer<").append(className).append("> func) {\n");
     content.append("        operations.add(func);\n");
     content.append("        return this;\n");
@@ -141,6 +173,9 @@ public class BuilderClassGenerator {
         parseSetter(method, clazz, content);
       }
     }
+
+    // Check for getChildren method and generate children method
+    generateChildrenMethod(clazz, content);
 
     content.append("}\n");
     
@@ -216,8 +251,8 @@ public class BuilderClassGenerator {
   }
 
   private void addImportIfNeeded(Set<String> imports, String paramType) {
-    // Extract base type (without generics)
-    String baseType = paramType.replaceAll("<.*?>", "");
+    // Extract base type (without generics and arrays)
+    String baseType = paramType.replaceAll("<.*?>", "").replaceAll("\\[\\]", "");
 
     // Skip primitive types and java.lang types
     if (baseType.contains(".") &&
@@ -242,6 +277,8 @@ public class BuilderClassGenerator {
       if (genericType.contains("extends ")) {
         genericType = genericType.replace("? extends ", "");
       }
+      // Remove array brackets from generic types as well
+      genericType = genericType.replaceAll("\\[\\]", "");
       if (genericType.contains(".") && 
           !genericType.startsWith("java.lang.") &&
           !genericType.equals("?")) {
@@ -370,6 +407,25 @@ public class BuilderClassGenerator {
     content.append("        operations.add(obj -> obj.").append(method.getName()).append("(").append(argumentList).append("));\n");
     content.append("        return this;\n");
     content.append("    }\n");
+  }
+
+  private void generateChildrenMethod(Class<?> clazz, StringBuilder content) {
+    String className = clazz.getSimpleName();
+    String builderClassName = className + "Builder";
+    
+    // Check if the class has a getChildren method
+    try {
+      Method getChildrenMethod = clazz.getMethod("getChildren");
+      // Verify that getChildren returns ObservableList<Node>
+      if (getChildrenMethod.getReturnType().getName().equals("javafx.collections.ObservableList")) {
+        content.append("    public  ").append(builderClassName).append(" children(javafx.scene.Node... elements) {\n");
+        content.append("        operations.add(obj -> obj.getChildren().setAll(elements));\n");
+        content.append("        return this;\n");
+        content.append("    }\n");
+      }
+    } catch (NoSuchMethodException e) {
+      // Class doesn't have getChildren method, skip
+    }
   }
 
 }
