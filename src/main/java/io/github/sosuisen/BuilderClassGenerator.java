@@ -420,15 +420,24 @@ public class BuilderClassGenerator {
       if (getChildrenMethod.getReturnType().getName().equals("javafx.collections.ObservableList")) {
         // Instance method: children()
         content.append("    public  ").append(builderClassName).append(" children(javafx.scene.Node... elements) {\n");
-        content.append("        operations.add(obj -> obj.getChildren().setAll(elements));\n");
+        content.append("        operations.add(obj -> {\n");
+        content.append("            if (elements == null) {\n");
+        content.append("                obj.getChildren().clear();\n");
+        content.append("            } else {\n");
+        content.append("                java.util.List<javafx.scene.Node> validChildren = java.util.Arrays.stream(elements)\n");
+        content.append("                    .filter(java.util.Objects::nonNull)\n");
+        content.append("                    .collect(java.util.stream.Collectors.toList());\n");
+        content.append("                obj.getChildren().setAll(validChildren);\n");
+        content.append("            }\n");
+        content.append("        });\n");
         content.append("        return this;\n");
         content.append("    }\n");
         content.append("\n");
         
-        // Static method: withChildren()
-        content.append("    public static ").append(className).append(" withChildren(javafx.scene.Node... elements) {\n");
+        // Static method: withChildren() - returns builder, not built object
+        content.append("    public static ").append(builderClassName).append(" withChildren(javafx.scene.Node... elements) {\n");
         content.append("        ").append(builderClassName).append(" builder = new ").append(builderClassName).append("();\n");
-        content.append("        return builder.children(elements).build();\n");
+        content.append("        return builder.children(elements);\n");
         content.append("    }\n");
       }
     } catch (NoSuchMethodException e) {
