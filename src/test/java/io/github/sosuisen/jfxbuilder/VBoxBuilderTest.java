@@ -5,7 +5,6 @@ import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
@@ -183,34 +182,6 @@ class VBoxBuilderTest {
                 .build();
 
         assertFalse(vbox.isManaged());
-    }
-
-    @Test
-    @DisplayName("Should set margin for child node")
-    void shouldSetMarginForChildNode() {
-        Button button = new Button("Test Button");
-        Insets expectedMargin = new Insets(5, 10, 5, 10);
-
-        VBox vbox = VBoxBuilder.create()
-                .margin(button, expectedMargin)
-                .children(button)
-                .build();
-
-        assertEquals(expectedMargin, VBox.getMargin(button));
-    }
-
-    @Test
-    @DisplayName("Should set vgrow for child node")
-    void shouldSetVgrowForChildNode() {
-        Button button = new Button("Test Button");
-        Priority expectedPriority = Priority.ALWAYS;
-
-        VBox vbox = VBoxBuilder.create()
-                .vgrow(button, expectedPriority)
-                .children(button)
-                .build();
-
-        assertEquals(expectedPriority, VBox.getVgrow(button));
     }
 
     @Test

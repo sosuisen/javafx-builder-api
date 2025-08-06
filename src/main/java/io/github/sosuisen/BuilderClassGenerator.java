@@ -68,10 +68,10 @@ public class BuilderClassGenerator {
     private Set<String> collectImports(Class<?> clazz) {
         Set<String> imports = new TreeSet<>();
 
-        // Collect all parameter types from setter methods
+        // Collect all parameter types from non-static setter methods
         Method[] methods = clazz.getMethods();
         for (Method method : methods) {
-            if (method.getName().startsWith("set")) {
+            if (method.getName().startsWith("set") && !java.lang.reflect.Modifier.isStatic(method.getModifiers())) {
                 Parameter[] parameters = method.getParameters();
                 for (Parameter param : parameters) {
                     String paramType = param.getParameterizedType().getTypeName();
@@ -458,7 +458,7 @@ public class BuilderClassGenerator {
         Method[] methods = clazz.getMethods();
 
         for (Method method : methods) {
-            if (method.getName().startsWith("set")) {
+            if (method.getName().startsWith("set") && !java.lang.reflect.Modifier.isStatic(method.getModifiers())) {
                 parseSetter(method, clazz, content);
             }
         }
