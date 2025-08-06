@@ -174,6 +174,9 @@ public class BuilderClassGenerator {
       }
     }
 
+    // Generate styleClass method for Node-based classes
+    generateStyleClassMethod(clazz, content);
+
     // Check for getChildren method and generate children method
     generateChildrenMethod(clazz, content);
 
@@ -407,6 +410,28 @@ public class BuilderClassGenerator {
     content.append("        operations.add(obj -> obj.").append(method.getName()).append("(").append(argumentList).append("));\n");
     content.append("        return this;\n");
     content.append("    }\n");
+  }
+
+  
+  private void generateStyleClassMethod(Class<?> clazz, StringBuilder content) {
+    String className = clazz.getSimpleName();
+    String builderClassName = className + "Builder";
+    
+    // Check if the class has getStyleClass method (inherits from Node)
+    try {
+      Method getStyleClassMethod = clazz.getMethod("getStyleClass");
+      if (getStyleClassMethod != null && getStyleClassMethod.getReturnType().getName().contains("ObservableList")) {
+        content.append("    public  ").append(builderClassName).append(" styleClass(String... cssClassNames) {\n");
+        content.append("        operations.add(obj -> \n");
+        content.append("            java.util.Arrays.stream(cssClassNames)\n");
+        content.append("                  .forEach(obj.getStyleClass()::add)\n");
+        content.append("        );\n");
+        content.append("        return this;\n");
+        content.append("    }\n");
+      }
+    } catch (NoSuchMethodException e) {
+      // Class doesn't have getStyleClass method, skip generation
+    }
   }
 
   private void generateChildrenMethod(Class<?> clazz, StringBuilder content) {
