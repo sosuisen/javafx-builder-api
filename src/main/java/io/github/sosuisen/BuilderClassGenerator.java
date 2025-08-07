@@ -45,6 +45,8 @@ public class BuilderClassGenerator {
 
         String className = clazz.getSimpleName();
         String builderClassName = className + "Builder";
+        String genericParameters = getGenericParameters(clazz);
+        String classNameWithGenerics = className + genericParameters;
 
         StringBuilder content = new StringBuilder();
 
@@ -55,14 +57,29 @@ public class BuilderClassGenerator {
         }
         content.append("\n");
 
-        // Class declaration and fields
-        content.append("public class ").append(builderClassName).append(" {\n");
+        // Class declaration and fields with generic support
+        content.append("public class ").append(builderClassName).append(genericParameters).append(" {\n");
         content.append("    private Object[] constructorArgs;\n");
         content.append("    private Object[] mandatoryParams;\n");
-        content.append("    private java.util.List<java.util.function.Consumer<").append(className)
+        content.append("    private java.util.List<java.util.function.Consumer<").append(classNameWithGenerics)
                 .append(">> operations = new java.util.ArrayList<>();\n");
 
         return content.toString();
+    }
+
+    private String getGenericParameters(Class<?> clazz) {
+        if (clazz.getTypeParameters().length == 0) {
+            return "";
+        }
+
+        StringBuilder genericBuilder = new StringBuilder("<");
+        for (int i = 0; i < clazz.getTypeParameters().length; i++) {
+            if (i > 0)
+                genericBuilder.append(", ");
+            genericBuilder.append(clazz.getTypeParameters()[i].getName());
+        }
+        genericBuilder.append(">");
+        return genericBuilder.toString();
     }
 
     private Set<String> collectImports(Class<?> clazz) {
@@ -98,40 +115,131 @@ public class BuilderClassGenerator {
 
     private void addImportIfNeeded(Set<String> imports, String paramType) {
         // Extract base type (without generics and arrays)
-        String baseType = paramType.replaceAll("<.*?>", "").replaceAll("\\[\\]", "");
+        String baseType = paramType.replaceAll("<.*?>$", "").replaceAll("\\[\\]", "");
 
-        // Skip primitive types and java.lang types
+        // Convert inner class notation from $ to . for proper import statements
+        baseType = baseType.replace("$", ".");
+
+        // Skip primitive types, java.lang types, and empty/invalid types
         if (baseType.contains(".") &&
                 !baseType.startsWith("java.lang.") &&
                 !baseType.equals("boolean") &&
                 !baseType.equals("int") &&
                 !baseType.equals("double") &&
                 !baseType.equals("float") &&
-                !baseType.equals("long")) {
+                !baseType.equals("long") &&
+                !baseType.isEmpty() &&
+                isValidClassName(baseType)) {
             imports.add(baseType);
         }
 
-        // Extract generic parameter types (e.g., ActionEvent from
-        // EventHandler<ActionEvent>)
-        java.util.regex.Pattern pattern = java.util.regex.Pattern.compile("<([^<>]+)>");
-        java.util.regex.Matcher matcher = pattern.matcher(paramType);
-        while (matcher.find()) {
-            String genericType = matcher.group(1);
-            // Handle nested generics like "? super MouseEvent"
-            if (genericType.contains("super ")) {
-                genericType = genericType.replace("? super ", "");
-            }
-            if (genericType.contains("extends ")) {
-                genericType = genericType.replace("? extends ", "");
-            }
-            // Remove array brackets from generic types as well
-            genericType = genericType.replaceAll("\\[\\]", "");
-            if (genericType.contains(".") &&
-                    !genericType.startsWith("java.lang.") &&
-                    !genericType.equals("?")) {
-                imports.add(genericType.trim());
+        // Extract generic parameter types with proper handling of nested generics
+        extractGenericTypes(paramType, imports);
+    }
+
+    private boolean isValidClassName(String className) {
+        // Check if the string is a valid Java class name
+        if (className == null || className.isEmpty()) {
+            return false;
+        }
+
+        // Should not contain invalid characters for import statements
+        if (className.contains(",") || className.contains("<") || className.contains(">") || className.contains("$")) {
+            return false;
+        }
+
+        // Should contain at least one dot (package separator)
+        return className.contains(".");
+    }
+
+    private void extractGenericTypes(String paramType, Set<String> imports) {
+        int start = paramType.indexOf('<');
+        if (start == -1)
+            return;
+
+        int depth = 0;
+        int genericStart = start + 1;
+        for (int i = start; i < paramType.length(); i++) {
+            char c = paramType.charAt(i);
+            if (c == '<') {
+                depth++;
+            } else if (c == '>') {
+                depth--;
+                if (depth == 0) {
+                    // Extract the content between the outermost < >
+                    String genericContent = paramType.substring(genericStart, i);
+                    processGenericContent(genericContent, imports);
+
+                    // Continue searching for more generic sections in the remaining string
+                    if (i + 1 < paramType.length()) {
+                        String remaining = paramType.substring(i + 1);
+                        extractGenericTypes(remaining, imports);
+                    }
+                    return;
+                }
             }
         }
+    }
+
+    private void processGenericContent(String genericContent, Set<String> imports) {
+        // Split by comma, but respect nested generics
+        List<String> types = splitGenericTypes(genericContent);
+
+        for (String type : types) {
+            type = type.trim();
+
+            // Handle wildcards like "? super MouseEvent" or "? extends Node"
+            if (type.startsWith("? super ")) {
+                type = type.substring("? super ".length()).trim();
+            } else if (type.startsWith("? extends ")) {
+                type = type.substring("? extends ".length()).trim();
+            } else if (type.equals("?")) {
+                continue; // Skip wildcard without bounds
+            }
+
+            // Remove array brackets
+            type = type.replaceAll("\\[\\]", "");
+
+            // Extract the base type (without its own generics) for import
+            String baseType = type.replaceAll("<.*?>", "");
+
+            // Clean up the base type - remove any remaining angle brackets or invalid
+            // characters
+            baseType = baseType.replaceAll("[<>]", "").trim();
+
+            // Convert inner class notation from $ to . for proper import statements
+            baseType = baseType.replace("$", ".");
+
+            if (baseType.contains(".") &&
+                    !baseType.startsWith("java.lang.") &&
+                    !baseType.isEmpty() &&
+                    isValidClassName(baseType)) {
+                imports.add(baseType);
+            }
+
+            // Recursively process nested generics
+            extractGenericTypes(type, imports);
+        }
+    }
+
+    private List<String> splitGenericTypes(String genericContent) {
+        List<String> types = new ArrayList<>();
+        int start = 0;
+        int depth = 0;
+
+        for (int i = 0; i < genericContent.length(); i++) {
+            char c = genericContent.charAt(i);
+            if (c == '<') {
+                depth++;
+            } else if (c == '>') {
+                depth--;
+            } else if (c == ',' && depth == 0) {
+                types.add(genericContent.substring(start, i));
+                start = i + 1;
+            }
+        }
+        types.add(genericContent.substring(start));
+        return types;
     }
 
     private String generateConstructors(Class<?> clazz) {
@@ -174,7 +282,8 @@ public class BuilderClassGenerator {
 
     private void parseConstructor(Constructor<?> constructor, Class<?> clazz, StringBuilder content) {
         String className = clazz.getSimpleName();
-        String builderClassName = className + "Builder";
+        String genericParameters = getGenericParameters(clazz);
+        String builderClassName = className + "Builder" + genericParameters;
         Parameter[] parameters = constructor.getParameters();
 
         String parameterList = buildParameterListWithTypes(parameters);
@@ -182,12 +291,14 @@ public class BuilderClassGenerator {
 
         if (parameters.length == 0) {
             // Default constructor - just create empty builder
-            content.append("    public static  ").append(builderClassName).append(" create() { return new ")
+            content.append("    public static ").append(genericParameters.isEmpty() ? "" : genericParameters + " ")
+                    .append(builderClassName).append(" create() { return new ")
                     .append(builderClassName).append("(); }\n");
-            content.append("    private ").append(builderClassName).append("() {}\n");
+            content.append("    private ").append(className + "Builder").append("() {}\n");
         } else {
             // Parameterized constructor - store parameters for delayed initialization
-            content.append("    public static  ").append(builderClassName).append(" create(").append(parameterList)
+            content.append("    public static ").append(genericParameters.isEmpty() ? "" : genericParameters + " ")
+                    .append(builderClassName).append(" create(").append(parameterList)
                     .append(") {\n");
             content.append("        ").append(builderClassName).append(" builder = new ").append(builderClassName)
                     .append("();\n");
@@ -204,6 +315,8 @@ public class BuilderClassGenerator {
             String paramType = param.getParameterizedType().getTypeName();
             paramType = paramType.replaceAll("java\\.lang\\.", "");
             paramType = paramType.replaceAll("javafx\\.[a-z.]+\\.", "");
+            // Convert inner class notation from $ to . for proper type references
+            paramType = paramType.replace("$", ".");
             paramList.append(paramType);
             paramList.append(" ").append(param.getName());
             if (i < parameters.length - 1) {
@@ -264,15 +377,18 @@ public class BuilderClassGenerator {
     }
 
     private void generateWithMethods(List<Parameter> commonParams, Class<?> clazz, StringBuilder content) {
+        String className = clazz.getSimpleName();
+        String genericParameters = getGenericParameters(clazz);
+        String builderClassName = className + "Builder" + genericParameters;
+
         if (commonParams.isEmpty()) {
             // No common parameters, generate a basic create method
-            content.append("    public static  ").append(clazz.getSimpleName()).append("Builder create() { return new ")
-                    .append(clazz.getSimpleName()).append("Builder(); }\n");
-            content.append("    private ").append(clazz.getSimpleName()).append("Builder() {}\n");
+            content.append("    public static ").append(genericParameters.isEmpty() ? "" : genericParameters + " ")
+                    .append(builderClassName).append(" create() { return new ")
+                    .append(builderClassName).append("(); }\n");
+            content.append("    private ").append(className + "Builder").append("() {}\n");
             return;
         }
-
-        String builderClassName = clazz.getSimpleName() + "Builder";
 
         // Generate withXXX method
         StringBuilder methodName = new StringBuilder("with");
@@ -301,7 +417,8 @@ public class BuilderClassGenerator {
         }
 
         // Generate the withXXX static method
-        content.append("    public static  ").append(builderClassName).append(" ").append(methodName).append("(")
+        content.append("    public static ").append(genericParameters.isEmpty() ? "" : genericParameters + " ")
+                .append(builderClassName).append(" ").append(methodName).append("(")
                 .append(paramList).append(") {\n");
         content.append("        ").append(builderClassName).append(" builder = new ").append(builderClassName)
                 .append("();\n");
@@ -310,7 +427,7 @@ public class BuilderClassGenerator {
         content.append("    }\n");
 
         // Generate private constructor
-        content.append("    private ").append(builderClassName).append("() {}\n");
+        content.append("    private ").append(className + "Builder").append("() {}\n");
     }
 
     private String generateBuildMethod(Class<?> clazz) {
@@ -325,14 +442,23 @@ public class BuilderClassGenerator {
         }
 
         String className = clazz.getSimpleName();
+        String genericParameters = getGenericParameters(clazz);
+        String classNameWithGenerics = className + genericParameters;
         StringBuilder content = new StringBuilder();
 
         // Generate build method - always create new instance
-        content.append("    public ").append(className).append(" build() {\n");
-        content.append("        ").append(className).append(" newInstance;\n");
+        if (!genericParameters.isEmpty()) {
+            content.append("    @SuppressWarnings(\"unchecked\")\n");
+        }
+        content.append("    public ").append(classNameWithGenerics).append(" build() {\n");
+        content.append("        ").append(classNameWithGenerics).append(" newInstance;\n");
         if (hasDefaultConstructor) {
             content.append("        if (constructorArgs == null && mandatoryParams == null) {\n");
-            content.append("            newInstance = new ").append(className).append("();\n");
+            if (genericParameters.isEmpty()) {
+                content.append("            newInstance = new ").append(className).append("();\n");
+            } else {
+                content.append("            newInstance = new ").append(className).append("<>();\n");
+            }
             content.append("        } else {\n");
             content.append("            // Use reflection for parameterized constructor\n");
             content.append("            try {\n");
@@ -344,7 +470,7 @@ public class BuilderClassGenerator {
             content.append("                for (java.lang.reflect.Constructor<?> constructor : constructors) {\n");
             content.append(
                     "                    if (constructor.getParameterCount() == args.length && isConstructorCompatible(constructor, args)) {\n");
-            content.append("                        newInstance = (").append(className)
+            content.append("                        newInstance = (").append(classNameWithGenerics)
                     .append(") constructor.newInstance(args);\n");
             content.append("                        break;\n");
             content.append("                    }\n");
@@ -367,7 +493,7 @@ public class BuilderClassGenerator {
             content.append("            for (java.lang.reflect.Constructor<?> constructor : constructors) {\n");
             content.append(
                     "                if (constructor.getParameterCount() == args.length && isConstructorCompatible(constructor, args)) {\n");
-            content.append("                    newInstance = (").append(className)
+            content.append("                    newInstance = (").append(classNameWithGenerics)
                     .append(") constructor.newInstance(args);\n");
             content.append("                    break;\n");
             content.append("                }\n");
@@ -379,7 +505,8 @@ public class BuilderClassGenerator {
             content.append("            throw new RuntimeException(\"Failed to create instance\", e);\n");
             content.append("        }\n");
         }
-        content.append("        for (java.util.function.Consumer<").append(className).append("> op : operations) {\n");
+        content.append("        for (java.util.function.Consumer<").append(classNameWithGenerics)
+                .append("> op : operations) {\n");
         content.append("            op.accept(newInstance);\n");
         content.append("        }\n");
         content.append("        return newInstance;\n");
@@ -440,12 +567,14 @@ public class BuilderClassGenerator {
 
     private String generateApplyMethod(Class<?> clazz) {
         String className = clazz.getSimpleName();
-        String builderClassName = className + "Builder";
+        String genericParameters = getGenericParameters(clazz);
+        String builderClassName = className + "Builder" + genericParameters;
+        String classNameWithGenerics = className + genericParameters;
         StringBuilder content = new StringBuilder();
 
         content.append("    \n");
         content.append("    public ").append(builderClassName).append(" apply(java.util.function.Consumer<")
-                .append(className).append("> func) {\n");
+                .append(classNameWithGenerics).append("> func) {\n");
         content.append("        operations.add(func);\n");
         content.append("        return this;\n");
         content.append("    }\n");
@@ -468,7 +597,8 @@ public class BuilderClassGenerator {
 
     private void parseSetter(Method method, Class<?> clazz, StringBuilder content) {
         String className = clazz.getSimpleName();
-        String builderClassName = className + "Builder";
+        String genericParameters = getGenericParameters(clazz);
+        String builderClassName = className + "Builder" + genericParameters;
         String methodName = method.getName().substring(3);
         methodName = Character.toLowerCase(methodName.charAt(0)) + methodName.substring(1);
 
@@ -501,7 +631,8 @@ public class BuilderClassGenerator {
 
     private void generateStyleClassMethod(Class<?> clazz, StringBuilder content) {
         String className = clazz.getSimpleName();
-        String builderClassName = className + "Builder";
+        String genericParameters = getGenericParameters(clazz);
+        String builderClassName = className + "Builder" + genericParameters;
 
         // Check if the class has getStyleClass method (inherits from Node)
         try {
