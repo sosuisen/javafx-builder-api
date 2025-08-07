@@ -187,7 +187,7 @@ class SceneBuilderTest {
     @DisplayName("Should set key pressed event handler")
     void shouldSetKeyPressedEventHandler() {
         boolean[] keyPressed = { false };
-        EventHandler<? super KeyEvent> handler = e -> keyPressed[0] = true;
+        EventHandler<KeyEvent> handler = e -> keyPressed[0] = true;
 
         Scene scene = SceneBuilder.withRoot(rootNode)
                 .onKeyPressed(handler)
@@ -200,7 +200,7 @@ class SceneBuilderTest {
     @DisplayName("Should set key released event handler")
     void shouldSetKeyReleasedEventHandler() {
         boolean[] keyReleased = { false };
-        EventHandler<? super KeyEvent> handler = e -> keyReleased[0] = true;
+        EventHandler<KeyEvent> handler = e -> keyReleased[0] = true;
 
         Scene scene = SceneBuilder.withRoot(rootNode)
                 .onKeyReleased(handler)
@@ -213,7 +213,7 @@ class SceneBuilderTest {
     @DisplayName("Should set key typed event handler")
     void shouldSetKeyTypedEventHandler() {
         boolean[] keyTyped = { false };
-        EventHandler<? super KeyEvent> handler = e -> keyTyped[0] = true;
+        EventHandler<KeyEvent> handler = e -> keyTyped[0] = true;
 
         Scene scene = SceneBuilder.withRoot(rootNode)
                 .onKeyTyped(handler)
@@ -226,7 +226,7 @@ class SceneBuilderTest {
     @DisplayName("Should set mouse clicked event handler")
     void shouldSetMouseClickedEventHandler() {
         boolean[] mouseClicked = { false };
-        EventHandler<? super MouseEvent> handler = e -> mouseClicked[0] = true;
+        EventHandler<MouseEvent> handler = e -> mouseClicked[0] = true;
 
         Scene scene = SceneBuilder.withRoot(rootNode)
                 .onMouseClicked(handler)
@@ -239,7 +239,7 @@ class SceneBuilderTest {
     @DisplayName("Should set mouse pressed event handler")
     void shouldSetMousePressedEventHandler() {
         boolean[] mousePressed = { false };
-        EventHandler<? super MouseEvent> handler = e -> mousePressed[0] = true;
+        EventHandler<MouseEvent> handler = e -> mousePressed[0] = true;
 
         Scene scene = SceneBuilder.withRoot(rootNode)
                 .onMousePressed(handler)
@@ -252,7 +252,7 @@ class SceneBuilderTest {
     @DisplayName("Should set mouse released event handler")
     void shouldSetMouseReleasedEventHandler() {
         boolean[] mouseReleased = { false };
-        EventHandler<? super MouseEvent> handler = e -> mouseReleased[0] = true;
+        EventHandler<MouseEvent> handler = e -> mouseReleased[0] = true;
 
         Scene scene = SceneBuilder.withRoot(rootNode)
                 .onMouseReleased(handler)
@@ -265,7 +265,7 @@ class SceneBuilderTest {
     @DisplayName("Should set mouse entered event handler")
     void shouldSetMouseEnteredEventHandler() {
         boolean[] mouseEntered = { false };
-        EventHandler<? super MouseEvent> handler = e -> mouseEntered[0] = true;
+        EventHandler<MouseEvent> handler = e -> mouseEntered[0] = true;
 
         Scene scene = SceneBuilder.withRoot(rootNode)
                 .onMouseEntered(handler)
@@ -278,7 +278,7 @@ class SceneBuilderTest {
     @DisplayName("Should set mouse exited event handler")
     void shouldSetMouseExitedEventHandler() {
         boolean[] mouseExited = { false };
-        EventHandler<? super MouseEvent> handler = e -> mouseExited[0] = true;
+        EventHandler<MouseEvent> handler = e -> mouseExited[0] = true;
 
         Scene scene = SceneBuilder.withRoot(rootNode)
                 .onMouseExited(handler)
@@ -291,7 +291,7 @@ class SceneBuilderTest {
     @DisplayName("Should set mouse moved event handler")
     void shouldSetMouseMovedEventHandler() {
         boolean[] mouseMoved = { false };
-        EventHandler<? super MouseEvent> handler = e -> mouseMoved[0] = true;
+        EventHandler<MouseEvent> handler = e -> mouseMoved[0] = true;
 
         Scene scene = SceneBuilder.withRoot(rootNode)
                 .onMouseMoved(handler)
@@ -304,7 +304,7 @@ class SceneBuilderTest {
     @DisplayName("Should set mouse dragged event handler")
     void shouldSetMouseDraggedEventHandler() {
         boolean[] mouseDragged = { false };
-        EventHandler<? super MouseEvent> handler = e -> mouseDragged[0] = true;
+        EventHandler<MouseEvent> handler = e -> mouseDragged[0] = true;
 
         Scene scene = SceneBuilder.withRoot(rootNode)
                 .onMouseDragged(handler)
