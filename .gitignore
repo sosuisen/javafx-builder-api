@@ -1,4 +1,4 @@
 /target
 .serena/cache
 .serena/memories
-jfxbuilder/
+src/main/java/io/github/sosuisen/jfxbuilder/
