@@ -493,6 +493,9 @@ public class BuilderClassGenerator {
         // Check for getChildren method and generate children method
         generateChildrenMethod(clazz, content);
 
+        // Generate BorderPane specific static methods
+        generateBorderPaneMethods(clazz, content);
+
         return content.toString();
     }
 
@@ -556,6 +559,30 @@ public class BuilderClassGenerator {
             }
         } catch (NoSuchMethodException e) {
             // Class doesn't have getChildren method, skip
+        }
+    }
+
+    private void generateBorderPaneMethods(Class<?> clazz, StringBuilder content) {
+        // Check if the class is BorderPane
+        if (!"BorderPane".equals(clazz.getSimpleName())) {
+            return;
+        }
+
+        String builderClassName = clazz.getSimpleName() + "Builder";
+
+        // Generate static methods for BorderPane positioning
+        String[] positions = {"center", "top", "left", "bottom", "right"};
+        for (String position : positions) {
+            String capitalizedPosition = Character.toUpperCase(position.charAt(0)) + position.substring(1);
+            
+            content.append("    public static ").append(builderClassName)
+                    .append(" with").append(capitalizedPosition).append("(javafx.scene.Node node) {\n");
+            content.append("        ").append(builderClassName).append(" builder = new ")
+                    .append(builderClassName).append("();\n");
+            content.append("        builder.operations.add(obj -> obj.set").append(capitalizedPosition)
+                    .append("(node));\n");
+            content.append("        return builder;\n");
+            content.append("    }\n\n");
         }
     }
 
