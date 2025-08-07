@@ -313,10 +313,7 @@ public class BuilderClassGenerator {
         for (int i = 0; i < parameters.length; i++) {
             Parameter param = parameters[i];
             String paramType = param.getParameterizedType().getTypeName();
-            paramType = paramType.replaceAll("java\\.lang\\.", "");
-            paramType = paramType.replaceAll("javafx\\.[a-z.]+\\.", "");
-            // Convert inner class notation from $ to . for proper type references
-            paramType = paramType.replace("$", ".");
+            paramType = simplifyParameterType(paramType);
             paramList.append(paramType);
             paramList.append(" ").append(param.getName());
             if (i < parameters.length - 1) {
@@ -324,6 +321,105 @@ public class BuilderClassGenerator {
             }
         }
         return paramList.toString();
+    }
+
+    private String simplifyParameterType(String paramType) {
+        // Convert inner class notation from $ to . for proper type references
+        paramType = paramType.replace("$", ".");
+        
+        // Find generic start
+        int genericStart = paramType.indexOf('<');
+        if (genericStart == -1) {
+            // No generics, simple case - just simplify the class name
+            return simplifyClassName(paramType);
+        } else {
+            // Has generics, need to process base type and generic parameters separately
+            String baseType = paramType.substring(0, genericStart);
+            String genericPart = paramType.substring(genericStart);
+            
+            // Simplify the base type (without generics)
+            String simplifiedBase = simplifyClassName(baseType);
+            
+            // Process the generic part recursively
+            String simplifiedGeneric = simplifyGenericPart(genericPart);
+            
+            return simplifiedBase + simplifiedGeneric;
+        }
+    }
+
+    private String simplifyClassName(String className) {
+        // Remove java.lang package
+        className = className.replaceAll("java\\.lang\\.", "");
+        
+        // For JavaFX classes, keep the last two parts (Class.InnerClass) but remove the rest
+        if (className.contains("javafx.")) {
+            // Split by dots and keep meaningful parts
+            String[] parts = className.split("\\.");
+            if (parts.length > 2) {
+                // For inner classes, keep ClassName.InnerClassName
+                // For regular classes, just keep ClassName
+                String lastPart = parts[parts.length - 1];
+                if (parts.length > 1) {
+                    String secondLastPart = parts[parts.length - 2];
+                    // Check if it looks like an inner class (starts with capital)
+                    if (Character.isUpperCase(lastPart.charAt(0)) && Character.isUpperCase(secondLastPart.charAt(0))) {
+                        return secondLastPart + "." + lastPart;
+                    }
+                }
+                return lastPart;
+            }
+        }
+        
+        return className;
+    }
+
+    private String simplifyGenericPart(String genericPart) {
+        if (genericPart.length() <= 2) { // Just "<>"
+            return genericPart;
+        }
+        
+        StringBuilder result = new StringBuilder("<");
+        List<String> typeParams = parseGenericParameters(genericPart.substring(1, genericPart.length() - 1));
+        
+        for (int i = 0; i < typeParams.size(); i++) {
+            if (i > 0) {
+                result.append(", ");
+            }
+            result.append(simplifyParameterType(typeParams.get(i)));
+        }
+        
+        result.append(">");
+        return result.toString();
+    }
+
+    private List<String> parseGenericParameters(String genericContent) {
+        List<String> params = new ArrayList<>();
+        int start = 0;
+        int depth = 0;
+        
+        for (int i = 0; i < genericContent.length(); i++) {
+            char c = genericContent.charAt(i);
+            if (c == '<') {
+                depth++;
+            } else if (c == '>') {
+                depth--;
+            } else if (c == ',' && depth == 0) {
+                // Found a parameter separator at the top level
+                String param = genericContent.substring(start, i).trim();
+                if (!param.isEmpty()) {
+                    params.add(param);
+                }
+                start = i + 1;
+            }
+        }
+        
+        // Add the last parameter
+        String lastParam = genericContent.substring(start).trim();
+        if (!lastParam.isEmpty()) {
+            params.add(lastParam);
+        }
+        
+        return params;
     }
 
     private String buildParameterListNamesOnly(Parameter[] parameters) {
