@@ -7,8 +7,7 @@
   <description>JavaFX Builder Class Generator</description>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <javafx.version>24.0.0</javafx.version>
-    <maven.compiler.release>23</maven.compiler.release>
+    <maven.compiler.release>21</maven.compiler.release>
     <javafx.platform>win</javafx.platform>
   </properties>
 
@@ -98,5 +97,30 @@
         </configuration>
       </plugin>
     </plugins>
+
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>true</filtering>
+      </resource>
+    </resources>
   </build>
+
+  <profiles>
+    <profile>
+      <id>default</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <javafx.version>24.0.0</javafx.version>
+      </properties>
+    </profile>
+    <profile>
+      <id>javafx24</id>
+      <properties>
+        <javafx.version>24.0.0</javafx.version>
+      </properties>
+    </profile>
+  </profiles>
 </project>
