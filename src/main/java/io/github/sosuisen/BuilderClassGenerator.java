@@ -571,10 +571,10 @@ public class BuilderClassGenerator {
         String builderClassName = clazz.getSimpleName() + "Builder";
 
         // Generate static methods for BorderPane positioning
-        String[] positions = {"center", "top", "left", "bottom", "right"};
+        String[] positions = { "center", "top", "left", "bottom", "right" };
         for (String position : positions) {
             String capitalizedPosition = Character.toUpperCase(position.charAt(0)) + position.substring(1);
-            
+
             content.append("    public static ").append(builderClassName)
                     .append(" with").append(capitalizedPosition).append("(javafx.scene.Node node) {\n");
             content.append("        ").append(builderClassName).append(" builder = new ")
