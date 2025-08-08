@@ -73,13 +73,12 @@ public class App extends Application {
     }
 
     private void generateBuilderClasses(List<String> classes) {
-        BuilderClassGenerator generator = new BuilderClassGenerator(PACKAGE_NAME, OUTPUT_DIRS);
-
         for (String className : classes) {
             try {
                 Class<?> clazz = Class.forName(className);
                 if (Modifier.isPublic(clazz.getModifiers())) {
-                    generator.generate(clazz);
+                    BuilderClassGenerator generator = new BuilderClassGenerator(PACKAGE_NAME, OUTPUT_DIRS, clazz);
+                    generator.generate();
                 }
             } catch (ClassNotFoundException e) {
                 System.out.println("  x Class not found: " + className);

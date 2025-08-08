@@ -15,34 +15,36 @@ import java.util.List;
 public class BuilderClassGenerator {
     private final String packageName;
     private final String[] outputDir;
+    private final Class<?> clazz;
 
-    public BuilderClassGenerator(String packageName, String[] outputDir) {
+    public BuilderClassGenerator(String packageName, String[] outputDir, Class<?> clazz) {
         this.packageName = packageName;
         this.outputDir = outputDir;
+        this.clazz = clazz;
     }
 
-    public void generate(Class<?> clazz) throws IOException {
-        String content = generateBuilderClass(clazz);
+    public void generate() throws IOException {
+        String content = generateBuilderClass();
         writeToFiles(content, clazz.getSimpleName() + "Builder");
     }
 
-    private String generateBuilderClass(Class<?> clazz) {
+    private String generateBuilderClass() {
         StringBuilder content = new StringBuilder();
 
-        content.append(generateClassHeader(clazz));
-        content.append(generateConstructors(clazz));
-        content.append(generateBuildMethod(clazz));
+        content.append(generateClassHeader());
+        content.append(generateConstructors());
+        content.append(generateBuildMethod());
         content.append(generateTypeCompatibilityCheckMethods());
-        content.append(generateApplyMethod(clazz));
-        content.append(generateSetterMethods(clazz));
-        content.append(generateSpecialMethods(clazz));
+        content.append(generateApplyMethod());
+        content.append(generateSetterMethods());
+        content.append(generateSpecialMethods());
         content.append("}\n");
 
         return content.toString();
     }
 
-    private String generateClassHeader(Class<?> clazz) {
-        Set<String> imports = collectImports(clazz);
+    private String generateClassHeader() {
+        Set<String> imports = collectImports();
 
         String className = clazz.getSimpleName();
         String builderClassName = className + "Builder";
@@ -83,7 +85,7 @@ public class BuilderClassGenerator {
         return genericBuilder.toString();
     }
 
-    private Set<String> collectImports(Class<?> clazz) {
+    private Set<String> collectImports() {
         Set<String> imports = new TreeSet<>();
 
         // Collect all parameter types from non-static setter methods
@@ -109,12 +111,21 @@ public class BuilderClassGenerator {
         }
 
         // Add required imports for constructors and method types
-        imports.add(clazz.getName());
+        // Convert inner class notation from $ to . for proper import statements
+        imports.add(clazz.getName().replace("$", "."));
 
         return imports;
     }
 
     private void addImportIfNeeded(Set<String> imports, String paramType) {
+        // Check for type replacement first
+        paramType = TypeMappingManager.getReplacement(clazz.getSimpleName(), paramType);
+
+        // Process original type
+        addImportForType(imports, paramType);
+    }
+
+    private void addImportForType(Set<String> imports, String paramType) {
         // Extract base type (without generics and arrays)
         String baseType = paramType.replaceAll("<.*?>$", "").replaceAll("\\[\\]", "");
 
@@ -243,7 +254,7 @@ public class BuilderClassGenerator {
         return types;
     }
 
-    private String generateConstructors(Class<?> clazz) {
+    private String generateConstructors() {
         StringBuilder content = new StringBuilder();
         Constructor<?>[] constructors = clazz.getConstructors();
         boolean hasDefaultConstructor = false;
@@ -261,27 +272,27 @@ public class BuilderClassGenerator {
             // Generate default constructor first
             for (Constructor<?> constructor : constructors) {
                 if (constructor.getParameterCount() == 0) {
-                    parseConstructor(constructor, clazz, content);
+                    parseConstructor(constructor, content);
                     break;
                 }
             }
         } else {
             // Find common parameters and generate withXXX method
             List<Parameter> commonParams = findCommonParameters(constructors);
-            generateWithMethods(commonParams, clazz, content);
+            generateWithMethods(commonParams, content);
         }
 
         // Always generate create(parameters) methods for ALL parameterized constructors
         for (Constructor<?> constructor : constructors) {
             if (constructor.getParameterCount() > 0) {
-                parseConstructor(constructor, clazz, content);
+                parseConstructor(constructor, content);
             }
         }
 
         return content.toString();
     }
 
-    private void parseConstructor(Constructor<?> constructor, Class<?> clazz, StringBuilder content) {
+    private void parseConstructor(Constructor<?> constructor, StringBuilder content) {
         String className = clazz.getSimpleName();
         String genericParameters = getGenericParameters(clazz);
         String builderClassName = className + "Builder" + genericParameters;
@@ -326,7 +337,10 @@ public class BuilderClassGenerator {
 
     private String simplifyParameterType(String paramType) {
         // Convert inner class notation from $ to . for proper type references
-        paramType = paramType.replace("$", ".");
+        paramType = paramType.replaceAll("\\$", ".");
+
+        // Check for type replacement first
+        paramType = TypeMappingManager.getReplacement(clazz.getSimpleName(), paramType);
 
         // Find generic start
         int genericStart = paramType.indexOf('<');
@@ -474,7 +488,7 @@ public class BuilderClassGenerator {
         return common;
     }
 
-    private void generateWithMethods(List<Parameter> commonParams, Class<?> clazz, StringBuilder content) {
+    private void generateWithMethods(List<Parameter> commonParams, StringBuilder content) {
         String className = clazz.getSimpleName();
         String genericParameters = getGenericParameters(clazz);
         String builderClassName = className + "Builder" + genericParameters;
@@ -528,7 +542,7 @@ public class BuilderClassGenerator {
         content.append("    private ").append(className + "Builder").append("() {}\n");
     }
 
-    private String generateBuildMethod(Class<?> clazz) {
+    private String generateBuildMethod() {
         // Check if there's a default constructor for build method generation
         boolean hasDefaultConstructor = false;
         Constructor<?>[] constructors = clazz.getConstructors();
@@ -663,7 +677,7 @@ public class BuilderClassGenerator {
         return content.toString();
     }
 
-    private String generateApplyMethod(Class<?> clazz) {
+    private String generateApplyMethod() {
         String className = clazz.getSimpleName();
         String genericParameters = getGenericParameters(clazz);
         String builderClassName = className + "Builder" + genericParameters;
@@ -680,20 +694,20 @@ public class BuilderClassGenerator {
         return content.toString();
     }
 
-    private String generateSetterMethods(Class<?> clazz) {
+    private String generateSetterMethods() {
         StringBuilder content = new StringBuilder();
         Method[] methods = clazz.getMethods();
 
         for (Method method : methods) {
             if (method.getName().startsWith("set") && !java.lang.reflect.Modifier.isStatic(method.getModifiers())) {
-                parseSetter(method, clazz, content);
+                parseSetter(method, content);
             }
         }
 
         return content.toString();
     }
 
-    private void parseSetter(Method method, Class<?> clazz, StringBuilder content) {
+    private void parseSetter(Method method, StringBuilder content) {
         String className = clazz.getSimpleName();
         String genericParameters = getGenericParameters(clazz);
         String builderClassName = className + "Builder" + genericParameters;
@@ -712,22 +726,22 @@ public class BuilderClassGenerator {
         content.append("    }\n");
     }
 
-    private String generateSpecialMethods(Class<?> clazz) {
+    private String generateSpecialMethods() {
         StringBuilder content = new StringBuilder();
 
         // Generate styleClass method for Node-based classes
-        generateStyleClassMethod(clazz, content);
+        generateStyleClassMethod(content);
 
         // Check for getChildren method and generate children method
-        generateChildrenMethod(clazz, content);
+        generateChildrenMethod(content);
 
         // Generate BorderPane specific static methods
-        generateBorderPaneMethods(clazz, content);
+        generateBorderPaneMethods(content);
 
         return content.toString();
     }
 
-    private void generateStyleClassMethod(Class<?> clazz, StringBuilder content) {
+    private void generateStyleClassMethod(StringBuilder content) {
         String className = clazz.getSimpleName();
         String genericParameters = getGenericParameters(clazz);
         String builderClassName = className + "Builder" + genericParameters;
@@ -751,7 +765,7 @@ public class BuilderClassGenerator {
         }
     }
 
-    private void generateChildrenMethod(Class<?> clazz, StringBuilder content) {
+    private void generateChildrenMethod(StringBuilder content) {
         String className = clazz.getSimpleName();
         String builderClassName = className + "Builder";
 
@@ -791,7 +805,7 @@ public class BuilderClassGenerator {
         }
     }
 
-    private void generateBorderPaneMethods(Class<?> clazz, StringBuilder content) {
+    private void generateBorderPaneMethods(StringBuilder content) {
         // Check if the class is BorderPane
         if (!"BorderPane".equals(clazz.getSimpleName())) {
             return;
@@ -824,8 +838,8 @@ public class BuilderClassGenerator {
             Path outputFile = outputDir.resolve(builderClassName + ".java");
             Files.write(outputFile, content.getBytes());
 
-            System.out.println("Generated " + builderClassName + ".java at " +
-                    outputFile);
+            // System.out.println("Generated " + builderClassName + ".java at " +
+            // outputFile);
         }
     }
 
