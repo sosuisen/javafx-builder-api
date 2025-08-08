@@ -34,7 +34,13 @@
     </dependency>
     <dependency>
       <groupId>com.example.jfx</groupId>
-      <artifactId>javafx-fxml</artifactId>
+      <artifactId>javafx-media</artifactId>
+      <version>${javafx.version}</version>
+      <classifier>${javafx.platform}</classifier>
+    </dependency>
+    <dependency>
+      <groupId>com.example.jfx</groupId>
+      <artifactId>javafx-web</artifactId>
       <version>${javafx.version}</version>
       <classifier>${javafx.platform}</classifier>
     </dependency>

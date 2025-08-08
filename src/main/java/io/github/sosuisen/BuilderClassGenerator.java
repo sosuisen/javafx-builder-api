@@ -16,10 +16,18 @@ import gg.jte.TemplateOutput;
 import gg.jte.output.StringOutput;
 import gg.jte.resolve.DirectoryCodeResolver;
 import io.github.sosuisen.template.BuildMethodModel;
+import io.github.sosuisen.template.ChildrenMethodModel;
+import io.github.sosuisen.template.BorderPaneMethodModel;
+import io.github.sosuisen.template.StyleClassMethodModel;
+import io.github.sosuisen.template.SetterMethodModel;
+import io.github.sosuisen.template.ApplyMethodModel;
+import io.github.sosuisen.template.WithMethodModel;
+import io.github.sosuisen.template.ConstructorMethodModel;
+import io.github.sosuisen.template.ClassHeaderModel;
 
 public class BuilderClassGenerator {
     private static final TemplateEngine templateEngine = initializeTemplateEngine();
-    
+
     private final String packageName;
     private final String[] outputDir;
     private final Class<?> clazz;
@@ -82,20 +90,16 @@ public class BuilderClassGenerator {
     }
 
     private String generateClassHeader() {
-        StringBuilder content = new StringBuilder();
-
-        // Output package and imports
-        content.append("package ").append(packageName).append(";\n");
-        content.append("\n");
-
-        // Class declaration and fields with generic support
-        content.append("public class ").append(builderClassName).append(typeParameters).append(" {\n");
-        content.append("    private Object[] constructorArgs;\n");
-        content.append("    private Object[] mandatoryParams;\n");
-        content.append("    private java.util.List<java.util.function.Consumer<").append(classNameWithTypeParameter)
-                .append(">> operations = new java.util.ArrayList<>();\n");
-
-        return content.toString();
+        ClassHeaderModel model = ClassHeaderModel.create(
+            packageName,
+            builderClassName,
+            typeParameters,
+            classNameWithTypeParameter
+        );
+        
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("class-header.jte", model, output);
+        return output.toString();
     }
 
     private String generateConstructors() {
@@ -116,50 +120,51 @@ public class BuilderClassGenerator {
             // Generate default constructor first
             for (Constructor<?> constructor : constructors) {
                 if (constructor.getParameterCount() == 0) {
-                    parseConstructor(constructor, content);
+                    content.append(generateCreateMethods(constructor));
                     break;
                 }
             }
         } else {
             // Find common parameters and generate withXXX method
             List<Parameter> commonParams = findCommonParameters(constructors);
-            generateWithMethods(commonParams, content);
+            content.append(generateWithMethods(commonParams));
         }
 
         // Always generate create(parameters) methods for ALL parameterized constructors
         for (Constructor<?> constructor : constructors) {
             if (constructor.getParameterCount() > 0) {
-                parseConstructor(constructor, content);
+                content.append(generateCreateMethods(constructor));
             }
         }
 
         return content.toString();
     }
 
-    private void parseConstructor(Constructor<?> constructor, StringBuilder content) {
+    private String generateCreateMethods(Constructor<?> constructor) {
         Parameter[] parameters = constructor.getParameters();
 
-        String parameterList = buildParameterListWithTypes(parameters);
-        String argumentList = buildParameterListNamesOnly(parameters);
+        ConstructorMethodModel model;
 
         if (parameters.length == 0) {
-            // Default constructor - just create empty builder
-            content.append("    public static ").append(typeParameters.isEmpty() ? "" : typeParameters + " ")
-                    .append(builderClassNameWithTypeParameter).append(" create() { return new ")
-                    .append(builderClassNameWithTypeParameter).append("(); }\n");
-            content.append("    private ").append(builderClassName).append("() {}\n");
+            model = ConstructorMethodModel.createDefault(
+                    typeParameters,
+                    builderClassNameWithTypeParameter,
+                    builderClassName);
         } else {
-            // Parameterized constructor - store parameters for delayed initialization
-            content.append("    public static ").append(typeParameters.isEmpty() ? "" : typeParameters + " ")
-                    .append(builderClassNameWithTypeParameter).append(" create(").append(parameterList)
-                    .append(") {\n");
-            content.append("        ").append(builderClassNameWithTypeParameter).append(" builder = new ")
-                    .append(builderClassNameWithTypeParameter)
-                    .append("();\n");
-            content.append("        builder.constructorArgs = new Object[]{").append(argumentList).append("};\n");
-            content.append("        return builder;\n");
-            content.append("    }\n");
+            String parameterList = buildParameterListWithTypes(parameters);
+            String argumentList = buildParameterListNamesOnly(parameters);
+
+            model = ConstructorMethodModel.createParameterized(
+                    typeParameters,
+                    builderClassNameWithTypeParameter,
+                    builderClassName,
+                    parameterList,
+                    argumentList);
         }
+
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("create-method.jte", model, output);
+        return output.toString();
     }
 
     private String buildParameterListWithTypes(Parameter[] parameters) {
@@ -231,55 +236,50 @@ public class BuilderClassGenerator {
         return common;
     }
 
-    private void generateWithMethods(List<Parameter> commonParams, StringBuilder content) {
+    private String generateWithMethods(List<Parameter> commonParams) {
+        WithMethodModel model;
+
         if (commonParams.isEmpty()) {
-            // No common parameters, generate a basic create method
-            content.append("    public static ").append(typeParameters.isEmpty() ? "" : typeParameters + " ")
-                    .append(builderClassNameWithTypeParameter).append(" create() { return new ")
-                    .append(builderClassNameWithTypeParameter).append("(); }\n");
-            content.append("    private ").append(builderClassName).append("() {}\n");
-            return;
-        }
+            model = WithMethodModel.createEmpty(typeParameters, builderClassNameWithTypeParameter, builderClassName);
+        } else {
+            // Generate withXXX method name and parameters
+            StringBuilder methodName = new StringBuilder("with");
+            StringBuilder paramList = new StringBuilder();
+            StringBuilder argList = new StringBuilder();
 
-        // Generate withXXX method
-        StringBuilder methodName = new StringBuilder("with");
-        StringBuilder paramList = new StringBuilder();
-        StringBuilder argList = new StringBuilder();
+            for (int i = 0; i < commonParams.size(); i++) {
+                Parameter param = commonParams.get(i);
+                String paramName = param.getName();
+                String typeName = param.getType().getCanonicalName();
 
-        for (int i = 0; i < commonParams.size(); i++) {
-            Parameter param = commonParams.get(i);
-            String paramName = param.getName();
-            String typeName = param.getType().getCanonicalName();
+                // Capitalize first letter for method name
+                String capitalizedName = Character.toUpperCase(paramName.charAt(0)) + paramName.substring(1);
+                methodName.append(capitalizedName);
+                if (i < commonParams.size() - 1) {
+                    methodName.append("And");
+                }
 
-            // Capitalize first letter for method name
-            String capitalizedName = Character.toUpperCase(paramName.charAt(0)) + paramName.substring(1);
-            methodName.append(capitalizedName);
-            if (i < commonParams.size() - 1) {
-                methodName.append("And");
+                // Build parameter list
+                paramList.append(typeName).append(" ").append(paramName);
+                argList.append(paramName);
+                if (i < commonParams.size() - 1) {
+                    paramList.append(", ");
+                    argList.append(", ");
+                }
             }
 
-            // Build parameter list
-            paramList.append(typeName).append(" ").append(paramName);
-            argList.append(paramName);
-            if (i < commonParams.size() - 1) {
-                paramList.append(", ");
-                argList.append(", ");
-            }
+            model = WithMethodModel.create(
+                    typeParameters,
+                    builderClassNameWithTypeParameter,
+                    builderClassName,
+                    methodName.toString(),
+                    paramList.toString(),
+                    argList.toString());
         }
 
-        // Generate the withXXX static method
-        content.append("    public static ").append(typeParameters.isEmpty() ? "" : typeParameters + " ")
-                .append(builderClassNameWithTypeParameter).append(" ").append(methodName).append("(")
-                .append(paramList).append(") {\n");
-        content.append("        ").append(builderClassNameWithTypeParameter).append(" builder = new ")
-                .append(builderClassNameWithTypeParameter)
-                .append("();\n");
-        content.append("        builder.mandatoryParams = new Object[]{").append(argList).append("};\n");
-        content.append("        return builder;\n");
-        content.append("    }\n");
-
-        // Generate private constructor
-        content.append("    private ").append(builderClassName).append("() {}\n");
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("with-methods.jte", model, output);
+        return output.toString();
     }
 
     private String generateBuildMethod() {
@@ -290,67 +290,16 @@ public class BuilderClassGenerator {
     }
 
     private String generateTypeCompatibilityCheckMethods() {
-        StringBuilder content = new StringBuilder();
-
-        content.append("    \n");
-        content.append(
-                "    private static boolean isConstructorCompatible(java.lang.reflect.Constructor<?> constructor, Object[] args) {\n");
-        content.append("        Class<?>[] paramTypes = constructor.getParameterTypes();\n");
-        content.append("        if (paramTypes.length != args.length) return false;\n");
-        content.append("        \n");
-        content.append("        for (int i = 0; i < paramTypes.length; i++) {\n");
-        content.append("            if (args[i] != null) {\n");
-        content.append("                Class<?> paramType = paramTypes[i];\n");
-        content.append("                Class<?> argType = args[i].getClass();\n");
-        content.append("                \n");
-        content.append("                // Check if argument type is assignable to parameter type\n");
-        content.append("                if (!paramType.isAssignableFrom(argType)) {\n");
-        content.append("                    // Handle primitive types\n");
-        content.append("                    if (paramType.isPrimitive()) {\n");
-        content.append("                        if (!isPrimitiveCompatible(paramType, argType)) {\n");
-        content.append("                            return false;\n");
-        content.append("                        }\n");
-        content.append("                    } else if (argType.isPrimitive()) {\n");
-        content.append("                        if (!isPrimitiveCompatible(argType, paramType)) {\n");
-        content.append("                            return false;\n");
-        content.append("                        }\n");
-        content.append("                    } else {\n");
-        content.append("                        return false;\n");
-        content.append("                    }\n");
-        content.append("                }\n");
-        content.append("            }\n");
-        content.append("        }\n");
-        content.append("        return true;\n");
-        content.append("    }\n");
-        content.append("    \n");
-        content.append(
-                "    private static boolean isPrimitiveCompatible(Class<?> primitiveType, Class<?> wrapperType) {\n");
-        content.append("        if (primitiveType == boolean.class) return wrapperType == Boolean.class;\n");
-        content.append("        if (primitiveType == byte.class) return wrapperType == Byte.class;\n");
-        content.append("        if (primitiveType == char.class) return wrapperType == Character.class;\n");
-        content.append("        if (primitiveType == short.class) return wrapperType == Short.class;\n");
-        content.append("        if (primitiveType == int.class) return wrapperType == Integer.class;\n");
-        content.append("        if (primitiveType == long.class) return wrapperType == Long.class;\n");
-        content.append("        if (primitiveType == float.class) return wrapperType == Float.class;\n");
-        content.append("        if (primitiveType == double.class) return wrapperType == Double.class;\n");
-        content.append("        return false;\n");
-        content.append("    }\n");
-
-        return content.toString();
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("type-compatibility-methods.jte", null, output);
+        return output.toString();
     }
 
     private String generateApplyMethod() {
-        StringBuilder content = new StringBuilder();
-
-        content.append("    \n");
-        content.append("    public ").append(builderClassNameWithTypeParameter)
-                .append(" apply(java.util.function.Consumer<")
-                .append(classNameWithTypeParameter).append("> func) {\n");
-        content.append("        operations.add(func);\n");
-        content.append("        return this;\n");
-        content.append("    }\n");
-
-        return content.toString();
+        ApplyMethodModel model = ApplyMethodModel.create(builderClassNameWithTypeParameter, classNameWithTypeParameter);
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("apply-method.jte", model, output);
+        return output.toString();
     }
 
     private String generateSetterMethods() {
@@ -359,14 +308,14 @@ public class BuilderClassGenerator {
 
         for (Method method : methods) {
             if (method.getName().startsWith("set") && !java.lang.reflect.Modifier.isStatic(method.getModifiers())) {
-                parseSetter(method, content);
+                content.append(parseSetter(method));
             }
         }
 
         return content.toString();
     }
 
-    private void parseSetter(Method method, StringBuilder content) {
+    private String parseSetter(Method method) {
         String methodName = method.getName().substring(3);
         methodName = Character.toLowerCase(methodName.charAt(0)) + methodName.substring(1);
 
@@ -374,107 +323,72 @@ public class BuilderClassGenerator {
         String parameterList = buildParameterListWithTypes(parameters);
         String argumentList = buildParameterListNamesOnly(parameters);
 
-        content.append("    public  ").append(builderClassNameWithTypeParameter).append(" ").append(methodName)
-                .append("(")
-                .append(parameterList).append(") {\n");
-        content.append("        operations.add(obj -> obj.").append(method.getName()).append("(").append(argumentList)
-                .append("));\n");
-        content.append("        return this;\n");
-        content.append("    }\n");
+        SetterMethodModel model = SetterMethodModel.create(
+                builderClassNameWithTypeParameter,
+                methodName,
+                parameterList,
+                argumentList,
+                method.getName());
+
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("setter-method.jte", model, output);
+        return output.toString();
     }
 
     private String generateSpecialMethods() {
         StringBuilder content = new StringBuilder();
 
         // Generate styleClass method for Node-based classes
-        generateStyleClassMethod(content);
+        content.append(generateStyleClassMethod());
 
         // Check for getChildren method and generate children method
-        generateChildrenMethod(content);
+        content.append(generateChildrenMethod());
 
         // Generate BorderPane specific static methods
-        generateBorderPaneMethods(content);
+        if ("BorderPane".equals(clazz.getSimpleName())) {
+            content.append(generateBorderPaneMethods());
+        }
 
         return content.toString();
     }
 
-    private void generateStyleClassMethod(StringBuilder content) {
-        // Check if the class has getStyleClass method (inherits from Node)
+    private String generateStyleClassMethod() {
         try {
             Method getStyleClassMethod = clazz.getMethod("getStyleClass");
             if (getStyleClassMethod != null
                     && getStyleClassMethod.getReturnType().getName().contains("ObservableList")) {
-                content.append("    public  ").append(builderClassNameWithTypeParameter)
-                        .append(" styleClass(String... cssClassNames) {\n");
-                content.append("        operations.add(obj -> \n");
-                content.append("            java.util.Arrays.stream(cssClassNames)\n");
-                content.append("                  .forEach(obj.getStyleClass()::add)\n");
-                content.append("        );\n");
-                content.append("        return this;\n");
-                content.append("    }\n");
+                StyleClassMethodModel model = StyleClassMethodModel.create(builderClassNameWithTypeParameter);
+                TemplateOutput output = new StringOutput();
+                templateEngine.render("styleclass-methods.jte", model, output);
+                return output.toString();
             }
         } catch (NoSuchMethodException e) {
             // Class doesn't have getStyleClass method, skip generation
         }
+        return "";
     }
 
-    private void generateChildrenMethod(StringBuilder content) {
-        // Check if the class has a getChildren method
+    private String generateChildrenMethod() {
         try {
             Method getChildrenMethod = clazz.getMethod("getChildren");
-            // Verify that getChildren returns ObservableList<Node>
             if (getChildrenMethod.getReturnType().getCanonicalName().equals("javafx.collections.ObservableList")) {
-                // Instance method: children()
-                content.append("    public  ").append(builderClassName)
-                        .append(" children(javafx.scene.Node... elements) {\n");
-                content.append("        operations.add(obj -> {\n");
-                content.append("            if (elements == null) {\n");
-                content.append("                obj.getChildren().clear();\n");
-                content.append("            } else {\n");
-                content.append(
-                        "                java.util.List<javafx.scene.Node> validChildren = java.util.Arrays.stream(elements)\n");
-                content.append("                    .filter(java.util.Objects::nonNull)\n");
-                content.append("                    .collect(java.util.stream.Collectors.toList());\n");
-                content.append("                obj.getChildren().setAll(validChildren);\n");
-                content.append("            }\n");
-                content.append("        });\n");
-                content.append("        return this;\n");
-                content.append("    }\n");
-                content.append("\n");
-
-                // Static method: withChildren() - returns builder, not built object
-                content.append("    public static ").append(builderClassName)
-                        .append(" withChildren(javafx.scene.Node... elements) {\n");
-                content.append("        ").append(builderClassName).append(" builder = new ").append(builderClassName)
-                        .append("();\n");
-                content.append("        return builder.children(elements);\n");
-                content.append("    }\n");
+                ChildrenMethodModel model = ChildrenMethodModel.create(builderClassName,
+                        builderClassNameWithTypeParameter);
+                TemplateOutput output = new StringOutput();
+                templateEngine.render("children-methods.jte", model, output);
+                return output.toString();
             }
         } catch (NoSuchMethodException e) {
             // Class doesn't have getChildren method, skip
         }
+        return "";
     }
 
-    private void generateBorderPaneMethods(StringBuilder content) {
-        // Check if the class is BorderPane
-        if (!"BorderPane".equals(clazz.getSimpleName())) {
-            return;
-        }
-
-        // Generate static methods for BorderPane positioning
-        String[] positions = { "center", "top", "left", "bottom", "right" };
-        for (String position : positions) {
-            String capitalizedPosition = Character.toUpperCase(position.charAt(0)) + position.substring(1);
-
-            content.append("    public static ").append(builderClassName)
-                    .append(" with").append(capitalizedPosition).append("(javafx.scene.Node node) {\n");
-            content.append("        ").append(builderClassName).append(" builder = new ")
-                    .append(builderClassName).append("();\n");
-            content.append("        builder.operations.add(obj -> obj.set").append(capitalizedPosition)
-                    .append("(node));\n");
-            content.append("        return builder;\n");
-            content.append("    }\n\n");
-        }
+    private String generateBorderPaneMethods() {
+        BorderPaneMethodModel model = BorderPaneMethodModel.create(clazz, builderClassName);
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("borderpane-methods.jte", model, output);
+        return output.toString();
     }
 
     private void writeToFiles(String content) throws IOException {

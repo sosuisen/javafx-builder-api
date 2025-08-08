@@ -36,10 +36,14 @@ public class App extends Application {
     }
 
     private void startGenerateBuilderClasses() {
+        String javaFxVersion = BuildInfo.getJavaFXVersion();
+        String javaFxPlatform = BuildInfo.getJavaFXPlatform();
+        System.out.println("JavaFX Version: " + javaFxVersion);
+        System.out.println("JavaFX Platform: " + javaFxPlatform);
+
         try {
             for (String inputJar : INPUT_JARS) {
-                System.out.println("Processing: " + inputJar);
-                Path jarPath = resolveJarPath(inputJar);
+                Path jarPath = resolveJarPath(inputJar, javaFxVersion, javaFxPlatform);
                 List<String> classes = extractJavaFXSceneClasses(jarPath);
                 generateBuilderClasses(classes);
             }
@@ -50,12 +54,7 @@ public class App extends Application {
         }
     }
 
-    private Path resolveJarPath(String inputJar) {
-        String javaFxVersion = BuildInfo.getJavaFXVersion();
-        String javaFxPlatform = BuildInfo.getJavaFXPlatform();
-        System.out.println("JavaFX Version: " + javaFxVersion);
-        System.out.println("JavaFX Platform: " + javaFxPlatform);
-
+    private Path resolveJarPath(String inputJar, String javaFxVersion, String javaFxPlatform) {
         String jarFileName = String.format("%s-%s.jar", inputJar, javaFxPlatform);
         Path jarPath = Paths.get("sdk", javaFxVersion, jarFileName);
         System.out.println("Reading JAR file: " + jarPath);
@@ -90,7 +89,6 @@ public class App extends Application {
         for (String className : classes) {
             try {
                 Class<?> clazz = Class.forName(className);
-                System.out.println(className + "," + clazz.getModifiers());
                 if (Modifier.isPublic(clazz.getModifiers())
                         && !Modifier.isAbstract(clazz.getModifiers())) {
                     BuilderClassGenerator generator = new BuilderClassGenerator(PACKAGE_NAME, OUTPUT_DIRS, clazz);
