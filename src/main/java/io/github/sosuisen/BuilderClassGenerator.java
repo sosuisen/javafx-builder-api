@@ -418,7 +418,6 @@ public class BuilderClassGenerator {
             if (returnType.startsWith("javafx.collections.ObservableList<")) {
                 Pattern pattern = Pattern.compile("<(.+)>$");
                 Matcher matcher = pattern.matcher(returnType);
-                System.out.println(returnType);
                 if (matcher.find()) {
                     String obseravableListTypeParameter = matcher.group(1);
                     ChildrenMethodModel model = ChildrenMethodModel.create(builderClassName,
