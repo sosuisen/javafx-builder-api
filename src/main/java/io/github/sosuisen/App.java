@@ -17,6 +17,13 @@ import java.util.ArrayList;
 public class App extends Application {
 
     private static final String PACKAGE_NAME = "io.github.sosuisen.jfxbuilder";
+    private static final String[] INPUT_JARS = {
+            "javafx.controls",
+            "javafx.graphics",
+            "javafx.media",
+            "javafx.web"
+    };
+
     private static final String[] OUTPUT_DIRS = {
             "target/builder-classes/io/github/sosuisen/jfxbuilder",
             "src/main/java/io/github/sosuisen/jfxbuilder"
@@ -30,10 +37,12 @@ public class App extends Application {
 
     private void startGenerateBuilderClasses() {
         try {
-            System.out.println("Processing classes...");
-            Path jarPath = resolveJarPath();
-            List<String> classes = extractJavaFXSceneClasses(jarPath);
-            generateBuilderClasses(classes);
+            for (String inputJar : INPUT_JARS) {
+                System.out.println("Processing: " + inputJar);
+                Path jarPath = resolveJarPath(inputJar);
+                List<String> classes = extractJavaFXSceneClasses(jarPath);
+                generateBuilderClasses(classes);
+            }
             System.out.println("Done.");
         } catch (IOException e) {
             System.err.println("Error reading JAR file" + ": " + e.getMessage());
@@ -41,13 +50,13 @@ public class App extends Application {
         }
     }
 
-    private Path resolveJarPath() {
+    private Path resolveJarPath(String inputJar) {
         String javaFxVersion = BuildInfo.getJavaFXVersion();
         String javaFxPlatform = BuildInfo.getJavaFXPlatform();
         System.out.println("JavaFX Version: " + javaFxVersion);
         System.out.println("JavaFX Platform: " + javaFxPlatform);
 
-        String jarFileName = String.format("javafx.controls-%s.jar", javaFxPlatform);
+        String jarFileName = String.format("%s-%s.jar", inputJar, javaFxPlatform);
         Path jarPath = Paths.get("sdk", javaFxVersion, jarFileName);
         System.out.println("Reading JAR file: " + jarPath);
         return jarPath;
@@ -68,7 +77,12 @@ public class App extends Application {
                     .sorted()
                     .forEach(classes::add);
         }
-
+        // return List.of("javafx.scene.control.Button",
+        // "javafx.scene.layout.BorderPane",
+        // "javafx.scene.control.ListView",
+        // "javafx.scene.Scene",
+        // "javafx.scene.control.TableView",
+        // "javafx.scene.layout.VBox");
         return classes;
     }
 
@@ -76,7 +90,9 @@ public class App extends Application {
         for (String className : classes) {
             try {
                 Class<?> clazz = Class.forName(className);
-                if (Modifier.isPublic(clazz.getModifiers()) && !Modifier.isAbstract(clazz.getModifiers())) {
+                System.out.println(className + "," + clazz.getModifiers());
+                if (Modifier.isPublic(clazz.getModifiers())
+                        && !Modifier.isAbstract(clazz.getModifiers())) {
                     BuilderClassGenerator generator = new BuilderClassGenerator(PACKAGE_NAME, OUTPUT_DIRS, clazz);
                     generator.generate();
                 }
