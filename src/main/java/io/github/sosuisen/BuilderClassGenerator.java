@@ -7,8 +7,6 @@ import java.lang.reflect.Parameter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Set;
-import java.util.TreeSet;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,16 +14,41 @@ public class BuilderClassGenerator {
     private final String packageName;
     private final String[] outputDir;
     private final Class<?> clazz;
+    private final String typeParameters;
+    private final String className;
+    private final String classNameWithTypeParameter;
+    private final String builderClassName;
+    private final String builderClassNameWithTypeParameter;
 
     public BuilderClassGenerator(String packageName, String[] outputDir, Class<?> clazz) {
         this.packageName = packageName;
         this.outputDir = outputDir;
         this.clazz = clazz;
+        typeParameters = getTypeParameterString(clazz);
+        className = clazz.getCanonicalName();
+        classNameWithTypeParameter = className + typeParameters;
+        builderClassName = clazz.getSimpleName() + "Builder";
+        builderClassNameWithTypeParameter = clazz.getSimpleName() + "Builder" + typeParameters;
+    }
+
+    private String getTypeParameterString(Class<?> clazz) {
+        if (clazz.getTypeParameters().length == 0) {
+            return "";
+        }
+
+        StringBuilder typeParameterBuilder = new StringBuilder("<");
+        for (int i = 0; i < clazz.getTypeParameters().length; i++) {
+            if (i > 0)
+                typeParameterBuilder.append(", ");
+            typeParameterBuilder.append(clazz.getTypeParameters()[i].getName());
+        }
+        typeParameterBuilder.append(">");
+        return typeParameterBuilder.toString();
     }
 
     public void generate() throws IOException {
         String content = generateBuilderClass();
-        writeToFiles(content, clazz.getSimpleName() + "Builder");
+        writeToFiles(content);
     }
 
     private String generateBuilderClass() {
@@ -44,110 +67,20 @@ public class BuilderClassGenerator {
     }
 
     private String generateClassHeader() {
-        Set<String> imports = collectImports();
-
-        String className = clazz.getSimpleName();
-        String builderClassName = className + "Builder";
-        String genericParameters = getGenericParameters(clazz);
-        String classNameWithGenerics = className + genericParameters;
-
         StringBuilder content = new StringBuilder();
 
         // Output package and imports
         content.append("package ").append(packageName).append(";\n");
-        for (String importLine : imports) {
-            content.append("import ").append(importLine).append(";\n");
-        }
         content.append("\n");
 
         // Class declaration and fields with generic support
-        content.append("public class ").append(builderClassName).append(genericParameters).append(" {\n");
+        content.append("public class ").append(builderClassName).append(typeParameters).append(" {\n");
         content.append("    private Object[] constructorArgs;\n");
         content.append("    private Object[] mandatoryParams;\n");
-        content.append("    private java.util.List<java.util.function.Consumer<").append(classNameWithGenerics)
+        content.append("    private java.util.List<java.util.function.Consumer<").append(classNameWithTypeParameter)
                 .append(">> operations = new java.util.ArrayList<>();\n");
 
         return content.toString();
-    }
-
-    private String getGenericParameters(Class<?> clazz) {
-        if (clazz.getTypeParameters().length == 0) {
-            return "";
-        }
-
-        StringBuilder genericBuilder = new StringBuilder("<");
-        for (int i = 0; i < clazz.getTypeParameters().length; i++) {
-            if (i > 0)
-                genericBuilder.append(", ");
-            genericBuilder.append(clazz.getTypeParameters()[i].getName());
-        }
-        genericBuilder.append(">");
-        return genericBuilder.toString();
-    }
-
-    private Set<String> collectImports() {
-        Set<String> imports = new TreeSet<>();
-
-        // Collect all parameter types from non-static setter methods
-        Method[] methods = clazz.getMethods();
-        for (Method method : methods) {
-            if (method.getName().startsWith("set") && !java.lang.reflect.Modifier.isStatic(method.getModifiers())) {
-                Parameter[] parameters = method.getParameters();
-                for (Parameter param : parameters) {
-                    String paramType = param.getParameterizedType().getTypeName();
-                    addImportIfNeeded(imports, paramType);
-                }
-            }
-        }
-
-        // Collect parameter types from constructors
-        Constructor<?>[] constructors = clazz.getConstructors();
-        for (Constructor<?> constructor : constructors) {
-            Parameter[] parameters = constructor.getParameters();
-            for (Parameter param : parameters) {
-                String paramType = param.getParameterizedType().getTypeName();
-                addImportIfNeeded(imports, paramType);
-            }
-        }
-
-        // Add required imports for constructors and method types
-        imports.add(clazz.getCanonicalName());
-
-        return imports;
-    }
-
-    private void addImportIfNeeded(Set<String> imports, String paramType) {
-        paramType = paramType.replaceAll("\\$", ".");
-        paramType = TypeMappingManager.getReplacement(clazz.getSimpleName(), paramType);
-
-        // Skip primitive types, java.lang types, and empty/invalid types
-        if (!paramType.startsWith("java.lang.") &&
-                paramType.contains(".") &&
-                !isPrimitiveType(paramType) &&
-                !paramType.isEmpty()) {
-            TypeParser.parseAndProcess(paramType, (token) -> {
-                token = token.replace("[]", "");
-                token = token.replace("super", "");
-                token = token.replace("extends", "");
-                token = token.replace("?", "");
-                token = token.trim();
-                if (token.length() > 1) {
-                    // imports.add(token);
-                }
-                return token;
-            });
-        }
-    }
-
-    private boolean isPrimitiveType(String paramType) {
-        if (paramType.equals("boolean") ||
-                paramType.equals("int") ||
-                paramType.equals("double") ||
-                paramType.equals("float") ||
-                paramType.equals("long")) {
-            return true;
-        }
-        return false;
     }
 
     private String generateConstructors() {
@@ -189,9 +122,6 @@ public class BuilderClassGenerator {
     }
 
     private void parseConstructor(Constructor<?> constructor, StringBuilder content) {
-        String className = clazz.getSimpleName();
-        String genericParameters = getGenericParameters(clazz);
-        String builderClassName = className + "Builder" + genericParameters;
         Parameter[] parameters = constructor.getParameters();
 
         String parameterList = buildParameterListWithTypes(parameters);
@@ -199,16 +129,17 @@ public class BuilderClassGenerator {
 
         if (parameters.length == 0) {
             // Default constructor - just create empty builder
-            content.append("    public static ").append(genericParameters.isEmpty() ? "" : genericParameters + " ")
-                    .append(builderClassName).append(" create() { return new ")
-                    .append(builderClassName).append("(); }\n");
-            content.append("    private ").append(className + "Builder").append("() {}\n");
+            content.append("    public static ").append(typeParameters.isEmpty() ? "" : typeParameters + " ")
+                    .append(builderClassNameWithTypeParameter).append(" create() { return new ")
+                    .append(builderClassNameWithTypeParameter).append("(); }\n");
+            content.append("    private ").append(builderClassName).append("() {}\n");
         } else {
             // Parameterized constructor - store parameters for delayed initialization
-            content.append("    public static ").append(genericParameters.isEmpty() ? "" : genericParameters + " ")
-                    .append(builderClassName).append(" create(").append(parameterList)
+            content.append("    public static ").append(typeParameters.isEmpty() ? "" : typeParameters + " ")
+                    .append(builderClassNameWithTypeParameter).append(" create(").append(parameterList)
                     .append(") {\n");
-            content.append("        ").append(builderClassName).append(" builder = new ").append(builderClassName)
+            content.append("        ").append(builderClassNameWithTypeParameter).append(" builder = new ")
+                    .append(builderClassNameWithTypeParameter)
                     .append("();\n");
             content.append("        builder.constructorArgs = new Object[]{").append(argumentList).append("};\n");
             content.append("        return builder;\n");
@@ -224,17 +155,13 @@ public class BuilderClassGenerator {
             paramType = paramType.replaceAll("\\$", ".");
 
             // Check for type replacement first
-            paramType = TypeMappingManager.getReplacement(clazz.getSimpleName(), paramType);
+            paramType = TypeMappingManager.getReplacement(className, paramType);
 
             paramList.append(paramType);
             paramList.append(" ").append(param.getName());
             if (i < parameters.length - 1) {
                 paramList.append(", ");
             }
-            if (paramType.contains("AlertType")) {
-                System.out.println(paramList);
-            }
-
         }
         return paramList.toString();
     }
@@ -290,16 +217,12 @@ public class BuilderClassGenerator {
     }
 
     private void generateWithMethods(List<Parameter> commonParams, StringBuilder content) {
-        String className = clazz.getSimpleName();
-        String genericParameters = getGenericParameters(clazz);
-        String builderClassName = className + "Builder" + genericParameters;
-
         if (commonParams.isEmpty()) {
             // No common parameters, generate a basic create method
-            content.append("    public static ").append(genericParameters.isEmpty() ? "" : genericParameters + " ")
-                    .append(builderClassName).append(" create() { return new ")
-                    .append(builderClassName).append("(); }\n");
-            content.append("    private ").append(className + "Builder").append("() {}\n");
+            content.append("    public static ").append(typeParameters.isEmpty() ? "" : typeParameters + " ")
+                    .append(builderClassNameWithTypeParameter).append(" create() { return new ")
+                    .append(builderClassNameWithTypeParameter).append("(); }\n");
+            content.append("    private ").append(builderClassName).append("() {}\n");
             return;
         }
 
@@ -330,17 +253,18 @@ public class BuilderClassGenerator {
         }
 
         // Generate the withXXX static method
-        content.append("    public static ").append(genericParameters.isEmpty() ? "" : genericParameters + " ")
-                .append(builderClassName).append(" ").append(methodName).append("(")
+        content.append("    public static ").append(typeParameters.isEmpty() ? "" : typeParameters + " ")
+                .append(builderClassNameWithTypeParameter).append(" ").append(methodName).append("(")
                 .append(paramList).append(") {\n");
-        content.append("        ").append(builderClassName).append(" builder = new ").append(builderClassName)
+        content.append("        ").append(builderClassNameWithTypeParameter).append(" builder = new ")
+                .append(builderClassNameWithTypeParameter)
                 .append("();\n");
         content.append("        builder.mandatoryParams = new Object[]{").append(argList).append("};\n");
         content.append("        return builder;\n");
         content.append("    }\n");
 
         // Generate private constructor
-        content.append("    private ").append(className + "Builder").append("() {}\n");
+        content.append("    private ").append(builderClassName).append("() {}\n");
     }
 
     private String generateBuildMethod() {
@@ -354,20 +278,17 @@ public class BuilderClassGenerator {
             }
         }
 
-        String className = clazz.getCanonicalName();
-        String genericParameters = getGenericParameters(clazz);
-        String classNameWithGenerics = className + genericParameters;
         StringBuilder content = new StringBuilder();
 
         // Generate build method - always create new instance
-        if (!genericParameters.isEmpty()) {
+        if (!typeParameters.isEmpty()) {
             content.append("    @SuppressWarnings(\"unchecked\")\n");
         }
-        content.append("    public ").append(classNameWithGenerics).append(" build() {\n");
-        content.append("        ").append(classNameWithGenerics).append(" newInstance;\n");
+        content.append("    public ").append(classNameWithTypeParameter).append(" build() {\n");
+        content.append("        ").append(classNameWithTypeParameter).append(" newInstance;\n");
         if (hasDefaultConstructor) {
             content.append("        if (constructorArgs == null && mandatoryParams == null) {\n");
-            if (genericParameters.isEmpty()) {
+            if (typeParameters.isEmpty()) {
                 content.append("            newInstance = new ").append(className).append("();\n");
             } else {
                 content.append("            newInstance = new ").append(className).append("<>();\n");
@@ -383,7 +304,7 @@ public class BuilderClassGenerator {
             content.append("                for (java.lang.reflect.Constructor<?> constructor : constructors) {\n");
             content.append(
                     "                    if (constructor.getParameterCount() == args.length && isConstructorCompatible(constructor, args)) {\n");
-            content.append("                        newInstance = (").append(classNameWithGenerics)
+            content.append("                        newInstance = (").append(classNameWithTypeParameter)
                     .append(") constructor.newInstance(args);\n");
             content.append("                        break;\n");
             content.append("                    }\n");
@@ -406,7 +327,7 @@ public class BuilderClassGenerator {
             content.append("            for (java.lang.reflect.Constructor<?> constructor : constructors) {\n");
             content.append(
                     "                if (constructor.getParameterCount() == args.length && isConstructorCompatible(constructor, args)) {\n");
-            content.append("                    newInstance = (").append(classNameWithGenerics)
+            content.append("                    newInstance = (").append(classNameWithTypeParameter)
                     .append(") constructor.newInstance(args);\n");
             content.append("                    break;\n");
             content.append("                }\n");
@@ -418,7 +339,7 @@ public class BuilderClassGenerator {
             content.append("            throw new RuntimeException(\"Failed to create instance\", e);\n");
             content.append("        }\n");
         }
-        content.append("        for (java.util.function.Consumer<").append(classNameWithGenerics)
+        content.append("        for (java.util.function.Consumer<").append(classNameWithTypeParameter)
                 .append("> op : operations) {\n");
         content.append("            op.accept(newInstance);\n");
         content.append("        }\n");
@@ -479,15 +400,12 @@ public class BuilderClassGenerator {
     }
 
     private String generateApplyMethod() {
-        String className = clazz.getSimpleName();
-        String genericParameters = getGenericParameters(clazz);
-        String builderClassName = className + "Builder" + genericParameters;
-        String classNameWithGenerics = className + genericParameters;
         StringBuilder content = new StringBuilder();
 
         content.append("    \n");
-        content.append("    public ").append(builderClassName).append(" apply(java.util.function.Consumer<")
-                .append(classNameWithGenerics).append("> func) {\n");
+        content.append("    public ").append(builderClassNameWithTypeParameter)
+                .append(" apply(java.util.function.Consumer<")
+                .append(classNameWithTypeParameter).append("> func) {\n");
         content.append("        operations.add(func);\n");
         content.append("        return this;\n");
         content.append("    }\n");
@@ -509,9 +427,6 @@ public class BuilderClassGenerator {
     }
 
     private void parseSetter(Method method, StringBuilder content) {
-        String className = clazz.getSimpleName();
-        String genericParameters = getGenericParameters(clazz);
-        String builderClassName = className + "Builder" + genericParameters;
         String methodName = method.getName().substring(3);
         methodName = Character.toLowerCase(methodName.charAt(0)) + methodName.substring(1);
 
@@ -519,7 +434,8 @@ public class BuilderClassGenerator {
         String parameterList = buildParameterListWithTypes(parameters);
         String argumentList = buildParameterListNamesOnly(parameters);
 
-        content.append("    public  ").append(builderClassName).append(" ").append(methodName).append("(")
+        content.append("    public  ").append(builderClassNameWithTypeParameter).append(" ").append(methodName)
+                .append("(")
                 .append(parameterList).append(") {\n");
         content.append("        operations.add(obj -> obj.").append(method.getName()).append("(").append(argumentList)
                 .append("));\n");
@@ -543,16 +459,12 @@ public class BuilderClassGenerator {
     }
 
     private void generateStyleClassMethod(StringBuilder content) {
-        String className = clazz.getSimpleName();
-        String genericParameters = getGenericParameters(clazz);
-        String builderClassName = className + "Builder" + genericParameters;
-
         // Check if the class has getStyleClass method (inherits from Node)
         try {
             Method getStyleClassMethod = clazz.getMethod("getStyleClass");
             if (getStyleClassMethod != null
                     && getStyleClassMethod.getReturnType().getName().contains("ObservableList")) {
-                content.append("    public  ").append(builderClassName)
+                content.append("    public  ").append(builderClassNameWithTypeParameter)
                         .append(" styleClass(String... cssClassNames) {\n");
                 content.append("        operations.add(obj -> \n");
                 content.append("            java.util.Arrays.stream(cssClassNames)\n");
@@ -567,14 +479,11 @@ public class BuilderClassGenerator {
     }
 
     private void generateChildrenMethod(StringBuilder content) {
-        String className = clazz.getSimpleName();
-        String builderClassName = className + "Builder";
-
         // Check if the class has a getChildren method
         try {
             Method getChildrenMethod = clazz.getMethod("getChildren");
             // Verify that getChildren returns ObservableList<Node>
-            if (getChildrenMethod.getReturnType().getName().equals("javafx.collections.ObservableList")) {
+            if (getChildrenMethod.getReturnType().getCanonicalName().equals("javafx.collections.ObservableList")) {
                 // Instance method: children()
                 content.append("    public  ").append(builderClassName)
                         .append(" children(javafx.scene.Node... elements) {\n");
@@ -612,8 +521,6 @@ public class BuilderClassGenerator {
             return;
         }
 
-        String builderClassName = clazz.getSimpleName() + "Builder";
-
         // Generate static methods for BorderPane positioning
         String[] positions = { "center", "top", "left", "bottom", "right" };
         for (String position : positions) {
@@ -630,7 +537,7 @@ public class BuilderClassGenerator {
         }
     }
 
-    private void writeToFiles(String content, String builderClassName) throws IOException {
+    private void writeToFiles(String content) throws IOException {
         // Create directories and write files to all output locations
         for (String outputDirPath : outputDir) {
             Path outputDir = Paths.get(outputDirPath);
@@ -638,9 +545,6 @@ public class BuilderClassGenerator {
 
             Path outputFile = outputDir.resolve(builderClassName + ".java");
             Files.write(outputFile, content.getBytes());
-
-            // System.out.println("Generated " + builderClassName + ".java at " +
-            // outputFile);
         }
     }
 
