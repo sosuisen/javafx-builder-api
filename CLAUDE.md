@@ -16,6 +16,9 @@ mvn clean compile -P javafx24
 ## How to run
 mvn javafx:run -P javafx24
 
+You can ignore following error:
+Unsupported JavaFX configuration: classes were loaded from 'unnamed module @XXXXXXX'
+
 ## How to test
 mvn test -P javafx24
 
