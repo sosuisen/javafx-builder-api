@@ -354,7 +354,7 @@ public class BuilderClassGenerator {
             }
         }
 
-        String className = clazz.getSimpleName();
+        String className = clazz.getCanonicalName();
         String genericParameters = getGenericParameters(clazz);
         String classNameWithGenerics = className + genericParameters;
         StringBuilder content = new StringBuilder();
