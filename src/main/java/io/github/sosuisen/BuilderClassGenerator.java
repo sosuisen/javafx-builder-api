@@ -11,6 +11,8 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import gg.jte.ContentType;
 import gg.jte.TemplateEngine;
@@ -412,14 +414,23 @@ public class BuilderClassGenerator {
     private String generateChildrenMethod() {
         try {
             Method getChildrenMethod = clazz.getMethod("getChildren");
-            // System.out.println(getChildrenMethod.getReturnType().getTypeParameters()[0].getName());
-            // System.out.println(getChildrenMethod.getReturnType().getCanonicalName());
-            if (getChildrenMethod.getReturnType().getCanonicalName().equals("javafx.collections.ObservableList")) {
-                ChildrenMethodModel model = ChildrenMethodModel.create(builderClassName,
-                        builderClassNameWithTypeParameter);
-                TemplateOutput output = new StringOutput();
-                templateEngine.render("children-methods.jte", model, output);
-                return output.toString();
+            String returnType = getChildrenMethod.getGenericReturnType().getTypeName();
+            if (returnType.startsWith("javafx.collections.ObservableList<")) {
+                Pattern pattern = Pattern.compile("<(.+)>$");
+                Matcher matcher = pattern.matcher(returnType);
+                System.out.println(returnType);
+                if (matcher.find()) {
+                    String obseravableListTypeParameter = matcher.group(1);
+                    ChildrenMethodModel model = ChildrenMethodModel.create(builderClassName,
+                            builderClassNameWithTypeParameter,
+                            obseravableListTypeParameter,
+                            typeParametersExtends);
+                    TemplateOutput output = new StringOutput();
+                    templateEngine.render("children-methods.jte", model, output);
+                    return output.toString();
+                } else {
+                    return "";
+                }
             }
         } catch (NoSuchMethodException e) {
             // Class doesn't have getChildren method, skip
