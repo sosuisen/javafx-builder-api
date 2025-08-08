@@ -4,10 +4,12 @@ import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
+import java.lang.reflect.Type;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import gg.jte.ContentType;
@@ -22,7 +24,7 @@ import io.github.sosuisen.template.StyleClassMethodModel;
 import io.github.sosuisen.template.SetterMethodModel;
 import io.github.sosuisen.template.ApplyMethodModel;
 import io.github.sosuisen.template.WithMethodModel;
-import io.github.sosuisen.template.ConstructorMethodModel;
+import io.github.sosuisen.template.CreateMethodModel;
 import io.github.sosuisen.template.ClassHeaderModel;
 
 public class BuilderClassGenerator {
@@ -32,6 +34,7 @@ public class BuilderClassGenerator {
     private final String[] outputDir;
     private final Class<?> clazz;
     private final String typeParameters;
+    private final String typeParametersExtends;
     private final String className;
     private final String classNameWithTypeParameter;
     private final String builderClassName;
@@ -42,6 +45,7 @@ public class BuilderClassGenerator {
         this.outputDir = outputDir;
         this.clazz = clazz;
         typeParameters = getTypeParameterString(clazz);
+        typeParametersExtends = getTypeParameterExtendsString(clazz);
         className = clazz.getCanonicalName();
         classNameWithTypeParameter = className + typeParameters;
         builderClassName = clazz.getSimpleName() + "Builder";
@@ -63,7 +67,32 @@ public class BuilderClassGenerator {
         for (int i = 0; i < clazz.getTypeParameters().length; i++) {
             if (i > 0)
                 typeParameterBuilder.append(", ");
+
             typeParameterBuilder.append(clazz.getTypeParameters()[i].getName());
+        }
+        typeParameterBuilder.append(">");
+        return typeParameterBuilder.toString();
+    }
+
+    private String getTypeParameterExtendsString(Class<?> clazz) {
+        if (clazz.getTypeParameters().length == 0) {
+            return "";
+        }
+
+        StringBuilder typeParameterBuilder = new StringBuilder("<");
+        for (int i = 0; i < clazz.getTypeParameters().length; i++) {
+            if (i > 0)
+                typeParameterBuilder.append(", ");
+
+            Type[] bounds = clazz.getTypeParameters()[i].getBounds();
+            if (bounds.length > 0) {
+                // e.g.) CellSkinBase<C extends Cell>
+                typeParameterBuilder
+                        .append(clazz.getTypeParameters()[i].getName() + " extends " + bounds[0].getTypeName());
+            } else {
+                typeParameterBuilder.append(clazz.getTypeParameters()[i].getName());
+            }
+
         }
         typeParameterBuilder.append(">");
         return typeParameterBuilder.toString();
@@ -94,6 +123,7 @@ public class BuilderClassGenerator {
                 packageName,
                 builderClassName,
                 typeParameters,
+                typeParametersExtends,
                 classNameWithTypeParameter);
 
         TemplateOutput output = new StringOutput();
@@ -142,19 +172,21 @@ public class BuilderClassGenerator {
     private String generateCreateMethods(Constructor<?> constructor) {
         Parameter[] parameters = constructor.getParameters();
 
-        ConstructorMethodModel model;
+        CreateMethodModel model;
 
         if (parameters.length == 0) {
-            model = ConstructorMethodModel.createDefault(
+            model = CreateMethodModel.createDefault(
                     typeParameters,
+                    typeParametersExtends,
                     builderClassNameWithTypeParameter,
                     builderClassName);
         } else {
             String parameterList = buildParameterListWithTypes(parameters);
             String argumentList = buildParameterListNamesOnly(parameters);
 
-            model = ConstructorMethodModel.createParameterized(
+            model = CreateMethodModel.createParameterized(
                     typeParameters,
+                    typeParametersExtends,
                     builderClassNameWithTypeParameter,
                     builderClassName,
                     parameterList,
@@ -240,7 +272,8 @@ public class BuilderClassGenerator {
         WithMethodModel model;
 
         if (commonParams.isEmpty()) {
-            model = WithMethodModel.createEmpty(typeParameters, builderClassNameWithTypeParameter, builderClassName);
+            model = WithMethodModel.createEmpty(typeParameters, typeParametersExtends,
+                    builderClassNameWithTypeParameter, builderClassName);
         } else {
             // Generate withXXX method name and parameters
             StringBuilder methodName = new StringBuilder("with");
@@ -273,6 +306,7 @@ public class BuilderClassGenerator {
 
             model = WithMethodModel.create(
                     typeParameters,
+                    typeParametersExtends,
                     builderClassNameWithTypeParameter,
                     builderClassName,
                     methodName.toString(),
