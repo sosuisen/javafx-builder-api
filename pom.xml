@@ -50,6 +50,11 @@
       <version>5.10.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>gg.jte</groupId>
+      <artifactId>jte</artifactId>
+      <version>3.2.1</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -61,22 +66,6 @@
         <configuration>
           <mainClass>${main.class}</mainClass>
         </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>exec-maven-plugin</artifactId>
-        <version>3.1.0</version>
-        <configuration>
-          <mainClass>io.github.sosuisen.Main</mainClass>
-        </configuration>
-        <executions>
-          <execution>
-            <phase>test-compile</phase>
-            <goals>
-              <goal>java</goal>
-            </goals>
-          </execution>
-        </executions>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

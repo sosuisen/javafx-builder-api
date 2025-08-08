@@ -10,7 +10,16 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
+import gg.jte.ContentType;
+import gg.jte.TemplateEngine;
+import gg.jte.TemplateOutput;
+import gg.jte.output.StringOutput;
+import gg.jte.resolve.DirectoryCodeResolver;
+import io.github.sosuisen.template.BuildMethodModel;
+
 public class BuilderClassGenerator {
+    private static final TemplateEngine templateEngine = initializeTemplateEngine();
+    
     private final String packageName;
     private final String[] outputDir;
     private final Class<?> clazz;
@@ -29,6 +38,12 @@ public class BuilderClassGenerator {
         classNameWithTypeParameter = className + typeParameters;
         builderClassName = clazz.getSimpleName() + "Builder";
         builderClassNameWithTypeParameter = clazz.getSimpleName() + "Builder" + typeParameters;
+    }
+
+    private static TemplateEngine initializeTemplateEngine() {
+        Path templatePath = Paths.get("src/main/resources/templates");
+        DirectoryCodeResolver codeResolver = new DirectoryCodeResolver(templatePath);
+        return TemplateEngine.create(codeResolver, ContentType.Plain);
     }
 
     private String getTypeParameterString(Class<?> clazz) {
@@ -268,85 +283,10 @@ public class BuilderClassGenerator {
     }
 
     private String generateBuildMethod() {
-        // Check if there's a default constructor for build method generation
-        boolean hasDefaultConstructor = false;
-        Constructor<?>[] constructors = clazz.getConstructors();
-        for (Constructor<?> constructor : constructors) {
-            if (constructor.getParameterCount() == 0) {
-                hasDefaultConstructor = true;
-                break;
-            }
-        }
-
-        StringBuilder content = new StringBuilder();
-
-        // Generate build method - always create new instance
-        if (!typeParameters.isEmpty()) {
-            content.append("    @SuppressWarnings(\"unchecked\")\n");
-        }
-        content.append("    public ").append(classNameWithTypeParameter).append(" build() {\n");
-        content.append("        ").append(classNameWithTypeParameter).append(" newInstance;\n");
-        if (hasDefaultConstructor) {
-            content.append("        if (constructorArgs == null && mandatoryParams == null) {\n");
-            if (typeParameters.isEmpty()) {
-                content.append("            newInstance = new ").append(className).append("();\n");
-            } else {
-                content.append("            newInstance = new ").append(className).append("<>();\n");
-            }
-            content.append("        } else {\n");
-            content.append("            // Use reflection for parameterized constructor\n");
-            content.append("            try {\n");
-            content.append(
-                    "                Object[] args = (constructorArgs != null) ? constructorArgs : mandatoryParams;\n");
-            content.append("                java.lang.reflect.Constructor<?>[] constructors = ").append(className)
-                    .append(".class.getConstructors();\n");
-            content.append("                newInstance = null;\n");
-            content.append("                for (java.lang.reflect.Constructor<?> constructor : constructors) {\n");
-            content.append(
-                    "                    if (constructor.getParameterCount() == args.length && isConstructorCompatible(constructor, args)) {\n");
-            content.append("                        newInstance = (").append(classNameWithTypeParameter)
-                    .append(") constructor.newInstance(args);\n");
-            content.append("                        break;\n");
-            content.append("                    }\n");
-            content.append("                }\n");
-            content.append("                if (newInstance == null) {\n");
-            content.append("                    throw new RuntimeException(\"No suitable constructor found\");\n");
-            content.append("                }\n");
-            content.append("            } catch (Exception e) {\n");
-            content.append("                throw new RuntimeException(\"Failed to create instance\", e);\n");
-            content.append("            }\n");
-            content.append("        }\n");
-        } else {
-            content.append("        // Use reflection for parameterized constructor\n");
-            content.append("        try {\n");
-            content.append(
-                    "            Object[] args = (constructorArgs != null) ? constructorArgs : mandatoryParams;\n");
-            content.append("            java.lang.reflect.Constructor<?>[] constructors = ").append(className)
-                    .append(".class.getConstructors();\n");
-            content.append("            newInstance = null;\n");
-            content.append("            for (java.lang.reflect.Constructor<?> constructor : constructors) {\n");
-            content.append(
-                    "                if (constructor.getParameterCount() == args.length && isConstructorCompatible(constructor, args)) {\n");
-            content.append("                    newInstance = (").append(classNameWithTypeParameter)
-                    .append(") constructor.newInstance(args);\n");
-            content.append("                    break;\n");
-            content.append("                }\n");
-            content.append("            }\n");
-            content.append("            if (newInstance == null) {\n");
-            content.append("                throw new RuntimeException(\"No suitable constructor found\");\n");
-            content.append("            }\n");
-            content.append("        } catch (Exception e) {\n");
-            content.append("            throw new RuntimeException(\"Failed to create instance\", e);\n");
-            content.append("        }\n");
-        }
-        content.append("        for (java.util.function.Consumer<").append(classNameWithTypeParameter)
-                .append("> op : operations) {\n");
-        content.append("            op.accept(newInstance);\n");
-        content.append("        }\n");
-        content.append("        return newInstance;\n");
-        content.append("    }\n");
-
-        return content.toString();
+        BuildMethodModel model = BuildMethodModel.create(clazz, className, classNameWithTypeParameter, typeParameters);
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("build-method.jte", model, output);
+        return output.toString();
     }
 
     private String generateTypeCompatibilityCheckMethods() {
