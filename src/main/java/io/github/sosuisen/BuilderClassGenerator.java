@@ -13,12 +13,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BuilderClassGenerator {
+    private final String packageName;
+    private final String[] outputDir;
 
-    private static final String PACKAGE_NAME = "io.github.sosuisen.jfxbuilder";
-    private static final String[] OUTPUT_DIRS = {
-            "target/builder-classes/io/github/sosuisen/jfxbuilder",
-            "src/main/java/io/github/sosuisen/jfxbuilder"
-    };
+    public BuilderClassGenerator(String packageName, String[] outputDir) {
+        this.packageName = packageName;
+        this.outputDir = outputDir;
+    }
 
     public void generate(Class<?> clazz) throws IOException {
         String content = generateBuilderClass(clazz);
@@ -51,7 +52,7 @@ public class BuilderClassGenerator {
         StringBuilder content = new StringBuilder();
 
         // Output package and imports
-        content.append("package ").append(PACKAGE_NAME).append(";\n");
+        content.append("package ").append(packageName).append(";\n");
         for (String importLine : imports) {
             content.append("import ").append(importLine).append(";\n");
         }
@@ -816,15 +817,15 @@ public class BuilderClassGenerator {
 
     private void writeToFiles(String content, String builderClassName) throws IOException {
         // Create directories and write files to all output locations
-        for (String outputDirPath : OUTPUT_DIRS) {
+        for (String outputDirPath : outputDir) {
             Path outputDir = Paths.get(outputDirPath);
             Files.createDirectories(outputDir);
 
             Path outputFile = outputDir.resolve(builderClassName + ".java");
             Files.write(outputFile, content.getBytes());
 
-            // System.out.println("Generated " + builderClassName + ".java at " +
-            // outputFile);
+            System.out.println("Generated " + builderClassName + ".java at " +
+                    outputFile);
         }
     }
 
