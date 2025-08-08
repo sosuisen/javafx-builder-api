@@ -90,7 +90,8 @@ public class App extends Application {
             try {
                 Class<?> clazz = Class.forName(className);
                 if (Modifier.isPublic(clazz.getModifiers())
-                        && !Modifier.isAbstract(clazz.getModifiers())) {
+                        && !Modifier.isAbstract(clazz.getModifiers())
+                        && !Modifier.isStatic(clazz.getModifiers())) {
                     BuilderClassGenerator generator = new BuilderClassGenerator(PACKAGE_NAME, OUTPUT_DIRS, clazz);
                     generator.generate();
                 }
