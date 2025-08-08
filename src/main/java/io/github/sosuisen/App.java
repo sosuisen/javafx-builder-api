@@ -16,6 +16,12 @@ import java.util.ArrayList;
 
 public class App extends Application {
 
+    private static final String PACKAGE_NAME = "io.github.sosuisen.jfxbuilder";
+    private static final String[] OUTPUT_DIRS = {
+            "target/builder-classes/io/github/sosuisen/jfxbuilder",
+            "src/main/java/io/github/sosuisen/jfxbuilder"
+    };
+
     @Override
     public void start(Stage stage) throws IOException {
         try {
@@ -33,7 +39,7 @@ public class App extends Application {
             // Read and list all classes in the JAR file
             List<String> classes = listClassesInJar(jarPath.toString());
 
-            BuilderClassGenerator generator = new BuilderClassGenerator();
+            BuilderClassGenerator generator = new BuilderClassGenerator(PACKAGE_NAME, OUTPUT_DIRS);
 
             System.out.println("Processing: " + jarFileName);
 
