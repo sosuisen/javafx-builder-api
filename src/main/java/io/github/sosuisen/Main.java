@@ -14,7 +14,9 @@ public class Main {
     public static void main(String[] args) {
         try {
             var javaFxVersion = BuildInfo.getJavaFXVersion();
+            var javaFxPlatform = BuildInfo.getJavaFXPlatform();
             System.out.println("JavaFX Version: " + javaFxVersion);
+            System.out.println("JavaFX Platform: " + javaFxPlatform);
 
             BuilderClassGenerator generator = new BuilderClassGenerator();
             generator.generate(Button.class);
