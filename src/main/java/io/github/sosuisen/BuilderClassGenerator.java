@@ -326,7 +326,7 @@ public class BuilderClassGenerator {
     private String simplifyParameterType(String paramType) {
         // Convert inner class notation from $ to . for proper type references
         paramType = paramType.replace("$", ".");
-        
+
         // Find generic start
         int genericStart = paramType.indexOf('<');
         if (genericStart == -1) {
@@ -336,13 +336,13 @@ public class BuilderClassGenerator {
             // Has generics, need to process base type and generic parameters separately
             String baseType = paramType.substring(0, genericStart);
             String genericPart = paramType.substring(genericStart);
-            
+
             // Simplify the base type (without generics)
             String simplifiedBase = simplifyClassName(baseType);
-            
+
             // Process the generic part recursively
             String simplifiedGeneric = simplifyGenericPart(genericPart);
-            
+
             return simplifiedBase + simplifiedGeneric;
         }
     }
@@ -350,8 +350,9 @@ public class BuilderClassGenerator {
     private String simplifyClassName(String className) {
         // Remove java.lang package
         className = className.replaceAll("java\\.lang\\.", "");
-        
-        // For JavaFX classes, keep the last two parts (Class.InnerClass) but remove the rest
+
+        // For JavaFX classes, keep the last two parts (Class.InnerClass) but remove the
+        // rest
         if (className.contains("javafx.")) {
             // Split by dots and keep meaningful parts
             String[] parts = className.split("\\.");
@@ -369,7 +370,7 @@ public class BuilderClassGenerator {
                 return lastPart;
             }
         }
-        
+
         return className;
     }
 
@@ -377,17 +378,17 @@ public class BuilderClassGenerator {
         if (genericPart.length() <= 2) { // Just "<>"
             return genericPart;
         }
-        
+
         StringBuilder result = new StringBuilder("<");
         List<String> typeParams = parseGenericParameters(genericPart.substring(1, genericPart.length() - 1));
-        
+
         for (int i = 0; i < typeParams.size(); i++) {
             if (i > 0) {
                 result.append(", ");
             }
             result.append(simplifyParameterType(typeParams.get(i)));
         }
-        
+
         result.append(">");
         return result.toString();
     }
@@ -396,7 +397,7 @@ public class BuilderClassGenerator {
         List<String> params = new ArrayList<>();
         int start = 0;
         int depth = 0;
-        
+
         for (int i = 0; i < genericContent.length(); i++) {
             char c = genericContent.charAt(i);
             if (c == '<') {
@@ -412,13 +413,13 @@ public class BuilderClassGenerator {
                 start = i + 1;
             }
         }
-        
+
         // Add the last parameter
         String lastParam = genericContent.substring(start).trim();
         if (!lastParam.isEmpty()) {
             params.add(lastParam);
         }
-        
+
         return params;
     }
 
@@ -822,7 +823,8 @@ public class BuilderClassGenerator {
             Path outputFile = outputDir.resolve(builderClassName + ".java");
             Files.write(outputFile, content.getBytes());
 
-            System.out.println("Generated " + builderClassName + ".java at " + outputFile);
+            // System.out.println("Generated " + builderClassName + ".java at " +
+            // outputFile);
         }
     }
 

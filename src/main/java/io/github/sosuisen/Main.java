@@ -21,40 +21,53 @@ public class Main {
             // Construct the path to the JavaFX controls JAR file
             String jarFileName = String.format("javafx.controls-%s.jar", javaFxPlatform);
             Path jarPath = Paths.get("sdk", javaFxVersion, jarFileName);
-            
+
             System.out.println("Reading JAR file: " + jarPath);
-            
+
             // Read and list all classes in the JAR file
             List<String> classes = listClassesInJar(jarPath.toString());
-            
+
             System.out.println("\nClasses found in " + jarFileName + ":");
             System.out.println("Total classes: " + classes.size());
             System.out.println("==========================================");
-            
+
+            BuilderClassGenerator generator = new BuilderClassGenerator();
+
             for (String className : classes) {
-                System.out.println(className);
+                System.out.println("Processing: " + className);
+                try {
+                    Class<?> clazz = Class.forName(className);
+                    generator.generate(clazz);
+                    System.out.println("  o Generated builder for " + className);
+                } catch (ClassNotFoundException e) {
+                    System.out.println("  x Class not found: " + className);
+                } catch (Exception e) {
+                    System.out.println("  x Error generating builder for " + className + ": " + e.getMessage());
+                }
             }
-            
+
         } catch (IOException e) {
             System.err.println("Error reading JAR file: " + e.getMessage());
             e.printStackTrace();
         }
     }
-    
+
     private static List<String> listClassesInJar(String jarPath) throws IOException {
         List<String> classes = new ArrayList<>();
-        
+
         try (JarFile jarFile = new JarFile(jarPath)) {
             jarFile.stream()
-                .map(JarEntry::getName)
-                .filter(name -> name.endsWith(".class"))
-                .map(name -> name.replace('/', '.').substring(0, name.length() - 6)) // Remove .class extension
-                .filter(className -> className.startsWith("javafx.scene.")) // Filter classes starting with javafx.scene.
-                .filter(className -> !className.matches(".*\\$\\d+$")) // Skip classes ending with $digit (anonymous classes)
-                .sorted()
-                .forEach(classes::add);
+                    .map(JarEntry::getName)
+                    .filter(name -> name.endsWith(".class"))
+                    .map(name -> name.replace('/', '.').substring(0, name.length() - 6)) // Remove .class extension
+                    .filter(className -> className.startsWith("javafx.scene.")) // Filter classes starting with
+                                                                                // javafx.scene.
+                    .filter(className -> !className.matches(".*\\$\\d+$")) // Skip classes ending with $digit (anonymous
+                                                                           // classes)
+                    .sorted()
+                    .forEach(classes::add);
         }
-        
+
         return classes;
     }
 
