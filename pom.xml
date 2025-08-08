@@ -7,7 +7,9 @@
   <description>JavaFX Builder Class Generator</description>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <javafx.plugin.version>0.0.8</javafx.plugin.version>    
     <maven.compiler.release>21</maven.compiler.release>
+    <main.class>io.github.sosuisen.Launcher</main.class>
     <javafx.platform>win</javafx.platform>
   </properties>
 
@@ -52,6 +54,14 @@
 
   <build>
     <plugins>
+      <plugin>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-maven-plugin</artifactId>
+        <version>${javafx.plugin.version}</version>
+        <configuration>
+          <mainClass>${main.class}</mainClass>
+        </configuration>
+      </plugin>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
