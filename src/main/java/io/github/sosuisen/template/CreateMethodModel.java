@@ -1,50 +1,46 @@
 package io.github.sosuisen.template;
 
 /**
- * Data model for with method JTE template
+ * Data model for constructor method JTE template
  */
-public record WithMethodModel(
+public record CreateMethodModel(
         String typeParameters,
         String typeParametersExtends,
         String builderClassNameWithTypeParameter,
         String builderClassName,
-        boolean hasCommonParams,
-        String methodName,
-        String paramList,
-        String argList) {
+        boolean isDefaultConstructor,
+        String parameterList,
+        String argumentList) {
 
-    public static WithMethodModel createEmpty(
+    public static CreateMethodModel createDefault(
             String typeParameters,
             String typeParametersExtends,
             String builderClassNameWithTypeParameter,
             String builderClassName) {
-        return new WithMethodModel(
-                typeParameters,
-                typeParametersExtends,
-                builderClassNameWithTypeParameter,
-                builderClassName,
-                false,
-                "",
-                "",
-                "");
-    }
-
-    public static WithMethodModel create(
-            String typeParameters,
-            String typeParametersExtends,
-            String builderClassNameWithTypeParameter,
-            String builderClassName,
-            String methodName,
-            String paramList,
-            String argList) {
-        return new WithMethodModel(
+        return new CreateMethodModel(
                 typeParameters,
                 typeParametersExtends,
                 builderClassNameWithTypeParameter,
                 builderClassName,
                 true,
-                methodName,
-                paramList,
-                argList);
+                "",
+                "");
+    }
+
+    public static CreateMethodModel createParameterized(
+            String typeParameters,
+            String typeParametersExtends,
+            String builderClassNameWithTypeParameter,
+            String builderClassName,
+            String parameterList,
+            String argumentList) {
+        return new CreateMethodModel(
+                typeParameters,
+                typeParametersExtends,
+                builderClassNameWithTypeParameter,
+                builderClassName,
+                false,
+                parameterList,
+                argumentList);
     }
 }
