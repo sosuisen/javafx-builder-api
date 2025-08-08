@@ -76,7 +76,7 @@ public class App extends Application {
         for (String className : classes) {
             try {
                 Class<?> clazz = Class.forName(className);
-                if (Modifier.isPublic(clazz.getModifiers())) {
+                if (Modifier.isPublic(clazz.getModifiers()) && !Modifier.isAbstract(clazz.getModifiers())) {
                     BuilderClassGenerator generator = new BuilderClassGenerator(PACKAGE_NAME, OUTPUT_DIRS, clazz);
                     generator.generate();
                 }
