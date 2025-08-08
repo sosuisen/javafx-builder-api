@@ -86,9 +86,13 @@ public class BuilderClassGenerator {
 
             Type[] bounds = clazz.getTypeParameters()[i].getBounds();
             if (bounds.length > 0) {
-                // e.g.) CellSkinBase<C extends Cell>
-                typeParameterBuilder
-                        .append(clazz.getTypeParameters()[i].getName() + " extends " + bounds[0].getTypeName());
+                if (!bounds[0].getTypeName().equals("java.lang.Object")) {
+                    // e.g.) CellSkinBase<C extends Cell>
+                    typeParameterBuilder
+                            .append(clazz.getTypeParameters()[i].getName() + " extends " + bounds[0].getTypeName());
+                } else {
+                    typeParameterBuilder.append(clazz.getTypeParameters()[i].getName());
+                }
             } else {
                 typeParameterBuilder.append(clazz.getTypeParameters()[i].getName());
             }
@@ -408,6 +412,8 @@ public class BuilderClassGenerator {
     private String generateChildrenMethod() {
         try {
             Method getChildrenMethod = clazz.getMethod("getChildren");
+            // System.out.println(getChildrenMethod.getReturnType().getTypeParameters()[0].getName());
+            // System.out.println(getChildrenMethod.getReturnType().getCanonicalName());
             if (getChildrenMethod.getReturnType().getCanonicalName().equals("javafx.collections.ObservableList")) {
                 ChildrenMethodModel model = ChildrenMethodModel.create(builderClassName,
                         builderClassNameWithTypeParameter);
