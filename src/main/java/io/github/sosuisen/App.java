@@ -1,17 +1,23 @@
 package io.github.sosuisen;
 
 import java.io.IOException;
+import java.lang.reflect.Modifier;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
+
+import javafx.application.Application;
+import javafx.application.Platform;
+import javafx.stage.Stage;
+
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Collections;
 
-public class Main {
+public class App extends Application {
 
-    public static void main(String[] args) {
+    @Override
+    public void start(Stage stage) throws IOException {
         try {
             var javaFxVersion = BuildInfo.getJavaFXVersion();
             var javaFxPlatform = BuildInfo.getJavaFXPlatform();
@@ -27,29 +33,36 @@ public class Main {
             // Read and list all classes in the JAR file
             List<String> classes = listClassesInJar(jarPath.toString());
 
-            System.out.println("\nClasses found in " + jarFileName + ":");
-            System.out.println("Total classes: " + classes.size());
-            System.out.println("==========================================");
-
             BuilderClassGenerator generator = new BuilderClassGenerator();
 
+            System.out.println("Processing: " + jarFileName);
+
             for (String className : classes) {
-                System.out.println("Processing: " + className);
+
                 try {
                     Class<?> clazz = Class.forName(className);
-                    generator.generate(clazz);
-                    System.out.println("  o Generated builder for " + className);
+
+                    // Check if the class is public before generating builder
+                    if (Modifier.isPublic(clazz.getModifiers())) {
+                        generator.generate(clazz);
+                    } else {
+                        // System.out.println(" - Skipping non-public class: " + className);
+                    }
                 } catch (ClassNotFoundException e) {
                     System.out.println("  x Class not found: " + className);
                 } catch (Exception e) {
+                    e.printStackTrace();
                     System.out.println("  x Error generating builder for " + className + ": " + e.getMessage());
                 }
             }
 
+            System.out.println("Done.");
         } catch (IOException e) {
             System.err.println("Error reading JAR file: " + e.getMessage());
             e.printStackTrace();
         }
+
+        Platform.exit();
     }
 
     private static List<String> listClassesInJar(String jarPath) throws IOException {

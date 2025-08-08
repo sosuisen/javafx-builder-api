@@ -14,7 +14,7 @@ The sdk jar files are under the sdk/${javafx.version} directory.
 mvn clean compile -P javafx24
 
 ## How to run
-mvn exec:java -P javafx24
+mvn javafx:run -P javafx24
 
 ## How to test
 mvn test -P javafx24
