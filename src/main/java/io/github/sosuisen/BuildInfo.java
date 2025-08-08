@@ -18,4 +18,8 @@ public class BuildInfo {
     public static String getJavaFXVersion() {
         return BUILD_PROPS.getProperty("javafx.version");
     }
+
+    public static String getJavaFXPlatform() {
+        return BUILD_PROPS.getProperty("javafx.platform");
+    }
 }
