@@ -91,12 +91,11 @@ public class BuilderClassGenerator {
 
     private String generateClassHeader() {
         ClassHeaderModel model = ClassHeaderModel.create(
-            packageName,
-            builderClassName,
-            typeParameters,
-            classNameWithTypeParameter
-        );
-        
+                packageName,
+                builderClassName,
+                typeParameters,
+                classNameWithTypeParameter);
+
         TemplateOutput output = new StringOutput();
         templateEngine.render("class-header.jte", model, output);
         return output.toString();
@@ -215,6 +214,7 @@ public class BuilderClassGenerator {
         // Check each position up to minParams
         for (int pos = 0; pos < minParams; pos++) {
             Parameter candidate = firstConstructor.getParameters()[pos];
+
             boolean isCommon = true;
 
             // Check if this parameter position has same type across all constructors
@@ -249,8 +249,11 @@ public class BuilderClassGenerator {
 
             for (int i = 0; i < commonParams.size(); i++) {
                 Parameter param = commonParams.get(i);
+
+                String paramType = param.getParameterizedType().getTypeName();
+                paramType = paramType.replaceAll("\\$", ".");
+
                 String paramName = param.getName();
-                String typeName = param.getType().getCanonicalName();
 
                 // Capitalize first letter for method name
                 String capitalizedName = Character.toUpperCase(paramName.charAt(0)) + paramName.substring(1);
@@ -260,7 +263,7 @@ public class BuilderClassGenerator {
                 }
 
                 // Build parameter list
-                paramList.append(typeName).append(" ").append(paramName);
+                paramList.append(paramType).append(" ").append(paramName);
                 argList.append(paramName);
                 if (i < commonParams.size() - 1) {
                     paramList.append(", ");

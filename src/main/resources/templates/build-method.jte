@@ -2,9 +2,6 @@
 
 @param BuildMethodModel model
 
-@if(model.suppressWarnings())
-    @SuppressWarnings("unchecked")
-@endif
     public ${model.returnType()} build() {
         ${model.returnType()} newInstance;
 @if(model.hasDefaultConstructor())
@@ -26,6 +23,9 @@
         return newInstance;
     }
 
+@if(model.suppressWarnings())
+    @SuppressWarnings("unchecked")
+@endif
     private ${model.returnType()} callParameterizedConstructor() {
         ${model.returnType()} newInstance;        
         try {
