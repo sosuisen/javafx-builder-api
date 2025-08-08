@@ -2,12 +2,12 @@
 
 @param ChildrenMethodModel model
 
-    public  ${model.builderClassNameWithTypeParameter()} children(javafx.scene.Node... elements) {
+    public  ${model.builderClassNameWithTypeParameter()} children(${model.observableListTypeParameter()}... elements) {
         operations.add(obj -> {
             if (elements == null) {
                 obj.getChildren().clear();
             } else {
-                java.util.List<javafx.scene.Node> validChildren = java.util.Arrays.stream(elements)
+                java.util.List<${model.observableListTypeParameter()}> validChildren = java.util.Arrays.stream(elements)
                     .filter(java.util.Objects::nonNull)
                     .collect(java.util.stream.Collectors.toList());
                 obj.getChildren().setAll(validChildren);
@@ -16,7 +16,7 @@
         return this;
     }
 
-    public static ${model.builderClassName()} withChildren(javafx.scene.Node... elements) {
-        ${model.builderClassName()} builder = new ${model.builderClassName()}();
+    public static ${model.typeParametersExtends().isEmpty() ? "" : model.typeParametersExtends() + " "}${model.builderClassNameWithTypeParameter()} withChildren(${model.observableListTypeParameter()}... elements) {
+        ${model.builderClassNameWithTypeParameter()} builder = new ${model.builderClassNameWithTypeParameter()}();
         return builder.children(elements);
     }
