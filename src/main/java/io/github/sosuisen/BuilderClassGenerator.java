@@ -111,147 +111,43 @@ public class BuilderClassGenerator {
         }
 
         // Add required imports for constructors and method types
-        // Convert inner class notation from $ to . for proper import statements
-        imports.add(clazz.getName().replace("$", "."));
+        imports.add(clazz.getCanonicalName());
 
         return imports;
     }
 
     private void addImportIfNeeded(Set<String> imports, String paramType) {
-        // Check for type replacement first
+        paramType = paramType.replaceAll("\\$", ".");
         paramType = TypeMappingManager.getReplacement(clazz.getSimpleName(), paramType);
 
-        // Process original type
-        addImportForType(imports, paramType);
-    }
-
-    private void addImportForType(Set<String> imports, String paramType) {
-        // Extract base type (without generics and arrays)
-        String baseType = paramType.replaceAll("<.*?>$", "").replaceAll("\\[\\]", "");
-
-        // Convert inner class notation from $ to . for proper import statements
-        baseType = baseType.replace("$", ".");
-
         // Skip primitive types, java.lang types, and empty/invalid types
-        if (baseType.contains(".") &&
-                !baseType.startsWith("java.lang.") &&
-                !baseType.equals("boolean") &&
-                !baseType.equals("int") &&
-                !baseType.equals("double") &&
-                !baseType.equals("float") &&
-                !baseType.equals("long") &&
-                !baseType.isEmpty() &&
-                isValidClassName(baseType)) {
-            imports.add(baseType);
-        }
-
-        // Extract generic parameter types with proper handling of nested generics
-        extractGenericTypes(paramType, imports);
-    }
-
-    private boolean isValidClassName(String className) {
-        // Check if the string is a valid Java class name
-        if (className == null || className.isEmpty()) {
-            return false;
-        }
-
-        // Should not contain invalid characters for import statements
-        if (className.contains(",") || className.contains("<") || className.contains(">") || className.contains("$")) {
-            return false;
-        }
-
-        // Should contain at least one dot (package separator)
-        return className.contains(".");
-    }
-
-    private void extractGenericTypes(String paramType, Set<String> imports) {
-        int start = paramType.indexOf('<');
-        if (start == -1)
-            return;
-
-        int depth = 0;
-        int genericStart = start + 1;
-        for (int i = start; i < paramType.length(); i++) {
-            char c = paramType.charAt(i);
-            if (c == '<') {
-                depth++;
-            } else if (c == '>') {
-                depth--;
-                if (depth == 0) {
-                    // Extract the content between the outermost < >
-                    String genericContent = paramType.substring(genericStart, i);
-                    processGenericContent(genericContent, imports);
-
-                    // Continue searching for more generic sections in the remaining string
-                    if (i + 1 < paramType.length()) {
-                        String remaining = paramType.substring(i + 1);
-                        extractGenericTypes(remaining, imports);
-                    }
-                    return;
+        if (!paramType.startsWith("java.lang.") &&
+                paramType.contains(".") &&
+                !isPrimitiveType(paramType) &&
+                !paramType.isEmpty()) {
+            TypeParser.parseAndProcess(paramType, (token) -> {
+                token = token.replace("[]", "");
+                token = token.replace("super", "");
+                token = token.replace("extends", "");
+                token = token.replace("?", "");
+                token = token.trim();
+                if (token.length() > 1) {
+                    // imports.add(token);
                 }
-            }
+                return token;
+            });
         }
     }
 
-    private void processGenericContent(String genericContent, Set<String> imports) {
-        // Split by comma, but respect nested generics
-        List<String> types = splitGenericTypes(genericContent);
-
-        for (String type : types) {
-            type = type.trim();
-
-            // Handle wildcards like "? super MouseEvent" or "? extends Node"
-            if (type.startsWith("? super ")) {
-                type = type.substring("? super ".length()).trim();
-            } else if (type.startsWith("? extends ")) {
-                type = type.substring("? extends ".length()).trim();
-            } else if (type.equals("?")) {
-                continue; // Skip wildcard without bounds
-            }
-
-            // Remove array brackets
-            type = type.replaceAll("\\[\\]", "");
-
-            // Extract the base type (without its own generics) for import
-            String baseType = type.replaceAll("<.*?>", "");
-
-            // Clean up the base type - remove any remaining angle brackets or invalid
-            // characters
-            baseType = baseType.replaceAll("[<>]", "").trim();
-
-            // Convert inner class notation from $ to . for proper import statements
-            baseType = baseType.replace("$", ".");
-
-            if (baseType.contains(".") &&
-                    !baseType.startsWith("java.lang.") &&
-                    !baseType.isEmpty() &&
-                    isValidClassName(baseType)) {
-                imports.add(baseType);
-            }
-
-            // Recursively process nested generics
-            extractGenericTypes(type, imports);
+    private boolean isPrimitiveType(String paramType) {
+        if (paramType.equals("boolean") ||
+                paramType.equals("int") ||
+                paramType.equals("double") ||
+                paramType.equals("float") ||
+                paramType.equals("long")) {
+            return true;
         }
-    }
-
-    private List<String> splitGenericTypes(String genericContent) {
-        List<String> types = new ArrayList<>();
-        int start = 0;
-        int depth = 0;
-
-        for (int i = 0; i < genericContent.length(); i++) {
-            char c = genericContent.charAt(i);
-            if (c == '<') {
-                depth++;
-            } else if (c == '>') {
-                depth--;
-            } else if (c == ',' && depth == 0) {
-                types.add(genericContent.substring(start, i));
-                start = i + 1;
-            }
-        }
-        types.add(genericContent.substring(start));
-        return types;
+        return false;
     }
 
     private String generateConstructors() {
@@ -325,117 +221,22 @@ public class BuilderClassGenerator {
         for (int i = 0; i < parameters.length; i++) {
             Parameter param = parameters[i];
             String paramType = param.getParameterizedType().getTypeName();
-            paramType = simplifyParameterType(paramType);
+            paramType = paramType.replaceAll("\\$", ".");
+
+            // Check for type replacement first
+            paramType = TypeMappingManager.getReplacement(clazz.getSimpleName(), paramType);
+
             paramList.append(paramType);
             paramList.append(" ").append(param.getName());
             if (i < parameters.length - 1) {
                 paramList.append(", ");
             }
+            if (paramType.contains("AlertType")) {
+                System.out.println(paramList);
+            }
+
         }
         return paramList.toString();
-    }
-
-    private String simplifyParameterType(String paramType) {
-        // Convert inner class notation from $ to . for proper type references
-        paramType = paramType.replaceAll("\\$", ".");
-
-        // Check for type replacement first
-        paramType = TypeMappingManager.getReplacement(clazz.getSimpleName(), paramType);
-
-        // Find generic start
-        int genericStart = paramType.indexOf('<');
-        if (genericStart == -1) {
-            // No generics, simple case - just simplify the class name
-            return simplifyClassName(paramType);
-        } else {
-            // Has generics, need to process base type and generic parameters separately
-            String baseType = paramType.substring(0, genericStart);
-            String genericPart = paramType.substring(genericStart);
-
-            // Simplify the base type (without generics)
-            String simplifiedBase = simplifyClassName(baseType);
-
-            // Process the generic part recursively
-            String simplifiedGeneric = simplifyGenericPart(genericPart);
-
-            return simplifiedBase + simplifiedGeneric;
-        }
-    }
-
-    private String simplifyClassName(String className) {
-        // Remove java.lang package
-        className = className.replaceAll("java\\.lang\\.", "");
-
-        // For JavaFX classes, keep the last two parts (Class.InnerClass) but remove the
-        // rest
-        if (className.contains("javafx.")) {
-            // Split by dots and keep meaningful parts
-            String[] parts = className.split("\\.");
-            if (parts.length > 2) {
-                // For inner classes, keep ClassName.InnerClassName
-                // For regular classes, just keep ClassName
-                String lastPart = parts[parts.length - 1];
-                if (parts.length > 1) {
-                    String secondLastPart = parts[parts.length - 2];
-                    // Check if it looks like an inner class (starts with capital)
-                    if (Character.isUpperCase(lastPart.charAt(0)) && Character.isUpperCase(secondLastPart.charAt(0))) {
-                        return secondLastPart + "." + lastPart;
-                    }
-                }
-                return lastPart;
-            }
-        }
-
-        return className;
-    }
-
-    private String simplifyGenericPart(String genericPart) {
-        if (genericPart.length() <= 2) { // Just "<>"
-            return genericPart;
-        }
-
-        StringBuilder result = new StringBuilder("<");
-        List<String> typeParams = parseGenericParameters(genericPart.substring(1, genericPart.length() - 1));
-
-        for (int i = 0; i < typeParams.size(); i++) {
-            if (i > 0) {
-                result.append(", ");
-            }
-            result.append(simplifyParameterType(typeParams.get(i)));
-        }
-
-        result.append(">");
-        return result.toString();
-    }
-
-    private List<String> parseGenericParameters(String genericContent) {
-        List<String> params = new ArrayList<>();
-        int start = 0;
-        int depth = 0;
-
-        for (int i = 0; i < genericContent.length(); i++) {
-            char c = genericContent.charAt(i);
-            if (c == '<') {
-                depth++;
-            } else if (c == '>') {
-                depth--;
-            } else if (c == ',' && depth == 0) {
-                // Found a parameter separator at the top level
-                String param = genericContent.substring(start, i).trim();
-                if (!param.isEmpty()) {
-                    params.add(param);
-                }
-                start = i + 1;
-            }
-        }
-
-        // Add the last parameter
-        String lastParam = genericContent.substring(start).trim();
-        if (!lastParam.isEmpty()) {
-            params.add(lastParam);
-        }
-
-        return params;
     }
 
     private String buildParameterListNamesOnly(Parameter[] parameters) {
@@ -510,7 +311,7 @@ public class BuilderClassGenerator {
         for (int i = 0; i < commonParams.size(); i++) {
             Parameter param = commonParams.get(i);
             String paramName = param.getName();
-            String typeName = param.getType().getSimpleName();
+            String typeName = param.getType().getCanonicalName();
 
             // Capitalize first letter for method name
             String capitalizedName = Character.toUpperCase(paramName.charAt(0)) + paramName.substring(1);

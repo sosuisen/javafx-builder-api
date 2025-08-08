@@ -44,7 +44,7 @@ public class TypeMappingManager {
 
         if (entry != null) {
             // Found match, process paramType with parsing
-            return parseAndReplace(paramType, entry);
+            return TypeParser.parseAndProcess(paramType, (token) -> replaceToken(token, entry));
         }
 
         // No match found, return original paramType
@@ -70,38 +70,6 @@ public class TypeMappingManager {
         }
 
         return null; // No match found
-    }
-
-    private static String parseAndReplace(String paramType, MappingEntry entry) {
-        StringBuilder result = new StringBuilder();
-        int i = 0;
-
-        while (i < paramType.length()) {
-            StringBuilder token = new StringBuilder();
-
-            // Parse one token - read characters until end of string or delimiters < , >
-            while (i < paramType.length()) {
-                char c = paramType.charAt(i);
-                if (c == '<' || c == ',' || c == '>') {
-                    break;
-                }
-                token.append(c);
-                i++;
-            }
-            // Process the token if it's not empty
-            if (token.length() > 0) {
-                String processedToken = replaceToken(token.toString(), entry);
-                result.append(processedToken);
-            }
-
-            // Add the delimiter character if we're not at the end
-            if (i < paramType.length()) {
-                result.append(paramType.charAt(i));
-                i++;
-            }
-        }
-
-        return result.toString();
     }
 
     private static String replaceToken(String token, MappingEntry entry) {
