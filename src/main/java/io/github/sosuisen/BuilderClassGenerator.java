@@ -53,8 +53,28 @@ public class BuilderClassGenerator {
         typeParametersExtends = getTypeParameterExtendsString(clazz);
         className = clazz.getCanonicalName();
         classNameWithTypeParameter = className + typeParameters;
-        builderClassName = clazz.getSimpleName() + "Builder";
-        builderClassNameWithTypeParameter = clazz.getSimpleName() + "Builder" + typeParameters;
+        builderClassName = createBuilderClassName();
+        builderClassNameWithTypeParameter = builderClassName + typeParameters;
+    }
+
+    private String createBuilderClassName() {
+        // Find the first uppercase letter
+        int firstUpperCaseIndex = -1;
+        for (int i = 0; i < className.length(); i++) {
+            if (Character.isUpperCase(className.charAt(i))) {
+                firstUpperCaseIndex = i;
+                break;
+            }
+        }
+
+        // If no uppercase letter found, use the entire className
+        if (firstUpperCaseIndex == -1) {
+            return className.replace(".", "") + "Builder";
+        }
+
+        // Extract substring from first uppercase letter onwards and remove dots
+        String result = className.substring(firstUpperCaseIndex).replace(".", "") + "Builder";
+        return result;
     }
 
     private static TemplateEngine initializeTemplateEngine() {
