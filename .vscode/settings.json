@@ -6,6 +6,14 @@
         {
             "command": "clean compile javafx:run -P javafx24",
             "debug": false
+        },
+        {
+            "command": "mvn compile -P javafx24,compile-builders",
+            "debug": false
+        },
+        {
+            "command": "mvn assembly:single -P javafx24,controls-jar",
+            "debug": false
         }
     ],
 }
