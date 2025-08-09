@@ -26,7 +26,7 @@ public class App extends Application {
     };
 
     private static final String[] OUTPUT_DIRS = {
-            "target/builder-classes/io/github/sosuisen/jfxbuilder",
+            // "target/builder-classes/io/github/sosuisen/jfxbuilder",
             "src/main/java/io/github/sosuisen/jfxbuilder"
     };
 

@@ -1,0 +1,16 @@
+<assembly>
+    <id>graphics</id>
+    <formats>
+        <format>jar</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>target/classes</directory>
+            <includes>
+                <include>io/github/sosuisen/jfxbuilder/graphics/**</include>
+            </includes>
+            <outputDirectory>/</outputDirectory>
+        </fileSet>
+    </fileSets>
+</assembly>
