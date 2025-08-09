@@ -1,4 +1,4 @@
-package io.github.sosuisen.jfxbuilder;
+package io.github.sosuisen.jfxbuilder.graphics;
 
 import javafx.event.EventHandler;
 import javafx.geometry.NodeOrientation;
