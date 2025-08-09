@@ -98,7 +98,27 @@ public class App extends Application {
                         && !Modifier.isAbstract(clazz.getModifiers())
                         && (!Modifier.isStatic(clazz.getModifiers())
                                 || (Modifier.isStatic(clazz.getModifiers()) && isInnerClass))) {
-                    BuilderClassGenerator generator = new BuilderClassGenerator(PACKAGE_NAME, OUTPUT_DIRS, clazz);
+                    // Get module name
+                    String moduleName = clazz.getModule().getName();
+
+                    // Extract second token from module name (e.g. controls from javafx.controls)
+                    String moduleToken = "";
+                    if (moduleName != null && moduleName.contains(".")) {
+                        String[] tokens = moduleName.split("\\.");
+                        if (tokens.length >= 2) {
+                            moduleToken = tokens[1];
+                        }
+                    }
+
+                    // Create dynamic package name and output directories
+                    String dynamicPackageName = PACKAGE_NAME + "." + moduleToken;
+                    String[] dynamicOutputDirs = new String[OUTPUT_DIRS.length];
+                    for (int i = 0; i < OUTPUT_DIRS.length; i++) {
+                        dynamicOutputDirs[i] = OUTPUT_DIRS[i] + "/" + moduleToken;
+                    }
+
+                    BuilderClassGenerator generator = new BuilderClassGenerator(dynamicPackageName, dynamicOutputDirs,
+                            clazz);
                     generator.generate();
                 }
             } catch (ClassNotFoundException e) {

@@ -1,4 +1,4 @@
-package io.github.sosuisen.jfxbuilder;
+package io.github.sosuisen.jfxbuilder.controls;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
