@@ -6,6 +6,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
+import java.util.regex.Pattern;
 
 import javafx.application.Application;
 import javafx.application.Platform;
@@ -89,9 +90,14 @@ public class App extends Application {
         for (String className : classes) {
             try {
                 Class<?> clazz = Class.forName(className);
+
+                Pattern innerClassPattern = Pattern.compile(".*\\$..+$");
+                boolean isInnerClass = innerClassPattern.matcher(className).matches();
+
                 if (Modifier.isPublic(clazz.getModifiers())
                         && !Modifier.isAbstract(clazz.getModifiers())
-                        && !Modifier.isStatic(clazz.getModifiers())) {
+                        && (!Modifier.isStatic(clazz.getModifiers())
+                                || (Modifier.isStatic(clazz.getModifiers()) && isInnerClass))) {
                     BuilderClassGenerator generator = new BuilderClassGenerator(PACKAGE_NAME, OUTPUT_DIRS, clazz);
                     generator.generate();
                 }
