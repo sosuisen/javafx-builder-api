@@ -13,6 +13,10 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import io.github.sosuisen.mapper.ClassAnnotationManager;
+import io.github.sosuisen.mapper.MethodAnnotationManager;
+import io.github.sosuisen.mapper.TypeMappingManager;
+
 import gg.jte.ContentType;
 import gg.jte.TemplateEngine;
 import gg.jte.TemplateOutput;
@@ -124,12 +128,15 @@ public class BuilderClassGenerator {
     }
 
     private String generateClassHeader() {
+        String classAnnotation = ClassAnnotationManager.getClassAnnotation(className);
+
         ClassHeaderModel model = ClassHeaderModel.create(
                 packageName,
                 builderClassName,
                 typeParameters,
                 typeParametersExtends,
-                classNameWithTypeParameter);
+                classNameWithTypeParameter,
+                classAnnotation);
 
         TemplateOutput output = new StringOutput();
         templateEngine.render("class-header.jte", model, output);
@@ -350,31 +357,31 @@ public class BuilderClassGenerator {
 
         for (Method method : methods) {
             if (method.getName().startsWith("set") && !java.lang.reflect.Modifier.isStatic(method.getModifiers())) {
-                content.append(parseSetter(method));
+
+                String methodName = method.getName().substring(3);
+                methodName = Character.toLowerCase(methodName.charAt(0)) + methodName.substring(1);
+
+                Parameter[] parameters = method.getParameters();
+                String parameterList = buildParameterListWithTypes(parameters);
+                String argumentList = buildParameterListNamesOnly(parameters);
+
+                String methodAnnotation = MethodAnnotationManager.getMethodAnnotation(className, method.getName());
+                SetterMethodModel model = SetterMethodModel.create(
+                        builderClassNameWithTypeParameter,
+                        methodName,
+                        parameterList,
+                        argumentList,
+                        method.getName(),
+                        methodAnnotation);
+
+                TemplateOutput output = new StringOutput();
+                templateEngine.render("setter-method.jte", model, output);
+
+                content.append(output.toString());
             }
         }
 
         return content.toString();
-    }
-
-    private String parseSetter(Method method) {
-        String methodName = method.getName().substring(3);
-        methodName = Character.toLowerCase(methodName.charAt(0)) + methodName.substring(1);
-
-        Parameter[] parameters = method.getParameters();
-        String parameterList = buildParameterListWithTypes(parameters);
-        String argumentList = buildParameterListNamesOnly(parameters);
-
-        SetterMethodModel model = SetterMethodModel.create(
-                builderClassNameWithTypeParameter,
-                methodName,
-                parameterList,
-                argumentList,
-                method.getName());
-
-        TemplateOutput output = new StringOutput();
-        templateEngine.render("setter-method.jte", model, output);
-        return output.toString();
     }
 
     private String generateSpecialMethods() {
@@ -418,10 +425,10 @@ public class BuilderClassGenerator {
                 Pattern pattern = Pattern.compile("<(.+)>$");
                 Matcher matcher = pattern.matcher(returnType);
                 if (matcher.find()) {
-                    String obseravableListTypeParameter = matcher.group(1);
+                    String observableListTypeParameter = matcher.group(1);
                     ChildrenMethodModel model = ChildrenMethodModel.create(builderClassName,
                             builderClassNameWithTypeParameter,
-                            obseravableListTypeParameter,
+                            observableListTypeParameter,
                             typeParametersExtends);
                     TemplateOutput output = new StringOutput();
                     templateEngine.render("children-methods.jte", model, output);
