@@ -8,7 +8,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <javafx.plugin.version>0.0.8</javafx.plugin.version>    
-    <maven.compiler.release>21</maven.compiler.release>
+    <maven.compiler.release>17</maven.compiler.release>
     <main.class>io.github.sosuisen.Launcher</main.class>
     <javafx.platform>win</javafx.platform>
   </properties>
