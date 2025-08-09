@@ -330,6 +330,7 @@ class TableViewBuilderTest {
         assertEquals(3, stringTableView.getItems().size());
     }
 
+    @SuppressWarnings("unchecked")
     @Test
     @DisplayName("Should handle columns correctly after creation")
     void shouldHandleColumnsCorrectlyAfterCreation() {

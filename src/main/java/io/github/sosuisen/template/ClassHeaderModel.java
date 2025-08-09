@@ -8,19 +8,22 @@ public record ClassHeaderModel(
         String builderClassName,
         String typeParameters,
         String typeParametersExtends,
-        String classNameWithTypeParameter) {
+        String classNameWithTypeParameter,
+        String classAnnotation) {
 
     public static ClassHeaderModel create(
             String packageName,
             String builderClassName,
             String typeParameters,
             String typeParametersExtends,
-            String classNameWithTypeParameter) {
+            String classNameWithTypeParameter,
+            String classAnnotation) {
         return new ClassHeaderModel(
                 packageName,
                 builderClassName,
                 typeParameters,
                 typeParametersExtends,
-                classNameWithTypeParameter);
+                classNameWithTypeParameter,
+                classAnnotation);
     }
 }

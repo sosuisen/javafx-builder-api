@@ -4,6 +4,7 @@
 
 package ${model.packageName()};
 
+${model.classAnnotation()}
 public class ${model.builderClassName()}${model.typeParametersExtends()} {
     private Object[] constructorArgs;
     private Object[] mandatoryParams;

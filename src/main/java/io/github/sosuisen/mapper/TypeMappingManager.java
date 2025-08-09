@@ -1,4 +1,7 @@
-package io.github.sosuisen;
+package io.github.sosuisen.mapper;
+
+import io.github.sosuisen.BuildInfo;
+import io.github.sosuisen.TypeParser;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -14,7 +17,8 @@ public class TypeMappingManager {
     }
 
     private static void loadTypeMappings() {
-        try (InputStream is = TypeMappingManager.class.getResourceAsStream("/type-mapping.properties")) {
+        try (InputStream is = TypeMappingManager.class
+                .getResourceAsStream("/mapper/" + BuildInfo.getJavaFXVersion() + "/type-mapping.properties")) {
             if (is != null) {
                 Properties props = new Properties();
                 props.load(is);
