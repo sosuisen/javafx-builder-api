@@ -8,12 +8,17 @@
             "debug": false
         },
         {
-            "command": "mvn compile -P javafx24,compile-builders",
+            "command": "compile -P javafx24,compile-builders",
             "debug": false
         },
         {
-            "command": "mvn assembly:single -P javafx24,controls-jar",
+            "command": "assembly:single -P javafx24,controls",
             "debug": false
-        }
+        },
+        {
+            "command": "assembly:single install -P javafx24,controls",
+            "debug": false
+        },
     ],
+    "maven.view": "flat",
 }

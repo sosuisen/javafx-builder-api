@@ -7,7 +7,7 @@
   <description>JavaFX Builder Class Generator</description>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <javafx.plugin.version>0.0.8</javafx.plugin.version>    
+    <javafx.plugin.version>0.0.8</javafx.plugin.version>
     <maven.compiler.release>17</maven.compiler.release>
     <main.class>io.github.sosuisen.Launcher</main.class>
     <javafx.platform>win</javafx.platform>
@@ -106,42 +106,7 @@
         <artifactId>maven-assembly-plugin</artifactId>
         <version>3.4.2</version>
       </plugin>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>build-helper-maven-plugin</artifactId>
-        <version>3.4.0</version>
-        <executions>
-          <execution>
-            <id>extract-javafx-major-version</id>
-            <phase>initialize</phase>
-            <goals>
-              <goal>regex-property</goal>
-            </goals>
-            <configuration>
-              <name>javafx.major.version</name>
-              <value>${javafx.version}</value>
-              <regex>^([0-9]+)\..*</regex>
-              <replacement>$1</replacement>
-              <failIfNoMatch>true</failIfNoMatch>
-            </configuration>
-          </execution>
-          <execution>
-            <id>set-combined-version</id>
-            <phase>initialize</phase>
-            <goals>
-              <goal>regex-property</goal>
-            </goals>
-            <configuration>
-              <name>combined.version</name>
-              <value>${javafx.major.version}.${project.version}</value>
-              <regex>(.*)</regex>
-              <replacement>$1</replacement>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
     </plugins>
-
     <resources>
       <resource>
         <directory>src/main/resources</directory>
@@ -158,12 +123,14 @@
       </activation>
       <properties>
         <javafx.version>24.0.0</javafx.version>
+        <javafx.major.version>24</javafx.major.version>
       </properties>
     </profile>
     <profile>
       <id>javafx24</id>
       <properties>
         <javafx.version>24.0.0</javafx.version>
+        <javafx.major.version>24</javafx.major.version>
       </properties>
     </profile>
     <profile>
@@ -195,7 +162,7 @@
               <descriptors>
                 <descriptor>controls-assembly.xml</descriptor>
               </descriptors>
-              <finalName>javafx-builder-controls-${combined.version}</finalName>
+              <finalName>javafx-builder-controls-${javafx.major.version}.${project.version}</finalName>
               <appendAssemblyId>false</appendAssemblyId>
             </configuration>
           </plugin>
@@ -211,10 +178,10 @@
                   <goal>install-file</goal>
                 </goals>
                 <configuration>
-                  <file>${project.build.directory}/javafx-builder-controls-${combined.version}.jar</file>
+                  <file>${project.build.directory}/javafx-builder-controls-${javafx.major.version}.${project.version}.jar</file>
                   <groupId>io.github.sosuisen</groupId>
                   <artifactId>javafx-builder-controls</artifactId>
-                  <version>${combined.version}</version>
+                  <version>${javafx.major.version}.${project.version}</version>
                   <packaging>jar</packaging>
                   <generatePom>true</generatePom>
                 </configuration>
@@ -235,7 +202,7 @@
               <descriptors>
                 <descriptor>graphics-assembly.xml</descriptor>
               </descriptors>
-              <finalName>javafx-builder-graphics-${combined.version}</finalName>
+              <finalName>javafx-builder-graphics-${javafx.major.version}.${project.version}</finalName>
               <appendAssemblyId>false</appendAssemblyId>
             </configuration>
           </plugin>
@@ -251,10 +218,10 @@
                   <goal>install-file</goal>
                 </goals>
                 <configuration>
-                  <file>${project.build.directory}/javafx-builder-graphics-${combined.version}.jar</file>
+                  <file>${project.build.directory}/javafx-builder-graphics-${javafx.major.version}.${project.version}.jar</file>
                   <groupId>io.github.sosuisen</groupId>
                   <artifactId>javafx-builder-graphics</artifactId>
-                  <version>${combined.version}</version>
+                  <version>${javafx.major.version}.${project.version}</version>
                   <packaging>jar</packaging>
                   <generatePom>true</generatePom>
                 </configuration>
@@ -275,7 +242,7 @@
               <descriptors>
                 <descriptor>web-assembly.xml</descriptor>
               </descriptors>
-              <finalName>javafx-builder-web-${combined.version}</finalName>
+              <finalName>javafx-builder-web-${javafx.major.version}.${project.version}</finalName>
               <appendAssemblyId>false</appendAssemblyId>
             </configuration>
           </plugin>
@@ -291,10 +258,10 @@
                   <goal>install-file</goal>
                 </goals>
                 <configuration>
-                  <file>${project.build.directory}/javafx-builder-web-${combined.version}.jar</file>
+                  <file>${project.build.directory}/javafx-builder-web-${javafx.major.version}.${project.version}.jar</file>
                   <groupId>io.github.sosuisen</groupId>
                   <artifactId>javafx-builder-web</artifactId>
-                  <version>${combined.version}</version>
+                  <version>${javafx.major.version}.${project.version}</version>
                   <packaging>jar</packaging>
                   <generatePom>true</generatePom>
                 </configuration>
@@ -315,7 +282,7 @@
               <descriptors>
                 <descriptor>media-assembly.xml</descriptor>
               </descriptors>
-              <finalName>javafx-builder-media-${combined.version}</finalName>
+              <finalName>javafx-builder-media-${javafx.major.version}.${project.version}</finalName>
               <appendAssemblyId>false</appendAssemblyId>
             </configuration>
           </plugin>
@@ -331,10 +298,10 @@
                   <goal>install-file</goal>
                 </goals>
                 <configuration>
-                  <file>${project.build.directory}/javafx-builder-media-${combined.version}.jar</file>
+                  <file>${project.build.directory}/javafx-builder-media-${javafx.major.version}.${project.version}.jar</file>
                   <groupId>io.github.sosuisen</groupId>
                   <artifactId>javafx-builder-media</artifactId>
-                  <version>${combined.version}</version>
+                  <version>${javafx.major.version}.${project.version}</version>
                   <packaging>jar</packaging>
                   <generatePom>true</generatePom>
                 </configuration>
