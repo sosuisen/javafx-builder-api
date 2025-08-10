@@ -8,8 +8,6 @@ import java.lang.reflect.Type;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -28,7 +26,6 @@ import io.github.sosuisen.template.BorderPaneMethodModel;
 import io.github.sosuisen.template.StyleClassMethodModel;
 import io.github.sosuisen.template.SetterMethodModel;
 import io.github.sosuisen.template.ApplyMethodModel;
-import io.github.sosuisen.template.WithMethodModel;
 import io.github.sosuisen.template.CreateMethodModel;
 import io.github.sosuisen.template.ClassHeaderModel;
 
@@ -166,38 +163,9 @@ public class BuilderClassGenerator {
     private String generateConstructors() {
         StringBuilder content = new StringBuilder();
         Constructor<?>[] constructors = clazz.getConstructors();
-        boolean hasDefaultConstructor = false;
 
-        // Check if there's a default constructor (no parameters)
         for (Constructor<?> constructor : constructors) {
-            if (constructor.getParameterCount() == 0) {
-                hasDefaultConstructor = true;
-                break;
-            }
-        }
-
-        // Generate constructors
-        if (hasDefaultConstructor) {
-            // Generate default constructor first
-            for (Constructor<?> constructor : constructors) {
-                if (constructor.getParameterCount() == 0) {
-                    content.append(generateCreateMethods(constructor));
-                    break;
-                }
-            }
-        } else {
-            // Find common parameters and generate withXXX method
-            List<Parameter> commonParams = findCommonParameters(constructors);
-            if (commonParams.size() > 0) {
-                content.append(generateWithMethods(commonParams));
-            }
-        }
-
-        // Always generate create(parameters) methods for ALL parameterized constructors
-        for (Constructor<?> constructor : constructors) {
-            if (constructor.getParameterCount() > 0) {
-                content.append(generateCreateMethods(constructor));
-            }
+            content.append(generateCreateMethods(constructor));
         }
 
         return content.toString();
@@ -265,89 +233,6 @@ public class BuilderClassGenerator {
             }
         }
         return argList.toString();
-    }
-
-    private List<Parameter> findCommonParameters(Constructor<?>[] constructors) {
-        if (constructors.length == 0)
-            return new ArrayList<>();
-
-        // Start with parameters from first constructor
-        List<Parameter> common = new ArrayList<>();
-        Constructor<?> firstConstructor = constructors[0];
-
-        // Find shortest constructor to determine maximum possible common parameters
-        int minParams = constructors[0].getParameterCount();
-        for (Constructor<?> constructor : constructors) {
-            minParams = Math.min(minParams, constructor.getParameterCount());
-        }
-
-        // Check each position up to minParams
-        for (int pos = 0; pos < minParams; pos++) {
-            Parameter candidate = firstConstructor.getParameters()[pos];
-
-            boolean isCommon = true;
-
-            // Check if this parameter position has same type across all constructors
-            for (Constructor<?> constructor : constructors) {
-                Parameter[] params = constructor.getParameters();
-                if (pos >= params.length || !params[pos].getType().equals(candidate.getType())) {
-                    isCommon = false;
-                    break;
-                }
-            }
-
-            if (isCommon) {
-                common.add(candidate);
-            } else {
-                break; // Stop at first non-common parameter
-            }
-        }
-
-        return common;
-    }
-
-    private String generateWithMethods(List<Parameter> commonParams) {
-        // Generate withXXX method name and parameters
-        StringBuilder methodName = new StringBuilder("with");
-        StringBuilder paramList = new StringBuilder();
-        StringBuilder argList = new StringBuilder();
-
-        for (int i = 0; i < commonParams.size(); i++) {
-            Parameter param = commonParams.get(i);
-
-            String paramType = param.getParameterizedType().getTypeName();
-            paramType = paramType.replaceAll("\\$", ".");
-
-            String paramName = param.getName();
-
-            // Capitalize first letter for method name
-            String capitalizedName = Character.toUpperCase(paramName.charAt(0)) + paramName.substring(1);
-            methodName.append(capitalizedName);
-            if (i < commonParams.size() - 1) {
-                methodName.append("And");
-            }
-
-            // Build parameter list
-            paramList.append(paramType).append(" ").append(paramName);
-            argList.append(paramName);
-            if (i < commonParams.size() - 1) {
-                paramList.append(", ");
-                argList.append(", ");
-            }
-        }
-
-        WithMethodModel model = WithMethodModel.create(
-                typeParameters,
-                typeParametersExtends,
-                builderClassNameWithTypeParameter,
-                builderClassName,
-                methodName.toString(),
-                paramList.toString(),
-                argList.toString());
-
-        TemplateOutput output = new StringOutput();
-        templateEngine.render("with-methods.jte", model, output);
-        return output.toString();
     }
 
     private String generateBuildMethod() {
