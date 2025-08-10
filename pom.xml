@@ -160,7 +160,7 @@
             <artifactId>maven-assembly-plugin</artifactId>
             <configuration>
               <descriptors>
-                <descriptor>controls-assembly.xml</descriptor>
+                <descriptor>${project.basedir}/assembly-descriptor/controls-assembly.xml</descriptor>
               </descriptors>
               <finalName>javafx-builder-controls-${javafx.major.version}.${project.version}</finalName>
               <appendAssemblyId>false</appendAssemblyId>
@@ -200,7 +200,7 @@
             <artifactId>maven-assembly-plugin</artifactId>
             <configuration>
               <descriptors>
-                <descriptor>graphics-assembly.xml</descriptor>
+                <descriptor>${project.basedir}/assembly-descriptor/graphics-assembly.xml</descriptor>
               </descriptors>
               <finalName>javafx-builder-graphics-${javafx.major.version}.${project.version}</finalName>
               <appendAssemblyId>false</appendAssemblyId>
@@ -240,7 +240,7 @@
             <artifactId>maven-assembly-plugin</artifactId>
             <configuration>
               <descriptors>
-                <descriptor>web-assembly.xml</descriptor>
+                <descriptor>${project.basedir}/assembly-descriptor/web-assembly.xml</descriptor>
               </descriptors>
               <finalName>javafx-builder-web-${javafx.major.version}.${project.version}</finalName>
               <appendAssemblyId>false</appendAssemblyId>
@@ -280,7 +280,7 @@
             <artifactId>maven-assembly-plugin</artifactId>
             <configuration>
               <descriptors>
-                <descriptor>media-assembly.xml</descriptor>
+                <descriptor>${project.basedir}/assembly-descriptor/media-assembly.xml</descriptor>
               </descriptors>
               <finalName>javafx-builder-media-${javafx.major.version}.${project.version}</finalName>
               <appendAssemblyId>false</appendAssemblyId>
