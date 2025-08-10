@@ -192,7 +192,8 @@ public class BuilderClassGenerator {
                     builderClassNameWithTypeParameter,
                     builderClassName,
                     parameterList,
-                    argumentList);
+                    argumentList,
+                    constructor.isVarArgs());
         }
 
         TemplateOutput output = new StringOutput();
