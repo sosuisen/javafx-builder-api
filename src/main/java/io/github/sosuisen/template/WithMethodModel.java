@@ -13,22 +13,6 @@ public record WithMethodModel(
         String paramList,
         String argList) {
 
-    public static WithMethodModel createEmpty(
-            String typeParameters,
-            String typeParametersExtends,
-            String builderClassNameWithTypeParameter,
-            String builderClassName) {
-        return new WithMethodModel(
-                typeParameters,
-                typeParametersExtends,
-                builderClassNameWithTypeParameter,
-                builderClassName,
-                false,
-                "",
-                "",
-                "");
-    }
-
     public static WithMethodModel create(
             String typeParameters,
             String typeParametersExtends,
