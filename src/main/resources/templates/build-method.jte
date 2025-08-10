@@ -5,7 +5,7 @@
     public ${model.returnType()} build() {
         ${model.returnType()} newInstance;
 @if(model.hasDefaultConstructor())
-        if (constructorArgs == null && mandatoryParams == null) {
+        if (constructorArgs == null) {
 @if(model.hasGenerics())
             newInstance = new ${model.className()}<>();
 @else
@@ -29,12 +29,11 @@
     private ${model.returnType()} callParameterizedConstructor() {
         ${model.returnType()} newInstance;        
         try {
-            Object[] args = (constructorArgs != null) ? constructorArgs : mandatoryParams;
             java.lang.reflect.Constructor<?>[] constructors = ${model.className()}.class.getConstructors();
             newInstance = null;
             for (java.lang.reflect.Constructor<?> constructor : constructors) {
-                if (constructor.getParameterCount() == args.length && isConstructorCompatible(constructor, args)) {
-                    newInstance = (${model.returnType()}) constructor.newInstance(args);
+                if (constructor.getParameterCount() == constructorArgs.length && isConstructorCompatible(constructor, constructorArgs)) {
+                    newInstance = (${model.returnType()}) constructor.newInstance(constructorArgs);
                     break;
                 }
             }
