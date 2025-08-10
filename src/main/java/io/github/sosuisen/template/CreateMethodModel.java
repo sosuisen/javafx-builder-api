@@ -10,7 +10,8 @@ public record CreateMethodModel(
         String builderClassName,
         boolean isDefaultConstructor,
         String parameterList,
-        String argumentList) {
+        String argumentList,
+        boolean isVarArgs) {
 
     public static CreateMethodModel createDefault(
             String typeParameters,
@@ -24,7 +25,8 @@ public record CreateMethodModel(
                 builderClassName,
                 true,
                 "",
-                "");
+                "",
+                false);
     }
 
     public static CreateMethodModel createParameterized(
@@ -33,7 +35,8 @@ public record CreateMethodModel(
             String builderClassNameWithTypeParameter,
             String builderClassName,
             String parameterList,
-            String argumentList) {
+            String argumentList,
+            boolean isVarArgs) {
         return new CreateMethodModel(
                 typeParameters,
                 typeParametersExtends,
@@ -41,6 +44,7 @@ public record CreateMethodModel(
                 builderClassName,
                 false,
                 parameterList,
-                argumentList);
+                argumentList,
+                isVarArgs);
     }
 }
