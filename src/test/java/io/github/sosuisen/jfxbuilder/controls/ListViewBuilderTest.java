@@ -26,7 +26,7 @@ class ListViewBuilderTest {
     @Test
     @DisplayName("Should create ListViewBuilder with default constructor")
     void shouldCreateListViewBuilderWithDefaultConstructor() {
-        ListViewBuilder<String> builder = ListViewBuilder.create();
+        ListViewBuilder<String> builder = new ListViewBuilder<>();
         assertNotNull(builder);
 
         ListView<String> listView = builder.build();
@@ -39,7 +39,7 @@ class ListViewBuilderTest {
     @DisplayName("Should create ListViewBuilder with items parameter")
     void shouldCreateListViewBuilderWithItems() {
         ObservableList<String> items = FXCollections.observableArrayList("Item 1", "Item 2", "Item 3");
-        ListViewBuilder<String> builder = ListViewBuilder.create(items);
+        ListViewBuilder<String> builder = new ListViewBuilder<>(items);
         assertNotNull(builder);
 
         ListView<String> listView = builder.build();
@@ -52,7 +52,7 @@ class ListViewBuilderTest {
     @DisplayName("Should set items property")
     void shouldSetItemsProperty() {
         ObservableList<String> items = FXCollections.observableArrayList("Test 1", "Test 2");
-        ListView<String> listView = ListViewBuilder.<String>create()
+        ListView<String> listView = new ListViewBuilder<String>()
                 .items(items)
                 .build();
 
@@ -64,7 +64,7 @@ class ListViewBuilderTest {
     @DisplayName("Should set orientation property")
     void shouldSetOrientationProperty() {
         Orientation expectedOrientation = Orientation.HORIZONTAL;
-        ListView<String> listView = ListViewBuilder.<String>create()
+        ListView<String> listView = new ListViewBuilder<String>()
                 .orientation(expectedOrientation)
                 .build();
 
@@ -74,7 +74,7 @@ class ListViewBuilderTest {
     @Test
     @DisplayName("Should set editable property")
     void shouldSetEditableProperty() {
-        ListView<String> listView = ListViewBuilder.<String>create()
+        ListView<String> listView = new ListViewBuilder<String>()
                 .editable(true)
                 .build();
 
@@ -85,7 +85,7 @@ class ListViewBuilderTest {
     @DisplayName("Should set fixedCellSize property")
     void shouldSetFixedCellSizeProperty() {
         double expectedCellSize = 50.0;
-        ListView<String> listView = ListViewBuilder.<String>create()
+        ListView<String> listView = new ListViewBuilder<String>()
                 .fixedCellSize(expectedCellSize)
                 .build();
 
@@ -96,7 +96,7 @@ class ListViewBuilderTest {
     @DisplayName("Should set placeholder property")
     void shouldSetPlaceholderProperty() {
         Label placeholder = new Label("No items available");
-        ListView<String> listView = ListViewBuilder.<String>create()
+        ListView<String> listView = new ListViewBuilder<String>()
                 .placeholder(placeholder)
                 .build();
 
@@ -109,7 +109,7 @@ class ListViewBuilderTest {
         double expectedWidth = 300.0;
         double expectedHeight = 200.0;
 
-        ListView<String> listView = ListViewBuilder.<String>create()
+        ListView<String> listView = new ListViewBuilder<String>()
                 .prefWidth(expectedWidth)
                 .prefHeight(expectedHeight)
                 .build();
@@ -122,7 +122,7 @@ class ListViewBuilderTest {
     @DisplayName("Should set ID")
     void shouldSetId() {
         String expectedId = "test-listview";
-        ListView<String> listView = ListViewBuilder.<String>create()
+        ListView<String> listView = new ListViewBuilder<String>()
                 .id(expectedId)
                 .build();
 
@@ -133,7 +133,7 @@ class ListViewBuilderTest {
     @DisplayName("Should set style")
     void shouldSetStyle() {
         String expectedStyle = "-fx-background-color: lightblue;";
-        ListView<String> listView = ListViewBuilder.<String>create()
+        ListView<String> listView = new ListViewBuilder<String>()
                 .style(expectedStyle)
                 .build();
 
@@ -143,7 +143,7 @@ class ListViewBuilderTest {
     @Test
     @DisplayName("Should set visible property")
     void shouldSetVisibleProperty() {
-        ListView<String> listView = ListViewBuilder.<String>create()
+        ListView<String> listView = new ListViewBuilder<String>()
                 .visible(false)
                 .build();
 
@@ -153,7 +153,7 @@ class ListViewBuilderTest {
     @Test
     @DisplayName("Should set managed property")
     void shouldSetManagedProperty() {
-        ListView<String> listView = ListViewBuilder.<String>create()
+        ListView<String> listView = new ListViewBuilder<String>()
                 .managed(false)
                 .build();
 
@@ -168,7 +168,7 @@ class ListViewBuilderTest {
         Orientation expectedOrientation = Orientation.VERTICAL;
         double expectedCellSize = 30.0;
 
-        ListView<String> listView = ListViewBuilder.<String>create()
+        ListView<String> listView = new ListViewBuilder<String>()
                 .items(items)
                 .orientation(expectedOrientation)
                 .id(expectedId)
@@ -190,7 +190,7 @@ class ListViewBuilderTest {
     void shouldApplyCustomConsumerFunction() {
         double customCellSize = 75.0;
 
-        ListView<String> listView = ListViewBuilder.<String>create()
+        ListView<String> listView = new ListViewBuilder<String>()
                 .apply(lv -> lv.setFixedCellSize(customCellSize))
                 .build();
 
@@ -200,7 +200,7 @@ class ListViewBuilderTest {
     @Test
     @DisplayName("Should create different instances on multiple build calls")
     void shouldCreateDifferentInstancesOnMultipleBuildCalls() {
-        ListViewBuilder<String> builder = ListViewBuilder.<String>create().fixedCellSize(25.0);
+        ListViewBuilder<String> builder = new ListViewBuilder<String>().fixedCellSize(25.0);
         ListView<String> firstBuild = builder.build();
         ListView<String> secondBuild = builder.build();
 
@@ -213,7 +213,7 @@ class ListViewBuilderTest {
     void shouldAllowIndependentModificationOfMultipleInstances() {
         ObservableList<String> items = FXCollections.observableArrayList("Shared Item");
 
-        ListViewBuilder<String> builder = ListViewBuilder.<String>create()
+        ListViewBuilder<String> builder = new ListViewBuilder<String>()
                 .fixedCellSize(20.0)
                 .items(items);
 
@@ -249,7 +249,7 @@ class ListViewBuilderTest {
     @DisplayName("Should support delayed initialization with parameterized constructor")
     void shouldSupportDelayedInitializationWithParameterizedConstructor() {
         ObservableList<String> constructorItems = FXCollections.observableArrayList("Constructor Item");
-        ListViewBuilder<String> builder = ListViewBuilder.create(constructorItems)
+        ListViewBuilder<String> builder = new ListViewBuilder<>(constructorItems)
                 .orientation(Orientation.HORIZONTAL)
                 .editable(true);
 
@@ -274,7 +274,7 @@ class ListViewBuilderTest {
     @DisplayName("Should handle null items gracefully")
     void shouldHandleNullItemsGracefully() {
         assertDoesNotThrow(() -> {
-            ListView<String> listView = ListViewBuilder.<String>create()
+            ListView<String> listView = new ListViewBuilder<String>()
                     .items(null)
                     .build();
             assertNotNull(listView);
@@ -286,7 +286,7 @@ class ListViewBuilderTest {
     @DisplayName("Should work with different generic types")
     void shouldWorkWithDifferentGenericTypes() {
         ObservableList<Integer> intItems = FXCollections.observableArrayList(1, 2, 3, 4, 5);
-        ListView<Integer> intListView = ListViewBuilder.<Integer>create(intItems)
+        ListView<Integer> intListView = new ListViewBuilder<Integer>(intItems)
                 .fixedCellSize(25.0)
                 .build();
 

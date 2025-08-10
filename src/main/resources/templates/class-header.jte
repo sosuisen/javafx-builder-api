@@ -8,5 +8,4 @@ ${model.classAnnotation()}
 public class ${model.builderClassName()}${model.typeParametersExtends()} {
     private Object[] constructorArgs;
     private java.util.List<java.util.function.Consumer<${model.classNameWithTypeParameter()}>> operations = new java.util.ArrayList<>();
-    private ${model.builderClassName()}() {}
     

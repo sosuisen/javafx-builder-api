@@ -25,7 +25,7 @@ class BorderPaneBuilderTest {
     @Test
     @DisplayName("Should create BorderPaneBuilder with default constructor")
     void shouldCreateBorderPaneBuilderWithDefaultConstructor() {
-        BorderPaneBuilder builder = BorderPaneBuilder.create();
+        BorderPaneBuilder builder = new BorderPaneBuilder();
         assertNotNull(builder);
 
         BorderPane borderPane = builder.build();
@@ -41,7 +41,7 @@ class BorderPaneBuilderTest {
     @DisplayName("Should create BorderPaneBuilder with center parameter")
     void shouldCreateBorderPaneBuilderWithCenter() {
         Button centerNode = new Button("Center");
-        BorderPaneBuilder builder = BorderPaneBuilder.create(centerNode);
+        BorderPaneBuilder builder = new BorderPaneBuilder(centerNode);
         assertNotNull(builder);
 
         BorderPane borderPane = builder.build();
@@ -58,7 +58,7 @@ class BorderPaneBuilderTest {
         Label bottomNode = new Label("Bottom");
         Label leftNode = new Label("Left");
 
-        BorderPaneBuilder builder = BorderPaneBuilder.create(centerNode, topNode, rightNode, bottomNode, leftNode);
+        BorderPaneBuilder builder = new BorderPaneBuilder(centerNode, topNode, rightNode, bottomNode, leftNode);
         assertNotNull(builder);
 
         BorderPane borderPane = builder.build();
@@ -74,7 +74,7 @@ class BorderPaneBuilderTest {
     @DisplayName("Should set center using instance method")
     void shouldSetCenterUsingInstanceMethod() {
         Button centerNode = new Button("Center");
-        BorderPane borderPane = BorderPaneBuilder.create()
+        BorderPane borderPane = new BorderPaneBuilder()
                 .center(centerNode)
                 .build();
 
@@ -85,7 +85,7 @@ class BorderPaneBuilderTest {
     @DisplayName("Should set top using instance method")
     void shouldSetTopUsingInstanceMethod() {
         Label topNode = new Label("Top");
-        BorderPane borderPane = BorderPaneBuilder.create()
+        BorderPane borderPane = new BorderPaneBuilder()
                 .top(topNode)
                 .build();
 
@@ -96,7 +96,7 @@ class BorderPaneBuilderTest {
     @DisplayName("Should set left using instance method")
     void shouldSetLeftUsingInstanceMethod() {
         Label leftNode = new Label("Left");
-        BorderPane borderPane = BorderPaneBuilder.create()
+        BorderPane borderPane = new BorderPaneBuilder()
                 .left(leftNode)
                 .build();
 
@@ -107,7 +107,7 @@ class BorderPaneBuilderTest {
     @DisplayName("Should set bottom using instance method")
     void shouldSetBottomUsingInstanceMethod() {
         Label bottomNode = new Label("Bottom");
-        BorderPane borderPane = BorderPaneBuilder.create()
+        BorderPane borderPane = new BorderPaneBuilder()
                 .bottom(bottomNode)
                 .build();
 
@@ -118,7 +118,7 @@ class BorderPaneBuilderTest {
     @DisplayName("Should set right using instance method")
     void shouldSetRightUsingInstanceMethod() {
         Label rightNode = new Label("Right");
-        BorderPane borderPane = BorderPaneBuilder.create()
+        BorderPane borderPane = new BorderPaneBuilder()
                 .right(rightNode)
                 .build();
 
@@ -126,79 +126,10 @@ class BorderPaneBuilderTest {
     }
 
     @Test
-    @DisplayName("Should set center using static method")
-    void shouldSetCenterUsingStaticMethod() {
-        Button centerNode = new Button("Static Center");
-        BorderPane borderPane = BorderPaneBuilder.withCenter(centerNode)
-                .build();
-
-        assertEquals(centerNode, borderPane.getCenter());
-    }
-
-    @Test
-    @DisplayName("Should set top using static method")
-    void shouldSetTopUsingStaticMethod() {
-        Label topNode = new Label("Static Top");
-        BorderPane borderPane = BorderPaneBuilder.withTop(topNode)
-                .build();
-
-        assertEquals(topNode, borderPane.getTop());
-    }
-
-    @Test
-    @DisplayName("Should set left using static method")
-    void shouldSetLeftUsingStaticMethod() {
-        Label leftNode = new Label("Static Left");
-        BorderPane borderPane = BorderPaneBuilder.withLeft(leftNode)
-                .build();
-
-        assertEquals(leftNode, borderPane.getLeft());
-    }
-
-    @Test
-    @DisplayName("Should set bottom using static method")
-    void shouldSetBottomUsingStaticMethod() {
-        Label bottomNode = new Label("Static Bottom");
-        BorderPane borderPane = BorderPaneBuilder.withBottom(bottomNode)
-                .build();
-
-        assertEquals(bottomNode, borderPane.getBottom());
-    }
-
-    @Test
-    @DisplayName("Should set right using static method")
-    void shouldSetRightUsingStaticMethod() {
-        Label rightNode = new Label("Static Right");
-        BorderPane borderPane = BorderPaneBuilder.withRight(rightNode)
-                .build();
-
-        assertEquals(rightNode, borderPane.getRight());
-    }
-
-    @Test
-    @DisplayName("Should chain static and instance methods")
-    void shouldChainStaticAndInstanceMethods() {
-        Button centerNode = new Button("Static Center");
-        Label topNode = new Label("Instance Top");
-        Label leftNode = new Label("Instance Left");
-
-        BorderPane borderPane = BorderPaneBuilder.withCenter(centerNode)
-                .top(topNode)
-                .left(leftNode)
-                .build();
-
-        assertEquals(centerNode, borderPane.getCenter());
-        assertEquals(topNode, borderPane.getTop());
-        assertEquals(leftNode, borderPane.getLeft());
-        assertNull(borderPane.getBottom());
-        assertNull(borderPane.getRight());
-    }
-
-    @Test
     @DisplayName("Should set padding")
     void shouldSetPadding() {
         Insets expectedPadding = new Insets(10, 15, 10, 15);
-        BorderPane borderPane = BorderPaneBuilder.create()
+        BorderPane borderPane = new BorderPaneBuilder()
                 .padding(expectedPadding)
                 .build();
 
@@ -211,7 +142,7 @@ class BorderPaneBuilderTest {
         double expectedWidth = 300.0;
         double expectedHeight = 200.0;
 
-        BorderPane borderPane = BorderPaneBuilder.create()
+        BorderPane borderPane = new BorderPaneBuilder()
                 .prefWidth(expectedWidth)
                 .prefHeight(expectedHeight)
                 .build();
@@ -224,7 +155,7 @@ class BorderPaneBuilderTest {
     @DisplayName("Should set ID")
     void shouldSetId() {
         String expectedId = "test-borderpane";
-        BorderPane borderPane = BorderPaneBuilder.create()
+        BorderPane borderPane = new BorderPaneBuilder()
                 .id(expectedId)
                 .build();
 
@@ -235,7 +166,7 @@ class BorderPaneBuilderTest {
     @DisplayName("Should set style")
     void shouldSetStyle() {
         String expectedStyle = "-fx-background-color: lightblue;";
-        BorderPane borderPane = BorderPaneBuilder.create()
+        BorderPane borderPane = new BorderPaneBuilder()
                 .style(expectedStyle)
                 .build();
 
@@ -246,7 +177,7 @@ class BorderPaneBuilderTest {
     @DisplayName("Should set opacity")
     void shouldSetOpacity() {
         double expectedOpacity = 0.8;
-        BorderPane borderPane = BorderPaneBuilder.create()
+        BorderPane borderPane = new BorderPaneBuilder()
                 .opacity(expectedOpacity)
                 .build();
 
@@ -256,7 +187,7 @@ class BorderPaneBuilderTest {
     @Test
     @DisplayName("Should set visible property")
     void shouldSetVisibleProperty() {
-        BorderPane borderPane = BorderPaneBuilder.create()
+        BorderPane borderPane = new BorderPaneBuilder()
                 .visible(false)
                 .build();
 
@@ -266,7 +197,7 @@ class BorderPaneBuilderTest {
     @Test
     @DisplayName("Should set managed property")
     void shouldSetManagedProperty() {
-        BorderPane borderPane = BorderPaneBuilder.create()
+        BorderPane borderPane = new BorderPaneBuilder()
                 .managed(false)
                 .build();
 
@@ -281,7 +212,7 @@ class BorderPaneBuilderTest {
         String expectedId = "chained-borderpane";
         double expectedWidth = 400.0;
 
-        BorderPane borderPane = BorderPaneBuilder.create()
+        BorderPane borderPane = new BorderPaneBuilder()
                 .center(centerNode)
                 .top(topNode)
                 .id(expectedId)
@@ -301,7 +232,7 @@ class BorderPaneBuilderTest {
     void shouldApplyCustomConsumerFunction() {
         Insets customPadding = new Insets(20);
 
-        BorderPane borderPane = BorderPaneBuilder.create()
+        BorderPane borderPane = new BorderPaneBuilder()
                 .apply(bp -> bp.setPadding(customPadding))
                 .build();
 
@@ -311,7 +242,7 @@ class BorderPaneBuilderTest {
     @Test
     @DisplayName("Should create different instances on multiple build calls")
     void shouldCreateDifferentInstancesOnMultipleBuildCalls() {
-        BorderPaneBuilder builder = BorderPaneBuilder.create()
+        BorderPaneBuilder builder = new BorderPaneBuilder()
                 .center(new Button("Test"));
         BorderPane firstBuild = builder.build();
         BorderPane secondBuild = builder.build();
@@ -326,7 +257,7 @@ class BorderPaneBuilderTest {
     @Test
     @DisplayName("Should allow independent modification of multiple instances from same builder")
     void shouldAllowIndependentModificationOfMultipleInstances() {
-        BorderPaneBuilder builder = BorderPaneBuilder.create()
+        BorderPaneBuilder builder = new BorderPaneBuilder()
                 .prefWidth(250.0)
                 .prefHeight(150.0);
 
@@ -365,7 +296,7 @@ class BorderPaneBuilderTest {
     @DisplayName("Should handle null parameters gracefully")
     void shouldHandleNullParametersGracefully() {
         assertDoesNotThrow(() -> {
-            BorderPane borderPane = BorderPaneBuilder.create()
+            BorderPane borderPane = new BorderPaneBuilder()
                     .center(null)
                     .top(null)
                     .id(null)
@@ -384,7 +315,7 @@ class BorderPaneBuilderTest {
         Label bottomNode = new Label("Bottom");
         Label leftNode = new Label("Left");
 
-        BorderPane borderPane = BorderPaneBuilder.create()
+        BorderPane borderPane = new BorderPaneBuilder()
                 .center(centerNode)
                 .top(topNode)
                 .right(rightNode)

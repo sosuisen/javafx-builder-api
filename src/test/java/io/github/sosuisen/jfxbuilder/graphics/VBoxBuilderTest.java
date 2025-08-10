@@ -27,7 +27,7 @@ class VBoxBuilderTest {
     @Test
     @DisplayName("Should create VBoxBuilder with default constructor")
     void shouldCreateVBoxBuilderWithDefaultConstructor() {
-        VBoxBuilder builder = VBoxBuilder.create();
+        VBoxBuilder builder = new VBoxBuilder();
         assertNotNull(builder);
 
         VBox vbox = builder.build();
@@ -40,7 +40,7 @@ class VBoxBuilderTest {
     @DisplayName("Should create VBoxBuilder with spacing parameter")
     void shouldCreateVBoxBuilderWithSpacing() {
         double expectedSpacing = 10.0;
-        VBoxBuilder builder = VBoxBuilder.create(expectedSpacing);
+        VBoxBuilder builder = new VBoxBuilder(expectedSpacing);
         assertNotNull(builder);
 
         VBox vbox = builder.build();
@@ -55,7 +55,7 @@ class VBoxBuilderTest {
         Label label1 = new Label("Label 1");
         Node[] children = { button1, label1 };
 
-        VBoxBuilder builder = VBoxBuilder.create(children);
+        VBoxBuilder builder = new VBoxBuilder(children);
         assertNotNull(builder);
 
         VBox vbox = builder.build();
@@ -73,7 +73,7 @@ class VBoxBuilderTest {
         Label label1 = new Label("Label 1");
         Node[] children = { button1, label1 };
 
-        VBoxBuilder builder = VBoxBuilder.create(expectedSpacing, children);
+        VBoxBuilder builder = new VBoxBuilder(expectedSpacing, children);
         assertNotNull(builder);
 
         VBox vbox = builder.build();
@@ -88,7 +88,7 @@ class VBoxBuilderTest {
     @DisplayName("Should set spacing property")
     void shouldSetSpacingProperty() {
         double expectedSpacing = 20.0;
-        VBox vbox = VBoxBuilder.create()
+        VBox vbox = new VBoxBuilder()
                 .spacing(expectedSpacing)
                 .build();
 
@@ -99,7 +99,7 @@ class VBoxBuilderTest {
     @DisplayName("Should set alignment property")
     void shouldSetAlignmentProperty() {
         Pos expectedAlignment = Pos.CENTER;
-        VBox vbox = VBoxBuilder.create()
+        VBox vbox = new VBoxBuilder()
                 .alignment(expectedAlignment)
                 .build();
 
@@ -109,7 +109,7 @@ class VBoxBuilderTest {
     @Test
     @DisplayName("Should set fillWidth property")
     void shouldSetFillWidthProperty() {
-        VBox vbox = VBoxBuilder.create()
+        VBox vbox = new VBoxBuilder()
                 .fillWidth(false)
                 .build();
 
@@ -120,7 +120,7 @@ class VBoxBuilderTest {
     @DisplayName("Should set padding property")
     void shouldSetPaddingProperty() {
         Insets expectedPadding = new Insets(10, 15, 10, 15);
-        VBox vbox = VBoxBuilder.create()
+        VBox vbox = new VBoxBuilder()
                 .padding(expectedPadding)
                 .build();
 
@@ -133,7 +133,7 @@ class VBoxBuilderTest {
         double expectedWidth = 300.0;
         double expectedHeight = 200.0;
 
-        VBox vbox = VBoxBuilder.create()
+        VBox vbox = new VBoxBuilder()
                 .prefWidth(expectedWidth)
                 .prefHeight(expectedHeight)
                 .build();
@@ -146,7 +146,7 @@ class VBoxBuilderTest {
     @DisplayName("Should set ID")
     void shouldSetId() {
         String expectedId = "test-vbox";
-        VBox vbox = VBoxBuilder.create()
+        VBox vbox = new VBoxBuilder()
                 .id(expectedId)
                 .build();
 
@@ -157,7 +157,7 @@ class VBoxBuilderTest {
     @DisplayName("Should set style")
     void shouldSetStyle() {
         String expectedStyle = "-fx-background-color: lightgray;";
-        VBox vbox = VBoxBuilder.create()
+        VBox vbox = new VBoxBuilder()
                 .style(expectedStyle)
                 .build();
 
@@ -167,7 +167,7 @@ class VBoxBuilderTest {
     @Test
     @DisplayName("Should set visible property")
     void shouldSetVisibleProperty() {
-        VBox vbox = VBoxBuilder.create()
+        VBox vbox = new VBoxBuilder()
                 .visible(false)
                 .build();
 
@@ -177,7 +177,7 @@ class VBoxBuilderTest {
     @Test
     @DisplayName("Should set managed property")
     void shouldSetManagedProperty() {
-        VBox vbox = VBoxBuilder.create()
+        VBox vbox = new VBoxBuilder()
                 .managed(false)
                 .build();
 
@@ -191,7 +191,7 @@ class VBoxBuilderTest {
         Button button2 = new Button("Button 2");
         Label label1 = new Label("Label 1");
 
-        VBox vbox = VBoxBuilder.create()
+        VBox vbox = new VBoxBuilder()
                 .children(button1, button2, label1)
                 .build();
 
@@ -209,7 +209,7 @@ class VBoxBuilderTest {
         Label label1 = new Label("Label 1");
         Label label2 = new Label("Label 2");
 
-        VBox vbox = VBoxBuilder.create()
+        VBox vbox = new VBoxBuilder()
                 .children(button1, button2)
                 .children(label1, label2)
                 .build();
@@ -274,7 +274,7 @@ class VBoxBuilderTest {
         String expectedId = "chained-vbox";
         Pos expectedAlignment = Pos.CENTER;
 
-        VBox vbox = VBoxBuilder.create()
+        VBox vbox = new VBoxBuilder()
                 .spacing(expectedSpacing)
                 .alignment(expectedAlignment)
                 .id(expectedId)
@@ -296,7 +296,7 @@ class VBoxBuilderTest {
     void shouldApplyCustomConsumerFunction() {
         double customSpacing = 25.0;
 
-        VBox vbox = VBoxBuilder.create()
+        VBox vbox = new VBoxBuilder()
                 .apply(vb -> vb.setSpacing(customSpacing))
                 .build();
 
@@ -306,7 +306,7 @@ class VBoxBuilderTest {
     @Test
     @DisplayName("Should create different instances on multiple build calls")
     void shouldCreateDifferentInstancesOnMultipleBuildCalls() {
-        VBoxBuilder builder = VBoxBuilder.create().spacing(10.0);
+        VBoxBuilder builder = new VBoxBuilder().spacing(10.0);
         VBox firstBuild = builder.build();
         VBox secondBuild = builder.build();
 
@@ -319,7 +319,7 @@ class VBoxBuilderTest {
     void shouldAllowIndependentModificationOfMultipleInstances() {
         Button sharedButton = new Button("Shared");
 
-        VBoxBuilder builder = VBoxBuilder.create()
+        VBoxBuilder builder = new VBoxBuilder()
                 .spacing(5.0)
                 .children(sharedButton);
 
@@ -353,7 +353,7 @@ class VBoxBuilderTest {
     @DisplayName("Should support delayed initialization with parameterized constructor")
     void shouldSupportDelayedInitializationWithParameterizedConstructor() {
         double constructorSpacing = 12.0;
-        VBoxBuilder builder = VBoxBuilder.create(constructorSpacing)
+        VBoxBuilder builder = new VBoxBuilder(constructorSpacing)
                 .alignment(Pos.CENTER)
                 .fillWidth(false);
 
@@ -378,7 +378,7 @@ class VBoxBuilderTest {
     @DisplayName("Should handle null children gracefully")
     void shouldHandleNullChildrenGracefully() {
         assertDoesNotThrow(() -> {
-            VBox vbox = VBoxBuilder.create()
+            VBox vbox = new VBoxBuilder()
                     .children((Node[]) null)
                     .build();
             assertNotNull(vbox);
@@ -393,7 +393,7 @@ class VBoxBuilderTest {
         Button validButton = new Button("Valid");
 
         assertDoesNotThrow(() -> {
-            VBox vbox = VBoxBuilder.create()
+            VBox vbox = new VBoxBuilder()
                     .children(validButton, null, new Label("Valid Label"))
                     .build();
             assertNotNull(vbox);
@@ -415,7 +415,7 @@ class VBoxBuilderTest {
 
         // If the import logic is working correctly, this should compile and run
         assertDoesNotThrow(() -> {
-            VBox vbox1 = VBoxBuilder.create(nodeArray).build();
+            VBox vbox1 = new VBoxBuilder(nodeArray).build();
             assertNotNull(vbox1);
             assertEquals(2, vbox1.getChildren().size());
         });

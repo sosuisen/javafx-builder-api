@@ -22,11 +22,10 @@ import gg.jte.output.StringOutput;
 import gg.jte.resolve.DirectoryCodeResolver;
 import io.github.sosuisen.template.BuildMethodModel;
 import io.github.sosuisen.template.ChildrenMethodModel;
-import io.github.sosuisen.template.BorderPaneMethodModel;
 import io.github.sosuisen.template.StyleClassMethodModel;
 import io.github.sosuisen.template.SetterMethodModel;
 import io.github.sosuisen.template.ApplyMethodModel;
-import io.github.sosuisen.template.CreateMethodModel;
+import io.github.sosuisen.template.ConstructorModel;
 import io.github.sosuisen.template.ClassHeaderModel;
 
 public class BuilderClassGenerator {
@@ -165,40 +164,30 @@ public class BuilderClassGenerator {
         Constructor<?>[] constructors = clazz.getConstructors();
 
         for (Constructor<?> constructor : constructors) {
-            content.append(generateCreateMethods(constructor));
+            Parameter[] parameters = constructor.getParameters();
+
+            ConstructorModel model;
+
+            if (parameters.length == 0) {
+                model = ConstructorModel.createDefault(
+                        builderClassName);
+            } else {
+                String parameterList = buildParameterListWithTypes(parameters, constructor.isVarArgs());
+                String argumentList = buildParameterListNamesOnly(parameters);
+
+                model = ConstructorModel.createParameterized(
+                        builderClassName,
+                        parameterList,
+                        argumentList,
+                        constructor.isVarArgs());
+            }
+
+            TemplateOutput output = new StringOutput();
+            templateEngine.render("constructor.jte", model, output);
+            content.append(output.toString());
         }
 
         return content.toString();
-    }
-
-    private String generateCreateMethods(Constructor<?> constructor) {
-        Parameter[] parameters = constructor.getParameters();
-
-        CreateMethodModel model;
-
-        if (parameters.length == 0) {
-            model = CreateMethodModel.createDefault(
-                    typeParameters,
-                    typeParametersExtends,
-                    builderClassNameWithTypeParameter,
-                    builderClassName);
-        } else {
-            String parameterList = buildParameterListWithTypes(parameters, constructor.isVarArgs());
-            String argumentList = buildParameterListNamesOnly(parameters);
-
-            model = CreateMethodModel.createParameterized(
-                    typeParameters,
-                    typeParametersExtends,
-                    builderClassNameWithTypeParameter,
-                    builderClassName,
-                    parameterList,
-                    argumentList,
-                    constructor.isVarArgs());
-        }
-
-        TemplateOutput output = new StringOutput();
-        templateEngine.render("create-method.jte", model, output);
-        return output.toString();
     }
 
     private String buildParameterListWithTypes(Parameter[] parameters, boolean isVarArgs) {
@@ -298,11 +287,6 @@ public class BuilderClassGenerator {
         // Check for getChildren method and generate children method
         content.append(generateChildrenMethod());
 
-        // Generate BorderPane specific static methods
-        if ("BorderPane".equals(clazz.getSimpleName())) {
-            content.append(generateBorderPaneMethods());
-        }
-
         return content.toString();
     }
 
@@ -323,6 +307,22 @@ public class BuilderClassGenerator {
     }
 
     private String generateChildrenMethod() {
+        StringBuilder content = new StringBuilder();
+        Constructor<?>[] constructors = clazz.getConstructors();
+        boolean hasDefaultConstructor = false;
+        for (Constructor<?> constructor : constructors) {
+            if (constructor.getParameterCount() == 0) {
+                hasDefaultConstructor = true;
+            }
+        }
+        if (!hasDefaultConstructor) {
+            ConstructorModel model = ConstructorModel.createPrivate(
+                    builderClassName);
+            TemplateOutput output = new StringOutput();
+            templateEngine.render("constructor.jte", model, output);
+            content.append(output.toString());
+        }
+
         try {
             Method getChildrenMethod = clazz.getMethod("getChildren");
             String returnType = getChildrenMethod.getGenericReturnType().getTypeName();
@@ -337,7 +337,7 @@ public class BuilderClassGenerator {
                             typeParametersExtends);
                     TemplateOutput output = new StringOutput();
                     templateEngine.render("children-methods.jte", model, output);
-                    return output.toString();
+                    return content.append(output.toString()).toString();
                 } else {
                     return "";
                 }
@@ -346,13 +346,6 @@ public class BuilderClassGenerator {
             // Class doesn't have getChildren method, skip
         }
         return "";
-    }
-
-    private String generateBorderPaneMethods() {
-        BorderPaneMethodModel model = BorderPaneMethodModel.create(clazz, builderClassName);
-        TemplateOutput output = new StringOutput();
-        templateEngine.render("borderpane-methods.jte", model, output);
-        return output.toString();
     }
 
     private void writeToFiles(String content) throws IOException {

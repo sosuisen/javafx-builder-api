@@ -54,7 +54,7 @@ class TableViewBuilderTest {
     @Test
     @DisplayName("Should create TableViewBuilder with default constructor")
     void shouldCreateTableViewBuilderWithDefaultConstructor() {
-        TableViewBuilder<Person> builder = TableViewBuilder.create();
+        TableViewBuilder<Person> builder = new TableViewBuilder<>();
         assertNotNull(builder);
 
         TableView<Person> tableView = builder.build();
@@ -71,7 +71,7 @@ class TableViewBuilderTest {
                 new Person("John", 25),
                 new Person("Jane", 30),
                 new Person("Bob", 35));
-        TableViewBuilder<Person> builder = TableViewBuilder.create(items);
+        TableViewBuilder<Person> builder = new TableViewBuilder<>(items);
         assertNotNull(builder);
 
         TableView<Person> tableView = builder.build();
@@ -86,7 +86,7 @@ class TableViewBuilderTest {
         ObservableList<Person> items = FXCollections.observableArrayList(
                 new Person("Alice", 28),
                 new Person("Charlie", 32));
-        TableView<Person> tableView = TableViewBuilder.<Person>create()
+        TableView<Person> tableView = new TableViewBuilder<Person>()
                 .items(items)
                 .build();
 
@@ -97,7 +97,7 @@ class TableViewBuilderTest {
     @Test
     @DisplayName("Should set editable property")
     void shouldSetEditableProperty() {
-        TableView<Person> tableView = TableViewBuilder.<Person>create()
+        TableView<Person> tableView = new TableViewBuilder<Person>()
                 .editable(true)
                 .build();
 
@@ -108,7 +108,7 @@ class TableViewBuilderTest {
     @DisplayName("Should set fixedCellSize property")
     void shouldSetFixedCellSizeProperty() {
         double expectedCellSize = 40.0;
-        TableView<Person> tableView = TableViewBuilder.<Person>create()
+        TableView<Person> tableView = new TableViewBuilder<Person>()
                 .fixedCellSize(expectedCellSize)
                 .build();
 
@@ -119,7 +119,7 @@ class TableViewBuilderTest {
     @DisplayName("Should set placeholder property")
     void shouldSetPlaceholderProperty() {
         Label placeholder = new Label("No data available");
-        TableView<Person> tableView = TableViewBuilder.<Person>create()
+        TableView<Person> tableView = new TableViewBuilder<Person>()
                 .placeholder(placeholder)
                 .build();
 
@@ -129,7 +129,7 @@ class TableViewBuilderTest {
     @Test
     @DisplayName("Should set tableMenuButtonVisible property")
     void shouldSetTableMenuButtonVisibleProperty() {
-        TableView<Person> tableView = TableViewBuilder.<Person>create()
+        TableView<Person> tableView = new TableViewBuilder<Person>()
                 .tableMenuButtonVisible(true)
                 .build();
 
@@ -142,7 +142,7 @@ class TableViewBuilderTest {
         double expectedWidth = 400.0;
         double expectedHeight = 300.0;
 
-        TableView<Person> tableView = TableViewBuilder.<Person>create()
+        TableView<Person> tableView = new TableViewBuilder<Person>()
                 .prefWidth(expectedWidth)
                 .prefHeight(expectedHeight)
                 .build();
@@ -155,7 +155,7 @@ class TableViewBuilderTest {
     @DisplayName("Should set ID")
     void shouldSetId() {
         String expectedId = "test-tableview";
-        TableView<Person> tableView = TableViewBuilder.<Person>create()
+        TableView<Person> tableView = new TableViewBuilder<Person>()
                 .id(expectedId)
                 .build();
 
@@ -166,7 +166,7 @@ class TableViewBuilderTest {
     @DisplayName("Should set style")
     void shouldSetStyle() {
         String expectedStyle = "-fx-background-color: lightgray;";
-        TableView<Person> tableView = TableViewBuilder.<Person>create()
+        TableView<Person> tableView = new TableViewBuilder<Person>()
                 .style(expectedStyle)
                 .build();
 
@@ -176,7 +176,7 @@ class TableViewBuilderTest {
     @Test
     @DisplayName("Should set visible property")
     void shouldSetVisibleProperty() {
-        TableView<Person> tableView = TableViewBuilder.<Person>create()
+        TableView<Person> tableView = new TableViewBuilder<Person>()
                 .visible(false)
                 .build();
 
@@ -186,7 +186,7 @@ class TableViewBuilderTest {
     @Test
     @DisplayName("Should set managed property")
     void shouldSetManagedProperty() {
-        TableView<Person> tableView = TableViewBuilder.<Person>create()
+        TableView<Person> tableView = new TableViewBuilder<Person>()
                 .managed(false)
                 .build();
 
@@ -202,7 +202,7 @@ class TableViewBuilderTest {
         String expectedId = "chained-tableview";
         double expectedCellSize = 45.0;
 
-        TableView<Person> tableView = TableViewBuilder.<Person>create()
+        TableView<Person> tableView = new TableViewBuilder<Person>()
                 .items(items)
                 .id(expectedId)
                 .fixedCellSize(expectedCellSize)
@@ -224,7 +224,7 @@ class TableViewBuilderTest {
     void shouldApplyCustomConsumerFunction() {
         double customCellSize = 55.0;
 
-        TableView<Person> tableView = TableViewBuilder.<Person>create()
+        TableView<Person> tableView = new TableViewBuilder<Person>()
                 .apply(tv -> tv.setFixedCellSize(customCellSize))
                 .build();
 
@@ -234,7 +234,7 @@ class TableViewBuilderTest {
     @Test
     @DisplayName("Should create different instances on multiple build calls")
     void shouldCreateDifferentInstancesOnMultipleBuildCalls() {
-        TableViewBuilder<Person> builder = TableViewBuilder.<Person>create().fixedCellSize(30.0);
+        TableViewBuilder<Person> builder = new TableViewBuilder<Person>().fixedCellSize(30.0);
         TableView<Person> firstBuild = builder.build();
         TableView<Person> secondBuild = builder.build();
 
@@ -247,7 +247,7 @@ class TableViewBuilderTest {
     void shouldAllowIndependentModificationOfMultipleInstances() {
         ObservableList<Person> items = FXCollections.observableArrayList(new Person("Shared", 50));
 
-        TableViewBuilder<Person> builder = TableViewBuilder.<Person>create()
+        TableViewBuilder<Person> builder = new TableViewBuilder<Person>()
                 .fixedCellSize(25.0)
                 .items(items);
 
@@ -283,7 +283,7 @@ class TableViewBuilderTest {
     @DisplayName("Should support delayed initialization with parameterized constructor")
     void shouldSupportDelayedInitializationWithParameterizedConstructor() {
         ObservableList<Person> constructorItems = FXCollections.observableArrayList(new Person("Constructor", 60));
-        TableViewBuilder<Person> builder = TableViewBuilder.create(constructorItems)
+        TableViewBuilder<Person> builder = new TableViewBuilder<>(constructorItems)
                 .editable(true)
                 .tableMenuButtonVisible(false);
 
@@ -308,7 +308,7 @@ class TableViewBuilderTest {
     @DisplayName("Should handle null items gracefully")
     void shouldHandleNullItemsGracefully() {
         assertDoesNotThrow(() -> {
-            TableView<Person> tableView = TableViewBuilder.<Person>create()
+            TableView<Person> tableView = new TableViewBuilder<Person>()
                     .items(null)
                     .build();
             assertNotNull(tableView);
@@ -320,7 +320,7 @@ class TableViewBuilderTest {
     @DisplayName("Should work with different generic types")
     void shouldWorkWithDifferentGenericTypes() {
         ObservableList<String> stringItems = FXCollections.observableArrayList("Item1", "Item2", "Item3");
-        TableView<String> stringTableView = TableViewBuilder.<String>create(stringItems)
+        TableView<String> stringTableView = new TableViewBuilder<String>(stringItems)
                 .fixedCellSize(35.0)
                 .build();
 
@@ -334,7 +334,7 @@ class TableViewBuilderTest {
     @Test
     @DisplayName("Should handle columns correctly after creation")
     void shouldHandleColumnsCorrectlyAfterCreation() {
-        TableView<Person> tableView = TableViewBuilder.<Person>create().build();
+        TableView<Person> tableView = new TableViewBuilder<Person>().build();
 
         // Add columns manually to verify table works correctly
         TableColumn<Person, String> nameColumn = new TableColumn<>("Name");

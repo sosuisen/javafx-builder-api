@@ -31,7 +31,7 @@ class ButtonBuilderTest {
     @Test
     @DisplayName("Should create ButtonBuilder with default constructor")
     void shouldCreateButtonBuilderWithDefaultConstructor() {
-        ButtonBuilder builder = ButtonBuilder.create();
+        ButtonBuilder builder = new ButtonBuilder();
         assertNotNull(builder);
 
         Button button = builder.build();
@@ -43,7 +43,7 @@ class ButtonBuilderTest {
     @DisplayName("Should create ButtonBuilder with text parameter")
     void shouldCreateButtonBuilderWithText() {
         String expectedText = "Test Button";
-        ButtonBuilder builder = ButtonBuilder.create(expectedText);
+        ButtonBuilder builder = new ButtonBuilder(expectedText);
         assertNotNull(builder);
 
         Button button = builder.build();
@@ -57,7 +57,7 @@ class ButtonBuilderTest {
         String expectedText = "Test Button";
         Button graphic = new Button("graphic");
 
-        ButtonBuilder builder = ButtonBuilder.create(expectedText, graphic);
+        ButtonBuilder builder = new ButtonBuilder(expectedText, graphic);
         assertNotNull(builder);
 
         Button button = builder.build();
@@ -70,7 +70,7 @@ class ButtonBuilderTest {
     @DisplayName("Should set text property")
     void shouldSetTextProperty() {
         String expectedText = "Updated Text";
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .text(expectedText)
                 .build();
 
@@ -80,7 +80,7 @@ class ButtonBuilderTest {
     @Test
     @DisplayName("Should set cancel button property")
     void shouldSetCancelButtonProperty() {
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .cancelButton(true)
                 .build();
 
@@ -90,7 +90,7 @@ class ButtonBuilderTest {
     @Test
     @DisplayName("Should set default button property")
     void shouldSetDefaultButtonProperty() {
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .defaultButton(true)
                 .build();
 
@@ -103,7 +103,7 @@ class ButtonBuilderTest {
         boolean[] actionCalled = { false };
         EventHandler<ActionEvent> handler = e -> actionCalled[0] = true;
 
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .onAction(handler)
                 .build();
 
@@ -113,7 +113,7 @@ class ButtonBuilderTest {
     @Test
     @DisplayName("Should set mnemonic parsing")
     void shouldSetMnemonicParsing() {
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .mnemonicParsing(false)
                 .build();
 
@@ -124,7 +124,7 @@ class ButtonBuilderTest {
     @DisplayName("Should set font")
     void shouldSetFont() {
         Font expectedFont = Font.font("Arial", 14);
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .font(expectedFont)
                 .build();
 
@@ -135,7 +135,7 @@ class ButtonBuilderTest {
     @DisplayName("Should set content display")
     void shouldSetContentDisplay() {
         ContentDisplay expectedDisplay = ContentDisplay.TOP;
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .contentDisplay(expectedDisplay)
                 .build();
 
@@ -145,7 +145,7 @@ class ButtonBuilderTest {
     @Test
     @DisplayName("Should set underline")
     void shouldSetUnderline() {
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .underline(true)
                 .build();
 
@@ -155,7 +155,7 @@ class ButtonBuilderTest {
     @Test
     @DisplayName("Should set wrap text")
     void shouldSetWrapText() {
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .wrapText(true)
                 .build();
 
@@ -166,7 +166,7 @@ class ButtonBuilderTest {
     @DisplayName("Should set graphic text gap")
     void shouldSetGraphicTextGap() {
         double expectedGap = 10.0;
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .graphicTextGap(expectedGap)
                 .build();
 
@@ -177,7 +177,7 @@ class ButtonBuilderTest {
     @DisplayName("Should set ellipsis string")
     void shouldSetEllipsisString() {
         String expectedEllipsis = "...";
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .ellipsisString(expectedEllipsis)
                 .build();
 
@@ -188,7 +188,7 @@ class ButtonBuilderTest {
     @DisplayName("Should set line spacing")
     void shouldSetLineSpacing() {
         double expectedSpacing = 5.0;
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .lineSpacing(expectedSpacing)
                 .build();
 
@@ -199,7 +199,7 @@ class ButtonBuilderTest {
     @DisplayName("Should set text alignment")
     void shouldSetTextAlignment() {
         TextAlignment expectedAlignment = TextAlignment.CENTER;
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .textAlignment(expectedAlignment)
                 .build();
 
@@ -210,7 +210,7 @@ class ButtonBuilderTest {
     @DisplayName("Should set alignment")
     void shouldSetAlignment() {
         Pos expectedAlignment = Pos.CENTER_RIGHT;
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .alignment(expectedAlignment)
                 .build();
 
@@ -221,7 +221,7 @@ class ButtonBuilderTest {
     @DisplayName("Should set text fill")
     void shouldSetTextFill() {
         Color expectedColor = Color.RED;
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .textFill(expectedColor)
                 .build();
 
@@ -234,7 +234,7 @@ class ButtonBuilderTest {
         double expectedWidth = 200.0;
         double expectedHeight = 50.0;
 
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .prefWidth(expectedWidth)
                 .prefHeight(expectedHeight)
                 .build();
@@ -247,7 +247,7 @@ class ButtonBuilderTest {
     @DisplayName("Should set padding")
     void shouldSetPadding() {
         Insets expectedPadding = new Insets(10, 15, 10, 15);
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .padding(expectedPadding)
                 .build();
 
@@ -258,7 +258,7 @@ class ButtonBuilderTest {
     @DisplayName("Should set cursor")
     void shouldSetCursor() {
         Cursor expectedCursor = Cursor.HAND;
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .cursor(expectedCursor)
                 .build();
 
@@ -268,7 +268,7 @@ class ButtonBuilderTest {
     @Test
     @DisplayName("Should set disable property")
     void shouldSetDisableProperty() {
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .disable(true)
                 .build();
 
@@ -279,7 +279,7 @@ class ButtonBuilderTest {
     @DisplayName("Should set ID")
     void shouldSetId() {
         String expectedId = "test-button";
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .id(expectedId)
                 .build();
 
@@ -290,7 +290,7 @@ class ButtonBuilderTest {
     @DisplayName("Should set style")
     void shouldSetStyle() {
         String expectedStyle = "-fx-background-color: blue;";
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .style(expectedStyle)
                 .build();
 
@@ -301,7 +301,7 @@ class ButtonBuilderTest {
     @DisplayName("Should set opacity")
     void shouldSetOpacity() {
         double expectedOpacity = 0.7;
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .opacity(expectedOpacity)
                 .build();
 
@@ -311,7 +311,7 @@ class ButtonBuilderTest {
     @Test
     @DisplayName("Should set visible property")
     void shouldSetVisibleProperty() {
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .visible(false)
                 .build();
 
@@ -321,7 +321,7 @@ class ButtonBuilderTest {
     @Test
     @DisplayName("Should set managed property")
     void shouldSetManagedProperty() {
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .managed(false)
                 .build();
 
@@ -335,7 +335,7 @@ class ButtonBuilderTest {
         String expectedId = "chained-button";
         double expectedWidth = 150.0;
 
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .text(expectedText)
                 .id(expectedId)
                 .prefWidth(expectedWidth)
@@ -355,7 +355,7 @@ class ButtonBuilderTest {
     void shouldApplyCustomConsumerFunction() {
         String customText = "Custom Function";
 
-        Button button = ButtonBuilder.create()
+        Button button = new ButtonBuilder()
                 .apply(btn -> btn.setText(customText))
                 .build();
 
@@ -365,7 +365,7 @@ class ButtonBuilderTest {
     @Test
     @DisplayName("Should create different instances on multiple build calls - delayed initialization")
     void shouldCreateDifferentInstancesOnMultipleBuildCalls() {
-        ButtonBuilder builder = ButtonBuilder.create().text("Test");
+        ButtonBuilder builder = new ButtonBuilder().text("Test");
         Button firstBuild = builder.build();
         Button secondBuild = builder.build();
 
@@ -376,7 +376,7 @@ class ButtonBuilderTest {
     @Test
     @DisplayName("Should allow independent modification of multiple instances from same builder")
     void shouldAllowIndependentModificationOfMultipleInstances() {
-        ButtonBuilder builder = ButtonBuilder.create()
+        ButtonBuilder builder = new ButtonBuilder()
                 .text("Original Text")
                 .prefWidth(100.0);
 
@@ -412,7 +412,7 @@ class ButtonBuilderTest {
     @DisplayName("Should support delayed initialization with multiple instances from parameterized constructor")
     void shouldSupportDelayedInitializationWithMultipleInstancesFromParameterizedConstructor() {
         String constructorText = "Constructor Text";
-        ButtonBuilder builder = ButtonBuilder.create(constructorText)
+        ButtonBuilder builder = new ButtonBuilder(constructorText)
                 .defaultButton(true)
                 .prefWidth(150.0);
 
@@ -436,7 +436,7 @@ class ButtonBuilderTest {
     @Test
     @DisplayName("Should create multiple instances with complex builder operations")
     void shouldCreateMultipleInstancesWithComplexBuilderOperations() {
-        ButtonBuilder builder = ButtonBuilder.create("Shared Button")
+        ButtonBuilder builder = new ButtonBuilder("Shared Button")
                 .defaultButton(true)
                 .prefWidth(200.0)
                 .prefHeight(50.0)
@@ -482,7 +482,7 @@ class ButtonBuilderTest {
     @DisplayName("Should handle null parameters gracefully")
     void shouldHandleNullParametersGracefully() {
         assertDoesNotThrow(() -> {
-            Button button = ButtonBuilder.create()
+            Button button = new ButtonBuilder()
                     .text(null)
                     .id(null)
                     .style(null)
