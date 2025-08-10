@@ -35,19 +35,8 @@ class SceneBuilderTest {
     }
 
     @Test
-    @DisplayName("Should create SceneBuilder with root parameter using withRoot")
-    void shouldCreateSceneBuilderWithRoot() {
-        SceneBuilder builder = SceneBuilder.withRoot(rootNode);
-        assertNotNull(builder);
-
-        Scene scene = builder.build();
-        assertNotNull(scene);
-        assertEquals(rootNode, scene.getRoot());
-    }
-
-    @Test
     @DisplayName("Should create SceneBuilder with root parameter using create")
-    void shouldCreateSceneBuilderWithRootUsingCreate() {
+    void shouldCreateSceneBuildercreateUsingCreate() {
         SceneBuilder builder = SceneBuilder.create(rootNode);
         assertNotNull(builder);
 
@@ -121,7 +110,7 @@ class SceneBuilderTest {
     @DisplayName("Should set root using builder method")
     void shouldSetRootUsingBuilderMethod() {
         Parent newRoot = new Button("Test Button");
-        Scene scene = SceneBuilder.withRoot(rootNode)
+        Scene scene = SceneBuilder.create(rootNode)
                 .root(newRoot)
                 .build();
 
@@ -132,7 +121,7 @@ class SceneBuilderTest {
     @DisplayName("Should set fill using builder method")
     void shouldSetFillUsingBuilderMethod() {
         Paint expectedFill = Color.GREEN;
-        Scene scene = SceneBuilder.withRoot(rootNode)
+        Scene scene = SceneBuilder.create(rootNode)
                 .fill(expectedFill)
                 .build();
 
@@ -143,7 +132,7 @@ class SceneBuilderTest {
     @DisplayName("Should set user agent stylesheet")
     void shouldSetUserAgentStylesheet() {
         String expectedStylesheet = "test-stylesheet.css";
-        Scene scene = SceneBuilder.withRoot(rootNode)
+        Scene scene = SceneBuilder.create(rootNode)
                 .userAgentStylesheet(expectedStylesheet)
                 .build();
 
@@ -154,7 +143,7 @@ class SceneBuilderTest {
     @DisplayName("Should set cursor")
     void shouldSetCursor() {
         Cursor expectedCursor = Cursor.CROSSHAIR;
-        Scene scene = SceneBuilder.withRoot(rootNode)
+        Scene scene = SceneBuilder.create(rootNode)
                 .cursor(expectedCursor)
                 .build();
 
@@ -165,7 +154,7 @@ class SceneBuilderTest {
     @DisplayName("Should set node orientation")
     void shouldSetNodeOrientation() {
         NodeOrientation expectedOrientation = NodeOrientation.RIGHT_TO_LEFT;
-        Scene scene = SceneBuilder.withRoot(rootNode)
+        Scene scene = SceneBuilder.create(rootNode)
                 .nodeOrientation(expectedOrientation)
                 .build();
 
@@ -176,7 +165,7 @@ class SceneBuilderTest {
     @DisplayName("Should set user data")
     void shouldSetUserData() {
         String expectedUserData = "test-data";
-        Scene scene = SceneBuilder.withRoot(rootNode)
+        Scene scene = SceneBuilder.create(rootNode)
                 .userData(expectedUserData)
                 .build();
 
@@ -189,7 +178,7 @@ class SceneBuilderTest {
         boolean[] keyPressed = { false };
         EventHandler<KeyEvent> handler = e -> keyPressed[0] = true;
 
-        Scene scene = SceneBuilder.withRoot(rootNode)
+        Scene scene = SceneBuilder.create(rootNode)
                 .onKeyPressed(handler)
                 .build();
 
@@ -202,7 +191,7 @@ class SceneBuilderTest {
         boolean[] keyReleased = { false };
         EventHandler<KeyEvent> handler = e -> keyReleased[0] = true;
 
-        Scene scene = SceneBuilder.withRoot(rootNode)
+        Scene scene = SceneBuilder.create(rootNode)
                 .onKeyReleased(handler)
                 .build();
 
@@ -215,7 +204,7 @@ class SceneBuilderTest {
         boolean[] keyTyped = { false };
         EventHandler<KeyEvent> handler = e -> keyTyped[0] = true;
 
-        Scene scene = SceneBuilder.withRoot(rootNode)
+        Scene scene = SceneBuilder.create(rootNode)
                 .onKeyTyped(handler)
                 .build();
 
@@ -228,7 +217,7 @@ class SceneBuilderTest {
         boolean[] mouseClicked = { false };
         EventHandler<MouseEvent> handler = e -> mouseClicked[0] = true;
 
-        Scene scene = SceneBuilder.withRoot(rootNode)
+        Scene scene = SceneBuilder.create(rootNode)
                 .onMouseClicked(handler)
                 .build();
 
@@ -241,7 +230,7 @@ class SceneBuilderTest {
         boolean[] mousePressed = { false };
         EventHandler<MouseEvent> handler = e -> mousePressed[0] = true;
 
-        Scene scene = SceneBuilder.withRoot(rootNode)
+        Scene scene = SceneBuilder.create(rootNode)
                 .onMousePressed(handler)
                 .build();
 
@@ -254,7 +243,7 @@ class SceneBuilderTest {
         boolean[] mouseReleased = { false };
         EventHandler<MouseEvent> handler = e -> mouseReleased[0] = true;
 
-        Scene scene = SceneBuilder.withRoot(rootNode)
+        Scene scene = SceneBuilder.create(rootNode)
                 .onMouseReleased(handler)
                 .build();
 
@@ -267,7 +256,7 @@ class SceneBuilderTest {
         boolean[] mouseEntered = { false };
         EventHandler<MouseEvent> handler = e -> mouseEntered[0] = true;
 
-        Scene scene = SceneBuilder.withRoot(rootNode)
+        Scene scene = SceneBuilder.create(rootNode)
                 .onMouseEntered(handler)
                 .build();
 
@@ -280,7 +269,7 @@ class SceneBuilderTest {
         boolean[] mouseExited = { false };
         EventHandler<MouseEvent> handler = e -> mouseExited[0] = true;
 
-        Scene scene = SceneBuilder.withRoot(rootNode)
+        Scene scene = SceneBuilder.create(rootNode)
                 .onMouseExited(handler)
                 .build();
 
@@ -293,7 +282,7 @@ class SceneBuilderTest {
         boolean[] mouseMoved = { false };
         EventHandler<MouseEvent> handler = e -> mouseMoved[0] = true;
 
-        Scene scene = SceneBuilder.withRoot(rootNode)
+        Scene scene = SceneBuilder.create(rootNode)
                 .onMouseMoved(handler)
                 .build();
 
@@ -306,7 +295,7 @@ class SceneBuilderTest {
         boolean[] mouseDragged = { false };
         EventHandler<MouseEvent> handler = e -> mouseDragged[0] = true;
 
-        Scene scene = SceneBuilder.withRoot(rootNode)
+        Scene scene = SceneBuilder.create(rootNode)
                 .onMouseDragged(handler)
                 .build();
 
@@ -320,7 +309,7 @@ class SceneBuilderTest {
         Cursor expectedCursor = Cursor.WAIT;
         String expectedUserData = "chained-scene";
 
-        Scene scene = SceneBuilder.withRoot(rootNode)
+        Scene scene = SceneBuilder.create(rootNode)
                 .fill(expectedFill)
                 .cursor(expectedCursor)
                 .userData(expectedUserData)
@@ -339,7 +328,7 @@ class SceneBuilderTest {
     void shouldApplyCustomConsumerFunction() {
         Paint customFill = Color.PURPLE;
 
-        Scene scene = SceneBuilder.withRoot(rootNode)
+        Scene scene = SceneBuilder.create(rootNode)
                 .apply(sc -> sc.setFill(customFill))
                 .build();
 
@@ -350,7 +339,7 @@ class SceneBuilderTest {
     @DisplayName("Should handle null parameters gracefully")
     void shouldHandleNullParametersGracefully() {
         assertDoesNotThrow(() -> {
-            Scene scene = SceneBuilder.withRoot(rootNode)
+            Scene scene = SceneBuilder.create(rootNode)
                     .userAgentStylesheet(null)
                     .userData(null)
                     .build();
@@ -362,7 +351,7 @@ class SceneBuilderTest {
     @DisplayName("Should throw exception when root is null")
     void shouldThrowExceptionWhenRootIsNull() {
         assertThrows(RuntimeException.class, () -> {
-            SceneBuilder.withRoot(null).build();
+            SceneBuilder.create(null).build();
         });
     }
 }
