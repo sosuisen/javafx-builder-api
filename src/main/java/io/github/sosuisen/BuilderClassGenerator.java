@@ -215,7 +215,7 @@ public class BuilderClassGenerator {
                     builderClassNameWithTypeParameter,
                     builderClassName);
         } else {
-            String parameterList = buildParameterListWithTypes(parameters);
+            String parameterList = buildParameterListWithTypes(parameters, constructor.isVarArgs());
             String argumentList = buildParameterListNamesOnly(parameters);
 
             model = CreateMethodModel.createParameterized(
@@ -232,11 +232,15 @@ public class BuilderClassGenerator {
         return output.toString();
     }
 
-    private String buildParameterListWithTypes(Parameter[] parameters) {
+    private String buildParameterListWithTypes(Parameter[] parameters, boolean isVarArgs) {
         StringBuilder paramList = new StringBuilder();
         for (int i = 0; i < parameters.length; i++) {
             Parameter param = parameters[i];
+
             String paramType = param.getParameterizedType().getTypeName();
+            if (isVarArgs) {
+                paramType = paramType.replace("[]", "...");
+            }
             paramType = paramType.replaceAll("\\$", ".");
 
             // Check for type replacement first
@@ -377,7 +381,7 @@ public class BuilderClassGenerator {
                 methodName = Character.toLowerCase(methodName.charAt(0)) + methodName.substring(1);
 
                 Parameter[] parameters = method.getParameters();
-                String parameterList = buildParameterListWithTypes(parameters);
+                String parameterList = buildParameterListWithTypes(parameters, method.isVarArgs());
                 String argumentList = buildParameterListNamesOnly(parameters);
 
                 String methodAnnotation = MethodAnnotationManager.getMethodAnnotation(className, method.getName());
