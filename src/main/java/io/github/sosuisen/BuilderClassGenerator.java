@@ -188,7 +188,9 @@ public class BuilderClassGenerator {
         } else {
             // Find common parameters and generate withXXX method
             List<Parameter> commonParams = findCommonParameters(constructors);
-            content.append(generateWithMethods(commonParams));
+            if (commonParams.size() > 0) {
+                content.append(generateWithMethods(commonParams));
+            }
         }
 
         // Always generate create(parameters) methods for ALL parameterized constructors
@@ -301,50 +303,43 @@ public class BuilderClassGenerator {
     }
 
     private String generateWithMethods(List<Parameter> commonParams) {
-        WithMethodModel model;
+        // Generate withXXX method name and parameters
+        StringBuilder methodName = new StringBuilder("with");
+        StringBuilder paramList = new StringBuilder();
+        StringBuilder argList = new StringBuilder();
 
-        if (commonParams.isEmpty()) {
-            model = WithMethodModel.createEmpty(typeParameters, typeParametersExtends,
-                    builderClassNameWithTypeParameter, builderClassName);
-        } else {
-            // Generate withXXX method name and parameters
-            StringBuilder methodName = new StringBuilder("with");
-            StringBuilder paramList = new StringBuilder();
-            StringBuilder argList = new StringBuilder();
+        for (int i = 0; i < commonParams.size(); i++) {
+            Parameter param = commonParams.get(i);
 
-            for (int i = 0; i < commonParams.size(); i++) {
-                Parameter param = commonParams.get(i);
+            String paramType = param.getParameterizedType().getTypeName();
+            paramType = paramType.replaceAll("\\$", ".");
 
-                String paramType = param.getParameterizedType().getTypeName();
-                paramType = paramType.replaceAll("\\$", ".");
+            String paramName = param.getName();
 
-                String paramName = param.getName();
-
-                // Capitalize first letter for method name
-                String capitalizedName = Character.toUpperCase(paramName.charAt(0)) + paramName.substring(1);
-                methodName.append(capitalizedName);
-                if (i < commonParams.size() - 1) {
-                    methodName.append("And");
-                }
-
-                // Build parameter list
-                paramList.append(paramType).append(" ").append(paramName);
-                argList.append(paramName);
-                if (i < commonParams.size() - 1) {
-                    paramList.append(", ");
-                    argList.append(", ");
-                }
+            // Capitalize first letter for method name
+            String capitalizedName = Character.toUpperCase(paramName.charAt(0)) + paramName.substring(1);
+            methodName.append(capitalizedName);
+            if (i < commonParams.size() - 1) {
+                methodName.append("And");
             }
 
-            model = WithMethodModel.create(
-                    typeParameters,
-                    typeParametersExtends,
-                    builderClassNameWithTypeParameter,
-                    builderClassName,
-                    methodName.toString(),
-                    paramList.toString(),
-                    argList.toString());
+            // Build parameter list
+            paramList.append(paramType).append(" ").append(paramName);
+            argList.append(paramName);
+            if (i < commonParams.size() - 1) {
+                paramList.append(", ");
+                argList.append(", ");
+            }
         }
+
+        WithMethodModel model = WithMethodModel.create(
+                typeParameters,
+                typeParametersExtends,
+                builderClassNameWithTypeParameter,
+                builderClassName,
+                methodName.toString(),
+                paramList.toString(),
+                argList.toString());
 
         TemplateOutput output = new StringOutput();
         templateEngine.render("with-methods.jte", model, output);
