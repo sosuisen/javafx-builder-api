@@ -27,6 +27,7 @@ import io.github.sosuisen.template.StyleClassMethodModel;
 import io.github.sosuisen.template.SetterMethodModel;
 import io.github.sosuisen.template.ApplyMethodModel;
 import io.github.sosuisen.template.CreateMethodModel;
+import io.github.sosuisen.template.GridPaneMethodModel;
 import io.github.sosuisen.template.ClassHeaderModel;
 
 public class BuilderClassGenerator {
@@ -303,6 +304,10 @@ public class BuilderClassGenerator {
             content.append(generateBorderPaneMethods());
         }
 
+        if ("GridPane".equals(clazz.getSimpleName())) {
+            content.append(generateGridPaneMethods());
+        }
+
         return content.toString();
     }
 
@@ -352,6 +357,13 @@ public class BuilderClassGenerator {
         BorderPaneMethodModel model = BorderPaneMethodModel.create(clazz, builderClassName);
         TemplateOutput output = new StringOutput();
         templateEngine.render("borderpane-methods.jte", model, output);
+        return output.toString();
+    }
+
+    private String generateGridPaneMethods() {
+        GridPaneMethodModel model = GridPaneMethodModel.create(builderClassName);
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("gridpane-methods.jte", model, output);
         return output.toString();
     }
 
