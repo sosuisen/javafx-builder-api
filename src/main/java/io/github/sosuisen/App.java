@@ -2,18 +2,17 @@ package io.github.sosuisen;
 
 import java.io.IOException;
 import java.lang.reflect.Modifier;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.jar.JarEntry;
-import java.util.jar.JarFile;
 import java.util.regex.Pattern;
+
+import io.github.sosuisen.extractor.JarExtractor;
+import io.github.sosuisen.extractor.LayoutConstraintsExtractor;
+import io.github.sosuisen.extractor.StaticSetterInfo;
 
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.stage.Stage;
 
 import java.util.List;
-import java.util.ArrayList;
 
 public class App extends Application {
 
@@ -26,26 +25,41 @@ public class App extends Application {
     };
 
     private static final String[] OUTPUT_DIRS = {
-            // "target/builder-classes/io/github/sosuisen/jfxbuilder",
             "src/main/java/io/github/sosuisen/jfxbuilder"
     };
 
+    private List<StaticSetterInfo> staticSetters;
+
     @Override
     public void start(Stage stage) throws IOException {
-        startGenerateBuilderClasses();
+        showVersionInfo();
+
+        staticSetters = extractLayoutConstraints();
+
+        generateBuilderClassesFromJars();
+
         Platform.exit();
     }
 
-    private void startGenerateBuilderClasses() {
-        String javaFxVersion = BuildInfo.getJavaFXVersion();
-        String javaFxPlatform = BuildInfo.getJavaFXPlatform();
-        System.out.println("JavaFX Version: " + javaFxVersion);
-        System.out.println("JavaFX Platform: " + javaFxPlatform);
+    private void showVersionInfo() {
+        System.out.println("JavaFX Version: " + BuildInfo.getJavaFXVersion());
+        System.out.println("JavaFX Platform: " + BuildInfo.getJavaFXPlatform());
+    }
 
+    private List<StaticSetterInfo> extractLayoutConstraints() {
+        try {
+            LayoutConstraintsExtractor extractor = new LayoutConstraintsExtractor();
+            return extractor.getStaticSetters();
+        } catch (IOException e) {
+            System.err.println("Error during layout constraints extraction: " + e.getMessage());
+            throw new RuntimeException(e);
+        }
+    }
+
+    private void generateBuilderClassesFromJars() {
         try {
             for (String inputJar : INPUT_JARS) {
-                Path jarPath = resolveJarPath(inputJar, javaFxVersion, javaFxPlatform);
-                List<String> classes = extractJavaFXSceneClasses(jarPath);
+                List<String> classes = JarExtractor.getSceneClasses(inputJar);
                 generateBuilderClasses(classes);
             }
             System.out.println("Done.");
@@ -53,37 +67,6 @@ public class App extends Application {
             System.err.println("Error reading JAR file" + ": " + e.getMessage());
             e.printStackTrace();
         }
-    }
-
-    private Path resolveJarPath(String inputJar, String javaFxVersion, String javaFxPlatform) {
-        String jarFileName = String.format("%s-%s.jar", inputJar, javaFxPlatform);
-        Path jarPath = Paths.get("sdk", javaFxVersion, jarFileName);
-        System.out.println("Reading JAR file: " + jarPath);
-        return jarPath;
-    }
-
-    private List<String> extractJavaFXSceneClasses(Path jarPath) throws IOException {
-        List<String> classes = new ArrayList<>();
-
-        try (JarFile jarFile = new JarFile(jarPath.toString())) {
-            jarFile.stream()
-                    .map(JarEntry::getName)
-                    .filter(name -> name.endsWith(".class"))
-                    // Remove .class extension
-                    .map(name -> name.replace('/', '.').substring(0, name.length() - 6))
-                    .filter(className -> className.startsWith("javafx.scene."))
-                    // Skip classes ending with $digit (anonymous classes)
-                    .filter(className -> !className.matches(".*\\$\\d+$"))
-                    .sorted()
-                    .forEach(classes::add);
-        }
-        // return List.of("javafx.scene.control.Button",
-        // "javafx.scene.layout.BorderPane",
-        // "javafx.scene.control.ListView",
-        // "javafx.scene.Scene",
-        // "javafx.scene.control.TableView",
-        // "javafx.scene.layout.VBox");
-        return classes;
     }
 
     private void generateBuilderClasses(List<String> classes) {
@@ -98,17 +81,9 @@ public class App extends Application {
                         && !Modifier.isAbstract(clazz.getModifiers())
                         && (!Modifier.isStatic(clazz.getModifiers())
                                 || (Modifier.isStatic(clazz.getModifiers()) && isInnerClass))) {
-                    // Get module name
-                    String moduleName = clazz.getModule().getName();
 
                     // Extract second token from module name (e.g. controls from javafx.controls)
-                    String moduleToken = "";
-                    if (moduleName != null && moduleName.contains(".")) {
-                        String[] tokens = moduleName.split("\\.");
-                        if (tokens.length >= 2) {
-                            moduleToken = tokens[1];
-                        }
-                    }
+                    String moduleToken = getModuleToken(clazz);
 
                     // Create dynamic package name and output directories
                     String dynamicPackageName = PACKAGE_NAME + "." + moduleToken;
@@ -118,16 +93,30 @@ public class App extends Application {
                     }
 
                     BuilderClassGenerator generator = new BuilderClassGenerator(dynamicPackageName, dynamicOutputDirs,
-                            clazz);
+                            clazz, staticSetters);
                     generator.generate();
                 }
             } catch (ClassNotFoundException e) {
-                System.out.println("  x Class not found: " + className);
+                System.out.println("Class not found: " + className);
             } catch (Exception e) {
                 e.printStackTrace();
-                System.out.println("  x Error generating builder for " + className + ": " + e.getMessage());
+                System.out.println("Error generating builder for " + className + ": " + e.getMessage());
             }
         }
     }
 
+    @SuppressWarnings("rawtypes")
+    private String getModuleToken(Class clazz) {
+        String moduleName = clazz.getModule().getName();
+
+        // Extract second token from module name (e.g. controls from javafx.controls)
+        String moduleToken = "";
+        if (moduleName != null && moduleName.contains(".")) {
+            String[] tokens = moduleName.split("\\.");
+            if (tokens.length >= 2) {
+                moduleToken = tokens[1];
+            }
+        }
+        return moduleToken;
+    }
 }

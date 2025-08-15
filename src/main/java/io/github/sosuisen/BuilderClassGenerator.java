@@ -8,9 +8,15 @@ import java.lang.reflect.Type;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import io.github.sosuisen.extractor.ParameterInfo;
+import io.github.sosuisen.extractor.StaticSetterInfo;
 import io.github.sosuisen.mapper.ClassAnnotationManager;
 import io.github.sosuisen.mapper.MethodAnnotationManager;
 import io.github.sosuisen.mapper.TypeMappingManager;
@@ -29,6 +35,7 @@ import io.github.sosuisen.template.ApplyMethodModel;
 import io.github.sosuisen.template.CreateMethodModel;
 import io.github.sosuisen.template.GridPaneMethodModel;
 import io.github.sosuisen.template.ClassHeaderModel;
+import io.github.sosuisen.template.LayoutConstraintMethodModel;
 
 public class BuilderClassGenerator {
     private static final TemplateEngine templateEngine = initializeTemplateEngine();
@@ -42,8 +49,10 @@ public class BuilderClassGenerator {
     private final String classNameWithTypeParameter;
     private final String builderClassName;
     private final String builderClassNameWithTypeParameter;
+    private final List<StaticSetterInfo> staticSetters;
 
-    public BuilderClassGenerator(String packageName, String[] outputDir, Class<?> clazz) {
+    public BuilderClassGenerator(String packageName, String[] outputDir, Class<?> clazz,
+            List<StaticSetterInfo> staticSetters) {
         this.packageName = packageName;
         this.outputDir = outputDir;
         this.clazz = clazz;
@@ -53,6 +62,13 @@ public class BuilderClassGenerator {
         classNameWithTypeParameter = className + typeParameters;
         builderClassName = createBuilderClassName();
         builderClassNameWithTypeParameter = builderClassName + typeParameters;
+
+        this.staticSetters = staticSetters;
+    }
+
+    public void generate() throws IOException {
+        String content = generateBuilderClass();
+        writeToFiles(content);
     }
 
     private String createBuilderClassName() {
@@ -125,11 +141,6 @@ public class BuilderClassGenerator {
         return typeParameterBuilder.toString();
     }
 
-    public void generate() throws IOException {
-        String content = generateBuilderClass();
-        writeToFiles(content);
-    }
-
     private String generateBuilderClass() {
         StringBuilder content = new StringBuilder();
 
@@ -140,6 +151,7 @@ public class BuilderClassGenerator {
         content.append(generateApplyMethod());
         content.append(generateSetterMethods());
         content.append(generateSpecialMethods());
+        content.append(generateLayoutConstraintMethods());
         content.append("}\n");
 
         return content.toString();
@@ -366,6 +378,109 @@ public class BuilderClassGenerator {
         templateEngine.render("gridpane-methods.jte", model, output);
         return output.toString();
     }
+
+    private String generateLayoutConstraintMethods() {
+        // Check if current class inherits from javafx.scene.Node
+        if (!isNodeClass()) {
+            return "";
+        }
+        
+        // Group static setters by method signature (method name + parameter list)
+        Map<String, List<StaticSetterInfo>> groupedSetters = new LinkedHashMap<>();
+        
+        for (StaticSetterInfo setterInfo : staticSetters) {
+            // Convert setXXXX to XXXXInContainer
+            String methodName = convertToInContainerMethodName(setterInfo.methodName());
+            
+            // Filter out Node parameters and create parameter list
+            var filteredParams = ParameterInfo.filterNodeParameters(setterInfo.parameters());
+            String parameterList = ParameterInfo.buildParameterList(filteredParams, className);
+            
+            // Create unique signature for grouping
+            String signature = methodName + "(" + parameterList + ")";
+            
+            groupedSetters.computeIfAbsent(signature, k -> new ArrayList<>()).add(setterInfo);
+        }
+        
+        // Convert grouped setters to LayoutConstraintMethod objects
+        List<LayoutConstraintMethodModel.LayoutConstraintMethod> methods = new ArrayList<>();
+        
+        for (Map.Entry<String, List<StaticSetterInfo>> entry : groupedSetters.entrySet()) {
+            List<StaticSetterInfo> setters = entry.getValue();
+            StaticSetterInfo firstSetter = setters.get(0);
+            
+            // Convert setXXXX to XXXXInContainer
+            String methodName = convertToInContainerMethodName(firstSetter.methodName());
+            
+            // Filter out Node parameters and create parameter list
+            var filteredParams = ParameterInfo.filterNodeParameters(firstSetter.parameters());
+            String parameterList = ParameterInfo.buildParameterList(filteredParams, className);
+            String argumentList = ParameterInfo.buildArgumentList(filteredParams);
+            
+            // Create StaticCall objects for all setters with the same signature
+            List<LayoutConstraintMethodModel.StaticCall> staticCalls = new ArrayList<>();
+            for (StaticSetterInfo setter : setters) {
+                staticCalls.add(new LayoutConstraintMethodModel.StaticCall(
+                    setter.sourceClass().getName(),
+                    setter.methodName(),
+                    argumentList
+                ));
+            }
+            
+            methods.add(new LayoutConstraintMethodModel.LayoutConstraintMethod(
+                methodName,
+                parameterList,
+                staticCalls
+            ));
+        }
+        
+        if (methods.isEmpty()) {
+            return "";
+        }
+        
+        LayoutConstraintMethodModel model = LayoutConstraintMethodModel.create(
+            builderClassNameWithTypeParameter, 
+            methods
+        );
+        
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("layout-constraint-methods.jte", model, output);
+        return output.toString();
+    }
+    
+    private String convertToInContainerMethodName(String setterMethodName) {
+        // Convert setXXXX to XXXXInContainer
+        String methodName = setterMethodName.substring(3); // Remove "set"
+        
+        // Special handling for names starting with 'H' or 'V' followed by lowercase
+        // e.g., "Halignment" -> "hAlignment", "Vgrow" -> "vGrow"
+        if (methodName.length() >= 2 && 
+            (methodName.charAt(0) == 'H' || methodName.charAt(0) == 'V') && 
+            Character.isLowerCase(methodName.charAt(1))) {
+            
+            String firstChar = String.valueOf(methodName.charAt(0)).toLowerCase();
+            String secondChar = String.valueOf(methodName.charAt(1)).toUpperCase();
+            String remainder = methodName.substring(2);
+            methodName = firstChar + secondChar + remainder;
+        } else {
+            // Standard case: just lowercase the first character
+            String firstChar = String.valueOf(methodName.charAt(0)).toLowerCase();
+            String remainder = methodName.substring(1);
+            methodName = firstChar + remainder;
+        }
+        
+        return methodName + "InContainer";
+    }
+    
+    private boolean isNodeClass() {
+        try {
+            Class<?> nodeClass = Class.forName("javafx.scene.Node");
+            return nodeClass.isAssignableFrom(clazz);
+        } catch (ClassNotFoundException e) {
+            return false;
+        }
+    }
+    
 
     private void writeToFiles(String content) throws IOException {
         // Create directories and write files to all output locations
