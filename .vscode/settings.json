@@ -19,6 +19,11 @@
             "command": "assembly:single install -P javafx24,controls",
             "debug": false
         },
+        {
+            "command": "test -P javafx24",
+            "debug": false
+        }
     ],
     "maven.view": "flat",
+    "java.dependency.packagePresentation": "hierarchical",
 }
