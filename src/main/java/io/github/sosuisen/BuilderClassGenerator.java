@@ -147,7 +147,7 @@ public class BuilderClassGenerator {
         content.append(generateClassHeader());
 
         if ("Scene".equals(clazz.getSimpleName())) {
-            content.append(generateCreateBuildMethodsForScene());
+            content.append(generateSceneMethods());
         } else {
             content.append(generateCreateMethods());
             content.append(generateBuildMethod());
@@ -179,9 +179,9 @@ public class BuilderClassGenerator {
         return output.toString();
     }
 
-    private String generateCreateBuildMethodsForScene() {
+    private String generateSceneMethods() {
         TemplateOutput output = new StringOutput();
-        templateEngine.render("create-build-methods-for-scene.jte", null, output);
+        templateEngine.render("scene-methods.jte", null, output);
         return output.toString();
     }
 

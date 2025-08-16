@@ -101,3 +101,31 @@
         }
         return newInstance;
     }
+
+    /**
+     * Utility setter to add string URLs linking to the stylesheets for this scene's
+     * contents.
+     * 
+     * @param urls URLs linking to the stylesheets
+     */
+    public SceneBuilder stylesheets(String... urls) {
+        operations.add(obj -> obj.getStylesheets().addAll(urls));
+        return this;
+    }
+
+    /**
+     * Utility setter to add CSS string for this scene's contents.
+     * For example:
+     * <pre>
+     * SceneBuilder builder = SceneBuilder.create()
+     *          .stylesheetText(".my-button { -fx-text-fill: white; }")
+     *          .build();
+     * </pre>
+     *
+     * @param css CSS string
+     */
+    public SceneBuilder stylesheetText(String css) {
+        operations.add(obj -> obj.getStylesheets().add("data:text/css;base64," +
+                java.util.Base64.getEncoder().encodeToString(css.getBytes())));
+        return this;
+    }
