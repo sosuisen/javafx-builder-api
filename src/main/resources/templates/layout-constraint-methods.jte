@@ -4,11 +4,7 @@
 
 @for(var methodInfo : model.methods())
     public ${model.builderClassNameWithTypeParameter()} ${methodInfo.methodName()}(${methodInfo.parameterList()}) {
-        operations.add(obj -> {
-@for(var staticCall : methodInfo.staticCalls())
-            ${staticCall.sourceClassFullName()}.${staticCall.staticMethodName()}(obj@if(!staticCall.argumentList().isEmpty()), ${staticCall.argumentList()}@endif);
-@endfor
-        });
+        operations.add(obj -> ${methodInfo.staticCall().sourceClassFullName()}.${methodInfo.staticCall().staticMethodName()}(obj@if(!methodInfo.staticCall().argumentList().isEmpty()), ${methodInfo.staticCall().argumentList()}@endif));
         return this;
     }
 

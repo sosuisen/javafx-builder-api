@@ -384,94 +384,67 @@ public class BuilderClassGenerator {
         if (!isNodeClass()) {
             return "";
         }
-        
-        // Group static setters by method signature (method name + parameter list)
-        Map<String, List<StaticSetterInfo>> groupedSetters = new LinkedHashMap<>();
-        
+
+        // Create individual methods for each static setter
+        List<LayoutConstraintMethodModel.LayoutConstraintMethod> methods = new ArrayList<>();
+
         for (StaticSetterInfo setterInfo : staticSetters) {
-            // Convert setXXXX to XXXXInContainer
-            String methodName = convertToInContainerMethodName(setterInfo.methodName());
+            // Create method name as XXXXIn{SourceClassName}
+            String setterName = setterInfo.methodName().substring(3); // Remove "set" prefix
+            String sourceClassName = setterInfo.sourceClass().getSimpleName();
             
+            // Apply special naming logic
+            String camelCaseSetterName;
+            // Special handling for names starting with 'H' or 'V' followed by lowercase
+            // e.g., "Halignment" -> "hAlignment", "Vgrow" -> "vGrow"
+            if (setterName.length() >= 2 &&
+                    (setterName.charAt(0) == 'H' || setterName.charAt(0) == 'V') &&
+                    Character.isLowerCase(setterName.charAt(1))) {
+
+                String firstChar = String.valueOf(setterName.charAt(0)).toLowerCase();
+                String secondChar = String.valueOf(setterName.charAt(1)).toUpperCase();
+                String remainder = setterName.substring(2);
+                camelCaseSetterName = firstChar + secondChar + remainder;
+            } else {
+                // Standard case: just lowercase the first character
+                String firstChar = String.valueOf(setterName.charAt(0)).toLowerCase();
+                String remainder = setterName.substring(1);
+                camelCaseSetterName = firstChar + remainder;
+            }
+            
+            String methodName = camelCaseSetterName + "In" + sourceClassName;
+
             // Filter out Node parameters and create parameter list
             var filteredParams = ParameterInfo.filterNodeParameters(setterInfo.parameters());
             String parameterList = ParameterInfo.buildParameterList(filteredParams, className);
-            
-            // Create unique signature for grouping
-            String signature = methodName + "(" + parameterList + ")";
-            
-            groupedSetters.computeIfAbsent(signature, k -> new ArrayList<>()).add(setterInfo);
-        }
-        
-        // Convert grouped setters to LayoutConstraintMethod objects
-        List<LayoutConstraintMethodModel.LayoutConstraintMethod> methods = new ArrayList<>();
-        
-        for (Map.Entry<String, List<StaticSetterInfo>> entry : groupedSetters.entrySet()) {
-            List<StaticSetterInfo> setters = entry.getValue();
-            StaticSetterInfo firstSetter = setters.get(0);
-            
-            // Convert setXXXX to XXXXInContainer
-            String methodName = convertToInContainerMethodName(firstSetter.methodName());
-            
-            // Filter out Node parameters and create parameter list
-            var filteredParams = ParameterInfo.filterNodeParameters(firstSetter.parameters());
-            String parameterList = ParameterInfo.buildParameterList(filteredParams, className);
             String argumentList = ParameterInfo.buildArgumentList(filteredParams);
-            
-            // Create StaticCall objects for all setters with the same signature
-            List<LayoutConstraintMethodModel.StaticCall> staticCalls = new ArrayList<>();
-            for (StaticSetterInfo setter : setters) {
-                staticCalls.add(new LayoutConstraintMethodModel.StaticCall(
-                    setter.sourceClass().getName(),
-                    setter.methodName(),
-                    argumentList
-                ));
-            }
-            
+
+            // Create single StaticCall for this setter
+            LayoutConstraintMethodModel.StaticCall staticCall = new LayoutConstraintMethodModel.StaticCall(
+                    setterInfo.sourceClass().getName(),
+                    setterInfo.methodName(),
+                    argumentList);
+
             methods.add(new LayoutConstraintMethodModel.LayoutConstraintMethod(
-                methodName,
-                parameterList,
-                staticCalls
-            ));
+                    methodName,
+                    parameterList,
+                    staticCall));
         }
-        
+
         if (methods.isEmpty()) {
             return "";
         }
-        
+
         LayoutConstraintMethodModel model = LayoutConstraintMethodModel.create(
-            builderClassNameWithTypeParameter, 
-            methods
-        );
-        
+                builderClassNameWithTypeParameter,
+                methods);
+
         TemplateOutput output = new StringOutput();
         templateEngine.render("layout-constraint-methods.jte", model, output);
         return output.toString();
     }
-    
-    private String convertToInContainerMethodName(String setterMethodName) {
-        // Convert setXXXX to XXXXInContainer
-        String methodName = setterMethodName.substring(3); // Remove "set"
-        
-        // Special handling for names starting with 'H' or 'V' followed by lowercase
-        // e.g., "Halignment" -> "hAlignment", "Vgrow" -> "vGrow"
-        if (methodName.length() >= 2 && 
-            (methodName.charAt(0) == 'H' || methodName.charAt(0) == 'V') && 
-            Character.isLowerCase(methodName.charAt(1))) {
-            
-            String firstChar = String.valueOf(methodName.charAt(0)).toLowerCase();
-            String secondChar = String.valueOf(methodName.charAt(1)).toUpperCase();
-            String remainder = methodName.substring(2);
-            methodName = firstChar + secondChar + remainder;
-        } else {
-            // Standard case: just lowercase the first character
-            String firstChar = String.valueOf(methodName.charAt(0)).toLowerCase();
-            String remainder = methodName.substring(1);
-            methodName = firstChar + remainder;
-        }
-        
-        return methodName + "InContainer";
-    }
-    
+
+
     private boolean isNodeClass() {
         try {
             Class<?> nodeClass = Class.forName("javafx.scene.Node");
@@ -480,7 +453,6 @@ public class BuilderClassGenerator {
             return false;
         }
     }
-    
 
     private void writeToFiles(String content) throws IOException {
         // Create directories and write files to all output locations
