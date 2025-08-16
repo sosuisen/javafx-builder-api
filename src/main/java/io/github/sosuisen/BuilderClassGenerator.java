@@ -145,14 +145,20 @@ public class BuilderClassGenerator {
         StringBuilder content = new StringBuilder();
 
         content.append(generateClassHeader());
-        content.append(generateConstructors());
-        content.append(generateBuildMethod());
-        content.append(generateTypeCompatibilityCheckMethods());
+
+        if ("Scene".equals(clazz.getSimpleName())) {
+            content.append(generateCreateBuildMethodsForScene());
+        } else {
+            content.append(generateCreateMethods());
+            content.append(generateBuildMethod());
+        }
+
         content.append(generateApplyMethod());
         content.append(generateSetterMethods());
         content.append(generateSpecialMethods());
         content.append(generateLayoutConstraintMethods());
-        content.append("}\n");
+
+        content.append("\n}\n");
 
         return content.toString();
     }
@@ -173,18 +179,24 @@ public class BuilderClassGenerator {
         return output.toString();
     }
 
-    private String generateConstructors() {
+    private String generateCreateBuildMethodsForScene() {
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("create-build-methods-for-scene.jte", null, output);
+        return output.toString();
+    }
+
+    private String generateCreateMethods() {
         StringBuilder content = new StringBuilder();
         Constructor<?>[] constructors = clazz.getConstructors();
 
         for (Constructor<?> constructor : constructors) {
-            content.append(generateCreateMethods(constructor));
+            content.append(generateCreateMethod(constructor));
         }
 
         return content.toString();
     }
 
-    private String generateCreateMethods(Constructor<?> constructor) {
+    private String generateCreateMethod(Constructor<?> constructor) {
         Parameter[] parameters = constructor.getParameters();
 
         CreateMethodModel model;
@@ -253,12 +265,6 @@ public class BuilderClassGenerator {
         BuildMethodModel model = BuildMethodModel.create(clazz, className, classNameWithTypeParameter, typeParameters);
         TemplateOutput output = new StringOutput();
         templateEngine.render("build-method.jte", model, output);
-        return output.toString();
-    }
-
-    private String generateTypeCompatibilityCheckMethods() {
-        TemplateOutput output = new StringOutput();
-        templateEngine.render("type-compatibility-methods.jte", null, output);
         return output.toString();
     }
 
@@ -392,7 +398,7 @@ public class BuilderClassGenerator {
             // Create method name as XXXXIn{SourceClassName}
             String setterName = setterInfo.methodName().substring(3); // Remove "set" prefix
             String sourceClassName = setterInfo.sourceClass().getSimpleName();
-            
+
             // Apply special naming logic
             String camelCaseSetterName;
             // Special handling for names starting with 'H' or 'V' followed by lowercase
@@ -411,7 +417,7 @@ public class BuilderClassGenerator {
                 String remainder = setterName.substring(1);
                 camelCaseSetterName = firstChar + remainder;
             }
-            
+
             String methodName = camelCaseSetterName + "In" + sourceClassName;
 
             // Filter out Node parameters and create parameter list
@@ -443,7 +449,6 @@ public class BuilderClassGenerator {
         templateEngine.render("layout-constraint-methods.jte", model, output);
         return output.toString();
     }
-
 
     private boolean isNodeClass() {
         try {
