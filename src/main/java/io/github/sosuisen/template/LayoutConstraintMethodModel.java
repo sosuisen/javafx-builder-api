@@ -13,7 +13,7 @@ public class LayoutConstraintMethodModel {
     public record LayoutConstraintMethod(
         String methodName,
         String parameterList,
-        List<StaticCall> staticCalls
+        StaticCall staticCall
     ) {}
 
     private final String builderClassNameWithTypeParameter;
