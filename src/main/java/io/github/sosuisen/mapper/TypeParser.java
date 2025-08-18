@@ -1,4 +1,4 @@
-package io.github.sosuisen;
+package io.github.sosuisen.mapper;
 
 import java.util.function.Function;
 
