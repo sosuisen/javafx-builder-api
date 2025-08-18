@@ -9,9 +9,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -36,6 +34,7 @@ import io.github.sosuisen.template.CreateMethodModel;
 import io.github.sosuisen.template.GridPaneMethodModel;
 import io.github.sosuisen.template.ClassHeaderModel;
 import io.github.sosuisen.template.LayoutConstraintMethodModel;
+import io.github.sosuisen.template.PropertyMethodModel;
 
 public class BuilderClassGenerator {
     private static final TemplateEngine templateEngine = initializeTemplateEngine();
@@ -157,6 +156,7 @@ public class BuilderClassGenerator {
         content.append(generateSetterMethods());
         content.append(generateSpecialMethods());
         content.append(generateLayoutConstraintMethods());
+        content.append(generatePropertyMethods());
 
         content.append("\n}\n");
 
@@ -457,6 +457,43 @@ public class BuilderClassGenerator {
         } catch (ClassNotFoundException e) {
             return false;
         }
+    }
+
+    private String generatePropertyMethods() {
+        StringBuilder content = new StringBuilder();
+        Method[] methods = clazz.getMethods();
+
+        for (Method method : methods) {
+            if (method.getName().endsWith("Property") && !java.lang.reflect.Modifier.isStatic(method.getModifiers())
+                    && method.getParameterCount() == 0) {
+
+                String propertyName = method.getName(); // e.g., "textProperty"
+                String methodBaseName = propertyName.substring(0, propertyName.length() - 8); // Remove "Property",
+                                                                                              // e.g., "text"
+                String methodName = methodBaseName + "PropertyApply"; // e.g., "textPropertyApply"
+
+                // Get the return type of the property method with generics (e.g.,
+                // StringProperty, ObservableList<Node>)
+                String propertyType = method.getGenericReturnType().getTypeName().replace("$", ".");
+                // Check for type replacement
+                propertyType = TypeMappingManager.getReplacement(className, propertyType);
+
+                String methodAnnotation = MethodAnnotationManager.getMethodAnnotation(className, propertyName);
+                PropertyMethodModel model = PropertyMethodModel.create(
+                        builderClassNameWithTypeParameter,
+                        methodName,
+                        propertyName,
+                        propertyType,
+                        methodAnnotation);
+
+                TemplateOutput output = new StringOutput();
+                templateEngine.render("property-method.jte", model, output);
+
+                content.append(output.toString());
+            }
+        }
+
+        return content.toString();
     }
 
     private void writeToFiles(String content) throws IOException {

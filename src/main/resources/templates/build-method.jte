@@ -19,6 +19,9 @@
 @else
         newInstance = callParameterizedConstructor();
 @endif
+@if(model.isPaneSubclass())
+        newInstance.getStyleClass().add("${model.styleClass()}");
+@endif
         for (java.util.function.Consumer<${model.returnType()}> op : operations) {
             op.accept(newInstance);
         }
@@ -45,6 +48,9 @@
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
+@if(model.isPaneSubclass())
+        newInstance.getStyleClass().add("${model.styleClass()}");
+@endif
         return newInstance;
     }
 

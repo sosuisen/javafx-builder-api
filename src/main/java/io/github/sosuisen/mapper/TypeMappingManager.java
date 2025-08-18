@@ -1,7 +1,6 @@
 package io.github.sosuisen.mapper;
 
 import io.github.sosuisen.BuildInfo;
-import io.github.sosuisen.TypeParser;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,6 +10,7 @@ import java.util.Properties;
 
 public class TypeMappingManager {
     private static final Map<String, String> TYPE_MAPPINGS = new HashMap<>();
+    private static final Map<String, String> STRING_MAPPINGS = new HashMap<>();
 
     static {
         loadTypeMappings();
@@ -25,7 +25,13 @@ public class TypeMappingManager {
 
                 for (String key : props.stringPropertyNames()) {
                     String value = props.getProperty(key);
-                    TYPE_MAPPINGS.put(key, value);
+                    if (key.contains("%")) {
+                        // New format: className%matchString=replacementString
+                        STRING_MAPPINGS.put(key, value);
+                    } else {
+                        // Existing format: className#matchType=replacementType
+                        TYPE_MAPPINGS.put(key, value);
+                    }
                 }
             }
         } catch (IOException e) {
@@ -44,6 +50,13 @@ public class TypeMappingManager {
      * @return The replacement type if found, otherwise the original type
      */
     public static String getReplacement(String className, String paramType) {
+        // First check string mappings (new format with %)
+        String stringReplacement = findStringReplacement(className, paramType);
+        if (stringReplacement != null) {
+            paramType = stringReplacement;
+        }
+
+        // Then check type mappings (existing format with #)
         MappingEntry entry = findMappingEntry(className);
 
         if (entry != null) {
@@ -51,8 +64,29 @@ public class TypeMappingManager {
             return TypeParser.parseAndProcess(paramType, (token) -> replaceToken(token, entry));
         }
 
-        // No match found, return original paramType
+        // Return paramType (potentially modified by string replacement)
         return paramType;
+    }
+
+    private static String findStringReplacement(String className, String paramType) {
+        // Check STRING_MAPPINGS for matching class and string
+        for (Map.Entry<String, String> entry : STRING_MAPPINGS.entrySet()) {
+            String key = entry.getKey();
+            String replacementString = entry.getValue();
+
+            if (key.contains("%")) {
+                String[] parts = key.split("%", 2);
+                String mappingClassName = parts[0];
+                String matchString = parts[1];
+
+                // If className matches the mapping and paramType contains the match string
+                if (className.equals(mappingClassName) && paramType.contains(matchString)) {
+                    return paramType.replace(matchString, replacementString);
+                }
+            }
+        }
+
+        return null; // No match found
     }
 
     private static MappingEntry findMappingEntry(String className) {
