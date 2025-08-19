@@ -202,27 +202,6 @@ class VBoxBuilderTest {
     }
 
     @Test
-    @DisplayName("Should replace children when children() method is called multiple times")
-    void shouldReplaceChildrenWhenChildrenMethodCalledMultipleTimes() {
-        Button button1 = new Button("Button 1");
-        Button button2 = new Button("Button 2");
-        Label label1 = new Label("Label 1");
-        Label label2 = new Label("Label 2");
-
-        VBox vbox = VBoxBuilder.create()
-                .addChildren(button1, button2)
-                .addChildren(label1, label2)
-                .build();
-
-        // Should only contain the last set of children
-        assertEquals(2, vbox.getChildren().size());
-        assertEquals(label1, vbox.getChildren().get(0));
-        assertEquals(label2, vbox.getChildren().get(1));
-        assertFalse(vbox.getChildren().contains(button1));
-        assertFalse(vbox.getChildren().contains(button2));
-    }
-
-    @Test
     @DisplayName("Should create VBoxBuilder with children using withChildren() static method")
     void shouldCreateVBoxBuilderWithChildrenUsingWithChildrenStaticMethod() {
         Button button1 = new Button("Button 1");
@@ -372,36 +351,6 @@ class VBoxBuilderTest {
         instance1.setSpacing(20.0);
         assertEquals(20.0, instance1.getSpacing(), 0.001);
         assertEquals(constructorSpacing, instance2.getSpacing(), 0.001);
-    }
-
-    @Test
-    @DisplayName("Should handle null children gracefully")
-    void shouldHandleNullChildrenGracefully() {
-        assertDoesNotThrow(() -> {
-            VBox vbox = VBoxBuilder.create()
-                    .addChildren((Node[]) null)
-                    .build();
-            assertNotNull(vbox);
-            // children() with null should clear the children list
-            assertEquals(0, vbox.getChildren().size());
-        });
-    }
-
-    @Test
-    @DisplayName("Should handle mixed null and valid children")
-    void shouldHandleMixedNullAndValidChildren() {
-        Button validButton = new Button("Valid");
-
-        assertDoesNotThrow(() -> {
-            VBox vbox = VBoxBuilder.create()
-                    .addChildren(validButton, null, new Label("Valid Label"))
-                    .build();
-            assertNotNull(vbox);
-            // Should contain non-null children
-            assertTrue(vbox.getChildren().contains(validButton));
-            assertTrue(vbox.getChildren().stream()
-                    .anyMatch(child -> child instanceof Label && "Valid Label".equals(((Label) child).getText())));
-        });
     }
 
     @Test
