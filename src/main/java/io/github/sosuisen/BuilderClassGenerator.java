@@ -318,8 +318,8 @@ public class BuilderClassGenerator {
         // Check for getChildren method and generate children method
         content.append(generateChildrenMethod());
 
-        // Check for getItems method and generate addItems method
-        content.append(generateAddItemsMethod());
+        // Check for getItems and getMenus methods and generate add methods
+        content.append(generateAddMethods());
 
         // Generate BorderPane specific static methods
         if ("BorderPane".equals(clazz.getSimpleName())) {
@@ -375,10 +375,22 @@ public class BuilderClassGenerator {
         return "";
     }
 
-    private String generateAddItemsMethod() {
+    private String generateAddMethods() {
+        StringBuilder result = new StringBuilder();
+        
+        // Check for getItems method and generate addItems method
+        result.append(generateAddMethod("getItems", "addItems"));
+        
+        // Check for getMenus method and generate addMenus method
+        result.append(generateAddMethod("getMenus", "addMenus"));
+        
+        return result.toString();
+    }
+    
+    private String generateAddMethod(String getterMethodName, String methodName) {
         try {
-            Method getItemsMethod = clazz.getMethod("getItems");
-            String returnType = getItemsMethod.getGenericReturnType().getTypeName();
+            Method getterMethod = clazz.getMethod(getterMethodName);
+            String returnType = getterMethod.getGenericReturnType().getTypeName();
             if (returnType.startsWith("javafx.collections.ObservableList<")) {
                 Pattern pattern = Pattern.compile("<(.+)>$");
                 Matcher matcher = pattern.matcher(returnType);
@@ -387,16 +399,16 @@ public class BuilderClassGenerator {
                     ItemsMethodModel model = ItemsMethodModel.create(builderClassName,
                             builderClassNameWithTypeParameter,
                             observableListTypeParameter,
-                            typeParametersExtends);
+                            typeParametersExtends,
+                            methodName,
+                            getterMethodName);
                     TemplateOutput output = new StringOutput();
-                    templateEngine.render("items-methods.jte", model, output);
+                    templateEngine.render("add-methods.jte", model, output);
                     return output.toString();
-                } else {
-                    return "";
                 }
             }
         } catch (NoSuchMethodException e) {
-            // Class doesn't have getItems method, skip
+            // Class doesn't have the method, skip
         }
         return "";
     }
