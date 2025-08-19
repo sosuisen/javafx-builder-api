@@ -108,7 +108,7 @@
      * 
      * @param urls URLs linking to the stylesheets
      */
-    public SceneBuilder stylesheets(String... urls) {
+    public SceneBuilder addStylesheets(String... urls) {
         operations.add(obj -> obj.getStylesheets().addAll(urls));
         return this;
     }
@@ -124,7 +124,7 @@
      *
      * @param css CSS string
      */
-    public SceneBuilder stylesheetText(String css) {
+    public SceneBuilder addStylesheetText(String css) {
         operations.add(obj -> obj.getStylesheets().add("data:text/css;base64," +
                 java.util.Base64.getEncoder().encodeToString(css.getBytes())));
         return this;

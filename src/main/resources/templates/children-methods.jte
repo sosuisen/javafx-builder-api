@@ -3,7 +3,7 @@
 @param ChildrenMethodModel model
 
 
-    public  ${model.builderClassNameWithTypeParameter()} children(@if(model.observableListTypeParameter().matches(".*<.+>.*"))@SuppressWarnings("unchecked") @endif${model.observableListTypeParameter()}... elements) {
+    public  ${model.builderClassNameWithTypeParameter()} addChildren(@if(model.observableListTypeParameter().matches(".*<.+>.*"))@SuppressWarnings("unchecked") @endif${model.observableListTypeParameter()}... elements) {
         operations.add(obj -> {
             if (elements == null) {
                 obj.getChildren().clear();
@@ -19,5 +19,5 @@
     
     public static ${model.typeParametersExtends().isEmpty() ? "" : model.typeParametersExtends() + " "}${model.builderClassNameWithTypeParameter()} withChildren(@if(model.observableListTypeParameter().matches(".*<.+>.*"))@SuppressWarnings("unchecked") @endif${model.observableListTypeParameter()}... elements) {
         ${model.builderClassNameWithTypeParameter()} builder = new ${model.builderClassNameWithTypeParameter()}();
-        return builder.children(elements);
+        return builder.addChildren(elements);
     }
