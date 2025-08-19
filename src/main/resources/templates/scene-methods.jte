@@ -103,17 +103,6 @@
     }
 
     /**
-     * Utility setter to add string URLs linking to the stylesheets for this scene's
-     * contents.
-     * 
-     * @param urls URLs linking to the stylesheets
-     */
-    public SceneBuilder addStylesheets(String... urls) {
-        operations.add(obj -> obj.getStylesheets().addAll(urls));
-        return this;
-    }
-
-    /**
      * Utility setter to add CSS string for this scene's contents.
      * For example:
      * <pre>

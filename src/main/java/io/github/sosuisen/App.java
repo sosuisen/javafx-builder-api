@@ -59,7 +59,7 @@ public class App extends Application {
     private void generateBuilderClassesFromJars() {
         try {
             for (String inputJar : INPUT_JARS) {
-                List<String> classes = JarExtractor.getSceneClasses(inputJar);
+                List<String> classes = JarExtractor.getTargetClasses(inputJar);
                 generateBuilderClasses(classes);
             }
             System.out.println("Done.");

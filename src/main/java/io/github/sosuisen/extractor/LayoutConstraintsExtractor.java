@@ -16,9 +16,9 @@ public class LayoutConstraintsExtractor {
     public List<StaticSetterInfo> getStaticSetters() throws IOException {
         List<StaticSetterInfo> staticSetters = new ArrayList<>();
 
-        List<String> sceneClasses = JarExtractor.getSceneClasses(LAYOUT_CONSTRAINTS_JAR);
+        List<String> targetClasses = JarExtractor.getTargetClasses(LAYOUT_CONSTRAINTS_JAR);
 
-        for (String className : sceneClasses) {
+        for (String className : targetClasses) {
             try {
                 Class<?> clazz = Class.forName(className);
 
