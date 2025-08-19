@@ -71,37 +71,3 @@
         });
         return this;
     }
-
-    /**
-     * Add column constraints. Column constraints can be added to
-     * explicitly control individual column sizing and layout behavior.
-     * If not set, column sizing and layout behavior is computed based on content.
-     *
-     * The argument order corresponds to the column order.
-     * 
-     * @param constraints column constraints
-     */
-    public ${model.builderClassNameWithTypeParameter()} addColumnConstraints(javafx.scene.layout.ColumnConstraints... constraints) {
-        operations.add(obj -> 
-            java.util.Arrays.stream(constraints)
-                  .forEach(obj.getColumnConstraints()::add)
-        );
-        return this;
-    }
-
-    /**
-     * Add row constraints. Row constraints can be added to
-     * explicitly control individual row sizing and layout behavior.
-     * If not set, row sizing and layout behavior is computed based on content.
-     *
-     * The argument order corresponds to the row order.
-     * 
-     * @param constraints row constraints
-     */
-    public ${model.builderClassNameWithTypeParameter()} addRowConstraints(javafx.scene.layout.RowConstraints... constraints) {
-        operations.add(obj -> 
-            java.util.Arrays.stream(constraints)
-                  .forEach(obj.getRowConstraints()::add)
-        );
-        return this;
-    }

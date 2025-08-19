@@ -12,6 +12,7 @@ import io.github.sosuisen.BuildInfo;
 
 public class JarExtractor {
     private static final String SCENE_CLASS_STARTS_WITH = "javafx.scene.";
+    private static final String STAGE_CLASS = "javafx.stage.Stage";
 
     private static Path resolveJarPath(String inputJar) {
         String jarFileName = String.format("%s-%s.jar", inputJar, BuildInfo.getJavaFXPlatform());
@@ -20,7 +21,7 @@ public class JarExtractor {
         return jarPath;
     }
 
-    public static List<String> getSceneClasses(String inputjar) throws IOException {
+    public static List<String> getTargetClasses(String inputjar) throws IOException {
         Path jarPath = resolveJarPath(inputjar);
 
         List<String> classes = new ArrayList<>();
@@ -31,7 +32,8 @@ public class JarExtractor {
                     .filter(name -> name.endsWith(".class"))
                     // Remove .class extension
                     .map(name -> name.replace('/', '.').substring(0, name.length() - 6))
-                    .filter(className -> className.startsWith(SCENE_CLASS_STARTS_WITH))
+                    .filter(className -> className.startsWith(SCENE_CLASS_STARTS_WITH)
+                            || className.equals(STAGE_CLASS))
                     // Skip classes ending with $digit (anonymous classes)
                     .filter(className -> !className.matches(".*\\$\\d+$"))
                     .sorted()

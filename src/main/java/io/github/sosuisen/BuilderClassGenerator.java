@@ -26,9 +26,8 @@ import gg.jte.output.StringOutput;
 import gg.jte.resolve.DirectoryCodeResolver;
 import io.github.sosuisen.template.BuildMethodModel;
 import io.github.sosuisen.template.ChildrenMethodModel;
-import io.github.sosuisen.template.ItemsMethodModel;
+import io.github.sosuisen.template.AddMethodModel;
 import io.github.sosuisen.template.BorderPaneMethodModel;
-import io.github.sosuisen.template.StyleClassMethodModel;
 import io.github.sosuisen.template.SetterMethodModel;
 import io.github.sosuisen.template.ApplyMethodModel;
 import io.github.sosuisen.template.CreateMethodModel;
@@ -312,9 +311,6 @@ public class BuilderClassGenerator {
     private String generateSpecialMethods() {
         StringBuilder content = new StringBuilder();
 
-        // Generate styleClass method for Node-based classes
-        content.append(generateStyleClassMethod());
-
         // Check for getChildren method and generate children method
         content.append(generateChildrenMethod());
 
@@ -333,22 +329,6 @@ public class BuilderClassGenerator {
         return content.toString();
     }
 
-    private String generateStyleClassMethod() {
-        try {
-            Method getStyleClassMethod = clazz.getMethod("getStyleClass");
-            if (getStyleClassMethod != null
-                    && getStyleClassMethod.getReturnType().getName().contains("ObservableList")) {
-                StyleClassMethodModel model = StyleClassMethodModel.create(builderClassNameWithTypeParameter);
-                TemplateOutput output = new StringOutput();
-                templateEngine.render("styleclass-methods.jte", model, output);
-                return output.toString();
-            }
-        } catch (NoSuchMethodException e) {
-            // Class doesn't have getStyleClass method, skip generation
-        }
-        return "";
-    }
-
     private String generateChildrenMethod() {
         try {
             Method getChildrenMethod = clazz.getMethod("getChildren");
@@ -358,7 +338,7 @@ public class BuilderClassGenerator {
                 Matcher matcher = pattern.matcher(returnType);
                 if (matcher.find()) {
                     String observableListTypeParameter = matcher.group(1);
-                    ChildrenMethodModel model = ChildrenMethodModel.create(builderClassName,
+                    ChildrenMethodModel model = ChildrenMethodModel.create(
                             builderClassNameWithTypeParameter,
                             observableListTypeParameter,
                             typeParametersExtends);
@@ -377,16 +357,30 @@ public class BuilderClassGenerator {
 
     private String generateAddMethods() {
         StringBuilder result = new StringBuilder();
-        
-        // Check for getItems method and generate addItems method
-        result.append(generateAddMethod("getItems", "addItems"));
-        
-        // Check for getMenus method and generate addMenus method
-        result.append(generateAddMethod("getMenus", "addMenus"));
-        
+
+        // Find all getXxxx methods that return ObservableList
+        Method[] methods = clazz.getMethods();
+        for (Method method : methods) {
+            String methodName = method.getName();
+            if (methodName.startsWith("get") &&
+                    !java.lang.reflect.Modifier.isStatic(method.getModifiers()) &&
+                    methodName.length() > 3 &&
+                    method.getParameterCount() == 0 &&
+                    method.getGenericReturnType().getTypeName().startsWith("javafx.collections.ObservableList<")) {
+
+                // Convert getXxxx to addXxxx
+                String propertyName = methodName.substring(3); // Remove "get"
+                String addMethodName = "add" + propertyName;
+
+                System.out.println("Generating " + addMethodName + " method for " + clazz.getSimpleName() + "."
+                        + methodName + "()");
+                result.append(generateAddMethod(methodName, addMethodName));
+            }
+        }
+
         return result.toString();
     }
-    
+
     private String generateAddMethod(String getterMethodName, String methodName) {
         try {
             Method getterMethod = clazz.getMethod(getterMethodName);
@@ -395,11 +389,12 @@ public class BuilderClassGenerator {
                 Pattern pattern = Pattern.compile("<(.+)>$");
                 Matcher matcher = pattern.matcher(returnType);
                 if (matcher.find()) {
-                    String observableListTypeParameter = matcher.group(1);
-                    ItemsMethodModel model = ItemsMethodModel.create(builderClassName,
+                    String observableListTypeParameter = matcher.group(1).replace("$", ".");
+                    observableListTypeParameter = TypeMappingManager.getReplacement(className,
+                            observableListTypeParameter);
+                    AddMethodModel model = AddMethodModel.create(
                             builderClassNameWithTypeParameter,
                             observableListTypeParameter,
-                            typeParametersExtends,
                             methodName,
                             getterMethodName);
                     TemplateOutput output = new StringOutput();
