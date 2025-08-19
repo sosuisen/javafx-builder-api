@@ -26,6 +26,7 @@ import gg.jte.output.StringOutput;
 import gg.jte.resolve.DirectoryCodeResolver;
 import io.github.sosuisen.template.BuildMethodModel;
 import io.github.sosuisen.template.ChildrenMethodModel;
+import io.github.sosuisen.template.ItemsMethodModel;
 import io.github.sosuisen.template.BorderPaneMethodModel;
 import io.github.sosuisen.template.StyleClassMethodModel;
 import io.github.sosuisen.template.SetterMethodModel;
@@ -317,6 +318,9 @@ public class BuilderClassGenerator {
         // Check for getChildren method and generate children method
         content.append(generateChildrenMethod());
 
+        // Check for getItems method and generate addItems method
+        content.append(generateAddItemsMethod());
+
         // Generate BorderPane specific static methods
         if ("BorderPane".equals(clazz.getSimpleName())) {
             content.append(generateBorderPaneMethods());
@@ -367,6 +371,32 @@ public class BuilderClassGenerator {
             }
         } catch (NoSuchMethodException e) {
             // Class doesn't have getChildren method, skip
+        }
+        return "";
+    }
+
+    private String generateAddItemsMethod() {
+        try {
+            Method getItemsMethod = clazz.getMethod("getItems");
+            String returnType = getItemsMethod.getGenericReturnType().getTypeName();
+            if (returnType.startsWith("javafx.collections.ObservableList<")) {
+                Pattern pattern = Pattern.compile("<(.+)>$");
+                Matcher matcher = pattern.matcher(returnType);
+                if (matcher.find()) {
+                    String observableListTypeParameter = matcher.group(1);
+                    ItemsMethodModel model = ItemsMethodModel.create(builderClassName,
+                            builderClassNameWithTypeParameter,
+                            observableListTypeParameter,
+                            typeParametersExtends);
+                    TemplateOutput output = new StringOutput();
+                    templateEngine.render("items-methods.jte", model, output);
+                    return output.toString();
+                } else {
+                    return "";
+                }
+            }
+        } catch (NoSuchMethodException e) {
+            // Class doesn't have getItems method, skip
         }
         return "";
     }
