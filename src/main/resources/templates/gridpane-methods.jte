@@ -81,7 +81,7 @@
      * 
      * @param constraints column constraints
      */
-    public ${model.builderClassNameWithTypeParameter()} columnConstraints(javafx.scene.layout.ColumnConstraints... constraints) {
+    public ${model.builderClassNameWithTypeParameter()} addColumnConstraints(javafx.scene.layout.ColumnConstraints... constraints) {
         operations.add(obj -> 
             java.util.Arrays.stream(constraints)
                   .forEach(obj.getColumnConstraints()::add)
@@ -98,7 +98,7 @@
      * 
      * @param constraints row constraints
      */
-    public ${model.builderClassNameWithTypeParameter()} rowConstraints(javafx.scene.layout.RowConstraints... constraints) {
+    public ${model.builderClassNameWithTypeParameter()} addRowConstraints(javafx.scene.layout.RowConstraints... constraints) {
         operations.add(obj -> 
             java.util.Arrays.stream(constraints)
                   .forEach(obj.getRowConstraints()::add)

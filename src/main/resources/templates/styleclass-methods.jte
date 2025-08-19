@@ -2,7 +2,7 @@
 
 @param StyleClassMethodModel model
 
-    public  ${model.builderClassNameWithTypeParameter()} styleClass(String... cssClassNames) {
+    public  ${model.builderClassNameWithTypeParameter()} addStyleClass(String... cssClassNames) {
         operations.add(obj -> 
             java.util.Arrays.stream(cssClassNames)
                   .forEach(obj.getStyleClass()::add)

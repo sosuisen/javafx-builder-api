@@ -192,7 +192,7 @@ class VBoxBuilderTest {
         Label label1 = new Label("Label 1");
 
         VBox vbox = VBoxBuilder.create()
-                .children(button1, button2, label1)
+                .addChildren(button1, button2, label1)
                 .build();
 
         assertEquals(3, vbox.getChildren().size());
@@ -210,8 +210,8 @@ class VBoxBuilderTest {
         Label label2 = new Label("Label 2");
 
         VBox vbox = VBoxBuilder.create()
-                .children(button1, button2)
-                .children(label1, label2)
+                .addChildren(button1, button2)
+                .addChildren(label1, label2)
                 .build();
 
         // Should only contain the last set of children
@@ -279,7 +279,7 @@ class VBoxBuilderTest {
                 .alignment(expectedAlignment)
                 .id(expectedId)
                 .fillWidth(false)
-                .children(button1, label1)
+                .addChildren(button1, label1)
                 .visible(true)
                 .build();
 
@@ -321,7 +321,7 @@ class VBoxBuilderTest {
 
         VBoxBuilder builder = VBoxBuilder.create()
                 .spacing(5.0)
-                .children(sharedButton);
+                .addChildren(sharedButton);
 
         VBox instance1 = builder.build();
         VBox instance2 = builder.build();
@@ -379,7 +379,7 @@ class VBoxBuilderTest {
     void shouldHandleNullChildrenGracefully() {
         assertDoesNotThrow(() -> {
             VBox vbox = VBoxBuilder.create()
-                    .children((Node[]) null)
+                    .addChildren((Node[]) null)
                     .build();
             assertNotNull(vbox);
             // children() with null should clear the children list
@@ -394,7 +394,7 @@ class VBoxBuilderTest {
 
         assertDoesNotThrow(() -> {
             VBox vbox = VBoxBuilder.create()
-                    .children(validButton, null, new Label("Valid Label"))
+                    .addChildren(validButton, null, new Label("Valid Label"))
                     .build();
             assertNotNull(vbox);
             // Should contain non-null children
