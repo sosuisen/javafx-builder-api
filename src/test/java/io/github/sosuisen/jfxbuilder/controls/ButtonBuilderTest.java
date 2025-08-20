@@ -11,22 +11,15 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.TextAlignment;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.testfx.framework.junit5.ApplicationExtension;
 import org.junit.jupiter.api.DisplayName;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+// Use TextFX
+@ExtendWith(ApplicationExtension.class)
 class ButtonBuilderTest {
-
-    @BeforeEach
-    void initializeJavaFXRuntime() {
-        try {
-            javafx.application.Platform.startup(() -> {
-            });
-        } catch (IllegalStateException e) {
-            // Platform already started
-        }
-    }
 
     @Test
     @DisplayName("Should create ButtonBuilder with default constructor")

@@ -7,11 +7,14 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.testfx.framework.junit5.ApplicationExtension;
 import org.junit.jupiter.api.DisplayName;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+// Use TextFX
+@ExtendWith(ApplicationExtension.class)
 class TableViewBuilderTest {
 
     // Test data class
@@ -38,16 +41,6 @@ class TableViewBuilderTest {
 
         public void setAge(int age) {
             this.age = age;
-        }
-    }
-
-    @BeforeEach
-    void initializeJavaFXRuntime() {
-        try {
-            javafx.application.Platform.startup(() -> {
-            });
-        } catch (IllegalStateException e) {
-            // Platform already started
         }
     }
 

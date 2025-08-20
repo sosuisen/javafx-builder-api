@@ -12,25 +12,25 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
+import javafx.stage.Stage;
+
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.testfx.framework.junit5.ApplicationExtension;
+import org.testfx.framework.junit5.Start;
 import org.junit.jupiter.api.DisplayName;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+// Use TextFX
+@ExtendWith(ApplicationExtension.class)
 class SceneBuilderTest {
 
     private Parent rootNode;
 
-    @BeforeEach
-    void setUp() {
-        try {
-            javafx.application.Platform.startup(() -> {
-            });
-        } catch (IllegalStateException e) {
-            // Platform already started
-        }
-
+    // Called before each test method
+    @Start
+    void setup(Stage stage) {
         rootNode = new VBox();
     }
 

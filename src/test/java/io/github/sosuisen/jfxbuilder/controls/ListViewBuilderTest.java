@@ -6,22 +6,15 @@ import javafx.geometry.Orientation;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.testfx.framework.junit5.ApplicationExtension;
 import org.junit.jupiter.api.DisplayName;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+// Use TextFX
+@ExtendWith(ApplicationExtension.class)
 class ListViewBuilderTest {
-
-    @BeforeEach
-    void initializeJavaFXRuntime() {
-        try {
-            javafx.application.Platform.startup(() -> {
-            });
-        } catch (IllegalStateException e) {
-            // Platform already started
-        }
-    }
 
     @Test
     @DisplayName("Should create ListViewBuilder with default constructor")
