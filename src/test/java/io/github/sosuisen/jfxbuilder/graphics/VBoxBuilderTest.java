@@ -185,7 +185,7 @@ class VBoxBuilderTest {
         Label label1 = new Label("Label 1");
 
         VBox vbox = VBoxBuilder.create()
-                .addChildren(button1, button2, label1)
+                .observableChildren(button1, button2, label1)
                 .build();
 
         assertEquals(3, vbox.getChildren().size());
@@ -251,7 +251,7 @@ class VBoxBuilderTest {
                 .alignment(expectedAlignment)
                 .id(expectedId)
                 .fillWidth(false)
-                .addChildren(button1, label1)
+                .observableChildren(button1, label1)
                 .visible(true)
                 .build();
 
@@ -293,7 +293,7 @@ class VBoxBuilderTest {
 
         VBoxBuilder builder = VBoxBuilder.create()
                 .spacing(5.0)
-                .addChildren(sharedButton);
+                .observableChildren(sharedButton);
 
         VBox instance1 = builder.build();
         VBox instance2 = builder.build();

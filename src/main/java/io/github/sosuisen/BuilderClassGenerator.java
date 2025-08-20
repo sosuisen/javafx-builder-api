@@ -323,7 +323,7 @@ public class BuilderClassGenerator {
         content.append(generateChildrenMethod());
 
         // Check for getItems and getMenus methods and generate add methods
-        content.append(generateAddMethods());
+        content.append(generateObservableMethods());
 
         // Generate BorderPane specific static methods
         if ("BorderPane".equals(clazz.getSimpleName())) {
@@ -363,7 +363,7 @@ public class BuilderClassGenerator {
         return "";
     }
 
-    private String generateAddMethods() {
+    private String generateObservableMethods() {
         StringBuilder result = new StringBuilder();
 
         // Find all getXxxx methods that return ObservableList
@@ -378,18 +378,18 @@ public class BuilderClassGenerator {
 
                 // Convert getXxxx to addXxxx
                 String propertyName = methodName.substring(3); // Remove "get"
-                String addMethodName = "add" + propertyName;
+                String addMethodName = "observable" + propertyName;
 
                 System.out.println("Generating " + addMethodName + " method for " + clazz.getSimpleName() + "."
                         + methodName + "()");
-                result.append(generateAddMethod(methodName, addMethodName));
+                result.append(generateObservableMethod(methodName, addMethodName));
             }
         }
 
         return result.toString();
     }
 
-    private String generateAddMethod(String getterMethodName, String methodName) {
+    private String generateObservableMethod(String getterMethodName, String methodName) {
         try {
             Method getterMethod = clazz.getMethod(getterMethodName);
             String returnType = getterMethod.getGenericReturnType().getTypeName();
@@ -406,7 +406,7 @@ public class BuilderClassGenerator {
                             methodName,
                             getterMethodName);
                     TemplateOutput output = new StringOutput();
-                    templateEngine.render("add-methods.jte", model, output);
+                    templateEngine.render("observable-methods.jte", model, output);
                     return output.toString();
                 }
             }
