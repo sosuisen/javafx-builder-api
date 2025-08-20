@@ -145,7 +145,9 @@ public class BuilderClassGenerator {
 
         content.append(generateClassHeader());
 
-        if ("Scene".equals(clazz.getSimpleName())) {
+        if ("Stage".equals(clazz.getSimpleName())) {
+            content.append(generateStageMethods());
+        } else if ("Scene".equals(clazz.getSimpleName())) {
             content.append(generateSceneMethods());
         } else {
             content.append(generateCreateMethods());
@@ -176,6 +178,12 @@ public class BuilderClassGenerator {
 
         TemplateOutput output = new StringOutput();
         templateEngine.render("class-header.jte", model, output);
+        return output.toString();
+    }
+
+    private String generateStageMethods() {
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("stage-methods.jte", null, output);
         return output.toString();
     }
 
