@@ -5,22 +5,15 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.testfx.framework.junit5.ApplicationExtension;
 import org.junit.jupiter.api.DisplayName;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+// Use TextFX
+@ExtendWith(ApplicationExtension.class)
 class BorderPaneBuilderTest {
-
-    @BeforeEach
-    void initializeJavaFXRuntime() {
-        try {
-            javafx.application.Platform.startup(() -> {
-            });
-        } catch (IllegalStateException e) {
-            // Platform already started
-        }
-    }
 
     @Test
     @DisplayName("Should create BorderPaneBuilder with default constructor")

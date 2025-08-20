@@ -46,14 +46,14 @@
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter</artifactId>
+      <artifactId>junit-jupiter-api</artifactId>
       <version>5.10.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.10.1</version>
+      <groupId>org.testfx</groupId>
+      <artifactId>testfx-junit5</artifactId>
+      <version>4.0.18</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -107,6 +107,7 @@
         <version>3.4.2</version>
       </plugin>
     </plugins>
+
     <resources>
       <resource>
         <directory>src/main/resources</directory>
