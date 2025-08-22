@@ -483,4 +483,53 @@ class ButtonBuilderTest {
             assertNotNull(button);
         });
     }
+
+    @Test
+    @DisplayName("Should add CSS stylesheet text")
+    void shouldAddCssStylesheetText() {
+        String cssText = ".my-button { -fx-text-fill: white; -fx-background-color: red; }";
+        
+        Button button = ButtonBuilder.create()
+                .text("Test Button")
+                .addStylesheetsText(cssText)
+                .build();
+
+        assertNotNull(button);
+        assertEquals("Test Button", button.getText());
+        
+        // Verify that the stylesheet was added
+        assertFalse(button.getStylesheets().isEmpty());
+        assertEquals(1, button.getStylesheets().size());
+        
+        String addedStylesheet = button.getStylesheets().get(0);
+        assertTrue(addedStylesheet.startsWith("data:text/css;base64,"));
+        
+        // Decode and verify the CSS content
+        String base64Part = addedStylesheet.substring("data:text/css;base64,".length());
+        String decodedCss = new String(java.util.Base64.getDecoder().decode(base64Part));
+        assertEquals(cssText, decodedCss);
+    }
+
+    @Test
+    @DisplayName("Should chain addStylesheetsText with other methods")
+    void shouldChainAddStylesheetsTextWithOtherMethods() {
+        String cssText = ".my-button { -fx-font-size: 16px; }";
+        String expectedText = "Styled Button";
+        String expectedId = "styled-button";
+        
+        Button button = ButtonBuilder.create()
+                .text(expectedText)
+                .id(expectedId)
+                .addStylesheetsText(cssText)
+                .prefWidth(200.0)
+                .build();
+
+        assertEquals(expectedText, button.getText());
+        assertEquals(expectedId, button.getId());
+        assertEquals(200.0, button.getPrefWidth(), 0.001);
+        assertEquals(1, button.getStylesheets().size());
+        
+        String addedStylesheet = button.getStylesheets().get(0);
+        assertTrue(addedStylesheet.startsWith("data:text/css;base64,"));
+    }
 }

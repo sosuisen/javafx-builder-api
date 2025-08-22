@@ -178,14 +178,14 @@ class VBoxBuilderTest {
     }
 
     @Test
-    @DisplayName("Should add children using children() method")
+    @DisplayName("Should add children using addChildren() method")
     void shouldAddChildrenUsingChildrenMethod() {
         Button button1 = new Button("Button 1");
         Button button2 = new Button("Button 2");
         Label label1 = new Label("Label 1");
 
         VBox vbox = VBoxBuilder.create()
-                .observableChildren(button1, button2, label1)
+                .addChildren(button1, button2, label1)
                 .build();
 
         assertEquals(3, vbox.getChildren().size());
@@ -251,7 +251,7 @@ class VBoxBuilderTest {
                 .alignment(expectedAlignment)
                 .id(expectedId)
                 .fillWidth(false)
-                .observableChildren(button1, label1)
+                .addChildren(button1, label1)
                 .visible(true)
                 .build();
 
@@ -293,7 +293,7 @@ class VBoxBuilderTest {
 
         VBoxBuilder builder = VBoxBuilder.create()
                 .spacing(5.0)
-                .observableChildren(sharedButton);
+                .addChildren(sharedButton);
 
         VBox instance1 = builder.build();
         VBox instance2 = builder.build();

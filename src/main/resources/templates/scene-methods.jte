@@ -107,14 +107,14 @@
      * For example:
      * <pre>
      * SceneBuilder builder = SceneBuilder.create()
-     *          .stylesheetText(".my-button { -fx-text-fill: white; }")
+     *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
      *          .build();
      * </pre>
      *
      * @param css CSS string
      */
-    public SceneBuilder addStylesheetText(String css) {
-        operations.add(obj -> obj.getStylesheets().add("data:text/css;base64," +
+    public SceneBuilder addStylesheetsText(String css) {
+        operations.add(obj -> obj.getStylesheets().addAll("data:text/css;base64," +
                 java.util.Base64.getEncoder().encodeToString(css.getBytes())));
         return this;
     }
