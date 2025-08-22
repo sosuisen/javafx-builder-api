@@ -35,6 +35,7 @@ import io.github.sosuisen.template.GridPaneMethodModel;
 import io.github.sosuisen.template.ClassHeaderModel;
 import io.github.sosuisen.template.LayoutConstraintMethodModel;
 import io.github.sosuisen.template.PropertyMethodModel;
+import io.github.sosuisen.template.StylesheetMethodModel;
 
 public class BuilderClassGenerator {
     private static final TemplateEngine templateEngine = initializeTemplateEngine();
@@ -323,7 +324,12 @@ public class BuilderClassGenerator {
         content.append(generateChildrenMethod());
 
         // Check for getItems and getMenus methods and generate add methods
-        content.append(generateObservableMethods());
+        content.append(generateAddMethods());
+
+        // Generate stylesheet method for Parent classes
+        if (isParentClass()) {
+            content.append(generateStylesheetMethod());
+        }
 
         // Generate BorderPane specific static methods
         if ("BorderPane".equals(clazz.getSimpleName())) {
@@ -363,7 +369,7 @@ public class BuilderClassGenerator {
         return "";
     }
 
-    private String generateObservableMethods() {
+    private String generateAddMethods() {
         StringBuilder result = new StringBuilder();
 
         // Find all getXxxx methods that return ObservableList
@@ -378,18 +384,16 @@ public class BuilderClassGenerator {
 
                 // Convert getXxxx to addXxxx
                 String propertyName = methodName.substring(3); // Remove "get"
-                String addMethodName = "observable" + propertyName;
+                String addMethodName = "add" + propertyName;
 
-                System.out.println("Generating " + addMethodName + " method for " + clazz.getSimpleName() + "."
-                        + methodName + "()");
-                result.append(generateObservableMethod(methodName, addMethodName));
+                result.append(generateAddMethod(methodName, addMethodName));
             }
         }
 
         return result.toString();
     }
 
-    private String generateObservableMethod(String getterMethodName, String methodName) {
+    private String generateAddMethod(String getterMethodName, String methodName) {
         try {
             Method getterMethod = clazz.getMethod(getterMethodName);
             String returnType = getterMethod.getGenericReturnType().getTypeName();
@@ -406,7 +410,7 @@ public class BuilderClassGenerator {
                             methodName,
                             getterMethodName);
                     TemplateOutput output = new StringOutput();
-                    templateEngine.render("observable-methods.jte", model, output);
+                    templateEngine.render("add-methods.jte", model, output);
                     return output.toString();
                 }
             }
@@ -427,6 +431,14 @@ public class BuilderClassGenerator {
         GridPaneMethodModel model = GridPaneMethodModel.create(builderClassName);
         TemplateOutput output = new StringOutput();
         templateEngine.render("gridpane-methods.jte", model, output);
+        return output.toString();
+    }
+
+    private String generateStylesheetMethod() {
+        StylesheetMethodModel model = StylesheetMethodModel.create(
+                clazz.getSimpleName(), builderClassName, builderClassNameWithTypeParameter);
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("stylesheet-method.jte", model, output);
         return output.toString();
     }
 
@@ -499,6 +511,15 @@ public class BuilderClassGenerator {
         try {
             Class<?> nodeClass = Class.forName("javafx.scene.Node");
             return nodeClass.isAssignableFrom(clazz);
+        } catch (ClassNotFoundException e) {
+            return false;
+        }
+    }
+
+    private boolean isParentClass() {
+        try {
+            Class<?> parentClass = Class.forName("javafx.scene.Parent");
+            return parentClass.isAssignableFrom(clazz);
         } catch (ClassNotFoundException e) {
             return false;
         }
