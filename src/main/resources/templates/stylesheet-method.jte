@@ -14,7 +14,7 @@
      * @param css CSS string
      */
     public ${model.builderClassNameWithTypeParameter()} addStylesheetsText(String css) {
-        operations.add(obj -> obj.getStylesheets().setAll("data:text/css;base64," +
+        operations.add(obj -> obj.getStylesheets().addAll("data:text/css;base64," +
                 java.util.Base64.getEncoder().encodeToString(css.getBytes())));
         return this;
     }
