@@ -24,7 +24,5 @@
             "debug": false
         }
     ],
-    "maven.view": "flat",
     "java.dependency.packagePresentation": "hierarchical",
-    "kiroAgent.configureMCP": "Disabled",
 }
