@@ -1,6 +1,7 @@
 package io.github.sosuisen.mapper;
 
 import io.github.sosuisen.BuildInfo;
+import io.github.sosuisen.parser.TypeParser;
 
 import java.io.IOException;
 import java.io.InputStream;
