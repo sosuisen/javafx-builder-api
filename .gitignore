@@ -1,5 +1,4 @@
 /target
-.serena/cache
-.serena/memories
+.serena/
 src/main/java/io/github/sosuisen/jfxbuilder/
 jte-classes/
