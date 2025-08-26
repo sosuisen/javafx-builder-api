@@ -41,11 +41,11 @@ Clone this repository to your local PC.
 
 ### Copy JARs
 
-Copy the following JARs from the SDK folder to the `sdk\{version}` folder of this repository. (e.g., sdk\24.0.0)
-- `build\publications\javafx.controls-win.jar`
-- `build\publications\javafx.graphics-win.jar`
-- `build\publications\javafx.media-win.jar`
-- `build\publications\javafx.web-win.jar`
+Copy the following JARs from the SDK folder to the `sdk/{version}` folder of this repository. (e.g., sdk\24.0.0)
+- `build/publications/javafx.controls-win.jar`
+- `build/publications/javafx.graphics-win.jar`
+- `build/publications/javafx.media-win.jar`
+- `build/publications/javafx.web-win.jar`
 
 These JARs will be used to extract JavaFX class names.
 
