@@ -62,7 +62,7 @@ My approach utilizes reflection to automatically generate Builder classes, while
 
 ## Use of Generator
 
-This Builder API is planned for publication to Maven Central but is not yet available. Currently, you need to install it in your local repository to use it.
+JAR files of the Builder API are planned for publication to Maven Central but are not yet available. Currently, you need to generate and install them in your local repository to use them.
 
 To generate it yourself, please see the instructions in [Generate builder classes](./docs/BUILD.md).
 
