@@ -1,6 +1,6 @@
 # Builder API
 
-The generated builders provide a fluent API for creating JavaFX components:
+The builder classes provide a fluent API for creating JavaFX components:
 
 ```java
 // Example using generated Builders
@@ -30,20 +30,20 @@ Scene scene = SceneBuilder.withRoot(
 ```
 ![](images/example_panel.png)
 
-# Basic API
+# Basic APIs
 
-The Builder API generally provides a Fluent API with names converted from the original class API using simple rules.
+The builder class generally offers a fluent API with names derived from the original class API using simple conventions.
 
-## Builder class
+## Builder Class
 
-A builder class is prepared for each `javafx.scene.*` class.
+A builder class is created for each `javafx.scene.*` class.
 
 Class naming convention:
 ```
 [Original class name] + "Builder"
 ```
 
-When the original class is public inner class:
+When the original class is a public inner class:
 
 ```
 [Outer class name] + [Inner class name] + "Builder"
@@ -53,17 +53,17 @@ Examples:
 - `Button` -> `ButtonBuilder`
 - `XYChart.Data` -> `XYChartDataBuilder`
 
-## create methods (static)
+## Create Methods (Static)
 
-A builder class has a class method `create` with the same arguments as the original class constructor. The `create` method provides a Fluent API by returning an instance of the builder class.
+Each builder class includes a `static create` method with the same arguments as the original class constructor. The `create` method enables a fluent API by returning an instance of the builder class.
 
 Examples:
 - `Button()` -> `ButtonBuilder.create()`
 - `Button(String text)` -> `ButtonBuilder.create(String text)`
 
-## build method
+## Build Method
 
-Build and return an instance of the original class.
+This method builds and returns an instance of the original class.
 
 Note that intermediate methods are not evaluated until build() is called (lazy evaluation).
 
@@ -72,9 +72,9 @@ Example:
 Button btn = BuittonBuilder.create().build();
 ```
 
-## setter methods
+## Setter Methods
 
-A builder class has a method named `XXX` with the same name as the original class setter, removing `set` from `setXXX` and making the first letter lowercase.
+Each builder class includes a method named `XXX` where the name corresponds to the original class setter by removing `set` from `setXXX` and making the first letter lowercase.
 
 Method naming convention:
 ```
@@ -96,7 +96,7 @@ var btn2 = ButtonBuilder.create()
 Exception:
 - **Class methods** that start with 'set' are ignored.
 
-## apply method
+## Apply Method
 
 When you call `apply()` with a functional interface(Consumer<T>) during the building process, it provides access to the instance currently being built.
 
@@ -107,31 +107,29 @@ ButtonBuilder.create()
     .build();
 ```
 
-Most of what you want to accomplish with the builder can be achieved using this `apply` method. However, for commonly used patterns, extra APIs (which will be introduced later) are provided, allowing you to write more concise code.
+Most goals can be accomplished using this `apply` method. However, for commonly used patterns, extra APIs (to be introduced later) are provided to enable more concise code.
 
-# Extra API
+# Extra APIs
 
-You can use the Builder API by learning only the Basic API. On the other hand, for commonly used patterns, several utilities are provided as Extra API.
+You can utilize the builder classes by mastering only the Basic APIs. Additionally, several utilities are provided as Extra APIs for commonly used patterns.
 
-## xxxPropertyApply - Access to property
+## xxxPropertyApply - Access to Property
 
-You can directly access many properties of the instance by `xxxPropertyApply` methods. 
+You can directly access many properties of the instance using `xxxPropertyApply` methods. 
 
 Method naming convention:
 ```
 [property name]  + "Apply"
 ```
 
-Namely, the following `apply` notation has a shorthand form.
-
-Example: 
+For example, the following `apply` notation has a shorthand form:
 
 - Original form: `.apply(obj -> obj.textProperty().bind(anotherProperty))`
 
 - Shorthand form: `.textPropertyApply(prop->prop.bind(anotherProperty))`
 
 
-## xxxIn{ContainerClass} - Calling class methods fluently on the container side
+## xxxIn{ContainerClass} - Fluent Method Calls on the Container Side
 
 All static setter methods of javafx.scene.layout.Pane container classes are reciprocally implemented as instance methods in Node-inheriting classes.
 
@@ -160,22 +158,21 @@ HBoxBuilder.create(
            .build();
 ```
 
-## add method - Get ObservableList and add items
+## Add Method - Get ObservableList and Add Items
+
+## With Method (Static)
 
 
-## with method (static)
-
-
-## styles
+## Styles
 
 ### addStylesheetsText
 
 
-### Default styleClass for container classes
+### Default styleClass for Container Classes
 
 
 
-## Class specific API
+## Class-Specific API
 
 ### Stage
 
