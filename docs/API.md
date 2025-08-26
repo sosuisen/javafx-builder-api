@@ -69,7 +69,7 @@ Note that intermediate methods are not evaluated until build() is called (lazy e
 
 Example:
 ```java
-Button btn = BuittonBuilder.create().build();
+Button btn = ButtonBuilder.create().build();
 ```
 
 ## Setter Methods
