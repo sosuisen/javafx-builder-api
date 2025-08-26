@@ -10,15 +10,12 @@ The sdk jar files are under the sdk/${javafx.version} directory.
 
 # Scripts
 
-## How to compile
-mvn clean compile -P javafx24
+## How to run class generater
+`mvn clean compile javafx:run -P javafx24`
 
-## How to run
-mvn javafx:run -P javafx24
+## How to compile builder classes
+`mvn compile -P javafx24,compile-builders`
 
-You can ignore following error:
-Unsupported JavaFX configuration: classes were loaded from 'unnamed module @XXXXXXX'
-
-## How to test
+## How to test builder classes
 mvn test -P javafx24
 
