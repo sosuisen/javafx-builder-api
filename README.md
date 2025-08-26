@@ -6,6 +6,33 @@ A Maven-based tool that generates fluent builder APIs for JavaFX components by a
 
 This project generates builder pattern implementations for JavaFX UI components, facilitating the creation of JavaFX applications with a fluent, declarative API. The UI code written with the builder API can represent nested structures that closely approximate the container hierarchy of the UI.
 
+```java
+// Example using JavaFX Builder APIs
+textProp = new SimpleStringProperty("100");
+
+Scene scene = SceneBuilder.withRoot(
+                  HBoxBuilder.withChildren(
+                                  TextFieldBuilder.create()
+                                      .textPropertyApply(prop -> prop.bindBidirectional(textProp))
+                                      .style("""
+                                             -fx-font-weight: bold;
+                                             -fx-alignment: center;
+                                             """)
+                                      .hGrowInHBox(Priority.ALWAYS)
+                                      .maxWidth(Double.MAX_VALUE)
+                                      .build(),
+                                  ButtonBuilder.create()
+                                      .text("Send")
+                                      .onAction(e -> System.out.println("Sending..."))
+                                      .minWidth(50)
+                                      .build())
+                             .padding(new Insets(10))
+                             .build())
+                .width(150)
+                .height(100)
+                .build();
+```
+
 ## Features
 
 - **Automatic Builder Generation**: Creates builder classes for JavaFX controls, graphics, media, and web components.
