@@ -43,3 +43,6 @@ To generate it yourself, please see the instructions in [Generate builder classe
 
 Refer [Builder API](./docs/API.md).
 
+## Sample Project Using Builder API
+
+https://github.com/sosuisen/bmi-mvvm-with-builder
