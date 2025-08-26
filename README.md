@@ -43,6 +43,3 @@ To generate it yourself, please see the instructions in [Generate builder classe
 
 Refer [Builder API](./docs/API.md).
 
-## Background
-
-
