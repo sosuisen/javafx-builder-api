@@ -3,23 +3,22 @@
 ## Project Structure
 
 ```
+├── generated-api/          # Generated builder API projects
+├── sdk/                    # JavaFX SDK JAR files
 ├── src/main/java/io/github/sosuisen/
 │   ├── extractor/          # JAR analysis and metadata extraction
-│   ├── jfxbuilder/         # Generated builder classes
-│   │   ├── controls/       # JavaFX Controls builders
-│   │   ├── graphics/       # JavaFX Graphics builders
-│   │   ├── media/          # JavaFX Media builders
-│   │   └── web/            # JavaFX Web builders
+│   ├── jfxbuilder/         # Copied generated code, kept under the source path 
+│   │                         for easier static verification.
 │   ├── mapper/             # Class and method annotation mapping
 │   ├── parser/             # Code parsing utilities
 │   └── template/           # Template model classes
-|   App.java                # Entry point
+|   App.java                # Entry point called from Launcher
 |   BuilderClassGenerator.java # Generator class
+|   Launcher.java           # Launch from this point
 ├── src/main/resources/
-│   ├── mapper/             # Mapping configuration files
+│   ├── mapper/             # Individual rules
+│   ├── pom/                # pom.xml templates for builder API projects
 │   └── templates/          # JTE template files
-├── sdk/24.0.0/             # JavaFX SDK JAR files
-└── assembly-descriptor/    # Maven assembly configurations
 ```
 
 ## Getting Started
@@ -51,65 +50,20 @@ These JARs will be used to extract JavaFX class names.
 
 ### Generate Builder Classes
 
-Run the class generator to analyze JavaFX SDK and generate builder classes:
+Run the generator to analyze JavaFX SDK and generate builder classes:
 
 ```bash
-mvn clean compile javafx:run -P javafx24
-```
-
-### Compile Builder Classes
-
-After generation, compile the generated builder classes:
-
-```bash
-mvn compile -P javafx24,compile-builders
-```
-
-### Run Tests
-
-Test the generated builder classes:
-
-```bash
-mvn test -P javafx24
-```
-
-### Build Module JARs
-
-Build specific module JARs using Maven profiles:
-
-```bash
-# Build controls module
-mvn clean compile assembly:single install -P javafx24,compile-builders,controls
-
-# Build graphics module
-mvn clean compile assembly:single install -P javafx24,compile-builders,graphics
-
-# Build media module
-mvn clean compile assembly:single install -P javafx24,compile-builders,media
-
-# Build web module
-mvn clean compile assembly:single install -P javafx24,compile-builders,web
+./generate_builder_v24.sh
 ```
 
 ### Install JavaFX Builder API to Your Local Maven Repository
 
-run `install_local_javafx24.sh`.
-
-If you would like to install -SNAPSHOT, run `install_local_javafx24_dev.sh`.
+run `install_builder_to_local_v24.sh`.
 
 ## Architecture
 
 ### Code Generation Process
 
-1. **JAR Analysis**: The `JarExtractor` analyzes JavaFX SDK JAR files to discover classes.
-2. **Metadata Extraction**: Extracts constructor parameters, setter methods, and property information.
-3. **Template Processing**: Uses JTE templates to generate builder class source code.
-4. **Class Generation**: Outputs builder classes with fluent APIs and build methods.
-
-### Key Components
-
-- **BuilderClassGenerator**: Main orchestrator for the generation process.
-- **JarExtractor**: Analyzes JAR files and extracts class metadata.
-- **TypeMappingManager**: Handles exceptional type mappings and annotations.
-- **JTE Templates**: Define the structure and format of generated code.
+- **JAR Analysis**: The `JarExtractor` analyzes JavaFX SDK JAR files to discover classes.
+- **Class Generation**: Reflection is used to automatically generate Builder classes, while specific aspects that cannot be automated are handled through individual rules located in files under `src/main/resources/mapper/`.
 

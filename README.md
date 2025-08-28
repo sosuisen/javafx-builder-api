@@ -131,9 +131,19 @@ pom.xml
       <artifactId>javafx-controls</artifactId>
       <version>${javafx.version}</version>
     </dependency>
+    <dependency>    
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-graphics</artifactId>     
+      <version>${javafx.version}</version>
+    </dependency>
     <dependency>
       <groupId>io.github.sosuisen</groupId>
       <artifactId>javafx-builder-controls</artifactId>
+      <version>${javafx.builder.version}</version>
+    </dependency>
+    <dependency>    
+      <groupId>io.github.sosuisen</groupId>
+      <artifactId>javafx-builder-graphics</artifactId>     
       <version>${javafx.builder.version}</version>
     </dependency>
  </dependencies>
@@ -141,23 +151,30 @@ pom.xml
 
 ### Transitive dependencies
 
-The builder implementation itself depends solely on the original artifact. 
+The builder implementation depends solely on the original JavaFX artifact. 
 
-For user convenience, I have included dependencies on the builders for the JavaFX artifacts that the original artifact relies on in the POM. 
+**Important**: Maven automatically manages transitive dependencies for JavaFX artifacts; however, builder API artifacts must be installed manually.
 
-For example, `javafx-builder-controls` has dependencies on `javafx-controls` and `javafx-builder-graphics`, as `javafx-controls` depends on `javafx-graphics`.
-
-
-Therefore, you can simplify the dependencies as follows:
+For example, `javafx-builder-graphics` is not strictly necessary, but it is generally required when your project depends on `javafx-controls`, since `javafx-graphics` is a transitive dependency.
 
 pom.xml
 ```
   <dependencies>
     <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>${javafx.version}</version>
+    </dependency>
+    <dependency>
       <groupId>io.github.sosuisen</groupId>
       <artifactId>javafx-builder-controls</artifactId>
-      <version>24.0.0</version>
+      <version>${javafx.builder.version}</version>
     </dependency>
+    <dependency>    
+      <groupId>io.github.sosuisen</groupId>
+      <artifactId>javafx-builder-graphics</artifactId>     
+      <version>${javafx.builder.version}</version>
+    </dependency>   
   </dependencies>
 ```
 
