@@ -75,11 +75,6 @@
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.0.0</version>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.11.0</version>
         <configuration>
@@ -103,8 +98,62 @@
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
         <version>3.4.2</version>
+        <configuration>
+          <descriptors>
+            <descriptor>${project.basedir}/assembly-descriptor/${builder.component}-assembly.xml</descriptor>
+          </descriptors>
+          <finalName>javafx-builder-${builder.component}-${javafx.major.version}.${project.version}</finalName>
+          <appendAssemblyId>false</appendAssemblyId>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-install-plugin</artifactId>
+        <version>3.1.1</version>
+        <executions>
+          <execution>
+            <id>install-builder-jar</id>
+            <phase>install</phase>
+            <goals>
+              <goal>install-file</goal>
+            </goals>
+            <configuration>
+              <file>${project.build.directory}/javafx-builder-${builder.component}-${javafx.major.version}.${project.version}.jar</file>
+              <pomFile>${project.build.directory}/pom-${builder.component}.xml</pomFile>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>copy-pom-template</id>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}</outputDirectory>
+              <resources>
+                <resource>
+                  <directory>src/main/resources/pom</directory>
+                  <filtering>true</filtering>
+                  <includes>
+                    <include>pom-${builder.component}.xml</include>
+                  </includes>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
 
@@ -112,6 +161,9 @@
       <resource>
         <directory>src/main/resources</directory>
         <filtering>true</filtering>
+        <includes>
+          <include>**/*.properties</include>
+        </includes>
       </resource>
     </resources>
   </build>
@@ -154,163 +206,27 @@
     </profile>
     <profile>
       <id>controls</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-assembly-plugin</artifactId>
-            <configuration>
-              <descriptors>
-                <descriptor>${project.basedir}/assembly-descriptor/controls-assembly.xml</descriptor>
-              </descriptors>
-              <finalName>javafx-builder-controls-${javafx.major.version}.${project.version}</finalName>
-              <appendAssemblyId>false</appendAssemblyId>
-            </configuration>
-          </plugin>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-install-plugin</artifactId>
-            <version>3.1.1</version>
-            <executions>
-              <execution>
-                <id>install-controls-jar</id>
-                <phase>install</phase>
-                <goals>
-                  <goal>install-file</goal>
-                </goals>
-                <configuration>
-                  <file>${project.build.directory}/javafx-builder-controls-${javafx.major.version}.${project.version}.jar</file>
-                  <groupId>io.github.sosuisen</groupId>
-                  <artifactId>javafx-builder-controls</artifactId>
-                  <version>${javafx.major.version}.${project.version}</version>
-                  <packaging>jar</packaging>
-                  <generatePom>true</generatePom>
-                </configuration>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
+      <properties>
+        <builder.component>controls</builder.component>
+      </properties>
     </profile>
     <profile>
       <id>graphics</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-assembly-plugin</artifactId>
-            <configuration>
-              <descriptors>
-                <descriptor>${project.basedir}/assembly-descriptor/graphics-assembly.xml</descriptor>
-              </descriptors>
-              <finalName>javafx-builder-graphics-${javafx.major.version}.${project.version}</finalName>
-              <appendAssemblyId>false</appendAssemblyId>
-            </configuration>
-          </plugin>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-install-plugin</artifactId>
-            <version>3.1.1</version>
-            <executions>
-              <execution>
-                <id>install-graphics-jar</id>
-                <phase>install</phase>
-                <goals>
-                  <goal>install-file</goal>
-                </goals>
-                <configuration>
-                  <file>${project.build.directory}/javafx-builder-graphics-${javafx.major.version}.${project.version}.jar</file>
-                  <groupId>io.github.sosuisen</groupId>
-                  <artifactId>javafx-builder-graphics</artifactId>
-                  <version>${javafx.major.version}.${project.version}</version>
-                  <packaging>jar</packaging>
-                  <generatePom>true</generatePom>
-                </configuration>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
+      <properties>
+        <builder.component>graphics</builder.component>
+      </properties>
     </profile>
     <profile>
       <id>web</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-assembly-plugin</artifactId>
-            <configuration>
-              <descriptors>
-                <descriptor>${project.basedir}/assembly-descriptor/web-assembly.xml</descriptor>
-              </descriptors>
-              <finalName>javafx-builder-web-${javafx.major.version}.${project.version}</finalName>
-              <appendAssemblyId>false</appendAssemblyId>
-            </configuration>
-          </plugin>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-install-plugin</artifactId>
-            <version>3.1.1</version>
-            <executions>
-              <execution>
-                <id>install-web-jar</id>
-                <phase>install</phase>
-                <goals>
-                  <goal>install-file</goal>
-                </goals>
-                <configuration>
-                  <file>${project.build.directory}/javafx-builder-web-${javafx.major.version}.${project.version}.jar</file>
-                  <groupId>io.github.sosuisen</groupId>
-                  <artifactId>javafx-builder-web</artifactId>
-                  <version>${javafx.major.version}.${project.version}</version>
-                  <packaging>jar</packaging>
-                  <generatePom>true</generatePom>
-                </configuration>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
+      <properties>
+        <builder.component>web</builder.component>
+      </properties>
     </profile>
     <profile>
       <id>media</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-assembly-plugin</artifactId>
-            <configuration>
-              <descriptors>
-                <descriptor>${project.basedir}/assembly-descriptor/media-assembly.xml</descriptor>
-              </descriptors>
-              <finalName>javafx-builder-media-${javafx.major.version}.${project.version}</finalName>
-              <appendAssemblyId>false</appendAssemblyId>
-            </configuration>
-          </plugin>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-install-plugin</artifactId>
-            <version>3.1.1</version>
-            <executions>
-              <execution>
-                <id>install-media-jar</id>
-                <phase>install</phase>
-                <goals>
-                  <goal>install-file</goal>
-                </goals>
-                <configuration>
-                  <file>${project.build.directory}/javafx-builder-media-${javafx.major.version}.${project.version}.jar</file>
-                  <groupId>io.github.sosuisen</groupId>
-                  <artifactId>javafx-builder-media</artifactId>
-                  <version>${javafx.major.version}.${project.version}</version>
-                  <packaging>jar</packaging>
-                  <generatePom>true</generatePom>
-                </configuration>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
+      <properties>
+        <builder.component>media</builder.component>
+      </properties>
     </profile>
   </profiles>
 </project>
