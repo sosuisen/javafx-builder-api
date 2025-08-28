@@ -6,7 +6,7 @@
 
   <groupId>io.github.sosuisen</groupId>
   <artifactId>javafx-builder-${builder.component}</artifactId>
-  <version>${javafx.major.version}.${project.version}</version>
+  <version>${javafx.major.version}.${project.version}${snapshot}</version>
   <packaging>jar</packaging>
 
   <name>JavaFX Builder API for javafx-${builder.component}</name>
@@ -42,7 +42,7 @@
     <dependency>
       <groupId>io.github.sosuisen</groupId>
       <artifactId>javafx-builder-media</artifactId>
-      <version>${javafx.major.version}</version>
+      <version>${javafx.major.version}.${project.version}${snapshot}</version>
     </dependency>
   </dependencies>
 
@@ -50,5 +50,5 @@
     <connection>scm:git:git://github.com/sosuisen/javafx-builder-api-generator.git</connection>
     <developerConnection>scm:git:ssh://github.com:sosuisen/javafx-builder-api-generator.git</developerConnection>
     <url>http://github.com/sosuisen/javafx-builder-api-generator/tree/main</url>
-  </scm>  
+  </scm>
 </project>
