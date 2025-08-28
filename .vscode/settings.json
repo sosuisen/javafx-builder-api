@@ -1,28 +1,31 @@
 {
-    // for JavaFX CSS Support
-    "css.lint.vendorPrefix": "ignore",
-    "java.configuration.updateBuildConfiguration": "automatic",
-    "maven.terminal.favorites": [
-        {
-            "command": "clean compile javafx:run -P javafx24",
-            "debug": false
-        },
-        {
-            "command": "compile -P javafx24,compile-builders",
-            "debug": false
-        },
-        {
-            "command": "assembly:single -P javafx24,controls",
-            "debug": false
-        },
-        {
-            "command": "assembly:single install -P javafx24,controls",
-            "debug": false
-        },
-        {
-            "command": "test -P javafx24",
-            "debug": false
-        }
-    ],
-    "java.dependency.packagePresentation": "hierarchical",
+  // for JavaFX CSS Support
+  "css.lint.vendorPrefix": "ignore",
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "maven.terminal.favorites": [
+    {
+      "command": "clean compile javafx:run -P javafx24,controls",
+      "debug": false
+    },
+    {
+      "command": "clean compile javafx:run -P javafx24,graphics",
+      "debug": false
+    },
+    {
+      "command": "clean compile javafx:run -P javafx24,media",
+      "debug": false
+    },
+    {
+      "command": "clean compile javafx:run -P javafx24,web",
+      "debug": false
+    },
+  ],
+  "java.dependency.packagePresentation": "hierarchical",
+  "files.watcherExclude": {
+    "**/generated-api/**": true,
+  },
+  "maven.excludedFolders": [
+    "**/src",
+    "**/target",
+  ]
 }

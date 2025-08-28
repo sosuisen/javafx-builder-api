@@ -1,0 +1,123 @@
+
+package io.github.sosuisen.jfxbuilder.graphics;
+
+
+public class CornerRadiiBuilder {
+    private java.util.List<java.util.function.Consumer<javafx.scene.layout.CornerRadii>> operations = new java.util.ArrayList<>();
+    private CornerRadiiBuilder() {}
+    
+
+    
+    public static CornerRadiiBuilder create(double topLeftHorizontalRadius, double topLeftVerticalRadius, double topRightVerticalRadius, double topRightHorizontalRadius, double bottomRightHorizontalRadius, double bottomRightVerticalRadius, double bottomLeftVerticalRadius, double bottomLeftHorizontalRadius, boolean topLeftHorizontalRadiusAsPercent, boolean topLeftVerticalRadiusAsPercent, boolean topRightVerticalRadiusAsPercent, boolean topRightHorizontalRadiusAsPercent, boolean bottomRightHorizontalRadiusAsPercent, boolean bottomRightVerticalRadiusAsPercent, boolean bottomLeftVerticalRadiusAsPercent, boolean bottomLeftHorizontalRadiusAsPercent) {
+        CornerRadiiBuilder builder = new CornerRadiiBuilder();
+        builder.constructorArgs = new Object[]{topLeftHorizontalRadius, topLeftVerticalRadius, topRightVerticalRadius, topRightHorizontalRadius, bottomRightHorizontalRadius, bottomRightVerticalRadius, bottomLeftVerticalRadius, bottomLeftHorizontalRadius, topLeftHorizontalRadiusAsPercent, topLeftVerticalRadiusAsPercent, topRightVerticalRadiusAsPercent, topRightHorizontalRadiusAsPercent, bottomRightHorizontalRadiusAsPercent, bottomRightVerticalRadiusAsPercent, bottomLeftVerticalRadiusAsPercent, bottomLeftHorizontalRadiusAsPercent};
+        return builder;
+    }
+
+
+    
+    public static CornerRadiiBuilder create(double topLeft, double topRight, double bottomRight, double bottomLeft, boolean asPercent) {
+        CornerRadiiBuilder builder = new CornerRadiiBuilder();
+        builder.constructorArgs = new Object[]{topLeft, topRight, bottomRight, bottomLeft, asPercent};
+        return builder;
+    }
+
+
+    
+    public static CornerRadiiBuilder create(double radius) {
+        CornerRadiiBuilder builder = new CornerRadiiBuilder();
+        builder.constructorArgs = new Object[]{radius};
+        return builder;
+    }
+
+
+    
+    public static CornerRadiiBuilder create(double radius, boolean asPercent) {
+        CornerRadiiBuilder builder = new CornerRadiiBuilder();
+        builder.constructorArgs = new Object[]{radius, asPercent};
+        return builder;
+    }
+
+    private Object[] constructorArgs;
+
+    public javafx.scene.layout.CornerRadii build() {
+        javafx.scene.layout.CornerRadii newInstance;
+
+        newInstance = callParameterizedConstructor();
+
+
+        for (java.util.function.Consumer<javafx.scene.layout.CornerRadii> op : operations) {
+            op.accept(newInstance);
+        }
+        return newInstance;
+    }
+
+
+    private javafx.scene.layout.CornerRadii callParameterizedConstructor() {
+        javafx.scene.layout.CornerRadii newInstance;        
+        try {
+            java.lang.reflect.Constructor<?>[] constructors = javafx.scene.layout.CornerRadii.class.getConstructors();
+            newInstance = null;
+            for (java.lang.reflect.Constructor<?> constructor : constructors) {
+                if (constructor.getParameterCount() == constructorArgs.length && isConstructorCompatible(constructor, constructorArgs)) {
+                    newInstance = (javafx.scene.layout.CornerRadii) constructor.newInstance(constructorArgs);
+                    break;
+                }
+            }
+            if (newInstance == null) {
+                throw new RuntimeException("No suitable constructor found");
+            }
+        } catch (Exception e) {
+            throw new RuntimeException("Failed to create instance", e);
+        }
+
+        return newInstance;
+    }
+
+    
+    private static boolean isConstructorCompatible(java.lang.reflect.Constructor<?> constructor, Object[] args) {
+        Class<?>[] paramTypes = constructor.getParameterTypes();
+        if (paramTypes.length != args.length) return false;
+        
+        for (int i = 0; i < paramTypes.length; i++) {
+            if (args[i] != null) {
+                Class<?> paramType = paramTypes[i];
+                Class<?> argType = args[i].getClass();
+                
+                // Check if argument type is assignable to parameter type
+                if (!paramType.isAssignableFrom(argType)) {
+                    // Handle primitive types
+                    if (paramType.isPrimitive()) {
+                        if (!isPrimitiveCompatible(paramType, argType)) {
+                            return false;
+                        }
+                    } else if (argType.isPrimitive()) {
+                        if (!isPrimitiveCompatible(argType, paramType)) {
+                            return false;
+                        }
+                    } else {
+                        return false;
+                    }
+                }
+            }
+        }
+        return true;
+    }
+    
+    private static boolean isPrimitiveCompatible(Class<?> primitiveType, Class<?> wrapperType) {
+        if (primitiveType == boolean.class) return wrapperType == Boolean.class;
+        if (primitiveType == byte.class) return wrapperType == Byte.class;
+        if (primitiveType == char.class) return wrapperType == Character.class;
+        if (primitiveType == short.class) return wrapperType == Short.class;
+        if (primitiveType == int.class) return wrapperType == Integer.class;
+        if (primitiveType == long.class) return wrapperType == Long.class;
+        if (primitiveType == float.class) return wrapperType == Float.class;
+        if (primitiveType == double.class) return wrapperType == Double.class;
+        return false;
+    }
+    
+    public CornerRadiiBuilder apply(java.util.function.Consumer<javafx.scene.layout.CornerRadii> func) {
+        operations.add(func);
+        return this;
+    }
+}
