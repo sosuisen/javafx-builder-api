@@ -133,23 +133,13 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
         return this;
     }    
     
-    public  SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder wrapAround(boolean value) {
-        operations.add(obj -> obj.setWrapAround(value));
-        return this;
-    }    
-    
     public  SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder converter(javafx.util.StringConverter<Double> newValue) {
         operations.add(obj -> obj.setConverter(newValue));
         return this;
     }    
     
-    public SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder amountToStepByPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.amountToStepByProperty()));
-        return this;
-    }    
-    
-    public SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder maxPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.maxProperty()));
+    public  SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder wrapAround(boolean value) {
+        operations.add(obj -> obj.setWrapAround(value));
         return this;
     }    
     
@@ -158,8 +148,18 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
         return this;
     }    
     
-    public SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<Double>> op) {
-        operations.add(obj -> op.accept(obj.valueProperty()));
+    public SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder maxPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.maxProperty()));
+        return this;
+    }    
+    
+    public SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder amountToStepByPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.amountToStepByProperty()));
+        return this;
+    }    
+    
+    public SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<Double>>> op) {
+        operations.add(obj -> op.accept(obj.converterProperty()));
         return this;
     }    
     
@@ -168,8 +168,8 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
         return this;
     }    
     
-    public SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<Double>>> op) {
-        operations.add(obj -> op.accept(obj.converterProperty()));
+    public SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<Double>> op) {
+        operations.add(obj -> op.accept(obj.valueProperty()));
         return this;
     }
 }

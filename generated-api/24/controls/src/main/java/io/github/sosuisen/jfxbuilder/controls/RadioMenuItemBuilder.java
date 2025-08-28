@@ -7,7 +7,12 @@ public class RadioMenuItemBuilder {
     private RadioMenuItemBuilder() {}
     
 
-    public static RadioMenuItemBuilder create() { return new RadioMenuItemBuilder(); }
+    
+    public static RadioMenuItemBuilder create(java.lang.String text, javafx.scene.Node graphic) {
+        RadioMenuItemBuilder builder = new RadioMenuItemBuilder();
+        builder.constructorArgs = new Object[]{text, graphic};
+        return builder;
+    }
 
 
     
@@ -18,12 +23,7 @@ public class RadioMenuItemBuilder {
     }
 
 
-    
-    public static RadioMenuItemBuilder create(java.lang.String text, javafx.scene.Node graphic) {
-        RadioMenuItemBuilder builder = new RadioMenuItemBuilder();
-        builder.constructorArgs = new Object[]{text, graphic};
-        return builder;
-    }
+    public static RadioMenuItemBuilder create() { return new RadioMenuItemBuilder(); }
 
     private Object[] constructorArgs;
 
@@ -114,28 +114,18 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     
-    public  RadioMenuItemBuilder selected(boolean value) {
-        operations.add(obj -> obj.setSelected(value));
-        return this;
-    }    
-    
     public  RadioMenuItemBuilder toggleGroup(javafx.scene.control.ToggleGroup value) {
         operations.add(obj -> obj.setToggleGroup(value));
         return this;
     }    
     
-    public  RadioMenuItemBuilder accelerator(javafx.scene.input.KeyCombination value) {
-        operations.add(obj -> obj.setAccelerator(value));
+    public  RadioMenuItemBuilder selected(boolean value) {
+        operations.add(obj -> obj.setSelected(value));
         return this;
     }    
     
-    public  RadioMenuItemBuilder mnemonicParsing(boolean value) {
-        operations.add(obj -> obj.setMnemonicParsing(value));
-        return this;
-    }    
-    
-    public  RadioMenuItemBuilder onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
-        operations.add(obj -> obj.setOnAction(value));
+    public  RadioMenuItemBuilder visible(boolean value) {
+        operations.add(obj -> obj.setVisible(value));
         return this;
     }    
     
@@ -159,18 +149,28 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     
-    public  RadioMenuItemBuilder visible(boolean value) {
-        operations.add(obj -> obj.setVisible(value));
+    public  RadioMenuItemBuilder accelerator(javafx.scene.input.KeyCombination value) {
+        operations.add(obj -> obj.setAccelerator(value));
         return this;
     }    
     
-    public  RadioMenuItemBuilder userData(java.lang.Object value) {
-        operations.add(obj -> obj.setUserData(value));
+    public  RadioMenuItemBuilder mnemonicParsing(boolean value) {
+        operations.add(obj -> obj.setMnemonicParsing(value));
+        return this;
+    }    
+    
+    public  RadioMenuItemBuilder onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
+        operations.add(obj -> obj.setOnAction(value));
         return this;
     }    
     
     public  RadioMenuItemBuilder style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
+        return this;
+    }    
+    
+    public  RadioMenuItemBuilder userData(java.lang.Object value) {
+        operations.add(obj -> obj.setUserData(value));
         return this;
     }    
     
@@ -205,33 +205,8 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     
-    public RadioMenuItemBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.disableProperty()));
-        return this;
-    }    
-    
-    public RadioMenuItemBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.visibleProperty()));
-        return this;
-    }    
-    
-    public RadioMenuItemBuilder textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.textProperty()));
-        return this;
-    }    
-    
-    public RadioMenuItemBuilder graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.graphicProperty()));
-        return this;
-    }    
-    
-    public RadioMenuItemBuilder onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onActionProperty()));
-        return this;
-    }    
-    
-    public RadioMenuItemBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.idProperty()));
+    public RadioMenuItemBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
         return this;
     }    
     
@@ -240,8 +215,33 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     
-    public RadioMenuItemBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
+    public RadioMenuItemBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.idProperty()));
+        return this;
+    }    
+    
+    public RadioMenuItemBuilder graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.graphicProperty()));
+        return this;
+    }    
+    
+    public RadioMenuItemBuilder textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.textProperty()));
+        return this;
+    }    
+    
+    public RadioMenuItemBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.visibleProperty()));
+        return this;
+    }    
+    
+    public RadioMenuItemBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.disableProperty()));
+        return this;
+    }    
+    
+    public RadioMenuItemBuilder onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onActionProperty()));
         return this;
     }    
     
@@ -250,8 +250,8 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     
-    public RadioMenuItemBuilder parentPopupPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.ContextMenu>> op) {
-        operations.add(obj -> op.accept(obj.parentPopupProperty()));
+    public RadioMenuItemBuilder parentMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Menu>> op) {
+        operations.add(obj -> op.accept(obj.parentMenuProperty()));
         return this;
     }    
     
@@ -260,8 +260,8 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     
-    public RadioMenuItemBuilder parentMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Menu>> op) {
-        operations.add(obj -> op.accept(obj.parentMenuProperty()));
+    public RadioMenuItemBuilder parentPopupPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.ContextMenu>> op) {
+        operations.add(obj -> op.accept(obj.parentPopupProperty()));
         return this;
     }
 }

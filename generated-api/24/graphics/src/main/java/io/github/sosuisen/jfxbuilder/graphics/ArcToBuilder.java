@@ -121,13 +121,13 @@ public class ArcToBuilder {
         return this;
     }    
     
-    public  ArcToBuilder sweepFlag(boolean value) {
-        operations.add(obj -> obj.setSweepFlag(value));
+    public  ArcToBuilder largeArcFlag(boolean value) {
+        operations.add(obj -> obj.setLargeArcFlag(value));
         return this;
     }    
     
-    public  ArcToBuilder largeArcFlag(boolean value) {
-        operations.add(obj -> obj.setLargeArcFlag(value));
+    public  ArcToBuilder sweepFlag(boolean value) {
+        operations.add(obj -> obj.setSweepFlag(value));
         return this;
     }    
     
@@ -156,13 +156,13 @@ public class ArcToBuilder {
         return this;
     }    
     
-    public ArcToBuilder radiusYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.radiusYProperty()));
+    public ArcToBuilder radiusXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.radiusXProperty()));
         return this;
     }    
     
-    public ArcToBuilder radiusXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.radiusXProperty()));
+    public ArcToBuilder radiusYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.radiusYProperty()));
         return this;
     }    
     
@@ -171,13 +171,13 @@ public class ArcToBuilder {
         return this;
     }    
     
-    public ArcToBuilder largeArcFlagPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.largeArcFlagProperty()));
+    public ArcToBuilder XAxisRotationPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.XAxisRotationProperty()));
         return this;
     }    
     
-    public ArcToBuilder XAxisRotationPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.XAxisRotationProperty()));
+    public ArcToBuilder largeArcFlagPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.largeArcFlagProperty()));
         return this;
     }    
     

@@ -1,0 +1,11 @@
+io\github\sosuisen\jfxbuilder\web\WebViewBuilder.class
+io\github\sosuisen\jfxbuilder\web\WebEngineBuilder.class
+io\github\sosuisen\jfxbuilder\web\PopupFeaturesBuilder.class
+io\github\sosuisen\jfxbuilder\web\PromptDataBuilder.class
+io\github\sosuisen\jfxbuilder\web\HTMLEditorSkinCommandBuilder.class
+io\github\sosuisen\jfxbuilder\web\WebErrorEventBuilder.class
+io\github\sosuisen\jfxbuilder\web\HTMLEditorSkinBuilder.class
+io\github\sosuisen\jfxbuilder\web\WebEventBuilder.class
+io\github\sosuisen\jfxbuilder\web\WebHistoryBuilder.class
+io\github\sosuisen\jfxbuilder\web\WebHistoryEntryBuilder.class
+io\github\sosuisen\jfxbuilder\web\HTMLEditorBuilder.class

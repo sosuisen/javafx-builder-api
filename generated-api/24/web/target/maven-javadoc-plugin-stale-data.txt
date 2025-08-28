@@ -1,0 +1,61 @@
+@options
+@argfile
+-classpath
+'C:/Users/hidek/.m2/repository/org/openjfx/javafx-web/24/javafx-web-24.jar;C:/Users/hidek/.m2/repository/org/openjfx/javafx-web/24/javafx-web-24-win.jar;C:/Users/hidek/.m2/repository/org/openjfx/javafx-controls/24/javafx-controls-24.jar;C:/Users/hidek/.m2/repository/org/openjfx/javafx-controls/24/javafx-controls-24-win.jar;C:/Users/hidek/.m2/repository/org/openjfx/javafx-graphics/24/javafx-graphics-24.jar;C:/Users/hidek/.m2/repository/org/openjfx/javafx-graphics/24/javafx-graphics-24-win.jar;C:/Users/hidek/.m2/repository/org/openjfx/javafx-base/24/javafx-base-24.jar;C:/Users/hidek/.m2/repository/org/openjfx/javafx-base/24/javafx-base-24-win.jar;C:/Users/hidek/.m2/repository/org/openjfx/javafx-media/24/javafx-media-24.jar;C:/Users/hidek/.m2/repository/org/openjfx/javafx-media/24/javafx-media-24-win.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'F:/JavaFXProject/javafx-builder-api-generator/generated-api/24/web/src/main/java;F:/JavaFXProject/javafx-builder-api-generator/generated-api/24/web/target/generated-sources/annotations'
+-Xdoclint:none
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'F:/JavaFXProject/javafx-builder-api-generator/generated-api/24/web/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'JavaFX Builder API for javafx-web 24.0.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'JavaFX Builder API for javafx-web 24.0.0-SNAPSHOT API'
+'F:/JavaFXProject/javafx-builder-api-generator/generated-api/24/web/src/main/java/io/github/sosuisen/jfxbuilder/web/HTMLEditorBuilder.java'
+'F:/JavaFXProject/javafx-builder-api-generator/generated-api/24/web/src/main/java/io/github/sosuisen/jfxbuilder/web/HTMLEditorSkinBuilder.java'
+'F:/JavaFXProject/javafx-builder-api-generator/generated-api/24/web/src/main/java/io/github/sosuisen/jfxbuilder/web/HTMLEditorSkinCommandBuilder.java'
+'F:/JavaFXProject/javafx-builder-api-generator/generated-api/24/web/src/main/java/io/github/sosuisen/jfxbuilder/web/PopupFeaturesBuilder.java'
+'F:/JavaFXProject/javafx-builder-api-generator/generated-api/24/web/src/main/java/io/github/sosuisen/jfxbuilder/web/PromptDataBuilder.java'
+'F:/JavaFXProject/javafx-builder-api-generator/generated-api/24/web/src/main/java/io/github/sosuisen/jfxbuilder/web/WebEngineBuilder.java'
+'F:/JavaFXProject/javafx-builder-api-generator/generated-api/24/web/src/main/java/io/github/sosuisen/jfxbuilder/web/WebErrorEventBuilder.java'
+'F:/JavaFXProject/javafx-builder-api-generator/generated-api/24/web/src/main/java/io/github/sosuisen/jfxbuilder/web/WebEventBuilder.java'
+'F:/JavaFXProject/javafx-builder-api-generator/generated-api/24/web/src/main/java/io/github/sosuisen/jfxbuilder/web/WebHistoryBuilder.java'
+'F:/JavaFXProject/javafx-builder-api-generator/generated-api/24/web/src/main/java/io/github/sosuisen/jfxbuilder/web/WebHistoryEntryBuilder.java'
+'F:/JavaFXProject/javafx-builder-api-generator/generated-api/24/web/src/main/java/io/github/sosuisen/jfxbuilder/web/WebViewBuilder.java'
+C:\Users\hidek\.m2\repository\org\openjfx\javafx-web\24\javafx-web-24.jar = 1756368906395
+C:\Users\hidek\.m2\repository\org\openjfx\javafx-web\24\javafx-web-24-win.jar = 1756368909841
+C:\Users\hidek\.m2\repository\org\openjfx\javafx-controls\24\javafx-controls-24.jar = 1756356339046
+C:\Users\hidek\.m2\repository\org\openjfx\javafx-controls\24\javafx-controls-24-win.jar = 1756356339365
+C:\Users\hidek\.m2\repository\org\openjfx\javafx-graphics\24\javafx-graphics-24.jar = 1756356339091
+C:\Users\hidek\.m2\repository\org\openjfx\javafx-graphics\24\javafx-graphics-24-win.jar = 1756356339682
+C:\Users\hidek\.m2\repository\org\openjfx\javafx-base\24\javafx-base-24.jar = 1756356339091
+C:\Users\hidek\.m2\repository\org\openjfx\javafx-base\24\javafx-base-24-win.jar = 1756356339364
+C:\Users\hidek\.m2\repository\org\openjfx\javafx-media\24\javafx-media-24.jar = 1756368902641
+C:\Users\hidek\.m2\repository\org\openjfx\javafx-media\24\javafx-media-24-win.jar = 1756368902973
+F:\JavaFXProject\javafx-builder-api-generator\generated-api\24\web\src\main\java = 1756372413335
+F:\JavaFXProject\javafx-builder-api-generator\generated-api\24\web\target\generated-sources\annotations = 1756383577900
+F:\JavaFXProject\javafx-builder-api-generator\generated-api\24\web\target\apidocs\allclasses-index.html = 1756383581346
+F:\JavaFXProject\javafx-builder-api-generator\generated-api\24\web\target\apidocs\allpackages-index.html = 1756383581347
+F:\JavaFXProject\javafx-builder-api-generator\generated-api\24\web\target\apidocs\element-list = 1756383581217
+F:\JavaFXProject\javafx-builder-api-generator\generated-api\24\web\target\apidocs\help-doc.html = 1756383581379
+F:\JavaFXProject\javafx-builder-api-generator\generated-api\24\web\target\apidocs\index-all.html = 1756383581374
+F:\JavaFXProject\javafx-builder-api-generator\generated-api\24\web\target\apidocs\index.html = 1756383581377
+F:\JavaFXProject\javafx-builder-api-generator\generated-api\24\web\target\apidocs\member-search-index.js = 1756383581352
+F:\JavaFXProject\javafx-builder-api-generator\generated-api\24\web\target\apidocs\module-search-index.js = 1756383581349
+F:\JavaFXProject\javafx-builder-api-generator\generated-api\24\web\target\apidocs\overview-tree.html = 1756383581315
+F:\JavaFXProject\javafx-builder-api-generator\generated-api\24\web\target\apidocs\package-search-index.js = 1756383581350
+F:\JavaFXProject\javafx-builder-api-generator\generated-api\24\web\target\apidocs\search.html = 1756383581375
+F:\JavaFXProject\javafx-builder-api-generator\generated-api\24\web\target\apidocs\tag-search-index.js = 1756383581352
+F:\JavaFXProject\javafx-builder-api-generator\generated-api\24\web\target\apidocs\type-search-index.js = 1756383581350

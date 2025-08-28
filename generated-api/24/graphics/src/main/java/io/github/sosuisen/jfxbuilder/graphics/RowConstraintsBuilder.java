@@ -137,8 +137,8 @@ public class RowConstraintsBuilder {
         return this;
     }    
     
-    public  RowConstraintsBuilder valignment(javafx.geometry.VPos value) {
-        operations.add(obj -> obj.setValignment(value));
+    public  RowConstraintsBuilder vgrow(javafx.scene.layout.Priority value) {
+        operations.add(obj -> obj.setVgrow(value));
         return this;
     }    
     
@@ -147,13 +147,13 @@ public class RowConstraintsBuilder {
         return this;
     }    
     
-    public  RowConstraintsBuilder percentHeight(double value) {
-        operations.add(obj -> obj.setPercentHeight(value));
+    public  RowConstraintsBuilder valignment(javafx.geometry.VPos value) {
+        operations.add(obj -> obj.setValignment(value));
         return this;
     }    
     
-    public  RowConstraintsBuilder vgrow(javafx.scene.layout.Priority value) {
-        operations.add(obj -> obj.setVgrow(value));
+    public  RowConstraintsBuilder percentHeight(double value) {
+        operations.add(obj -> obj.setPercentHeight(value));
         return this;
     }    
     
@@ -172,6 +172,11 @@ public class RowConstraintsBuilder {
         return this;
     }    
     
+    public RowConstraintsBuilder vgrowPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Priority>> op) {
+        operations.add(obj -> op.accept(obj.vgrowProperty()));
+        return this;
+    }    
+    
     public RowConstraintsBuilder fillHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.fillHeightProperty()));
         return this;
@@ -179,11 +184,6 @@ public class RowConstraintsBuilder {
     
     public RowConstraintsBuilder valignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.VPos>> op) {
         operations.add(obj -> op.accept(obj.valignmentProperty()));
-        return this;
-    }    
-    
-    public RowConstraintsBuilder vgrowPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Priority>> op) {
-        operations.add(obj -> op.accept(obj.vgrowProperty()));
         return this;
     }    
     

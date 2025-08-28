@@ -97,13 +97,13 @@ public class TextFieldSkinBuilder {
         return this;
     }    
     
-    public  TextFieldSkinBuilder caretAnimating(boolean value) {
-        operations.add(obj -> obj.setCaretAnimating(value));
+    public  TextFieldSkinBuilder forwardBias(boolean isLeading) {
+        operations.add(obj -> obj.setForwardBias(isLeading));
         return this;
     }    
     
-    public  TextFieldSkinBuilder forwardBias(boolean isLeading) {
-        operations.add(obj -> obj.setForwardBias(isLeading));
+    public  TextFieldSkinBuilder caretAnimating(boolean value) {
+        operations.add(obj -> obj.setCaretAnimating(value));
         return this;
     }
     @SafeVarargs

@@ -7,9 +7,6 @@ public class CheckMenuItemBuilder {
     private CheckMenuItemBuilder() {}
     
 
-    public static CheckMenuItemBuilder create() { return new CheckMenuItemBuilder(); }
-
-
     
     public static CheckMenuItemBuilder create(java.lang.String text, javafx.scene.Node graphic) {
         CheckMenuItemBuilder builder = new CheckMenuItemBuilder();
@@ -24,6 +21,9 @@ public class CheckMenuItemBuilder {
         builder.constructorArgs = new Object[]{text};
         return builder;
     }
+
+
+    public static CheckMenuItemBuilder create() { return new CheckMenuItemBuilder(); }
 
     private Object[] constructorArgs;
 
@@ -119,18 +119,8 @@ public class CheckMenuItemBuilder {
         return this;
     }    
     
-    public  CheckMenuItemBuilder accelerator(javafx.scene.input.KeyCombination value) {
-        operations.add(obj -> obj.setAccelerator(value));
-        return this;
-    }    
-    
-    public  CheckMenuItemBuilder mnemonicParsing(boolean value) {
-        operations.add(obj -> obj.setMnemonicParsing(value));
-        return this;
-    }    
-    
-    public  CheckMenuItemBuilder onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
-        operations.add(obj -> obj.setOnAction(value));
+    public  CheckMenuItemBuilder visible(boolean value) {
+        operations.add(obj -> obj.setVisible(value));
         return this;
     }    
     
@@ -154,18 +144,28 @@ public class CheckMenuItemBuilder {
         return this;
     }    
     
-    public  CheckMenuItemBuilder visible(boolean value) {
-        operations.add(obj -> obj.setVisible(value));
+    public  CheckMenuItemBuilder accelerator(javafx.scene.input.KeyCombination value) {
+        operations.add(obj -> obj.setAccelerator(value));
         return this;
     }    
     
-    public  CheckMenuItemBuilder userData(java.lang.Object value) {
-        operations.add(obj -> obj.setUserData(value));
+    public  CheckMenuItemBuilder mnemonicParsing(boolean value) {
+        operations.add(obj -> obj.setMnemonicParsing(value));
+        return this;
+    }    
+    
+    public  CheckMenuItemBuilder onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
+        operations.add(obj -> obj.setOnAction(value));
         return this;
     }    
     
     public  CheckMenuItemBuilder style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
+        return this;
+    }    
+    
+    public  CheckMenuItemBuilder userData(java.lang.Object value) {
+        operations.add(obj -> obj.setUserData(value));
         return this;
     }    
     
@@ -195,33 +195,8 @@ public class CheckMenuItemBuilder {
         return this;
     }    
     
-    public CheckMenuItemBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.disableProperty()));
-        return this;
-    }    
-    
-    public CheckMenuItemBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.visibleProperty()));
-        return this;
-    }    
-    
-    public CheckMenuItemBuilder textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.textProperty()));
-        return this;
-    }    
-    
-    public CheckMenuItemBuilder graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.graphicProperty()));
-        return this;
-    }    
-    
-    public CheckMenuItemBuilder onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onActionProperty()));
-        return this;
-    }    
-    
-    public CheckMenuItemBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.idProperty()));
+    public CheckMenuItemBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
         return this;
     }    
     
@@ -230,8 +205,33 @@ public class CheckMenuItemBuilder {
         return this;
     }    
     
-    public CheckMenuItemBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
+    public CheckMenuItemBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.idProperty()));
+        return this;
+    }    
+    
+    public CheckMenuItemBuilder graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.graphicProperty()));
+        return this;
+    }    
+    
+    public CheckMenuItemBuilder textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.textProperty()));
+        return this;
+    }    
+    
+    public CheckMenuItemBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.visibleProperty()));
+        return this;
+    }    
+    
+    public CheckMenuItemBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.disableProperty()));
+        return this;
+    }    
+    
+    public CheckMenuItemBuilder onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onActionProperty()));
         return this;
     }    
     
@@ -240,8 +240,8 @@ public class CheckMenuItemBuilder {
         return this;
     }    
     
-    public CheckMenuItemBuilder parentPopupPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.ContextMenu>> op) {
-        operations.add(obj -> op.accept(obj.parentPopupProperty()));
+    public CheckMenuItemBuilder parentMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Menu>> op) {
+        operations.add(obj -> op.accept(obj.parentMenuProperty()));
         return this;
     }    
     
@@ -250,8 +250,8 @@ public class CheckMenuItemBuilder {
         return this;
     }    
     
-    public CheckMenuItemBuilder parentMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Menu>> op) {
-        operations.add(obj -> op.accept(obj.parentMenuProperty()));
+    public CheckMenuItemBuilder parentPopupPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.ContextMenu>> op) {
+        operations.add(obj -> op.accept(obj.parentPopupProperty()));
         return this;
     }
 }

@@ -98,11 +98,6 @@ public class SnapshotParametersBuilder {
         return this;
     }    
     
-    public  SnapshotParametersBuilder fill(javafx.scene.paint.Paint fill) {
-        operations.add(obj -> obj.setFill(fill));
-        return this;
-    }    
-    
     public  SnapshotParametersBuilder camera(javafx.scene.Camera camera) {
         operations.add(obj -> obj.setCamera(camera));
         return this;
@@ -115,6 +110,11 @@ public class SnapshotParametersBuilder {
     
     public  SnapshotParametersBuilder depthBuffer(boolean depthBuffer) {
         operations.add(obj -> obj.setDepthBuffer(depthBuffer));
+        return this;
+    }    
+    
+    public  SnapshotParametersBuilder fill(javafx.scene.paint.Paint fill) {
+        operations.add(obj -> obj.setFill(fill));
         return this;
     }    
     

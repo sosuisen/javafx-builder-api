@@ -132,13 +132,13 @@ public class InnerShadowBuilder {
         return this;
     }    
     
-    public  InnerShadowBuilder width(double value) {
-        operations.add(obj -> obj.setWidth(value));
+    public  InnerShadowBuilder height(double value) {
+        operations.add(obj -> obj.setHeight(value));
         return this;
     }    
     
-    public  InnerShadowBuilder height(double value) {
-        operations.add(obj -> obj.setHeight(value));
+    public  InnerShadowBuilder width(double value) {
+        operations.add(obj -> obj.setWidth(value));
         return this;
     }    
     
@@ -147,13 +147,13 @@ public class InnerShadowBuilder {
         return this;
     }    
     
-    public  InnerShadowBuilder offsetY(double value) {
-        operations.add(obj -> obj.setOffsetY(value));
+    public  InnerShadowBuilder offsetX(double value) {
+        operations.add(obj -> obj.setOffsetX(value));
         return this;
     }    
     
-    public  InnerShadowBuilder offsetX(double value) {
-        operations.add(obj -> obj.setOffsetX(value));
+    public  InnerShadowBuilder radius(double value) {
+        operations.add(obj -> obj.setRadius(value));
         return this;
     }    
     
@@ -162,8 +162,8 @@ public class InnerShadowBuilder {
         return this;
     }    
     
-    public  InnerShadowBuilder radius(double value) {
-        operations.add(obj -> obj.setRadius(value));
+    public  InnerShadowBuilder offsetY(double value) {
+        operations.add(obj -> obj.setOffsetY(value));
         return this;
     }    
     
@@ -182,8 +182,23 @@ public class InnerShadowBuilder {
         return this;
     }    
     
+    public InnerShadowBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.radiusProperty()));
+        return this;
+    }    
+    
     public InnerShadowBuilder offsetXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.offsetXProperty()));
+        return this;
+    }    
+    
+    public InnerShadowBuilder offsetYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.offsetYProperty()));
+        return this;
+    }    
+    
+    public InnerShadowBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
+        operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
     }    
     
@@ -194,21 +209,6 @@ public class InnerShadowBuilder {
     
     public InnerShadowBuilder chokePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.chokeProperty()));
-        return this;
-    }    
-    
-    public InnerShadowBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.radiusProperty()));
-        return this;
-    }    
-    
-    public InnerShadowBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
-        operations.add(obj -> op.accept(obj.inputProperty()));
-        return this;
-    }    
-    
-    public InnerShadowBuilder offsetYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.offsetYProperty()));
         return this;
     }
 }

@@ -7,9 +7,6 @@ public class ChoiceDialogBuilder<T> {
     private ChoiceDialogBuilder() {}
     
 
-    public static <T> ChoiceDialogBuilder<T> create() { return new ChoiceDialogBuilder<T>(); }
-
-
     
     public static <T> ChoiceDialogBuilder<T> create(T defaultChoice, java.util.Collection<T> choices) {
         ChoiceDialogBuilder<T> builder = new ChoiceDialogBuilder<T>();
@@ -24,6 +21,9 @@ public class ChoiceDialogBuilder<T> {
         builder.constructorArgs = new Object[]{defaultChoice, choices};
         return builder;
     }
+
+
+    public static <T> ChoiceDialogBuilder<T> create() { return new ChoiceDialogBuilder<T>(); }
 
     private Object[] constructorArgs;
 
@@ -121,6 +121,11 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     
+    public  ChoiceDialogBuilder<T> result(T value) {
+        operations.add(obj -> obj.setResult(value));
+        return this;
+    }    
+    
     public  ChoiceDialogBuilder<T> resizable(boolean resizable) {
         operations.add(obj -> obj.setResizable(resizable));
         return this;
@@ -131,18 +136,8 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     
-    public  ChoiceDialogBuilder<T> result(T value) {
-        operations.add(obj -> obj.setResult(value));
-        return this;
-    }    
-    
     public  ChoiceDialogBuilder<T> title(java.lang.String title) {
         operations.add(obj -> obj.setTitle(title));
-        return this;
-    }    
-    
-    public  ChoiceDialogBuilder<T> y(double y) {
-        operations.add(obj -> obj.setY(y));
         return this;
     }    
     
@@ -151,13 +146,23 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     
-    public  ChoiceDialogBuilder<T> onHidden(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
-        operations.add(obj -> obj.setOnHidden(value));
+    public  ChoiceDialogBuilder<T> y(double y) {
+        operations.add(obj -> obj.setY(y));
         return this;
     }    
     
-    public  ChoiceDialogBuilder<T> onHiding(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
-        operations.add(obj -> obj.setOnHiding(value));
+    public  ChoiceDialogBuilder<T> width(double width) {
+        operations.add(obj -> obj.setWidth(width));
+        return this;
+    }    
+    
+    public  ChoiceDialogBuilder<T> height(double height) {
+        operations.add(obj -> obj.setHeight(height));
+        return this;
+    }    
+    
+    public  ChoiceDialogBuilder<T> onShown(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
+        operations.add(obj -> obj.setOnShown(value));
         return this;
     }    
     
@@ -171,18 +176,13 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     
-    public  ChoiceDialogBuilder<T> height(double height) {
-        operations.add(obj -> obj.setHeight(height));
+    public  ChoiceDialogBuilder<T> onHidden(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
+        operations.add(obj -> obj.setOnHidden(value));
         return this;
     }    
     
-    public  ChoiceDialogBuilder<T> width(double width) {
-        operations.add(obj -> obj.setWidth(width));
-        return this;
-    }    
-    
-    public  ChoiceDialogBuilder<T> onShown(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
-        operations.add(obj -> obj.setOnShown(value));
+    public  ChoiceDialogBuilder<T> onHiding(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
+        operations.add(obj -> obj.setOnHiding(value));
         return this;
     }    
     
@@ -196,13 +196,13 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     
-    public  ChoiceDialogBuilder<T> contentText(java.lang.String contentText) {
-        operations.add(obj -> obj.setContentText(contentText));
+    public  ChoiceDialogBuilder<T> resultConverter(javafx.util.Callback<javafx.scene.control.ButtonType, T> value) {
+        operations.add(obj -> obj.setResultConverter(value));
         return this;
     }    
     
-    public  ChoiceDialogBuilder<T> resultConverter(javafx.util.Callback<javafx.scene.control.ButtonType, T> value) {
-        operations.add(obj -> obj.setResultConverter(value));
+    public  ChoiceDialogBuilder<T> contentText(java.lang.String contentText) {
+        operations.add(obj -> obj.setContentText(contentText));
         return this;
     }
     @SafeVarargs
@@ -238,8 +238,8 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     
-    public ChoiceDialogBuilder<T> graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.graphicProperty()));
+    public ChoiceDialogBuilder<T> heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
     }    
     
@@ -248,13 +248,8 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     
-    public ChoiceDialogBuilder<T> heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.heightProperty()));
-        return this;
-    }    
-    
-    public ChoiceDialogBuilder<T> yPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.yProperty()));
+    public ChoiceDialogBuilder<T> graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.graphicProperty()));
         return this;
     }    
     
@@ -263,33 +258,13 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     
+    public ChoiceDialogBuilder<T> yPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.yProperty()));
+        return this;
+    }    
+    
     public ChoiceDialogBuilder<T> onCloseRequestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
         operations.add(obj -> op.accept(obj.onCloseRequestProperty()));
-        return this;
-    }    
-    
-    public ChoiceDialogBuilder<T> resizablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.resizableProperty()));
-        return this;
-    }    
-    
-    public ChoiceDialogBuilder<T> titlePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.titleProperty()));
-        return this;
-    }    
-    
-    public ChoiceDialogBuilder<T> onShownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onShownProperty()));
-        return this;
-    }    
-    
-    public ChoiceDialogBuilder<T> showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.showingProperty()));
-        return this;
-    }    
-    
-    public ChoiceDialogBuilder<T> onHiddenPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onHiddenProperty()));
         return this;
     }    
     
@@ -303,6 +278,31 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     
+    public ChoiceDialogBuilder<T> onShownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onShownProperty()));
+        return this;
+    }    
+    
+    public ChoiceDialogBuilder<T> titlePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.titleProperty()));
+        return this;
+    }    
+    
+    public ChoiceDialogBuilder<T> resizablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.resizableProperty()));
+        return this;
+    }    
+    
+    public ChoiceDialogBuilder<T> onHiddenPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onHiddenProperty()));
+        return this;
+    }    
+    
+    public ChoiceDialogBuilder<T> showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.showingProperty()));
+        return this;
+    }    
+    
     public ChoiceDialogBuilder<T> resultConverterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.control.ButtonType, T>>> op) {
         operations.add(obj -> op.accept(obj.resultConverterProperty()));
         return this;
@@ -313,11 +313,6 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }    
     
-    public ChoiceDialogBuilder<T> dialogPanePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.DialogPane>> op) {
-        operations.add(obj -> op.accept(obj.dialogPaneProperty()));
-        return this;
-    }    
-    
     public ChoiceDialogBuilder<T> resultPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
         operations.add(obj -> op.accept(obj.resultProperty()));
         return this;
@@ -325,6 +320,11 @@ public class ChoiceDialogBuilder<T> {
     
     public ChoiceDialogBuilder<T> headerTextPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.headerTextProperty()));
+        return this;
+    }    
+    
+    public ChoiceDialogBuilder<T> dialogPanePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.DialogPane>> op) {
+        operations.add(obj -> op.accept(obj.dialogPaneProperty()));
         return this;
     }
 }

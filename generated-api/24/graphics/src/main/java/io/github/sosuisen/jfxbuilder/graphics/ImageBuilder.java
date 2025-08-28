@@ -147,11 +147,6 @@ public class ImageBuilder {
         return this;
     }    
     
-    public ImageBuilder errorPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.errorProperty()));
-        return this;
-    }    
-    
     public ImageBuilder exceptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<java.lang.Exception>> op) {
         operations.add(obj -> op.accept(obj.exceptionProperty()));
         return this;
@@ -159,6 +154,11 @@ public class ImageBuilder {
     
     public ImageBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
+        return this;
+    }    
+    
+    public ImageBuilder errorPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.errorProperty()));
         return this;
     }
 }

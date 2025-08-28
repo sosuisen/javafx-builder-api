@@ -141,11 +141,6 @@ public class ColorAdjustBuilder {
         return this;
     }    
     
-    public ColorAdjustBuilder contrastPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.contrastProperty()));
-        return this;
-    }    
-    
     public ColorAdjustBuilder huePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.hueProperty()));
         return this;
@@ -153,6 +148,11 @@ public class ColorAdjustBuilder {
     
     public ColorAdjustBuilder brightnessPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.brightnessProperty()));
+        return this;
+    }    
+    
+    public ColorAdjustBuilder contrastPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.contrastProperty()));
         return this;
     }
 }

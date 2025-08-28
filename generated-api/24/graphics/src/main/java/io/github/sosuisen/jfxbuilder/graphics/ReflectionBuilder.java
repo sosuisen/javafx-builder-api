@@ -111,8 +111,8 @@ public class ReflectionBuilder {
         return this;
     }    
     
-    public  ReflectionBuilder bottomOpacity(double value) {
-        operations.add(obj -> obj.setBottomOpacity(value));
+    public  ReflectionBuilder fraction(double value) {
+        operations.add(obj -> obj.setFraction(value));
         return this;
     }    
     
@@ -126,13 +126,18 @@ public class ReflectionBuilder {
         return this;
     }    
     
-    public  ReflectionBuilder fraction(double value) {
-        operations.add(obj -> obj.setFraction(value));
+    public  ReflectionBuilder bottomOpacity(double value) {
+        operations.add(obj -> obj.setBottomOpacity(value));
         return this;
     }    
     
     public ReflectionBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
+        return this;
+    }    
+    
+    public ReflectionBuilder bottomOpacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.bottomOpacityProperty()));
         return this;
     }    
     
@@ -148,11 +153,6 @@ public class ReflectionBuilder {
     
     public ReflectionBuilder topOpacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.topOpacityProperty()));
-        return this;
-    }    
-    
-    public ReflectionBuilder bottomOpacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.bottomOpacityProperty()));
         return this;
     }
 }

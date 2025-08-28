@@ -119,13 +119,8 @@ public class DisplacementMapBuilder {
         return this;
     }    
     
-    public  DisplacementMapBuilder mapData(javafx.scene.effect.FloatMap value) {
-        operations.add(obj -> obj.setMapData(value));
-        return this;
-    }    
-    
-    public  DisplacementMapBuilder wrap(boolean value) {
-        operations.add(obj -> obj.setWrap(value));
+    public  DisplacementMapBuilder scaleY(double value) {
+        operations.add(obj -> obj.setScaleY(value));
         return this;
     }    
     
@@ -134,8 +129,8 @@ public class DisplacementMapBuilder {
         return this;
     }    
     
-    public  DisplacementMapBuilder scaleY(double value) {
-        operations.add(obj -> obj.setScaleY(value));
+    public  DisplacementMapBuilder offsetX(double value) {
+        operations.add(obj -> obj.setOffsetX(value));
         return this;
     }    
     
@@ -144,8 +139,13 @@ public class DisplacementMapBuilder {
         return this;
     }    
     
-    public  DisplacementMapBuilder offsetX(double value) {
-        operations.add(obj -> obj.setOffsetX(value));
+    public  DisplacementMapBuilder wrap(boolean value) {
+        operations.add(obj -> obj.setWrap(value));
+        return this;
+    }    
+    
+    public  DisplacementMapBuilder mapData(javafx.scene.effect.FloatMap value) {
+        operations.add(obj -> obj.setMapData(value));
         return this;
     }    
     
@@ -164,23 +164,23 @@ public class DisplacementMapBuilder {
         return this;
     }    
     
-    public DisplacementMapBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
-        operations.add(obj -> op.accept(obj.inputProperty()));
-        return this;
-    }    
-    
     public DisplacementMapBuilder offsetYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.offsetYProperty()));
         return this;
     }    
     
-    public DisplacementMapBuilder wrapPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.wrapProperty()));
+    public DisplacementMapBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
+        operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
     }    
     
     public DisplacementMapBuilder mapDataPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.FloatMap>> op) {
         operations.add(obj -> op.accept(obj.mapDataProperty()));
+        return this;
+    }    
+    
+    public DisplacementMapBuilder wrapPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.wrapProperty()));
         return this;
     }
 }

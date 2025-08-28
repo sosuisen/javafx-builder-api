@@ -7,15 +7,15 @@ public class XYChartSeriesBuilder<X, Y> {
     private XYChartSeriesBuilder() {}
     
 
-    public static <X, Y> XYChartSeriesBuilder<X, Y> create() { return new XYChartSeriesBuilder<X, Y>(); }
-
-
     
     public static <X, Y> XYChartSeriesBuilder<X, Y> create(java.lang.String name, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>> data) {
         XYChartSeriesBuilder<X, Y> builder = new XYChartSeriesBuilder<X, Y>();
         builder.constructorArgs = new Object[]{name, data};
         return builder;
     }
+
+
+    public static <X, Y> XYChartSeriesBuilder<X, Y> create() { return new XYChartSeriesBuilder<X, Y>(); }
 
 
     
@@ -163,6 +163,11 @@ public class XYChartSeriesBuilder<X, Y> {
         return this;
     }    
     
+    public XYChartSeriesBuilder<X, Y> namePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.nameProperty()));
+        return this;
+    }    
+    
     public XYChartSeriesBuilder<X, Y> chartPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.chart.XYChart<X, Y>>> op) {
         operations.add(obj -> op.accept(obj.chartProperty()));
         return this;
@@ -170,11 +175,6 @@ public class XYChartSeriesBuilder<X, Y> {
     
     public XYChartSeriesBuilder<X, Y> nodePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.nodeProperty()));
-        return this;
-    }    
-    
-    public XYChartSeriesBuilder<X, Y> namePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.nameProperty()));
         return this;
     }
 }
