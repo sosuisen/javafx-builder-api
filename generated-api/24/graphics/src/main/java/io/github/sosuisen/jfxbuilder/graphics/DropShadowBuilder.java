@@ -132,13 +132,13 @@ public class DropShadowBuilder {
         return this;
     }    
     
-    public  DropShadowBuilder width(double value) {
-        operations.add(obj -> obj.setWidth(value));
+    public  DropShadowBuilder height(double value) {
+        operations.add(obj -> obj.setHeight(value));
         return this;
     }    
     
-    public  DropShadowBuilder height(double value) {
-        operations.add(obj -> obj.setHeight(value));
+    public  DropShadowBuilder width(double value) {
+        operations.add(obj -> obj.setWidth(value));
         return this;
     }    
     
@@ -147,13 +147,13 @@ public class DropShadowBuilder {
         return this;
     }    
     
-    public  DropShadowBuilder offsetY(double value) {
-        operations.add(obj -> obj.setOffsetY(value));
+    public  DropShadowBuilder offsetX(double value) {
+        operations.add(obj -> obj.setOffsetX(value));
         return this;
     }    
     
-    public  DropShadowBuilder offsetX(double value) {
-        operations.add(obj -> obj.setOffsetX(value));
+    public  DropShadowBuilder spread(double value) {
+        operations.add(obj -> obj.setSpread(value));
         return this;
     }    
     
@@ -162,8 +162,8 @@ public class DropShadowBuilder {
         return this;
     }    
     
-    public  DropShadowBuilder spread(double value) {
-        operations.add(obj -> obj.setSpread(value));
+    public  DropShadowBuilder offsetY(double value) {
+        operations.add(obj -> obj.setOffsetY(value));
         return this;
     }    
     
@@ -182,13 +182,8 @@ public class DropShadowBuilder {
         return this;
     }    
     
-    public DropShadowBuilder offsetXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.offsetXProperty()));
-        return this;
-    }    
-    
-    public DropShadowBuilder blurTypePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlurType>> op) {
-        operations.add(obj -> op.accept(obj.blurTypeProperty()));
+    public DropShadowBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.radiusProperty()));
         return this;
     }    
     
@@ -197,8 +192,13 @@ public class DropShadowBuilder {
         return this;
     }    
     
-    public DropShadowBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.radiusProperty()));
+    public DropShadowBuilder offsetXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.offsetXProperty()));
+        return this;
+    }    
+    
+    public DropShadowBuilder offsetYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.offsetYProperty()));
         return this;
     }    
     
@@ -207,8 +207,8 @@ public class DropShadowBuilder {
         return this;
     }    
     
-    public DropShadowBuilder offsetYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.offsetYProperty()));
+    public DropShadowBuilder blurTypePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlurType>> op) {
+        operations.add(obj -> op.accept(obj.blurTypeProperty()));
         return this;
     }
 }

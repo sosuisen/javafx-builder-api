@@ -89,16 +89,6 @@ public class GraphicsContextBuilder {
         return this;
     }    
     
-    public  GraphicsContextBuilder effect(javafx.scene.effect.Effect e) {
-        operations.add(obj -> obj.setEffect(e));
-        return this;
-    }    
-    
-    public  GraphicsContextBuilder fill(javafx.scene.paint.Paint p) {
-        operations.add(obj -> obj.setFill(p));
-        return this;
-    }    
-    
     public  GraphicsContextBuilder transform(javafx.scene.transform.Affine xform) {
         operations.add(obj -> obj.setTransform(xform));
         return this;
@@ -114,18 +104,28 @@ public class GraphicsContextBuilder {
         return this;
     }    
     
+    public  GraphicsContextBuilder fill(javafx.scene.paint.Paint p) {
+        operations.add(obj -> obj.setFill(p));
+        return this;
+    }    
+    
     public  GraphicsContextBuilder fillRule(javafx.scene.shape.FillRule fillRule) {
         operations.add(obj -> obj.setFillRule(fillRule));
         return this;
     }    
     
-    public  GraphicsContextBuilder lineDashOffset(double dashOffset) {
-        operations.add(obj -> obj.setLineDashOffset(dashOffset));
+    public  GraphicsContextBuilder effect(javafx.scene.effect.Effect e) {
+        operations.add(obj -> obj.setEffect(e));
         return this;
     }    
     
-    public  GraphicsContextBuilder textAlign(javafx.scene.text.TextAlignment align) {
-        operations.add(obj -> obj.setTextAlign(align));
+    public  GraphicsContextBuilder font(javafx.scene.text.Font f) {
+        operations.add(obj -> obj.setFont(f));
+        return this;
+    }    
+    
+    public  GraphicsContextBuilder fontSmoothingType(javafx.scene.text.FontSmoothingType fontsmoothing) {
+        operations.add(obj -> obj.setFontSmoothingType(fontsmoothing));
         return this;
     }    
     
@@ -144,13 +144,18 @@ public class GraphicsContextBuilder {
         return this;
     }    
     
-    public  GraphicsContextBuilder globalAlpha(double alpha) {
-        operations.add(obj -> obj.setGlobalAlpha(alpha));
+    public  GraphicsContextBuilder lineDashOffset(double dashOffset) {
+        operations.add(obj -> obj.setLineDashOffset(dashOffset));
         return this;
     }    
     
     public  GraphicsContextBuilder lineJoin(javafx.scene.shape.StrokeLineJoin join) {
         operations.add(obj -> obj.setLineJoin(join));
+        return this;
+    }    
+    
+    public  GraphicsContextBuilder imageSmoothing(boolean imageSmoothing) {
+        operations.add(obj -> obj.setImageSmoothing(imageSmoothing));
         return this;
     }    
     
@@ -164,23 +169,18 @@ public class GraphicsContextBuilder {
         return this;
     }    
     
-    public  GraphicsContextBuilder imageSmoothing(boolean imageSmoothing) {
-        operations.add(obj -> obj.setImageSmoothing(imageSmoothing));
+    public  GraphicsContextBuilder globalAlpha(double alpha) {
+        operations.add(obj -> obj.setGlobalAlpha(alpha));
         return this;
     }    
     
-    public  GraphicsContextBuilder font(javafx.scene.text.Font f) {
-        operations.add(obj -> obj.setFont(f));
+    public  GraphicsContextBuilder textAlign(javafx.scene.text.TextAlignment align) {
+        operations.add(obj -> obj.setTextAlign(align));
         return this;
     }    
     
     public  GraphicsContextBuilder lineCap(javafx.scene.shape.StrokeLineCap cap) {
         operations.add(obj -> obj.setLineCap(cap));
-        return this;
-    }    
-    
-    public  GraphicsContextBuilder fontSmoothingType(javafx.scene.text.FontSmoothingType fontsmoothing) {
-        operations.add(obj -> obj.setFontSmoothingType(fontsmoothing));
         return this;
     }
 }

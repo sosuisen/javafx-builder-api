@@ -7,7 +7,12 @@ public class ImageCursorBuilder {
     private ImageCursorBuilder() {}
     
 
-    public static ImageCursorBuilder create() { return new ImageCursorBuilder(); }
+    
+    public static ImageCursorBuilder create(javafx.scene.image.Image image) {
+        ImageCursorBuilder builder = new ImageCursorBuilder();
+        builder.constructorArgs = new Object[]{image};
+        return builder;
+    }
 
 
     
@@ -18,12 +23,7 @@ public class ImageCursorBuilder {
     }
 
 
-    
-    public static ImageCursorBuilder create(javafx.scene.image.Image image) {
-        ImageCursorBuilder builder = new ImageCursorBuilder();
-        builder.constructorArgs = new Object[]{image};
-        return builder;
-    }
+    public static ImageCursorBuilder create() { return new ImageCursorBuilder(); }
 
     private Object[] constructorArgs;
 

@@ -104,13 +104,13 @@ public class TableViewTableViewFocusModelBuilder<S> {
         return this;
     }    
     
-    public TableViewTableViewFocusModelBuilder<S> focusedItemPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<S>> op) {
-        operations.add(obj -> op.accept(obj.focusedItemProperty()));
+    public TableViewTableViewFocusModelBuilder<S> focusedIndexPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
+        operations.add(obj -> op.accept(obj.focusedIndexProperty()));
         return this;
     }    
     
-    public TableViewTableViewFocusModelBuilder<S> focusedIndexPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
-        operations.add(obj -> op.accept(obj.focusedIndexProperty()));
+    public TableViewTableViewFocusModelBuilder<S> focusedItemPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<S>> op) {
+        operations.add(obj -> op.accept(obj.focusedItemProperty()));
         return this;
     }
 }

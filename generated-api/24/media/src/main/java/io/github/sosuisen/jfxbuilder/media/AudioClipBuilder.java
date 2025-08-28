@@ -97,13 +97,23 @@ public class AudioClipBuilder {
         return this;
     }    
     
+    public  AudioClipBuilder priority(int priority) {
+        operations.add(obj -> obj.setPriority(priority));
+        return this;
+    }    
+    
     public  AudioClipBuilder cycleCount(int count) {
         operations.add(obj -> obj.setCycleCount(count));
         return this;
     }    
     
-    public  AudioClipBuilder priority(int priority) {
-        operations.add(obj -> obj.setPriority(priority));
+    public  AudioClipBuilder pan(double pan) {
+        operations.add(obj -> obj.setPan(pan));
+        return this;
+    }    
+    
+    public  AudioClipBuilder volume(double value) {
+        operations.add(obj -> obj.setVolume(value));
         return this;
     }    
     
@@ -117,33 +127,8 @@ public class AudioClipBuilder {
         return this;
     }    
     
-    public  AudioClipBuilder volume(double value) {
-        operations.add(obj -> obj.setVolume(value));
-        return this;
-    }    
-    
-    public  AudioClipBuilder pan(double pan) {
-        operations.add(obj -> obj.setPan(pan));
-        return this;
-    }    
-    
-    public AudioClipBuilder cycleCountPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
-        operations.add(obj -> op.accept(obj.cycleCountProperty()));
-        return this;
-    }    
-    
-    public AudioClipBuilder panPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.panProperty()));
-        return this;
-    }    
-    
     public AudioClipBuilder priorityPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
         operations.add(obj -> op.accept(obj.priorityProperty()));
-        return this;
-    }    
-    
-    public AudioClipBuilder balancePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.balanceProperty()));
         return this;
     }    
     
@@ -152,8 +137,23 @@ public class AudioClipBuilder {
         return this;
     }    
     
+    public AudioClipBuilder cycleCountPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
+        operations.add(obj -> op.accept(obj.cycleCountProperty()));
+        return this;
+    }    
+    
     public AudioClipBuilder volumePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.volumeProperty()));
+        return this;
+    }    
+    
+    public AudioClipBuilder balancePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.balanceProperty()));
+        return this;
+    }    
+    
+    public AudioClipBuilder panPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.panProperty()));
         return this;
     }
 }

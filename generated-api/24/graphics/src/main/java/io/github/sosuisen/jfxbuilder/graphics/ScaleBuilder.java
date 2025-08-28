@@ -180,13 +180,13 @@ public class ScaleBuilder {
         return this;
     }    
     
-    public ScaleBuilder pivotZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.pivotZProperty()));
+    public ScaleBuilder pivotYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.pivotYProperty()));
         return this;
     }    
     
-    public ScaleBuilder pivotYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.pivotYProperty()));
+    public ScaleBuilder pivotZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.pivotZProperty()));
         return this;
     }    
     
@@ -195,8 +195,8 @@ public class ScaleBuilder {
         return this;
     }    
     
-    public ScaleBuilder type2DPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.type2DProperty()));
+    public ScaleBuilder onTransformChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTransformChangedProperty()));
         return this;
     }    
     
@@ -205,8 +205,8 @@ public class ScaleBuilder {
         return this;
     }    
     
-    public ScaleBuilder onTransformChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTransformChangedProperty()));
+    public ScaleBuilder type2DPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.type2DProperty()));
         return this;
     }
 }

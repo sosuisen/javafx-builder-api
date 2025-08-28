@@ -106,6 +106,11 @@ public class EqualizerBandBuilder {
         return this;
     }    
     
+    public  EqualizerBandBuilder gain(double value) {
+        operations.add(obj -> obj.setGain(value));
+        return this;
+    }    
+    
     public  EqualizerBandBuilder centerFrequency(double value) {
         operations.add(obj -> obj.setCenterFrequency(value));
         return this;
@@ -116,18 +121,13 @@ public class EqualizerBandBuilder {
         return this;
     }    
     
-    public  EqualizerBandBuilder gain(double value) {
-        operations.add(obj -> obj.setGain(value));
+    public EqualizerBandBuilder bandwidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.bandwidthProperty()));
         return this;
     }    
     
     public EqualizerBandBuilder gainPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.gainProperty()));
-        return this;
-    }    
-    
-    public EqualizerBandBuilder bandwidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.bandwidthProperty()));
         return this;
     }    
     

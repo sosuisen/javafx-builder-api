@@ -1,0 +1,5 @@
+# Created at 2025-08-28T21:18:27.315
+Boot Manifest-JAR contains absolute paths in classpath 'F:\JavaFXProject\javafx-builder-api-generator\generated-api\24\graphics\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

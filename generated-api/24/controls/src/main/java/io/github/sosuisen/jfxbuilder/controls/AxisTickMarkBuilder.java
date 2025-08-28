@@ -110,13 +110,18 @@ public class AxisTickMarkBuilder<T> {
         return this;
     }    
     
+    public  AxisTickMarkBuilder<T> label(java.lang.String value) {
+        operations.add(obj -> obj.setLabel(value));
+        return this;
+    }    
+    
     public  AxisTickMarkBuilder<T> textVisible(boolean value) {
         operations.add(obj -> obj.setTextVisible(value));
         return this;
     }    
     
-    public  AxisTickMarkBuilder<T> label(java.lang.String value) {
-        operations.add(obj -> obj.setLabel(value));
+    public AxisTickMarkBuilder<T> labelPropertyApply(java.util.function.Consumer<javafx.beans.binding.StringExpression> op) {
+        operations.add(obj -> op.accept(obj.labelProperty()));
         return this;
     }    
     
@@ -127,11 +132,6 @@ public class AxisTickMarkBuilder<T> {
     
     public AxisTickMarkBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.binding.ObjectExpression<T>> op) {
         operations.add(obj -> op.accept(obj.valueProperty()));
-        return this;
-    }    
-    
-    public AxisTickMarkBuilder<T> labelPropertyApply(java.util.function.Consumer<javafx.beans.binding.StringExpression> op) {
-        operations.add(obj -> op.accept(obj.labelProperty()));
         return this;
     }
 }

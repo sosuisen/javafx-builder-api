@@ -107,8 +107,8 @@ public class PieChartDataBuilder {
         return this;
     }    
     
-    public PieChartDataBuilder pieValuePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.pieValueProperty()));
+    public PieChartDataBuilder namePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.nameProperty()));
         return this;
     }    
     
@@ -122,8 +122,8 @@ public class PieChartDataBuilder {
         return this;
     }    
     
-    public PieChartDataBuilder namePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.nameProperty()));
+    public PieChartDataBuilder pieValuePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.pieValueProperty()));
         return this;
     }
 }

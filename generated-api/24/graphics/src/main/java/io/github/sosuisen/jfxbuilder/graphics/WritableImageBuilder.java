@@ -131,11 +131,6 @@ public class WritableImageBuilder {
         return this;
     }    
     
-    public WritableImageBuilder errorPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.errorProperty()));
-        return this;
-    }    
-    
     public WritableImageBuilder exceptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<java.lang.Exception>> op) {
         operations.add(obj -> op.accept(obj.exceptionProperty()));
         return this;
@@ -143,6 +138,11 @@ public class WritableImageBuilder {
     
     public WritableImageBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
+        return this;
+    }    
+    
+    public WritableImageBuilder errorPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.errorProperty()));
         return this;
     }
 }

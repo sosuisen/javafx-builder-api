@@ -109,13 +109,13 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
         return this;
     }    
     
-    public  SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> wrapAround(boolean value) {
-        operations.add(obj -> obj.setWrapAround(value));
+    public  SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> converter(javafx.util.StringConverter<T> newValue) {
+        operations.add(obj -> obj.setConverter(newValue));
         return this;
     }    
     
-    public  SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> converter(javafx.util.StringConverter<T> newValue) {
-        operations.add(obj -> obj.setConverter(newValue));
+    public  SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> wrapAround(boolean value) {
+        operations.add(obj -> obj.setWrapAround(value));
         return this;
     }
     @SafeVarargs
@@ -140,8 +140,8 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
         return this;
     }    
     
-    public SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
-        operations.add(obj -> op.accept(obj.valueProperty()));
+    public SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<T>>> op) {
+        operations.add(obj -> op.accept(obj.converterProperty()));
         return this;
     }    
     
@@ -150,8 +150,8 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
         return this;
     }    
     
-    public SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<T>>> op) {
-        operations.add(obj -> op.accept(obj.converterProperty()));
+    public SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
+        operations.add(obj -> op.accept(obj.valueProperty()));
         return this;
     }
 }

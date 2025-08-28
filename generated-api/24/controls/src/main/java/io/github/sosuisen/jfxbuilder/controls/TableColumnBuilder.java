@@ -7,15 +7,15 @@ public class TableColumnBuilder<S, T> {
     private TableColumnBuilder() {}
     
 
+    public static <S, T> TableColumnBuilder<S, T> create() { return new TableColumnBuilder<S, T>(); }
+
+
     
     public static <S, T> TableColumnBuilder<S, T> create(java.lang.String text) {
         TableColumnBuilder<S, T> builder = new TableColumnBuilder<S, T>();
         builder.constructorArgs = new Object[]{text};
         return builder;
     }
-
-
-    public static <S, T> TableColumnBuilder<S, T> create() { return new TableColumnBuilder<S, T>(); }
 
     private Object[] constructorArgs;
 
@@ -108,8 +108,8 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     
-    public  TableColumnBuilder<S, T> onEditCancel(javafx.event.EventHandler<javafx.scene.control.TableColumn.CellEditEvent<S, T>> value) {
-        operations.add(obj -> obj.setOnEditCancel(value));
+    public  TableColumnBuilder<S, T> cellFactory(javafx.util.Callback<javafx.scene.control.TableColumn<S, T>, javafx.scene.control.TableCell<S, T>> value) {
+        operations.add(obj -> obj.setCellFactory(value));
         return this;
     }    
     
@@ -118,23 +118,28 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     
-    public  TableColumnBuilder<S, T> cellValueFactory(javafx.util.Callback<javafx.scene.control.TableColumn.CellDataFeatures<S, T>, javafx.beans.value.ObservableValue<T>> value) {
-        operations.add(obj -> obj.setCellValueFactory(value));
-        return this;
-    }    
-    
     public  TableColumnBuilder<S, T> onEditCommit(javafx.event.EventHandler<javafx.scene.control.TableColumn.CellEditEvent<S, T>> value) {
         operations.add(obj -> obj.setOnEditCommit(value));
         return this;
     }    
     
-    public  TableColumnBuilder<S, T> cellFactory(javafx.util.Callback<javafx.scene.control.TableColumn<S, T>, javafx.scene.control.TableCell<S, T>> value) {
-        operations.add(obj -> obj.setCellFactory(value));
+    public  TableColumnBuilder<S, T> onEditCancel(javafx.event.EventHandler<javafx.scene.control.TableColumn.CellEditEvent<S, T>> value) {
+        operations.add(obj -> obj.setOnEditCancel(value));
         return this;
     }    
     
     public  TableColumnBuilder<S, T> sortType(javafx.scene.control.TableColumn.SortType value) {
         operations.add(obj -> obj.setSortType(value));
+        return this;
+    }    
+    
+    public  TableColumnBuilder<S, T> cellValueFactory(javafx.util.Callback<javafx.scene.control.TableColumn.CellDataFeatures<S, T>, javafx.beans.value.ObservableValue<T>> value) {
+        operations.add(obj -> obj.setCellValueFactory(value));
+        return this;
+    }    
+    
+    public  TableColumnBuilder<S, T> visible(boolean value) {
+        operations.add(obj -> obj.setVisible(value));
         return this;
     }    
     
@@ -158,13 +163,8 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     
-    public  TableColumnBuilder<S, T> visible(boolean value) {
-        operations.add(obj -> obj.setVisible(value));
-        return this;
-    }    
-    
-    public  TableColumnBuilder<S, T> prefWidth(double value) {
-        operations.add(obj -> obj.setPrefWidth(value));
+    public  TableColumnBuilder<S, T> style(java.lang.String value) {
+        operations.add(obj -> obj.setStyle(value));
         return this;
     }    
     
@@ -183,23 +183,8 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     
-    public  TableColumnBuilder<S, T> style(java.lang.String value) {
-        operations.add(obj -> obj.setStyle(value));
-        return this;
-    }    
-    
-    public  TableColumnBuilder<S, T> editable(boolean value) {
-        operations.add(obj -> obj.setEditable(value));
-        return this;
-    }    
-    
-    public  TableColumnBuilder<S, T> contextMenu(javafx.scene.control.ContextMenu value) {
-        operations.add(obj -> obj.setContextMenu(value));
-        return this;
-    }    
-    
-    public  TableColumnBuilder<S, T> comparator(java.util.Comparator<T> value) {
-        operations.add(obj -> obj.setComparator(value));
+    public  TableColumnBuilder<S, T> prefWidth(double value) {
+        operations.add(obj -> obj.setPrefWidth(value));
         return this;
     }    
     
@@ -215,6 +200,21 @@ public class TableColumnBuilder<S, T> {
     
     public  TableColumnBuilder<S, T> reorderable(boolean value) {
         operations.add(obj -> obj.setReorderable(value));
+        return this;
+    }    
+    
+    public  TableColumnBuilder<S, T> comparator(java.util.Comparator<T> value) {
+        operations.add(obj -> obj.setComparator(value));
+        return this;
+    }    
+    
+    public  TableColumnBuilder<S, T> contextMenu(javafx.scene.control.ContextMenu value) {
+        operations.add(obj -> obj.setContextMenu(value));
+        return this;
+    }    
+    
+    public  TableColumnBuilder<S, T> editable(boolean value) {
+        operations.add(obj -> obj.setEditable(value));
         return this;
     }
     @SafeVarargs
@@ -261,31 +261,6 @@ public class TableColumnBuilder<S, T> {
 
     
     
-    public TableColumnBuilder<S, T> cellFactoryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.control.TableColumn<S, T>, javafx.scene.control.TableCell<S, T>>>> op) {
-        operations.add(obj -> op.accept(obj.cellFactoryProperty()));
-        return this;
-    }    
-    
-    public TableColumnBuilder<S, T> onEditCancelPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.TableColumn.CellEditEvent<S, T>>>> op) {
-        operations.add(obj -> op.accept(obj.onEditCancelProperty()));
-        return this;
-    }    
-    
-    public TableColumnBuilder<S, T> onEditStartPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.TableColumn.CellEditEvent<S, T>>>> op) {
-        operations.add(obj -> op.accept(obj.onEditStartProperty()));
-        return this;
-    }    
-    
-    public TableColumnBuilder<S, T> onEditCommitPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.TableColumn.CellEditEvent<S, T>>>> op) {
-        operations.add(obj -> op.accept(obj.onEditCommitProperty()));
-        return this;
-    }    
-    
-    public TableColumnBuilder<S, T> cellValueFactoryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.control.TableColumn.CellDataFeatures<S, T>, javafx.beans.value.ObservableValue<T>>>> op) {
-        operations.add(obj -> op.accept(obj.cellValueFactoryProperty()));
-        return this;
-    }    
-    
     public TableColumnBuilder<S, T> tableViewPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TableView<S>>> op) {
         operations.add(obj -> op.accept(obj.tableViewProperty()));
         return this;
@@ -296,23 +271,28 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     
-    public TableColumnBuilder<S, T> visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.visibleProperty()));
+    public TableColumnBuilder<S, T> cellFactoryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.control.TableColumn<S, T>, javafx.scene.control.TableCell<S, T>>>> op) {
+        operations.add(obj -> op.accept(obj.cellFactoryProperty()));
         return this;
     }    
     
-    public TableColumnBuilder<S, T> textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.textProperty()));
+    public TableColumnBuilder<S, T> onEditCommitPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.TableColumn.CellEditEvent<S, T>>>> op) {
+        operations.add(obj -> op.accept(obj.onEditCommitProperty()));
         return this;
     }    
     
-    public TableColumnBuilder<S, T> graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.graphicProperty()));
+    public TableColumnBuilder<S, T> onEditStartPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.TableColumn.CellEditEvent<S, T>>>> op) {
+        operations.add(obj -> op.accept(obj.onEditStartProperty()));
         return this;
     }    
     
-    public TableColumnBuilder<S, T> idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.idProperty()));
+    public TableColumnBuilder<S, T> onEditCancelPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.TableColumn.CellEditEvent<S, T>>>> op) {
+        operations.add(obj -> op.accept(obj.onEditCancelProperty()));
+        return this;
+    }    
+    
+    public TableColumnBuilder<S, T> cellValueFactoryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.control.TableColumn.CellDataFeatures<S, T>, javafx.beans.value.ObservableValue<T>>>> op) {
+        operations.add(obj -> op.accept(obj.cellValueFactoryProperty()));
         return this;
     }    
     
@@ -321,18 +301,23 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     
-    public TableColumnBuilder<S, T> prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.prefWidthProperty()));
+    public TableColumnBuilder<S, T> idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.idProperty()));
         return this;
     }    
     
-    public TableColumnBuilder<S, T> maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.maxWidthProperty()));
+    public TableColumnBuilder<S, T> graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.graphicProperty()));
         return this;
     }    
     
-    public TableColumnBuilder<S, T> resizablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.resizableProperty()));
+    public TableColumnBuilder<S, T> textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.textProperty()));
+        return this;
+    }    
+    
+    public TableColumnBuilder<S, T> visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;
     }    
     
@@ -341,8 +326,38 @@ public class TableColumnBuilder<S, T> {
         return this;
     }    
     
+    public TableColumnBuilder<S, T> resizablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.resizableProperty()));
+        return this;
+    }    
+    
+    public TableColumnBuilder<S, T> maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.maxWidthProperty()));
+        return this;
+    }    
+    
     public TableColumnBuilder<S, T> stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
+        return this;
+    }    
+    
+    public TableColumnBuilder<S, T> prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.prefWidthProperty()));
+        return this;
+    }    
+    
+    public TableColumnBuilder<S, T> sortablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.sortableProperty()));
+        return this;
+    }    
+    
+    public TableColumnBuilder<S, T> sortNodePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.sortNodeProperty()));
+        return this;
+    }    
+    
+    public TableColumnBuilder<S, T> comparatorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.util.Comparator<T>>> op) {
+        operations.add(obj -> op.accept(obj.comparatorProperty()));
         return this;
     }    
     
@@ -363,21 +378,6 @@ public class TableColumnBuilder<S, T> {
     
     public TableColumnBuilder<S, T> parentColumnPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TableColumnBase<S, ?>>> op) {
         operations.add(obj -> op.accept(obj.parentColumnProperty()));
-        return this;
-    }    
-    
-    public TableColumnBuilder<S, T> sortNodePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.sortNodeProperty()));
-        return this;
-    }    
-    
-    public TableColumnBuilder<S, T> sortablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.sortableProperty()));
-        return this;
-    }    
-    
-    public TableColumnBuilder<S, T> comparatorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.util.Comparator<T>>> op) {
-        operations.add(obj -> op.accept(obj.comparatorProperty()));
         return this;
     }
 }

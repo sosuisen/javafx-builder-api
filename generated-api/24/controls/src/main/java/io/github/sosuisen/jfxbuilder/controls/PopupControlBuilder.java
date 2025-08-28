@@ -103,38 +103,8 @@ public class PopupControlBuilder {
         return this;
     }    
     
-    public  PopupControlBuilder prefHeight(double value) {
-        operations.add(obj -> obj.setPrefHeight(value));
-        return this;
-    }    
-    
-    public  PopupControlBuilder prefWidth(double value) {
-        operations.add(obj -> obj.setPrefWidth(value));
-        return this;
-    }    
-    
-    public  PopupControlBuilder prefSize(double prefWidth, double prefHeight) {
-        operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
-        return this;
-    }    
-    
-    public  PopupControlBuilder minWidth(double value) {
-        operations.add(obj -> obj.setMinWidth(value));
-        return this;
-    }    
-    
-    public  PopupControlBuilder minHeight(double value) {
-        operations.add(obj -> obj.setMinHeight(value));
-        return this;
-    }    
-    
-    public  PopupControlBuilder maxHeight(double value) {
-        operations.add(obj -> obj.setMaxHeight(value));
-        return this;
-    }    
-    
-    public  PopupControlBuilder maxWidth(double value) {
-        operations.add(obj -> obj.setMaxWidth(value));
+    public  PopupControlBuilder style(java.lang.String value) {
+        operations.add(obj -> obj.setStyle(value));
         return this;
     }    
     
@@ -148,8 +118,38 @@ public class PopupControlBuilder {
         return this;
     }    
     
-    public  PopupControlBuilder style(java.lang.String value) {
-        operations.add(obj -> obj.setStyle(value));
+    public  PopupControlBuilder minHeight(double value) {
+        operations.add(obj -> obj.setMinHeight(value));
+        return this;
+    }    
+    
+    public  PopupControlBuilder minWidth(double value) {
+        operations.add(obj -> obj.setMinWidth(value));
+        return this;
+    }    
+    
+    public  PopupControlBuilder maxHeight(double value) {
+        operations.add(obj -> obj.setMaxHeight(value));
+        return this;
+    }    
+    
+    public  PopupControlBuilder maxWidth(double value) {
+        operations.add(obj -> obj.setMaxWidth(value));
+        return this;
+    }    
+    
+    public  PopupControlBuilder prefWidth(double value) {
+        operations.add(obj -> obj.setPrefWidth(value));
+        return this;
+    }    
+    
+    public  PopupControlBuilder prefHeight(double value) {
+        operations.add(obj -> obj.setPrefHeight(value));
+        return this;
+    }    
+    
+    public  PopupControlBuilder prefSize(double prefWidth, double prefHeight) {
+        operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
         return this;
     }    
     
@@ -168,13 +168,13 @@ public class PopupControlBuilder {
         return this;
     }    
     
-    public  PopupControlBuilder anchorY(double value) {
-        operations.add(obj -> obj.setAnchorY(value));
+    public  PopupControlBuilder autoFix(boolean value) {
+        operations.add(obj -> obj.setAutoFix(value));
         return this;
     }    
     
-    public  PopupControlBuilder autoFix(boolean value) {
-        operations.add(obj -> obj.setAutoFix(value));
+    public  PopupControlBuilder anchorY(double value) {
+        operations.add(obj -> obj.setAnchorY(value));
         return this;
     }    
     
@@ -198,18 +198,8 @@ public class PopupControlBuilder {
         return this;
     }    
     
-    public  PopupControlBuilder opacity(double value) {
-        operations.add(obj -> obj.setOpacity(value));
-        return this;
-    }    
-    
-    public  PopupControlBuilder y(double value) {
-        operations.add(obj -> obj.setY(value));
-        return this;
-    }    
-    
-    public  PopupControlBuilder x(double value) {
-        operations.add(obj -> obj.setX(value));
+    public  PopupControlBuilder renderScaleX(double scale) {
+        operations.add(obj -> obj.setRenderScaleX(scale));
         return this;
     }    
     
@@ -218,33 +208,38 @@ public class PopupControlBuilder {
         return this;
     }    
     
-    public  PopupControlBuilder renderScaleX(double scale) {
-        operations.add(obj -> obj.setRenderScaleX(scale));
+    public  PopupControlBuilder opacity(double value) {
+        operations.add(obj -> obj.setOpacity(value));
+        return this;
+    }    
+    
+    public  PopupControlBuilder x(double value) {
+        operations.add(obj -> obj.setX(value));
+        return this;
+    }    
+    
+    public  PopupControlBuilder y(double value) {
+        operations.add(obj -> obj.setY(value));
+        return this;
+    }    
+    
+    public  PopupControlBuilder width(double value) {
+        operations.add(obj -> obj.setWidth(value));
+        return this;
+    }    
+    
+    public  PopupControlBuilder height(double value) {
+        operations.add(obj -> obj.setHeight(value));
+        return this;
+    }    
+    
+    public  PopupControlBuilder onShown(javafx.event.EventHandler<javafx.stage.WindowEvent> value) {
+        operations.add(obj -> obj.setOnShown(value));
         return this;
     }    
     
     public  PopupControlBuilder forceIntegerRenderScale(boolean forced) {
         operations.add(obj -> obj.setForceIntegerRenderScale(forced));
-        return this;
-    }    
-    
-    public  PopupControlBuilder onHidden(javafx.event.EventHandler<javafx.stage.WindowEvent> value) {
-        operations.add(obj -> obj.setOnHidden(value));
-        return this;
-    }    
-    
-    public  PopupControlBuilder userData(java.lang.Object value) {
-        operations.add(obj -> obj.setUserData(value));
-        return this;
-    }    
-    
-    public  PopupControlBuilder eventDispatcher(javafx.event.EventDispatcher value) {
-        operations.add(obj -> obj.setEventDispatcher(value));
-        return this;
-    }    
-    
-    public  PopupControlBuilder onHiding(javafx.event.EventHandler<javafx.stage.WindowEvent> value) {
-        operations.add(obj -> obj.setOnHiding(value));
         return this;
     }    
     
@@ -258,18 +253,23 @@ public class PopupControlBuilder {
         return this;
     }    
     
-    public  PopupControlBuilder height(double value) {
-        operations.add(obj -> obj.setHeight(value));
+    public  PopupControlBuilder onHidden(javafx.event.EventHandler<javafx.stage.WindowEvent> value) {
+        operations.add(obj -> obj.setOnHidden(value));
         return this;
     }    
     
-    public  PopupControlBuilder width(double value) {
-        operations.add(obj -> obj.setWidth(value));
+    public  PopupControlBuilder onHiding(javafx.event.EventHandler<javafx.stage.WindowEvent> value) {
+        operations.add(obj -> obj.setOnHiding(value));
         return this;
     }    
     
-    public  PopupControlBuilder onShown(javafx.event.EventHandler<javafx.stage.WindowEvent> value) {
-        operations.add(obj -> obj.setOnShown(value));
+    public  PopupControlBuilder userData(java.lang.Object value) {
+        operations.add(obj -> obj.setUserData(value));
+        return this;
+    }    
+    
+    public  PopupControlBuilder eventDispatcher(javafx.event.EventDispatcher value) {
+        operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }
     @SafeVarargs
@@ -294,13 +294,8 @@ public class PopupControlBuilder {
         return this;
     }    
     
-    public PopupControlBuilder prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.prefWidthProperty()));
-        return this;
-    }    
-    
-    public PopupControlBuilder prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.prefHeightProperty()));
+    public PopupControlBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
     }    
     
@@ -314,11 +309,6 @@ public class PopupControlBuilder {
         return this;
     }    
     
-    public PopupControlBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.minWidthProperty()));
-        return this;
-    }    
-    
     public PopupControlBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minHeightProperty()));
         return this;
@@ -326,6 +316,16 @@ public class PopupControlBuilder {
     
     public PopupControlBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
+        return this;
+    }    
+    
+    public PopupControlBuilder prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.prefHeightProperty()));
+        return this;
+    }    
+    
+    public PopupControlBuilder prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.prefWidthProperty()));
         return this;
     }    
     
@@ -349,28 +349,13 @@ public class PopupControlBuilder {
         return this;
     }    
     
-    public PopupControlBuilder consumeAutoHidingEventsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.consumeAutoHidingEventsProperty()));
-        return this;
-    }    
-    
-    public PopupControlBuilder anchorYPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.anchorYProperty()));
+    public PopupControlBuilder anchorXPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.anchorXProperty()));
         return this;
     }    
     
     public PopupControlBuilder ownerNodePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.ownerNodeProperty()));
-        return this;
-    }    
-    
-    public PopupControlBuilder onAutoHidePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
-        operations.add(obj -> op.accept(obj.onAutoHideProperty()));
-        return this;
-    }    
-    
-    public PopupControlBuilder anchorXPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.anchorXProperty()));
         return this;
     }    
     
@@ -384,8 +369,18 @@ public class PopupControlBuilder {
         return this;
     }    
     
-    public PopupControlBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.widthProperty()));
+    public PopupControlBuilder onAutoHidePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
+        operations.add(obj -> op.accept(obj.onAutoHideProperty()));
+        return this;
+    }    
+    
+    public PopupControlBuilder anchorYPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.anchorYProperty()));
+        return this;
+    }    
+    
+    public PopupControlBuilder consumeAutoHidingEventsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.consumeAutoHidingEventsProperty()));
         return this;
     }    
     
@@ -394,8 +389,8 @@ public class PopupControlBuilder {
         return this;
     }    
     
-    public PopupControlBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.yProperty()));
+    public PopupControlBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.widthProperty()));
         return this;
     }    
     
@@ -404,33 +399,8 @@ public class PopupControlBuilder {
         return this;
     }    
     
-    public PopupControlBuilder renderScaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.renderScaleXProperty()));
-        return this;
-    }    
-    
-    public PopupControlBuilder renderScaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.renderScaleYProperty()));
-        return this;
-    }    
-    
-    public PopupControlBuilder onCloseRequestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onCloseRequestProperty()));
-        return this;
-    }    
-    
-    public PopupControlBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
-        operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
-        return this;
-    }    
-    
-    public PopupControlBuilder outputScaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.outputScaleXProperty()));
-        return this;
-    }    
-    
-    public PopupControlBuilder outputScaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.outputScaleYProperty()));
+    public PopupControlBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.yProperty()));
         return this;
     }    
     
@@ -439,33 +409,33 @@ public class PopupControlBuilder {
         return this;
     }    
     
-    public PopupControlBuilder onShownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onShownProperty()));
+    public PopupControlBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
+        operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
     }    
     
-    public PopupControlBuilder focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusedProperty()));
+    public PopupControlBuilder outputScaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.outputScaleYProperty()));
         return this;
     }    
     
-    public PopupControlBuilder showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.showingProperty()));
+    public PopupControlBuilder renderScaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.renderScaleYProperty()));
         return this;
     }    
     
-    public PopupControlBuilder onHiddenPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onHiddenProperty()));
+    public PopupControlBuilder renderScaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.renderScaleXProperty()));
         return this;
     }    
     
-    public PopupControlBuilder scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
-        operations.add(obj -> op.accept(obj.sceneProperty()));
+    public PopupControlBuilder onCloseRequestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onCloseRequestProperty()));
         return this;
     }    
     
-    public PopupControlBuilder opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.opacityProperty()));
+    public PopupControlBuilder outputScaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.outputScaleXProperty()));
         return this;
     }    
     
@@ -476,6 +446,36 @@ public class PopupControlBuilder {
     
     public PopupControlBuilder onHidingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
         operations.add(obj -> op.accept(obj.onHidingProperty()));
+        return this;
+    }    
+    
+    public PopupControlBuilder onShownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onShownProperty()));
+        return this;
+    }    
+    
+    public PopupControlBuilder opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.opacityProperty()));
+        return this;
+    }    
+    
+    public PopupControlBuilder onHiddenPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onHiddenProperty()));
+        return this;
+    }    
+    
+    public PopupControlBuilder showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.showingProperty()));
+        return this;
+    }    
+    
+    public PopupControlBuilder scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
+        operations.add(obj -> op.accept(obj.sceneProperty()));
+        return this;
+    }    
+    
+    public PopupControlBuilder focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusedProperty()));
         return this;
     }
 }

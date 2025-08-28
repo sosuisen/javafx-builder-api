@@ -7,9 +7,6 @@ public class XYChartDataBuilder<X, Y> {
     private XYChartDataBuilder() {}
     
 
-    public static <X, Y> XYChartDataBuilder<X, Y> create() { return new XYChartDataBuilder<X, Y>(); }
-
-
     
     public static <X, Y> XYChartDataBuilder<X, Y> create(X xValue, Y yValue) {
         XYChartDataBuilder<X, Y> builder = new XYChartDataBuilder<X, Y>();
@@ -24,6 +21,9 @@ public class XYChartDataBuilder<X, Y> {
         builder.constructorArgs = new Object[]{xValue, yValue, extraValue};
         return builder;
     }
+
+
+    public static <X, Y> XYChartDataBuilder<X, Y> create() { return new XYChartDataBuilder<X, Y>(); }
 
     private Object[] constructorArgs;
 
@@ -121,13 +121,13 @@ public class XYChartDataBuilder<X, Y> {
         return this;
     }    
     
-    public  XYChartDataBuilder<X, Y> yValue(Y value) {
-        operations.add(obj -> obj.setYValue(value));
+    public  XYChartDataBuilder<X, Y> xValue(X value) {
+        operations.add(obj -> obj.setXValue(value));
         return this;
     }    
     
-    public  XYChartDataBuilder<X, Y> xValue(X value) {
-        operations.add(obj -> obj.setXValue(value));
+    public  XYChartDataBuilder<X, Y> yValue(Y value) {
+        operations.add(obj -> obj.setYValue(value));
         return this;
     }    
     
@@ -141,11 +141,6 @@ public class XYChartDataBuilder<X, Y> {
         return this;
     }    
     
-    public XYChartDataBuilder<X, Y> XValuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<X>> op) {
-        operations.add(obj -> op.accept(obj.XValueProperty()));
-        return this;
-    }    
-    
     public XYChartDataBuilder<X, Y> YValuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<Y>> op) {
         operations.add(obj -> op.accept(obj.YValueProperty()));
         return this;
@@ -153,6 +148,11 @@ public class XYChartDataBuilder<X, Y> {
     
     public XYChartDataBuilder<X, Y> extraValuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Object>> op) {
         operations.add(obj -> op.accept(obj.extraValueProperty()));
+        return this;
+    }    
+    
+    public XYChartDataBuilder<X, Y> XValuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<X>> op) {
+        operations.add(obj -> op.accept(obj.XValueProperty()));
         return this;
     }
 }

@@ -106,8 +106,28 @@ public class MediaViewBuilder {
         return this;
     }    
     
+    public  MediaViewBuilder x(double value) {
+        operations.add(obj -> obj.setX(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder y(double value) {
+        operations.add(obj -> obj.setY(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder smooth(boolean value) {
+        operations.add(obj -> obj.setSmooth(value));
+        return this;
+    }    
+    
     public  MediaViewBuilder viewport(javafx.geometry.Rectangle2D value) {
         operations.add(obj -> obj.setViewport(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder preserveRatio(boolean value) {
+        operations.add(obj -> obj.setPreserveRatio(value));
         return this;
     }    
     
@@ -121,23 +141,8 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public  MediaViewBuilder preserveRatio(boolean value) {
-        operations.add(obj -> obj.setPreserveRatio(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder y(double value) {
-        operations.add(obj -> obj.setY(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder x(double value) {
-        operations.add(obj -> obj.setX(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder smooth(boolean value) {
-        operations.add(obj -> obj.setSmooth(value));
+    public  MediaViewBuilder mediaPlayer(javafx.scene.media.MediaPlayer value) {
+        operations.add(obj -> obj.setMediaPlayer(value));
         return this;
     }    
     
@@ -146,8 +151,8 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public  MediaViewBuilder mediaPlayer(javafx.scene.media.MediaPlayer value) {
-        operations.add(obj -> obj.setMediaPlayer(value));
+    public  MediaViewBuilder cache(boolean value) {
+        operations.add(obj -> obj.setCache(value));
         return this;
     }    
     
@@ -156,23 +161,8 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public  MediaViewBuilder cache(boolean value) {
-        operations.add(obj -> obj.setCache(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
-        operations.add(obj -> obj.setInputMethodRequests(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder opacity(double value) {
-        operations.add(obj -> obj.setOpacity(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder cursor(javafx.scene.Cursor value) {
-        operations.add(obj -> obj.setCursor(value));
+    public  MediaViewBuilder id(java.lang.String value) {
+        operations.add(obj -> obj.setId(value));
         return this;
     }    
     
@@ -181,18 +171,33 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public  MediaViewBuilder id(java.lang.String value) {
-        operations.add(obj -> obj.setId(value));
+    public  MediaViewBuilder opacity(double value) {
+        operations.add(obj -> obj.setOpacity(value));
         return this;
     }    
     
-    public  MediaViewBuilder depthTest(javafx.scene.DepthTest value) {
-        operations.add(obj -> obj.setDepthTest(value));
+    public  MediaViewBuilder inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
+        operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }    
     
-    public  MediaViewBuilder onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
-        operations.add(obj -> obj.setOnContextMenuRequested(value));
+    public  MediaViewBuilder cursor(javafx.scene.Cursor value) {
+        operations.add(obj -> obj.setCursor(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchStationary(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
+        operations.add(obj -> obj.setOnRotationStarted(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
+        operations.add(obj -> obj.setOnRotationFinished(value));
         return this;
     }    
     
@@ -211,18 +216,8 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public  MediaViewBuilder onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
-        operations.add(obj -> obj.setOnRotationFinished(value));
-        return this;
-    }    
-    
     public  MediaViewBuilder mouseTransparent(boolean value) {
         operations.add(obj -> obj.setMouseTransparent(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchStationary(value));
         return this;
     }    
     
@@ -231,78 +226,23 @@ public class MediaViewBuilder {
         return this;
     }    
     
+    public  MediaViewBuilder onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
+        operations.add(obj -> obj.setOnContextMenuRequested(value));
+        return this;
+    }    
+    
     public  MediaViewBuilder onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollFinished(value));
         return this;
     }    
     
-    public  MediaViewBuilder onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
-        operations.add(obj -> obj.setOnRotationStarted(value));
+    public  MediaViewBuilder depthTest(javafx.scene.DepthTest value) {
+        operations.add(obj -> obj.setDepthTest(value));
         return this;
     }    
     
-    public  MediaViewBuilder clip(javafx.scene.Node value) {
-        operations.add(obj -> obj.setClip(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder managed(boolean value) {
-        operations.add(obj -> obj.setManaged(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder style(java.lang.String value) {
-        operations.add(obj -> obj.setStyle(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder scaleX(double value) {
-        operations.add(obj -> obj.setScaleX(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder scaleY(double value) {
-        operations.add(obj -> obj.setScaleY(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoom(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder scaleZ(double value) {
-        operations.add(obj -> obj.setScaleZ(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder rotate(double value) {
-        operations.add(obj -> obj.setRotate(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder effect(javafx.scene.effect.Effect value) {
-        operations.add(obj -> obj.setEffect(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder layoutX(double value) {
-        operations.add(obj -> obj.setLayoutX(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder layoutY(double value) {
-        operations.add(obj -> obj.setLayoutY(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
-        operations.add(obj -> obj.setOnInputMethodTextChanged(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder accessibleRoleDescription(java.lang.String value) {
-        operations.add(obj -> obj.setAccessibleRoleDescription(value));
+    public  MediaViewBuilder eventDispatcher(javafx.event.EventDispatcher value) {
+        operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }    
     
@@ -316,23 +256,8 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public  MediaViewBuilder eventDispatcher(javafx.event.EventDispatcher value) {
-        operations.add(obj -> obj.setEventDispatcher(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder translateZ(double value) {
-        operations.add(obj -> obj.setTranslateZ(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder nodeOrientation(javafx.geometry.NodeOrientation orientation) {
-        operations.add(obj -> obj.setNodeOrientation(orientation));
-        return this;
-    }    
-    
-    public  MediaViewBuilder onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragDropped(value));
+    public  MediaViewBuilder onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragExited(value));
         return this;
     }    
     
@@ -341,43 +266,8 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public  MediaViewBuilder blendMode(javafx.scene.effect.BlendMode value) {
-        operations.add(obj -> obj.setBlendMode(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder rotationAxis(javafx.geometry.Point3D value) {
-        operations.add(obj -> obj.setRotationAxis(value));
-        return this;
-    }    
-    
     public  MediaViewBuilder pickOnBounds(boolean value) {
         operations.add(obj -> obj.setPickOnBounds(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder cacheHint(javafx.scene.CacheHint value) {
-        operations.add(obj -> obj.setCacheHint(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder translateY(double value) {
-        operations.add(obj -> obj.setTranslateY(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragExited(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragEntered(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }    
     
@@ -386,88 +276,48 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public  MediaViewBuilder onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchPressed(value));
+    public  MediaViewBuilder translateY(double value) {
+        operations.add(obj -> obj.setTranslateY(value));
         return this;
     }    
     
-    public  MediaViewBuilder onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseExited(value));
+    public  MediaViewBuilder translateZ(double value) {
+        operations.add(obj -> obj.setTranslateZ(value));
         return this;
     }    
     
-    public  MediaViewBuilder onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoomStarted(value));
+    public  MediaViewBuilder rotationAxis(javafx.geometry.Point3D value) {
+        operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }    
     
-    public  MediaViewBuilder onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchReleased(value));
+    public  MediaViewBuilder nodeOrientation(javafx.geometry.NodeOrientation orientation) {
+        operations.add(obj -> obj.setNodeOrientation(orientation));
         return this;
     }    
     
-    public  MediaViewBuilder onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnDragDetected(value));
+    public  MediaViewBuilder blendMode(javafx.scene.effect.BlendMode value) {
+        operations.add(obj -> obj.setBlendMode(value));
         return this;
     }    
     
-    public  MediaViewBuilder onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
-        operations.add(obj -> obj.setOnSwipeUp(value));
+    public  MediaViewBuilder onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }    
     
-    public  MediaViewBuilder onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMousePressed(value));
+    public  MediaViewBuilder onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragEntered(value));
         return this;
     }    
     
-    public  MediaViewBuilder onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
-        operations.add(obj -> obj.setOnScrollStarted(value));
+    public  MediaViewBuilder onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragDropped(value));
         return this;
     }    
     
-    public  MediaViewBuilder onScroll(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
-        operations.add(obj -> obj.setOnScroll(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
-        operations.add(obj -> obj.setOnKeyReleased(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseReleased(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseClicked(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
-        operations.add(obj -> obj.setOnSwipeLeft(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
-        operations.add(obj -> obj.setOnSwipeDown(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragged(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragOver(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseMoved(value));
+    public  MediaViewBuilder cacheHint(javafx.scene.CacheHint value) {
+        operations.add(obj -> obj.setCacheHint(value));
         return this;
     }    
     
@@ -476,23 +326,8 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public  MediaViewBuilder onKeyPressed(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
-        operations.add(obj -> obj.setOnKeyPressed(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoomFinished(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
-        operations.add(obj -> obj.setOnKeyTyped(value));
-        return this;
-    }    
-    
-    public  MediaViewBuilder accessibleRole(javafx.scene.AccessibleRole value) {
-        operations.add(obj -> obj.setAccessibleRole(value));
+    public  MediaViewBuilder onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
+        operations.add(obj -> obj.setOnScrollStarted(value));
         return this;
     }    
     
@@ -501,8 +336,33 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public  MediaViewBuilder onTouchMoved(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchMoved(value));
+    public  MediaViewBuilder onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseReleased(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragOver(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onKeyPressed(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
+        operations.add(obj -> obj.setOnKeyPressed(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragged(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoomFinished(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseClicked(value));
         return this;
     }    
     
@@ -516,8 +376,148 @@ public class MediaViewBuilder {
         return this;
     }    
     
+    public  MediaViewBuilder onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnDragDetected(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMousePressed(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onScroll(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
+        operations.add(obj -> obj.setOnScroll(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
+        operations.add(obj -> obj.setOnSwipeDown(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseExited(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
+        operations.add(obj -> obj.setOnSwipeLeft(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
+        operations.add(obj -> obj.setOnSwipeUp(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
+        operations.add(obj -> obj.setOnKeyReleased(value));
+        return this;
+    }    
+    
     public  MediaViewBuilder onSwipeRight(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeRight(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
+        operations.add(obj -> obj.setOnKeyTyped(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseMoved(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchPressed(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onTouchMoved(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchMoved(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchReleased(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder accessibleRole(javafx.scene.AccessibleRole value) {
+        operations.add(obj -> obj.setAccessibleRole(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoomStarted(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder effect(javafx.scene.effect.Effect value) {
+        operations.add(obj -> obj.setEffect(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoom(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder scaleX(double value) {
+        operations.add(obj -> obj.setScaleX(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder scaleZ(double value) {
+        operations.add(obj -> obj.setScaleZ(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder rotate(double value) {
+        operations.add(obj -> obj.setRotate(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder scaleY(double value) {
+        operations.add(obj -> obj.setScaleY(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder layoutX(double value) {
+        operations.add(obj -> obj.setLayoutX(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder layoutY(double value) {
+        operations.add(obj -> obj.setLayoutY(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder style(java.lang.String value) {
+        operations.add(obj -> obj.setStyle(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder clip(javafx.scene.Node value) {
+        operations.add(obj -> obj.setClip(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder managed(boolean value) {
+        operations.add(obj -> obj.setManaged(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
+        operations.add(obj -> obj.setOnInputMethodTextChanged(value));
+        return this;
+    }    
+    
+    public  MediaViewBuilder accessibleRoleDescription(java.lang.String value) {
+        operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }
     @SafeVarargs
@@ -553,8 +553,8 @@ public class MediaViewBuilder {
 
 
 
-    public MediaViewBuilder topAnchorInAnchorPane(java.lang.Double value) {
-        operations.add(obj -> javafx.scene.layout.AnchorPane.setTopAnchor(obj, value));
+    public MediaViewBuilder leftAnchorInAnchorPane(java.lang.Double value) {
+        operations.add(obj -> javafx.scene.layout.AnchorPane.setLeftAnchor(obj, value));
         return this;
     }
 
@@ -565,14 +565,14 @@ public class MediaViewBuilder {
     }
 
 
-    public MediaViewBuilder bottomAnchorInAnchorPane(java.lang.Double value) {
-        operations.add(obj -> javafx.scene.layout.AnchorPane.setBottomAnchor(obj, value));
+    public MediaViewBuilder topAnchorInAnchorPane(java.lang.Double value) {
+        operations.add(obj -> javafx.scene.layout.AnchorPane.setTopAnchor(obj, value));
         return this;
     }
 
 
-    public MediaViewBuilder leftAnchorInAnchorPane(java.lang.Double value) {
-        operations.add(obj -> javafx.scene.layout.AnchorPane.setLeftAnchor(obj, value));
+    public MediaViewBuilder bottomAnchorInAnchorPane(java.lang.Double value) {
+        operations.add(obj -> javafx.scene.layout.AnchorPane.setBottomAnchor(obj, value));
         return this;
     }
 
@@ -595,50 +595,14 @@ public class MediaViewBuilder {
     }
 
 
-    public MediaViewBuilder hAlignmentInGridPane(javafx.geometry.HPos value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setHalignment(obj, value));
-        return this;
-    }
-
-
     public MediaViewBuilder fillWidthInGridPane(java.lang.Boolean value) {
         operations.add(obj -> javafx.scene.layout.GridPane.setFillWidth(obj, value));
         return this;
     }
 
 
-    public MediaViewBuilder rowIndexInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setRowIndex(obj, value));
-        return this;
-    }
-
-
-    public MediaViewBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan));
-        return this;
-    }
-
-
-    public MediaViewBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment));
-        return this;
-    }
-
-
-    public MediaViewBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow));
-        return this;
-    }
-
-
-    public MediaViewBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow, javafx.geometry.Insets margin) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow, margin));
-        return this;
-    }
-
-
-    public MediaViewBuilder constraintsInGridPane(int columnIndex, int rowIndex) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex));
+    public MediaViewBuilder hAlignmentInGridPane(javafx.geometry.HPos value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setHalignment(obj, value));
         return this;
     }
 
@@ -649,8 +613,32 @@ public class MediaViewBuilder {
     }
 
 
-    public MediaViewBuilder columnSpanInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setColumnSpan(obj, value));
+    public MediaViewBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow));
+        return this;
+    }
+
+
+    public MediaViewBuilder constraintsInGridPane(int columnIndex, int rowIndex) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex));
+        return this;
+    }
+
+
+    public MediaViewBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow, javafx.geometry.Insets margin) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow, margin));
+        return this;
+    }
+
+
+    public MediaViewBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment));
+        return this;
+    }
+
+
+    public MediaViewBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan));
         return this;
     }
 
@@ -661,26 +649,20 @@ public class MediaViewBuilder {
     }
 
 
+    public MediaViewBuilder rowIndexInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setRowIndex(obj, value));
+        return this;
+    }
+
+
+    public MediaViewBuilder columnSpanInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setColumnSpan(obj, value));
+        return this;
+    }
+
+
     public MediaViewBuilder fillHeightInGridPane(java.lang.Boolean value) {
         operations.add(obj -> javafx.scene.layout.GridPane.setFillHeight(obj, value));
-        return this;
-    }
-
-
-    public MediaViewBuilder hGrowInGridPane(javafx.scene.layout.Priority value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setHgrow(obj, value));
-        return this;
-    }
-
-
-    public MediaViewBuilder vGrowInGridPane(javafx.scene.layout.Priority value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setVgrow(obj, value));
-        return this;
-    }
-
-
-    public MediaViewBuilder rowSpanInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setRowSpan(obj, value));
         return this;
     }
 
@@ -691,14 +673,32 @@ public class MediaViewBuilder {
     }
 
 
-    public MediaViewBuilder hGrowInHBox(javafx.scene.layout.Priority value) {
-        operations.add(obj -> javafx.scene.layout.HBox.setHgrow(obj, value));
+    public MediaViewBuilder hGrowInGridPane(javafx.scene.layout.Priority value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setHgrow(obj, value));
+        return this;
+    }
+
+
+    public MediaViewBuilder rowSpanInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setRowSpan(obj, value));
+        return this;
+    }
+
+
+    public MediaViewBuilder vGrowInGridPane(javafx.scene.layout.Priority value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setVgrow(obj, value));
         return this;
     }
 
 
     public MediaViewBuilder marginInHBox(javafx.geometry.Insets value) {
         operations.add(obj -> javafx.scene.layout.HBox.setMargin(obj, value));
+        return this;
+    }
+
+
+    public MediaViewBuilder hGrowInHBox(javafx.scene.layout.Priority value) {
+        operations.add(obj -> javafx.scene.layout.HBox.setHgrow(obj, value));
         return this;
     }
 
@@ -727,31 +727,21 @@ public class MediaViewBuilder {
     }
 
 
-    public MediaViewBuilder vGrowInVBox(javafx.scene.layout.Priority value) {
-        operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
-        return this;
-    }
-
-
     public MediaViewBuilder marginInVBox(javafx.geometry.Insets value) {
         operations.add(obj -> javafx.scene.layout.VBox.setMargin(obj, value));
         return this;
     }
 
-    
-    
-    public MediaViewBuilder fitHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.fitHeightProperty()));
+
+    public MediaViewBuilder vGrowInVBox(javafx.scene.layout.Priority value) {
+        operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
         return this;
-    }    
+    }
+
     
-    public MediaViewBuilder fitWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.fitWidthProperty()));
-        return this;
-    }    
     
-    public MediaViewBuilder viewportPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Rectangle2D>> op) {
-        operations.add(obj -> op.accept(obj.viewportProperty()));
+    public MediaViewBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }    
     
@@ -760,18 +750,28 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public MediaViewBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.xProperty()));
+    public MediaViewBuilder smoothPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.smoothProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder viewportPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Rectangle2D>> op) {
+        operations.add(obj -> op.accept(obj.viewportProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder fitWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.fitWidthProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder fitHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.fitHeightProperty()));
         return this;
     }    
     
     public MediaViewBuilder preserveRatioPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.preserveRatioProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder smoothPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.smoothProperty()));
         return this;
     }    
     
@@ -785,8 +785,13 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public MediaViewBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.idProperty()));
+    public MediaViewBuilder localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
+        operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
+        operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
         return this;
     }    
     
@@ -800,6 +805,11 @@ public class MediaViewBuilder {
         return this;
     }    
     
+    public MediaViewBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.idProperty()));
+        return this;
+    }    
+    
     public MediaViewBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
         operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
@@ -810,38 +820,8 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public MediaViewBuilder boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
-        operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
-        operations.add(obj -> op.accept(obj.boundsInParentProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
+    public MediaViewBuilder onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
         return this;
     }    
     
@@ -850,48 +830,13 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public MediaViewBuilder onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMousePressedProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
-        operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
-        operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
-        return this;
-    }    
-    
     public MediaViewBuilder onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
         return this;
     }    
     
-    public MediaViewBuilder onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
+    public MediaViewBuilder boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
+        operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
         return this;
     }    
     
@@ -900,53 +845,33 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public MediaViewBuilder onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
+    public MediaViewBuilder mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
         return this;
     }    
     
-    public MediaViewBuilder onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
+    public MediaViewBuilder onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
         return this;
     }    
     
-    public MediaViewBuilder onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
+    public MediaViewBuilder onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
         return this;
     }    
     
-    public MediaViewBuilder onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
+    public MediaViewBuilder nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
+        operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
         return this;
     }    
     
-    public MediaViewBuilder onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
+    public MediaViewBuilder onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
         return this;
     }    
     
-    public MediaViewBuilder accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.accessibleTextProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
+    public MediaViewBuilder onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMousePressedProperty()));
         return this;
     }    
     
@@ -955,28 +880,8 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public MediaViewBuilder onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
-        operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
+    public MediaViewBuilder onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
         return this;
     }    
     
@@ -985,13 +890,48 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public MediaViewBuilder focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusTraversableProperty()));
+    public MediaViewBuilder onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
         return this;
     }    
     
-    public MediaViewBuilder onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
+    public MediaViewBuilder boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
+        operations.add(obj -> op.accept(obj.boundsInParentProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
         return this;
     }    
     
@@ -1000,8 +940,78 @@ public class MediaViewBuilder {
         return this;
     }    
     
+    public MediaViewBuilder onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
+        operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
+        return this;
+    }    
+    
     public MediaViewBuilder onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
+        operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusTraversableProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.accessibleTextProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
         return this;
     }    
     
@@ -1015,53 +1025,8 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public MediaViewBuilder localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
-        operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
-        operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
-        operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
-        operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
-        return this;
-    }    
-    
     public MediaViewBuilder opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.opacityProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
-        operations.add(obj -> op.accept(obj.sceneProperty()));
         return this;
     }    
     
@@ -1070,13 +1035,8 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public MediaViewBuilder clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.clipProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.managedProperty()));
+    public MediaViewBuilder scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
+        operations.add(obj -> op.accept(obj.sceneProperty()));
         return this;
     }    
     
@@ -1095,23 +1055,13 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public MediaViewBuilder cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.cacheProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
-        operations.add(obj -> op.accept(obj.cursorProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
-        operations.add(obj -> op.accept(obj.blendModeProperty()));
-        return this;
-    }    
-    
     public MediaViewBuilder depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
         operations.add(obj -> op.accept(obj.depthTestProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
     }    
     
@@ -1125,13 +1075,33 @@ public class MediaViewBuilder {
         return this;
     }    
     
+    public MediaViewBuilder onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragDoneProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
+        operations.add(obj -> op.accept(obj.blendModeProperty()));
+        return this;
+    }    
+    
     public MediaViewBuilder onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
     }    
     
-    public MediaViewBuilder onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragDoneProperty()));
+    public MediaViewBuilder managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.managedProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.clipProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
+        operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
     }    
     
@@ -1140,8 +1110,8 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public MediaViewBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleXProperty()));
+    public MediaViewBuilder translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.translateYProperty()));
         return this;
     }    
     
@@ -1150,18 +1120,8 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public MediaViewBuilder rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.rotateProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.translateYProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.translateZProperty()));
+    public MediaViewBuilder viewOrderPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.viewOrderProperty()));
         return this;
     }    
     
@@ -1170,8 +1130,28 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public MediaViewBuilder viewOrderPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.viewOrderProperty()));
+    public MediaViewBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleXProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.rotateProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.translateZProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onRotateProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
     }    
     
@@ -1190,18 +1170,8 @@ public class MediaViewBuilder {
         return this;
     }    
     
-    public MediaViewBuilder onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onRotateProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onScrollProperty()));
-        return this;
-    }    
-    
-    public MediaViewBuilder disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.disabledProperty()));
+    public MediaViewBuilder hoverPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.hoverProperty()));
         return this;
     }    
     
@@ -1210,13 +1180,43 @@ public class MediaViewBuilder {
         return this;
     }    
     
+    public MediaViewBuilder disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.disabledProperty()));
+        return this;
+    }    
+    
     public MediaViewBuilder pressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pressedProperty()));
         return this;
     }    
     
-    public MediaViewBuilder hoverPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.hoverProperty()));
+    public MediaViewBuilder onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
+        operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
+        return this;
+    }    
+    
+    public MediaViewBuilder effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
+        operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
         return this;
     }
 }
