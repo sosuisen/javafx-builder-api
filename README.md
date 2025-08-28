@@ -60,11 +60,15 @@ Memory usage concerns may have diminished compared to a decade ago. Additionally
 
 My approach utilizes reflection to automatically generate Builder classes, while certain aspects that cannot be automated are managed through individual rules. Unlike JavaFX 2.0, the builder classes have no inheritance relationships and are flat, which leads to increased memory consumption. There is also some call overhead. However, this may be advantageous for those interested in this programming style.
 
-## Use of Generator
+## Use of JavaFX Builder API 
 
-JAR files of the Builder API are planned for publication to Maven Central but are not yet available. Currently, you need to generate and install them in your local repository to use them.
+The API has not yet been registered with Maven Central, but you can try it out using the SNAPSHOT version.
 
-To generate it yourself, please see the instructions in [Generate builder classes](./docs/BUILD.md).
+The SNAPSHOT version will soon be discontinued and replaced by a stable release. Please plan to update accordingly.
+
+You can also generate and install the API in your local repository for you use.
+
+To generate it yourself, please refer to the instructions in [Generate builder classes](./docs/BUILD.md).
 
 ## Builder API
 
@@ -131,12 +135,27 @@ for javafx-web
       <version>${javafx.builder.version}</version>
 ```
 
-pom.xml
+
+You need to add the maven-snapshots repository to pom.xml:
 ```xml
   <properties>
     <javafx.version>24.0.2</javafx.version>
     <javafx.builder.version>24.0.0-SNAPSHOT</javafx.builder.version>
   </properties>
+
+  <repositories>
+    <repository>
+      <name>Central Portal Snapshots</name>
+      <id>central-portal-snapshots</id>
+      <url>https://central.sonatype.com/repository/maven-snapshots/</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
 
   <dependencies>
     <dependency>
@@ -192,6 +211,8 @@ pom.xml
 ```
 
 ## Sample Project Using Builder API
+
+The BMI (Body Mass Index) calculator demonstrates modern JavaFX development utilizing MVVM architecture, fluent UI construction, and internationalization support.
 
 https://github.com/sosuisen/bmi-mvvm-with-builder
 
