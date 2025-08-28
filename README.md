@@ -89,7 +89,7 @@ Most of the code comprises simple wrapper classes generated through mechanical t
 
 ## Dependencies
 
-**Important**: Currently not available in Maven Central.
+**Important**: Currently not available in Maven Central. SNAPSHOT only.
 
 ### groupId
 
