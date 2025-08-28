@@ -135,6 +135,7 @@ for javafx-web
       <version>${javafx.builder.version}</version>
 ```
 
+### Use SNAPSHOT
 
 You need to add the maven-snapshots repository to pom.xml:
 ```xml
