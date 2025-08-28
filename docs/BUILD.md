@@ -93,7 +93,9 @@ mvn clean compile assembly:single install -P javafx24,compile-builders,web
 
 ### Install JavaFX Builder API to Your Local Maven Repository
 
-run `install_local_javafx24.sh`
+run `install_local_javafx24.sh`.
+
+If you would like to install -SNAPSHOT, run `install_local_javafx24_dev.sh`.
 
 ## Architecture
 
