@@ -81,7 +81,7 @@ Coming soon - please check back later.
 The generated JavaFX Builder API source code is available at:
 https://github.com/sosuisen/javafx-builder-api-generator/tree/main/generated-api
 
-Most of the code consists of simple wrapper classes generated using mechanical transformation rules described in [./docs/API.md](./docs/API.md).
+Most of the code comprises simple wrapper classes generated through mechanical transformation rules outlined in [./docs/API.md](./docs/API.md).
 
 ## Dependencies
 
