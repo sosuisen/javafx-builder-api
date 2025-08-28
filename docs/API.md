@@ -1,4 +1,4 @@
-# Builder API
+# JavaFX Builder API
 
 The builder classes provide a fluent API for creating JavaFX components:
 
