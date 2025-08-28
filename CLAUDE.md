@@ -17,5 +17,5 @@ The sdk jar files are under the sdk/${javafx.version} directory.
 `mvn compile -P javafx24,compile-builders`
 
 ## How to test builder classes
-mvn test -P javafx24
+`mvn test -P javafx24`
 
