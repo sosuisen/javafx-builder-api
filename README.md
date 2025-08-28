@@ -104,35 +104,35 @@ Specify a builder with the same major version as the JavaFX major version.
 ### Examples
 
 for javafx-controls
-```
+```xml
       <groupId>io.github.sosuisen</groupId>
       <artifactId>javafx-builder-controls</artifactId>     
       <version>${javafx.builder.version}</version>
 ```
 
 for javafx-graphics
-```
+```xml
       <groupId>io.github.sosuisen</groupId>
       <artifactId>javafx-builder-graphics</artifactId>     
       <version>${javafx.builder.version}</version>
 ```
 
 for javafx-media
-```
+```xml
       <groupId>io.github.sosuisen</groupId>
       <artifactId>javafx-builder-media</artifactId>     
       <version>${javafx.builder.version}</version>
 ```
 
 for javafx-web
-```
+```xml
       <groupId>io.github.sosuisen</groupId>
       <artifactId>javafx-builder-web</artifactId>     
       <version>${javafx.builder.version}</version>
 ```
 
 pom.xml
-```
+```xml
   <properties>
     <javafx.version>24.0.2</javafx.version>
     <javafx.builder.version>24.0.0-SNAPSHOT</javafx.builder.version>
@@ -171,7 +171,7 @@ The builder implementation depends solely on the original JavaFX artifact.
 For example, `javafx-builder-graphics` is not strictly necessary, but it is generally required when your project depends on `javafx-controls`, since `javafx-graphics` is a transitive dependency.
 
 pom.xml
-```
+```xml
   <dependencies>
     <dependency>
       <groupId>org.openjfx</groupId>
