@@ -41,7 +41,7 @@ Scene scene = SceneBuilder.withRoot(
 - **Template-based Generation**: Utilizes JTE (Java Template Engine) for flexible code generation.
 - **Maven Integration**: Offers full Maven build lifecycle support with profiles for different modules.
 
-# Background
+## Background
 
 This project aims to reintroduce Builder classes to JavaFX.
 
@@ -73,3 +73,7 @@ Refer [Builder API](./docs/API.md).
 ## Sample Project Using Builder API
 
 https://github.com/sosuisen/bmi-mvvm-with-builder
+
+## LICENSE
+
+MIT
