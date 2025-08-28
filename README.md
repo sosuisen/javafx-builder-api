@@ -68,7 +68,20 @@ To generate it yourself, please see the instructions in [Generate builder classe
 
 ## Builder API
 
-Refer [Builder API](./docs/API.md).
+**API Specification Overview**:
+
+ [JavaFX Builder API](./docs/API.md).
+
+**JavaDoc pages**:
+
+ Coming soon - please check back later.
+
+**Generated Source Code**: 
+
+The generated Builder API source code is available at:
+https://github.com/sosuisen/javafx-builder-api-generator/tree/main/generated-api
+
+Most of the code consists of simple wrapper classes generated using mechanical transformation rules.
 
 ## Dependencies
 
