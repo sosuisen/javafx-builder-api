@@ -21,7 +21,49 @@
 │   └── templates/          # JTE template files
 ```
 
-## Getting Started
+## Quick Start
+
+Under the `generated-api` directory, there are Maven projects for the generated JavaFX Builder API.
+
+You can install them to your local Maven repository using:
+```bash
+./install_builder_to_local_v24.sh
+```
+
+That's it! Now you can use them in your project. Here's an example pom.xml:
+```xml
+  <properties>
+    <javafx.version>24.0.2</javafx.version>
+    <javafx.builder.version>24.0.0-SNAPSHOT</javafx.builder.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>${javafx.version}</version>
+    </dependency>
+    <dependency>    
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-graphics</artifactId>     
+      <version>${javafx.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.github.sosuisen</groupId>
+      <artifactId>javafx-builder-controls</artifactId>
+      <version>${javafx.builder.version}</version>
+    </dependency>
+    <dependency>    
+      <groupId>io.github.sosuisen</groupId>
+      <artifactId>javafx-builder-graphics</artifactId>     
+      <version>${javafx.builder.version}</version>
+    </dependency>
+ </dependencies>
+```
+
+## Generate JavaFX Builder API
+
+If you want to modify the Builder API project, follow these steps to generate it.
 
 Generated builder classes are OS-agnostic; however, the generator currently supports only Windows.
 
@@ -58,7 +100,9 @@ Run the generator to analyze JavaFX SDK and generate builder classes:
 
 ### Install JavaFX Builder API to Your Local Maven Repository
 
-run `install_builder_to_local_v24.sh`.
+```bash
+./install_builder_to_local_v24.sh
+```
 
 ## Architecture
 
