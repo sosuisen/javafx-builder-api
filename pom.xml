@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
   <artifactId>javafx-builder-api-generator</artifactId>
-  <version>0.0-SNAPSHOT</version>
+  <version>0.0</version>
   <description>JavaFX Builder API Generator</description>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -109,7 +109,7 @@
           <descriptors>
             <descriptor>${project.basedir}/assembly-descriptor/${builder.component}-assembly.xml</descriptor>
           </descriptors>
-          <finalName>javafx-builder-${builder.component}-${javafx.major.version}.${project.version}</finalName>
+          <finalName>javafx-builder-${builder.component}-${javafx.major.version}.${project.version}${snapshot}</finalName>
           <appendAssemblyId>false</appendAssemblyId>
         </configuration>
       </plugin>
@@ -125,7 +125,7 @@
               <goal>install-file</goal>
             </goals>
             <configuration>
-              <file>${project.build.directory}/javafx-builder-${builder.component}-${javafx.major.version}.${project.version}.jar</file>
+              <file>${project.build.directory}/javafx-builder-${builder.component}-${javafx.major.version}.${project.version}${snapshot}.jar</file>
               <pomFile>${project.build.directory}/pom-${builder.component}.xml</pomFile>
             </configuration>
           </execution>
@@ -177,6 +177,7 @@
       <properties>
         <javafx.version>24.0.0</javafx.version>
         <javafx.major.version>24</javafx.major.version>
+        <snapshot/>
       </properties>
     </profile>
     <profile>
@@ -184,8 +185,17 @@
       <properties>
         <javafx.version>24.0.0</javafx.version>
         <javafx.major.version>24</javafx.major.version>
+        <snapshot/>
       </properties>
     </profile>
+    <profile>
+      <id>javafx24-dev</id>
+      <properties>
+        <javafx.version>24.0.0</javafx.version>
+        <javafx.major.version>24</javafx.major.version>
+        <snapshot>-SNAPSHOT</snapshot>
+      </properties>
+    </profile>    
     <profile>
       <id>compile-builders</id>
       <build>
