@@ -70,6 +70,97 @@ To generate it yourself, please see the instructions in [Generate builder classe
 
 Refer [Builder API](./docs/API.md).
 
+## Dependencies
+
+**Important**: Currently not available in Maven Central.
+
+### groupId
+
+io.github.sosuisen
+
+### artifactId
+
+Add builder artifacts corresponding to the JavaFX artifacts specified in your dependencies.
+
+e.g.) The builder class artifact corresponding to `javafx-controls` is `javafx-builder-controls`.
+
+### version
+
+Specify a builder with the same major version as the JavaFX major version.
+
+### Examples
+
+for javafx-controls
+```
+      <groupId>io.github.sosuisen</groupId>
+      <artifactId>javafx-builder-controls</artifactId>     
+      <version>${javafx.builder.version}</version>
+```
+
+for javafx-graphics
+```
+      <groupId>io.github.sosuisen</groupId>
+      <artifactId>javafx-builder-graphics</artifactId>     
+      <version>${javafx.builder.version}</version>
+```
+
+for javafx-media
+```
+      <groupId>io.github.sosuisen</groupId>
+      <artifactId>javafx-builder-media</artifactId>     
+      <version>${javafx.builder.version}</version>
+```
+
+for javafx-web
+```
+      <groupId>io.github.sosuisen</groupId>
+      <artifactId>javafx-builder-web</artifactId>     
+      <version>${javafx.builder.version}</version>
+```
+
+pom.xml
+```
+  <properties>
+    <javafx.version>24.0.2</javafx.version>
+    <javafx.builder.version>24.0.0-SNAPSHOT</javafx.builder.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>${javafx.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.github.sosuisen</groupId>
+      <artifactId>javafx-builder-controls</artifactId>
+      <version>${javafx.builder.version}</version>
+    </dependency>
+ </dependencies>
+```
+
+### Transitive dependencies
+
+The builder implementation itself depends solely on the original artifact. 
+
+For user convenience, I have included dependencies on the builders for the JavaFX artifacts that the original artifact relies on in the POM. 
+
+For example, `javafx-builder-controls` has dependencies on `javafx-controls` and `javafx-builder-graphics`, as `javafx-controls` depends on `javafx-graphics`.
+
+
+Therefore, you can simplify the dependencies as follows:
+
+pom.xml
+```
+  <dependencies>
+    <dependency>
+      <groupId>io.github.sosuisen</groupId>
+      <artifactId>javafx-builder-controls</artifactId>
+      <version>24.0.0</version>
+    </dependency>
+  </dependencies>
+```
+
 ## Sample Project Using Builder API
 
 https://github.com/sosuisen/bmi-mvvm-with-builder
