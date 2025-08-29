@@ -55,9 +55,9 @@ The three advantages of the builder classes mentioned in that post remain valid 
 
 These advantages are particularly appealing for those using JavaFX with Java (rather than Scala or Kotlin), enabling a declarative and hierarchical coding style common in other frameworks.
 
-Memory usage concerns may have diminished compared to a decade ago. Additionally, having Builder classes as an option outside the official class library remains a beneficial idea.
+Memory usage concerns may have diminished compared to a decade ago. Additionally, having the builder classes as an option outside the official class library remains a beneficial idea.
 
-My approach utilizes reflection to automatically generate Builder classes, while certain aspects that cannot be automated are managed through individual rules. Unlike JavaFX 2.0, the builder classes have no inheritance relationships and are flat, which leads to increased memory consumption. There is also some call overhead. However, this may be advantageous for those interested in this programming style.
+My approach utilizes reflection to automatically generate the builder classes, while certain aspects that cannot be automated are managed through individual rules. Unlike JavaFX 2.0, the builder classes have no inheritance relationships and are flat, which leads to increased memory consumption. There is also some call overhead. However, this may be advantageous for those interested in this programming style.
 
 ## Use of JavaFX Builder API 
 
