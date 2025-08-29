@@ -132,7 +132,7 @@ For example, the following `apply` notation has a shorthand form:
 
 ## xxxIn{ContainerClass} - Parent Container Methods Called from Child Nodes
 
-All static setter methods of javafx.scene.layout.Pane container classes are reciprocally implemented as instance methods in Node-inheriting classes.
+All static setter methods of `javafx.scene.layout.Pane` container classes are reciprocally implemented as instance methods in Node-inheriting classes.
 
 Method naming convention:
 ```
@@ -169,7 +169,7 @@ add + [method name without "get"] + (T... elements)
 add + [method name without "get"] + (java.util.Collection<? extends T> col)
 ```
 
-For example, the following `apply` notation has two shorthand forms:
+For example, the following `apply` notations have shorthand forms:
 - Original form 1: `VBoxBuilder.create().apply(vbox -> vbox.getChildren().addChildren(elements))`
 - Shorthand form 1: `VBoxBuilder.create().addChildren(elements)`
 - Original form 2: `VBoxBuilder.create().apply(vbox -> vbox.getChildren().addChildren(col))`
@@ -191,7 +191,7 @@ Examples:
 - Shorthand of the another form: `VBoxBuilder.withChildren(elements)`
  
 Container classes include those like VBox where children can be specified in the constructor, and those like GridPane where children cannot be specified in the constructor.
-Therefore, having all containers able to create builders with child elements via withXXX methods provides better consistency.
+Therefore, having all containers able to create builders with child elements via `withXXX` methods provides better consistency.
 
 Exceptions:
 - If the original class does not have a default constructor, `withXXX` is impossible and therefore not provided, such as `LineChart`.
@@ -202,7 +202,7 @@ Exceptions:
 
 Note:
 - Since it's "add", it's merely adding values to the default `ObservableList`. Use this when values can be fixed rather than reactive.
-- When you want to replace the entire ObservableList itself, use the default setter provided by the Basic APIs.
+- When you want to replace the entire `ObservableList` itself, use the default setter provided by the Basic APIs.
 - Example:
   - `ListViewBuilder.create().items(ObservableList list)`
 
