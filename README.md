@@ -42,13 +42,13 @@ Scene scene = SceneBuilder.withRoot(
 
 ## Background
 
-This project aims to reintroduce Builder classes to JavaFX.
+This project aims to reintroduce the builder classes to JavaFX.
 
-Builder classes were present in JavaFX 2.0, but they were removed from the official class library due to concerns about maintenance overhead and memory usage, as noted in a 2013 post.
+The builder classes were included in JavaFX 2.0 but were removed from the official class library due to concerns about maintenance overhead and memory usage, as noted in a 2013 post:
 
 https://mail.openjdk.org/pipermail/openjfx-dev/2013-March/006725.html
 
-The three advantages of Builder classes mentioned in that post remain valid today:
+The three advantages of the builder classes mentioned in that post remain valid today:
 - Ability to set up generic configurations once and "stamp out" multiple copies.
 - Structured code style that closely approximates the "container hierarchy" of the UI.
 - Strongly-typed "declarative" style programming.
