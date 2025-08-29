@@ -4,7 +4,7 @@ A Maven-based tool that generates fluent builder APIs for JavaFX components by a
 
 ## Overview
 
-This project generates builder pattern implementations for JavaFX UI components, facilitating the creation of JavaFX applications with a fluent, declarative API. The UI code written with the builder API can represent nested structures that closely approximate the container hierarchy of the UI.
+This project generates builder pattern implementations for JavaFX UI components, enabling the creation of JavaFX applications through a fluent, strongly-typed declarative API. The UI code crafted with the builder API can represent nested structures that closely resemble the container hierarchy of the UI.
 
 ```java
 // Example using JavaFX Builder APIs
