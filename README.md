@@ -106,28 +106,36 @@ Specify a builder with the same major version as the JavaFX major version.
 
 ### Examples
 
-for javafx-controls
+for javafx-controls:
+
+package `io.github.sosuisen.jfxbuilder.controls.*`
 ```xml
       <groupId>io.github.sosuisen</groupId>
       <artifactId>javafx-builder-controls</artifactId>     
       <version>${javafx.builder.version}</version>
 ```
 
-for javafx-graphics
+for javafx-graphics:
+
+package `io.github.sosuisen.jfxbuilder.graphics.*`
 ```xml
       <groupId>io.github.sosuisen</groupId>
       <artifactId>javafx-builder-graphics</artifactId>     
       <version>${javafx.builder.version}</version>
 ```
 
-for javafx-media
+for javafx-media:
+
+package `io.github.sosuisen.jfxbuilder.media.*`
 ```xml
       <groupId>io.github.sosuisen</groupId>
       <artifactId>javafx-builder-media</artifactId>     
       <version>${javafx.builder.version}</version>
 ```
 
-for javafx-web
+for javafx-web:
+
+package `io.github.sosuisen.jfxbuilder.web.*`
 ```xml
       <groupId>io.github.sosuisen</groupId>
       <artifactId>javafx-builder-web</artifactId>     
