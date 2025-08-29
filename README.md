@@ -35,9 +35,8 @@ Scene scene = SceneBuilder.withRoot(
 
 ## Features
 
-- **Automatic Builder Generation**: Creates builder classes for JavaFX controls, graphics, media, and web components.
+- **Automatic Builder Generation**: Creates builder classes for JavaFX controls, graphics, media, and web packages.
 - **JavaFX 24 Support**: Currently supports JavaFX 24.0.0. I plan to provide JAR files for each version of JavaFX.
-- **Modular Architecture**: Separates builders into logical modules (controls, graphics, media, web).
 - **Template-based Generation**: Utilizes JTE (Java Template Engine) for flexible code generation.
 - **Maven Integration**: Offers full Maven build lifecycle support with profiles for different modules.
 
