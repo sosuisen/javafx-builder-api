@@ -106,13 +106,13 @@ public class SepiaToneBuilder {
         return this;
     }    
     
-    public  SepiaToneBuilder level(double value) {
-        operations.add(obj -> obj.setLevel(value));
+    public  SepiaToneBuilder input(javafx.scene.effect.Effect value) {
+        operations.add(obj -> obj.setInput(value));
         return this;
     }    
     
-    public  SepiaToneBuilder input(javafx.scene.effect.Effect value) {
-        operations.add(obj -> obj.setInput(value));
+    public  SepiaToneBuilder level(double value) {
+        operations.add(obj -> obj.setLevel(value));
         return this;
     }    
     

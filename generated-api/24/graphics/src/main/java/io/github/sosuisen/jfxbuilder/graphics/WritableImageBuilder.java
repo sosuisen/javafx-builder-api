@@ -8,17 +8,9 @@ public class WritableImageBuilder {
     
 
     
-    public static WritableImageBuilder create(javafx.scene.image.PixelReader reader, int x, int y, int width, int height) {
+    public static WritableImageBuilder create(int width, int height) {
         WritableImageBuilder builder = new WritableImageBuilder();
-        builder.constructorArgs = new Object[]{reader, x, y, width, height};
-        return builder;
-    }
-
-
-    
-    public static WritableImageBuilder create(javafx.scene.image.PixelReader reader, int width, int height) {
-        WritableImageBuilder builder = new WritableImageBuilder();
-        builder.constructorArgs = new Object[]{reader, width, height};
+        builder.constructorArgs = new Object[]{width, height};
         return builder;
     }
 
@@ -32,9 +24,17 @@ public class WritableImageBuilder {
 
 
     
-    public static WritableImageBuilder create(int width, int height) {
+    public static WritableImageBuilder create(javafx.scene.image.PixelReader reader, int width, int height) {
         WritableImageBuilder builder = new WritableImageBuilder();
-        builder.constructorArgs = new Object[]{width, height};
+        builder.constructorArgs = new Object[]{reader, width, height};
+        return builder;
+    }
+
+
+    
+    public static WritableImageBuilder create(javafx.scene.image.PixelReader reader, int x, int y, int width, int height) {
+        WritableImageBuilder builder = new WritableImageBuilder();
+        builder.constructorArgs = new Object[]{reader, x, y, width, height};
         return builder;
     }
 
@@ -121,13 +121,13 @@ public class WritableImageBuilder {
         return this;
     }    
     
-    public WritableImageBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.heightProperty()));
+    public WritableImageBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.widthProperty()));
         return this;
     }    
     
-    public WritableImageBuilder errorPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.errorProperty()));
+    public WritableImageBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
     }    
     
@@ -136,13 +136,13 @@ public class WritableImageBuilder {
         return this;
     }    
     
-    public WritableImageBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.widthProperty()));
+    public WritableImageBuilder progressPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.progressProperty()));
         return this;
     }    
     
-    public WritableImageBuilder progressPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.progressProperty()));
+    public WritableImageBuilder errorPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.errorProperty()));
         return this;
     }
 }

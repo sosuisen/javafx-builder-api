@@ -7,15 +7,15 @@ public class TriangleMeshBuilder {
     private TriangleMeshBuilder() {}
     
 
+    public static TriangleMeshBuilder create() { return new TriangleMeshBuilder(); }
+
+
     
     public static TriangleMeshBuilder create(javafx.scene.shape.VertexFormat vertexFormat) {
         TriangleMeshBuilder builder = new TriangleMeshBuilder();
         builder.constructorArgs = new Object[]{vertexFormat};
         return builder;
     }
-
-
-    public static TriangleMeshBuilder create() { return new TriangleMeshBuilder(); }
 
     private Object[] constructorArgs;
 

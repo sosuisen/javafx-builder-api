@@ -7,6 +7,9 @@ public class BlendBuilder {
     private BlendBuilder() {}
     
 
+    public static BlendBuilder create() { return new BlendBuilder(); }
+
+
     
     public static BlendBuilder create(javafx.scene.effect.BlendMode mode) {
         BlendBuilder builder = new BlendBuilder();
@@ -21,9 +24,6 @@ public class BlendBuilder {
         builder.constructorArgs = new Object[]{mode, bottomInput, topInput};
         return builder;
     }
-
-
-    public static BlendBuilder create() { return new BlendBuilder(); }
 
     private Object[] constructorArgs;
 
@@ -114,16 +114,6 @@ public class BlendBuilder {
         return this;
     }    
     
-    public  BlendBuilder opacity(double value) {
-        operations.add(obj -> obj.setOpacity(value));
-        return this;
-    }    
-    
-    public  BlendBuilder topInput(javafx.scene.effect.Effect value) {
-        operations.add(obj -> obj.setTopInput(value));
-        return this;
-    }    
-    
     public  BlendBuilder bottomInput(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setBottomInput(value));
         return this;
@@ -131,6 +121,16 @@ public class BlendBuilder {
     
     public  BlendBuilder mode(javafx.scene.effect.BlendMode value) {
         operations.add(obj -> obj.setMode(value));
+        return this;
+    }    
+    
+    public  BlendBuilder opacity(double value) {
+        operations.add(obj -> obj.setOpacity(value));
+        return this;
+    }    
+    
+    public  BlendBuilder topInput(javafx.scene.effect.Effect value) {
+        operations.add(obj -> obj.setTopInput(value));
         return this;
     }    
     
@@ -144,13 +144,13 @@ public class BlendBuilder {
         return this;
     }    
     
-    public BlendBuilder topInputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
-        operations.add(obj -> op.accept(obj.topInputProperty()));
+    public BlendBuilder modePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
+        operations.add(obj -> op.accept(obj.modeProperty()));
         return this;
     }    
     
-    public BlendBuilder modePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
-        operations.add(obj -> op.accept(obj.modeProperty()));
+    public BlendBuilder topInputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
+        operations.add(obj -> op.accept(obj.topInputProperty()));
         return this;
     }
 }

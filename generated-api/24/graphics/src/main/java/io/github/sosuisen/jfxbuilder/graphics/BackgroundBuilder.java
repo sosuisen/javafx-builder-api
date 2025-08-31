@@ -7,22 +7,6 @@ public class BackgroundBuilder {
     private BackgroundBuilder() {}
     
 
-    @SafeVarargs
-    public static BackgroundBuilder create(javafx.scene.layout.BackgroundFill... fills) {
-        BackgroundBuilder builder = new BackgroundBuilder();
-        builder.constructorArgs = new Object[]{fills};
-        return builder;
-    }
-
-
-    @SafeVarargs
-    public static BackgroundBuilder create(javafx.scene.layout.BackgroundImage... images) {
-        BackgroundBuilder builder = new BackgroundBuilder();
-        builder.constructorArgs = new Object[]{images};
-        return builder;
-    }
-
-
     
     public static BackgroundBuilder create(java.util.List<javafx.scene.layout.BackgroundFill> fills, java.util.List<javafx.scene.layout.BackgroundImage> images) {
         BackgroundBuilder builder = new BackgroundBuilder();
@@ -31,10 +15,26 @@ public class BackgroundBuilder {
     }
 
 
+    @SafeVarargs
+    public static BackgroundBuilder create(javafx.scene.layout.BackgroundFill... fills) {
+        BackgroundBuilder builder = new BackgroundBuilder();
+        builder.constructorArgs = new Object[]{fills};
+        return builder;
+    }
+
+
     
     public static BackgroundBuilder create(javafx.scene.layout.BackgroundFill[] fills, javafx.scene.layout.BackgroundImage[] images) {
         BackgroundBuilder builder = new BackgroundBuilder();
         builder.constructorArgs = new Object[]{fills, images};
+        return builder;
+    }
+
+
+    @SafeVarargs
+    public static BackgroundBuilder create(javafx.scene.layout.BackgroundImage... images) {
+        BackgroundBuilder builder = new BackgroundBuilder();
+        builder.constructorArgs = new Object[]{images};
         return builder;
     }
 

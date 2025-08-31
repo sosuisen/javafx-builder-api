@@ -97,13 +97,13 @@ public class MnemonicBuilder {
         return this;
     }    
     
-    public  MnemonicBuilder node(javafx.scene.Node node) {
-        operations.add(obj -> obj.setNode(node));
+    public  MnemonicBuilder keyCombination(javafx.scene.input.KeyCombination keyCombination) {
+        operations.add(obj -> obj.setKeyCombination(keyCombination));
         return this;
     }    
     
-    public  MnemonicBuilder keyCombination(javafx.scene.input.KeyCombination keyCombination) {
-        operations.add(obj -> obj.setKeyCombination(keyCombination));
+    public  MnemonicBuilder node(javafx.scene.Node node) {
+        operations.add(obj -> obj.setNode(node));
         return this;
     }
 }

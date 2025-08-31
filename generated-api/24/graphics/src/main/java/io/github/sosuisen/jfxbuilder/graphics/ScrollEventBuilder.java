@@ -8,6 +8,14 @@ public class ScrollEventBuilder {
     
 
     
+    public static ScrollEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.ScrollEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, boolean inertia, double deltaX, double deltaY, double totalDeltaX, double totalDeltaY, javafx.scene.input.ScrollEvent.HorizontalTextScrollUnits textDeltaXUnits, double textDeltaX, javafx.scene.input.ScrollEvent.VerticalTextScrollUnits textDeltaYUnits, double textDeltaY, int touchCount, javafx.scene.input.PickResult pickResult) {
+        ScrollEventBuilder builder = new ScrollEventBuilder();
+        builder.constructorArgs = new Object[]{source, target, eventType, x, y, screenX, screenY, shiftDown, controlDown, altDown, metaDown, direct, inertia, deltaX, deltaY, totalDeltaX, totalDeltaY, textDeltaXUnits, textDeltaX, textDeltaYUnits, textDeltaY, touchCount, pickResult};
+        return builder;
+    }
+
+
+    
     public static ScrollEventBuilder create(javafx.event.EventType<javafx.scene.input.ScrollEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, boolean inertia, double deltaX, double deltaY, double totalDeltaX, double totalDeltaY, double multiplierX, double multiplierY, javafx.scene.input.ScrollEvent.HorizontalTextScrollUnits textDeltaXUnits, double textDeltaX, javafx.scene.input.ScrollEvent.VerticalTextScrollUnits textDeltaYUnits, double textDeltaY, int touchCount, javafx.scene.input.PickResult pickResult) {
         ScrollEventBuilder builder = new ScrollEventBuilder();
         builder.constructorArgs = new Object[]{eventType, x, y, screenX, screenY, shiftDown, controlDown, altDown, metaDown, direct, inertia, deltaX, deltaY, totalDeltaX, totalDeltaY, multiplierX, multiplierY, textDeltaXUnits, textDeltaX, textDeltaYUnits, textDeltaY, touchCount, pickResult};
@@ -19,14 +27,6 @@ public class ScrollEventBuilder {
     public static ScrollEventBuilder create(javafx.event.EventType<javafx.scene.input.ScrollEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, boolean inertia, double deltaX, double deltaY, double totalDeltaX, double totalDeltaY, javafx.scene.input.ScrollEvent.HorizontalTextScrollUnits textDeltaXUnits, double textDeltaX, javafx.scene.input.ScrollEvent.VerticalTextScrollUnits textDeltaYUnits, double textDeltaY, int touchCount, javafx.scene.input.PickResult pickResult) {
         ScrollEventBuilder builder = new ScrollEventBuilder();
         builder.constructorArgs = new Object[]{eventType, x, y, screenX, screenY, shiftDown, controlDown, altDown, metaDown, direct, inertia, deltaX, deltaY, totalDeltaX, totalDeltaY, textDeltaXUnits, textDeltaX, textDeltaYUnits, textDeltaY, touchCount, pickResult};
-        return builder;
-    }
-
-
-    
-    public static ScrollEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.ScrollEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, boolean inertia, double deltaX, double deltaY, double totalDeltaX, double totalDeltaY, javafx.scene.input.ScrollEvent.HorizontalTextScrollUnits textDeltaXUnits, double textDeltaX, javafx.scene.input.ScrollEvent.VerticalTextScrollUnits textDeltaYUnits, double textDeltaY, int touchCount, javafx.scene.input.PickResult pickResult) {
-        ScrollEventBuilder builder = new ScrollEventBuilder();
-        builder.constructorArgs = new Object[]{source, target, eventType, x, y, screenX, screenY, shiftDown, controlDown, altDown, metaDown, direct, inertia, deltaX, deltaY, totalDeltaX, totalDeltaY, textDeltaXUnits, textDeltaX, textDeltaYUnits, textDeltaY, touchCount, pickResult};
         return builder;
     }
 

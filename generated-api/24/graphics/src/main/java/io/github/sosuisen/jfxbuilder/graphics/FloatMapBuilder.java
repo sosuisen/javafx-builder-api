@@ -111,28 +111,8 @@ public class FloatMapBuilder {
         return this;
     }    
     
-    public  FloatMapBuilder width(int value) {
-        operations.add(obj -> obj.setWidth(value));
-        return this;
-    }    
-    
     public  FloatMapBuilder sample(int x, int y, int band, float s) {
         operations.add(obj -> obj.setSample(x, y, band, s));
-        return this;
-    }    
-    
-    public  FloatMapBuilder samples(int x, int y, float s0, float s1) {
-        operations.add(obj -> obj.setSamples(x, y, s0, s1));
-        return this;
-    }    
-    
-    public  FloatMapBuilder samples(int x, int y, float s0, float s1, float s2, float s3) {
-        operations.add(obj -> obj.setSamples(x, y, s0, s1, s2, s3));
-        return this;
-    }    
-    
-    public  FloatMapBuilder samples(int x, int y, float s0, float s1, float s2) {
-        operations.add(obj -> obj.setSamples(x, y, s0, s1, s2));
         return this;
     }    
     
@@ -141,13 +121,33 @@ public class FloatMapBuilder {
         return this;
     }    
     
-    public FloatMapBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
-        operations.add(obj -> op.accept(obj.heightProperty()));
+    public  FloatMapBuilder samples(int x, int y, float s0, float s1) {
+        operations.add(obj -> obj.setSamples(x, y, s0, s1));
+        return this;
+    }    
+    
+    public  FloatMapBuilder samples(int x, int y, float s0, float s1, float s2) {
+        operations.add(obj -> obj.setSamples(x, y, s0, s1, s2));
+        return this;
+    }    
+    
+    public  FloatMapBuilder samples(int x, int y, float s0, float s1, float s2, float s3) {
+        operations.add(obj -> obj.setSamples(x, y, s0, s1, s2, s3));
+        return this;
+    }    
+    
+    public  FloatMapBuilder width(int value) {
+        operations.add(obj -> obj.setWidth(value));
         return this;
     }    
     
     public FloatMapBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
+        return this;
+    }    
+    
+    public FloatMapBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
+        operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
     }
 }

@@ -7,6 +7,14 @@ public class BorderBuilder {
     private BorderBuilder() {}
     
 
+    
+    public static BorderBuilder create(java.util.List<javafx.scene.layout.BorderStroke> strokes, java.util.List<javafx.scene.layout.BorderImage> images) {
+        BorderBuilder builder = new BorderBuilder();
+        builder.constructorArgs = new Object[]{strokes, images};
+        return builder;
+    }
+
+
     @SafeVarargs
     public static BorderBuilder create(javafx.scene.layout.BorderImage... images) {
         BorderBuilder builder = new BorderBuilder();
@@ -25,14 +33,6 @@ public class BorderBuilder {
 
     
     public static BorderBuilder create(javafx.scene.layout.BorderStroke[] strokes, javafx.scene.layout.BorderImage[] images) {
-        BorderBuilder builder = new BorderBuilder();
-        builder.constructorArgs = new Object[]{strokes, images};
-        return builder;
-    }
-
-
-    
-    public static BorderBuilder create(java.util.List<javafx.scene.layout.BorderStroke> strokes, java.util.List<javafx.scene.layout.BorderImage> images) {
         BorderBuilder builder = new BorderBuilder();
         builder.constructorArgs = new Object[]{strokes, images};
         return builder;

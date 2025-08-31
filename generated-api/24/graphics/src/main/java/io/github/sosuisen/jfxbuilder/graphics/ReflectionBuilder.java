@@ -106,18 +106,8 @@ public class ReflectionBuilder {
         return this;
     }    
     
-    public  ReflectionBuilder input(javafx.scene.effect.Effect value) {
-        operations.add(obj -> obj.setInput(value));
-        return this;
-    }    
-    
     public  ReflectionBuilder bottomOpacity(double value) {
         operations.add(obj -> obj.setBottomOpacity(value));
-        return this;
-    }    
-    
-    public  ReflectionBuilder topOpacity(double value) {
-        operations.add(obj -> obj.setTopOpacity(value));
         return this;
     }    
     
@@ -126,13 +116,18 @@ public class ReflectionBuilder {
         return this;
     }    
     
+    public  ReflectionBuilder input(javafx.scene.effect.Effect value) {
+        operations.add(obj -> obj.setInput(value));
+        return this;
+    }    
+    
     public  ReflectionBuilder topOffset(double value) {
         operations.add(obj -> obj.setTopOffset(value));
         return this;
     }    
     
-    public ReflectionBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
-        operations.add(obj -> op.accept(obj.inputProperty()));
+    public  ReflectionBuilder topOpacity(double value) {
+        operations.add(obj -> obj.setTopOpacity(value));
         return this;
     }    
     
@@ -141,8 +136,8 @@ public class ReflectionBuilder {
         return this;
     }    
     
-    public ReflectionBuilder fractionPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.fractionProperty()));
+    public ReflectionBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
+        operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
     }    
     
@@ -153,6 +148,11 @@ public class ReflectionBuilder {
     
     public ReflectionBuilder topOffsetPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.topOffsetProperty()));
+        return this;
+    }    
+    
+    public ReflectionBuilder fractionPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.fractionProperty()));
         return this;
     }
 }

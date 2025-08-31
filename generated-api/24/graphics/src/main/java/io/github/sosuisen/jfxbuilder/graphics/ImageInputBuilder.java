@@ -114,6 +114,11 @@ public class ImageInputBuilder {
         return this;
     }    
     
+    public  ImageInputBuilder source(javafx.scene.image.Image value) {
+        operations.add(obj -> obj.setSource(value));
+        return this;
+    }    
+    
     public  ImageInputBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
@@ -121,11 +126,6 @@ public class ImageInputBuilder {
     
     public  ImageInputBuilder y(double value) {
         operations.add(obj -> obj.setY(value));
-        return this;
-    }    
-    
-    public  ImageInputBuilder source(javafx.scene.image.Image value) {
-        operations.add(obj -> obj.setSource(value));
         return this;
     }    
     

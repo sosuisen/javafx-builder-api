@@ -11,17 +11,17 @@ public class ShadowBuilder {
 
 
     
-    public static ShadowBuilder create(javafx.scene.effect.BlurType blurType, javafx.scene.paint.Color color, double radius) {
+    public static ShadowBuilder create(double radius, javafx.scene.paint.Color color) {
         ShadowBuilder builder = new ShadowBuilder();
-        builder.constructorArgs = new Object[]{blurType, color, radius};
+        builder.constructorArgs = new Object[]{radius, color};
         return builder;
     }
 
 
     
-    public static ShadowBuilder create(double radius, javafx.scene.paint.Color color) {
+    public static ShadowBuilder create(javafx.scene.effect.BlurType blurType, javafx.scene.paint.Color color, double radius) {
         ShadowBuilder builder = new ShadowBuilder();
-        builder.constructorArgs = new Object[]{radius, color};
+        builder.constructorArgs = new Object[]{blurType, color, radius};
         return builder;
     }
 
@@ -114,18 +114,18 @@ public class ShadowBuilder {
         return this;
     }    
     
-    public  ShadowBuilder height(double value) {
-        operations.add(obj -> obj.setHeight(value));
-        return this;
-    }    
-    
-    public  ShadowBuilder width(double value) {
-        operations.add(obj -> obj.setWidth(value));
+    public  ShadowBuilder blurType(javafx.scene.effect.BlurType value) {
+        operations.add(obj -> obj.setBlurType(value));
         return this;
     }    
     
     public  ShadowBuilder color(javafx.scene.paint.Color value) {
         operations.add(obj -> obj.setColor(value));
+        return this;
+    }    
+    
+    public  ShadowBuilder height(double value) {
+        operations.add(obj -> obj.setHeight(value));
         return this;
     }    
     
@@ -139,13 +139,8 @@ public class ShadowBuilder {
         return this;
     }    
     
-    public  ShadowBuilder blurType(javafx.scene.effect.BlurType value) {
-        operations.add(obj -> obj.setBlurType(value));
-        return this;
-    }    
-    
-    public ShadowBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.heightProperty()));
+    public  ShadowBuilder width(double value) {
+        operations.add(obj -> obj.setWidth(value));
         return this;
     }    
     
@@ -154,13 +149,18 @@ public class ShadowBuilder {
         return this;
     }    
     
+    public ShadowBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.heightProperty()));
+        return this;
+    }    
+    
     public ShadowBuilder colorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
         operations.add(obj -> op.accept(obj.colorProperty()));
         return this;
     }    
     
-    public ShadowBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
-        operations.add(obj -> op.accept(obj.inputProperty()));
+    public ShadowBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.radiusProperty()));
         return this;
     }    
     
@@ -169,8 +169,8 @@ public class ShadowBuilder {
         return this;
     }    
     
-    public ShadowBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.radiusProperty()));
+    public ShadowBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
+        operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
     }
 }

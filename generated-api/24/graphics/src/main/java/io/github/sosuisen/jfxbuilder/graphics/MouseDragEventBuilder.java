@@ -8,14 +8,6 @@ public class MouseDragEventBuilder {
     
 
     
-    public static MouseDragEventBuilder create(javafx.event.EventType<javafx.scene.input.MouseDragEvent> eventType, double x, double y, double screenX, double screenY, javafx.scene.input.MouseButton button, int clickCount, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean primaryButtonDown, boolean middleButtonDown, boolean secondaryButtonDown, boolean synthesized, boolean popupTrigger, javafx.scene.input.PickResult pickResult, java.lang.Object gestureSource) {
-        MouseDragEventBuilder builder = new MouseDragEventBuilder();
-        builder.constructorArgs = new Object[]{eventType, x, y, screenX, screenY, button, clickCount, shiftDown, controlDown, altDown, metaDown, primaryButtonDown, middleButtonDown, secondaryButtonDown, synthesized, popupTrigger, pickResult, gestureSource};
-        return builder;
-    }
-
-
-    
     public static MouseDragEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.MouseDragEvent> eventType, double x, double y, double screenX, double screenY, javafx.scene.input.MouseButton button, int clickCount, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean primaryButtonDown, boolean middleButtonDown, boolean secondaryButtonDown, boolean backButtonDown, boolean forwardButtonDown, boolean synthesized, boolean popupTrigger, javafx.scene.input.PickResult pickResult, java.lang.Object gestureSource) {
         MouseDragEventBuilder builder = new MouseDragEventBuilder();
         builder.constructorArgs = new Object[]{source, target, eventType, x, y, screenX, screenY, button, clickCount, shiftDown, controlDown, altDown, metaDown, primaryButtonDown, middleButtonDown, secondaryButtonDown, backButtonDown, forwardButtonDown, synthesized, popupTrigger, pickResult, gestureSource};
@@ -27,6 +19,14 @@ public class MouseDragEventBuilder {
     public static MouseDragEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.MouseDragEvent> eventType, double x, double y, double screenX, double screenY, javafx.scene.input.MouseButton button, int clickCount, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean primaryButtonDown, boolean middleButtonDown, boolean secondaryButtonDown, boolean synthesized, boolean popupTrigger, javafx.scene.input.PickResult pickResult, java.lang.Object gestureSource) {
         MouseDragEventBuilder builder = new MouseDragEventBuilder();
         builder.constructorArgs = new Object[]{source, target, eventType, x, y, screenX, screenY, button, clickCount, shiftDown, controlDown, altDown, metaDown, primaryButtonDown, middleButtonDown, secondaryButtonDown, synthesized, popupTrigger, pickResult, gestureSource};
+        return builder;
+    }
+
+
+    
+    public static MouseDragEventBuilder create(javafx.event.EventType<javafx.scene.input.MouseDragEvent> eventType, double x, double y, double screenX, double screenY, javafx.scene.input.MouseButton button, int clickCount, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean primaryButtonDown, boolean middleButtonDown, boolean secondaryButtonDown, boolean synthesized, boolean popupTrigger, javafx.scene.input.PickResult pickResult, java.lang.Object gestureSource) {
+        MouseDragEventBuilder builder = new MouseDragEventBuilder();
+        builder.constructorArgs = new Object[]{eventType, x, y, screenX, screenY, button, clickCount, shiftDown, controlDown, altDown, metaDown, primaryButtonDown, middleButtonDown, secondaryButtonDown, synthesized, popupTrigger, pickResult, gestureSource};
         return builder;
     }
 

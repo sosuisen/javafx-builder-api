@@ -106,33 +106,8 @@ public class ArcToBuilder {
         return this;
     }    
     
-    public  ArcToBuilder x(double value) {
-        operations.add(obj -> obj.setX(value));
-        return this;
-    }    
-    
-    public  ArcToBuilder y(double value) {
-        operations.add(obj -> obj.setY(value));
-        return this;
-    }    
-    
-    public  ArcToBuilder radiusY(double value) {
-        operations.add(obj -> obj.setRadiusY(value));
-        return this;
-    }    
-    
-    public  ArcToBuilder radiusX(double value) {
-        operations.add(obj -> obj.setRadiusX(value));
-        return this;
-    }    
-    
-    public  ArcToBuilder xAxisRotation(double value) {
-        operations.add(obj -> obj.setXAxisRotation(value));
-        return this;
-    }    
-    
-    public  ArcToBuilder sweepFlag(boolean value) {
-        operations.add(obj -> obj.setSweepFlag(value));
+    public  ArcToBuilder absolute(boolean value) {
+        operations.add(obj -> obj.setAbsolute(value));
         return this;
     }    
     
@@ -141,8 +116,33 @@ public class ArcToBuilder {
         return this;
     }    
     
-    public  ArcToBuilder absolute(boolean value) {
-        operations.add(obj -> obj.setAbsolute(value));
+    public  ArcToBuilder radiusX(double value) {
+        operations.add(obj -> obj.setRadiusX(value));
+        return this;
+    }    
+    
+    public  ArcToBuilder radiusY(double value) {
+        operations.add(obj -> obj.setRadiusY(value));
+        return this;
+    }    
+    
+    public  ArcToBuilder sweepFlag(boolean value) {
+        operations.add(obj -> obj.setSweepFlag(value));
+        return this;
+    }    
+    
+    public  ArcToBuilder x(double value) {
+        operations.add(obj -> obj.setX(value));
+        return this;
+    }    
+    
+    public  ArcToBuilder xAxisRotation(double value) {
+        operations.add(obj -> obj.setXAxisRotation(value));
+        return this;
+    }    
+    
+    public  ArcToBuilder y(double value) {
+        operations.add(obj -> obj.setY(value));
         return this;
     }    
     
@@ -156,18 +156,8 @@ public class ArcToBuilder {
         return this;
     }    
     
-    public ArcToBuilder radiusXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.radiusXProperty()));
-        return this;
-    }    
-    
-    public ArcToBuilder radiusYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.radiusYProperty()));
-        return this;
-    }    
-    
-    public ArcToBuilder sweepFlagPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.sweepFlagProperty()));
+    public ArcToBuilder XAxisRotationPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.XAxisRotationProperty()));
         return this;
     }    
     
@@ -176,8 +166,18 @@ public class ArcToBuilder {
         return this;
     }    
     
-    public ArcToBuilder XAxisRotationPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.XAxisRotationProperty()));
+    public ArcToBuilder radiusXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.radiusXProperty()));
+        return this;
+    }    
+    
+    public ArcToBuilder sweepFlagPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.sweepFlagProperty()));
+        return this;
+    }    
+    
+    public ArcToBuilder radiusYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.radiusYProperty()));
         return this;
     }    
     

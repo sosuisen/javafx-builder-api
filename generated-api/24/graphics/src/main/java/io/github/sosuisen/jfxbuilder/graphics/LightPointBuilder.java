@@ -106,6 +106,11 @@ public class LightPointBuilder {
         return this;
     }    
     
+    public  LightPointBuilder color(javafx.scene.paint.Color value) {
+        operations.add(obj -> obj.setColor(value));
+        return this;
+    }    
+    
     public  LightPointBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
@@ -118,11 +123,6 @@ public class LightPointBuilder {
     
     public  LightPointBuilder z(double value) {
         operations.add(obj -> obj.setZ(value));
-        return this;
-    }    
-    
-    public  LightPointBuilder color(javafx.scene.paint.Color value) {
-        operations.add(obj -> obj.setColor(value));
         return this;
     }    
     

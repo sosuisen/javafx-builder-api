@@ -106,13 +106,23 @@ public class LightingBuilder {
         return this;
     }    
     
-    public  LightingBuilder light(javafx.scene.effect.Light value) {
-        operations.add(obj -> obj.setLight(value));
+    public  LightingBuilder bumpInput(javafx.scene.effect.Effect value) {
+        operations.add(obj -> obj.setBumpInput(value));
         return this;
     }    
     
     public  LightingBuilder contentInput(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setContentInput(value));
+        return this;
+    }    
+    
+    public  LightingBuilder diffuseConstant(double value) {
+        operations.add(obj -> obj.setDiffuseConstant(value));
+        return this;
+    }    
+    
+    public  LightingBuilder light(javafx.scene.effect.Light value) {
+        operations.add(obj -> obj.setLight(value));
         return this;
     }    
     
@@ -126,18 +136,13 @@ public class LightingBuilder {
         return this;
     }    
     
-    public  LightingBuilder diffuseConstant(double value) {
-        operations.add(obj -> obj.setDiffuseConstant(value));
-        return this;
-    }    
-    
-    public  LightingBuilder bumpInput(javafx.scene.effect.Effect value) {
-        operations.add(obj -> obj.setBumpInput(value));
-        return this;
-    }    
-    
     public  LightingBuilder surfaceScale(double value) {
         operations.add(obj -> obj.setSurfaceScale(value));
+        return this;
+    }    
+    
+    public LightingBuilder surfaceScalePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.surfaceScaleProperty()));
         return this;
     }    
     
@@ -158,11 +163,6 @@ public class LightingBuilder {
     
     public LightingBuilder specularConstantPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.specularConstantProperty()));
-        return this;
-    }    
-    
-    public LightingBuilder surfaceScalePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.surfaceScaleProperty()));
         return this;
     }    
     

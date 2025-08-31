@@ -8,14 +8,6 @@ public class ImageBuilder {
     
 
     
-    public static ImageBuilder create(java.io.InputStream is, double requestedWidth, double requestedHeight, boolean preserveRatio, boolean smooth) {
-        ImageBuilder builder = new ImageBuilder();
-        builder.constructorArgs = new Object[]{is, requestedWidth, requestedHeight, preserveRatio, smooth};
-        return builder;
-    }
-
-
-    
     public static ImageBuilder create(java.io.InputStream is) {
         ImageBuilder builder = new ImageBuilder();
         builder.constructorArgs = new Object[]{is};
@@ -24,9 +16,17 @@ public class ImageBuilder {
 
 
     
-    public static ImageBuilder create(java.lang.String url, double requestedWidth, double requestedHeight, boolean preserveRatio, boolean smooth) {
+    public static ImageBuilder create(java.io.InputStream is, double requestedWidth, double requestedHeight, boolean preserveRatio, boolean smooth) {
         ImageBuilder builder = new ImageBuilder();
-        builder.constructorArgs = new Object[]{url, requestedWidth, requestedHeight, preserveRatio, smooth};
+        builder.constructorArgs = new Object[]{is, requestedWidth, requestedHeight, preserveRatio, smooth};
+        return builder;
+    }
+
+
+    
+    public static ImageBuilder create(java.lang.String url) {
+        ImageBuilder builder = new ImageBuilder();
+        builder.constructorArgs = new Object[]{url};
         return builder;
     }
 
@@ -40,9 +40,9 @@ public class ImageBuilder {
 
 
     
-    public static ImageBuilder create(java.lang.String url) {
+    public static ImageBuilder create(java.lang.String url, double requestedWidth, double requestedHeight, boolean preserveRatio, boolean smooth) {
         ImageBuilder builder = new ImageBuilder();
-        builder.constructorArgs = new Object[]{url};
+        builder.constructorArgs = new Object[]{url, requestedWidth, requestedHeight, preserveRatio, smooth};
         return builder;
     }
 
@@ -137,13 +137,13 @@ public class ImageBuilder {
         return this;
     }    
     
-    public ImageBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.heightProperty()));
+    public ImageBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.widthProperty()));
         return this;
     }    
     
-    public ImageBuilder errorPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.errorProperty()));
+    public ImageBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
     }    
     
@@ -152,13 +152,13 @@ public class ImageBuilder {
         return this;
     }    
     
-    public ImageBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.widthProperty()));
+    public ImageBuilder progressPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.progressProperty()));
         return this;
     }    
     
-    public ImageBuilder progressPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.progressProperty()));
+    public ImageBuilder errorPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.errorProperty()));
         return this;
     }
 }

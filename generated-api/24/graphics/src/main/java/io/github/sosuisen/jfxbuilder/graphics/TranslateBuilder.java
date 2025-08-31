@@ -11,17 +11,17 @@ public class TranslateBuilder {
 
 
     
-    public static TranslateBuilder create(double x, double y, double z) {
+    public static TranslateBuilder create(double x, double y) {
         TranslateBuilder builder = new TranslateBuilder();
-        builder.constructorArgs = new Object[]{x, y, z};
+        builder.constructorArgs = new Object[]{x, y};
         return builder;
     }
 
 
     
-    public static TranslateBuilder create(double x, double y) {
+    public static TranslateBuilder create(double x, double y, double z) {
         TranslateBuilder builder = new TranslateBuilder();
-        builder.constructorArgs = new Object[]{x, y};
+        builder.constructorArgs = new Object[]{x, y, z};
         return builder;
     }
 
@@ -114,6 +114,11 @@ public class TranslateBuilder {
         return this;
     }    
     
+    public  TranslateBuilder onTransformChanged(javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent> value) {
+        operations.add(obj -> obj.setOnTransformChanged(value));
+        return this;
+    }    
+    
     public  TranslateBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
@@ -126,11 +131,6 @@ public class TranslateBuilder {
     
     public  TranslateBuilder z(double value) {
         operations.add(obj -> obj.setZ(value));
-        return this;
-    }    
-    
-    public  TranslateBuilder onTransformChanged(javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent> value) {
-        operations.add(obj -> obj.setOnTransformChanged(value));
         return this;
     }    
     
@@ -149,8 +149,8 @@ public class TranslateBuilder {
         return this;
     }    
     
-    public TranslateBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.identityProperty()));
+    public TranslateBuilder onTransformChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTransformChangedProperty()));
         return this;
     }    
     
@@ -159,8 +159,8 @@ public class TranslateBuilder {
         return this;
     }    
     
-    public TranslateBuilder onTransformChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTransformChangedProperty()));
+    public TranslateBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.identityProperty()));
         return this;
     }
 }

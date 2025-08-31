@@ -113,16 +113,6 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
         return this;
     }    
     
-    public  SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder min(double value) {
-        operations.add(obj -> obj.setMin(value));
-        return this;
-    }    
-    
-    public  SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder max(double value) {
-        operations.add(obj -> obj.setMax(value));
-        return this;
-    }    
-    
     public  SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder amountToStepBy(double value) {
         operations.add(obj -> obj.setAmountToStepBy(value));
         return this;
@@ -133,13 +123,28 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
         return this;
     }    
     
-    public  SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder wrapAround(boolean value) {
-        operations.add(obj -> obj.setWrapAround(value));
+    public  SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder max(double value) {
+        operations.add(obj -> obj.setMax(value));
+        return this;
+    }    
+    
+    public  SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder min(double value) {
+        operations.add(obj -> obj.setMin(value));
         return this;
     }    
     
     public  SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder value(Double newValue) {
         operations.add(obj -> obj.setValue(newValue));
+        return this;
+    }    
+    
+    public  SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder wrapAround(boolean value) {
+        operations.add(obj -> obj.setWrapAround(value));
+        return this;
+    }    
+    
+    public SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder amountToStepByPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.amountToStepByProperty()));
         return this;
     }    
     
@@ -150,11 +155,6 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
     
     public SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder minPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minProperty()));
-        return this;
-    }    
-    
-    public SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder amountToStepByPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.amountToStepByProperty()));
         return this;
     }    
     

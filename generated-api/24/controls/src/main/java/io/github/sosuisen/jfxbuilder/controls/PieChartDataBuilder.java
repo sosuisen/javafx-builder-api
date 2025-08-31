@@ -97,13 +97,13 @@ public class PieChartDataBuilder {
         return this;
     }    
     
-    public  PieChartDataBuilder pieValue(double value) {
-        operations.add(obj -> obj.setPieValue(value));
+    public  PieChartDataBuilder name(java.lang.String value) {
+        operations.add(obj -> obj.setName(value));
         return this;
     }    
     
-    public  PieChartDataBuilder name(java.lang.String value) {
-        operations.add(obj -> obj.setName(value));
+    public  PieChartDataBuilder pieValue(double value) {
+        operations.add(obj -> obj.setPieValue(value));
         return this;
     }    
     

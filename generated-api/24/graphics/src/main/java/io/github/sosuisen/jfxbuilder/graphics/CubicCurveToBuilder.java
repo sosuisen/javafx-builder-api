@@ -106,13 +106,13 @@ public class CubicCurveToBuilder {
         return this;
     }    
     
-    public  CubicCurveToBuilder x(double value) {
-        operations.add(obj -> obj.setX(value));
+    public  CubicCurveToBuilder absolute(boolean value) {
+        operations.add(obj -> obj.setAbsolute(value));
         return this;
     }    
     
-    public  CubicCurveToBuilder y(double value) {
-        operations.add(obj -> obj.setY(value));
+    public  CubicCurveToBuilder controlX1(double value) {
+        operations.add(obj -> obj.setControlX1(value));
         return this;
     }    
     
@@ -126,38 +126,18 @@ public class CubicCurveToBuilder {
         return this;
     }    
     
-    public  CubicCurveToBuilder controlX1(double value) {
-        operations.add(obj -> obj.setControlX1(value));
-        return this;
-    }    
-    
     public  CubicCurveToBuilder controlY2(double value) {
         operations.add(obj -> obj.setControlY2(value));
         return this;
     }    
     
-    public  CubicCurveToBuilder absolute(boolean value) {
-        operations.add(obj -> obj.setAbsolute(value));
+    public  CubicCurveToBuilder x(double value) {
+        operations.add(obj -> obj.setX(value));
         return this;
     }    
     
-    public CubicCurveToBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.yProperty()));
-        return this;
-    }    
-    
-    public CubicCurveToBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.xProperty()));
-        return this;
-    }    
-    
-    public CubicCurveToBuilder controlX1PropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.controlX1Property()));
-        return this;
-    }    
-    
-    public CubicCurveToBuilder controlX2PropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.controlX2Property()));
+    public  CubicCurveToBuilder y(double value) {
+        operations.add(obj -> obj.setY(value));
         return this;
     }    
     
@@ -168,6 +148,26 @@ public class CubicCurveToBuilder {
     
     public CubicCurveToBuilder controlY1PropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.controlY1Property()));
+        return this;
+    }    
+    
+    public CubicCurveToBuilder controlX2PropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.controlX2Property()));
+        return this;
+    }    
+    
+    public CubicCurveToBuilder controlX1PropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.controlX1Property()));
+        return this;
+    }    
+    
+    public CubicCurveToBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.yProperty()));
+        return this;
+    }    
+    
+    public CubicCurveToBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }    
     

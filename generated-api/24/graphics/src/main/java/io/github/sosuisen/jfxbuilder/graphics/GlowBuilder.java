@@ -106,13 +106,13 @@ public class GlowBuilder {
         return this;
     }    
     
-    public  GlowBuilder level(double value) {
-        operations.add(obj -> obj.setLevel(value));
+    public  GlowBuilder input(javafx.scene.effect.Effect value) {
+        operations.add(obj -> obj.setInput(value));
         return this;
     }    
     
-    public  GlowBuilder input(javafx.scene.effect.Effect value) {
-        operations.add(obj -> obj.setInput(value));
+    public  GlowBuilder level(double value) {
+        operations.add(obj -> obj.setLevel(value));
         return this;
     }    
     

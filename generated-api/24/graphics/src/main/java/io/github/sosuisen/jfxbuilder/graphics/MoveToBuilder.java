@@ -106,6 +106,11 @@ public class MoveToBuilder {
         return this;
     }    
     
+    public  MoveToBuilder absolute(boolean value) {
+        operations.add(obj -> obj.setAbsolute(value));
+        return this;
+    }    
+    
     public  MoveToBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
@@ -113,11 +118,6 @@ public class MoveToBuilder {
     
     public  MoveToBuilder y(double value) {
         operations.add(obj -> obj.setY(value));
-        return this;
-    }    
-    
-    public  MoveToBuilder absolute(boolean value) {
-        operations.add(obj -> obj.setAbsolute(value));
         return this;
     }    
     

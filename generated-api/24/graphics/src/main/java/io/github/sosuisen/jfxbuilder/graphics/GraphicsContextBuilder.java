@@ -99,28 +99,8 @@ public class GraphicsContextBuilder {
         return this;
     }    
     
-    public  GraphicsContextBuilder stroke(javafx.scene.paint.Paint p) {
-        operations.add(obj -> obj.setStroke(p));
-        return this;
-    }    
-    
-    public  GraphicsContextBuilder transform(double mxx, double myx, double mxy, double myy, double mxt, double myt) {
-        operations.add(obj -> obj.setTransform(mxx, myx, mxy, myy, mxt, myt));
-        return this;
-    }    
-    
-    public  GraphicsContextBuilder transform(javafx.scene.transform.Affine xform) {
-        operations.add(obj -> obj.setTransform(xform));
-        return this;
-    }    
-    
     public  GraphicsContextBuilder fillRule(javafx.scene.shape.FillRule fillRule) {
         operations.add(obj -> obj.setFillRule(fillRule));
-        return this;
-    }    
-    
-    public  GraphicsContextBuilder fontSmoothingType(javafx.scene.text.FontSmoothingType fontsmoothing) {
-        operations.add(obj -> obj.setFontSmoothingType(fontsmoothing));
         return this;
     }    
     
@@ -129,8 +109,8 @@ public class GraphicsContextBuilder {
         return this;
     }    
     
-    public  GraphicsContextBuilder lineCap(javafx.scene.shape.StrokeLineCap cap) {
-        operations.add(obj -> obj.setLineCap(cap));
+    public  GraphicsContextBuilder fontSmoothingType(javafx.scene.text.FontSmoothingType fontsmoothing) {
+        operations.add(obj -> obj.setFontSmoothingType(fontsmoothing));
         return this;
     }    
     
@@ -144,23 +124,18 @@ public class GraphicsContextBuilder {
         return this;
     }    
     
-    public  GraphicsContextBuilder lineWidth(double lw) {
-        operations.add(obj -> obj.setLineWidth(lw));
+    public  GraphicsContextBuilder imageSmoothing(boolean imageSmoothing) {
+        operations.add(obj -> obj.setImageSmoothing(imageSmoothing));
         return this;
     }    
     
-    public  GraphicsContextBuilder lineJoin(javafx.scene.shape.StrokeLineJoin join) {
-        operations.add(obj -> obj.setLineJoin(join));
+    public  GraphicsContextBuilder lineCap(javafx.scene.shape.StrokeLineCap cap) {
+        operations.add(obj -> obj.setLineCap(cap));
         return this;
     }    
     
-    public  GraphicsContextBuilder miterLimit(double ml) {
-        operations.add(obj -> obj.setMiterLimit(ml));
-        return this;
-    }    
-    
-    public  GraphicsContextBuilder textAlign(javafx.scene.text.TextAlignment align) {
-        operations.add(obj -> obj.setTextAlign(align));
+    public  GraphicsContextBuilder lineDashOffset(double dashOffset) {
+        operations.add(obj -> obj.setLineDashOffset(dashOffset));
         return this;
     }    
     
@@ -169,8 +144,28 @@ public class GraphicsContextBuilder {
         return this;
     }    
     
-    public  GraphicsContextBuilder imageSmoothing(boolean imageSmoothing) {
-        operations.add(obj -> obj.setImageSmoothing(imageSmoothing));
+    public  GraphicsContextBuilder lineJoin(javafx.scene.shape.StrokeLineJoin join) {
+        operations.add(obj -> obj.setLineJoin(join));
+        return this;
+    }    
+    
+    public  GraphicsContextBuilder lineWidth(double lw) {
+        operations.add(obj -> obj.setLineWidth(lw));
+        return this;
+    }    
+    
+    public  GraphicsContextBuilder miterLimit(double ml) {
+        operations.add(obj -> obj.setMiterLimit(ml));
+        return this;
+    }    
+    
+    public  GraphicsContextBuilder stroke(javafx.scene.paint.Paint p) {
+        operations.add(obj -> obj.setStroke(p));
+        return this;
+    }    
+    
+    public  GraphicsContextBuilder textAlign(javafx.scene.text.TextAlignment align) {
+        operations.add(obj -> obj.setTextAlign(align));
         return this;
     }    
     
@@ -179,8 +174,13 @@ public class GraphicsContextBuilder {
         return this;
     }    
     
-    public  GraphicsContextBuilder lineDashOffset(double dashOffset) {
-        operations.add(obj -> obj.setLineDashOffset(dashOffset));
+    public  GraphicsContextBuilder transform(double mxx, double myx, double mxy, double myy, double mxt, double myt) {
+        operations.add(obj -> obj.setTransform(mxx, myx, mxy, myy, mxt, myt));
+        return this;
+    }    
+    
+    public  GraphicsContextBuilder transform(javafx.scene.transform.Affine xform) {
+        operations.add(obj -> obj.setTransform(xform));
         return this;
     }
 }

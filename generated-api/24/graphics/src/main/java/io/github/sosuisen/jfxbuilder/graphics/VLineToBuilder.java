@@ -106,13 +106,13 @@ public class VLineToBuilder {
         return this;
     }    
     
-    public  VLineToBuilder y(double value) {
-        operations.add(obj -> obj.setY(value));
+    public  VLineToBuilder absolute(boolean value) {
+        operations.add(obj -> obj.setAbsolute(value));
         return this;
     }    
     
-    public  VLineToBuilder absolute(boolean value) {
-        operations.add(obj -> obj.setAbsolute(value));
+    public  VLineToBuilder y(double value) {
+        operations.add(obj -> obj.setY(value));
         return this;
     }    
     

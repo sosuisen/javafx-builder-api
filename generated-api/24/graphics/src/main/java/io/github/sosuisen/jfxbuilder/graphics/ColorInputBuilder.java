@@ -7,15 +7,15 @@ public class ColorInputBuilder {
     private ColorInputBuilder() {}
     
 
+    public static ColorInputBuilder create() { return new ColorInputBuilder(); }
+
+
     
     public static ColorInputBuilder create(double x, double y, double width, double height, javafx.scene.paint.Paint paint) {
         ColorInputBuilder builder = new ColorInputBuilder();
         builder.constructorArgs = new Object[]{x, y, width, height, paint};
         return builder;
     }
-
-
-    public static ColorInputBuilder create() { return new ColorInputBuilder(); }
 
     private Object[] constructorArgs;
 
@@ -111,6 +111,11 @@ public class ColorInputBuilder {
         return this;
     }    
     
+    public  ColorInputBuilder paint(javafx.scene.paint.Paint value) {
+        operations.add(obj -> obj.setPaint(value));
+        return this;
+    }    
+    
     public  ColorInputBuilder width(double value) {
         operations.add(obj -> obj.setWidth(value));
         return this;
@@ -126,13 +131,13 @@ public class ColorInputBuilder {
         return this;
     }    
     
-    public  ColorInputBuilder paint(javafx.scene.paint.Paint value) {
-        operations.add(obj -> obj.setPaint(value));
+    public ColorInputBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.yProperty()));
         return this;
     }    
     
-    public ColorInputBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.heightProperty()));
+    public ColorInputBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }    
     
@@ -141,13 +146,8 @@ public class ColorInputBuilder {
         return this;
     }    
     
-    public ColorInputBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.yProperty()));
-        return this;
-    }    
-    
-    public ColorInputBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.xProperty()));
+    public ColorInputBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
     }    
     

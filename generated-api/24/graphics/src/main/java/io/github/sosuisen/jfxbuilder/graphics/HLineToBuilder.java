@@ -106,13 +106,13 @@ public class HLineToBuilder {
         return this;
     }    
     
-    public  HLineToBuilder x(double value) {
-        operations.add(obj -> obj.setX(value));
+    public  HLineToBuilder absolute(boolean value) {
+        operations.add(obj -> obj.setAbsolute(value));
         return this;
     }    
     
-    public  HLineToBuilder absolute(boolean value) {
-        operations.add(obj -> obj.setAbsolute(value));
+    public  HLineToBuilder x(double value) {
+        operations.add(obj -> obj.setX(value));
         return this;
     }    
     

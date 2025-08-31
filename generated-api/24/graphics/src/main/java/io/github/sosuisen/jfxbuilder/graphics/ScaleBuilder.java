@@ -7,10 +7,21 @@ public class ScaleBuilder {
     private ScaleBuilder() {}
     
 
+    public static ScaleBuilder create() { return new ScaleBuilder(); }
+
+
     
     public static ScaleBuilder create(double x, double y) {
         ScaleBuilder builder = new ScaleBuilder();
         builder.constructorArgs = new Object[]{x, y};
+        return builder;
+    }
+
+
+    
+    public static ScaleBuilder create(double x, double y, double z) {
+        ScaleBuilder builder = new ScaleBuilder();
+        builder.constructorArgs = new Object[]{x, y, z};
         return builder;
     }
 
@@ -23,21 +34,10 @@ public class ScaleBuilder {
     }
 
 
-    public static ScaleBuilder create() { return new ScaleBuilder(); }
-
-
     
     public static ScaleBuilder create(double x, double y, double z, double pivotX, double pivotY, double pivotZ) {
         ScaleBuilder builder = new ScaleBuilder();
         builder.constructorArgs = new Object[]{x, y, z, pivotX, pivotY, pivotZ};
-        return builder;
-    }
-
-
-    
-    public static ScaleBuilder create(double x, double y, double z) {
-        ScaleBuilder builder = new ScaleBuilder();
-        builder.constructorArgs = new Object[]{x, y, z};
         return builder;
     }
 
@@ -130,13 +130,8 @@ public class ScaleBuilder {
         return this;
     }    
     
-    public  ScaleBuilder x(double value) {
-        operations.add(obj -> obj.setX(value));
-        return this;
-    }    
-    
-    public  ScaleBuilder y(double value) {
-        operations.add(obj -> obj.setY(value));
+    public  ScaleBuilder onTransformChanged(javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent> value) {
+        operations.add(obj -> obj.setOnTransformChanged(value));
         return this;
     }    
     
@@ -155,13 +150,18 @@ public class ScaleBuilder {
         return this;
     }    
     
-    public  ScaleBuilder z(double value) {
-        operations.add(obj -> obj.setZ(value));
+    public  ScaleBuilder x(double value) {
+        operations.add(obj -> obj.setX(value));
         return this;
     }    
     
-    public  ScaleBuilder onTransformChanged(javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent> value) {
-        operations.add(obj -> obj.setOnTransformChanged(value));
+    public  ScaleBuilder y(double value) {
+        operations.add(obj -> obj.setY(value));
+        return this;
+    }    
+    
+    public  ScaleBuilder z(double value) {
+        operations.add(obj -> obj.setZ(value));
         return this;
     }    
     
@@ -175,8 +175,8 @@ public class ScaleBuilder {
         return this;
     }    
     
-    public ScaleBuilder pivotYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.pivotYProperty()));
+    public ScaleBuilder pivotXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.pivotXProperty()));
         return this;
     }    
     
@@ -185,8 +185,8 @@ public class ScaleBuilder {
         return this;
     }    
     
-    public ScaleBuilder pivotXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.pivotXProperty()));
+    public ScaleBuilder pivotYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.pivotYProperty()));
         return this;
     }    
     
@@ -195,8 +195,8 @@ public class ScaleBuilder {
         return this;
     }    
     
-    public ScaleBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.identityProperty()));
+    public ScaleBuilder onTransformChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTransformChangedProperty()));
         return this;
     }    
     
@@ -205,8 +205,8 @@ public class ScaleBuilder {
         return this;
     }    
     
-    public ScaleBuilder onTransformChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTransformChangedProperty()));
+    public ScaleBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.identityProperty()));
         return this;
     }
 }

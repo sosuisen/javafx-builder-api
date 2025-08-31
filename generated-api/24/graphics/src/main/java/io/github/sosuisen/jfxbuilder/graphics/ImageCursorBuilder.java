@@ -11,17 +11,17 @@ public class ImageCursorBuilder {
 
 
     
-    public static ImageCursorBuilder create(javafx.scene.image.Image image, double hotspotX, double hotspotY) {
+    public static ImageCursorBuilder create(javafx.scene.image.Image image) {
         ImageCursorBuilder builder = new ImageCursorBuilder();
-        builder.constructorArgs = new Object[]{image, hotspotX, hotspotY};
+        builder.constructorArgs = new Object[]{image};
         return builder;
     }
 
 
     
-    public static ImageCursorBuilder create(javafx.scene.image.Image image) {
+    public static ImageCursorBuilder create(javafx.scene.image.Image image, double hotspotX, double hotspotY) {
         ImageCursorBuilder builder = new ImageCursorBuilder();
-        builder.constructorArgs = new Object[]{image};
+        builder.constructorArgs = new Object[]{image, hotspotX, hotspotY};
         return builder;
     }
 
@@ -114,8 +114,8 @@ public class ImageCursorBuilder {
         return this;
     }    
     
-    public ImageCursorBuilder hotspotYPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.hotspotYProperty()));
+    public ImageCursorBuilder imagePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.image.Image>> op) {
+        operations.add(obj -> op.accept(obj.imageProperty()));
         return this;
     }    
     
@@ -124,8 +124,8 @@ public class ImageCursorBuilder {
         return this;
     }    
     
-    public ImageCursorBuilder imagePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.image.Image>> op) {
-        operations.add(obj -> op.accept(obj.imageProperty()));
+    public ImageCursorBuilder hotspotYPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.hotspotYProperty()));
         return this;
     }
 }

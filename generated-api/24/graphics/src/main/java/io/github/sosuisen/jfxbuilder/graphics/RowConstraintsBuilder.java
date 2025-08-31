@@ -7,10 +7,13 @@ public class RowConstraintsBuilder {
     private RowConstraintsBuilder() {}
     
 
+    public static RowConstraintsBuilder create() { return new RowConstraintsBuilder(); }
+
+
     
-    public static RowConstraintsBuilder create(double minHeight, double prefHeight, double maxHeight, javafx.scene.layout.Priority vgrow, javafx.geometry.VPos valignment, boolean fillHeight) {
+    public static RowConstraintsBuilder create(double height) {
         RowConstraintsBuilder builder = new RowConstraintsBuilder();
-        builder.constructorArgs = new Object[]{minHeight, prefHeight, maxHeight, vgrow, valignment, fillHeight};
+        builder.constructorArgs = new Object[]{height};
         return builder;
     }
 
@@ -24,14 +27,11 @@ public class RowConstraintsBuilder {
 
 
     
-    public static RowConstraintsBuilder create(double height) {
+    public static RowConstraintsBuilder create(double minHeight, double prefHeight, double maxHeight, javafx.scene.layout.Priority vgrow, javafx.geometry.VPos valignment, boolean fillHeight) {
         RowConstraintsBuilder builder = new RowConstraintsBuilder();
-        builder.constructorArgs = new Object[]{height};
+        builder.constructorArgs = new Object[]{minHeight, prefHeight, maxHeight, vgrow, valignment, fillHeight};
         return builder;
     }
-
-
-    public static RowConstraintsBuilder create() { return new RowConstraintsBuilder(); }
 
     private Object[] constructorArgs;
 
@@ -122,8 +122,8 @@ public class RowConstraintsBuilder {
         return this;
     }    
     
-    public  RowConstraintsBuilder minHeight(double value) {
-        operations.add(obj -> obj.setMinHeight(value));
+    public  RowConstraintsBuilder fillHeight(boolean value) {
+        operations.add(obj -> obj.setFillHeight(value));
         return this;
     }    
     
@@ -132,18 +132,8 @@ public class RowConstraintsBuilder {
         return this;
     }    
     
-    public  RowConstraintsBuilder prefHeight(double value) {
-        operations.add(obj -> obj.setPrefHeight(value));
-        return this;
-    }    
-    
-    public  RowConstraintsBuilder vgrow(javafx.scene.layout.Priority value) {
-        operations.add(obj -> obj.setVgrow(value));
-        return this;
-    }    
-    
-    public  RowConstraintsBuilder fillHeight(boolean value) {
-        operations.add(obj -> obj.setFillHeight(value));
+    public  RowConstraintsBuilder minHeight(double value) {
+        operations.add(obj -> obj.setMinHeight(value));
         return this;
     }    
     
@@ -152,13 +142,18 @@ public class RowConstraintsBuilder {
         return this;
     }    
     
+    public  RowConstraintsBuilder prefHeight(double value) {
+        operations.add(obj -> obj.setPrefHeight(value));
+        return this;
+    }    
+    
     public  RowConstraintsBuilder valignment(javafx.geometry.VPos value) {
         operations.add(obj -> obj.setValignment(value));
         return this;
     }    
     
-    public RowConstraintsBuilder maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.maxHeightProperty()));
+    public  RowConstraintsBuilder vgrow(javafx.scene.layout.Priority value) {
+        operations.add(obj -> obj.setVgrow(value));
         return this;
     }    
     
@@ -167,8 +162,8 @@ public class RowConstraintsBuilder {
         return this;
     }    
     
-    public RowConstraintsBuilder prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.prefHeightProperty()));
+    public RowConstraintsBuilder maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.maxHeightProperty()));
         return this;
     }    
     
@@ -177,8 +172,13 @@ public class RowConstraintsBuilder {
         return this;
     }    
     
-    public RowConstraintsBuilder vgrowPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Priority>> op) {
-        operations.add(obj -> op.accept(obj.vgrowProperty()));
+    public RowConstraintsBuilder prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.prefHeightProperty()));
+        return this;
+    }    
+    
+    public RowConstraintsBuilder fillHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.fillHeightProperty()));
         return this;
     }    
     
@@ -187,8 +187,8 @@ public class RowConstraintsBuilder {
         return this;
     }    
     
-    public RowConstraintsBuilder fillHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.fillHeightProperty()));
+    public RowConstraintsBuilder vgrowPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Priority>> op) {
+        operations.add(obj -> op.accept(obj.vgrowProperty()));
         return this;
     }
 }

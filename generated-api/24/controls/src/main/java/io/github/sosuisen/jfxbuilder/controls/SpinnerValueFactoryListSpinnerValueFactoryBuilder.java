@@ -99,23 +99,23 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
         return this;
     }    
     
-    public  SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> items(javafx.collections.ObservableList<T> value) {
-        operations.add(obj -> obj.setItems(value));
-        return this;
-    }    
-    
     public  SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> converter(javafx.util.StringConverter<T> newValue) {
         operations.add(obj -> obj.setConverter(newValue));
         return this;
     }    
     
-    public  SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> wrapAround(boolean value) {
-        operations.add(obj -> obj.setWrapAround(value));
+    public  SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> items(javafx.collections.ObservableList<T> value) {
+        operations.add(obj -> obj.setItems(value));
         return this;
     }    
     
     public  SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> value(T newValue) {
         operations.add(obj -> obj.setValue(newValue));
+        return this;
+    }    
+    
+    public  SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> wrapAround(boolean value) {
+        operations.add(obj -> obj.setWrapAround(value));
         return this;
     }
     @SafeVarargs

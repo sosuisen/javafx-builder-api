@@ -106,6 +106,21 @@ public class QuadCurveToBuilder {
         return this;
     }    
     
+    public  QuadCurveToBuilder absolute(boolean value) {
+        operations.add(obj -> obj.setAbsolute(value));
+        return this;
+    }    
+    
+    public  QuadCurveToBuilder controlX(double value) {
+        operations.add(obj -> obj.setControlX(value));
+        return this;
+    }    
+    
+    public  QuadCurveToBuilder controlY(double value) {
+        operations.add(obj -> obj.setControlY(value));
+        return this;
+    }    
+    
     public  QuadCurveToBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
@@ -116,18 +131,13 @@ public class QuadCurveToBuilder {
         return this;
     }    
     
-    public  QuadCurveToBuilder controlY(double value) {
-        operations.add(obj -> obj.setControlY(value));
+    public QuadCurveToBuilder controlYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.controlYProperty()));
         return this;
     }    
     
-    public  QuadCurveToBuilder controlX(double value) {
-        operations.add(obj -> obj.setControlX(value));
-        return this;
-    }    
-    
-    public  QuadCurveToBuilder absolute(boolean value) {
-        operations.add(obj -> obj.setAbsolute(value));
+    public QuadCurveToBuilder controlXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.controlXProperty()));
         return this;
     }    
     
@@ -138,16 +148,6 @@ public class QuadCurveToBuilder {
     
     public QuadCurveToBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
-        return this;
-    }    
-    
-    public QuadCurveToBuilder controlYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.controlYProperty()));
-        return this;
-    }    
-    
-    public QuadCurveToBuilder controlXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.controlXProperty()));
         return this;
     }    
     
