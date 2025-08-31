@@ -82,6 +82,7 @@
             </goals>
             <configuration>
               <outputDirectory>generated-api/${javafx.major.version}/${builder.component}/</outputDirectory>
+              <escapeString>\</escapeString>
               <resources>
                 <resource>
                   <directory>src/main/resources/pom/${builder.component}</directory>
@@ -127,17 +128,14 @@
               </includes>
             </fileset>
             <fileset>
-              <directory>generated-api/${javafx.major.version}/${builder.component}/src/main/</directory>
-              <includes>
-                <include>**/*.java</include>
-              </includes>
-            </fileset>
-            <fileset>
               <directory>generated-api/${javafx.major.version}/${builder.component}/</directory>
               <includes>
-                <include>*.xml</include>
-                <include>target/</include>
+                <include>**/*</include>
               </includes>
+              <excludes>
+                <exclude>src/test/</exclude>
+                <exclude>src/test/**</exclude>
+              </excludes>
             </fileset>
           </filesets>
         </configuration>

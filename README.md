@@ -77,7 +77,10 @@ To generate it yourself, please refer to the instructions in [Generate builder c
 
 **JavaDoc pages**:
 
-Coming soon - please check back later.
+- [io.github.sosuisen.jfxbuilder.controls](./generated-api/24/controls/apidocs/)
+- [io.github.sosuisen.jfxbuilder.graphics](./generated-api/24/graphics/apidocs/)
+- [io.github.sosuisen.jfxbuilder.media](./generated-api/24/media/apidocs/)
+- [io.github.sosuisen.jfxbuilder.web](./generated-api/24/web/apidocs/)
 
 **Generated Source Code**: 
 

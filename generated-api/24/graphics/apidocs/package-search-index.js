@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"io.github.sosuisen.jfxbuilder.graphics"}];updateSearchResults();
