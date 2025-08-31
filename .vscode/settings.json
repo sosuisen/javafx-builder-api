@@ -27,5 +27,6 @@
   "maven.excludedFolders": [
     "**/src",
     "**/target",
-  ]
+  ],
+  "java.autobuild.enabled": false,
 }
