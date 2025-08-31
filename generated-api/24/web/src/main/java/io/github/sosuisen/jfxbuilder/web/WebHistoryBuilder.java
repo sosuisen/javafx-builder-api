@@ -110,13 +110,13 @@ public class WebHistoryBuilder {
 
     
     
-    public WebHistoryBuilder maxSizePropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
-        operations.add(obj -> op.accept(obj.maxSizeProperty()));
+    public WebHistoryBuilder currentIndexPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
+        operations.add(obj -> op.accept(obj.currentIndexProperty()));
         return this;
     }    
     
-    public WebHistoryBuilder currentIndexPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
-        operations.add(obj -> op.accept(obj.currentIndexProperty()));
+    public WebHistoryBuilder maxSizePropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
+        operations.add(obj -> op.accept(obj.maxSizeProperty()));
         return this;
     }
 }

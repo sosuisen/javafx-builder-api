@@ -94,8 +94,8 @@ public class TextFormatterChangeBuilder {
         return this;
     }    
     
-    public  TextFormatterChangeBuilder text(java.lang.String value) {
-        operations.add(obj -> obj.setText(value));
+    public  TextFormatterChangeBuilder caretPosition(int newCaretPosition) {
+        operations.add(obj -> obj.setCaretPosition(newCaretPosition));
         return this;
     }    
     
@@ -104,8 +104,8 @@ public class TextFormatterChangeBuilder {
         return this;
     }    
     
-    public  TextFormatterChangeBuilder caretPosition(int newCaretPosition) {
-        operations.add(obj -> obj.setCaretPosition(newCaretPosition));
+    public  TextFormatterChangeBuilder text(java.lang.String value) {
+        operations.add(obj -> obj.setText(value));
         return this;
     }
 }

@@ -5,7 +5,9 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.lang.reflect.Parameter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class LayoutConstraintsExtractor {
 
@@ -43,28 +45,31 @@ public class LayoutConstraintsExtractor {
     }
 
     private List<StaticSetterInfo> extractStaticSettersFromClass(Class<?> clazz) {
-        List<StaticSetterInfo> staticSetters = new ArrayList<>();
         Method[] methods = clazz.getMethods();
 
-        for (Method method : methods) {
-            if (Modifier.isStatic(method.getModifiers()) &&
-                    method.getName().startsWith("set")) {
+        // Filter static setter methods and sort them by their string representation to ensure consistent output order
+        List<Method> staticSetterMethods = Arrays.stream(methods)
+                .filter(method -> Modifier.isStatic(method.getModifiers()) &&
+                                 method.getName().startsWith("set"))
+                .sorted(MethodComparator.forMethod())
+                .collect(Collectors.toList());
 
-                List<ParameterInfo> parameters = new ArrayList<>();
-                Parameter[] methodParameters = method.getParameters();
+        List<StaticSetterInfo> staticSetters = new ArrayList<>();
+        for (Method method : staticSetterMethods) {
+            List<ParameterInfo> parameters = new ArrayList<>();
+            Parameter[] methodParameters = method.getParameters();
 
-                for (Parameter param : methodParameters) {
-                    parameters.add(new ParameterInfo(
-                            param.getParameterizedType().getTypeName(),
-                            param.getName()));
-                }
-
-                staticSetters.add(new StaticSetterInfo(
-                        clazz,
-                        method.getName(),
-                        parameters,
-                        method.getReturnType().getName()));
+            for (Parameter param : methodParameters) {
+                parameters.add(new ParameterInfo(
+                        param.getParameterizedType().getTypeName(),
+                        param.getName()));
             }
+
+            staticSetters.add(new StaticSetterInfo(
+                    clazz,
+                    method.getName(),
+                    parameters,
+                    method.getReturnType().getName()));
         }
 
         return staticSetters;

@@ -11,17 +11,17 @@ public class DisplacementMapBuilder {
 
 
     
-    public static DisplacementMapBuilder create(javafx.scene.effect.FloatMap mapData, double offsetX, double offsetY, double scaleX, double scaleY) {
+    public static DisplacementMapBuilder create(javafx.scene.effect.FloatMap mapData) {
         DisplacementMapBuilder builder = new DisplacementMapBuilder();
-        builder.constructorArgs = new Object[]{mapData, offsetX, offsetY, scaleX, scaleY};
+        builder.constructorArgs = new Object[]{mapData};
         return builder;
     }
 
 
     
-    public static DisplacementMapBuilder create(javafx.scene.effect.FloatMap mapData) {
+    public static DisplacementMapBuilder create(javafx.scene.effect.FloatMap mapData, double offsetX, double offsetY, double scaleX, double scaleY) {
         DisplacementMapBuilder builder = new DisplacementMapBuilder();
-        builder.constructorArgs = new Object[]{mapData};
+        builder.constructorArgs = new Object[]{mapData, offsetX, offsetY, scaleX, scaleY};
         return builder;
     }
 
@@ -119,8 +119,8 @@ public class DisplacementMapBuilder {
         return this;
     }    
     
-    public  DisplacementMapBuilder offsetY(double value) {
-        operations.add(obj -> obj.setOffsetY(value));
+    public  DisplacementMapBuilder mapData(javafx.scene.effect.FloatMap value) {
+        operations.add(obj -> obj.setMapData(value));
         return this;
     }    
     
@@ -129,8 +129,8 @@ public class DisplacementMapBuilder {
         return this;
     }    
     
-    public  DisplacementMapBuilder scaleY(double value) {
-        operations.add(obj -> obj.setScaleY(value));
+    public  DisplacementMapBuilder offsetY(double value) {
+        operations.add(obj -> obj.setOffsetY(value));
         return this;
     }    
     
@@ -139,28 +139,18 @@ public class DisplacementMapBuilder {
         return this;
     }    
     
+    public  DisplacementMapBuilder scaleY(double value) {
+        operations.add(obj -> obj.setScaleY(value));
+        return this;
+    }    
+    
     public  DisplacementMapBuilder wrap(boolean value) {
         operations.add(obj -> obj.setWrap(value));
         return this;
     }    
     
-    public  DisplacementMapBuilder mapData(javafx.scene.effect.FloatMap value) {
-        operations.add(obj -> obj.setMapData(value));
-        return this;
-    }    
-    
-    public DisplacementMapBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
-        operations.add(obj -> op.accept(obj.inputProperty()));
-        return this;
-    }    
-    
-    public DisplacementMapBuilder offsetYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.offsetYProperty()));
-        return this;
-    }    
-    
-    public DisplacementMapBuilder offsetXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.offsetXProperty()));
+    public DisplacementMapBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
     }    
     
@@ -169,8 +159,18 @@ public class DisplacementMapBuilder {
         return this;
     }    
     
-    public DisplacementMapBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleYProperty()));
+    public DisplacementMapBuilder offsetYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.offsetYProperty()));
+        return this;
+    }    
+    
+    public DisplacementMapBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
+        operations.add(obj -> op.accept(obj.inputProperty()));
+        return this;
+    }    
+    
+    public DisplacementMapBuilder offsetXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.offsetXProperty()));
         return this;
     }    
     

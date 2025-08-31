@@ -111,13 +111,13 @@ public class LightDistantBuilder {
         return this;
     }    
     
-    public  LightDistantBuilder elevation(double value) {
-        operations.add(obj -> obj.setElevation(value));
+    public  LightDistantBuilder color(javafx.scene.paint.Color value) {
+        operations.add(obj -> obj.setColor(value));
         return this;
     }    
     
-    public  LightDistantBuilder color(javafx.scene.paint.Color value) {
-        operations.add(obj -> obj.setColor(value));
+    public  LightDistantBuilder elevation(double value) {
+        operations.add(obj -> obj.setElevation(value));
         return this;
     }    
     

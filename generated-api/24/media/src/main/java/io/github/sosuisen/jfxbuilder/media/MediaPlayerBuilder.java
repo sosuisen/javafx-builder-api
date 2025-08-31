@@ -97,16 +97,6 @@ public class MediaPlayerBuilder {
         return this;
     }    
     
-    public  MediaPlayerBuilder startTime(javafx.util.Duration value) {
-        operations.add(obj -> obj.setStartTime(value));
-        return this;
-    }    
-    
-    public  MediaPlayerBuilder audioSpectrumNumBands(int value) {
-        operations.add(obj -> obj.setAudioSpectrumNumBands(value));
-        return this;
-    }    
-    
     public  MediaPlayerBuilder audioSpectrumInterval(double value) {
         operations.add(obj -> obj.setAudioSpectrumInterval(value));
         return this;
@@ -117,13 +107,18 @@ public class MediaPlayerBuilder {
         return this;
     }    
     
+    public  MediaPlayerBuilder audioSpectrumNumBands(int value) {
+        operations.add(obj -> obj.setAudioSpectrumNumBands(value));
+        return this;
+    }    
+    
     public  MediaPlayerBuilder audioSpectrumThreshold(int value) {
         operations.add(obj -> obj.setAudioSpectrumThreshold(value));
         return this;
     }    
     
-    public  MediaPlayerBuilder volume(double value) {
-        operations.add(obj -> obj.setVolume(value));
+    public  MediaPlayerBuilder autoPlay(boolean value) {
+        operations.add(obj -> obj.setAutoPlay(value));
         return this;
     }    
     
@@ -132,13 +127,8 @@ public class MediaPlayerBuilder {
         return this;
     }    
     
-    public  MediaPlayerBuilder rate(double value) {
-        operations.add(obj -> obj.setRate(value));
-        return this;
-    }    
-    
-    public  MediaPlayerBuilder onError(java.lang.Runnable value) {
-        operations.add(obj -> obj.setOnError(value));
+    public  MediaPlayerBuilder cycleCount(int value) {
+        operations.add(obj -> obj.setCycleCount(value));
         return this;
     }    
     
@@ -147,18 +137,18 @@ public class MediaPlayerBuilder {
         return this;
     }    
     
-    public  MediaPlayerBuilder onReady(java.lang.Runnable value) {
-        operations.add(obj -> obj.setOnReady(value));
+    public  MediaPlayerBuilder onEndOfMedia(java.lang.Runnable value) {
+        operations.add(obj -> obj.setOnEndOfMedia(value));
         return this;
     }    
     
-    public  MediaPlayerBuilder cycleCount(int value) {
-        operations.add(obj -> obj.setCycleCount(value));
+    public  MediaPlayerBuilder onError(java.lang.Runnable value) {
+        operations.add(obj -> obj.setOnError(value));
         return this;
     }    
     
-    public  MediaPlayerBuilder autoPlay(boolean value) {
-        operations.add(obj -> obj.setAutoPlay(value));
+    public  MediaPlayerBuilder onHalted(java.lang.Runnable value) {
+        operations.add(obj -> obj.setOnHalted(value));
         return this;
     }    
     
@@ -177,13 +167,13 @@ public class MediaPlayerBuilder {
         return this;
     }    
     
-    public  MediaPlayerBuilder onRepeat(java.lang.Runnable value) {
-        operations.add(obj -> obj.setOnRepeat(value));
+    public  MediaPlayerBuilder onReady(java.lang.Runnable value) {
+        operations.add(obj -> obj.setOnReady(value));
         return this;
     }    
     
-    public  MediaPlayerBuilder onHalted(java.lang.Runnable value) {
-        operations.add(obj -> obj.setOnHalted(value));
+    public  MediaPlayerBuilder onRepeat(java.lang.Runnable value) {
+        operations.add(obj -> obj.setOnRepeat(value));
         return this;
     }    
     
@@ -192,13 +182,18 @@ public class MediaPlayerBuilder {
         return this;
     }    
     
-    public  MediaPlayerBuilder onEndOfMedia(java.lang.Runnable value) {
-        operations.add(obj -> obj.setOnEndOfMedia(value));
+    public  MediaPlayerBuilder onStopped(java.lang.Runnable value) {
+        operations.add(obj -> obj.setOnStopped(value));
         return this;
     }    
     
-    public  MediaPlayerBuilder onStopped(java.lang.Runnable value) {
-        operations.add(obj -> obj.setOnStopped(value));
+    public  MediaPlayerBuilder rate(double value) {
+        operations.add(obj -> obj.setRate(value));
+        return this;
+    }    
+    
+    public  MediaPlayerBuilder startTime(javafx.util.Duration value) {
+        operations.add(obj -> obj.setStartTime(value));
         return this;
     }    
     
@@ -207,58 +202,83 @@ public class MediaPlayerBuilder {
         return this;
     }    
     
+    public  MediaPlayerBuilder volume(double value) {
+        operations.add(obj -> obj.setVolume(value));
+        return this;
+    }    
+    
     public MediaPlayerBuilder errorPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.media.MediaException>> op) {
         operations.add(obj -> op.accept(obj.errorProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder currentCountPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
-        operations.add(obj -> op.accept(obj.currentCountProperty()));
+    public MediaPlayerBuilder onErrorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
+        operations.add(obj -> op.accept(obj.onErrorProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder totalDurationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.util.Duration>> op) {
-        operations.add(obj -> op.accept(obj.totalDurationProperty()));
+    public MediaPlayerBuilder onMarkerPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.media.MediaMarkerEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMarkerProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder cycleDurationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.util.Duration>> op) {
-        operations.add(obj -> op.accept(obj.cycleDurationProperty()));
+    public MediaPlayerBuilder onPlayingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
+        operations.add(obj -> op.accept(obj.onPlayingProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder onEndOfMediaPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
-        operations.add(obj -> op.accept(obj.onEndOfMediaProperty()));
+    public MediaPlayerBuilder onRepeatPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
+        operations.add(obj -> op.accept(obj.onRepeatProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder currentTimePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.util.Duration>> op) {
-        operations.add(obj -> op.accept(obj.currentTimeProperty()));
+    public MediaPlayerBuilder autoPlayPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.autoPlayProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder currentRatePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.currentRateProperty()));
+    public MediaPlayerBuilder stopTimePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Duration>> op) {
+        operations.add(obj -> op.accept(obj.stopTimeProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder bufferProgressTimePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.util.Duration>> op) {
-        operations.add(obj -> op.accept(obj.bufferProgressTimeProperty()));
+    public MediaPlayerBuilder onReadyPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
+        operations.add(obj -> op.accept(obj.onReadyProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder ratePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.rateProperty()));
+    public MediaPlayerBuilder onPausedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
+        operations.add(obj -> op.accept(obj.onPausedProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder balancePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.balanceProperty()));
+    public MediaPlayerBuilder onStoppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
+        operations.add(obj -> op.accept(obj.onStoppedProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder volumePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.volumeProperty()));
+    public MediaPlayerBuilder mutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.muteProperty()));
+        return this;
+    }    
+    
+    public MediaPlayerBuilder startTimePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Duration>> op) {
+        operations.add(obj -> op.accept(obj.startTimeProperty()));
+        return this;
+    }    
+    
+    public MediaPlayerBuilder onHaltedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
+        operations.add(obj -> op.accept(obj.onHaltedProperty()));
+        return this;
+    }    
+    
+    public MediaPlayerBuilder onStalledPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
+        operations.add(obj -> op.accept(obj.onStalledProperty()));
+        return this;
+    }    
+    
+    public MediaPlayerBuilder statusPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.media.MediaPlayer.Status>> op) {
+        operations.add(obj -> op.accept(obj.statusProperty()));
         return this;
     }    
     
@@ -267,13 +287,18 @@ public class MediaPlayerBuilder {
         return this;
     }    
     
-    public MediaPlayerBuilder audioSpectrumNumBandsPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
-        operations.add(obj -> op.accept(obj.audioSpectrumNumBandsProperty()));
+    public MediaPlayerBuilder volumePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.volumeProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder audioSpectrumIntervalPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.audioSpectrumIntervalProperty()));
+    public MediaPlayerBuilder balancePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.balanceProperty()));
+        return this;
+    }    
+    
+    public MediaPlayerBuilder ratePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.rateProperty()));
         return this;
     }    
     
@@ -287,73 +312,48 @@ public class MediaPlayerBuilder {
         return this;
     }    
     
-    public MediaPlayerBuilder onReadyPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
-        operations.add(obj -> op.accept(obj.onReadyProperty()));
+    public MediaPlayerBuilder audioSpectrumIntervalPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.audioSpectrumIntervalProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder onPlayingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
-        operations.add(obj -> op.accept(obj.onPlayingProperty()));
+    public MediaPlayerBuilder audioSpectrumNumBandsPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
+        operations.add(obj -> op.accept(obj.audioSpectrumNumBandsProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder onPausedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
-        operations.add(obj -> op.accept(obj.onPausedProperty()));
+    public MediaPlayerBuilder currentTimePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.util.Duration>> op) {
+        operations.add(obj -> op.accept(obj.currentTimeProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder onRepeatPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
-        operations.add(obj -> op.accept(obj.onRepeatProperty()));
+    public MediaPlayerBuilder onEndOfMediaPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
+        operations.add(obj -> op.accept(obj.onEndOfMediaProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder onStoppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
-        operations.add(obj -> op.accept(obj.onStoppedProperty()));
+    public MediaPlayerBuilder currentRatePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.currentRateProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder onStalledPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
-        operations.add(obj -> op.accept(obj.onStalledProperty()));
+    public MediaPlayerBuilder bufferProgressTimePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.util.Duration>> op) {
+        operations.add(obj -> op.accept(obj.bufferProgressTimeProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder onHaltedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
-        operations.add(obj -> op.accept(obj.onHaltedProperty()));
+    public MediaPlayerBuilder totalDurationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.util.Duration>> op) {
+        operations.add(obj -> op.accept(obj.totalDurationProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder statusPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.media.MediaPlayer.Status>> op) {
-        operations.add(obj -> op.accept(obj.statusProperty()));
+    public MediaPlayerBuilder cycleDurationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.util.Duration>> op) {
+        operations.add(obj -> op.accept(obj.cycleDurationProperty()));
         return this;
     }    
     
-    public MediaPlayerBuilder onErrorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
-        operations.add(obj -> op.accept(obj.onErrorProperty()));
-        return this;
-    }    
-    
-    public MediaPlayerBuilder stopTimePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Duration>> op) {
-        operations.add(obj -> op.accept(obj.stopTimeProperty()));
-        return this;
-    }    
-    
-    public MediaPlayerBuilder onMarkerPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.media.MediaMarkerEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMarkerProperty()));
-        return this;
-    }    
-    
-    public MediaPlayerBuilder mutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.muteProperty()));
-        return this;
-    }    
-    
-    public MediaPlayerBuilder autoPlayPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.autoPlayProperty()));
-        return this;
-    }    
-    
-    public MediaPlayerBuilder startTimePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Duration>> op) {
-        operations.add(obj -> op.accept(obj.startTimeProperty()));
+    public MediaPlayerBuilder currentCountPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
+        operations.add(obj -> op.accept(obj.currentCountProperty()));
         return this;
     }
 }

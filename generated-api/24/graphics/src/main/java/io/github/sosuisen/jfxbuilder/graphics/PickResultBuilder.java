@@ -24,17 +24,17 @@ public class PickResultBuilder {
 
 
     
-    public static PickResultBuilder create(javafx.scene.Node node, javafx.geometry.Point3D point, double distance, int face, javafx.geometry.Point3D normal, javafx.geometry.Point2D texCoord) {
+    public static PickResultBuilder create(javafx.scene.Node node, javafx.geometry.Point3D point, double distance, int face, javafx.geometry.Point2D texCoord) {
         PickResultBuilder builder = new PickResultBuilder();
-        builder.constructorArgs = new Object[]{node, point, distance, face, normal, texCoord};
+        builder.constructorArgs = new Object[]{node, point, distance, face, texCoord};
         return builder;
     }
 
 
     
-    public static PickResultBuilder create(javafx.scene.Node node, javafx.geometry.Point3D point, double distance, int face, javafx.geometry.Point2D texCoord) {
+    public static PickResultBuilder create(javafx.scene.Node node, javafx.geometry.Point3D point, double distance, int face, javafx.geometry.Point3D normal, javafx.geometry.Point2D texCoord) {
         PickResultBuilder builder = new PickResultBuilder();
-        builder.constructorArgs = new Object[]{node, point, distance, face, texCoord};
+        builder.constructorArgs = new Object[]{node, point, distance, face, normal, texCoord};
         return builder;
     }
 

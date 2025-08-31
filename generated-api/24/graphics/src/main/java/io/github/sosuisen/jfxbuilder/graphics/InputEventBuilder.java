@@ -8,17 +8,17 @@ public class InputEventBuilder {
     
 
     
-    public static InputEventBuilder create(javafx.event.EventType<? extends javafx.scene.input.InputEvent> eventType) {
+    public static InputEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<? extends javafx.scene.input.InputEvent> eventType) {
         InputEventBuilder builder = new InputEventBuilder();
-        builder.constructorArgs = new Object[]{eventType};
+        builder.constructorArgs = new Object[]{source, target, eventType};
         return builder;
     }
 
 
     
-    public static InputEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<? extends javafx.scene.input.InputEvent> eventType) {
+    public static InputEventBuilder create(javafx.event.EventType<? extends javafx.scene.input.InputEvent> eventType) {
         InputEventBuilder builder = new InputEventBuilder();
-        builder.constructorArgs = new Object[]{source, target, eventType};
+        builder.constructorArgs = new Object[]{eventType};
         return builder;
     }
 

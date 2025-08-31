@@ -106,13 +106,13 @@ public class BloomBuilder {
         return this;
     }    
     
-    public  BloomBuilder threshold(double value) {
-        operations.add(obj -> obj.setThreshold(value));
+    public  BloomBuilder input(javafx.scene.effect.Effect value) {
+        operations.add(obj -> obj.setInput(value));
         return this;
     }    
     
-    public  BloomBuilder input(javafx.scene.effect.Effect value) {
-        operations.add(obj -> obj.setInput(value));
+    public  BloomBuilder threshold(double value) {
+        operations.add(obj -> obj.setThreshold(value));
         return this;
     }    
     

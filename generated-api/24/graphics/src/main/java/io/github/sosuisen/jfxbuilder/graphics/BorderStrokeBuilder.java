@@ -8,6 +8,14 @@ public class BorderStrokeBuilder {
     
 
     
+    public static BorderStrokeBuilder create(javafx.scene.paint.Paint stroke, javafx.scene.layout.BorderStrokeStyle style, javafx.scene.layout.CornerRadii radii, javafx.scene.layout.BorderWidths widths) {
+        BorderStrokeBuilder builder = new BorderStrokeBuilder();
+        builder.constructorArgs = new Object[]{stroke, style, radii, widths};
+        return builder;
+    }
+
+
+    
     public static BorderStrokeBuilder create(javafx.scene.paint.Paint stroke, javafx.scene.layout.BorderStrokeStyle style, javafx.scene.layout.CornerRadii radii, javafx.scene.layout.BorderWidths widths, javafx.geometry.Insets insets) {
         BorderStrokeBuilder builder = new BorderStrokeBuilder();
         builder.constructorArgs = new Object[]{stroke, style, radii, widths, insets};
@@ -19,14 +27,6 @@ public class BorderStrokeBuilder {
     public static BorderStrokeBuilder create(javafx.scene.paint.Paint topStroke, javafx.scene.paint.Paint rightStroke, javafx.scene.paint.Paint bottomStroke, javafx.scene.paint.Paint leftStroke, javafx.scene.layout.BorderStrokeStyle topStyle, javafx.scene.layout.BorderStrokeStyle rightStyle, javafx.scene.layout.BorderStrokeStyle bottomStyle, javafx.scene.layout.BorderStrokeStyle leftStyle, javafx.scene.layout.CornerRadii radii, javafx.scene.layout.BorderWidths widths, javafx.geometry.Insets insets) {
         BorderStrokeBuilder builder = new BorderStrokeBuilder();
         builder.constructorArgs = new Object[]{topStroke, rightStroke, bottomStroke, leftStroke, topStyle, rightStyle, bottomStyle, leftStyle, radii, widths, insets};
-        return builder;
-    }
-
-
-    
-    public static BorderStrokeBuilder create(javafx.scene.paint.Paint stroke, javafx.scene.layout.BorderStrokeStyle style, javafx.scene.layout.CornerRadii radii, javafx.scene.layout.BorderWidths widths) {
-        BorderStrokeBuilder builder = new BorderStrokeBuilder();
-        builder.constructorArgs = new Object[]{stroke, style, radii, widths};
         return builder;
     }
 

@@ -111,11 +111,6 @@ public class BoxBlurBuilder {
         return this;
     }    
     
-    public  BoxBlurBuilder width(double value) {
-        operations.add(obj -> obj.setWidth(value));
-        return this;
-    }    
-    
     public  BoxBlurBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
@@ -126,13 +121,18 @@ public class BoxBlurBuilder {
         return this;
     }    
     
-    public BoxBlurBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.heightProperty()));
+    public  BoxBlurBuilder width(double value) {
+        operations.add(obj -> obj.setWidth(value));
         return this;
     }    
     
     public BoxBlurBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
+        return this;
+    }    
+    
+    public BoxBlurBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
     }    
     

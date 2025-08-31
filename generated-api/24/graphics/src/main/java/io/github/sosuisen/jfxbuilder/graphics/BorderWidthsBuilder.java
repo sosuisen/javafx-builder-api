@@ -16,17 +16,17 @@ public class BorderWidthsBuilder {
 
 
     
-    public static BorderWidthsBuilder create(double top, double right, double bottom, double left, boolean topAsPercentage, boolean rightAsPercentage, boolean bottomAsPercentage, boolean leftAsPercentage) {
+    public static BorderWidthsBuilder create(double top, double right, double bottom, double left) {
         BorderWidthsBuilder builder = new BorderWidthsBuilder();
-        builder.constructorArgs = new Object[]{top, right, bottom, left, topAsPercentage, rightAsPercentage, bottomAsPercentage, leftAsPercentage};
+        builder.constructorArgs = new Object[]{top, right, bottom, left};
         return builder;
     }
 
 
     
-    public static BorderWidthsBuilder create(double top, double right, double bottom, double left) {
+    public static BorderWidthsBuilder create(double top, double right, double bottom, double left, boolean topAsPercentage, boolean rightAsPercentage, boolean bottomAsPercentage, boolean leftAsPercentage) {
         BorderWidthsBuilder builder = new BorderWidthsBuilder();
-        builder.constructorArgs = new Object[]{top, right, bottom, left};
+        builder.constructorArgs = new Object[]{top, right, bottom, left, topAsPercentage, rightAsPercentage, bottomAsPercentage, leftAsPercentage};
         return builder;
     }
 

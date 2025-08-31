@@ -97,13 +97,13 @@ public class MenuBarSkinBuilder {
         return this;
     }    
     
-    public  MenuBarSkinBuilder spacing(double value) {
-        operations.add(obj -> obj.setSpacing(value));
+    public  MenuBarSkinBuilder containerAlignment(javafx.geometry.Pos value) {
+        operations.add(obj -> obj.setContainerAlignment(value));
         return this;
     }    
     
-    public  MenuBarSkinBuilder containerAlignment(javafx.geometry.Pos value) {
-        operations.add(obj -> obj.setContainerAlignment(value));
+    public  MenuBarSkinBuilder spacing(double value) {
+        operations.add(obj -> obj.setSpacing(value));
         return this;
     }
     @SafeVarargs

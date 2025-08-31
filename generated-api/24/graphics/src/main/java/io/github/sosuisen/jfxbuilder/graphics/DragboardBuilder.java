@@ -89,8 +89,8 @@ public class DragboardBuilder {
         return this;
     }    
     
-    public  DragboardBuilder dragViewOffsetY(double offsetY) {
-        operations.add(obj -> obj.setDragViewOffsetY(offsetY));
+    public  DragboardBuilder content(java.util.Map<javafx.scene.input.DataFormat, java.lang.Object> content) {
+        operations.add(obj -> obj.setContent(content));
         return this;
     }    
     
@@ -109,8 +109,8 @@ public class DragboardBuilder {
         return this;
     }    
     
-    public  DragboardBuilder content(java.util.Map<javafx.scene.input.DataFormat, java.lang.Object> content) {
-        operations.add(obj -> obj.setContent(content));
+    public  DragboardBuilder dragViewOffsetY(double offsetY) {
+        operations.add(obj -> obj.setDragViewOffsetY(offsetY));
         return this;
     }
 }

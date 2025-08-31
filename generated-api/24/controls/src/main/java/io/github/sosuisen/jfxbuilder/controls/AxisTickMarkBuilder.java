@@ -105,11 +105,6 @@ public class AxisTickMarkBuilder<T> {
         return this;
     }    
     
-    public  AxisTickMarkBuilder<T> value(T v) {
-        operations.add(obj -> obj.setValue(v));
-        return this;
-    }    
-    
     public  AxisTickMarkBuilder<T> position(double value) {
         operations.add(obj -> obj.setPosition(value));
         return this;
@@ -117,6 +112,11 @@ public class AxisTickMarkBuilder<T> {
     
     public  AxisTickMarkBuilder<T> textVisible(boolean value) {
         operations.add(obj -> obj.setTextVisible(value));
+        return this;
+    }    
+    
+    public  AxisTickMarkBuilder<T> value(T v) {
+        operations.add(obj -> obj.setValue(v));
         return this;
     }    
     

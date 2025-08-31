@@ -106,6 +106,11 @@ public class LineToBuilder {
         return this;
     }    
     
+    public  LineToBuilder absolute(boolean value) {
+        operations.add(obj -> obj.setAbsolute(value));
+        return this;
+    }    
+    
     public  LineToBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
@@ -113,11 +118,6 @@ public class LineToBuilder {
     
     public  LineToBuilder y(double value) {
         operations.add(obj -> obj.setY(value));
-        return this;
-    }    
-    
-    public  LineToBuilder absolute(boolean value) {
-        operations.add(obj -> obj.setAbsolute(value));
         return this;
     }    
     

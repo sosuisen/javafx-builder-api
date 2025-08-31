@@ -16,9 +16,9 @@ public class TextFormatterBuilder<V> {
 
 
     
-    public static <V> TextFormatterBuilder<V> create(javafx.util.StringConverter<V> valueConverter, V defaultValue, java.util.function.UnaryOperator<javafx.scene.control.TextFormatter.Change> filter) {
+    public static <V> TextFormatterBuilder<V> create(javafx.util.StringConverter<V> valueConverter) {
         TextFormatterBuilder<V> builder = new TextFormatterBuilder<V>();
-        builder.constructorArgs = new Object[]{valueConverter, defaultValue, filter};
+        builder.constructorArgs = new Object[]{valueConverter};
         return builder;
     }
 
@@ -32,9 +32,9 @@ public class TextFormatterBuilder<V> {
 
 
     
-    public static <V> TextFormatterBuilder<V> create(javafx.util.StringConverter<V> valueConverter) {
+    public static <V> TextFormatterBuilder<V> create(javafx.util.StringConverter<V> valueConverter, V defaultValue, java.util.function.UnaryOperator<javafx.scene.control.TextFormatter.Change> filter) {
         TextFormatterBuilder<V> builder = new TextFormatterBuilder<V>();
-        builder.constructorArgs = new Object[]{valueConverter};
+        builder.constructorArgs = new Object[]{valueConverter, defaultValue, filter};
         return builder;
     }
 

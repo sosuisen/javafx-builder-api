@@ -8,9 +8,9 @@ public class CornerRadiiBuilder {
     
 
     
-    public static CornerRadiiBuilder create(double topLeft, double topRight, double bottomRight, double bottomLeft, boolean asPercent) {
+    public static CornerRadiiBuilder create(double radius) {
         CornerRadiiBuilder builder = new CornerRadiiBuilder();
-        builder.constructorArgs = new Object[]{topLeft, topRight, bottomRight, bottomLeft, asPercent};
+        builder.constructorArgs = new Object[]{radius};
         return builder;
     }
 
@@ -24,9 +24,9 @@ public class CornerRadiiBuilder {
 
 
     
-    public static CornerRadiiBuilder create(double radius) {
+    public static CornerRadiiBuilder create(double topLeft, double topRight, double bottomRight, double bottomLeft, boolean asPercent) {
         CornerRadiiBuilder builder = new CornerRadiiBuilder();
-        builder.constructorArgs = new Object[]{radius};
+        builder.constructorArgs = new Object[]{topLeft, topRight, bottomRight, bottomLeft, asPercent};
         return builder;
     }
 

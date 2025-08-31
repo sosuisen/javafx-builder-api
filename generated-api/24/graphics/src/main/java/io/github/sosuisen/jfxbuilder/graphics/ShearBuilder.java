@@ -114,13 +114,8 @@ public class ShearBuilder {
         return this;
     }    
     
-    public  ShearBuilder x(double value) {
-        operations.add(obj -> obj.setX(value));
-        return this;
-    }    
-    
-    public  ShearBuilder y(double value) {
-        operations.add(obj -> obj.setY(value));
+    public  ShearBuilder onTransformChanged(javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent> value) {
+        operations.add(obj -> obj.setOnTransformChanged(value));
         return this;
     }    
     
@@ -134,8 +129,13 @@ public class ShearBuilder {
         return this;
     }    
     
-    public  ShearBuilder onTransformChanged(javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent> value) {
-        operations.add(obj -> obj.setOnTransformChanged(value));
+    public  ShearBuilder x(double value) {
+        operations.add(obj -> obj.setX(value));
+        return this;
+    }    
+    
+    public  ShearBuilder y(double value) {
+        operations.add(obj -> obj.setY(value));
         return this;
     }    
     
@@ -149,18 +149,18 @@ public class ShearBuilder {
         return this;
     }    
     
-    public ShearBuilder pivotYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.pivotYProperty()));
-        return this;
-    }    
-    
     public ShearBuilder pivotXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.pivotXProperty()));
         return this;
     }    
     
-    public ShearBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.identityProperty()));
+    public ShearBuilder pivotYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.pivotYProperty()));
+        return this;
+    }    
+    
+    public ShearBuilder onTransformChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTransformChangedProperty()));
         return this;
     }    
     
@@ -169,8 +169,8 @@ public class ShearBuilder {
         return this;
     }    
     
-    public ShearBuilder onTransformChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTransformChangedProperty()));
+    public ShearBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.identityProperty()));
         return this;
     }
 }

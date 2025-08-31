@@ -8,17 +8,17 @@ public class DragEventBuilder {
     
 
     
-    public static DragEventBuilder create(javafx.event.EventType<javafx.scene.input.DragEvent> eventType, javafx.scene.input.Dragboard dragboard, double x, double y, double screenX, double screenY, javafx.scene.input.TransferMode transferMode, java.lang.Object gestureSource, java.lang.Object gestureTarget, javafx.scene.input.PickResult pickResult) {
+    public static DragEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.DragEvent> eventType, javafx.scene.input.Dragboard dragboard, double x, double y, double screenX, double screenY, javafx.scene.input.TransferMode transferMode, java.lang.Object gestureSource, java.lang.Object gestureTarget, javafx.scene.input.PickResult pickResult) {
         DragEventBuilder builder = new DragEventBuilder();
-        builder.constructorArgs = new Object[]{eventType, dragboard, x, y, screenX, screenY, transferMode, gestureSource, gestureTarget, pickResult};
+        builder.constructorArgs = new Object[]{source, target, eventType, dragboard, x, y, screenX, screenY, transferMode, gestureSource, gestureTarget, pickResult};
         return builder;
     }
 
 
     
-    public static DragEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.DragEvent> eventType, javafx.scene.input.Dragboard dragboard, double x, double y, double screenX, double screenY, javafx.scene.input.TransferMode transferMode, java.lang.Object gestureSource, java.lang.Object gestureTarget, javafx.scene.input.PickResult pickResult) {
+    public static DragEventBuilder create(javafx.event.EventType<javafx.scene.input.DragEvent> eventType, javafx.scene.input.Dragboard dragboard, double x, double y, double screenX, double screenY, javafx.scene.input.TransferMode transferMode, java.lang.Object gestureSource, java.lang.Object gestureTarget, javafx.scene.input.PickResult pickResult) {
         DragEventBuilder builder = new DragEventBuilder();
-        builder.constructorArgs = new Object[]{source, target, eventType, dragboard, x, y, screenX, screenY, transferMode, gestureSource, gestureTarget, pickResult};
+        builder.constructorArgs = new Object[]{eventType, dragboard, x, y, screenX, screenY, transferMode, gestureSource, gestureTarget, pickResult};
         return builder;
     }
 

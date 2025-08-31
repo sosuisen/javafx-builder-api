@@ -7,18 +7,18 @@ public class KeyCharacterCombinationBuilder {
     private KeyCharacterCombinationBuilder() {}
     
 
-    @SafeVarargs
-    public static KeyCharacterCombinationBuilder create(java.lang.String character, javafx.scene.input.KeyCombination.Modifier... modifiers) {
-        KeyCharacterCombinationBuilder builder = new KeyCharacterCombinationBuilder();
-        builder.constructorArgs = new Object[]{character, modifiers};
-        return builder;
-    }
-
-
     
     public static KeyCharacterCombinationBuilder create(java.lang.String character, javafx.scene.input.KeyCombination.ModifierValue shift, javafx.scene.input.KeyCombination.ModifierValue control, javafx.scene.input.KeyCombination.ModifierValue alt, javafx.scene.input.KeyCombination.ModifierValue meta, javafx.scene.input.KeyCombination.ModifierValue shortcut) {
         KeyCharacterCombinationBuilder builder = new KeyCharacterCombinationBuilder();
         builder.constructorArgs = new Object[]{character, shift, control, alt, meta, shortcut};
+        return builder;
+    }
+
+
+    @SafeVarargs
+    public static KeyCharacterCombinationBuilder create(java.lang.String character, javafx.scene.input.KeyCombination.Modifier... modifiers) {
+        KeyCharacterCombinationBuilder builder = new KeyCharacterCombinationBuilder();
+        builder.constructorArgs = new Object[]{character, modifiers};
         return builder;
     }
 

@@ -8,17 +8,17 @@ public class ImagePatternBuilder {
     
 
     
-    public static ImagePatternBuilder create(javafx.scene.image.Image image, double x, double y, double width, double height, boolean proportional) {
+    public static ImagePatternBuilder create(javafx.scene.image.Image image) {
         ImagePatternBuilder builder = new ImagePatternBuilder();
-        builder.constructorArgs = new Object[]{image, x, y, width, height, proportional};
+        builder.constructorArgs = new Object[]{image};
         return builder;
     }
 
 
     
-    public static ImagePatternBuilder create(javafx.scene.image.Image image) {
+    public static ImagePatternBuilder create(javafx.scene.image.Image image, double x, double y, double width, double height, boolean proportional) {
         ImagePatternBuilder builder = new ImagePatternBuilder();
-        builder.constructorArgs = new Object[]{image};
+        builder.constructorArgs = new Object[]{image, x, y, width, height, proportional};
         return builder;
     }
 
