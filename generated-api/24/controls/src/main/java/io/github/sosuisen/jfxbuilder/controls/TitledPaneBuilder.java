@@ -111,6 +111,11 @@ public class TitledPaneBuilder {
         return this;
     }    
     
+    public  TitledPaneBuilder collapsible(boolean value) {
+        operations.add(obj -> obj.setCollapsible(value));
+        return this;
+    }    
+    
     public  TitledPaneBuilder content(javafx.scene.Node value) {
         operations.add(obj -> obj.setContent(value));
         return this;
@@ -121,13 +126,13 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public  TitledPaneBuilder collapsible(boolean value) {
-        operations.add(obj -> obj.setCollapsible(value));
+    public  TitledPaneBuilder mnemonicParsing(boolean value) {
+        operations.add(obj -> obj.setMnemonicParsing(value));
         return this;
     }    
     
-    public  TitledPaneBuilder mnemonicParsing(boolean value) {
-        operations.add(obj -> obj.setMnemonicParsing(value));
+    public  TitledPaneBuilder text(java.lang.String value) {
+        operations.add(obj -> obj.setText(value));
         return this;
     }    
     
@@ -136,8 +141,8 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public  TitledPaneBuilder text(java.lang.String value) {
-        operations.add(obj -> obj.setText(value));
+    public  TitledPaneBuilder ellipsisString(java.lang.String value) {
+        operations.add(obj -> obj.setEllipsisString(value));
         return this;
     }    
     
@@ -156,28 +161,13 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public  TitledPaneBuilder textOverrun(javafx.scene.control.OverrunStyle value) {
-        operations.add(obj -> obj.setTextOverrun(value));
-        return this;
-    }    
-    
     public  TitledPaneBuilder textFill(javafx.scene.paint.Paint value) {
         operations.add(obj -> obj.setTextFill(value));
         return this;
     }    
     
-    public  TitledPaneBuilder ellipsisString(java.lang.String value) {
-        operations.add(obj -> obj.setEllipsisString(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder lineSpacing(double value) {
-        operations.add(obj -> obj.setLineSpacing(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder textAlignment(javafx.scene.text.TextAlignment value) {
-        operations.add(obj -> obj.setTextAlignment(value));
+    public  TitledPaneBuilder textOverrun(javafx.scene.control.OverrunStyle value) {
+        operations.add(obj -> obj.setTextOverrun(value));
         return this;
     }    
     
@@ -186,8 +176,8 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public  TitledPaneBuilder alignment(javafx.geometry.Pos value) {
-        operations.add(obj -> obj.setAlignment(value));
+    public  TitledPaneBuilder textAlignment(javafx.scene.text.TextAlignment value) {
+        operations.add(obj -> obj.setTextAlignment(value));
         return this;
     }    
     
@@ -196,13 +186,13 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public  TitledPaneBuilder tooltip(javafx.scene.control.Tooltip value) {
-        operations.add(obj -> obj.setTooltip(value));
+    public  TitledPaneBuilder alignment(javafx.geometry.Pos value) {
+        operations.add(obj -> obj.setAlignment(value));
         return this;
     }    
     
-    public  TitledPaneBuilder skin(javafx.scene.control.Skin<?> value) {
-        operations.add(obj -> obj.setSkin(value));
+    public  TitledPaneBuilder lineSpacing(double value) {
+        operations.add(obj -> obj.setLineSpacing(value));
         return this;
     }    
     
@@ -211,33 +201,48 @@ public class TitledPaneBuilder {
         return this;
     }    
     
+    public  TitledPaneBuilder skin(javafx.scene.control.Skin<?> value) {
+        operations.add(obj -> obj.setSkin(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder tooltip(javafx.scene.control.Tooltip value) {
+        operations.add(obj -> obj.setTooltip(value));
+        return this;
+    }    
+    
     public  TitledPaneBuilder background(javafx.scene.layout.Background value) {
         operations.add(obj -> obj.setBackground(value));
         return this;
     }    
     
-    public  TitledPaneBuilder prefWidth(double value) {
-        operations.add(obj -> obj.setPrefWidth(value));
+    public  TitledPaneBuilder maxWidth(double value) {
+        operations.add(obj -> obj.setMaxWidth(value));
         return this;
     }    
     
-    public  TitledPaneBuilder prefHeight(double value) {
-        operations.add(obj -> obj.setPrefHeight(value));
+    public  TitledPaneBuilder maxHeight(double value) {
+        operations.add(obj -> obj.setMaxHeight(value));
         return this;
     }    
     
-    public  TitledPaneBuilder opaqueInsets(javafx.geometry.Insets value) {
-        operations.add(obj -> obj.setOpaqueInsets(value));
+    public  TitledPaneBuilder minWidth(double value) {
+        operations.add(obj -> obj.setMinWidth(value));
         return this;
     }    
     
-    public  TitledPaneBuilder padding(javafx.geometry.Insets value) {
-        operations.add(obj -> obj.setPadding(value));
+    public  TitledPaneBuilder minHeight(double value) {
+        operations.add(obj -> obj.setMinHeight(value));
         return this;
     }    
     
     public  TitledPaneBuilder minSize(double minWidth, double minHeight) {
         operations.add(obj -> obj.setMinSize(minWidth, minHeight));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder padding(javafx.geometry.Insets value) {
+        operations.add(obj -> obj.setPadding(value));
         return this;
     }    
     
@@ -256,18 +261,23 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public  TitledPaneBuilder centerShape(boolean value) {
-        operations.add(obj -> obj.setCenterShape(value));
+    public  TitledPaneBuilder prefWidth(double value) {
+        operations.add(obj -> obj.setPrefWidth(value));
         return this;
     }    
     
-    public  TitledPaneBuilder snapToPixel(boolean value) {
-        operations.add(obj -> obj.setSnapToPixel(value));
+    public  TitledPaneBuilder prefHeight(double value) {
+        operations.add(obj -> obj.setPrefHeight(value));
         return this;
     }    
     
     public  TitledPaneBuilder prefSize(double prefWidth, double prefHeight) {
         operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder opaqueInsets(javafx.geometry.Insets value) {
+        operations.add(obj -> obj.setOpaqueInsets(value));
         return this;
     }    
     
@@ -281,23 +291,23 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public  TitledPaneBuilder minWidth(double value) {
-        operations.add(obj -> obj.setMinWidth(value));
+    public  TitledPaneBuilder snapToPixel(boolean value) {
+        operations.add(obj -> obj.setSnapToPixel(value));
         return this;
     }    
     
-    public  TitledPaneBuilder maxWidth(double value) {
-        operations.add(obj -> obj.setMaxWidth(value));
+    public  TitledPaneBuilder centerShape(boolean value) {
+        operations.add(obj -> obj.setCenterShape(value));
         return this;
     }    
     
-    public  TitledPaneBuilder maxHeight(double value) {
-        operations.add(obj -> obj.setMaxHeight(value));
+    public  TitledPaneBuilder userData(java.lang.Object value) {
+        operations.add(obj -> obj.setUserData(value));
         return this;
     }    
     
-    public  TitledPaneBuilder minHeight(double value) {
-        operations.add(obj -> obj.setMinHeight(value));
+    public  TitledPaneBuilder opacity(double value) {
+        operations.add(obj -> obj.setOpacity(value));
         return this;
     }    
     
@@ -313,11 +323,6 @@ public class TitledPaneBuilder {
     
     public  TitledPaneBuilder inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
         operations.add(obj -> obj.setInputMethodRequests(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder opacity(double value) {
-        operations.add(obj -> obj.setOpacity(value));
         return this;
     }    
     
@@ -341,23 +346,23 @@ public class TitledPaneBuilder {
         return this;
     }    
     
+    public  TitledPaneBuilder accessibleRoleDescription(java.lang.String value) {
+        operations.add(obj -> obj.setAccessibleRoleDescription(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
+        operations.add(obj -> obj.setOnInputMethodTextChanged(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder layoutX(double value) {
+        operations.add(obj -> obj.setLayoutX(value));
+        return this;
+    }    
+    
     public  TitledPaneBuilder effect(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setEffect(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder clip(javafx.scene.Node value) {
-        operations.add(obj -> obj.setClip(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder style(java.lang.String value) {
-        operations.add(obj -> obj.setStyle(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder managed(boolean value) {
-        operations.add(obj -> obj.setManaged(value));
         return this;
     }    
     
@@ -366,8 +371,33 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public  TitledPaneBuilder layoutX(double value) {
-        operations.add(obj -> obj.setLayoutX(value));
+    public  TitledPaneBuilder onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoom(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder clip(javafx.scene.Node value) {
+        operations.add(obj -> obj.setClip(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder managed(boolean value) {
+        operations.add(obj -> obj.setManaged(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder scaleX(double value) {
+        operations.add(obj -> obj.setScaleX(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder scaleY(double value) {
+        operations.add(obj -> obj.setScaleY(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder style(java.lang.String value) {
+        operations.add(obj -> obj.setStyle(value));
         return this;
     }    
     
@@ -381,93 +411,13 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public  TitledPaneBuilder onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoom(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder scaleY(double value) {
-        operations.add(obj -> obj.setScaleY(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder scaleX(double value) {
-        operations.add(obj -> obj.setScaleX(value));
-        return this;
-    }    
-    
     public  TitledPaneBuilder viewOrder(double value) {
         operations.add(obj -> obj.setViewOrder(value));
         return this;
     }    
     
-    public  TitledPaneBuilder onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
-        operations.add(obj -> obj.setOnContextMenuRequested(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragEntered(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
-        operations.add(obj -> obj.setOnRotationFinished(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder focusTraversable(boolean value) {
-        operations.add(obj -> obj.setFocusTraversable(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragReleased(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchStationary(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
-        operations.add(obj -> obj.setOnRotationStarted(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
-        operations.add(obj -> obj.setOnScrollFinished(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder mouseTransparent(boolean value) {
-        operations.add(obj -> obj.setMouseTransparent(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragExited(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder accessibleRoleDescription(java.lang.String value) {
-        operations.add(obj -> obj.setAccessibleRoleDescription(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
-        operations.add(obj -> obj.setOnInputMethodTextChanged(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onTouchMoved(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchMoved(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
-        operations.add(obj -> obj.setOnRotate(value));
+    public  TitledPaneBuilder eventDispatcher(javafx.event.EventDispatcher value) {
+        operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }    
     
@@ -476,138 +426,8 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public  TitledPaneBuilder onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchReleased(value));
-        return this;
-    }    
-    
     public  TitledPaneBuilder nodeOrientation(javafx.geometry.NodeOrientation orientation) {
         operations.add(obj -> obj.setNodeOrientation(orientation));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragged(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseClicked(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchPressed(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseExited(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
-        operations.add(obj -> obj.setOnSwipeDown(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
-        operations.add(obj -> obj.setOnSwipeUp(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder translateZ(double value) {
-        operations.add(obj -> obj.setTranslateZ(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseMoved(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMousePressed(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
-        operations.add(obj -> obj.setOnKeyTyped(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoomFinished(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseReleased(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragOver(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onScroll(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
-        operations.add(obj -> obj.setOnScroll(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onSwipeRight(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
-        operations.add(obj -> obj.setOnSwipeRight(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onKeyPressed(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
-        operations.add(obj -> obj.setOnKeyPressed(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
-        operations.add(obj -> obj.setOnKeyReleased(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
-        operations.add(obj -> obj.setOnSwipeLeft(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder translateX(double value) {
-        operations.add(obj -> obj.setTranslateX(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoomStarted(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder translateY(double value) {
-        operations.add(obj -> obj.setTranslateY(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onMouseEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseEntered(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnDragDetected(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
-        operations.add(obj -> obj.setOnScrollStarted(value));
-        return this;
-    }    
-    
-    public  TitledPaneBuilder onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragEntered(value));
         return this;
     }    
     
@@ -621,8 +441,18 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public  TitledPaneBuilder blendMode(javafx.scene.effect.BlendMode value) {
-        operations.add(obj -> obj.setBlendMode(value));
+    public  TitledPaneBuilder onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragOver(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder translateZ(double value) {
+        operations.add(obj -> obj.setTranslateZ(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder translateX(double value) {
+        operations.add(obj -> obj.setTranslateX(value));
         return this;
     }    
     
@@ -631,8 +461,48 @@ public class TitledPaneBuilder {
         return this;
     }    
     
+    public  TitledPaneBuilder onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseClicked(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder blendMode(javafx.scene.effect.BlendMode value) {
+        operations.add(obj -> obj.setBlendMode(value));
+        return this;
+    }    
+    
     public  TitledPaneBuilder onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDone(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragged(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onMouseEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseEntered(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseExited(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseMoved(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMousePressed(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseReleased(value));
         return this;
     }    
     
@@ -641,13 +511,78 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public  TitledPaneBuilder onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragOver(value));
+    public  TitledPaneBuilder onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragEntered(value));
         return this;
     }    
     
-    public  TitledPaneBuilder accessibleHelp(java.lang.String value) {
-        operations.add(obj -> obj.setAccessibleHelp(value));
+    public  TitledPaneBuilder translateY(double value) {
+        operations.add(obj -> obj.setTranslateY(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
+        operations.add(obj -> obj.setOnScrollStarted(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onScroll(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
+        operations.add(obj -> obj.setOnScroll(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onSwipeRight(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
+        operations.add(obj -> obj.setOnSwipeRight(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
+        operations.add(obj -> obj.setOnRotate(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragOver(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
+        operations.add(obj -> obj.setOnSwipeLeft(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
+        operations.add(obj -> obj.setOnKeyReleased(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onTouchMoved(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchMoved(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
+        operations.add(obj -> obj.setOnSwipeDown(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoomFinished(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchPressed(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnDragDetected(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchReleased(value));
         return this;
     }    
     
@@ -656,18 +591,83 @@ public class TitledPaneBuilder {
         return this;
     }    
     
+    public  TitledPaneBuilder onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
+        operations.add(obj -> obj.setOnSwipeUp(value));
+        return this;
+    }    
+    
     public  TitledPaneBuilder accessibleText(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleText(value));
         return this;
     }    
     
-    public  TitledPaneBuilder eventDispatcher(javafx.event.EventDispatcher value) {
-        operations.add(obj -> obj.setEventDispatcher(value));
+    public  TitledPaneBuilder onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }    
     
-    public  TitledPaneBuilder userData(java.lang.Object value) {
-        operations.add(obj -> obj.setUserData(value));
+    public  TitledPaneBuilder onKeyPressed(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
+        operations.add(obj -> obj.setOnKeyPressed(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder accessibleHelp(java.lang.String value) {
+        operations.add(obj -> obj.setAccessibleHelp(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
+        operations.add(obj -> obj.setOnKeyTyped(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragExited(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
+        operations.add(obj -> obj.setOnContextMenuRequested(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
+        operations.add(obj -> obj.setOnRotationStarted(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
+        operations.add(obj -> obj.setOnRotationFinished(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragEntered(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder mouseTransparent(boolean value) {
+        operations.add(obj -> obj.setMouseTransparent(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchStationary(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragReleased(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
+        operations.add(obj -> obj.setOnScrollFinished(value));
+        return this;
+    }    
+    
+    public  TitledPaneBuilder focusTraversable(boolean value) {
+        operations.add(obj -> obj.setFocusTraversable(value));
         return this;
     }
     @SafeVarargs
@@ -735,6 +735,12 @@ public class TitledPaneBuilder {
         return this;
     }
 
+    public TitledPaneBuilder topAnchorInAnchorPane(java.lang.Double value) {
+        operations.add(obj -> javafx.scene.layout.AnchorPane.setTopAnchor(obj, value));
+        return this;
+    }
+
+
     public TitledPaneBuilder bottomAnchorInAnchorPane(java.lang.Double value) {
         operations.add(obj -> javafx.scene.layout.AnchorPane.setBottomAnchor(obj, value));
         return this;
@@ -749,12 +755,6 @@ public class TitledPaneBuilder {
 
     public TitledPaneBuilder leftAnchorInAnchorPane(java.lang.Double value) {
         operations.add(obj -> javafx.scene.layout.AnchorPane.setLeftAnchor(obj, value));
-        return this;
-    }
-
-
-    public TitledPaneBuilder topAnchorInAnchorPane(java.lang.Double value) {
-        operations.add(obj -> javafx.scene.layout.AnchorPane.setTopAnchor(obj, value));
         return this;
     }
 
@@ -777,62 +777,8 @@ public class TitledPaneBuilder {
     }
 
 
-    public TitledPaneBuilder fillHeightInGridPane(java.lang.Boolean value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setFillHeight(obj, value));
-        return this;
-    }
-
-
-    public TitledPaneBuilder columnIndexInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setColumnIndex(obj, value));
-        return this;
-    }
-
-
-    public TitledPaneBuilder columnSpanInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setColumnSpan(obj, value));
-        return this;
-    }
-
-
-    public TitledPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow, javafx.geometry.Insets margin) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow, margin));
-        return this;
-    }
-
-
-    public TitledPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex));
-        return this;
-    }
-
-
-    public TitledPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan));
-        return this;
-    }
-
-
-    public TitledPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow));
-        return this;
-    }
-
-
-    public TitledPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment));
-        return this;
-    }
-
-
-    public TitledPaneBuilder rowIndexInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setRowIndex(obj, value));
-        return this;
-    }
-
-
-    public TitledPaneBuilder vAlignmentInGridPane(javafx.geometry.VPos value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setValignment(obj, value));
+    public TitledPaneBuilder fillWidthInGridPane(java.lang.Boolean value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setFillWidth(obj, value));
         return this;
     }
 
@@ -843,20 +789,74 @@ public class TitledPaneBuilder {
     }
 
 
-    public TitledPaneBuilder fillWidthInGridPane(java.lang.Boolean value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setFillWidth(obj, value));
+    public TitledPaneBuilder rowIndexInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setRowIndex(obj, value));
         return this;
     }
 
 
-    public TitledPaneBuilder hGrowInGridPane(javafx.scene.layout.Priority value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setHgrow(obj, value));
+    public TitledPaneBuilder columnIndexInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setColumnIndex(obj, value));
+        return this;
+    }
+
+
+    public TitledPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan));
+        return this;
+    }
+
+
+    public TitledPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex));
+        return this;
+    }
+
+
+    public TitledPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment));
+        return this;
+    }
+
+
+    public TitledPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow));
+        return this;
+    }
+
+
+    public TitledPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow, javafx.geometry.Insets margin) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow, margin));
+        return this;
+    }
+
+
+    public TitledPaneBuilder columnSpanInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setColumnSpan(obj, value));
+        return this;
+    }
+
+
+    public TitledPaneBuilder vAlignmentInGridPane(javafx.geometry.VPos value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setValignment(obj, value));
+        return this;
+    }
+
+
+    public TitledPaneBuilder fillHeightInGridPane(java.lang.Boolean value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setFillHeight(obj, value));
         return this;
     }
 
 
     public TitledPaneBuilder marginInGridPane(javafx.geometry.Insets value) {
         operations.add(obj -> javafx.scene.layout.GridPane.setMargin(obj, value));
+        return this;
+    }
+
+
+    public TitledPaneBuilder hGrowInGridPane(javafx.scene.layout.Priority value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setHgrow(obj, value));
         return this;
     }
 
@@ -873,14 +873,14 @@ public class TitledPaneBuilder {
     }
 
 
-    public TitledPaneBuilder hGrowInHBox(javafx.scene.layout.Priority value) {
-        operations.add(obj -> javafx.scene.layout.HBox.setHgrow(obj, value));
+    public TitledPaneBuilder marginInHBox(javafx.geometry.Insets value) {
+        operations.add(obj -> javafx.scene.layout.HBox.setMargin(obj, value));
         return this;
     }
 
 
-    public TitledPaneBuilder marginInHBox(javafx.geometry.Insets value) {
-        operations.add(obj -> javafx.scene.layout.HBox.setMargin(obj, value));
+    public TitledPaneBuilder hGrowInHBox(javafx.scene.layout.Priority value) {
+        operations.add(obj -> javafx.scene.layout.HBox.setHgrow(obj, value));
         return this;
     }
 
@@ -922,16 +922,6 @@ public class TitledPaneBuilder {
 
     
     
-    public TitledPaneBuilder animatedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.animatedProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder contentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.contentProperty()));
-        return this;
-    }    
-    
     public TitledPaneBuilder expandedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.expandedProperty()));
         return this;
@@ -939,6 +929,16 @@ public class TitledPaneBuilder {
     
     public TitledPaneBuilder collapsiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.collapsibleProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder animatedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.animatedProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder contentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.contentProperty()));
         return this;
     }    
     
@@ -957,38 +957,13 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public TitledPaneBuilder wrapTextPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.wrapTextProperty()));
-        return this;
-    }    
-    
     public TitledPaneBuilder textFillPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Paint>> op) {
         operations.add(obj -> op.accept(obj.textFillProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder lineSpacingPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.lineSpacingProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder textAlignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.TextAlignment>> op) {
-        operations.add(obj -> op.accept(obj.textAlignmentProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder underlinePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.underlineProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder fontPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.Font>> op) {
-        operations.add(obj -> op.accept(obj.fontProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder ellipsisStringPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.ellipsisStringProperty()));
+    public TitledPaneBuilder wrapTextPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.wrapTextProperty()));
         return this;
     }    
     
@@ -1002,8 +977,18 @@ public class TitledPaneBuilder {
         return this;
     }    
     
+    public TitledPaneBuilder textOverrunPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.OverrunStyle>> op) {
+        operations.add(obj -> op.accept(obj.textOverrunProperty()));
+        return this;
+    }    
+    
     public TitledPaneBuilder contentDisplayPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ContentDisplay>> op) {
         operations.add(obj -> op.accept(obj.contentDisplayProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder ellipsisStringPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.ellipsisStringProperty()));
         return this;
     }    
     
@@ -1012,8 +997,13 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public TitledPaneBuilder textOverrunPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.OverrunStyle>> op) {
-        operations.add(obj -> op.accept(obj.textOverrunProperty()));
+    public TitledPaneBuilder textAlignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.TextAlignment>> op) {
+        operations.add(obj -> op.accept(obj.textAlignmentProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder lineSpacingPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.lineSpacingProperty()));
         return this;
     }    
     
@@ -1022,13 +1012,23 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public TitledPaneBuilder skinPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Skin<?>>> op) {
-        operations.add(obj -> op.accept(obj.skinProperty()));
+    public TitledPaneBuilder underlinePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.underlineProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder fontPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.Font>> op) {
+        operations.add(obj -> op.accept(obj.fontProperty()));
         return this;
     }    
     
     public TitledPaneBuilder tooltipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Tooltip>> op) {
         operations.add(obj -> op.accept(obj.tooltipProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder skinPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Skin<?>>> op) {
+        operations.add(obj -> op.accept(obj.skinProperty()));
         return this;
     }    
     
@@ -1047,68 +1047,8 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public TitledPaneBuilder cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.cacheShapeProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleShapeProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
-        operations.add(obj -> op.accept(obj.shapeProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder insetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
-        operations.add(obj -> op.accept(obj.insetsProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
-        operations.add(obj -> op.accept(obj.borderProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.prefWidthProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder backgroundPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Background>> op) {
-        operations.add(obj -> op.accept(obj.backgroundProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
-        operations.add(obj -> op.accept(obj.paddingProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.prefHeightProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
-        operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.centerShapeProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.snapToPixelProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.minHeightProperty()));
+    public TitledPaneBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
     }    
     
@@ -1122,13 +1062,88 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public TitledPaneBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.minWidthProperty()));
+    public TitledPaneBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.minHeightProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleShapeProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
+        operations.add(obj -> op.accept(obj.shapeProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.cacheShapeProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder insetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
+        operations.add(obj -> op.accept(obj.insetsProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.prefHeightProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder backgroundPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Background>> op) {
+        operations.add(obj -> op.accept(obj.backgroundProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.prefWidthProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
+        operations.add(obj -> op.accept(obj.borderProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
+        operations.add(obj -> op.accept(obj.paddingProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
+        operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.snapToPixelProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.centerShapeProperty()));
         return this;
     }    
     
     public TitledPaneBuilder needsLayoutPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.needsLayoutProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusedProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
+        operations.add(obj -> op.accept(obj.sceneProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
+        operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
         return this;
     }    
     
@@ -1147,23 +1162,53 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public TitledPaneBuilder onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
+    public TitledPaneBuilder boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
+        operations.add(obj -> op.accept(obj.boundsInParentProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
+    public TitledPaneBuilder boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
+        operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
+    public TitledPaneBuilder onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragExitedProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.opacityProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
+        operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder pickOnBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.pickOnBoundsProperty()));
         return this;
     }    
     
     public TitledPaneBuilder inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
         operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
         return this;
     }    
     
@@ -1177,18 +1222,23 @@ public class TitledPaneBuilder {
         return this;
     }    
     
+    public TitledPaneBuilder onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
+        return this;
+    }    
+    
     public TitledPaneBuilder localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragOverProperty()));
+    public TitledPaneBuilder onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragDoneProperty()));
+    public TitledPaneBuilder accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
     }    
     
@@ -1197,28 +1247,8 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public TitledPaneBuilder layoutYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.layoutYProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.layoutXProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.opacityProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
-        operations.add(obj -> op.accept(obj.cacheHintProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
-        operations.add(obj -> op.accept(obj.cursorProperty()));
+    public TitledPaneBuilder cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
     }    
     
@@ -1227,18 +1257,18 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public TitledPaneBuilder depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
-        operations.add(obj -> op.accept(obj.depthTestProperty()));
-        return this;
-    }    
-    
     public TitledPaneBuilder clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.cacheProperty()));
+    public TitledPaneBuilder onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragDoneProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
     }    
     
@@ -1247,113 +1277,123 @@ public class TitledPaneBuilder {
         return this;
     }    
     
+    public TitledPaneBuilder layoutYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.layoutYProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragOverProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
+        operations.add(obj -> op.accept(obj.cacheHintProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
+        operations.add(obj -> op.accept(obj.depthTestProperty()));
+        return this;
+    }    
+    
     public TitledPaneBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
-        operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
+    public TitledPaneBuilder cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
+        operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragExitedProperty()));
+    public TitledPaneBuilder scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleZProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
-        operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
+    public TitledPaneBuilder onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
+    public TitledPaneBuilder translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.translateYProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder pickOnBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.pickOnBoundsProperty()));
+    public TitledPaneBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleXProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
-        operations.add(obj -> op.accept(obj.boundsInParentProperty()));
+    public TitledPaneBuilder viewOrderPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.viewOrderProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
+    public TitledPaneBuilder onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
-        operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
+    public TitledPaneBuilder translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.translateXProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
+    public TitledPaneBuilder translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.translateZProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
+    public TitledPaneBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
+    public TitledPaneBuilder rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.rotateProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
+    public TitledPaneBuilder onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onZoomProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
+    public TitledPaneBuilder onSwipeUpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onSwipeUpProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
+    public TitledPaneBuilder onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
+    public TitledPaneBuilder parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Parent>> op) {
+        operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
+    public TitledPaneBuilder hoverPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.hoverProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
+    public TitledPaneBuilder pressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.pressedProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
+    public TitledPaneBuilder disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.disabledProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
+    public TitledPaneBuilder onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMousePressedProperty()));
         return this;
     }    
     
@@ -1362,23 +1402,18 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public TitledPaneBuilder onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
+    public TitledPaneBuilder onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
+    public TitledPaneBuilder onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
+    public TitledPaneBuilder onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
         return this;
     }    
     
@@ -1387,18 +1422,33 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public TitledPaneBuilder onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
+    public TitledPaneBuilder onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
+    public TitledPaneBuilder onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
+    public TitledPaneBuilder onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
         return this;
     }    
     
@@ -1412,18 +1462,23 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public TitledPaneBuilder focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusTraversableProperty()));
+    public TitledPaneBuilder onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMousePressedProperty()));
+    public TitledPaneBuilder onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
+    public TitledPaneBuilder onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
         return this;
     }    
     
@@ -1432,23 +1487,68 @@ public class TitledPaneBuilder {
         return this;
     }    
     
+    public TitledPaneBuilder mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
+        return this;
+    }    
+    
     public TitledPaneBuilder onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
+    public TitledPaneBuilder onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
         return this;
     }    
     
-    public TitledPaneBuilder focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusWithinProperty()));
+    public TitledPaneBuilder onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusTraversableProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
         return this;
     }    
     
     public TitledPaneBuilder focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusVisibleProperty()));
+        return this;
+    }    
+    
+    public TitledPaneBuilder accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
     }    
     
@@ -1462,108 +1562,8 @@ public class TitledPaneBuilder {
         return this;
     }    
     
-    public TitledPaneBuilder accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder pressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.pressedProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder hoverPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.hoverProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.translateYProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder viewOrderPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.viewOrderProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.translateZProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.translateXProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleXProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleZProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.rotateProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder onSwipeUpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onSwipeUpProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleYProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onScrollProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onRotateProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onZoomProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Parent>> op) {
-        operations.add(obj -> op.accept(obj.parentProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.disabledProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusedProperty()));
-        return this;
-    }    
-    
-    public TitledPaneBuilder scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
-        operations.add(obj -> op.accept(obj.sceneProperty()));
+    public TitledPaneBuilder focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
     }
 }

@@ -110,11 +110,6 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public  TextFlowBuilder textAlignment(javafx.scene.text.TextAlignment value) {
-        operations.add(obj -> obj.setTextAlignment(value));
-        return this;
-    }    
-    
     public  TextFlowBuilder tabSize(int spaces) {
         operations.add(obj -> obj.setTabSize(spaces));
         return this;
@@ -125,28 +120,8 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public  TextFlowBuilder border(javafx.scene.layout.Border value) {
-        operations.add(obj -> obj.setBorder(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder minSize(double minWidth, double minHeight) {
-        operations.add(obj -> obj.setMinSize(minWidth, minHeight));
-        return this;
-    }    
-    
-    public  TextFlowBuilder padding(javafx.geometry.Insets value) {
-        operations.add(obj -> obj.setPadding(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder shape(javafx.scene.shape.Shape value) {
-        operations.add(obj -> obj.setShape(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder maxSize(double maxWidth, double maxHeight) {
-        operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
+    public  TextFlowBuilder textAlignment(javafx.scene.text.TextAlignment value) {
+        operations.add(obj -> obj.setTextAlignment(value));
         return this;
     }    
     
@@ -160,6 +135,11 @@ public class TextFlowBuilder {
         return this;
     }    
     
+    public  TextFlowBuilder minWidth(double value) {
+        operations.add(obj -> obj.setMinWidth(value));
+        return this;
+    }    
+    
     public  TextFlowBuilder maxHeight(double value) {
         operations.add(obj -> obj.setMaxHeight(value));
         return this;
@@ -170,8 +150,28 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public  TextFlowBuilder minWidth(double value) {
-        operations.add(obj -> obj.setMinWidth(value));
+    public  TextFlowBuilder snapToPixel(boolean value) {
+        operations.add(obj -> obj.setSnapToPixel(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder scaleShape(boolean value) {
+        operations.add(obj -> obj.setScaleShape(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder prefSize(double prefWidth, double prefHeight) {
+        operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
+        return this;
+    }    
+    
+    public  TextFlowBuilder centerShape(boolean value) {
+        operations.add(obj -> obj.setCenterShape(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder cacheShape(boolean value) {
+        operations.add(obj -> obj.setCacheShape(value));
         return this;
     }    
     
@@ -190,28 +190,28 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public  TextFlowBuilder snapToPixel(boolean value) {
-        operations.add(obj -> obj.setSnapToPixel(value));
+    public  TextFlowBuilder maxSize(double maxWidth, double maxHeight) {
+        operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
         return this;
     }    
     
-    public  TextFlowBuilder cacheShape(boolean value) {
-        operations.add(obj -> obj.setCacheShape(value));
+    public  TextFlowBuilder minSize(double minWidth, double minHeight) {
+        operations.add(obj -> obj.setMinSize(minWidth, minHeight));
         return this;
     }    
     
-    public  TextFlowBuilder centerShape(boolean value) {
-        operations.add(obj -> obj.setCenterShape(value));
+    public  TextFlowBuilder padding(javafx.geometry.Insets value) {
+        operations.add(obj -> obj.setPadding(value));
         return this;
     }    
     
-    public  TextFlowBuilder prefSize(double prefWidth, double prefHeight) {
-        operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
+    public  TextFlowBuilder shape(javafx.scene.shape.Shape value) {
+        operations.add(obj -> obj.setShape(value));
         return this;
     }    
     
-    public  TextFlowBuilder scaleShape(boolean value) {
-        operations.add(obj -> obj.setScaleShape(value));
+    public  TextFlowBuilder border(javafx.scene.layout.Border value) {
+        operations.add(obj -> obj.setBorder(value));
         return this;
     }    
     
@@ -225,8 +225,63 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public  TextFlowBuilder inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
-        operations.add(obj -> obj.setInputMethodRequests(value));
+    public  TextFlowBuilder style(java.lang.String value) {
+        operations.add(obj -> obj.setStyle(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder layoutY(double value) {
+        operations.add(obj -> obj.setLayoutY(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder layoutX(double value) {
+        operations.add(obj -> obj.setLayoutX(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder scaleY(double value) {
+        operations.add(obj -> obj.setScaleY(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder rotate(double value) {
+        operations.add(obj -> obj.setRotate(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder scaleX(double value) {
+        operations.add(obj -> obj.setScaleX(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder scaleZ(double value) {
+        operations.add(obj -> obj.setScaleZ(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoom(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder managed(boolean value) {
+        operations.add(obj -> obj.setManaged(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder clip(javafx.scene.Node value) {
+        operations.add(obj -> obj.setClip(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder cursor(javafx.scene.Cursor value) {
+        operations.add(obj -> obj.setCursor(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder effect(javafx.scene.effect.Effect value) {
+        operations.add(obj -> obj.setEffect(value));
         return this;
     }    
     
@@ -245,83 +300,8 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public  TextFlowBuilder effect(javafx.scene.effect.Effect value) {
-        operations.add(obj -> obj.setEffect(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder layoutX(double value) {
-        operations.add(obj -> obj.setLayoutX(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder layoutY(double value) {
-        operations.add(obj -> obj.setLayoutY(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder style(java.lang.String value) {
-        operations.add(obj -> obj.setStyle(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder clip(javafx.scene.Node value) {
-        operations.add(obj -> obj.setClip(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder managed(boolean value) {
-        operations.add(obj -> obj.setManaged(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder scaleY(double value) {
-        operations.add(obj -> obj.setScaleY(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder scaleX(double value) {
-        operations.add(obj -> obj.setScaleX(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder rotate(double value) {
-        operations.add(obj -> obj.setRotate(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder scaleZ(double value) {
-        operations.add(obj -> obj.setScaleZ(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoom(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
-        operations.add(obj -> obj.setOnInputMethodTextChanged(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder accessibleRoleDescription(java.lang.String value) {
-        operations.add(obj -> obj.setAccessibleRoleDescription(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder cursor(javafx.scene.Cursor value) {
-        operations.add(obj -> obj.setCursor(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder viewOrder(double value) {
-        operations.add(obj -> obj.setViewOrder(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder eventDispatcher(javafx.event.EventDispatcher value) {
-        operations.add(obj -> obj.setEventDispatcher(value));
+    public  TextFlowBuilder inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
+        operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }    
     
@@ -330,88 +310,28 @@ public class TextFlowBuilder {
         return this;
     }    
     
+    public  TextFlowBuilder eventDispatcher(javafx.event.EventDispatcher value) {
+        operations.add(obj -> obj.setEventDispatcher(value));
+        return this;
+    }    
+    
     public  TextFlowBuilder depthTest(javafx.scene.DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
     }    
     
-    public  TextFlowBuilder onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragReleased(value));
+    public  TextFlowBuilder accessibleRoleDescription(java.lang.String value) {
+        operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }    
     
-    public  TextFlowBuilder mouseTransparent(boolean value) {
-        operations.add(obj -> obj.setMouseTransparent(value));
+    public  TextFlowBuilder onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
+        operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
     }    
     
-    public  TextFlowBuilder onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
-        operations.add(obj -> obj.setOnContextMenuRequested(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder focusTraversable(boolean value) {
-        operations.add(obj -> obj.setFocusTraversable(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
-        operations.add(obj -> obj.setOnRotationStarted(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
-        operations.add(obj -> obj.setOnRotationFinished(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragExited(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
-        operations.add(obj -> obj.setOnScrollFinished(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchStationary(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragEntered(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragExited(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragEntered(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragDropped(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragOver(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder blendMode(javafx.scene.effect.BlendMode value) {
-        operations.add(obj -> obj.setBlendMode(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragDone(value));
+    public  TextFlowBuilder viewOrder(double value) {
+        operations.add(obj -> obj.setViewOrder(value));
         return this;
     }    
     
@@ -420,38 +340,78 @@ public class TextFlowBuilder {
         return this;
     }    
     
+    public  TextFlowBuilder onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragEntered(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder blendMode(javafx.scene.effect.BlendMode value) {
+        operations.add(obj -> obj.setBlendMode(value));
+        return this;
+    }    
+    
     public  TextFlowBuilder cacheHint(javafx.scene.CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
     }    
     
-    public  TextFlowBuilder translateX(double value) {
-        operations.add(obj -> obj.setTranslateX(value));
+    public  TextFlowBuilder onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }    
     
-    public  TextFlowBuilder translateY(double value) {
-        operations.add(obj -> obj.setTranslateY(value));
+    public  TextFlowBuilder onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
+        operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }    
     
-    public  TextFlowBuilder onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
-        operations.add(obj -> obj.setOnSwipeUp(value));
+    public  TextFlowBuilder onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragged(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragDone(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragExited(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchPressed(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchReleased(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnDragDetected(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
+        operations.add(obj -> obj.setOnRotate(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder nodeOrientation(javafx.geometry.NodeOrientation orientation) {
+        operations.add(obj -> obj.setNodeOrientation(orientation));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }    
     
     public  TextFlowBuilder onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
-        operations.add(obj -> obj.setOnKeyTyped(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
-        operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
     }    
     
@@ -465,23 +425,73 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public  TextFlowBuilder onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
-        operations.add(obj -> obj.setOnScrollStarted(value));
+    public  TextFlowBuilder rotationAxis(javafx.geometry.Point3D value) {
+        operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }    
     
-    public  TextFlowBuilder onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchPressed(value));
+    public  TextFlowBuilder onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }    
     
-    public  TextFlowBuilder onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
-        operations.add(obj -> obj.setOnKeyReleased(value));
+    public  TextFlowBuilder translateX(double value) {
+        operations.add(obj -> obj.setTranslateX(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder translateZ(double value) {
+        operations.add(obj -> obj.setTranslateZ(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragDropped(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseClicked(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }    
     
     public  TextFlowBuilder onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMousePressed(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseReleased(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
+        operations.add(obj -> obj.setOnScrollStarted(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoomFinished(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
+        operations.add(obj -> obj.setOnSwipeLeft(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
+        operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
     }    
     
@@ -495,48 +505,8 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public  TextFlowBuilder nodeOrientation(javafx.geometry.NodeOrientation orientation) {
-        operations.add(obj -> obj.setNodeOrientation(orientation));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMousePressed(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
-        operations.add(obj -> obj.setOnRotate(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseClicked(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragOver(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnDragDetected(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchReleased(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoomStarted(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoomFinished(value));
+    public  TextFlowBuilder onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
+        operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }    
     
@@ -545,28 +515,8 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public  TextFlowBuilder onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragged(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder translateZ(double value) {
-        operations.add(obj -> obj.setTranslateZ(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseReleased(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder rotationAxis(javafx.geometry.Point3D value) {
-        operations.add(obj -> obj.setRotationAxis(value));
-        return this;
-    }    
-    
-    public  TextFlowBuilder onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseExited(value));
+    public  TextFlowBuilder translateY(double value) {
+        operations.add(obj -> obj.setTranslateY(value));
         return this;
     }    
     
@@ -575,13 +525,63 @@ public class TextFlowBuilder {
         return this;
     }    
     
+    public  TextFlowBuilder accessibleRole(javafx.scene.AccessibleRole value) {
+        operations.add(obj -> obj.setAccessibleRole(value));
+        return this;
+    }    
+    
     public  TextFlowBuilder accessibleHelp(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
     }    
     
-    public  TextFlowBuilder accessibleRole(javafx.scene.AccessibleRole value) {
-        operations.add(obj -> obj.setAccessibleRole(value));
+    public  TextFlowBuilder onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragExited(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
+        operations.add(obj -> obj.setOnContextMenuRequested(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragEntered(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
+        operations.add(obj -> obj.setOnRotationStarted(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder focusTraversable(boolean value) {
+        operations.add(obj -> obj.setFocusTraversable(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchStationary(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
+        operations.add(obj -> obj.setOnRotationFinished(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
+        operations.add(obj -> obj.setOnScrollFinished(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragReleased(value));
+        return this;
+    }    
+    
+    public  TextFlowBuilder mouseTransparent(boolean value) {
+        operations.add(obj -> obj.setMouseTransparent(value));
         return this;
     }
     @SafeVarargs
@@ -676,14 +676,14 @@ public class TextFlowBuilder {
         return this;
     }
 
-    public TextFlowBuilder rightAnchorInAnchorPane(java.lang.Double value) {
-        operations.add(obj -> javafx.scene.layout.AnchorPane.setRightAnchor(obj, value));
+    public TextFlowBuilder topAnchorInAnchorPane(java.lang.Double value) {
+        operations.add(obj -> javafx.scene.layout.AnchorPane.setTopAnchor(obj, value));
         return this;
     }
 
 
-    public TextFlowBuilder topAnchorInAnchorPane(java.lang.Double value) {
-        operations.add(obj -> javafx.scene.layout.AnchorPane.setTopAnchor(obj, value));
+    public TextFlowBuilder rightAnchorInAnchorPane(java.lang.Double value) {
+        operations.add(obj -> javafx.scene.layout.AnchorPane.setRightAnchor(obj, value));
         return this;
     }
 
@@ -700,104 +700,20 @@ public class TextFlowBuilder {
     }
 
 
-    public TextFlowBuilder marginInBorderPane(javafx.geometry.Insets value) {
-        operations.add(obj -> javafx.scene.layout.BorderPane.setMargin(obj, value));
-        return this;
-    }
-
-
     public TextFlowBuilder alignmentInBorderPane(javafx.geometry.Pos value) {
         operations.add(obj -> javafx.scene.layout.BorderPane.setAlignment(obj, value));
         return this;
     }
 
 
+    public TextFlowBuilder marginInBorderPane(javafx.geometry.Insets value) {
+        operations.add(obj -> javafx.scene.layout.BorderPane.setMargin(obj, value));
+        return this;
+    }
+
+
     public TextFlowBuilder marginInFlowPane(javafx.geometry.Insets value) {
         operations.add(obj -> javafx.scene.layout.FlowPane.setMargin(obj, value));
-        return this;
-    }
-
-
-    public TextFlowBuilder marginInGridPane(javafx.geometry.Insets value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setMargin(obj, value));
-        return this;
-    }
-
-
-    public TextFlowBuilder hGrowInGridPane(javafx.scene.layout.Priority value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setHgrow(obj, value));
-        return this;
-    }
-
-
-    public TextFlowBuilder rowSpanInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setRowSpan(obj, value));
-        return this;
-    }
-
-
-    public TextFlowBuilder vGrowInGridPane(javafx.scene.layout.Priority value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setVgrow(obj, value));
-        return this;
-    }
-
-
-    public TextFlowBuilder fillHeightInGridPane(java.lang.Boolean value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setFillHeight(obj, value));
-        return this;
-    }
-
-
-    public TextFlowBuilder columnIndexInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setColumnIndex(obj, value));
-        return this;
-    }
-
-
-    public TextFlowBuilder rowIndexInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setRowIndex(obj, value));
-        return this;
-    }
-
-
-    public TextFlowBuilder columnSpanInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setColumnSpan(obj, value));
-        return this;
-    }
-
-
-    public TextFlowBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment));
-        return this;
-    }
-
-
-    public TextFlowBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan));
-        return this;
-    }
-
-
-    public TextFlowBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow));
-        return this;
-    }
-
-
-    public TextFlowBuilder constraintsInGridPane(int columnIndex, int rowIndex) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex));
-        return this;
-    }
-
-
-    public TextFlowBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow, javafx.geometry.Insets margin) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow, margin));
-        return this;
-    }
-
-
-    public TextFlowBuilder vAlignmentInGridPane(javafx.geometry.VPos value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setValignment(obj, value));
         return this;
     }
 
@@ -814,6 +730,90 @@ public class TextFlowBuilder {
     }
 
 
+    public TextFlowBuilder columnSpanInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setColumnSpan(obj, value));
+        return this;
+    }
+
+
+    public TextFlowBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow));
+        return this;
+    }
+
+
+    public TextFlowBuilder constraintsInGridPane(int columnIndex, int rowIndex) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex));
+        return this;
+    }
+
+
+    public TextFlowBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment));
+        return this;
+    }
+
+
+    public TextFlowBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan));
+        return this;
+    }
+
+
+    public TextFlowBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow, javafx.geometry.Insets margin) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow, margin));
+        return this;
+    }
+
+
+    public TextFlowBuilder columnIndexInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setColumnIndex(obj, value));
+        return this;
+    }
+
+
+    public TextFlowBuilder vAlignmentInGridPane(javafx.geometry.VPos value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setValignment(obj, value));
+        return this;
+    }
+
+
+    public TextFlowBuilder rowIndexInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setRowIndex(obj, value));
+        return this;
+    }
+
+
+    public TextFlowBuilder fillHeightInGridPane(java.lang.Boolean value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setFillHeight(obj, value));
+        return this;
+    }
+
+
+    public TextFlowBuilder marginInGridPane(javafx.geometry.Insets value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setMargin(obj, value));
+        return this;
+    }
+
+
+    public TextFlowBuilder hGrowInGridPane(javafx.scene.layout.Priority value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setHgrow(obj, value));
+        return this;
+    }
+
+
+    public TextFlowBuilder vGrowInGridPane(javafx.scene.layout.Priority value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setVgrow(obj, value));
+        return this;
+    }
+
+
+    public TextFlowBuilder rowSpanInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setRowSpan(obj, value));
+        return this;
+    }
+
+
     public TextFlowBuilder marginInHBox(javafx.geometry.Insets value) {
         operations.add(obj -> javafx.scene.layout.HBox.setMargin(obj, value));
         return this;
@@ -826,26 +826,26 @@ public class TextFlowBuilder {
     }
 
 
-    public TextFlowBuilder marginInStackPane(javafx.geometry.Insets value) {
-        operations.add(obj -> javafx.scene.layout.StackPane.setMargin(obj, value));
-        return this;
-    }
-
-
     public TextFlowBuilder alignmentInStackPane(javafx.geometry.Pos value) {
         operations.add(obj -> javafx.scene.layout.StackPane.setAlignment(obj, value));
         return this;
     }
 
 
-    public TextFlowBuilder marginInTilePane(javafx.geometry.Insets value) {
-        operations.add(obj -> javafx.scene.layout.TilePane.setMargin(obj, value));
+    public TextFlowBuilder marginInStackPane(javafx.geometry.Insets value) {
+        operations.add(obj -> javafx.scene.layout.StackPane.setMargin(obj, value));
         return this;
     }
 
 
     public TextFlowBuilder alignmentInTilePane(javafx.geometry.Pos value) {
         operations.add(obj -> javafx.scene.layout.TilePane.setAlignment(obj, value));
+        return this;
+    }
+
+
+    public TextFlowBuilder marginInTilePane(javafx.geometry.Insets value) {
+        operations.add(obj -> javafx.scene.layout.TilePane.setMargin(obj, value));
         return this;
     }
 
@@ -868,13 +868,13 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public TextFlowBuilder lineSpacingPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.lineSpacingProperty()));
+    public TextFlowBuilder textAlignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.TextAlignment>> op) {
+        operations.add(obj -> op.accept(obj.textAlignmentProperty()));
         return this;
     }    
     
-    public TextFlowBuilder textAlignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.TextAlignment>> op) {
-        operations.add(obj -> op.accept(obj.textAlignmentProperty()));
+    public TextFlowBuilder lineSpacingPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.lineSpacingProperty()));
         return this;
     }    
     
@@ -888,6 +888,16 @@ public class TextFlowBuilder {
         return this;
     }    
     
+    public TextFlowBuilder maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.maxWidthProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.minHeightProperty()));
+        return this;
+    }    
+    
     public TextFlowBuilder maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxHeightProperty()));
         return this;
@@ -898,43 +908,8 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public TextFlowBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.minHeightProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.maxWidthProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.centerShapeProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
-        operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.snapToPixelProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
-        operations.add(obj -> op.accept(obj.shapeProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.cacheShapeProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleShapeProperty()));
+    public TextFlowBuilder borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
+        operations.add(obj -> op.accept(obj.borderProperty()));
         return this;
     }    
     
@@ -953,8 +928,13 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public TextFlowBuilder borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
-        operations.add(obj -> op.accept(obj.borderProperty()));
+    public TextFlowBuilder paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
+        operations.add(obj -> op.accept(obj.paddingProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleShapeProperty()));
         return this;
     }    
     
@@ -963,8 +943,28 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public TextFlowBuilder paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
-        operations.add(obj -> op.accept(obj.paddingProperty()));
+    public TextFlowBuilder shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
+        operations.add(obj -> op.accept(obj.shapeProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.cacheShapeProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.centerShapeProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
+        operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.snapToPixelProperty()));
         return this;
     }    
     
@@ -973,18 +973,8 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public TextFlowBuilder onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragOverProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.idProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragDoneProperty()));
+    public TextFlowBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
     }    
     
@@ -993,58 +983,8 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public TextFlowBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.disableProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
-        operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
-        operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
-        operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
-        operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.styleProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
-        operations.add(obj -> op.accept(obj.cursorProperty()));
+    public TextFlowBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.idProperty()));
         return this;
     }    
     
@@ -1063,13 +1003,43 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public TextFlowBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
-        operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
+    public TextFlowBuilder localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
+        operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
         return this;
     }    
     
-    public TextFlowBuilder boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
-        operations.add(obj -> op.accept(obj.boundsInParentProperty()));
+    public TextFlowBuilder onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
+        operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
+        operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
+        operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
     }    
     
@@ -1078,213 +1048,53 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public TextFlowBuilder layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
-        operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
+    public TextFlowBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
+        operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
     }    
     
-    public TextFlowBuilder onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragExitedProperty()));
+    public TextFlowBuilder depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
+        operations.add(obj -> op.accept(obj.depthTestProperty()));
         return this;
     }    
     
-    public TextFlowBuilder onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
+    public TextFlowBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
     }    
     
-    public TextFlowBuilder rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
-        operations.add(obj -> op.accept(obj.rotationAxisProperty()));
+    public TextFlowBuilder cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
+        operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
     }    
     
-    public TextFlowBuilder boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
-        operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
+    public TextFlowBuilder cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
     }    
     
-    public TextFlowBuilder nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
-        operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
+    public TextFlowBuilder clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
     }    
     
-    public TextFlowBuilder onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
+    public TextFlowBuilder cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
+        operations.add(obj -> op.accept(obj.cacheHintProperty()));
         return this;
     }    
     
-    public TextFlowBuilder onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMousePressedProperty()));
+    public TextFlowBuilder effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
+        operations.add(obj -> op.accept(obj.effectProperty()));
         return this;
     }    
     
-    public TextFlowBuilder onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
+    public TextFlowBuilder blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
+        operations.add(obj -> op.accept(obj.blendModeProperty()));
         return this;
     }    
     
-    public TextFlowBuilder onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.accessibleTextProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
-        operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusTraversableProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusVisibleProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusWithinProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.layoutXProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.managedProperty()));
+    public TextFlowBuilder onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
     }    
     
@@ -1293,38 +1103,18 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public TextFlowBuilder translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.translateZProperty()));
+    public TextFlowBuilder managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.managedProperty()));
         return this;
     }    
     
-    public TextFlowBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleYProperty()));
+    public TextFlowBuilder onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragDoneProperty()));
         return this;
     }    
     
-    public TextFlowBuilder scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleZProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.translateXProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.translateYProperty()));
-        return this;
-    }    
-    
-    public TextFlowBuilder onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onZoomProperty()));
+    public TextFlowBuilder layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
     }    
     
@@ -1333,18 +1123,43 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public TextFlowBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleXProperty()));
-        return this;
-    }    
-    
     public TextFlowBuilder onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
     }    
     
-    public TextFlowBuilder onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onRotateProperty()));
+    public TextFlowBuilder translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.translateZProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.translateXProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onZoomProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleZProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.translateYProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
     }    
     
@@ -1353,8 +1168,18 @@ public class TextFlowBuilder {
         return this;
     }    
     
+    public TextFlowBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleXProperty()));
+        return this;
+    }    
+    
     public TextFlowBuilder rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rotateProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
     }    
     
@@ -1378,33 +1203,208 @@ public class TextFlowBuilder {
         return this;
     }    
     
-    public TextFlowBuilder blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
-        operations.add(obj -> op.accept(obj.blendModeProperty()));
+    public TextFlowBuilder accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
     }    
     
-    public TextFlowBuilder clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.clipProperty()));
+    public TextFlowBuilder onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
     }    
     
-    public TextFlowBuilder effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
-        operations.add(obj -> op.accept(obj.effectProperty()));
+    public TextFlowBuilder onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
         return this;
     }    
     
-    public TextFlowBuilder cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
-        operations.add(obj -> op.accept(obj.cacheHintProperty()));
+    public TextFlowBuilder onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
         return this;
     }    
     
-    public TextFlowBuilder depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
-        operations.add(obj -> op.accept(obj.depthTestProperty()));
+    public TextFlowBuilder onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
         return this;
     }    
     
-    public TextFlowBuilder cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.cacheProperty()));
+    public TextFlowBuilder focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusTraversableProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.accessibleTextProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
+        operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
+        operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
+        operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
+        operations.add(obj -> op.accept(obj.rotationAxisProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
+        operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMousePressedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
+        operations.add(obj -> op.accept(obj.boundsInParentProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragExitedProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusVisibleProperty()));
+        return this;
+    }    
+    
+    public TextFlowBuilder focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
     }
 }

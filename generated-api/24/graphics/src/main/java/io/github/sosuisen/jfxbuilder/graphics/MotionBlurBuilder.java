@@ -121,13 +121,13 @@ public class MotionBlurBuilder {
         return this;
     }    
     
-    public MotionBlurBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
-        operations.add(obj -> op.accept(obj.inputProperty()));
+    public MotionBlurBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.radiusProperty()));
         return this;
     }    
     
-    public MotionBlurBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.radiusProperty()));
+    public MotionBlurBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
+        operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
     }    
     

@@ -7,6 +7,14 @@ public class HBoxBuilder {
     private HBoxBuilder() {}
     
 
+    
+    public static HBoxBuilder create(double spacing) {
+        HBoxBuilder builder = new HBoxBuilder();
+        builder.constructorArgs = new Object[]{spacing};
+        return builder;
+    }
+
+
     public static HBoxBuilder create() { return new HBoxBuilder(); }
 
 
@@ -22,14 +30,6 @@ public class HBoxBuilder {
     public static HBoxBuilder create(double spacing, javafx.scene.Node... children) {
         HBoxBuilder builder = new HBoxBuilder();
         builder.constructorArgs = new Object[]{spacing, children};
-        return builder;
-    }
-
-
-    
-    public static HBoxBuilder create(double spacing) {
-        HBoxBuilder builder = new HBoxBuilder();
-        builder.constructorArgs = new Object[]{spacing};
         return builder;
     }
 
@@ -141,31 +141,6 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public  HBoxBuilder border(javafx.scene.layout.Border value) {
-        operations.add(obj -> obj.setBorder(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder minSize(double minWidth, double minHeight) {
-        operations.add(obj -> obj.setMinSize(minWidth, minHeight));
-        return this;
-    }    
-    
-    public  HBoxBuilder padding(javafx.geometry.Insets value) {
-        operations.add(obj -> obj.setPadding(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder shape(javafx.scene.shape.Shape value) {
-        operations.add(obj -> obj.setShape(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder maxSize(double maxWidth, double maxHeight) {
-        operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
-        return this;
-    }    
-    
     public  HBoxBuilder background(javafx.scene.layout.Background value) {
         operations.add(obj -> obj.setBackground(value));
         return this;
@@ -173,6 +148,11 @@ public class HBoxBuilder {
     
     public  HBoxBuilder maxWidth(double value) {
         operations.add(obj -> obj.setMaxWidth(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder minWidth(double value) {
+        operations.add(obj -> obj.setMinWidth(value));
         return this;
     }    
     
@@ -186,8 +166,28 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public  HBoxBuilder minWidth(double value) {
-        operations.add(obj -> obj.setMinWidth(value));
+    public  HBoxBuilder snapToPixel(boolean value) {
+        operations.add(obj -> obj.setSnapToPixel(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder scaleShape(boolean value) {
+        operations.add(obj -> obj.setScaleShape(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder prefSize(double prefWidth, double prefHeight) {
+        operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
+        return this;
+    }    
+    
+    public  HBoxBuilder centerShape(boolean value) {
+        operations.add(obj -> obj.setCenterShape(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder cacheShape(boolean value) {
+        operations.add(obj -> obj.setCacheShape(value));
         return this;
     }    
     
@@ -206,28 +206,28 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public  HBoxBuilder snapToPixel(boolean value) {
-        operations.add(obj -> obj.setSnapToPixel(value));
+    public  HBoxBuilder maxSize(double maxWidth, double maxHeight) {
+        operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
         return this;
     }    
     
-    public  HBoxBuilder cacheShape(boolean value) {
-        operations.add(obj -> obj.setCacheShape(value));
+    public  HBoxBuilder minSize(double minWidth, double minHeight) {
+        operations.add(obj -> obj.setMinSize(minWidth, minHeight));
         return this;
     }    
     
-    public  HBoxBuilder centerShape(boolean value) {
-        operations.add(obj -> obj.setCenterShape(value));
+    public  HBoxBuilder padding(javafx.geometry.Insets value) {
+        operations.add(obj -> obj.setPadding(value));
         return this;
     }    
     
-    public  HBoxBuilder prefSize(double prefWidth, double prefHeight) {
-        operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
+    public  HBoxBuilder shape(javafx.scene.shape.Shape value) {
+        operations.add(obj -> obj.setShape(value));
         return this;
     }    
     
-    public  HBoxBuilder scaleShape(boolean value) {
-        operations.add(obj -> obj.setScaleShape(value));
+    public  HBoxBuilder border(javafx.scene.layout.Border value) {
+        operations.add(obj -> obj.setBorder(value));
         return this;
     }    
     
@@ -241,8 +241,63 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public  HBoxBuilder inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
-        operations.add(obj -> obj.setInputMethodRequests(value));
+    public  HBoxBuilder style(java.lang.String value) {
+        operations.add(obj -> obj.setStyle(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder layoutY(double value) {
+        operations.add(obj -> obj.setLayoutY(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder layoutX(double value) {
+        operations.add(obj -> obj.setLayoutX(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder scaleY(double value) {
+        operations.add(obj -> obj.setScaleY(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder rotate(double value) {
+        operations.add(obj -> obj.setRotate(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder scaleX(double value) {
+        operations.add(obj -> obj.setScaleX(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder scaleZ(double value) {
+        operations.add(obj -> obj.setScaleZ(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoom(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder managed(boolean value) {
+        operations.add(obj -> obj.setManaged(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder clip(javafx.scene.Node value) {
+        operations.add(obj -> obj.setClip(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder cursor(javafx.scene.Cursor value) {
+        operations.add(obj -> obj.setCursor(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder effect(javafx.scene.effect.Effect value) {
+        operations.add(obj -> obj.setEffect(value));
         return this;
     }    
     
@@ -261,83 +316,8 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public  HBoxBuilder effect(javafx.scene.effect.Effect value) {
-        operations.add(obj -> obj.setEffect(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder layoutX(double value) {
-        operations.add(obj -> obj.setLayoutX(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder layoutY(double value) {
-        operations.add(obj -> obj.setLayoutY(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder style(java.lang.String value) {
-        operations.add(obj -> obj.setStyle(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder clip(javafx.scene.Node value) {
-        operations.add(obj -> obj.setClip(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder managed(boolean value) {
-        operations.add(obj -> obj.setManaged(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder scaleY(double value) {
-        operations.add(obj -> obj.setScaleY(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder scaleX(double value) {
-        operations.add(obj -> obj.setScaleX(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder rotate(double value) {
-        operations.add(obj -> obj.setRotate(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder scaleZ(double value) {
-        operations.add(obj -> obj.setScaleZ(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoom(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
-        operations.add(obj -> obj.setOnInputMethodTextChanged(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder accessibleRoleDescription(java.lang.String value) {
-        operations.add(obj -> obj.setAccessibleRoleDescription(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder cursor(javafx.scene.Cursor value) {
-        operations.add(obj -> obj.setCursor(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder viewOrder(double value) {
-        operations.add(obj -> obj.setViewOrder(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder eventDispatcher(javafx.event.EventDispatcher value) {
-        operations.add(obj -> obj.setEventDispatcher(value));
+    public  HBoxBuilder inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
+        operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }    
     
@@ -346,88 +326,28 @@ public class HBoxBuilder {
         return this;
     }    
     
+    public  HBoxBuilder eventDispatcher(javafx.event.EventDispatcher value) {
+        operations.add(obj -> obj.setEventDispatcher(value));
+        return this;
+    }    
+    
     public  HBoxBuilder depthTest(javafx.scene.DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
     }    
     
-    public  HBoxBuilder onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragReleased(value));
+    public  HBoxBuilder accessibleRoleDescription(java.lang.String value) {
+        operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }    
     
-    public  HBoxBuilder mouseTransparent(boolean value) {
-        operations.add(obj -> obj.setMouseTransparent(value));
+    public  HBoxBuilder onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
+        operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
     }    
     
-    public  HBoxBuilder onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
-        operations.add(obj -> obj.setOnContextMenuRequested(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder focusTraversable(boolean value) {
-        operations.add(obj -> obj.setFocusTraversable(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
-        operations.add(obj -> obj.setOnRotationStarted(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
-        operations.add(obj -> obj.setOnRotationFinished(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragExited(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
-        operations.add(obj -> obj.setOnScrollFinished(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchStationary(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragEntered(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragExited(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragEntered(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragDropped(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragOver(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder blendMode(javafx.scene.effect.BlendMode value) {
-        operations.add(obj -> obj.setBlendMode(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragDone(value));
+    public  HBoxBuilder viewOrder(double value) {
+        operations.add(obj -> obj.setViewOrder(value));
         return this;
     }    
     
@@ -436,38 +356,78 @@ public class HBoxBuilder {
         return this;
     }    
     
+    public  HBoxBuilder onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragEntered(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder blendMode(javafx.scene.effect.BlendMode value) {
+        operations.add(obj -> obj.setBlendMode(value));
+        return this;
+    }    
+    
     public  HBoxBuilder cacheHint(javafx.scene.CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
     }    
     
-    public  HBoxBuilder translateX(double value) {
-        operations.add(obj -> obj.setTranslateX(value));
+    public  HBoxBuilder onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }    
     
-    public  HBoxBuilder translateY(double value) {
-        operations.add(obj -> obj.setTranslateY(value));
+    public  HBoxBuilder onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
+        operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }    
     
-    public  HBoxBuilder onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
-        operations.add(obj -> obj.setOnSwipeUp(value));
+    public  HBoxBuilder onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragged(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragDone(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragExited(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchPressed(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchReleased(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnDragDetected(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
+        operations.add(obj -> obj.setOnRotate(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder nodeOrientation(javafx.geometry.NodeOrientation orientation) {
+        operations.add(obj -> obj.setNodeOrientation(orientation));
+        return this;
+    }    
+    
+    public  HBoxBuilder onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }    
     
     public  HBoxBuilder onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
-        operations.add(obj -> obj.setOnKeyTyped(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
-        operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
     }    
     
@@ -481,23 +441,73 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public  HBoxBuilder onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
-        operations.add(obj -> obj.setOnScrollStarted(value));
+    public  HBoxBuilder rotationAxis(javafx.geometry.Point3D value) {
+        operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }    
     
-    public  HBoxBuilder onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchPressed(value));
+    public  HBoxBuilder onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }    
     
-    public  HBoxBuilder onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
-        operations.add(obj -> obj.setOnKeyReleased(value));
+    public  HBoxBuilder translateX(double value) {
+        operations.add(obj -> obj.setTranslateX(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder translateZ(double value) {
+        operations.add(obj -> obj.setTranslateZ(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragDropped(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseClicked(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }    
     
     public  HBoxBuilder onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMousePressed(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseReleased(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
+        operations.add(obj -> obj.setOnScrollStarted(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoomFinished(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
+        operations.add(obj -> obj.setOnSwipeLeft(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
+        operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
     }    
     
@@ -511,48 +521,8 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public  HBoxBuilder nodeOrientation(javafx.geometry.NodeOrientation orientation) {
-        operations.add(obj -> obj.setNodeOrientation(orientation));
-        return this;
-    }    
-    
-    public  HBoxBuilder onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMousePressed(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
-        operations.add(obj -> obj.setOnRotate(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseClicked(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragOver(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnDragDetected(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchReleased(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoomStarted(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoomFinished(value));
+    public  HBoxBuilder onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
+        operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }    
     
@@ -561,28 +531,8 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public  HBoxBuilder onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragged(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder translateZ(double value) {
-        operations.add(obj -> obj.setTranslateZ(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseReleased(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder rotationAxis(javafx.geometry.Point3D value) {
-        operations.add(obj -> obj.setRotationAxis(value));
-        return this;
-    }    
-    
-    public  HBoxBuilder onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseExited(value));
+    public  HBoxBuilder translateY(double value) {
+        operations.add(obj -> obj.setTranslateY(value));
         return this;
     }    
     
@@ -591,13 +541,63 @@ public class HBoxBuilder {
         return this;
     }    
     
+    public  HBoxBuilder accessibleRole(javafx.scene.AccessibleRole value) {
+        operations.add(obj -> obj.setAccessibleRole(value));
+        return this;
+    }    
+    
     public  HBoxBuilder accessibleHelp(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
     }    
     
-    public  HBoxBuilder accessibleRole(javafx.scene.AccessibleRole value) {
-        operations.add(obj -> obj.setAccessibleRole(value));
+    public  HBoxBuilder onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragExited(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
+        operations.add(obj -> obj.setOnContextMenuRequested(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragEntered(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
+        operations.add(obj -> obj.setOnRotationStarted(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder focusTraversable(boolean value) {
+        operations.add(obj -> obj.setFocusTraversable(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchStationary(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
+        operations.add(obj -> obj.setOnRotationFinished(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
+        operations.add(obj -> obj.setOnScrollFinished(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragReleased(value));
+        return this;
+    }    
+    
+    public  HBoxBuilder mouseTransparent(boolean value) {
+        operations.add(obj -> obj.setMouseTransparent(value));
         return this;
     }
     @SafeVarargs
@@ -692,14 +692,14 @@ public class HBoxBuilder {
         return this;
     }
 
-    public HBoxBuilder rightAnchorInAnchorPane(java.lang.Double value) {
-        operations.add(obj -> javafx.scene.layout.AnchorPane.setRightAnchor(obj, value));
+    public HBoxBuilder topAnchorInAnchorPane(java.lang.Double value) {
+        operations.add(obj -> javafx.scene.layout.AnchorPane.setTopAnchor(obj, value));
         return this;
     }
 
 
-    public HBoxBuilder topAnchorInAnchorPane(java.lang.Double value) {
-        operations.add(obj -> javafx.scene.layout.AnchorPane.setTopAnchor(obj, value));
+    public HBoxBuilder rightAnchorInAnchorPane(java.lang.Double value) {
+        operations.add(obj -> javafx.scene.layout.AnchorPane.setRightAnchor(obj, value));
         return this;
     }
 
@@ -716,104 +716,20 @@ public class HBoxBuilder {
     }
 
 
-    public HBoxBuilder marginInBorderPane(javafx.geometry.Insets value) {
-        operations.add(obj -> javafx.scene.layout.BorderPane.setMargin(obj, value));
-        return this;
-    }
-
-
     public HBoxBuilder alignmentInBorderPane(javafx.geometry.Pos value) {
         operations.add(obj -> javafx.scene.layout.BorderPane.setAlignment(obj, value));
         return this;
     }
 
 
+    public HBoxBuilder marginInBorderPane(javafx.geometry.Insets value) {
+        operations.add(obj -> javafx.scene.layout.BorderPane.setMargin(obj, value));
+        return this;
+    }
+
+
     public HBoxBuilder marginInFlowPane(javafx.geometry.Insets value) {
         operations.add(obj -> javafx.scene.layout.FlowPane.setMargin(obj, value));
-        return this;
-    }
-
-
-    public HBoxBuilder marginInGridPane(javafx.geometry.Insets value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setMargin(obj, value));
-        return this;
-    }
-
-
-    public HBoxBuilder hGrowInGridPane(javafx.scene.layout.Priority value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setHgrow(obj, value));
-        return this;
-    }
-
-
-    public HBoxBuilder rowSpanInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setRowSpan(obj, value));
-        return this;
-    }
-
-
-    public HBoxBuilder vGrowInGridPane(javafx.scene.layout.Priority value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setVgrow(obj, value));
-        return this;
-    }
-
-
-    public HBoxBuilder fillHeightInGridPane(java.lang.Boolean value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setFillHeight(obj, value));
-        return this;
-    }
-
-
-    public HBoxBuilder columnIndexInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setColumnIndex(obj, value));
-        return this;
-    }
-
-
-    public HBoxBuilder rowIndexInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setRowIndex(obj, value));
-        return this;
-    }
-
-
-    public HBoxBuilder columnSpanInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setColumnSpan(obj, value));
-        return this;
-    }
-
-
-    public HBoxBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment));
-        return this;
-    }
-
-
-    public HBoxBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan));
-        return this;
-    }
-
-
-    public HBoxBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow));
-        return this;
-    }
-
-
-    public HBoxBuilder constraintsInGridPane(int columnIndex, int rowIndex) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex));
-        return this;
-    }
-
-
-    public HBoxBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow, javafx.geometry.Insets margin) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow, margin));
-        return this;
-    }
-
-
-    public HBoxBuilder vAlignmentInGridPane(javafx.geometry.VPos value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setValignment(obj, value));
         return this;
     }
 
@@ -830,6 +746,90 @@ public class HBoxBuilder {
     }
 
 
+    public HBoxBuilder columnSpanInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setColumnSpan(obj, value));
+        return this;
+    }
+
+
+    public HBoxBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow));
+        return this;
+    }
+
+
+    public HBoxBuilder constraintsInGridPane(int columnIndex, int rowIndex) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex));
+        return this;
+    }
+
+
+    public HBoxBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment));
+        return this;
+    }
+
+
+    public HBoxBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan));
+        return this;
+    }
+
+
+    public HBoxBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow, javafx.geometry.Insets margin) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow, margin));
+        return this;
+    }
+
+
+    public HBoxBuilder columnIndexInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setColumnIndex(obj, value));
+        return this;
+    }
+
+
+    public HBoxBuilder vAlignmentInGridPane(javafx.geometry.VPos value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setValignment(obj, value));
+        return this;
+    }
+
+
+    public HBoxBuilder rowIndexInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setRowIndex(obj, value));
+        return this;
+    }
+
+
+    public HBoxBuilder fillHeightInGridPane(java.lang.Boolean value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setFillHeight(obj, value));
+        return this;
+    }
+
+
+    public HBoxBuilder marginInGridPane(javafx.geometry.Insets value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setMargin(obj, value));
+        return this;
+    }
+
+
+    public HBoxBuilder hGrowInGridPane(javafx.scene.layout.Priority value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setHgrow(obj, value));
+        return this;
+    }
+
+
+    public HBoxBuilder vGrowInGridPane(javafx.scene.layout.Priority value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setVgrow(obj, value));
+        return this;
+    }
+
+
+    public HBoxBuilder rowSpanInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setRowSpan(obj, value));
+        return this;
+    }
+
+
     public HBoxBuilder marginInHBox(javafx.geometry.Insets value) {
         operations.add(obj -> javafx.scene.layout.HBox.setMargin(obj, value));
         return this;
@@ -842,26 +842,26 @@ public class HBoxBuilder {
     }
 
 
-    public HBoxBuilder marginInStackPane(javafx.geometry.Insets value) {
-        operations.add(obj -> javafx.scene.layout.StackPane.setMargin(obj, value));
-        return this;
-    }
-
-
     public HBoxBuilder alignmentInStackPane(javafx.geometry.Pos value) {
         operations.add(obj -> javafx.scene.layout.StackPane.setAlignment(obj, value));
         return this;
     }
 
 
-    public HBoxBuilder marginInTilePane(javafx.geometry.Insets value) {
-        operations.add(obj -> javafx.scene.layout.TilePane.setMargin(obj, value));
+    public HBoxBuilder marginInStackPane(javafx.geometry.Insets value) {
+        operations.add(obj -> javafx.scene.layout.StackPane.setMargin(obj, value));
         return this;
     }
 
 
     public HBoxBuilder alignmentInTilePane(javafx.geometry.Pos value) {
         operations.add(obj -> javafx.scene.layout.TilePane.setAlignment(obj, value));
+        return this;
+    }
+
+
+    public HBoxBuilder marginInTilePane(javafx.geometry.Insets value) {
+        operations.add(obj -> javafx.scene.layout.TilePane.setMargin(obj, value));
         return this;
     }
 
@@ -884,13 +884,13 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public HBoxBuilder spacingPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.spacingProperty()));
+    public HBoxBuilder fillHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.fillHeightProperty()));
         return this;
     }    
     
-    public HBoxBuilder fillHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.fillHeightProperty()));
+    public HBoxBuilder spacingPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.spacingProperty()));
         return this;
     }    
     
@@ -904,6 +904,16 @@ public class HBoxBuilder {
         return this;
     }    
     
+    public HBoxBuilder maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.maxWidthProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.minHeightProperty()));
+        return this;
+    }    
+    
     public HBoxBuilder maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxHeightProperty()));
         return this;
@@ -914,43 +924,8 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public HBoxBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.minHeightProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.maxWidthProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.centerShapeProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
-        operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.snapToPixelProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
-        operations.add(obj -> op.accept(obj.shapeProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.cacheShapeProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleShapeProperty()));
+    public HBoxBuilder borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
+        operations.add(obj -> op.accept(obj.borderProperty()));
         return this;
     }    
     
@@ -969,8 +944,13 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public HBoxBuilder borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
-        operations.add(obj -> op.accept(obj.borderProperty()));
+    public HBoxBuilder paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
+        operations.add(obj -> op.accept(obj.paddingProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleShapeProperty()));
         return this;
     }    
     
@@ -979,8 +959,28 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public HBoxBuilder paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
-        operations.add(obj -> op.accept(obj.paddingProperty()));
+    public HBoxBuilder shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
+        operations.add(obj -> op.accept(obj.shapeProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.cacheShapeProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.centerShapeProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
+        operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.snapToPixelProperty()));
         return this;
     }    
     
@@ -989,18 +989,8 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public HBoxBuilder onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragOverProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.idProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragDoneProperty()));
+    public HBoxBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
     }    
     
@@ -1009,58 +999,8 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public HBoxBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.disableProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
-        operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
-        operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
-        operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
-        operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.styleProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
-        operations.add(obj -> op.accept(obj.cursorProperty()));
+    public HBoxBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.idProperty()));
         return this;
     }    
     
@@ -1079,13 +1019,43 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public HBoxBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
-        operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
+    public HBoxBuilder localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
+        operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
         return this;
     }    
     
-    public HBoxBuilder boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
-        operations.add(obj -> op.accept(obj.boundsInParentProperty()));
+    public HBoxBuilder onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
+        operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
+        operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
+        operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
     }    
     
@@ -1094,213 +1064,53 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public HBoxBuilder layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
-        operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
+    public HBoxBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
+        operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
     }    
     
-    public HBoxBuilder onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragExitedProperty()));
+    public HBoxBuilder depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
+        operations.add(obj -> op.accept(obj.depthTestProperty()));
         return this;
     }    
     
-    public HBoxBuilder onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
+    public HBoxBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
     }    
     
-    public HBoxBuilder rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
-        operations.add(obj -> op.accept(obj.rotationAxisProperty()));
+    public HBoxBuilder cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
+        operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
     }    
     
-    public HBoxBuilder boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
-        operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
+    public HBoxBuilder cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
     }    
     
-    public HBoxBuilder nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
-        operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
+    public HBoxBuilder clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
     }    
     
-    public HBoxBuilder onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
+    public HBoxBuilder cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
+        operations.add(obj -> op.accept(obj.cacheHintProperty()));
         return this;
     }    
     
-    public HBoxBuilder onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMousePressedProperty()));
+    public HBoxBuilder effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
+        operations.add(obj -> op.accept(obj.effectProperty()));
         return this;
     }    
     
-    public HBoxBuilder onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
+    public HBoxBuilder blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
+        operations.add(obj -> op.accept(obj.blendModeProperty()));
         return this;
     }    
     
-    public HBoxBuilder onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.accessibleTextProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
-        operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusTraversableProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusVisibleProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusWithinProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.layoutXProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.managedProperty()));
+    public HBoxBuilder onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
     }    
     
@@ -1309,38 +1119,18 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public HBoxBuilder translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.translateZProperty()));
+    public HBoxBuilder managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.managedProperty()));
         return this;
     }    
     
-    public HBoxBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleYProperty()));
+    public HBoxBuilder onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragDoneProperty()));
         return this;
     }    
     
-    public HBoxBuilder scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleZProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.translateXProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.translateYProperty()));
-        return this;
-    }    
-    
-    public HBoxBuilder onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onZoomProperty()));
+    public HBoxBuilder layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
     }    
     
@@ -1349,18 +1139,43 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public HBoxBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleXProperty()));
-        return this;
-    }    
-    
     public HBoxBuilder onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
     }    
     
-    public HBoxBuilder onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onRotateProperty()));
+    public HBoxBuilder translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.translateZProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.translateXProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onZoomProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleZProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.translateYProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
     }    
     
@@ -1369,8 +1184,18 @@ public class HBoxBuilder {
         return this;
     }    
     
+    public HBoxBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleXProperty()));
+        return this;
+    }    
+    
     public HBoxBuilder rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rotateProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
     }    
     
@@ -1394,33 +1219,208 @@ public class HBoxBuilder {
         return this;
     }    
     
-    public HBoxBuilder blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
-        operations.add(obj -> op.accept(obj.blendModeProperty()));
+    public HBoxBuilder accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
     }    
     
-    public HBoxBuilder clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.clipProperty()));
+    public HBoxBuilder onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
     }    
     
-    public HBoxBuilder effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
-        operations.add(obj -> op.accept(obj.effectProperty()));
+    public HBoxBuilder onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
         return this;
     }    
     
-    public HBoxBuilder cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
-        operations.add(obj -> op.accept(obj.cacheHintProperty()));
+    public HBoxBuilder onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
         return this;
     }    
     
-    public HBoxBuilder depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
-        operations.add(obj -> op.accept(obj.depthTestProperty()));
+    public HBoxBuilder onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
         return this;
     }    
     
-    public HBoxBuilder cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.cacheProperty()));
+    public HBoxBuilder focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusTraversableProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.accessibleTextProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
+        operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
+        operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
+        operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
+        operations.add(obj -> op.accept(obj.rotationAxisProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
+        operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMousePressedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
+        operations.add(obj -> op.accept(obj.boundsInParentProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragExitedProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusVisibleProperty()));
+        return this;
+    }    
+    
+    public HBoxBuilder focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
     }
 }

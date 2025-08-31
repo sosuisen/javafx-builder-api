@@ -15,12 +15,7 @@ public class MenuBuilder {
     }
 
 
-    
-    public static MenuBuilder create(java.lang.String text, javafx.scene.Node graphic) {
-        MenuBuilder builder = new MenuBuilder();
-        builder.constructorArgs = new Object[]{text, graphic};
-        return builder;
-    }
+    public static MenuBuilder create() { return new MenuBuilder(); }
 
 
     
@@ -31,7 +26,12 @@ public class MenuBuilder {
     }
 
 
-    public static MenuBuilder create() { return new MenuBuilder(); }
+    
+    public static MenuBuilder create(java.lang.String text, javafx.scene.Node graphic) {
+        MenuBuilder builder = new MenuBuilder();
+        builder.constructorArgs = new Object[]{text, graphic};
+        return builder;
+    }
 
     private Object[] constructorArgs;
 
@@ -142,13 +142,13 @@ public class MenuBuilder {
         return this;
     }    
     
-    public  MenuBuilder visible(boolean value) {
-        operations.add(obj -> obj.setVisible(value));
+    public  MenuBuilder userData(java.lang.Object value) {
+        operations.add(obj -> obj.setUserData(value));
         return this;
     }    
     
-    public  MenuBuilder onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
-        operations.add(obj -> obj.setOnAction(value));
+    public  MenuBuilder visible(boolean value) {
+        operations.add(obj -> obj.setVisible(value));
         return this;
     }    
     
@@ -157,23 +157,13 @@ public class MenuBuilder {
         return this;
     }    
     
+    public  MenuBuilder onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
+        operations.add(obj -> obj.setOnAction(value));
+        return this;
+    }    
+    
     public  MenuBuilder mnemonicParsing(boolean value) {
         operations.add(obj -> obj.setMnemonicParsing(value));
-        return this;
-    }    
-    
-    public  MenuBuilder id(java.lang.String value) {
-        operations.add(obj -> obj.setId(value));
-        return this;
-    }    
-    
-    public  MenuBuilder graphic(javafx.scene.Node value) {
-        operations.add(obj -> obj.setGraphic(value));
-        return this;
-    }    
-    
-    public  MenuBuilder disable(boolean value) {
-        operations.add(obj -> obj.setDisable(value));
         return this;
     }    
     
@@ -182,13 +172,23 @@ public class MenuBuilder {
         return this;
     }    
     
-    public  MenuBuilder style(java.lang.String value) {
-        operations.add(obj -> obj.setStyle(value));
+    public  MenuBuilder graphic(javafx.scene.Node value) {
+        operations.add(obj -> obj.setGraphic(value));
         return this;
     }    
     
-    public  MenuBuilder userData(java.lang.Object value) {
-        operations.add(obj -> obj.setUserData(value));
+    public  MenuBuilder id(java.lang.String value) {
+        operations.add(obj -> obj.setId(value));
+        return this;
+    }    
+    
+    public  MenuBuilder disable(boolean value) {
+        operations.add(obj -> obj.setDisable(value));
+        return this;
+    }    
+    
+    public  MenuBuilder style(java.lang.String value) {
+        operations.add(obj -> obj.setStyle(value));
         return this;
     }    
     
@@ -240,6 +240,16 @@ public class MenuBuilder {
 
     
     
+    public MenuBuilder onShowingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
+        operations.add(obj -> op.accept(obj.onShowingProperty()));
+        return this;
+    }    
+    
+    public MenuBuilder showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.showingProperty()));
+        return this;
+    }    
+    
     public MenuBuilder onHiddenPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onHiddenProperty()));
         return this;
@@ -255,23 +265,13 @@ public class MenuBuilder {
         return this;
     }    
     
-    public MenuBuilder onShowingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
-        operations.add(obj -> op.accept(obj.onShowingProperty()));
-        return this;
-    }    
-    
-    public MenuBuilder showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.showingProperty()));
+    public MenuBuilder acceleratorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.KeyCombination>> op) {
+        operations.add(obj -> op.accept(obj.acceleratorProperty()));
         return this;
     }    
     
     public MenuBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
-        return this;
-    }    
-    
-    public MenuBuilder acceleratorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.KeyCombination>> op) {
-        operations.add(obj -> op.accept(obj.acceleratorProperty()));
         return this;
     }    
     
@@ -305,6 +305,11 @@ public class MenuBuilder {
         return this;
     }    
     
+    public MenuBuilder parentMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Menu>> op) {
+        operations.add(obj -> op.accept(obj.parentMenuProperty()));
+        return this;
+    }    
+    
     public MenuBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
@@ -317,11 +322,6 @@ public class MenuBuilder {
     
     public MenuBuilder parentPopupPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.parentPopupProperty()));
-        return this;
-    }    
-    
-    public MenuBuilder parentMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Menu>> op) {
-        operations.add(obj -> op.accept(obj.parentMenuProperty()));
         return this;
     }
 }

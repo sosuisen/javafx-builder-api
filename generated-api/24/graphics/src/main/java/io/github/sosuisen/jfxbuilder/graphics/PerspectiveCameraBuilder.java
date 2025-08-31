@@ -116,13 +116,13 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     
-    public  PerspectiveCameraBuilder farClip(double value) {
-        operations.add(obj -> obj.setFarClip(value));
+    public  PerspectiveCameraBuilder nearClip(double value) {
+        operations.add(obj -> obj.setNearClip(value));
         return this;
     }    
     
-    public  PerspectiveCameraBuilder nearClip(double value) {
-        operations.add(obj -> obj.setNearClip(value));
+    public  PerspectiveCameraBuilder farClip(double value) {
+        operations.add(obj -> obj.setFarClip(value));
         return this;
     }    
     
@@ -136,8 +136,63 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     
-    public  PerspectiveCameraBuilder inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
-        operations.add(obj -> obj.setInputMethodRequests(value));
+    public  PerspectiveCameraBuilder style(java.lang.String value) {
+        operations.add(obj -> obj.setStyle(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder layoutY(double value) {
+        operations.add(obj -> obj.setLayoutY(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder layoutX(double value) {
+        operations.add(obj -> obj.setLayoutX(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder scaleY(double value) {
+        operations.add(obj -> obj.setScaleY(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder rotate(double value) {
+        operations.add(obj -> obj.setRotate(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder scaleX(double value) {
+        operations.add(obj -> obj.setScaleX(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder scaleZ(double value) {
+        operations.add(obj -> obj.setScaleZ(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoom(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder managed(boolean value) {
+        operations.add(obj -> obj.setManaged(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder clip(javafx.scene.Node value) {
+        operations.add(obj -> obj.setClip(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder cursor(javafx.scene.Cursor value) {
+        operations.add(obj -> obj.setCursor(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder effect(javafx.scene.effect.Effect value) {
+        operations.add(obj -> obj.setEffect(value));
         return this;
     }    
     
@@ -156,83 +211,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     
-    public  PerspectiveCameraBuilder effect(javafx.scene.effect.Effect value) {
-        operations.add(obj -> obj.setEffect(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder layoutX(double value) {
-        operations.add(obj -> obj.setLayoutX(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder layoutY(double value) {
-        operations.add(obj -> obj.setLayoutY(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder style(java.lang.String value) {
-        operations.add(obj -> obj.setStyle(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder clip(javafx.scene.Node value) {
-        operations.add(obj -> obj.setClip(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder managed(boolean value) {
-        operations.add(obj -> obj.setManaged(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder scaleY(double value) {
-        operations.add(obj -> obj.setScaleY(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder scaleX(double value) {
-        operations.add(obj -> obj.setScaleX(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder rotate(double value) {
-        operations.add(obj -> obj.setRotate(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder scaleZ(double value) {
-        operations.add(obj -> obj.setScaleZ(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoom(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
-        operations.add(obj -> obj.setOnInputMethodTextChanged(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder accessibleRoleDescription(java.lang.String value) {
-        operations.add(obj -> obj.setAccessibleRoleDescription(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder cursor(javafx.scene.Cursor value) {
-        operations.add(obj -> obj.setCursor(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder viewOrder(double value) {
-        operations.add(obj -> obj.setViewOrder(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder eventDispatcher(javafx.event.EventDispatcher value) {
-        operations.add(obj -> obj.setEventDispatcher(value));
+    public  PerspectiveCameraBuilder inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
+        operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }    
     
@@ -241,88 +221,28 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     
+    public  PerspectiveCameraBuilder eventDispatcher(javafx.event.EventDispatcher value) {
+        operations.add(obj -> obj.setEventDispatcher(value));
+        return this;
+    }    
+    
     public  PerspectiveCameraBuilder depthTest(javafx.scene.DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
     }    
     
-    public  PerspectiveCameraBuilder onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragReleased(value));
+    public  PerspectiveCameraBuilder accessibleRoleDescription(java.lang.String value) {
+        operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }    
     
-    public  PerspectiveCameraBuilder mouseTransparent(boolean value) {
-        operations.add(obj -> obj.setMouseTransparent(value));
+    public  PerspectiveCameraBuilder onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
+        operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
     }    
     
-    public  PerspectiveCameraBuilder onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
-        operations.add(obj -> obj.setOnContextMenuRequested(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder focusTraversable(boolean value) {
-        operations.add(obj -> obj.setFocusTraversable(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
-        operations.add(obj -> obj.setOnRotationStarted(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
-        operations.add(obj -> obj.setOnRotationFinished(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragExited(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
-        operations.add(obj -> obj.setOnScrollFinished(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchStationary(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragEntered(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragExited(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragEntered(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragDropped(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragOver(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder blendMode(javafx.scene.effect.BlendMode value) {
-        operations.add(obj -> obj.setBlendMode(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragDone(value));
+    public  PerspectiveCameraBuilder viewOrder(double value) {
+        operations.add(obj -> obj.setViewOrder(value));
         return this;
     }    
     
@@ -331,38 +251,78 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     
+    public  PerspectiveCameraBuilder onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragEntered(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder blendMode(javafx.scene.effect.BlendMode value) {
+        operations.add(obj -> obj.setBlendMode(value));
+        return this;
+    }    
+    
     public  PerspectiveCameraBuilder cacheHint(javafx.scene.CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
     }    
     
-    public  PerspectiveCameraBuilder translateX(double value) {
-        operations.add(obj -> obj.setTranslateX(value));
+    public  PerspectiveCameraBuilder onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }    
     
-    public  PerspectiveCameraBuilder translateY(double value) {
-        operations.add(obj -> obj.setTranslateY(value));
+    public  PerspectiveCameraBuilder onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
+        operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }    
     
-    public  PerspectiveCameraBuilder onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
-        operations.add(obj -> obj.setOnSwipeUp(value));
+    public  PerspectiveCameraBuilder onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragged(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragDone(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragExited(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchPressed(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchReleased(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnDragDetected(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
+        operations.add(obj -> obj.setOnRotate(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder nodeOrientation(javafx.geometry.NodeOrientation orientation) {
+        operations.add(obj -> obj.setNodeOrientation(orientation));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }    
     
     public  PerspectiveCameraBuilder onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
-        operations.add(obj -> obj.setOnKeyTyped(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
-        operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
     }    
     
@@ -376,23 +336,73 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     
-    public  PerspectiveCameraBuilder onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
-        operations.add(obj -> obj.setOnScrollStarted(value));
+    public  PerspectiveCameraBuilder rotationAxis(javafx.geometry.Point3D value) {
+        operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }    
     
-    public  PerspectiveCameraBuilder onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchPressed(value));
+    public  PerspectiveCameraBuilder onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }    
     
-    public  PerspectiveCameraBuilder onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
-        operations.add(obj -> obj.setOnKeyReleased(value));
+    public  PerspectiveCameraBuilder translateX(double value) {
+        operations.add(obj -> obj.setTranslateX(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder translateZ(double value) {
+        operations.add(obj -> obj.setTranslateZ(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragDropped(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseClicked(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }    
     
     public  PerspectiveCameraBuilder onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMousePressed(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseReleased(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
+        operations.add(obj -> obj.setOnScrollStarted(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoomFinished(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
+        operations.add(obj -> obj.setOnSwipeLeft(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
+        operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
     }    
     
@@ -406,48 +416,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     
-    public  PerspectiveCameraBuilder nodeOrientation(javafx.geometry.NodeOrientation orientation) {
-        operations.add(obj -> obj.setNodeOrientation(orientation));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMousePressed(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
-        operations.add(obj -> obj.setOnRotate(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseClicked(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragOver(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnDragDetected(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchReleased(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoomStarted(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoomFinished(value));
+    public  PerspectiveCameraBuilder onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
+        operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }    
     
@@ -456,28 +426,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     
-    public  PerspectiveCameraBuilder onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragged(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder translateZ(double value) {
-        operations.add(obj -> obj.setTranslateZ(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseReleased(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder rotationAxis(javafx.geometry.Point3D value) {
-        operations.add(obj -> obj.setRotationAxis(value));
-        return this;
-    }    
-    
-    public  PerspectiveCameraBuilder onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseExited(value));
+    public  PerspectiveCameraBuilder translateY(double value) {
+        operations.add(obj -> obj.setTranslateY(value));
         return this;
     }    
     
@@ -486,13 +436,63 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     
+    public  PerspectiveCameraBuilder accessibleRole(javafx.scene.AccessibleRole value) {
+        operations.add(obj -> obj.setAccessibleRole(value));
+        return this;
+    }    
+    
     public  PerspectiveCameraBuilder accessibleHelp(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
     }    
     
-    public  PerspectiveCameraBuilder accessibleRole(javafx.scene.AccessibleRole value) {
-        operations.add(obj -> obj.setAccessibleRole(value));
+    public  PerspectiveCameraBuilder onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragExited(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
+        operations.add(obj -> obj.setOnContextMenuRequested(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragEntered(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
+        operations.add(obj -> obj.setOnRotationStarted(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder focusTraversable(boolean value) {
+        operations.add(obj -> obj.setFocusTraversable(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchStationary(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
+        operations.add(obj -> obj.setOnRotationFinished(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
+        operations.add(obj -> obj.setOnScrollFinished(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragReleased(value));
+        return this;
+    }    
+    
+    public  PerspectiveCameraBuilder mouseTransparent(boolean value) {
+        operations.add(obj -> obj.setMouseTransparent(value));
         return this;
     }
     @SafeVarargs
@@ -528,14 +528,14 @@ public class PerspectiveCameraBuilder {
 
 
 
-    public PerspectiveCameraBuilder rightAnchorInAnchorPane(java.lang.Double value) {
-        operations.add(obj -> javafx.scene.layout.AnchorPane.setRightAnchor(obj, value));
+    public PerspectiveCameraBuilder topAnchorInAnchorPane(java.lang.Double value) {
+        operations.add(obj -> javafx.scene.layout.AnchorPane.setTopAnchor(obj, value));
         return this;
     }
 
 
-    public PerspectiveCameraBuilder topAnchorInAnchorPane(java.lang.Double value) {
-        operations.add(obj -> javafx.scene.layout.AnchorPane.setTopAnchor(obj, value));
+    public PerspectiveCameraBuilder rightAnchorInAnchorPane(java.lang.Double value) {
+        operations.add(obj -> javafx.scene.layout.AnchorPane.setRightAnchor(obj, value));
         return this;
     }
 
@@ -552,104 +552,20 @@ public class PerspectiveCameraBuilder {
     }
 
 
-    public PerspectiveCameraBuilder marginInBorderPane(javafx.geometry.Insets value) {
-        operations.add(obj -> javafx.scene.layout.BorderPane.setMargin(obj, value));
-        return this;
-    }
-
-
     public PerspectiveCameraBuilder alignmentInBorderPane(javafx.geometry.Pos value) {
         operations.add(obj -> javafx.scene.layout.BorderPane.setAlignment(obj, value));
         return this;
     }
 
 
+    public PerspectiveCameraBuilder marginInBorderPane(javafx.geometry.Insets value) {
+        operations.add(obj -> javafx.scene.layout.BorderPane.setMargin(obj, value));
+        return this;
+    }
+
+
     public PerspectiveCameraBuilder marginInFlowPane(javafx.geometry.Insets value) {
         operations.add(obj -> javafx.scene.layout.FlowPane.setMargin(obj, value));
-        return this;
-    }
-
-
-    public PerspectiveCameraBuilder marginInGridPane(javafx.geometry.Insets value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setMargin(obj, value));
-        return this;
-    }
-
-
-    public PerspectiveCameraBuilder hGrowInGridPane(javafx.scene.layout.Priority value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setHgrow(obj, value));
-        return this;
-    }
-
-
-    public PerspectiveCameraBuilder rowSpanInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setRowSpan(obj, value));
-        return this;
-    }
-
-
-    public PerspectiveCameraBuilder vGrowInGridPane(javafx.scene.layout.Priority value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setVgrow(obj, value));
-        return this;
-    }
-
-
-    public PerspectiveCameraBuilder fillHeightInGridPane(java.lang.Boolean value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setFillHeight(obj, value));
-        return this;
-    }
-
-
-    public PerspectiveCameraBuilder columnIndexInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setColumnIndex(obj, value));
-        return this;
-    }
-
-
-    public PerspectiveCameraBuilder rowIndexInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setRowIndex(obj, value));
-        return this;
-    }
-
-
-    public PerspectiveCameraBuilder columnSpanInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setColumnSpan(obj, value));
-        return this;
-    }
-
-
-    public PerspectiveCameraBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment));
-        return this;
-    }
-
-
-    public PerspectiveCameraBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan));
-        return this;
-    }
-
-
-    public PerspectiveCameraBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow));
-        return this;
-    }
-
-
-    public PerspectiveCameraBuilder constraintsInGridPane(int columnIndex, int rowIndex) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex));
-        return this;
-    }
-
-
-    public PerspectiveCameraBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow, javafx.geometry.Insets margin) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow, margin));
-        return this;
-    }
-
-
-    public PerspectiveCameraBuilder vAlignmentInGridPane(javafx.geometry.VPos value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setValignment(obj, value));
         return this;
     }
 
@@ -666,6 +582,90 @@ public class PerspectiveCameraBuilder {
     }
 
 
+    public PerspectiveCameraBuilder columnSpanInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setColumnSpan(obj, value));
+        return this;
+    }
+
+
+    public PerspectiveCameraBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow));
+        return this;
+    }
+
+
+    public PerspectiveCameraBuilder constraintsInGridPane(int columnIndex, int rowIndex) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex));
+        return this;
+    }
+
+
+    public PerspectiveCameraBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment));
+        return this;
+    }
+
+
+    public PerspectiveCameraBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan));
+        return this;
+    }
+
+
+    public PerspectiveCameraBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow, javafx.geometry.Insets margin) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow, margin));
+        return this;
+    }
+
+
+    public PerspectiveCameraBuilder columnIndexInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setColumnIndex(obj, value));
+        return this;
+    }
+
+
+    public PerspectiveCameraBuilder vAlignmentInGridPane(javafx.geometry.VPos value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setValignment(obj, value));
+        return this;
+    }
+
+
+    public PerspectiveCameraBuilder rowIndexInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setRowIndex(obj, value));
+        return this;
+    }
+
+
+    public PerspectiveCameraBuilder fillHeightInGridPane(java.lang.Boolean value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setFillHeight(obj, value));
+        return this;
+    }
+
+
+    public PerspectiveCameraBuilder marginInGridPane(javafx.geometry.Insets value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setMargin(obj, value));
+        return this;
+    }
+
+
+    public PerspectiveCameraBuilder hGrowInGridPane(javafx.scene.layout.Priority value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setHgrow(obj, value));
+        return this;
+    }
+
+
+    public PerspectiveCameraBuilder vGrowInGridPane(javafx.scene.layout.Priority value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setVgrow(obj, value));
+        return this;
+    }
+
+
+    public PerspectiveCameraBuilder rowSpanInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setRowSpan(obj, value));
+        return this;
+    }
+
+
     public PerspectiveCameraBuilder marginInHBox(javafx.geometry.Insets value) {
         operations.add(obj -> javafx.scene.layout.HBox.setMargin(obj, value));
         return this;
@@ -678,26 +678,26 @@ public class PerspectiveCameraBuilder {
     }
 
 
-    public PerspectiveCameraBuilder marginInStackPane(javafx.geometry.Insets value) {
-        operations.add(obj -> javafx.scene.layout.StackPane.setMargin(obj, value));
-        return this;
-    }
-
-
     public PerspectiveCameraBuilder alignmentInStackPane(javafx.geometry.Pos value) {
         operations.add(obj -> javafx.scene.layout.StackPane.setAlignment(obj, value));
         return this;
     }
 
 
-    public PerspectiveCameraBuilder marginInTilePane(javafx.geometry.Insets value) {
-        operations.add(obj -> javafx.scene.layout.TilePane.setMargin(obj, value));
+    public PerspectiveCameraBuilder marginInStackPane(javafx.geometry.Insets value) {
+        operations.add(obj -> javafx.scene.layout.StackPane.setMargin(obj, value));
         return this;
     }
 
 
     public PerspectiveCameraBuilder alignmentInTilePane(javafx.geometry.Pos value) {
         operations.add(obj -> javafx.scene.layout.TilePane.setAlignment(obj, value));
+        return this;
+    }
+
+
+    public PerspectiveCameraBuilder marginInTilePane(javafx.geometry.Insets value) {
+        operations.add(obj -> javafx.scene.layout.TilePane.setMargin(obj, value));
         return this;
     }
 
@@ -715,13 +715,13 @@ public class PerspectiveCameraBuilder {
 
     
     
-    public PerspectiveCameraBuilder fieldOfViewPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.fieldOfViewProperty()));
+    public PerspectiveCameraBuilder verticalFieldOfViewPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.verticalFieldOfViewProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder verticalFieldOfViewPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.verticalFieldOfViewProperty()));
+    public PerspectiveCameraBuilder fieldOfViewPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.fieldOfViewProperty()));
         return this;
     }    
     
@@ -735,18 +735,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     
-    public PerspectiveCameraBuilder onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragOverProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.idProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragDoneProperty()));
+    public PerspectiveCameraBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
     }    
     
@@ -755,58 +745,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     
-    public PerspectiveCameraBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.disableProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
-        operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
-        operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
-        operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
-        operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.styleProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
-        operations.add(obj -> op.accept(obj.cursorProperty()));
+    public PerspectiveCameraBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.idProperty()));
         return this;
     }    
     
@@ -825,13 +765,43 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     
-    public PerspectiveCameraBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
-        operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
+    public PerspectiveCameraBuilder localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
+        operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
-        operations.add(obj -> op.accept(obj.boundsInParentProperty()));
+    public PerspectiveCameraBuilder onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
+        operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
+        operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
+        operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
     }    
     
@@ -840,213 +810,53 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     
-    public PerspectiveCameraBuilder layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
-        operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
+    public PerspectiveCameraBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
+        operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragExitedProperty()));
+    public PerspectiveCameraBuilder depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
+        operations.add(obj -> op.accept(obj.depthTestProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
+    public PerspectiveCameraBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
-        operations.add(obj -> op.accept(obj.rotationAxisProperty()));
+    public PerspectiveCameraBuilder cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
+        operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
-        operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
+    public PerspectiveCameraBuilder cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
-        operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
+    public PerspectiveCameraBuilder clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
+    public PerspectiveCameraBuilder cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
+        operations.add(obj -> op.accept(obj.cacheHintProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMousePressedProperty()));
+    public PerspectiveCameraBuilder effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
+        operations.add(obj -> op.accept(obj.effectProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
+    public PerspectiveCameraBuilder blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
+        operations.add(obj -> op.accept(obj.blendModeProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.accessibleTextProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
-        operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusTraversableProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusVisibleProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusWithinProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.layoutXProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.managedProperty()));
+    public PerspectiveCameraBuilder onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
     }    
     
@@ -1055,38 +865,18 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     
-    public PerspectiveCameraBuilder translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.translateZProperty()));
+    public PerspectiveCameraBuilder managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.managedProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleYProperty()));
+    public PerspectiveCameraBuilder onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragDoneProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleZProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.translateXProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.translateYProperty()));
-        return this;
-    }    
-    
-    public PerspectiveCameraBuilder onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onZoomProperty()));
+    public PerspectiveCameraBuilder layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
     }    
     
@@ -1095,18 +885,43 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     
-    public PerspectiveCameraBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleXProperty()));
-        return this;
-    }    
-    
     public PerspectiveCameraBuilder onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onRotateProperty()));
+    public PerspectiveCameraBuilder translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.translateZProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.translateXProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onZoomProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleZProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.translateYProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
     }    
     
@@ -1115,8 +930,18 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     
+    public PerspectiveCameraBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleXProperty()));
+        return this;
+    }    
+    
     public PerspectiveCameraBuilder rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rotateProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
     }    
     
@@ -1140,33 +965,208 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     
-    public PerspectiveCameraBuilder blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
-        operations.add(obj -> op.accept(obj.blendModeProperty()));
+    public PerspectiveCameraBuilder accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.clipProperty()));
+    public PerspectiveCameraBuilder onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
-        operations.add(obj -> op.accept(obj.effectProperty()));
+    public PerspectiveCameraBuilder onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
-        operations.add(obj -> op.accept(obj.cacheHintProperty()));
+    public PerspectiveCameraBuilder onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
-        operations.add(obj -> op.accept(obj.depthTestProperty()));
+    public PerspectiveCameraBuilder onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
         return this;
     }    
     
-    public PerspectiveCameraBuilder cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.cacheProperty()));
+    public PerspectiveCameraBuilder focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusTraversableProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.accessibleTextProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
+        operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
+        operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
+        operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
+        operations.add(obj -> op.accept(obj.rotationAxisProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
+        operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMousePressedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
+        operations.add(obj -> op.accept(obj.boundsInParentProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragExitedProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusVisibleProperty()));
+        return this;
+    }    
+    
+    public PerspectiveCameraBuilder focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
     }
 }

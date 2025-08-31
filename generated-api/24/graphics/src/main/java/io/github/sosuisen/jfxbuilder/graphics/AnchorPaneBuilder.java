@@ -110,31 +110,6 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
-    public  AnchorPaneBuilder border(javafx.scene.layout.Border value) {
-        operations.add(obj -> obj.setBorder(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder minSize(double minWidth, double minHeight) {
-        operations.add(obj -> obj.setMinSize(minWidth, minHeight));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder padding(javafx.geometry.Insets value) {
-        operations.add(obj -> obj.setPadding(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder shape(javafx.scene.shape.Shape value) {
-        operations.add(obj -> obj.setShape(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder maxSize(double maxWidth, double maxHeight) {
-        operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
-        return this;
-    }    
-    
     public  AnchorPaneBuilder background(javafx.scene.layout.Background value) {
         operations.add(obj -> obj.setBackground(value));
         return this;
@@ -142,6 +117,11 @@ public class AnchorPaneBuilder {
     
     public  AnchorPaneBuilder maxWidth(double value) {
         operations.add(obj -> obj.setMaxWidth(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder minWidth(double value) {
+        operations.add(obj -> obj.setMinWidth(value));
         return this;
     }    
     
@@ -155,8 +135,28 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
-    public  AnchorPaneBuilder minWidth(double value) {
-        operations.add(obj -> obj.setMinWidth(value));
+    public  AnchorPaneBuilder snapToPixel(boolean value) {
+        operations.add(obj -> obj.setSnapToPixel(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder scaleShape(boolean value) {
+        operations.add(obj -> obj.setScaleShape(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder prefSize(double prefWidth, double prefHeight) {
+        operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder centerShape(boolean value) {
+        operations.add(obj -> obj.setCenterShape(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder cacheShape(boolean value) {
+        operations.add(obj -> obj.setCacheShape(value));
         return this;
     }    
     
@@ -175,28 +175,28 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
-    public  AnchorPaneBuilder snapToPixel(boolean value) {
-        operations.add(obj -> obj.setSnapToPixel(value));
+    public  AnchorPaneBuilder maxSize(double maxWidth, double maxHeight) {
+        operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
         return this;
     }    
     
-    public  AnchorPaneBuilder cacheShape(boolean value) {
-        operations.add(obj -> obj.setCacheShape(value));
+    public  AnchorPaneBuilder minSize(double minWidth, double minHeight) {
+        operations.add(obj -> obj.setMinSize(minWidth, minHeight));
         return this;
     }    
     
-    public  AnchorPaneBuilder centerShape(boolean value) {
-        operations.add(obj -> obj.setCenterShape(value));
+    public  AnchorPaneBuilder padding(javafx.geometry.Insets value) {
+        operations.add(obj -> obj.setPadding(value));
         return this;
     }    
     
-    public  AnchorPaneBuilder prefSize(double prefWidth, double prefHeight) {
-        operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
+    public  AnchorPaneBuilder shape(javafx.scene.shape.Shape value) {
+        operations.add(obj -> obj.setShape(value));
         return this;
     }    
     
-    public  AnchorPaneBuilder scaleShape(boolean value) {
-        operations.add(obj -> obj.setScaleShape(value));
+    public  AnchorPaneBuilder border(javafx.scene.layout.Border value) {
+        operations.add(obj -> obj.setBorder(value));
         return this;
     }    
     
@@ -210,8 +210,63 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
-    public  AnchorPaneBuilder inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
-        operations.add(obj -> obj.setInputMethodRequests(value));
+    public  AnchorPaneBuilder style(java.lang.String value) {
+        operations.add(obj -> obj.setStyle(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder layoutY(double value) {
+        operations.add(obj -> obj.setLayoutY(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder layoutX(double value) {
+        operations.add(obj -> obj.setLayoutX(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder scaleY(double value) {
+        operations.add(obj -> obj.setScaleY(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder rotate(double value) {
+        operations.add(obj -> obj.setRotate(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder scaleX(double value) {
+        operations.add(obj -> obj.setScaleX(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder scaleZ(double value) {
+        operations.add(obj -> obj.setScaleZ(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoom(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder managed(boolean value) {
+        operations.add(obj -> obj.setManaged(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder clip(javafx.scene.Node value) {
+        operations.add(obj -> obj.setClip(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder cursor(javafx.scene.Cursor value) {
+        operations.add(obj -> obj.setCursor(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder effect(javafx.scene.effect.Effect value) {
+        operations.add(obj -> obj.setEffect(value));
         return this;
     }    
     
@@ -230,83 +285,8 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
-    public  AnchorPaneBuilder effect(javafx.scene.effect.Effect value) {
-        operations.add(obj -> obj.setEffect(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder layoutX(double value) {
-        operations.add(obj -> obj.setLayoutX(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder layoutY(double value) {
-        operations.add(obj -> obj.setLayoutY(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder style(java.lang.String value) {
-        operations.add(obj -> obj.setStyle(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder clip(javafx.scene.Node value) {
-        operations.add(obj -> obj.setClip(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder managed(boolean value) {
-        operations.add(obj -> obj.setManaged(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder scaleY(double value) {
-        operations.add(obj -> obj.setScaleY(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder scaleX(double value) {
-        operations.add(obj -> obj.setScaleX(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder rotate(double value) {
-        operations.add(obj -> obj.setRotate(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder scaleZ(double value) {
-        operations.add(obj -> obj.setScaleZ(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoom(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
-        operations.add(obj -> obj.setOnInputMethodTextChanged(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder accessibleRoleDescription(java.lang.String value) {
-        operations.add(obj -> obj.setAccessibleRoleDescription(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder cursor(javafx.scene.Cursor value) {
-        operations.add(obj -> obj.setCursor(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder viewOrder(double value) {
-        operations.add(obj -> obj.setViewOrder(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder eventDispatcher(javafx.event.EventDispatcher value) {
-        operations.add(obj -> obj.setEventDispatcher(value));
+    public  AnchorPaneBuilder inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
+        operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }    
     
@@ -315,88 +295,28 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
+    public  AnchorPaneBuilder eventDispatcher(javafx.event.EventDispatcher value) {
+        operations.add(obj -> obj.setEventDispatcher(value));
+        return this;
+    }    
+    
     public  AnchorPaneBuilder depthTest(javafx.scene.DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
     }    
     
-    public  AnchorPaneBuilder onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragReleased(value));
+    public  AnchorPaneBuilder accessibleRoleDescription(java.lang.String value) {
+        operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }    
     
-    public  AnchorPaneBuilder mouseTransparent(boolean value) {
-        operations.add(obj -> obj.setMouseTransparent(value));
+    public  AnchorPaneBuilder onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
+        operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
     }    
     
-    public  AnchorPaneBuilder onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
-        operations.add(obj -> obj.setOnContextMenuRequested(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder focusTraversable(boolean value) {
-        operations.add(obj -> obj.setFocusTraversable(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
-        operations.add(obj -> obj.setOnRotationStarted(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
-        operations.add(obj -> obj.setOnRotationFinished(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragExited(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
-        operations.add(obj -> obj.setOnScrollFinished(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchStationary(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragEntered(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragExited(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragEntered(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragDropped(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragOver(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder blendMode(javafx.scene.effect.BlendMode value) {
-        operations.add(obj -> obj.setBlendMode(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
-        operations.add(obj -> obj.setOnDragDone(value));
+    public  AnchorPaneBuilder viewOrder(double value) {
+        operations.add(obj -> obj.setViewOrder(value));
         return this;
     }    
     
@@ -405,38 +325,78 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
+    public  AnchorPaneBuilder onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragEntered(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder blendMode(javafx.scene.effect.BlendMode value) {
+        operations.add(obj -> obj.setBlendMode(value));
+        return this;
+    }    
+    
     public  AnchorPaneBuilder cacheHint(javafx.scene.CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
     }    
     
-    public  AnchorPaneBuilder translateX(double value) {
-        operations.add(obj -> obj.setTranslateX(value));
+    public  AnchorPaneBuilder onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }    
     
-    public  AnchorPaneBuilder translateY(double value) {
-        operations.add(obj -> obj.setTranslateY(value));
+    public  AnchorPaneBuilder onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
+        operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }    
     
-    public  AnchorPaneBuilder onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
-        operations.add(obj -> obj.setOnSwipeUp(value));
+    public  AnchorPaneBuilder onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragged(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragDone(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragExited(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchPressed(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchReleased(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnDragDetected(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
+        operations.add(obj -> obj.setOnRotate(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder nodeOrientation(javafx.geometry.NodeOrientation orientation) {
+        operations.add(obj -> obj.setNodeOrientation(orientation));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }    
     
     public  AnchorPaneBuilder onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
-        operations.add(obj -> obj.setOnKeyTyped(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
-        operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
     }    
     
@@ -450,23 +410,73 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
-    public  AnchorPaneBuilder onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
-        operations.add(obj -> obj.setOnScrollStarted(value));
+    public  AnchorPaneBuilder rotationAxis(javafx.geometry.Point3D value) {
+        operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }    
     
-    public  AnchorPaneBuilder onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchPressed(value));
+    public  AnchorPaneBuilder onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }    
     
-    public  AnchorPaneBuilder onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
-        operations.add(obj -> obj.setOnKeyReleased(value));
+    public  AnchorPaneBuilder translateX(double value) {
+        operations.add(obj -> obj.setTranslateX(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder translateZ(double value) {
+        operations.add(obj -> obj.setTranslateZ(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
+        operations.add(obj -> obj.setOnDragDropped(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseClicked(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }    
     
     public  AnchorPaneBuilder onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMousePressed(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
+        operations.add(obj -> obj.setOnMouseReleased(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
+        operations.add(obj -> obj.setOnScrollStarted(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
+        operations.add(obj -> obj.setOnZoomFinished(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
+        operations.add(obj -> obj.setOnSwipeLeft(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
+        operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
     }    
     
@@ -480,48 +490,8 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
-    public  AnchorPaneBuilder nodeOrientation(javafx.geometry.NodeOrientation orientation) {
-        operations.add(obj -> obj.setNodeOrientation(orientation));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMousePressed(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
-        operations.add(obj -> obj.setOnRotate(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseClicked(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragOver(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnDragDetected(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
-        operations.add(obj -> obj.setOnTouchReleased(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoomStarted(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
-        operations.add(obj -> obj.setOnZoomFinished(value));
+    public  AnchorPaneBuilder onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
+        operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }    
     
@@ -530,28 +500,8 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
-    public  AnchorPaneBuilder onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseDragged(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder translateZ(double value) {
-        operations.add(obj -> obj.setTranslateZ(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseReleased(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder rotationAxis(javafx.geometry.Point3D value) {
-        operations.add(obj -> obj.setRotationAxis(value));
-        return this;
-    }    
-    
-    public  AnchorPaneBuilder onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
-        operations.add(obj -> obj.setOnMouseExited(value));
+    public  AnchorPaneBuilder translateY(double value) {
+        operations.add(obj -> obj.setTranslateY(value));
         return this;
     }    
     
@@ -560,13 +510,63 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
+    public  AnchorPaneBuilder accessibleRole(javafx.scene.AccessibleRole value) {
+        operations.add(obj -> obj.setAccessibleRole(value));
+        return this;
+    }    
+    
     public  AnchorPaneBuilder accessibleHelp(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
     }    
     
-    public  AnchorPaneBuilder accessibleRole(javafx.scene.AccessibleRole value) {
-        operations.add(obj -> obj.setAccessibleRole(value));
+    public  AnchorPaneBuilder onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragExited(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
+        operations.add(obj -> obj.setOnContextMenuRequested(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragEntered(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
+        operations.add(obj -> obj.setOnRotationStarted(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder focusTraversable(boolean value) {
+        operations.add(obj -> obj.setFocusTraversable(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
+        operations.add(obj -> obj.setOnTouchStationary(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
+        operations.add(obj -> obj.setOnRotationFinished(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
+        operations.add(obj -> obj.setOnScrollFinished(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
+        operations.add(obj -> obj.setOnMouseDragReleased(value));
+        return this;
+    }    
+    
+    public  AnchorPaneBuilder mouseTransparent(boolean value) {
+        operations.add(obj -> obj.setMouseTransparent(value));
         return this;
     }
     @SafeVarargs
@@ -661,14 +661,14 @@ public class AnchorPaneBuilder {
         return this;
     }
 
-    public AnchorPaneBuilder rightAnchorInAnchorPane(java.lang.Double value) {
-        operations.add(obj -> javafx.scene.layout.AnchorPane.setRightAnchor(obj, value));
+    public AnchorPaneBuilder topAnchorInAnchorPane(java.lang.Double value) {
+        operations.add(obj -> javafx.scene.layout.AnchorPane.setTopAnchor(obj, value));
         return this;
     }
 
 
-    public AnchorPaneBuilder topAnchorInAnchorPane(java.lang.Double value) {
-        operations.add(obj -> javafx.scene.layout.AnchorPane.setTopAnchor(obj, value));
+    public AnchorPaneBuilder rightAnchorInAnchorPane(java.lang.Double value) {
+        operations.add(obj -> javafx.scene.layout.AnchorPane.setRightAnchor(obj, value));
         return this;
     }
 
@@ -685,104 +685,20 @@ public class AnchorPaneBuilder {
     }
 
 
-    public AnchorPaneBuilder marginInBorderPane(javafx.geometry.Insets value) {
-        operations.add(obj -> javafx.scene.layout.BorderPane.setMargin(obj, value));
-        return this;
-    }
-
-
     public AnchorPaneBuilder alignmentInBorderPane(javafx.geometry.Pos value) {
         operations.add(obj -> javafx.scene.layout.BorderPane.setAlignment(obj, value));
         return this;
     }
 
 
+    public AnchorPaneBuilder marginInBorderPane(javafx.geometry.Insets value) {
+        operations.add(obj -> javafx.scene.layout.BorderPane.setMargin(obj, value));
+        return this;
+    }
+
+
     public AnchorPaneBuilder marginInFlowPane(javafx.geometry.Insets value) {
         operations.add(obj -> javafx.scene.layout.FlowPane.setMargin(obj, value));
-        return this;
-    }
-
-
-    public AnchorPaneBuilder marginInGridPane(javafx.geometry.Insets value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setMargin(obj, value));
-        return this;
-    }
-
-
-    public AnchorPaneBuilder hGrowInGridPane(javafx.scene.layout.Priority value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setHgrow(obj, value));
-        return this;
-    }
-
-
-    public AnchorPaneBuilder rowSpanInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setRowSpan(obj, value));
-        return this;
-    }
-
-
-    public AnchorPaneBuilder vGrowInGridPane(javafx.scene.layout.Priority value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setVgrow(obj, value));
-        return this;
-    }
-
-
-    public AnchorPaneBuilder fillHeightInGridPane(java.lang.Boolean value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setFillHeight(obj, value));
-        return this;
-    }
-
-
-    public AnchorPaneBuilder columnIndexInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setColumnIndex(obj, value));
-        return this;
-    }
-
-
-    public AnchorPaneBuilder rowIndexInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setRowIndex(obj, value));
-        return this;
-    }
-
-
-    public AnchorPaneBuilder columnSpanInGridPane(java.lang.Integer value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setColumnSpan(obj, value));
-        return this;
-    }
-
-
-    public AnchorPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment));
-        return this;
-    }
-
-
-    public AnchorPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan));
-        return this;
-    }
-
-
-    public AnchorPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow));
-        return this;
-    }
-
-
-    public AnchorPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex));
-        return this;
-    }
-
-
-    public AnchorPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow, javafx.geometry.Insets margin) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow, margin));
-        return this;
-    }
-
-
-    public AnchorPaneBuilder vAlignmentInGridPane(javafx.geometry.VPos value) {
-        operations.add(obj -> javafx.scene.layout.GridPane.setValignment(obj, value));
         return this;
     }
 
@@ -799,6 +715,90 @@ public class AnchorPaneBuilder {
     }
 
 
+    public AnchorPaneBuilder columnSpanInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setColumnSpan(obj, value));
+        return this;
+    }
+
+
+    public AnchorPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow));
+        return this;
+    }
+
+
+    public AnchorPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex));
+        return this;
+    }
+
+
+    public AnchorPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment));
+        return this;
+    }
+
+
+    public AnchorPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan));
+        return this;
+    }
+
+
+    public AnchorPaneBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow, javafx.geometry.Insets margin) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow, margin));
+        return this;
+    }
+
+
+    public AnchorPaneBuilder columnIndexInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setColumnIndex(obj, value));
+        return this;
+    }
+
+
+    public AnchorPaneBuilder vAlignmentInGridPane(javafx.geometry.VPos value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setValignment(obj, value));
+        return this;
+    }
+
+
+    public AnchorPaneBuilder rowIndexInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setRowIndex(obj, value));
+        return this;
+    }
+
+
+    public AnchorPaneBuilder fillHeightInGridPane(java.lang.Boolean value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setFillHeight(obj, value));
+        return this;
+    }
+
+
+    public AnchorPaneBuilder marginInGridPane(javafx.geometry.Insets value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setMargin(obj, value));
+        return this;
+    }
+
+
+    public AnchorPaneBuilder hGrowInGridPane(javafx.scene.layout.Priority value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setHgrow(obj, value));
+        return this;
+    }
+
+
+    public AnchorPaneBuilder vGrowInGridPane(javafx.scene.layout.Priority value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setVgrow(obj, value));
+        return this;
+    }
+
+
+    public AnchorPaneBuilder rowSpanInGridPane(java.lang.Integer value) {
+        operations.add(obj -> javafx.scene.layout.GridPane.setRowSpan(obj, value));
+        return this;
+    }
+
+
     public AnchorPaneBuilder marginInHBox(javafx.geometry.Insets value) {
         operations.add(obj -> javafx.scene.layout.HBox.setMargin(obj, value));
         return this;
@@ -811,26 +811,26 @@ public class AnchorPaneBuilder {
     }
 
 
-    public AnchorPaneBuilder marginInStackPane(javafx.geometry.Insets value) {
-        operations.add(obj -> javafx.scene.layout.StackPane.setMargin(obj, value));
-        return this;
-    }
-
-
     public AnchorPaneBuilder alignmentInStackPane(javafx.geometry.Pos value) {
         operations.add(obj -> javafx.scene.layout.StackPane.setAlignment(obj, value));
         return this;
     }
 
 
-    public AnchorPaneBuilder marginInTilePane(javafx.geometry.Insets value) {
-        operations.add(obj -> javafx.scene.layout.TilePane.setMargin(obj, value));
+    public AnchorPaneBuilder marginInStackPane(javafx.geometry.Insets value) {
+        operations.add(obj -> javafx.scene.layout.StackPane.setMargin(obj, value));
         return this;
     }
 
 
     public AnchorPaneBuilder alignmentInTilePane(javafx.geometry.Pos value) {
         operations.add(obj -> javafx.scene.layout.TilePane.setAlignment(obj, value));
+        return this;
+    }
+
+
+    public AnchorPaneBuilder marginInTilePane(javafx.geometry.Insets value) {
+        operations.add(obj -> javafx.scene.layout.TilePane.setMargin(obj, value));
         return this;
     }
 
@@ -858,6 +858,16 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
+    public AnchorPaneBuilder maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.maxWidthProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.minHeightProperty()));
+        return this;
+    }    
+    
     public AnchorPaneBuilder maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxHeightProperty()));
         return this;
@@ -868,43 +878,8 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
-    public AnchorPaneBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.minHeightProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.maxWidthProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.centerShapeProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
-        operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.snapToPixelProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
-        operations.add(obj -> op.accept(obj.shapeProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.cacheShapeProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleShapeProperty()));
+    public AnchorPaneBuilder borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
+        operations.add(obj -> op.accept(obj.borderProperty()));
         return this;
     }    
     
@@ -923,8 +898,13 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
-    public AnchorPaneBuilder borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
-        operations.add(obj -> op.accept(obj.borderProperty()));
+    public AnchorPaneBuilder paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
+        operations.add(obj -> op.accept(obj.paddingProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleShapeProperty()));
         return this;
     }    
     
@@ -933,8 +913,28 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
-    public AnchorPaneBuilder paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
-        operations.add(obj -> op.accept(obj.paddingProperty()));
+    public AnchorPaneBuilder shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
+        operations.add(obj -> op.accept(obj.shapeProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.cacheShapeProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.centerShapeProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
+        operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.snapToPixelProperty()));
         return this;
     }    
     
@@ -943,18 +943,8 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
-    public AnchorPaneBuilder onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragOverProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.idProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragDoneProperty()));
+    public AnchorPaneBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
     }    
     
@@ -963,58 +953,8 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
-    public AnchorPaneBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.disableProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
-        operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
-        operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
-        operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
-        operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.styleProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
-        operations.add(obj -> op.accept(obj.cursorProperty()));
+    public AnchorPaneBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.idProperty()));
         return this;
     }    
     
@@ -1033,13 +973,43 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
-    public AnchorPaneBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
-        operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
+    public AnchorPaneBuilder localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
+        operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
         return this;
     }    
     
-    public AnchorPaneBuilder boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
-        operations.add(obj -> op.accept(obj.boundsInParentProperty()));
+    public AnchorPaneBuilder onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
+        operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
+        operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
+        operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
     }    
     
@@ -1048,213 +1018,53 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
-    public AnchorPaneBuilder layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
-        operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
+    public AnchorPaneBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
+        operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
     }    
     
-    public AnchorPaneBuilder onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragExitedProperty()));
+    public AnchorPaneBuilder depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
+        operations.add(obj -> op.accept(obj.depthTestProperty()));
         return this;
     }    
     
-    public AnchorPaneBuilder onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
+    public AnchorPaneBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
     }    
     
-    public AnchorPaneBuilder rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
-        operations.add(obj -> op.accept(obj.rotationAxisProperty()));
+    public AnchorPaneBuilder cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
+        operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
     }    
     
-    public AnchorPaneBuilder boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
-        operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
+    public AnchorPaneBuilder cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
     }    
     
-    public AnchorPaneBuilder nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
-        operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
+    public AnchorPaneBuilder clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
     }    
     
-    public AnchorPaneBuilder onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
+    public AnchorPaneBuilder cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
+        operations.add(obj -> op.accept(obj.cacheHintProperty()));
         return this;
     }    
     
-    public AnchorPaneBuilder onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMousePressedProperty()));
+    public AnchorPaneBuilder effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
+        operations.add(obj -> op.accept(obj.effectProperty()));
         return this;
     }    
     
-    public AnchorPaneBuilder onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
+    public AnchorPaneBuilder blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
+        operations.add(obj -> op.accept(obj.blendModeProperty()));
         return this;
     }    
     
-    public AnchorPaneBuilder onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.accessibleTextProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
-        operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusTraversableProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusVisibleProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusWithinProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.layoutXProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.managedProperty()));
+    public AnchorPaneBuilder onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
     }    
     
@@ -1263,38 +1073,18 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
-    public AnchorPaneBuilder translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.translateZProperty()));
+    public AnchorPaneBuilder managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.managedProperty()));
         return this;
     }    
     
-    public AnchorPaneBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleYProperty()));
+    public AnchorPaneBuilder onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragDoneProperty()));
         return this;
     }    
     
-    public AnchorPaneBuilder scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleZProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.translateXProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.translateYProperty()));
-        return this;
-    }    
-    
-    public AnchorPaneBuilder onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onZoomProperty()));
+    public AnchorPaneBuilder layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
     }    
     
@@ -1303,18 +1093,43 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
-    public AnchorPaneBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.scaleXProperty()));
-        return this;
-    }    
-    
     public AnchorPaneBuilder onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
     }    
     
-    public AnchorPaneBuilder onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onRotateProperty()));
+    public AnchorPaneBuilder translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.translateZProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.translateXProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onZoomProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleZProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.translateYProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
     }    
     
@@ -1323,8 +1138,18 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
+    public AnchorPaneBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.scaleXProperty()));
+        return this;
+    }    
+    
     public AnchorPaneBuilder rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rotateProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
     }    
     
@@ -1348,33 +1173,208 @@ public class AnchorPaneBuilder {
         return this;
     }    
     
-    public AnchorPaneBuilder blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
-        operations.add(obj -> op.accept(obj.blendModeProperty()));
+    public AnchorPaneBuilder accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
     }    
     
-    public AnchorPaneBuilder clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.clipProperty()));
+    public AnchorPaneBuilder onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
     }    
     
-    public AnchorPaneBuilder effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
-        operations.add(obj -> op.accept(obj.effectProperty()));
+    public AnchorPaneBuilder onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
         return this;
     }    
     
-    public AnchorPaneBuilder cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
-        operations.add(obj -> op.accept(obj.cacheHintProperty()));
+    public AnchorPaneBuilder onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
         return this;
     }    
     
-    public AnchorPaneBuilder depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
-        operations.add(obj -> op.accept(obj.depthTestProperty()));
+    public AnchorPaneBuilder onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
         return this;
     }    
     
-    public AnchorPaneBuilder cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.cacheProperty()));
+    public AnchorPaneBuilder focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusTraversableProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.accessibleTextProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
+        operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
+        operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
+        operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
+        operations.add(obj -> op.accept(obj.rotationAxisProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
+        operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMousePressedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
+        operations.add(obj -> op.accept(obj.boundsInParentProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onDragExitedProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusVisibleProperty()));
+        return this;
+    }    
+    
+    public AnchorPaneBuilder focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
     }
 }

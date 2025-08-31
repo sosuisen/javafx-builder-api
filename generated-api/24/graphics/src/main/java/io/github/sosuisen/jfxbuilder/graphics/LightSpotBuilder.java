@@ -106,8 +106,8 @@ public class LightSpotBuilder {
         return this;
     }    
     
-    public  LightSpotBuilder specularExponent(double value) {
-        operations.add(obj -> obj.setSpecularExponent(value));
+    public  LightSpotBuilder pointsAtX(double value) {
+        operations.add(obj -> obj.setPointsAtX(value));
         return this;
     }    
     
@@ -121,8 +121,8 @@ public class LightSpotBuilder {
         return this;
     }    
     
-    public  LightSpotBuilder pointsAtX(double value) {
-        operations.add(obj -> obj.setPointsAtX(value));
+    public  LightSpotBuilder specularExponent(double value) {
+        operations.add(obj -> obj.setSpecularExponent(value));
         return this;
     }    
     
@@ -146,8 +146,8 @@ public class LightSpotBuilder {
         return this;
     }    
     
-    public LightSpotBuilder specularExponentPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.specularExponentProperty()));
+    public LightSpotBuilder pointsAtZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.pointsAtZProperty()));
         return this;
     }    
     
@@ -156,13 +156,13 @@ public class LightSpotBuilder {
         return this;
     }    
     
-    public LightSpotBuilder pointsAtZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.pointsAtZProperty()));
+    public LightSpotBuilder pointsAtYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.pointsAtYProperty()));
         return this;
     }    
     
-    public LightSpotBuilder pointsAtYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.pointsAtYProperty()));
+    public LightSpotBuilder specularExponentPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.specularExponentProperty()));
         return this;
     }    
     

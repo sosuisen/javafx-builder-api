@@ -121,13 +121,13 @@ public class LightDistantBuilder {
         return this;
     }    
     
-    public LightDistantBuilder azimuthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.azimuthProperty()));
+    public LightDistantBuilder elevationPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.elevationProperty()));
         return this;
     }    
     
-    public LightDistantBuilder elevationPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.elevationProperty()));
+    public LightDistantBuilder azimuthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.azimuthProperty()));
         return this;
     }    
     

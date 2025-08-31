@@ -136,11 +136,6 @@ public class ReflectionBuilder {
         return this;
     }    
     
-    public ReflectionBuilder bottomOpacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.bottomOpacityProperty()));
-        return this;
-    }    
-    
     public ReflectionBuilder topOpacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.topOpacityProperty()));
         return this;
@@ -153,6 +148,11 @@ public class ReflectionBuilder {
     
     public ReflectionBuilder fractionPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.fractionProperty()));
+        return this;
+    }    
+    
+    public ReflectionBuilder bottomOpacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.bottomOpacityProperty()));
         return this;
     }
 }

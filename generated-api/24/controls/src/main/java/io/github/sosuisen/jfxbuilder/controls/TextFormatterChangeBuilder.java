@@ -99,13 +99,13 @@ public class TextFormatterChangeBuilder {
         return this;
     }    
     
-    public  TextFormatterChangeBuilder anchor(int newAnchor) {
-        operations.add(obj -> obj.setAnchor(newAnchor));
+    public  TextFormatterChangeBuilder caretPosition(int newCaretPosition) {
+        operations.add(obj -> obj.setCaretPosition(newCaretPosition));
         return this;
     }    
     
-    public  TextFormatterChangeBuilder caretPosition(int newCaretPosition) {
-        operations.add(obj -> obj.setCaretPosition(newCaretPosition));
+    public  TextFormatterChangeBuilder anchor(int newAnchor) {
+        operations.add(obj -> obj.setAnchor(newAnchor));
         return this;
     }
 }

@@ -137,11 +137,6 @@ public class ColumnConstraintsBuilder {
         return this;
     }    
     
-    public  ColumnConstraintsBuilder hgrow(javafx.scene.layout.Priority value) {
-        operations.add(obj -> obj.setHgrow(value));
-        return this;
-    }    
-    
     public  ColumnConstraintsBuilder fillWidth(boolean value) {
         operations.add(obj -> obj.setFillWidth(value));
         return this;
@@ -157,13 +152,18 @@ public class ColumnConstraintsBuilder {
         return this;
     }    
     
-    public ColumnConstraintsBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.minWidthProperty()));
+    public  ColumnConstraintsBuilder hgrow(javafx.scene.layout.Priority value) {
+        operations.add(obj -> obj.setHgrow(value));
         return this;
     }    
     
     public ColumnConstraintsBuilder maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxWidthProperty()));
+        return this;
+    }    
+    
+    public ColumnConstraintsBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
     }    
     
@@ -182,13 +182,13 @@ public class ColumnConstraintsBuilder {
         return this;
     }    
     
-    public ColumnConstraintsBuilder hgrowPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Priority>> op) {
-        operations.add(obj -> op.accept(obj.hgrowProperty()));
+    public ColumnConstraintsBuilder fillWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.fillWidthProperty()));
         return this;
     }    
     
-    public ColumnConstraintsBuilder fillWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.fillWidthProperty()));
+    public ColumnConstraintsBuilder hgrowPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Priority>> op) {
+        operations.add(obj -> op.accept(obj.hgrowProperty()));
         return this;
     }
 }

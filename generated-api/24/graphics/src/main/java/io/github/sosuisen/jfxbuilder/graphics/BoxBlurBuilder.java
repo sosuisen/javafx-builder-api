@@ -111,13 +111,13 @@ public class BoxBlurBuilder {
         return this;
     }    
     
-    public  BoxBlurBuilder width(double value) {
-        operations.add(obj -> obj.setWidth(value));
+    public  BoxBlurBuilder height(double value) {
+        operations.add(obj -> obj.setHeight(value));
         return this;
     }    
     
-    public  BoxBlurBuilder height(double value) {
-        operations.add(obj -> obj.setHeight(value));
+    public  BoxBlurBuilder width(double value) {
+        operations.add(obj -> obj.setWidth(value));
         return this;
     }    
     

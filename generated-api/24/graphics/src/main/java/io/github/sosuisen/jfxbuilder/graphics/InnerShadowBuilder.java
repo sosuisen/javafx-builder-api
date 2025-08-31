@@ -132,18 +132,18 @@ public class InnerShadowBuilder {
         return this;
     }    
     
-    public  InnerShadowBuilder width(double value) {
-        operations.add(obj -> obj.setWidth(value));
-        return this;
-    }    
-    
     public  InnerShadowBuilder height(double value) {
         operations.add(obj -> obj.setHeight(value));
         return this;
     }    
     
-    public  InnerShadowBuilder radius(double value) {
-        operations.add(obj -> obj.setRadius(value));
+    public  InnerShadowBuilder width(double value) {
+        operations.add(obj -> obj.setWidth(value));
+        return this;
+    }    
+    
+    public  InnerShadowBuilder blurType(javafx.scene.effect.BlurType value) {
+        operations.add(obj -> obj.setBlurType(value));
         return this;
     }    
     
@@ -157,13 +157,13 @@ public class InnerShadowBuilder {
         return this;
     }    
     
-    public  InnerShadowBuilder choke(double value) {
-        operations.add(obj -> obj.setChoke(value));
+    public  InnerShadowBuilder radius(double value) {
+        operations.add(obj -> obj.setRadius(value));
         return this;
     }    
     
-    public  InnerShadowBuilder blurType(javafx.scene.effect.BlurType value) {
-        operations.add(obj -> obj.setBlurType(value));
+    public  InnerShadowBuilder choke(double value) {
+        operations.add(obj -> obj.setChoke(value));
         return this;
     }    
     
@@ -182,13 +182,13 @@ public class InnerShadowBuilder {
         return this;
     }    
     
-    public InnerShadowBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
-        operations.add(obj -> op.accept(obj.inputProperty()));
+    public InnerShadowBuilder offsetXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.offsetXProperty()));
         return this;
     }    
     
-    public InnerShadowBuilder chokePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.chokeProperty()));
+    public InnerShadowBuilder blurTypePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlurType>> op) {
+        operations.add(obj -> op.accept(obj.blurTypeProperty()));
         return this;
     }    
     
@@ -197,8 +197,8 @@ public class InnerShadowBuilder {
         return this;
     }    
     
-    public InnerShadowBuilder offsetXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.offsetXProperty()));
+    public InnerShadowBuilder chokePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.chokeProperty()));
         return this;
     }    
     
@@ -207,8 +207,8 @@ public class InnerShadowBuilder {
         return this;
     }    
     
-    public InnerShadowBuilder blurTypePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlurType>> op) {
-        operations.add(obj -> op.accept(obj.blurTypeProperty()));
+    public InnerShadowBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
+        operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
     }
 }

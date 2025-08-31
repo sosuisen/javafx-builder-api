@@ -108,8 +108,13 @@ public class TreeTableColumnBuilder<S, T> {
         return this;
     }    
     
-    public  TreeTableColumnBuilder<S, T> sortType(javafx.scene.control.TreeTableColumn.SortType value) {
-        operations.add(obj -> obj.setSortType(value));
+    public  TreeTableColumnBuilder<S, T> onEditCommit(javafx.event.EventHandler<javafx.scene.control.TreeTableColumn.CellEditEvent<S, T>> value) {
+        operations.add(obj -> obj.setOnEditCommit(value));
+        return this;
+    }    
+    
+    public  TreeTableColumnBuilder<S, T> cellFactory(javafx.util.Callback<javafx.scene.control.TreeTableColumn<S, T>, javafx.scene.control.TreeTableCell<S, T>> value) {
+        operations.add(obj -> obj.setCellFactory(value));
         return this;
     }    
     
@@ -118,8 +123,8 @@ public class TreeTableColumnBuilder<S, T> {
         return this;
     }    
     
-    public  TreeTableColumnBuilder<S, T> onEditCancel(javafx.event.EventHandler<javafx.scene.control.TreeTableColumn.CellEditEvent<S, T>> value) {
-        operations.add(obj -> obj.setOnEditCancel(value));
+    public  TreeTableColumnBuilder<S, T> sortType(javafx.scene.control.TreeTableColumn.SortType value) {
+        operations.add(obj -> obj.setSortType(value));
         return this;
     }    
     
@@ -128,13 +133,13 @@ public class TreeTableColumnBuilder<S, T> {
         return this;
     }    
     
-    public  TreeTableColumnBuilder<S, T> onEditCommit(javafx.event.EventHandler<javafx.scene.control.TreeTableColumn.CellEditEvent<S, T>> value) {
-        operations.add(obj -> obj.setOnEditCommit(value));
+    public  TreeTableColumnBuilder<S, T> onEditCancel(javafx.event.EventHandler<javafx.scene.control.TreeTableColumn.CellEditEvent<S, T>> value) {
+        operations.add(obj -> obj.setOnEditCancel(value));
         return this;
     }    
     
-    public  TreeTableColumnBuilder<S, T> cellFactory(javafx.util.Callback<javafx.scene.control.TreeTableColumn<S, T>, javafx.scene.control.TreeTableCell<S, T>> value) {
-        operations.add(obj -> obj.setCellFactory(value));
+    public  TreeTableColumnBuilder<S, T> userData(java.lang.Object value) {
+        operations.add(obj -> obj.setUserData(value));
         return this;
     }    
     
@@ -148,8 +153,8 @@ public class TreeTableColumnBuilder<S, T> {
         return this;
     }    
     
-    public  TreeTableColumnBuilder<S, T> id(java.lang.String value) {
-        operations.add(obj -> obj.setId(value));
+    public  TreeTableColumnBuilder<S, T> text(java.lang.String value) {
+        operations.add(obj -> obj.setText(value));
         return this;
     }    
     
@@ -158,8 +163,18 @@ public class TreeTableColumnBuilder<S, T> {
         return this;
     }    
     
-    public  TreeTableColumnBuilder<S, T> text(java.lang.String value) {
-        operations.add(obj -> obj.setText(value));
+    public  TreeTableColumnBuilder<S, T> id(java.lang.String value) {
+        operations.add(obj -> obj.setId(value));
+        return this;
+    }    
+    
+    public  TreeTableColumnBuilder<S, T> maxWidth(double value) {
+        operations.add(obj -> obj.setMaxWidth(value));
+        return this;
+    }    
+    
+    public  TreeTableColumnBuilder<S, T> minWidth(double value) {
+        operations.add(obj -> obj.setMinWidth(value));
         return this;
     }    
     
@@ -173,33 +188,13 @@ public class TreeTableColumnBuilder<S, T> {
         return this;
     }    
     
+    public  TreeTableColumnBuilder<S, T> editable(boolean value) {
+        operations.add(obj -> obj.setEditable(value));
+        return this;
+    }    
+    
     public  TreeTableColumnBuilder<S, T> prefWidth(double value) {
         operations.add(obj -> obj.setPrefWidth(value));
-        return this;
-    }    
-    
-    public  TreeTableColumnBuilder<S, T> minWidth(double value) {
-        operations.add(obj -> obj.setMinWidth(value));
-        return this;
-    }    
-    
-    public  TreeTableColumnBuilder<S, T> maxWidth(double value) {
-        operations.add(obj -> obj.setMaxWidth(value));
-        return this;
-    }    
-    
-    public  TreeTableColumnBuilder<S, T> userData(java.lang.Object value) {
-        operations.add(obj -> obj.setUserData(value));
-        return this;
-    }    
-    
-    public  TreeTableColumnBuilder<S, T> comparator(java.util.Comparator<T> value) {
-        operations.add(obj -> obj.setComparator(value));
-        return this;
-    }    
-    
-    public  TreeTableColumnBuilder<S, T> sortable(boolean value) {
-        operations.add(obj -> obj.setSortable(value));
         return this;
     }    
     
@@ -213,8 +208,13 @@ public class TreeTableColumnBuilder<S, T> {
         return this;
     }    
     
-    public  TreeTableColumnBuilder<S, T> editable(boolean value) {
-        operations.add(obj -> obj.setEditable(value));
+    public  TreeTableColumnBuilder<S, T> comparator(java.util.Comparator<T> value) {
+        operations.add(obj -> obj.setComparator(value));
+        return this;
+    }    
+    
+    public  TreeTableColumnBuilder<S, T> sortable(boolean value) {
+        operations.add(obj -> obj.setSortable(value));
         return this;
     }
     @SafeVarargs
@@ -261,18 +261,28 @@ public class TreeTableColumnBuilder<S, T> {
 
     
     
+    public TreeTableColumnBuilder<S, T> cellValueFactoryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.control.TreeTableColumn.CellDataFeatures<S, T>, javafx.beans.value.ObservableValue<T>>>> op) {
+        operations.add(obj -> op.accept(obj.cellValueFactoryProperty()));
+        return this;
+    }    
+    
     public TreeTableColumnBuilder<S, T> sortTypePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.TreeTableColumn.SortType>> op) {
         operations.add(obj -> op.accept(obj.sortTypeProperty()));
         return this;
     }    
     
-    public TreeTableColumnBuilder<S, T> onEditStartPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.TreeTableColumn.CellEditEvent<S, T>>>> op) {
-        operations.add(obj -> op.accept(obj.onEditStartProperty()));
+    public TreeTableColumnBuilder<S, T> treeTableViewPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeTableView<S>>> op) {
+        operations.add(obj -> op.accept(obj.treeTableViewProperty()));
         return this;
     }    
     
     public TreeTableColumnBuilder<S, T> onEditCommitPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.TreeTableColumn.CellEditEvent<S, T>>>> op) {
         operations.add(obj -> op.accept(obj.onEditCommitProperty()));
+        return this;
+    }    
+    
+    public TreeTableColumnBuilder<S, T> onEditStartPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.TreeTableColumn.CellEditEvent<S, T>>>> op) {
+        operations.add(obj -> op.accept(obj.onEditStartProperty()));
         return this;
     }    
     
@@ -283,16 +293,6 @@ public class TreeTableColumnBuilder<S, T> {
     
     public TreeTableColumnBuilder<S, T> cellFactoryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.control.TreeTableColumn<S, T>, javafx.scene.control.TreeTableCell<S, T>>>> op) {
         operations.add(obj -> op.accept(obj.cellFactoryProperty()));
-        return this;
-    }    
-    
-    public TreeTableColumnBuilder<S, T> cellValueFactoryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.control.TreeTableColumn.CellDataFeatures<S, T>, javafx.beans.value.ObservableValue<T>>>> op) {
-        operations.add(obj -> op.accept(obj.cellValueFactoryProperty()));
-        return this;
-    }    
-    
-    public TreeTableColumnBuilder<S, T> treeTableViewPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeTableView<S>>> op) {
-        operations.add(obj -> op.accept(obj.treeTableViewProperty()));
         return this;
     }    
     
@@ -321,6 +321,26 @@ public class TreeTableColumnBuilder<S, T> {
         return this;
     }    
     
+    public TreeTableColumnBuilder<S, T> minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.minWidthProperty()));
+        return this;
+    }    
+    
+    public TreeTableColumnBuilder<S, T> resizablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.resizableProperty()));
+        return this;
+    }    
+    
+    public TreeTableColumnBuilder<S, T> maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.maxWidthProperty()));
+        return this;
+    }    
+    
+    public TreeTableColumnBuilder<S, T> editablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.editableProperty()));
+        return this;
+    }    
+    
     public TreeTableColumnBuilder<S, T> stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
@@ -331,43 +351,8 @@ public class TreeTableColumnBuilder<S, T> {
         return this;
     }    
     
-    public TreeTableColumnBuilder<S, T> maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.maxWidthProperty()));
-        return this;
-    }    
-    
-    public TreeTableColumnBuilder<S, T> resizablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.resizableProperty()));
-        return this;
-    }    
-    
-    public TreeTableColumnBuilder<S, T> minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.minWidthProperty()));
-        return this;
-    }    
-    
     public TreeTableColumnBuilder<S, T> contextMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.contextMenuProperty()));
-        return this;
-    }    
-    
-    public TreeTableColumnBuilder<S, T> sortNodePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.sortNodeProperty()));
-        return this;
-    }    
-    
-    public TreeTableColumnBuilder<S, T> comparatorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.util.Comparator<T>>> op) {
-        operations.add(obj -> op.accept(obj.comparatorProperty()));
-        return this;
-    }    
-    
-    public TreeTableColumnBuilder<S, T> sortablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.sortableProperty()));
-        return this;
-    }    
-    
-    public TreeTableColumnBuilder<S, T> parentColumnPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TableColumnBase<javafx.scene.control.TreeItem<S>, ?>>> op) {
-        operations.add(obj -> op.accept(obj.parentColumnProperty()));
         return this;
     }    
     
@@ -376,8 +361,23 @@ public class TreeTableColumnBuilder<S, T> {
         return this;
     }    
     
-    public TreeTableColumnBuilder<S, T> editablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.editableProperty()));
+    public TreeTableColumnBuilder<S, T> parentColumnPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TableColumnBase<javafx.scene.control.TreeItem<S>, ?>>> op) {
+        operations.add(obj -> op.accept(obj.parentColumnProperty()));
+        return this;
+    }    
+    
+    public TreeTableColumnBuilder<S, T> sortNodePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.sortNodeProperty()));
+        return this;
+    }    
+    
+    public TreeTableColumnBuilder<S, T> sortablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.sortableProperty()));
+        return this;
+    }    
+    
+    public TreeTableColumnBuilder<S, T> comparatorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.util.Comparator<T>>> op) {
+        operations.add(obj -> op.accept(obj.comparatorProperty()));
         return this;
     }
 }
