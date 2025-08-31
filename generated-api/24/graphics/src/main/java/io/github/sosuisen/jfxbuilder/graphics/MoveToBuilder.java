@@ -104,32 +104,62 @@ public class MoveToBuilder {
     public MoveToBuilder apply(java.util.function.Consumer<javafx.scene.shape.MoveTo> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.MoveTo#setAbsolute(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  MoveToBuilder absolute(boolean value) {
         operations.add(obj -> obj.setAbsolute(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.MoveTo#setX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  MoveToBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.MoveTo#setY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  MoveToBuilder y(double value) {
         operations.add(obj -> obj.setY(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.MoveTo#absoluteProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MoveToBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.absoluteProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.MoveTo#xProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MoveToBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.MoveTo#yProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MoveToBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));

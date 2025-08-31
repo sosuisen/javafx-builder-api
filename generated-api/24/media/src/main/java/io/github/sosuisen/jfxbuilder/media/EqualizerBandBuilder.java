@@ -104,32 +104,62 @@ public class EqualizerBandBuilder {
     public EqualizerBandBuilder apply(java.util.function.Consumer<javafx.scene.media.EqualizerBand> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.media.EqualizerBand#setBandwidth(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  EqualizerBandBuilder bandwidth(double value) {
         operations.add(obj -> obj.setBandwidth(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.media.EqualizerBand#setCenterFrequency(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  EqualizerBandBuilder centerFrequency(double value) {
         operations.add(obj -> obj.setCenterFrequency(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.media.EqualizerBand#setGain(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  EqualizerBandBuilder gain(double value) {
         operations.add(obj -> obj.setGain(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.media.EqualizerBand#bandwidthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public EqualizerBandBuilder bandwidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.bandwidthProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.media.EqualizerBand#centerFrequencyProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public EqualizerBandBuilder centerFrequencyPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.centerFrequencyProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.media.EqualizerBand#gainProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public EqualizerBandBuilder gainPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.gainProperty()));

@@ -104,42 +104,82 @@ public class BoxBlurBuilder {
     public BoxBlurBuilder apply(java.util.function.Consumer<javafx.scene.effect.BoxBlur> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.BoxBlur#setHeight(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  BoxBlurBuilder height(double value) {
         operations.add(obj -> obj.setHeight(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.BoxBlur#setInput(javafx.scene.effect.Effect)}
+     * 
+     * @return builder instance
+     */    
     
     public  BoxBlurBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.BoxBlur#setIterations(int)}
+     * 
+     * @return builder instance
+     */    
     
     public  BoxBlurBuilder iterations(int value) {
         operations.add(obj -> obj.setIterations(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.BoxBlur#setWidth(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  BoxBlurBuilder width(double value) {
         operations.add(obj -> obj.setWidth(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.BoxBlur#heightProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public BoxBlurBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.BoxBlur#inputProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public BoxBlurBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.BoxBlur#iterationsProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public BoxBlurBuilder iterationsPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
         operations.add(obj -> op.accept(obj.iterationsProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.BoxBlur#widthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public BoxBlurBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));

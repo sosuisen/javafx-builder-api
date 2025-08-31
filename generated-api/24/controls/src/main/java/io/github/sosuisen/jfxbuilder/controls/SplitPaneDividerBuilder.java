@@ -96,12 +96,22 @@ public class SplitPaneDividerBuilder {
     public SplitPaneDividerBuilder apply(java.util.function.Consumer<javafx.scene.control.SplitPane.Divider> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.SplitPane.Divider#setPosition(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  SplitPaneDividerBuilder position(double value) {
         operations.add(obj -> obj.setPosition(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.SplitPane.Divider#positionProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public SplitPaneDividerBuilder positionPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.positionProperty()));

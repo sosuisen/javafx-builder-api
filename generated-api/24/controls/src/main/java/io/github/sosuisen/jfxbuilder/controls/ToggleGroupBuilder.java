@@ -96,7 +96,12 @@ public class ToggleGroupBuilder {
     public ToggleGroupBuilder apply(java.util.function.Consumer<javafx.scene.control.ToggleGroup> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.ToggleGroup#setUserData(java.lang.Object)}
+     * 
+     * @return builder instance
+     */    
     
     public  ToggleGroupBuilder userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
@@ -129,6 +134,11 @@ public class ToggleGroupBuilder {
         return builder.addToggles(col);
     }
     
+    /**
+     * Applies a function to the {@link javafx.scene.control.ToggleGroup#selectedToggleProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ToggleGroupBuilder selectedTogglePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Toggle>> op) {
         operations.add(obj -> op.accept(obj.selectedToggleProperty()));

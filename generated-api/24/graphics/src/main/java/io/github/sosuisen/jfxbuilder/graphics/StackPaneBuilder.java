@@ -108,467 +108,932 @@ public class StackPaneBuilder {
     public StackPaneBuilder apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setAccessibleHelp(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder accessibleHelp(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setAccessibleRole(javafx.scene.AccessibleRole)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder accessibleRole(javafx.scene.AccessibleRole value) {
         operations.add(obj -> obj.setAccessibleRole(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setAccessibleRoleDescription(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder accessibleRoleDescription(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setAccessibleText(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder accessibleText(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleText(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setAlignment(javafx.geometry.Pos)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder alignment(javafx.geometry.Pos value) {
         operations.add(obj -> obj.setAlignment(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setBackground(javafx.scene.layout.Background)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder background(javafx.scene.layout.Background value) {
         operations.add(obj -> obj.setBackground(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setBlendMode(javafx.scene.effect.BlendMode)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder blendMode(javafx.scene.effect.BlendMode value) {
         operations.add(obj -> obj.setBlendMode(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setBorder(javafx.scene.layout.Border)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder border(javafx.scene.layout.Border value) {
         operations.add(obj -> obj.setBorder(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setCache(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder cache(boolean value) {
         operations.add(obj -> obj.setCache(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setCacheHint(javafx.scene.CacheHint)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder cacheHint(javafx.scene.CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setCacheShape(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder cacheShape(boolean value) {
         operations.add(obj -> obj.setCacheShape(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setCenterShape(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder centerShape(boolean value) {
         operations.add(obj -> obj.setCenterShape(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setClip(javafx.scene.Node)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder clip(javafx.scene.Node value) {
         operations.add(obj -> obj.setClip(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setCursor(javafx.scene.Cursor)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder cursor(javafx.scene.Cursor value) {
         operations.add(obj -> obj.setCursor(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setDepthTest(javafx.scene.DepthTest)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder depthTest(javafx.scene.DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setDisable(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setEffect(javafx.scene.effect.Effect)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder effect(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setEffect(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setEventDispatcher(javafx.event.EventDispatcher)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder eventDispatcher(javafx.event.EventDispatcher value) {
         operations.add(obj -> obj.setEventDispatcher(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setFocusTraversable(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder focusTraversable(boolean value) {
         operations.add(obj -> obj.setFocusTraversable(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setId(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
         operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setLayoutX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder layoutX(double value) {
         operations.add(obj -> obj.setLayoutX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setLayoutY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder layoutY(double value) {
         operations.add(obj -> obj.setLayoutY(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setManaged(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder managed(boolean value) {
         operations.add(obj -> obj.setManaged(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setMaxHeight(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder maxHeight(double value) {
         operations.add(obj -> obj.setMaxHeight(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setMaxSize(double, double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder maxSize(double maxWidth, double maxHeight) {
         operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setMaxWidth(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder maxWidth(double value) {
         operations.add(obj -> obj.setMaxWidth(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setMinHeight(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder minHeight(double value) {
         operations.add(obj -> obj.setMinHeight(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setMinSize(double, double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder minSize(double minWidth, double minHeight) {
         operations.add(obj -> obj.setMinSize(minWidth, minHeight));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setMinWidth(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder minWidth(double value) {
         operations.add(obj -> obj.setMinWidth(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setMouseTransparent(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder mouseTransparent(boolean value) {
         operations.add(obj -> obj.setMouseTransparent(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setNodeOrientation(javafx.geometry.NodeOrientation)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder nodeOrientation(javafx.geometry.NodeOrientation orientation) {
         operations.add(obj -> obj.setNodeOrientation(orientation));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnContextMenuRequested(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
         operations.add(obj -> obj.setOnContextMenuRequested(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnDragDetected(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnDragDetected(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnDragDone(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDone(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnDragDropped(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDropped(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnDragEntered(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragEntered(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnDragExited(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragExited(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnDragOver(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragOver(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnInputMethodTextChanged(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
         operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnKeyPressed(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onKeyPressed(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyPressed(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnKeyReleased(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnKeyTyped(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnMouseClicked(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseClicked(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnMouseDragEntered(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragEntered(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnMouseDragExited(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragExited(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnMouseDragOver(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnMouseDragReleased(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragReleased(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnMouseDragged(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseDragged(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnMouseEntered(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onMouseEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseEntered(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnMouseExited(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseExited(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnMouseMoved(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnMousePressed(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMousePressed(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnMouseReleased(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseReleased(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnRotate(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotate(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnRotationFinished(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationFinished(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnRotationStarted(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationStarted(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnScroll(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onScroll(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScroll(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnScrollFinished(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollFinished(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnScrollStarted(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollStarted(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnSwipeDown(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnSwipeLeft(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnSwipeRight(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onSwipeRight(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeRight(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnSwipeUp(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnTouchMoved(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onTouchMoved(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchMoved(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnTouchPressed(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchPressed(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnTouchReleased(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchReleased(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnTouchStationary(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchStationary(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnZoom(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoom(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnZoomFinished(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomFinished(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOnZoomStarted(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOpacity(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder opacity(double value) {
         operations.add(obj -> obj.setOpacity(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setOpaqueInsets(javafx.geometry.Insets)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder opaqueInsets(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setOpaqueInsets(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setPadding(javafx.geometry.Insets)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder padding(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setPadding(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setPickOnBounds(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder pickOnBounds(boolean value) {
         operations.add(obj -> obj.setPickOnBounds(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setPrefHeight(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder prefHeight(double value) {
         operations.add(obj -> obj.setPrefHeight(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setPrefSize(double, double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder prefSize(double prefWidth, double prefHeight) {
         operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setPrefWidth(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder prefWidth(double value) {
         operations.add(obj -> obj.setPrefWidth(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setRotate(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder rotate(double value) {
         operations.add(obj -> obj.setRotate(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setRotationAxis(javafx.geometry.Point3D)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder rotationAxis(javafx.geometry.Point3D value) {
         operations.add(obj -> obj.setRotationAxis(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setScaleShape(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder scaleShape(boolean value) {
         operations.add(obj -> obj.setScaleShape(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setScaleX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder scaleX(double value) {
         operations.add(obj -> obj.setScaleX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setScaleY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder scaleY(double value) {
         operations.add(obj -> obj.setScaleY(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setScaleZ(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder scaleZ(double value) {
         operations.add(obj -> obj.setScaleZ(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setShape(javafx.scene.shape.Shape)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder shape(javafx.scene.shape.Shape value) {
         operations.add(obj -> obj.setShape(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setSnapToPixel(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder snapToPixel(boolean value) {
         operations.add(obj -> obj.setSnapToPixel(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setStyle(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setTranslateX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder translateX(double value) {
         operations.add(obj -> obj.setTranslateX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setTranslateY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder translateY(double value) {
         operations.add(obj -> obj.setTranslateY(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setTranslateZ(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder translateZ(double value) {
         operations.add(obj -> obj.setTranslateZ(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setUserData(java.lang.Object)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setViewOrder(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder viewOrder(double value) {
         operations.add(obj -> obj.setViewOrder(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.layout.StackPane#setVisible(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  StackPaneBuilder visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
@@ -852,536 +1317,1071 @@ public class StackPaneBuilder {
     }
 
     
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#accessibleHelpProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#accessibleRoleDescriptionProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#accessibleRoleProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#accessibleTextProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleTextProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#alignmentProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder alignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Pos>> op) {
         operations.add(obj -> op.accept(obj.alignmentProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#backgroundProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder backgroundPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Background>> op) {
         operations.add(obj -> op.accept(obj.backgroundProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#blendModeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
         operations.add(obj -> op.accept(obj.blendModeProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#borderProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
         operations.add(obj -> op.accept(obj.borderProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#boundsInLocalProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#boundsInParentProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInParentProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#cacheHintProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
         operations.add(obj -> op.accept(obj.cacheHintProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#cacheProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#cacheShapeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheShapeProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#centerShapeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.centerShapeProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#clipProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#cursorProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
         operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#depthTestProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
         operations.add(obj -> op.accept(obj.depthTestProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#disableProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#disabledProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disabledProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#effectProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.effectProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#effectiveNodeOrientationProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#eventDispatcherProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
         operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#focusTraversableProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusTraversableProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#focusVisibleProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusVisibleProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#focusWithinProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#focusedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#heightProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#hoverProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder hoverPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.hoverProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#idProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#inputMethodRequestsProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
         operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#insetsProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder insetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.insetsProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#layoutBoundsProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#layoutXProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#layoutYProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder layoutYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutYProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#localToParentTransformProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#localToSceneTransformProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#managedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.managedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#maxHeightProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxHeightProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#maxWidthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxWidthProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#minHeightProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minHeightProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#minWidthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#mouseTransparentProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#needsLayoutProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder needsLayoutPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.needsLayoutProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#nodeOrientationProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onContextMenuRequestedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
         operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onDragDetectedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onDragDoneProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDoneProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onDragDroppedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onDragEnteredProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onDragExitedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragExitedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onDragOverProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onInputMethodTextChangedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
         operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onKeyPressedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onKeyReleasedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onKeyTypedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseClickedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDragEnteredProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDragExitedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDragOverProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDragReleasedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseDraggedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseEnteredProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseExitedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseMovedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMousePressedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMousePressedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onMouseReleasedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onRotateProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onRotationFinishedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onRotationStartedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onScrollFinishedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onScrollProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onScrollStartedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onSwipeDownProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onSwipeLeftProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onSwipeRightProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onSwipeUpProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onSwipeUpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeUpProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onTouchMovedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onTouchPressedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onTouchReleasedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onTouchStationaryProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onZoomFinishedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onZoomProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#onZoomStartedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#opacityProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.opacityProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#opaqueInsetsProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#paddingProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.paddingProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#parentProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Parent>> op) {
         operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#pickOnBoundsProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder pickOnBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pickOnBoundsProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#prefHeightProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefHeightProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#prefWidthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefWidthProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#pressedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder pressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pressedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#rotateProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rotateProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#rotationAxisProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
         operations.add(obj -> op.accept(obj.rotationAxisProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#scaleShapeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.scaleShapeProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#scaleXProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleXProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#scaleYProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#scaleZProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleZProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#sceneProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
         operations.add(obj -> op.accept(obj.sceneProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#shapeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
         operations.add(obj -> op.accept(obj.shapeProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#snapToPixelProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.snapToPixelProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#styleProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#translateXProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateXProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#translateYProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateYProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#translateZProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateZProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#viewOrderProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder viewOrderPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.viewOrderProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#visibleProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.layout.StackPane#widthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public StackPaneBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));

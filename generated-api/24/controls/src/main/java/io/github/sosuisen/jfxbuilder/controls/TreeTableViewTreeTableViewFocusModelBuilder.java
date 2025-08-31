@@ -98,16 +98,31 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
         operations.add(func);
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#focusedCellProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TreeTableViewTreeTableViewFocusModelBuilder<S> focusedCellPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeTablePosition<S, ?>>> op) {
         operations.add(obj -> op.accept(obj.focusedCellProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#focusedIndexProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TreeTableViewTreeTableViewFocusModelBuilder<S> focusedIndexPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
         operations.add(obj -> op.accept(obj.focusedIndexProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#focusedItemProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TreeTableViewTreeTableViewFocusModelBuilder<S> focusedItemPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeItem<S>>> op) {
         operations.add(obj -> op.accept(obj.focusedItemProperty()));

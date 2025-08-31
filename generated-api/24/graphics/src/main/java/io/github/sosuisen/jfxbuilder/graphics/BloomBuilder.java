@@ -104,22 +104,42 @@ public class BloomBuilder {
     public BloomBuilder apply(java.util.function.Consumer<javafx.scene.effect.Bloom> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Bloom#setInput(javafx.scene.effect.Effect)}
+     * 
+     * @return builder instance
+     */    
     
     public  BloomBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Bloom#setThreshold(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  BloomBuilder threshold(double value) {
         operations.add(obj -> obj.setThreshold(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Bloom#inputProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public BloomBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Bloom#thresholdProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public BloomBuilder thresholdPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.thresholdProperty()));

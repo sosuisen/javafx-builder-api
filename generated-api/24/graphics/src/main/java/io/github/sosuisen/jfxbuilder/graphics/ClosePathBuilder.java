@@ -96,12 +96,22 @@ public class ClosePathBuilder {
     public ClosePathBuilder apply(java.util.function.Consumer<javafx.scene.shape.ClosePath> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.ClosePath#setAbsolute(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  ClosePathBuilder absolute(boolean value) {
         operations.add(obj -> obj.setAbsolute(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.ClosePath#absoluteProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ClosePathBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.absoluteProperty()));

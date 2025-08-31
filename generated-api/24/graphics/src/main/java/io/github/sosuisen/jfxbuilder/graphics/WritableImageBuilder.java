@@ -120,26 +120,51 @@ public class WritableImageBuilder {
         operations.add(func);
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.image.WritableImage#errorProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public WritableImageBuilder errorPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.errorProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.image.WritableImage#exceptionProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public WritableImageBuilder exceptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<java.lang.Exception>> op) {
         operations.add(obj -> op.accept(obj.exceptionProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.image.WritableImage#heightProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public WritableImageBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.image.WritableImage#progressProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public WritableImageBuilder progressPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.progressProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.image.WritableImage#widthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public WritableImageBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));

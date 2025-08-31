@@ -98,177 +98,352 @@ public class DialogBuilder<R> {
     public DialogBuilder<R> apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Dialog#setContentText(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  DialogBuilder<R> contentText(java.lang.String contentText) {
         operations.add(obj -> obj.setContentText(contentText));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Dialog#setDialogPane(javafx.scene.control.DialogPane)}
+     * 
+     * @return builder instance
+     */    
     
     public  DialogBuilder<R> dialogPane(javafx.scene.control.DialogPane value) {
         operations.add(obj -> obj.setDialogPane(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Dialog#setGraphic(javafx.scene.Node)}
+     * 
+     * @return builder instance
+     */    
     
     public  DialogBuilder<R> graphic(javafx.scene.Node graphic) {
         operations.add(obj -> obj.setGraphic(graphic));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Dialog#setHeaderText(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  DialogBuilder<R> headerText(java.lang.String headerText) {
         operations.add(obj -> obj.setHeaderText(headerText));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Dialog#setHeight(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  DialogBuilder<R> height(double height) {
         operations.add(obj -> obj.setHeight(height));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Dialog#setOnCloseRequest(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  DialogBuilder<R> onCloseRequest(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
         operations.add(obj -> obj.setOnCloseRequest(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Dialog#setOnHidden(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  DialogBuilder<R> onHidden(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
         operations.add(obj -> obj.setOnHidden(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Dialog#setOnHiding(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  DialogBuilder<R> onHiding(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
         operations.add(obj -> obj.setOnHiding(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Dialog#setOnShowing(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  DialogBuilder<R> onShowing(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
         operations.add(obj -> obj.setOnShowing(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Dialog#setOnShown(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  DialogBuilder<R> onShown(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
         operations.add(obj -> obj.setOnShown(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Dialog#setResizable(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  DialogBuilder<R> resizable(boolean resizable) {
         operations.add(obj -> obj.setResizable(resizable));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Dialog#setResult(java.lang.Object)}
+     * 
+     * @return builder instance
+     */    
     
     public  DialogBuilder<R> result(R value) {
         operations.add(obj -> obj.setResult(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Dialog#setResultConverter(javafx.util.Callback)}
+     * 
+     * @return builder instance
+     */    
     
     public  DialogBuilder<R> resultConverter(javafx.util.Callback<javafx.scene.control.ButtonType, R> value) {
         operations.add(obj -> obj.setResultConverter(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Dialog#setTitle(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  DialogBuilder<R> title(java.lang.String title) {
         operations.add(obj -> obj.setTitle(title));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Dialog#setWidth(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  DialogBuilder<R> width(double width) {
         operations.add(obj -> obj.setWidth(width));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Dialog#setX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  DialogBuilder<R> x(double x) {
         operations.add(obj -> obj.setX(x));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Dialog#setY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  DialogBuilder<R> y(double y) {
         operations.add(obj -> obj.setY(y));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Dialog#contentTextProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DialogBuilder<R> contentTextPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.contentTextProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Dialog#dialogPaneProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DialogBuilder<R> dialogPanePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.DialogPane>> op) {
         operations.add(obj -> op.accept(obj.dialogPaneProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Dialog#graphicProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DialogBuilder<R> graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.graphicProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Dialog#headerTextProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DialogBuilder<R> headerTextPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.headerTextProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Dialog#heightProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DialogBuilder<R> heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Dialog#onCloseRequestProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DialogBuilder<R> onCloseRequestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
         operations.add(obj -> op.accept(obj.onCloseRequestProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Dialog#onHiddenProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DialogBuilder<R> onHiddenPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
         operations.add(obj -> op.accept(obj.onHiddenProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Dialog#onHidingProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DialogBuilder<R> onHidingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
         operations.add(obj -> op.accept(obj.onHidingProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Dialog#onShowingProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DialogBuilder<R> onShowingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
         operations.add(obj -> op.accept(obj.onShowingProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Dialog#onShownProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DialogBuilder<R> onShownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
         operations.add(obj -> op.accept(obj.onShownProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Dialog#resizableProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DialogBuilder<R> resizablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.resizableProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Dialog#resultConverterProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DialogBuilder<R> resultConverterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.control.ButtonType, R>>> op) {
         operations.add(obj -> op.accept(obj.resultConverterProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Dialog#resultProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DialogBuilder<R> resultPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<R>> op) {
         operations.add(obj -> op.accept(obj.resultProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Dialog#showingProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DialogBuilder<R> showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.showingProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Dialog#titleProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DialogBuilder<R> titlePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.titleProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Dialog#widthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DialogBuilder<R> widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Dialog#xProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DialogBuilder<R> xPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Dialog#yProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DialogBuilder<R> yPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));

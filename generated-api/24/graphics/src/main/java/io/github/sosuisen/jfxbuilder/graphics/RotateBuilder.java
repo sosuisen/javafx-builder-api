@@ -136,72 +136,142 @@ public class RotateBuilder {
     public RotateBuilder apply(java.util.function.Consumer<javafx.scene.transform.Rotate> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.transform.Rotate#setAngle(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  RotateBuilder angle(double value) {
         operations.add(obj -> obj.setAngle(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.transform.Rotate#setAxis(javafx.geometry.Point3D)}
+     * 
+     * @return builder instance
+     */    
     
     public  RotateBuilder axis(javafx.geometry.Point3D value) {
         operations.add(obj -> obj.setAxis(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.transform.Rotate#setOnTransformChanged(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  RotateBuilder onTransformChanged(javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent> value) {
         operations.add(obj -> obj.setOnTransformChanged(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.transform.Rotate#setPivotX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  RotateBuilder pivotX(double value) {
         operations.add(obj -> obj.setPivotX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.transform.Rotate#setPivotY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  RotateBuilder pivotY(double value) {
         operations.add(obj -> obj.setPivotY(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.transform.Rotate#setPivotZ(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  RotateBuilder pivotZ(double value) {
         operations.add(obj -> obj.setPivotZ(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.transform.Rotate#angleProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RotateBuilder anglePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.angleProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.transform.Rotate#axisProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RotateBuilder axisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
         operations.add(obj -> op.accept(obj.axisProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.transform.Rotate#identityProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RotateBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.identityProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.transform.Rotate#onTransformChangedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RotateBuilder onTransformChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTransformChangedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.transform.Rotate#pivotXProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RotateBuilder pivotXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.pivotXProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.transform.Rotate#pivotYProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RotateBuilder pivotYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.pivotYProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.transform.Rotate#pivotZProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RotateBuilder pivotZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.pivotZProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.transform.Rotate#type2DProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RotateBuilder type2DPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.type2DProperty()));

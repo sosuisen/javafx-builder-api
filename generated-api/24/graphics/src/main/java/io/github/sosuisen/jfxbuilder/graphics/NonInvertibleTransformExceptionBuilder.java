@@ -95,7 +95,12 @@ public class NonInvertibleTransformExceptionBuilder {
     public NonInvertibleTransformExceptionBuilder apply(java.util.function.Consumer<javafx.scene.transform.NonInvertibleTransformException> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.transform.NonInvertibleTransformException#setStackTrace(java.lang.StackTraceElement...)}
+     * 
+     * @return builder instance
+     */    
     
     public  NonInvertibleTransformExceptionBuilder stackTrace(java.lang.StackTraceElement[] arg0) {
         operations.add(obj -> obj.setStackTrace(arg0));

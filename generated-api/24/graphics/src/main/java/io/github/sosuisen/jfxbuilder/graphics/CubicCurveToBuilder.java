@@ -104,72 +104,142 @@ public class CubicCurveToBuilder {
     public CubicCurveToBuilder apply(java.util.function.Consumer<javafx.scene.shape.CubicCurveTo> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.CubicCurveTo#setAbsolute(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  CubicCurveToBuilder absolute(boolean value) {
         operations.add(obj -> obj.setAbsolute(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.CubicCurveTo#setControlX1(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  CubicCurveToBuilder controlX1(double value) {
         operations.add(obj -> obj.setControlX1(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.CubicCurveTo#setControlX2(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  CubicCurveToBuilder controlX2(double value) {
         operations.add(obj -> obj.setControlX2(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.CubicCurveTo#setControlY1(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  CubicCurveToBuilder controlY1(double value) {
         operations.add(obj -> obj.setControlY1(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.CubicCurveTo#setControlY2(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  CubicCurveToBuilder controlY2(double value) {
         operations.add(obj -> obj.setControlY2(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.CubicCurveTo#setX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  CubicCurveToBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.CubicCurveTo#setY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  CubicCurveToBuilder y(double value) {
         operations.add(obj -> obj.setY(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#absoluteProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CubicCurveToBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.absoluteProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#controlX1Property()}.
+     * 
+     * @return builder instance
+     */    
     
     public CubicCurveToBuilder controlX1PropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.controlX1Property()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#controlX2Property()}.
+     * 
+     * @return builder instance
+     */    
     
     public CubicCurveToBuilder controlX2PropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.controlX2Property()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#controlY1Property()}.
+     * 
+     * @return builder instance
+     */    
     
     public CubicCurveToBuilder controlY1PropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.controlY1Property()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#controlY2Property()}.
+     * 
+     * @return builder instance
+     */    
     
     public CubicCurveToBuilder controlY2PropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.controlY2Property()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#xProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CubicCurveToBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.CubicCurveTo#yProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CubicCurveToBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));

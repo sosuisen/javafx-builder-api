@@ -87,27 +87,52 @@ public class DragboardBuilder {
     public DragboardBuilder apply(java.util.function.Consumer<javafx.scene.input.Dragboard> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.input.Dragboard#setContent(java.util.Map)}
+     * 
+     * @return builder instance
+     */    
     
     public  DragboardBuilder content(java.util.Map<javafx.scene.input.DataFormat, java.lang.Object> content) {
         operations.add(obj -> obj.setContent(content));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.input.Dragboard#setDragView(javafx.scene.image.Image)}
+     * 
+     * @return builder instance
+     */    
     
     public  DragboardBuilder dragView(javafx.scene.image.Image image) {
         operations.add(obj -> obj.setDragView(image));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.input.Dragboard#setDragView(javafx.scene.image.Image, double, double)}
+     * 
+     * @return builder instance
+     */    
     
     public  DragboardBuilder dragView(javafx.scene.image.Image image, double offsetX, double offsetY) {
         operations.add(obj -> obj.setDragView(image, offsetX, offsetY));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.input.Dragboard#setDragViewOffsetX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  DragboardBuilder dragViewOffsetX(double offsetX) {
         operations.add(obj -> obj.setDragViewOffsetX(offsetX));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.input.Dragboard#setDragViewOffsetY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  DragboardBuilder dragViewOffsetY(double offsetY) {
         operations.add(obj -> obj.setDragViewOffsetY(offsetY));

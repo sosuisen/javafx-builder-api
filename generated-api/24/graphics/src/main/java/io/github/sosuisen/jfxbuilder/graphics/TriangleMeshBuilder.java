@@ -104,12 +104,22 @@ public class TriangleMeshBuilder {
     public TriangleMeshBuilder apply(java.util.function.Consumer<javafx.scene.shape.TriangleMesh> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.TriangleMesh#setVertexFormat(javafx.scene.shape.VertexFormat)}
+     * 
+     * @return builder instance
+     */    
     
     public  TriangleMeshBuilder vertexFormat(javafx.scene.shape.VertexFormat value) {
         operations.add(obj -> obj.setVertexFormat(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.TriangleMesh#vertexFormatProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TriangleMeshBuilder vertexFormatPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.VertexFormat>> op) {
         operations.add(obj -> op.accept(obj.vertexFormatProperty()));

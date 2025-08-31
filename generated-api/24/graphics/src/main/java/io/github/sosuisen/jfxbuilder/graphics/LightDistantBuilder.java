@@ -104,32 +104,62 @@ public class LightDistantBuilder {
     public LightDistantBuilder apply(java.util.function.Consumer<javafx.scene.effect.Light.Distant> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Light.Distant#setAzimuth(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  LightDistantBuilder azimuth(double value) {
         operations.add(obj -> obj.setAzimuth(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Light.Distant#setColor(javafx.scene.paint.Color)}
+     * 
+     * @return builder instance
+     */    
     
     public  LightDistantBuilder color(javafx.scene.paint.Color value) {
         operations.add(obj -> obj.setColor(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Light.Distant#setElevation(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  LightDistantBuilder elevation(double value) {
         operations.add(obj -> obj.setElevation(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Light.Distant#azimuthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public LightDistantBuilder azimuthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.azimuthProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Light.Distant#colorProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public LightDistantBuilder colorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
         operations.add(obj -> op.accept(obj.colorProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Light.Distant#elevationProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public LightDistantBuilder elevationPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.elevationProperty()));

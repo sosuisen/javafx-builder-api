@@ -97,22 +97,42 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
     public SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory<T>> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#setConverter(javafx.util.StringConverter)}
+     * 
+     * @return builder instance
+     */    
     
     public  SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> converter(javafx.util.StringConverter<T> newValue) {
         operations.add(obj -> obj.setConverter(newValue));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#setItems(javafx.collections.ObservableList)}
+     * 
+     * @return builder instance
+     */    
     
     public  SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> items(javafx.collections.ObservableList<T> value) {
         operations.add(obj -> obj.setItems(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#setValue(java.lang.Object)}
+     * 
+     * @return builder instance
+     */    
     
     public  SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> value(T newValue) {
         operations.add(obj -> obj.setValue(newValue));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#setWrapAround(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> wrapAround(boolean value) {
         operations.add(obj -> obj.setWrapAround(value));
@@ -134,21 +154,41 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
     }
 
     
+    /**
+     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#converterProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<T>>> op) {
         operations.add(obj -> op.accept(obj.converterProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#itemsProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> itemsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.collections.ObservableList<T>>> op) {
         operations.add(obj -> op.accept(obj.itemsProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#valueProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
         operations.add(obj -> op.accept(obj.valueProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#wrapAroundProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> wrapAroundPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.wrapAroundProperty()));

@@ -95,12 +95,22 @@ public class MnemonicBuilder {
     public MnemonicBuilder apply(java.util.function.Consumer<javafx.scene.input.Mnemonic> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.input.Mnemonic#setKeyCombination(javafx.scene.input.KeyCombination)}
+     * 
+     * @return builder instance
+     */    
     
     public  MnemonicBuilder keyCombination(javafx.scene.input.KeyCombination keyCombination) {
         operations.add(obj -> obj.setKeyCombination(keyCombination));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.input.Mnemonic#setNode(javafx.scene.Node)}
+     * 
+     * @return builder instance
+     */    
     
     public  MnemonicBuilder node(javafx.scene.Node node) {
         operations.add(obj -> obj.setNode(node));

@@ -104,22 +104,42 @@ public class GlowBuilder {
     public GlowBuilder apply(java.util.function.Consumer<javafx.scene.effect.Glow> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Glow#setInput(javafx.scene.effect.Effect)}
+     * 
+     * @return builder instance
+     */    
     
     public  GlowBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Glow#setLevel(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  GlowBuilder level(double value) {
         operations.add(obj -> obj.setLevel(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Glow#inputProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public GlowBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Glow#levelProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public GlowBuilder levelPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.levelProperty()));

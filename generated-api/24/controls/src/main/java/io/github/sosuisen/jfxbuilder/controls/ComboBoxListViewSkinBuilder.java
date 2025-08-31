@@ -97,7 +97,12 @@ public class ComboBoxListViewSkinBuilder<T> {
     public ComboBoxListViewSkinBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.skin.ComboBoxListViewSkin<T>> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.skin.ComboBoxListViewSkin#setHideOnClick(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  ComboBoxListViewSkinBuilder<T> hideOnClick(boolean value) {
         operations.add(obj -> obj.setHideOnClick(value));
@@ -119,6 +124,11 @@ public class ComboBoxListViewSkinBuilder<T> {
     }
 
     
+    /**
+     * Applies a function to the {@link javafx.scene.control.skin.ComboBoxListViewSkin#hideOnClickProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ComboBoxListViewSkinBuilder<T> hideOnClickPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.hideOnClickProperty()));

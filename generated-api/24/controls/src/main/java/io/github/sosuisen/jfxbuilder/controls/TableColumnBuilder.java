@@ -106,112 +106,222 @@ public class TableColumnBuilder<S, T> {
     public TableColumnBuilder<S, T> apply(java.util.function.Consumer<javafx.scene.control.TableColumn<S, T>> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setCellFactory(javafx.util.Callback)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> cellFactory(javafx.util.Callback<javafx.scene.control.TableColumn<S, T>, javafx.scene.control.TableCell<S, T>> value) {
         operations.add(obj -> obj.setCellFactory(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setCellValueFactory(javafx.util.Callback)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> cellValueFactory(javafx.util.Callback<javafx.scene.control.TableColumn.CellDataFeatures<S, T>, javafx.beans.value.ObservableValue<T>> value) {
         operations.add(obj -> obj.setCellValueFactory(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setComparator(java.util.Comparator)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> comparator(java.util.Comparator<T> value) {
         operations.add(obj -> obj.setComparator(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setContextMenu(javafx.scene.control.ContextMenu)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> contextMenu(javafx.scene.control.ContextMenu value) {
         operations.add(obj -> obj.setContextMenu(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setEditable(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> editable(boolean value) {
         operations.add(obj -> obj.setEditable(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setGraphic(javafx.scene.Node)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> graphic(javafx.scene.Node value) {
         operations.add(obj -> obj.setGraphic(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setId(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setMaxWidth(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> maxWidth(double value) {
         operations.add(obj -> obj.setMaxWidth(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setMinWidth(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> minWidth(double value) {
         operations.add(obj -> obj.setMinWidth(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setOnEditCancel(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> onEditCancel(javafx.event.EventHandler<javafx.scene.control.TableColumn.CellEditEvent<S, T>> value) {
         operations.add(obj -> obj.setOnEditCancel(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setOnEditCommit(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> onEditCommit(javafx.event.EventHandler<javafx.scene.control.TableColumn.CellEditEvent<S, T>> value) {
         operations.add(obj -> obj.setOnEditCommit(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setOnEditStart(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> onEditStart(javafx.event.EventHandler<javafx.scene.control.TableColumn.CellEditEvent<S, T>> value) {
         operations.add(obj -> obj.setOnEditStart(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setPrefWidth(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> prefWidth(double value) {
         operations.add(obj -> obj.setPrefWidth(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setReorderable(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> reorderable(boolean value) {
         operations.add(obj -> obj.setReorderable(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setResizable(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> resizable(boolean value) {
         operations.add(obj -> obj.setResizable(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setSortNode(javafx.scene.Node)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> sortNode(javafx.scene.Node value) {
         operations.add(obj -> obj.setSortNode(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setSortType(javafx.scene.control.TableColumn$SortType)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> sortType(javafx.scene.control.TableColumn.SortType value) {
         operations.add(obj -> obj.setSortType(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setSortable(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> sortable(boolean value) {
         operations.add(obj -> obj.setSortable(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setStyle(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setText(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> text(java.lang.String value) {
         operations.add(obj -> obj.setText(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setUserData(java.lang.Object)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableColumn#setVisible(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableColumnBuilder<S, T> visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
@@ -260,121 +370,241 @@ public class TableColumnBuilder<S, T> {
     }
 
     
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#cellFactoryProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> cellFactoryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.control.TableColumn<S, T>, javafx.scene.control.TableCell<S, T>>>> op) {
         operations.add(obj -> op.accept(obj.cellFactoryProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#cellValueFactoryProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> cellValueFactoryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.control.TableColumn.CellDataFeatures<S, T>, javafx.beans.value.ObservableValue<T>>>> op) {
         operations.add(obj -> op.accept(obj.cellValueFactoryProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#comparatorProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> comparatorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.util.Comparator<T>>> op) {
         operations.add(obj -> op.accept(obj.comparatorProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#contextMenuProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> contextMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.contextMenuProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#editableProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> editablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.editableProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#graphicProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.graphicProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#idProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#maxWidthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxWidthProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#minWidthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#onEditCancelProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> onEditCancelPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.TableColumn.CellEditEvent<S, T>>>> op) {
         operations.add(obj -> op.accept(obj.onEditCancelProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#onEditCommitProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> onEditCommitPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.TableColumn.CellEditEvent<S, T>>>> op) {
         operations.add(obj -> op.accept(obj.onEditCommitProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#onEditStartProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> onEditStartPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.TableColumn.CellEditEvent<S, T>>>> op) {
         operations.add(obj -> op.accept(obj.onEditStartProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#parentColumnProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> parentColumnPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TableColumnBase<S, ?>>> op) {
         operations.add(obj -> op.accept(obj.parentColumnProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#prefWidthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefWidthProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#reorderableProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> reorderablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.reorderableProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#resizableProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> resizablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.resizableProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#sortNodeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> sortNodePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.sortNodeProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#sortTypeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> sortTypePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.TableColumn.SortType>> op) {
         operations.add(obj -> op.accept(obj.sortTypeProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#sortableProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> sortablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.sortableProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#styleProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#tableViewProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> tableViewPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TableView<S>>> op) {
         operations.add(obj -> op.accept(obj.tableViewProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#textProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.textProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#visibleProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TableColumn#widthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableColumnBuilder<S, T> widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));

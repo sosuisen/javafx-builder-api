@@ -104,72 +104,142 @@ public class LightingBuilder {
     public LightingBuilder apply(java.util.function.Consumer<javafx.scene.effect.Lighting> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Lighting#setBumpInput(javafx.scene.effect.Effect)}
+     * 
+     * @return builder instance
+     */    
     
     public  LightingBuilder bumpInput(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setBumpInput(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Lighting#setContentInput(javafx.scene.effect.Effect)}
+     * 
+     * @return builder instance
+     */    
     
     public  LightingBuilder contentInput(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setContentInput(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Lighting#setDiffuseConstant(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  LightingBuilder diffuseConstant(double value) {
         operations.add(obj -> obj.setDiffuseConstant(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Lighting#setLight(javafx.scene.effect.Light)}
+     * 
+     * @return builder instance
+     */    
     
     public  LightingBuilder light(javafx.scene.effect.Light value) {
         operations.add(obj -> obj.setLight(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Lighting#setSpecularConstant(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  LightingBuilder specularConstant(double value) {
         operations.add(obj -> obj.setSpecularConstant(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Lighting#setSpecularExponent(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  LightingBuilder specularExponent(double value) {
         operations.add(obj -> obj.setSpecularExponent(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Lighting#setSurfaceScale(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  LightingBuilder surfaceScale(double value) {
         operations.add(obj -> obj.setSurfaceScale(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Lighting#bumpInputProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public LightingBuilder bumpInputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.bumpInputProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Lighting#contentInputProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public LightingBuilder contentInputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.contentInputProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Lighting#diffuseConstantProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public LightingBuilder diffuseConstantPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.diffuseConstantProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Lighting#lightProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public LightingBuilder lightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Light>> op) {
         operations.add(obj -> op.accept(obj.lightProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Lighting#specularConstantProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public LightingBuilder specularConstantPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.specularConstantProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Lighting#specularExponentProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public LightingBuilder specularExponentPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.specularExponentProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Lighting#surfaceScaleProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public LightingBuilder surfaceScalePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.surfaceScaleProperty()));

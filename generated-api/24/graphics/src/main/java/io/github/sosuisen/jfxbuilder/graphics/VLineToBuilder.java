@@ -104,22 +104,42 @@ public class VLineToBuilder {
     public VLineToBuilder apply(java.util.function.Consumer<javafx.scene.shape.VLineTo> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.VLineTo#setAbsolute(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  VLineToBuilder absolute(boolean value) {
         operations.add(obj -> obj.setAbsolute(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.VLineTo#setY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  VLineToBuilder y(double value) {
         operations.add(obj -> obj.setY(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.VLineTo#absoluteProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public VLineToBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.absoluteProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.VLineTo#yProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public VLineToBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));

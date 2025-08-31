@@ -87,22 +87,42 @@ public class TextFormatterChangeBuilder {
     public TextFormatterChangeBuilder apply(java.util.function.Consumer<javafx.scene.control.TextFormatter.Change> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TextFormatter.Change#setAnchor(int)}
+     * 
+     * @return builder instance
+     */    
     
     public  TextFormatterChangeBuilder anchor(int newAnchor) {
         operations.add(obj -> obj.setAnchor(newAnchor));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TextFormatter.Change#setCaretPosition(int)}
+     * 
+     * @return builder instance
+     */    
     
     public  TextFormatterChangeBuilder caretPosition(int newCaretPosition) {
         operations.add(obj -> obj.setCaretPosition(newCaretPosition));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TextFormatter.Change#setRange(int, int)}
+     * 
+     * @return builder instance
+     */    
     
     public  TextFormatterChangeBuilder range(int start, int end) {
         operations.add(obj -> obj.setRange(start, end));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TextFormatter.Change#setText(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  TextFormatterChangeBuilder text(java.lang.String value) {
         operations.add(obj -> obj.setText(value));

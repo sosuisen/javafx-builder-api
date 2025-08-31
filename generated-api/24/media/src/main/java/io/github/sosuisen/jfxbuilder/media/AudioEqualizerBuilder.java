@@ -87,7 +87,12 @@ public class AudioEqualizerBuilder {
     public AudioEqualizerBuilder apply(java.util.function.Consumer<javafx.scene.media.AudioEqualizer> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.media.AudioEqualizer#setEnabled(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  AudioEqualizerBuilder enabled(boolean value) {
         operations.add(obj -> obj.setEnabled(value));
@@ -109,6 +114,11 @@ public class AudioEqualizerBuilder {
     }
 
     
+    /**
+     * Applies a function to the {@link javafx.scene.media.AudioEqualizer#enabledProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public AudioEqualizerBuilder enabledPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.enabledProperty()));

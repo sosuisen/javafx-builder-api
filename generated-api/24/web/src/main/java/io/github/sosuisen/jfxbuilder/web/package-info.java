@@ -1,7 +1,7 @@
 /**
- * JavaFX Builder API for Web module.
+ * JavaFX Builder API for Web Module.
  * 
- * <p>This package contains fluent builder classes for JavaFX web components, enabling
+ * <p>This package contains builder classes for JavaFX web components, enabling
  * declarative and hierarchical UI construction with strongly-typed APIs.</p>
  * 
  * <p>The builder classes in this package provide a fluent interface for creating

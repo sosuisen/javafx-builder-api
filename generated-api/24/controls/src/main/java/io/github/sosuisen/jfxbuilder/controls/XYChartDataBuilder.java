@@ -114,42 +114,82 @@ public class XYChartDataBuilder<X, Y> {
     public XYChartDataBuilder<X, Y> apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Data<X, Y>> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.chart.XYChart.Data#setExtraValue(java.lang.Object)}
+     * 
+     * @return builder instance
+     */    
     
     public  XYChartDataBuilder<X, Y> extraValue(java.lang.Object value) {
         operations.add(obj -> obj.setExtraValue(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.chart.XYChart.Data#setNode(javafx.scene.Node)}
+     * 
+     * @return builder instance
+     */    
     
     public  XYChartDataBuilder<X, Y> node(javafx.scene.Node value) {
         operations.add(obj -> obj.setNode(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.chart.XYChart.Data#setXValue(java.lang.Object)}
+     * 
+     * @return builder instance
+     */    
     
     public  XYChartDataBuilder<X, Y> xValue(X value) {
         operations.add(obj -> obj.setXValue(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.chart.XYChart.Data#setYValue(java.lang.Object)}
+     * 
+     * @return builder instance
+     */    
     
     public  XYChartDataBuilder<X, Y> yValue(Y value) {
         operations.add(obj -> obj.setYValue(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.chart.XYChart.Data#XValueProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public XYChartDataBuilder<X, Y> XValuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<X>> op) {
         operations.add(obj -> op.accept(obj.XValueProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.chart.XYChart.Data#YValueProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public XYChartDataBuilder<X, Y> YValuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<Y>> op) {
         operations.add(obj -> op.accept(obj.YValueProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.chart.XYChart.Data#extraValueProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public XYChartDataBuilder<X, Y> extraValuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Object>> op) {
         operations.add(obj -> op.accept(obj.extraValueProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.chart.XYChart.Data#nodeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public XYChartDataBuilder<X, Y> nodePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.nodeProperty()));

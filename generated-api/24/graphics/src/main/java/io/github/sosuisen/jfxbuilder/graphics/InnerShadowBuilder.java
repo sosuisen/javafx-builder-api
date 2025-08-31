@@ -120,92 +120,182 @@ public class InnerShadowBuilder {
     public InnerShadowBuilder apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.InnerShadow#setBlurType(javafx.scene.effect.BlurType)}
+     * 
+     * @return builder instance
+     */    
     
     public  InnerShadowBuilder blurType(javafx.scene.effect.BlurType value) {
         operations.add(obj -> obj.setBlurType(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.InnerShadow#setChoke(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  InnerShadowBuilder choke(double value) {
         operations.add(obj -> obj.setChoke(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.InnerShadow#setColor(javafx.scene.paint.Color)}
+     * 
+     * @return builder instance
+     */    
     
     public  InnerShadowBuilder color(javafx.scene.paint.Color value) {
         operations.add(obj -> obj.setColor(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.InnerShadow#setHeight(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  InnerShadowBuilder height(double value) {
         operations.add(obj -> obj.setHeight(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.InnerShadow#setInput(javafx.scene.effect.Effect)}
+     * 
+     * @return builder instance
+     */    
     
     public  InnerShadowBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.InnerShadow#setOffsetX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  InnerShadowBuilder offsetX(double value) {
         operations.add(obj -> obj.setOffsetX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.InnerShadow#setOffsetY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  InnerShadowBuilder offsetY(double value) {
         operations.add(obj -> obj.setOffsetY(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.InnerShadow#setRadius(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  InnerShadowBuilder radius(double value) {
         operations.add(obj -> obj.setRadius(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.InnerShadow#setWidth(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  InnerShadowBuilder width(double value) {
         operations.add(obj -> obj.setWidth(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.InnerShadow#blurTypeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public InnerShadowBuilder blurTypePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlurType>> op) {
         operations.add(obj -> op.accept(obj.blurTypeProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.InnerShadow#chokeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public InnerShadowBuilder chokePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.chokeProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.InnerShadow#colorProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public InnerShadowBuilder colorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
         operations.add(obj -> op.accept(obj.colorProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.InnerShadow#heightProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public InnerShadowBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.InnerShadow#inputProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public InnerShadowBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.InnerShadow#offsetXProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public InnerShadowBuilder offsetXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.offsetXProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.InnerShadow#offsetYProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public InnerShadowBuilder offsetYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.offsetYProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.InnerShadow#radiusProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public InnerShadowBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.radiusProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.InnerShadow#widthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public InnerShadowBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));

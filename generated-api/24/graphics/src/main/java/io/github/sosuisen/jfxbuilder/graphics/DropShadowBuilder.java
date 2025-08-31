@@ -120,92 +120,182 @@ public class DropShadowBuilder {
     public DropShadowBuilder apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.DropShadow#setBlurType(javafx.scene.effect.BlurType)}
+     * 
+     * @return builder instance
+     */    
     
     public  DropShadowBuilder blurType(javafx.scene.effect.BlurType value) {
         operations.add(obj -> obj.setBlurType(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.DropShadow#setColor(javafx.scene.paint.Color)}
+     * 
+     * @return builder instance
+     */    
     
     public  DropShadowBuilder color(javafx.scene.paint.Color value) {
         operations.add(obj -> obj.setColor(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.DropShadow#setHeight(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  DropShadowBuilder height(double value) {
         operations.add(obj -> obj.setHeight(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.DropShadow#setInput(javafx.scene.effect.Effect)}
+     * 
+     * @return builder instance
+     */    
     
     public  DropShadowBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.DropShadow#setOffsetX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  DropShadowBuilder offsetX(double value) {
         operations.add(obj -> obj.setOffsetX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.DropShadow#setOffsetY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  DropShadowBuilder offsetY(double value) {
         operations.add(obj -> obj.setOffsetY(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.DropShadow#setRadius(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  DropShadowBuilder radius(double value) {
         operations.add(obj -> obj.setRadius(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.DropShadow#setSpread(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  DropShadowBuilder spread(double value) {
         operations.add(obj -> obj.setSpread(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.DropShadow#setWidth(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  DropShadowBuilder width(double value) {
         operations.add(obj -> obj.setWidth(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.DropShadow#blurTypeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DropShadowBuilder blurTypePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlurType>> op) {
         operations.add(obj -> op.accept(obj.blurTypeProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.DropShadow#colorProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DropShadowBuilder colorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
         operations.add(obj -> op.accept(obj.colorProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.DropShadow#heightProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DropShadowBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.DropShadow#inputProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DropShadowBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.DropShadow#offsetXProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DropShadowBuilder offsetXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.offsetXProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.DropShadow#offsetYProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DropShadowBuilder offsetYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.offsetYProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.DropShadow#radiusProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DropShadowBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.radiusProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.DropShadow#spreadProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DropShadowBuilder spreadPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.spreadProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.DropShadow#widthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DropShadowBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));

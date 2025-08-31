@@ -87,7 +87,12 @@ public class WebHistoryBuilder {
     public WebHistoryBuilder apply(java.util.function.Consumer<javafx.scene.web.WebHistory> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.web.WebHistory#setMaxSize(int)}
+     * 
+     * @return builder instance
+     */    
     
     public  WebHistoryBuilder maxSize(int value) {
         operations.add(obj -> obj.setMaxSize(value));
@@ -109,11 +114,21 @@ public class WebHistoryBuilder {
     }
 
     
+    /**
+     * Applies a function to the {@link javafx.scene.web.WebHistory#currentIndexProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public WebHistoryBuilder currentIndexPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
         operations.add(obj -> op.accept(obj.currentIndexProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.web.WebHistory#maxSizeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public WebHistoryBuilder maxSizePropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
         operations.add(obj -> op.accept(obj.maxSizeProperty()));

@@ -114,17 +114,32 @@ public class TreeItemBuilder<T> {
     public TreeItemBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.TreeItem<T>> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TreeItem#setExpanded(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  TreeItemBuilder<T> expanded(boolean value) {
         operations.add(obj -> obj.setExpanded(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TreeItem#setGraphic(javafx.scene.Node)}
+     * 
+     * @return builder instance
+     */    
     
     public  TreeItemBuilder<T> graphic(javafx.scene.Node value) {
         operations.add(obj -> obj.setGraphic(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TreeItem#setValue(java.lang.Object)}
+     * 
+     * @return builder instance
+     */    
     
     public  TreeItemBuilder<T> value(T value) {
         operations.add(obj -> obj.setValue(value));
@@ -157,26 +172,51 @@ public class TreeItemBuilder<T> {
         return builder.addChildren(col);
     }
     
+    /**
+     * Applies a function to the {@link javafx.scene.control.TreeItem#expandedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TreeItemBuilder<T> expandedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.expandedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TreeItem#graphicProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TreeItemBuilder<T> graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.graphicProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TreeItem#leafProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TreeItemBuilder<T> leafPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.leafProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TreeItem#parentProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TreeItemBuilder<T> parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeItem<T>>> op) {
         operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TreeItem#valueProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TreeItemBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
         operations.add(obj -> op.accept(obj.valueProperty()));

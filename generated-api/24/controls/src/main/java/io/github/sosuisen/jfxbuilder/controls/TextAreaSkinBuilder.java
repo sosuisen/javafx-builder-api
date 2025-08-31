@@ -95,12 +95,22 @@ public class TextAreaSkinBuilder {
     public TextAreaSkinBuilder apply(java.util.function.Consumer<javafx.scene.control.skin.TextAreaSkin> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.skin.TextAreaSkin#setCaretAnimating(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  TextAreaSkinBuilder caretAnimating(boolean value) {
         operations.add(obj -> obj.setCaretAnimating(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.skin.TextAreaSkin#setForwardBias(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  TextAreaSkinBuilder forwardBias(boolean isLeading) {
         operations.add(obj -> obj.setForwardBias(isLeading));

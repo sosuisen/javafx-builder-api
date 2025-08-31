@@ -112,6 +112,11 @@ public class DateCellSkinBuilder {
     }
 
     
+    /**
+     * Applies a function to the {@link javafx.scene.control.skin.DateCellSkin#cellSizeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DateCellSkinBuilder cellSizePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.cellSizeProperty()));
