@@ -7,15 +7,15 @@ public class TooltipBuilder {
     private TooltipBuilder() {}
     
 
-    public static TooltipBuilder create() { return new TooltipBuilder(); }
-
-
     
     public static TooltipBuilder create(java.lang.String text) {
         TooltipBuilder builder = new TooltipBuilder();
         builder.constructorArgs = new Object[]{text};
         return builder;
     }
+
+
+    public static TooltipBuilder create() { return new TooltipBuilder(); }
 
     private Object[] constructorArgs;
 
@@ -106,13 +106,13 @@ public class TooltipBuilder {
         return this;
     }    
     
-    public  TooltipBuilder graphic(javafx.scene.Node value) {
-        operations.add(obj -> obj.setGraphic(value));
+    public  TooltipBuilder text(java.lang.String value) {
+        operations.add(obj -> obj.setText(value));
         return this;
     }    
     
-    public  TooltipBuilder text(java.lang.String value) {
-        operations.add(obj -> obj.setText(value));
+    public  TooltipBuilder graphic(javafx.scene.Node value) {
+        operations.add(obj -> obj.setGraphic(value));
         return this;
     }    
     
@@ -136,6 +136,21 @@ public class TooltipBuilder {
         return this;
     }    
     
+    public  TooltipBuilder showDelay(javafx.util.Duration showDelay) {
+        operations.add(obj -> obj.setShowDelay(showDelay));
+        return this;
+    }    
+    
+    public  TooltipBuilder showDuration(javafx.util.Duration showDuration) {
+        operations.add(obj -> obj.setShowDuration(showDuration));
+        return this;
+    }    
+    
+    public  TooltipBuilder hideDelay(javafx.util.Duration hideDelay) {
+        operations.add(obj -> obj.setHideDelay(hideDelay));
+        return this;
+    }    
+    
     public  TooltipBuilder textAlignment(javafx.scene.text.TextAlignment value) {
         operations.add(obj -> obj.setTextAlignment(value));
         return this;
@@ -146,63 +161,8 @@ public class TooltipBuilder {
         return this;
     }    
     
-    public  TooltipBuilder showDelay(javafx.util.Duration showDelay) {
-        operations.add(obj -> obj.setShowDelay(showDelay));
-        return this;
-    }    
-    
-    public  TooltipBuilder hideDelay(javafx.util.Duration hideDelay) {
-        operations.add(obj -> obj.setHideDelay(hideDelay));
-        return this;
-    }    
-    
-    public  TooltipBuilder showDuration(javafx.util.Duration showDuration) {
-        operations.add(obj -> obj.setShowDuration(showDuration));
-        return this;
-    }    
-    
     public  TooltipBuilder id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
-        return this;
-    }    
-    
-    public  TooltipBuilder skin(javafx.scene.control.Skin<?> value) {
-        operations.add(obj -> obj.setSkin(value));
-        return this;
-    }    
-    
-    public  TooltipBuilder style(java.lang.String value) {
-        operations.add(obj -> obj.setStyle(value));
-        return this;
-    }    
-    
-    public  TooltipBuilder prefWidth(double value) {
-        operations.add(obj -> obj.setPrefWidth(value));
-        return this;
-    }    
-    
-    public  TooltipBuilder prefHeight(double value) {
-        operations.add(obj -> obj.setPrefHeight(value));
-        return this;
-    }    
-    
-    public  TooltipBuilder minSize(double minWidth, double minHeight) {
-        operations.add(obj -> obj.setMinSize(minWidth, minHeight));
-        return this;
-    }    
-    
-    public  TooltipBuilder maxSize(double maxWidth, double maxHeight) {
-        operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
-        return this;
-    }    
-    
-    public  TooltipBuilder prefSize(double prefWidth, double prefHeight) {
-        operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
-        return this;
-    }    
-    
-    public  TooltipBuilder minWidth(double value) {
-        operations.add(obj -> obj.setMinWidth(value));
         return this;
     }    
     
@@ -216,8 +176,68 @@ public class TooltipBuilder {
         return this;
     }    
     
+    public  TooltipBuilder minWidth(double value) {
+        operations.add(obj -> obj.setMinWidth(value));
+        return this;
+    }    
+    
     public  TooltipBuilder minHeight(double value) {
         operations.add(obj -> obj.setMinHeight(value));
+        return this;
+    }    
+    
+    public  TooltipBuilder style(java.lang.String value) {
+        operations.add(obj -> obj.setStyle(value));
+        return this;
+    }    
+    
+    public  TooltipBuilder minSize(double minWidth, double minHeight) {
+        operations.add(obj -> obj.setMinSize(minWidth, minHeight));
+        return this;
+    }    
+    
+    public  TooltipBuilder maxSize(double maxWidth, double maxHeight) {
+        operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
+        return this;
+    }    
+    
+    public  TooltipBuilder prefWidth(double value) {
+        operations.add(obj -> obj.setPrefWidth(value));
+        return this;
+    }    
+    
+    public  TooltipBuilder prefHeight(double value) {
+        operations.add(obj -> obj.setPrefHeight(value));
+        return this;
+    }    
+    
+    public  TooltipBuilder prefSize(double prefWidth, double prefHeight) {
+        operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
+        return this;
+    }    
+    
+    public  TooltipBuilder skin(javafx.scene.control.Skin<?> value) {
+        operations.add(obj -> obj.setSkin(value));
+        return this;
+    }    
+    
+    public  TooltipBuilder onAutoHide(javafx.event.EventHandler<javafx.event.Event> value) {
+        operations.add(obj -> obj.setOnAutoHide(value));
+        return this;
+    }    
+    
+    public  TooltipBuilder hideOnEscape(boolean value) {
+        operations.add(obj -> obj.setHideOnEscape(value));
+        return this;
+    }    
+    
+    public  TooltipBuilder autoHide(boolean value) {
+        operations.add(obj -> obj.setAutoHide(value));
+        return this;
+    }    
+    
+    public  TooltipBuilder anchorLocation(javafx.stage.PopupWindow.AnchorLocation value) {
+        operations.add(obj -> obj.setAnchorLocation(value));
         return this;
     }    
     
@@ -241,23 +261,8 @@ public class TooltipBuilder {
         return this;
     }    
     
-    public  TooltipBuilder hideOnEscape(boolean value) {
-        operations.add(obj -> obj.setHideOnEscape(value));
-        return this;
-    }    
-    
-    public  TooltipBuilder onAutoHide(javafx.event.EventHandler<javafx.event.Event> value) {
-        operations.add(obj -> obj.setOnAutoHide(value));
-        return this;
-    }    
-    
-    public  TooltipBuilder anchorLocation(javafx.stage.PopupWindow.AnchorLocation value) {
-        operations.add(obj -> obj.setAnchorLocation(value));
-        return this;
-    }    
-    
-    public  TooltipBuilder autoHide(boolean value) {
-        operations.add(obj -> obj.setAutoHide(value));
+    public  TooltipBuilder userData(java.lang.Object value) {
+        operations.add(obj -> obj.setUserData(value));
         return this;
     }    
     
@@ -276,6 +281,11 @@ public class TooltipBuilder {
         return this;
     }    
     
+    public  TooltipBuilder onCloseRequest(javafx.event.EventHandler<javafx.stage.WindowEvent> value) {
+        operations.add(obj -> obj.setOnCloseRequest(value));
+        return this;
+    }    
+    
     public  TooltipBuilder renderScaleX(double scale) {
         operations.add(obj -> obj.setRenderScaleX(scale));
         return this;
@@ -286,8 +296,8 @@ public class TooltipBuilder {
         return this;
     }    
     
-    public  TooltipBuilder onShown(javafx.event.EventHandler<javafx.stage.WindowEvent> value) {
-        operations.add(obj -> obj.setOnShown(value));
+    public  TooltipBuilder forceIntegerRenderScale(boolean forced) {
+        operations.add(obj -> obj.setForceIntegerRenderScale(forced));
         return this;
     }    
     
@@ -296,18 +306,13 @@ public class TooltipBuilder {
         return this;
     }    
     
+    public  TooltipBuilder onShown(javafx.event.EventHandler<javafx.stage.WindowEvent> value) {
+        operations.add(obj -> obj.setOnShown(value));
+        return this;
+    }    
+    
     public  TooltipBuilder height(double value) {
         operations.add(obj -> obj.setHeight(value));
-        return this;
-    }    
-    
-    public  TooltipBuilder forceIntegerRenderScale(boolean forced) {
-        operations.add(obj -> obj.setForceIntegerRenderScale(forced));
-        return this;
-    }    
-    
-    public  TooltipBuilder eventDispatcher(javafx.event.EventDispatcher value) {
-        operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }    
     
@@ -316,18 +321,13 @@ public class TooltipBuilder {
         return this;
     }    
     
-    public  TooltipBuilder onCloseRequest(javafx.event.EventHandler<javafx.stage.WindowEvent> value) {
-        operations.add(obj -> obj.setOnCloseRequest(value));
-        return this;
-    }    
-    
     public  TooltipBuilder onHiding(javafx.event.EventHandler<javafx.stage.WindowEvent> value) {
         operations.add(obj -> obj.setOnHiding(value));
         return this;
     }    
     
-    public  TooltipBuilder userData(java.lang.Object value) {
-        operations.add(obj -> obj.setUserData(value));
+    public  TooltipBuilder eventDispatcher(javafx.event.EventDispatcher value) {
+        operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }    
     
@@ -367,13 +367,13 @@ public class TooltipBuilder {
         return this;
     }    
     
-    public TooltipBuilder textAlignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.TextAlignment>> op) {
-        operations.add(obj -> op.accept(obj.textAlignmentProperty()));
+    public TooltipBuilder showDelayPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Duration>> op) {
+        operations.add(obj -> op.accept(obj.showDelayProperty()));
         return this;
     }    
     
-    public TooltipBuilder fontPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.Font>> op) {
-        operations.add(obj -> op.accept(obj.fontProperty()));
+    public TooltipBuilder activatedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.activatedProperty()));
         return this;
     }    
     
@@ -382,8 +382,13 @@ public class TooltipBuilder {
         return this;
     }    
     
-    public TooltipBuilder showDelayPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Duration>> op) {
-        operations.add(obj -> op.accept(obj.showDelayProperty()));
+    public TooltipBuilder showDurationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Duration>> op) {
+        operations.add(obj -> op.accept(obj.showDurationProperty()));
+        return this;
+    }    
+    
+    public TooltipBuilder textOverrunPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.OverrunStyle>> op) {
+        operations.add(obj -> op.accept(obj.textOverrunProperty()));
         return this;
     }    
     
@@ -397,18 +402,13 @@ public class TooltipBuilder {
         return this;
     }    
     
-    public TooltipBuilder textOverrunPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.OverrunStyle>> op) {
-        operations.add(obj -> op.accept(obj.textOverrunProperty()));
+    public TooltipBuilder textAlignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.TextAlignment>> op) {
+        operations.add(obj -> op.accept(obj.textAlignmentProperty()));
         return this;
     }    
     
-    public TooltipBuilder showDurationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Duration>> op) {
-        operations.add(obj -> op.accept(obj.showDurationProperty()));
-        return this;
-    }    
-    
-    public TooltipBuilder activatedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.activatedProperty()));
+    public TooltipBuilder fontPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.Font>> op) {
+        operations.add(obj -> op.accept(obj.fontProperty()));
         return this;
     }    
     
@@ -417,28 +417,8 @@ public class TooltipBuilder {
         return this;
     }    
     
-    public TooltipBuilder skinPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Skin<?>>> op) {
-        operations.add(obj -> op.accept(obj.skinProperty()));
-        return this;
-    }    
-    
-    public TooltipBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.styleProperty()));
-        return this;
-    }    
-    
-    public TooltipBuilder prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.prefWidthProperty()));
-        return this;
-    }    
-    
-    public TooltipBuilder prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.prefHeightProperty()));
-        return this;
-    }    
-    
-    public TooltipBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.minHeightProperty()));
+    public TooltipBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
     }    
     
@@ -452,33 +432,43 @@ public class TooltipBuilder {
         return this;
     }    
     
-    public TooltipBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.minWidthProperty()));
+    public TooltipBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.minHeightProperty()));
         return this;
     }    
     
-    public TooltipBuilder anchorLocationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.stage.PopupWindow.AnchorLocation>> op) {
-        operations.add(obj -> op.accept(obj.anchorLocationProperty()));
+    public TooltipBuilder skinPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Skin<?>>> op) {
+        operations.add(obj -> op.accept(obj.skinProperty()));
         return this;
     }    
     
-    public TooltipBuilder hideOnEscapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.hideOnEscapeProperty()));
+    public TooltipBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
     }    
     
-    public TooltipBuilder ownerWindowPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.stage.Window>> op) {
-        operations.add(obj -> op.accept(obj.ownerWindowProperty()));
+    public TooltipBuilder prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.prefHeightProperty()));
         return this;
     }    
     
-    public TooltipBuilder consumeAutoHidingEventsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.consumeAutoHidingEventsProperty()));
+    public TooltipBuilder prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.prefWidthProperty()));
         return this;
     }    
     
     public TooltipBuilder onAutoHidePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onAutoHideProperty()));
+        return this;
+    }    
+    
+    public TooltipBuilder anchorYPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.anchorYProperty()));
+        return this;
+    }    
+    
+    public TooltipBuilder autoHidePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.autoHideProperty()));
         return this;
     }    
     
@@ -497,13 +487,43 @@ public class TooltipBuilder {
         return this;
     }    
     
-    public TooltipBuilder autoHidePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.autoHideProperty()));
+    public TooltipBuilder ownerWindowPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.stage.Window>> op) {
+        operations.add(obj -> op.accept(obj.ownerWindowProperty()));
         return this;
     }    
     
-    public TooltipBuilder anchorYPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.anchorYProperty()));
+    public TooltipBuilder anchorLocationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.stage.PopupWindow.AnchorLocation>> op) {
+        operations.add(obj -> op.accept(obj.anchorLocationProperty()));
+        return this;
+    }    
+    
+    public TooltipBuilder hideOnEscapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.hideOnEscapeProperty()));
+        return this;
+    }    
+    
+    public TooltipBuilder consumeAutoHidingEventsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.consumeAutoHidingEventsProperty()));
+        return this;
+    }    
+    
+    public TooltipBuilder focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusedProperty()));
+        return this;
+    }    
+    
+    public TooltipBuilder scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
+        operations.add(obj -> op.accept(obj.sceneProperty()));
+        return this;
+    }    
+    
+    public TooltipBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.xProperty()));
+        return this;
+    }    
+    
+    public TooltipBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.yProperty()));
         return this;
     }    
     
@@ -517,36 +537,6 @@ public class TooltipBuilder {
         return this;
     }    
     
-    public TooltipBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.yProperty()));
-        return this;
-    }    
-    
-    public TooltipBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.xProperty()));
-        return this;
-    }    
-    
-    public TooltipBuilder forceIntegerRenderScalePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.forceIntegerRenderScaleProperty()));
-        return this;
-    }    
-    
-    public TooltipBuilder onHiddenPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onHiddenProperty()));
-        return this;
-    }    
-    
-    public TooltipBuilder onShownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onShownProperty()));
-        return this;
-    }    
-    
-    public TooltipBuilder onHidingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onHidingProperty()));
-        return this;
-    }    
-    
     public TooltipBuilder opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.opacityProperty()));
         return this;
@@ -554,16 +544,6 @@ public class TooltipBuilder {
     
     public TooltipBuilder onShowingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
         operations.add(obj -> op.accept(obj.onShowingProperty()));
-        return this;
-    }    
-    
-    public TooltipBuilder onCloseRequestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onCloseRequestProperty()));
-        return this;
-    }    
-    
-    public TooltipBuilder renderScaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.renderScaleXProperty()));
         return this;
     }    
     
@@ -587,8 +567,18 @@ public class TooltipBuilder {
         return this;
     }    
     
-    public TooltipBuilder focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusedProperty()));
+    public TooltipBuilder renderScaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.renderScaleXProperty()));
+        return this;
+    }    
+    
+    public TooltipBuilder onCloseRequestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onCloseRequestProperty()));
+        return this;
+    }    
+    
+    public TooltipBuilder forceIntegerRenderScalePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.forceIntegerRenderScaleProperty()));
         return this;
     }    
     
@@ -597,8 +587,18 @@ public class TooltipBuilder {
         return this;
     }    
     
-    public TooltipBuilder scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
-        operations.add(obj -> op.accept(obj.sceneProperty()));
+    public TooltipBuilder onHiddenPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onHiddenProperty()));
+        return this;
+    }    
+    
+    public TooltipBuilder onShownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onShownProperty()));
+        return this;
+    }    
+    
+    public TooltipBuilder onHidingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onHidingProperty()));
         return this;
     }
 }

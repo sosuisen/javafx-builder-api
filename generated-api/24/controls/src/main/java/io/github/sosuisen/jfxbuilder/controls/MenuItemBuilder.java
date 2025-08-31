@@ -7,6 +7,9 @@ public class MenuItemBuilder {
     private MenuItemBuilder() {}
     
 
+    public static MenuItemBuilder create() { return new MenuItemBuilder(); }
+
+
     
     public static MenuItemBuilder create(java.lang.String text, javafx.scene.Node graphic) {
         MenuItemBuilder builder = new MenuItemBuilder();
@@ -21,9 +24,6 @@ public class MenuItemBuilder {
         builder.constructorArgs = new Object[]{text};
         return builder;
     }
-
-
-    public static MenuItemBuilder create() { return new MenuItemBuilder(); }
 
     private Object[] constructorArgs;
 
@@ -114,13 +114,13 @@ public class MenuItemBuilder {
         return this;
     }    
     
-    public  MenuItemBuilder visible(boolean value) {
-        operations.add(obj -> obj.setVisible(value));
+    public  MenuItemBuilder userData(java.lang.Object value) {
+        operations.add(obj -> obj.setUserData(value));
         return this;
     }    
     
-    public  MenuItemBuilder onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
-        operations.add(obj -> obj.setOnAction(value));
+    public  MenuItemBuilder visible(boolean value) {
+        operations.add(obj -> obj.setVisible(value));
         return this;
     }    
     
@@ -129,23 +129,13 @@ public class MenuItemBuilder {
         return this;
     }    
     
+    public  MenuItemBuilder onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
+        operations.add(obj -> obj.setOnAction(value));
+        return this;
+    }    
+    
     public  MenuItemBuilder mnemonicParsing(boolean value) {
         operations.add(obj -> obj.setMnemonicParsing(value));
-        return this;
-    }    
-    
-    public  MenuItemBuilder id(java.lang.String value) {
-        operations.add(obj -> obj.setId(value));
-        return this;
-    }    
-    
-    public  MenuItemBuilder graphic(javafx.scene.Node value) {
-        operations.add(obj -> obj.setGraphic(value));
-        return this;
-    }    
-    
-    public  MenuItemBuilder disable(boolean value) {
-        operations.add(obj -> obj.setDisable(value));
         return this;
     }    
     
@@ -154,13 +144,23 @@ public class MenuItemBuilder {
         return this;
     }    
     
-    public  MenuItemBuilder style(java.lang.String value) {
-        operations.add(obj -> obj.setStyle(value));
+    public  MenuItemBuilder graphic(javafx.scene.Node value) {
+        operations.add(obj -> obj.setGraphic(value));
         return this;
     }    
     
-    public  MenuItemBuilder userData(java.lang.Object value) {
-        operations.add(obj -> obj.setUserData(value));
+    public  MenuItemBuilder id(java.lang.String value) {
+        operations.add(obj -> obj.setId(value));
+        return this;
+    }    
+    
+    public  MenuItemBuilder disable(boolean value) {
+        operations.add(obj -> obj.setDisable(value));
+        return this;
+    }    
+    
+    public  MenuItemBuilder style(java.lang.String value) {
+        operations.add(obj -> obj.setStyle(value));
         return this;
     }    
     
@@ -185,13 +185,13 @@ public class MenuItemBuilder {
 
     
     
-    public MenuItemBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
+    public MenuItemBuilder acceleratorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.KeyCombination>> op) {
+        operations.add(obj -> op.accept(obj.acceleratorProperty()));
         return this;
     }    
     
-    public MenuItemBuilder acceleratorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.KeyCombination>> op) {
-        operations.add(obj -> op.accept(obj.acceleratorProperty()));
+    public MenuItemBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
         return this;
     }    
     
@@ -225,6 +225,11 @@ public class MenuItemBuilder {
         return this;
     }    
     
+    public MenuItemBuilder parentMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Menu>> op) {
+        operations.add(obj -> op.accept(obj.parentMenuProperty()));
+        return this;
+    }    
+    
     public MenuItemBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
@@ -237,11 +242,6 @@ public class MenuItemBuilder {
     
     public MenuItemBuilder parentPopupPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.parentPopupProperty()));
-        return this;
-    }    
-    
-    public MenuItemBuilder parentMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Menu>> op) {
-        operations.add(obj -> op.accept(obj.parentMenuProperty()));
         return this;
     }
 }

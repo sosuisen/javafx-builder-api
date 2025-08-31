@@ -106,13 +106,8 @@ public class ColorInputBuilder {
         return this;
     }    
     
-    public  ColorInputBuilder x(double value) {
-        operations.add(obj -> obj.setX(value));
-        return this;
-    }    
-    
-    public  ColorInputBuilder y(double value) {
-        operations.add(obj -> obj.setY(value));
+    public  ColorInputBuilder height(double value) {
+        operations.add(obj -> obj.setHeight(value));
         return this;
     }    
     
@@ -121,8 +116,13 @@ public class ColorInputBuilder {
         return this;
     }    
     
-    public  ColorInputBuilder height(double value) {
-        operations.add(obj -> obj.setHeight(value));
+    public  ColorInputBuilder x(double value) {
+        operations.add(obj -> obj.setX(value));
+        return this;
+    }    
+    
+    public  ColorInputBuilder y(double value) {
+        operations.add(obj -> obj.setY(value));
         return this;
     }    
     

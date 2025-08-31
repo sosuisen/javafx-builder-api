@@ -119,8 +119,8 @@ public class BlendBuilder {
         return this;
     }    
     
-    public  BlendBuilder mode(javafx.scene.effect.BlendMode value) {
-        operations.add(obj -> obj.setMode(value));
+    public  BlendBuilder bottomInput(javafx.scene.effect.Effect value) {
+        operations.add(obj -> obj.setBottomInput(value));
         return this;
     }    
     
@@ -129,8 +129,8 @@ public class BlendBuilder {
         return this;
     }    
     
-    public  BlendBuilder bottomInput(javafx.scene.effect.Effect value) {
-        operations.add(obj -> obj.setBottomInput(value));
+    public  BlendBuilder mode(javafx.scene.effect.BlendMode value) {
+        operations.add(obj -> obj.setMode(value));
         return this;
     }    
     
@@ -139,8 +139,8 @@ public class BlendBuilder {
         return this;
     }    
     
-    public BlendBuilder bottomInputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
-        operations.add(obj -> op.accept(obj.bottomInputProperty()));
+    public BlendBuilder modePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
+        operations.add(obj -> op.accept(obj.modeProperty()));
         return this;
     }    
     
@@ -149,8 +149,8 @@ public class BlendBuilder {
         return this;
     }    
     
-    public BlendBuilder modePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
-        operations.add(obj -> op.accept(obj.modeProperty()));
+    public BlendBuilder bottomInputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
+        operations.add(obj -> op.accept(obj.bottomInputProperty()));
         return this;
     }
 }

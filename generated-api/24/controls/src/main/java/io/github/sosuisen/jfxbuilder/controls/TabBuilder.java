@@ -7,12 +7,7 @@ public class TabBuilder {
     private TabBuilder() {}
     
 
-    
-    public static TabBuilder create(java.lang.String text, javafx.scene.Node content) {
-        TabBuilder builder = new TabBuilder();
-        builder.constructorArgs = new Object[]{text, content};
-        return builder;
-    }
+    public static TabBuilder create() { return new TabBuilder(); }
 
 
     
@@ -23,7 +18,12 @@ public class TabBuilder {
     }
 
 
-    public static TabBuilder create() { return new TabBuilder(); }
+    
+    public static TabBuilder create(java.lang.String text, javafx.scene.Node content) {
+        TabBuilder builder = new TabBuilder();
+        builder.constructorArgs = new Object[]{text, content};
+        return builder;
+    }
 
     private Object[] constructorArgs;
 
@@ -114,18 +114,13 @@ public class TabBuilder {
         return this;
     }    
     
-    public  TabBuilder id(java.lang.String value) {
-        operations.add(obj -> obj.setId(value));
+    public  TabBuilder userData(java.lang.Object value) {
+        operations.add(obj -> obj.setUserData(value));
         return this;
     }    
     
-    public  TabBuilder graphic(javafx.scene.Node value) {
-        operations.add(obj -> obj.setGraphic(value));
-        return this;
-    }    
-    
-    public  TabBuilder disable(boolean value) {
-        operations.add(obj -> obj.setDisable(value));
+    public  TabBuilder onCloseRequest(javafx.event.EventHandler<javafx.event.Event> value) {
+        operations.add(obj -> obj.setOnCloseRequest(value));
         return this;
     }    
     
@@ -134,8 +129,18 @@ public class TabBuilder {
         return this;
     }    
     
-    public  TabBuilder tooltip(javafx.scene.control.Tooltip value) {
-        operations.add(obj -> obj.setTooltip(value));
+    public  TabBuilder graphic(javafx.scene.Node value) {
+        operations.add(obj -> obj.setGraphic(value));
+        return this;
+    }    
+    
+    public  TabBuilder id(java.lang.String value) {
+        operations.add(obj -> obj.setId(value));
+        return this;
+    }    
+    
+    public  TabBuilder disable(boolean value) {
+        operations.add(obj -> obj.setDisable(value));
         return this;
     }    
     
@@ -149,16 +154,6 @@ public class TabBuilder {
         return this;
     }    
     
-    public  TabBuilder onCloseRequest(javafx.event.EventHandler<javafx.event.Event> value) {
-        operations.add(obj -> obj.setOnCloseRequest(value));
-        return this;
-    }    
-    
-    public  TabBuilder userData(java.lang.Object value) {
-        operations.add(obj -> obj.setUserData(value));
-        return this;
-    }    
-    
     public  TabBuilder content(javafx.scene.Node value) {
         operations.add(obj -> obj.setContent(value));
         return this;
@@ -169,13 +164,18 @@ public class TabBuilder {
         return this;
     }    
     
-    public  TabBuilder onClosed(javafx.event.EventHandler<javafx.event.Event> value) {
-        operations.add(obj -> obj.setOnClosed(value));
+    public  TabBuilder tooltip(javafx.scene.control.Tooltip value) {
+        operations.add(obj -> obj.setTooltip(value));
         return this;
     }    
     
     public  TabBuilder onSelectionChanged(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnSelectionChanged(value));
+        return this;
+    }    
+    
+    public  TabBuilder onClosed(javafx.event.EventHandler<javafx.event.Event> value) {
+        operations.add(obj -> obj.setOnClosed(value));
         return this;
     }
     @SafeVarargs
@@ -200,13 +200,13 @@ public class TabBuilder {
         return this;
     }    
     
-    public TabBuilder selectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.selectedProperty()));
+    public TabBuilder textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.textProperty()));
         return this;
     }    
     
-    public TabBuilder textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.textProperty()));
+    public TabBuilder selectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.selectedProperty()));
         return this;
     }    
     
@@ -220,6 +220,11 @@ public class TabBuilder {
         return this;
     }    
     
+    public TabBuilder onCloseRequestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
+        operations.add(obj -> op.accept(obj.onCloseRequestProperty()));
+        return this;
+    }    
+    
     public TabBuilder tooltipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Tooltip>> op) {
         operations.add(obj -> op.accept(obj.tooltipProperty()));
         return this;
@@ -230,18 +235,8 @@ public class TabBuilder {
         return this;
     }    
     
-    public TabBuilder onCloseRequestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
-        operations.add(obj -> op.accept(obj.onCloseRequestProperty()));
-        return this;
-    }    
-    
     public TabBuilder disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disabledProperty()));
-        return this;
-    }    
-    
-    public TabBuilder contentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.contentProperty()));
         return this;
     }    
     
@@ -255,13 +250,18 @@ public class TabBuilder {
         return this;
     }    
     
+    public TabBuilder tabPanePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TabPane>> op) {
+        operations.add(obj -> op.accept(obj.tabPaneProperty()));
+        return this;
+    }    
+    
     public TabBuilder closablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.closableProperty()));
         return this;
     }    
     
-    public TabBuilder tabPanePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TabPane>> op) {
-        operations.add(obj -> op.accept(obj.tabPaneProperty()));
+    public TabBuilder contentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.contentProperty()));
         return this;
     }    
     

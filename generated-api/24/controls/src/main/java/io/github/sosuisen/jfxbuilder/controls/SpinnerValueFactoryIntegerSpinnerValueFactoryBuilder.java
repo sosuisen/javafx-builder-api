@@ -118,13 +118,13 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }    
     
-    public  SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder max(int value) {
-        operations.add(obj -> obj.setMax(value));
+    public  SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder min(int value) {
+        operations.add(obj -> obj.setMin(value));
         return this;
     }    
     
-    public  SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder min(int value) {
-        operations.add(obj -> obj.setMin(value));
+    public  SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder max(int value) {
+        operations.add(obj -> obj.setMax(value));
         return this;
     }    
     
@@ -133,23 +133,13 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }    
     
-    public  SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder wrapAround(boolean value) {
-        operations.add(obj -> obj.setWrapAround(value));
-        return this;
-    }    
-    
     public  SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder converter(javafx.util.StringConverter<Integer> newValue) {
         operations.add(obj -> obj.setConverter(newValue));
         return this;
     }    
     
-    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder amountToStepByPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
-        operations.add(obj -> op.accept(obj.amountToStepByProperty()));
-        return this;
-    }    
-    
-    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder maxPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
-        operations.add(obj -> op.accept(obj.maxProperty()));
+    public  SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder wrapAround(boolean value) {
+        operations.add(obj -> obj.setWrapAround(value));
         return this;
     }    
     
@@ -158,8 +148,18 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }    
     
-    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder wrapAroundPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.wrapAroundProperty()));
+    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder maxPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
+        operations.add(obj -> op.accept(obj.maxProperty()));
+        return this;
+    }    
+    
+    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder amountToStepByPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
+        operations.add(obj -> op.accept(obj.amountToStepByProperty()));
+        return this;
+    }    
+    
+    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<Integer>>> op) {
+        operations.add(obj -> op.accept(obj.converterProperty()));
         return this;
     }    
     
@@ -168,8 +168,8 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }    
     
-    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<Integer>>> op) {
-        operations.add(obj -> op.accept(obj.converterProperty()));
+    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder wrapAroundPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.wrapAroundProperty()));
         return this;
     }
 }

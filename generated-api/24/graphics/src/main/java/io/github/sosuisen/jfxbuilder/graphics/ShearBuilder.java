@@ -124,13 +124,13 @@ public class ShearBuilder {
         return this;
     }    
     
-    public  ShearBuilder pivotX(double value) {
-        operations.add(obj -> obj.setPivotX(value));
+    public  ShearBuilder pivotY(double value) {
+        operations.add(obj -> obj.setPivotY(value));
         return this;
     }    
     
-    public  ShearBuilder pivotY(double value) {
-        operations.add(obj -> obj.setPivotY(value));
+    public  ShearBuilder pivotX(double value) {
+        operations.add(obj -> obj.setPivotX(value));
         return this;
     }    
     
@@ -149,18 +149,13 @@ public class ShearBuilder {
         return this;
     }    
     
-    public ShearBuilder pivotYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.pivotYProperty()));
-        return this;
-    }    
-    
     public ShearBuilder pivotXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.pivotXProperty()));
         return this;
     }    
     
-    public ShearBuilder onTransformChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTransformChangedProperty()));
+    public ShearBuilder pivotYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.pivotYProperty()));
         return this;
     }    
     
@@ -171,6 +166,11 @@ public class ShearBuilder {
     
     public ShearBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.identityProperty()));
+        return this;
+    }    
+    
+    public ShearBuilder onTransformChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTransformChangedProperty()));
         return this;
     }
 }

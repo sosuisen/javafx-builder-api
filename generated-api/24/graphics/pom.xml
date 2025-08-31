@@ -116,6 +116,7 @@
         <configuration>
           <source>17</source>
           <locale>en_US</locale>
+          <outputDirectory>${project.basedir}</outputDirectory>          
         </configuration>
       </plugin>
     </plugins>

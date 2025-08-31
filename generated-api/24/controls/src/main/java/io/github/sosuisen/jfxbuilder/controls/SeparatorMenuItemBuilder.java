@@ -108,13 +108,13 @@ public class SeparatorMenuItemBuilder {
         return this;
     }    
     
-    public  SeparatorMenuItemBuilder visible(boolean value) {
-        operations.add(obj -> obj.setVisible(value));
+    public  SeparatorMenuItemBuilder userData(java.lang.Object value) {
+        operations.add(obj -> obj.setUserData(value));
         return this;
     }    
     
-    public  SeparatorMenuItemBuilder onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
-        operations.add(obj -> obj.setOnAction(value));
+    public  SeparatorMenuItemBuilder visible(boolean value) {
+        operations.add(obj -> obj.setVisible(value));
         return this;
     }    
     
@@ -123,23 +123,13 @@ public class SeparatorMenuItemBuilder {
         return this;
     }    
     
+    public  SeparatorMenuItemBuilder onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
+        operations.add(obj -> obj.setOnAction(value));
+        return this;
+    }    
+    
     public  SeparatorMenuItemBuilder mnemonicParsing(boolean value) {
         operations.add(obj -> obj.setMnemonicParsing(value));
-        return this;
-    }    
-    
-    public  SeparatorMenuItemBuilder id(java.lang.String value) {
-        operations.add(obj -> obj.setId(value));
-        return this;
-    }    
-    
-    public  SeparatorMenuItemBuilder graphic(javafx.scene.Node value) {
-        operations.add(obj -> obj.setGraphic(value));
-        return this;
-    }    
-    
-    public  SeparatorMenuItemBuilder disable(boolean value) {
-        operations.add(obj -> obj.setDisable(value));
         return this;
     }    
     
@@ -148,13 +138,23 @@ public class SeparatorMenuItemBuilder {
         return this;
     }    
     
-    public  SeparatorMenuItemBuilder style(java.lang.String value) {
-        operations.add(obj -> obj.setStyle(value));
+    public  SeparatorMenuItemBuilder graphic(javafx.scene.Node value) {
+        operations.add(obj -> obj.setGraphic(value));
         return this;
     }    
     
-    public  SeparatorMenuItemBuilder userData(java.lang.Object value) {
-        operations.add(obj -> obj.setUserData(value));
+    public  SeparatorMenuItemBuilder id(java.lang.String value) {
+        operations.add(obj -> obj.setId(value));
+        return this;
+    }    
+    
+    public  SeparatorMenuItemBuilder disable(boolean value) {
+        operations.add(obj -> obj.setDisable(value));
+        return this;
+    }    
+    
+    public  SeparatorMenuItemBuilder style(java.lang.String value) {
+        operations.add(obj -> obj.setStyle(value));
         return this;
     }    
     
@@ -189,13 +189,13 @@ public class SeparatorMenuItemBuilder {
         return this;
     }    
     
-    public SeparatorMenuItemBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
+    public SeparatorMenuItemBuilder acceleratorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.KeyCombination>> op) {
+        operations.add(obj -> op.accept(obj.acceleratorProperty()));
         return this;
     }    
     
-    public SeparatorMenuItemBuilder acceleratorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.KeyCombination>> op) {
-        operations.add(obj -> op.accept(obj.acceleratorProperty()));
+    public SeparatorMenuItemBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
         return this;
     }    
     
@@ -229,6 +229,11 @@ public class SeparatorMenuItemBuilder {
         return this;
     }    
     
+    public SeparatorMenuItemBuilder parentMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Menu>> op) {
+        operations.add(obj -> op.accept(obj.parentMenuProperty()));
+        return this;
+    }    
+    
     public SeparatorMenuItemBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
@@ -241,11 +246,6 @@ public class SeparatorMenuItemBuilder {
     
     public SeparatorMenuItemBuilder parentPopupPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.parentPopupProperty()));
-        return this;
-    }    
-    
-    public SeparatorMenuItemBuilder parentMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Menu>> op) {
-        operations.add(obj -> op.accept(obj.parentMenuProperty()));
         return this;
     }
 }

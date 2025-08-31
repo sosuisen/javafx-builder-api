@@ -110,13 +110,13 @@ public class AxisTickMarkBuilder<T> {
         return this;
     }    
     
-    public  AxisTickMarkBuilder<T> label(java.lang.String value) {
-        operations.add(obj -> obj.setLabel(value));
+    public  AxisTickMarkBuilder<T> textVisible(boolean value) {
+        operations.add(obj -> obj.setTextVisible(value));
         return this;
     }    
     
-    public  AxisTickMarkBuilder<T> textVisible(boolean value) {
-        operations.add(obj -> obj.setTextVisible(value));
+    public  AxisTickMarkBuilder<T> label(java.lang.String value) {
+        operations.add(obj -> obj.setLabel(value));
         return this;
     }    
     
@@ -125,13 +125,13 @@ public class AxisTickMarkBuilder<T> {
         return this;
     }    
     
-    public AxisTickMarkBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.binding.ObjectExpression<T>> op) {
-        operations.add(obj -> op.accept(obj.valueProperty()));
+    public AxisTickMarkBuilder<T> positionPropertyApply(java.util.function.Consumer<javafx.beans.binding.DoubleExpression> op) {
+        operations.add(obj -> op.accept(obj.positionProperty()));
         return this;
     }    
     
-    public AxisTickMarkBuilder<T> positionPropertyApply(java.util.function.Consumer<javafx.beans.binding.DoubleExpression> op) {
-        operations.add(obj -> op.accept(obj.positionProperty()));
+    public AxisTickMarkBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.binding.ObjectExpression<T>> op) {
+        operations.add(obj -> op.accept(obj.valueProperty()));
         return this;
     }
 }

@@ -16,9 +16,9 @@ public class TreeItemTreeModificationEventBuilder<T> {
 
 
     
-    public static <T> TreeItemTreeModificationEventBuilder<T> create(javafx.event.EventType<? extends javafx.event.Event> eventType, javafx.scene.control.TreeItem<T> treeItem) {
+    public static <T> TreeItemTreeModificationEventBuilder<T> create(javafx.event.EventType<? extends javafx.event.Event> eventType, javafx.scene.control.TreeItem<T> treeItem, boolean expanded) {
         TreeItemTreeModificationEventBuilder<T> builder = new TreeItemTreeModificationEventBuilder<T>();
-        builder.constructorArgs = new Object[]{eventType, treeItem};
+        builder.constructorArgs = new Object[]{eventType, treeItem, expanded};
         return builder;
     }
 
@@ -32,9 +32,9 @@ public class TreeItemTreeModificationEventBuilder<T> {
 
 
     
-    public static <T> TreeItemTreeModificationEventBuilder<T> create(javafx.event.EventType<? extends javafx.event.Event> eventType, javafx.scene.control.TreeItem<T> treeItem, boolean expanded) {
+    public static <T> TreeItemTreeModificationEventBuilder<T> create(javafx.event.EventType<? extends javafx.event.Event> eventType, javafx.scene.control.TreeItem<T> treeItem) {
         TreeItemTreeModificationEventBuilder<T> builder = new TreeItemTreeModificationEventBuilder<T>();
-        builder.constructorArgs = new Object[]{eventType, treeItem, expanded};
+        builder.constructorArgs = new Object[]{eventType, treeItem};
         return builder;
     }
 

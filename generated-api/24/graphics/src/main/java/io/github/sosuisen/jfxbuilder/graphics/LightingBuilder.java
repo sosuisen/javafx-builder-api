@@ -116,6 +116,21 @@ public class LightingBuilder {
         return this;
     }    
     
+    public  LightingBuilder diffuseConstant(double value) {
+        operations.add(obj -> obj.setDiffuseConstant(value));
+        return this;
+    }    
+    
+    public  LightingBuilder surfaceScale(double value) {
+        operations.add(obj -> obj.setSurfaceScale(value));
+        return this;
+    }    
+    
+    public  LightingBuilder bumpInput(javafx.scene.effect.Effect value) {
+        operations.add(obj -> obj.setBumpInput(value));
+        return this;
+    }    
+    
     public  LightingBuilder specularConstant(double value) {
         operations.add(obj -> obj.setSpecularConstant(value));
         return this;
@@ -126,43 +141,8 @@ public class LightingBuilder {
         return this;
     }    
     
-    public  LightingBuilder bumpInput(javafx.scene.effect.Effect value) {
-        operations.add(obj -> obj.setBumpInput(value));
-        return this;
-    }    
-    
-    public  LightingBuilder surfaceScale(double value) {
-        operations.add(obj -> obj.setSurfaceScale(value));
-        return this;
-    }    
-    
-    public  LightingBuilder diffuseConstant(double value) {
-        operations.add(obj -> obj.setDiffuseConstant(value));
-        return this;
-    }    
-    
-    public LightingBuilder contentInputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
-        operations.add(obj -> op.accept(obj.contentInputProperty()));
-        return this;
-    }    
-    
-    public LightingBuilder diffuseConstantPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.diffuseConstantProperty()));
-        return this;
-    }    
-    
-    public LightingBuilder surfaceScalePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.surfaceScaleProperty()));
-        return this;
-    }    
-    
-    public LightingBuilder specularExponentPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.specularExponentProperty()));
-        return this;
-    }    
-    
-    public LightingBuilder specularConstantPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.specularConstantProperty()));
+    public LightingBuilder lightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Light>> op) {
+        operations.add(obj -> op.accept(obj.lightProperty()));
         return this;
     }    
     
@@ -171,8 +151,28 @@ public class LightingBuilder {
         return this;
     }    
     
-    public LightingBuilder lightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Light>> op) {
-        operations.add(obj -> op.accept(obj.lightProperty()));
+    public LightingBuilder diffuseConstantPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.diffuseConstantProperty()));
+        return this;
+    }    
+    
+    public LightingBuilder specularConstantPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.specularConstantProperty()));
+        return this;
+    }    
+    
+    public LightingBuilder contentInputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
+        operations.add(obj -> op.accept(obj.contentInputProperty()));
+        return this;
+    }    
+    
+    public LightingBuilder specularExponentPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.specularExponentProperty()));
+        return this;
+    }    
+    
+    public LightingBuilder surfaceScalePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.surfaceScaleProperty()));
         return this;
     }
 }

@@ -106,13 +106,8 @@ public class WebEngineBuilder {
         return this;
     }    
     
-    public  WebEngineBuilder javaScriptEnabled(boolean value) {
-        operations.add(obj -> obj.setJavaScriptEnabled(value));
-        return this;
-    }    
-    
-    public  WebEngineBuilder userDataDirectory(java.io.File value) {
-        operations.add(obj -> obj.setUserDataDirectory(value));
+    public  WebEngineBuilder onVisibilityChanged(javafx.event.EventHandler<javafx.scene.web.WebEvent<java.lang.Boolean>> handler) {
+        operations.add(obj -> obj.setOnVisibilityChanged(handler));
         return this;
     }    
     
@@ -126,13 +121,13 @@ public class WebEngineBuilder {
         return this;
     }    
     
-    public  WebEngineBuilder onVisibilityChanged(javafx.event.EventHandler<javafx.scene.web.WebEvent<java.lang.Boolean>> handler) {
-        operations.add(obj -> obj.setOnVisibilityChanged(handler));
+    public  WebEngineBuilder userDataDirectory(java.io.File value) {
+        operations.add(obj -> obj.setUserDataDirectory(value));
         return this;
     }    
     
-    public  WebEngineBuilder onAlert(javafx.event.EventHandler<javafx.scene.web.WebEvent<java.lang.String>> handler) {
-        operations.add(obj -> obj.setOnAlert(handler));
+    public  WebEngineBuilder javaScriptEnabled(boolean value) {
+        operations.add(obj -> obj.setJavaScriptEnabled(value));
         return this;
     }    
     
@@ -141,8 +136,18 @@ public class WebEngineBuilder {
         return this;
     }    
     
+    public  WebEngineBuilder onAlert(javafx.event.EventHandler<javafx.scene.web.WebEvent<java.lang.String>> handler) {
+        operations.add(obj -> obj.setOnAlert(handler));
+        return this;
+    }    
+    
     public  WebEngineBuilder userAgent(java.lang.String value) {
         operations.add(obj -> obj.setUserAgent(value));
+        return this;
+    }    
+    
+    public  WebEngineBuilder onResized(javafx.event.EventHandler<javafx.scene.web.WebEvent<javafx.geometry.Rectangle2D>> handler) {
+        operations.add(obj -> obj.setOnResized(handler));
         return this;
     }    
     
@@ -151,18 +156,13 @@ public class WebEngineBuilder {
         return this;
     }    
     
-    public  WebEngineBuilder promptHandler(javafx.util.Callback<javafx.scene.web.PromptData, java.lang.String> handler) {
-        operations.add(obj -> obj.setPromptHandler(handler));
-        return this;
-    }    
-    
     public  WebEngineBuilder confirmHandler(javafx.util.Callback<java.lang.String, java.lang.Boolean> handler) {
         operations.add(obj -> obj.setConfirmHandler(handler));
         return this;
     }    
     
-    public  WebEngineBuilder onResized(javafx.event.EventHandler<javafx.scene.web.WebEvent<javafx.geometry.Rectangle2D>> handler) {
-        operations.add(obj -> obj.setOnResized(handler));
+    public  WebEngineBuilder promptHandler(javafx.util.Callback<javafx.scene.web.PromptData, java.lang.String> handler) {
+        operations.add(obj -> obj.setPromptHandler(handler));
         return this;
     }    
     
@@ -181,11 +181,6 @@ public class WebEngineBuilder {
         return this;
     }    
     
-    public WebEngineBuilder userDataDirectoryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.io.File>> op) {
-        operations.add(obj -> op.accept(obj.userDataDirectoryProperty()));
-        return this;
-    }    
-    
     public WebEngineBuilder onStatusChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.web.WebEvent<java.lang.String>>>> op) {
         operations.add(obj -> op.accept(obj.onStatusChangedProperty()));
         return this;
@@ -201,8 +196,8 @@ public class WebEngineBuilder {
         return this;
     }    
     
-    public WebEngineBuilder userStyleSheetLocationPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.userStyleSheetLocationProperty()));
+    public WebEngineBuilder userDataDirectoryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.io.File>> op) {
+        operations.add(obj -> op.accept(obj.userDataDirectoryProperty()));
         return this;
     }    
     
@@ -211,23 +206,28 @@ public class WebEngineBuilder {
         return this;
     }    
     
-    public WebEngineBuilder documentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<org.w3c.dom.Document>> op) {
-        operations.add(obj -> op.accept(obj.documentProperty()));
-        return this;
-    }    
-    
-    public WebEngineBuilder onErrorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.web.WebErrorEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onErrorProperty()));
-        return this;
-    }    
-    
     public WebEngineBuilder locationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyStringProperty> op) {
         operations.add(obj -> op.accept(obj.locationProperty()));
         return this;
     }    
     
+    public WebEngineBuilder documentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<org.w3c.dom.Document>> op) {
+        operations.add(obj -> op.accept(obj.documentProperty()));
+        return this;
+    }    
+    
+    public WebEngineBuilder userStyleSheetLocationPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.userStyleSheetLocationProperty()));
+        return this;
+    }    
+    
     public WebEngineBuilder onAlertPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.web.WebEvent<java.lang.String>>>> op) {
         operations.add(obj -> op.accept(obj.onAlertProperty()));
+        return this;
+    }    
+    
+    public WebEngineBuilder onErrorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.web.WebErrorEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onErrorProperty()));
         return this;
     }    
     

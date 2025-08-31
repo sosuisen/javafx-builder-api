@@ -7,15 +7,15 @@ public class TreeItemBuilder<T> {
     private TreeItemBuilder() {}
     
 
-    public static <T> TreeItemBuilder<T> create() { return new TreeItemBuilder<T>(); }
-
-
     
     public static <T> TreeItemBuilder<T> create(T value) {
         TreeItemBuilder<T> builder = new TreeItemBuilder<T>();
         builder.constructorArgs = new Object[]{value};
         return builder;
     }
+
+
+    public static <T> TreeItemBuilder<T> create() { return new TreeItemBuilder<T>(); }
 
 
     
@@ -163,23 +163,23 @@ public class TreeItemBuilder<T> {
         return this;
     }    
     
-    public TreeItemBuilder<T> parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeItem<T>>> op) {
-        operations.add(obj -> op.accept(obj.parentProperty()));
-        return this;
-    }    
-    
     public TreeItemBuilder<T> expandedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.expandedProperty()));
         return this;
     }    
     
-    public TreeItemBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
-        operations.add(obj -> op.accept(obj.valueProperty()));
+    public TreeItemBuilder<T> leafPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.leafProperty()));
         return this;
     }    
     
-    public TreeItemBuilder<T> leafPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.leafProperty()));
+    public TreeItemBuilder<T> parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeItem<T>>> op) {
+        operations.add(obj -> op.accept(obj.parentProperty()));
+        return this;
+    }    
+    
+    public TreeItemBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
+        operations.add(obj -> op.accept(obj.valueProperty()));
         return this;
     }
 }
