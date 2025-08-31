@@ -110,7 +110,7 @@
         <configuration>
           <source>${maven.compiler.release}</source>
           <locale>en_US</locale>
-          <outputDirectory>\${project.basedir}</outputDirectory>
+          <outputDirectory>${project.basedir}/docs/${javafx.major.version}/${builder.component}</outputDirectory>
         </configuration>
       </plugin>
     </plugins>

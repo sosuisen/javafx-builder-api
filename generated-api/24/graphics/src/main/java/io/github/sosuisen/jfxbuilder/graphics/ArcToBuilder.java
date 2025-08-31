@@ -116,18 +116,13 @@ public class ArcToBuilder {
         return this;
     }    
     
-    public  ArcToBuilder radiusX(double value) {
-        operations.add(obj -> obj.setRadiusX(value));
-        return this;
-    }    
-    
     public  ArcToBuilder radiusY(double value) {
         operations.add(obj -> obj.setRadiusY(value));
         return this;
     }    
     
-    public  ArcToBuilder largeArcFlag(boolean value) {
-        operations.add(obj -> obj.setLargeArcFlag(value));
+    public  ArcToBuilder radiusX(double value) {
+        operations.add(obj -> obj.setRadiusX(value));
         return this;
     }    
     
@@ -141,13 +136,13 @@ public class ArcToBuilder {
         return this;
     }    
     
-    public  ArcToBuilder absolute(boolean value) {
-        operations.add(obj -> obj.setAbsolute(value));
+    public  ArcToBuilder largeArcFlag(boolean value) {
+        operations.add(obj -> obj.setLargeArcFlag(value));
         return this;
     }    
     
-    public ArcToBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.xProperty()));
+    public  ArcToBuilder absolute(boolean value) {
+        operations.add(obj -> obj.setAbsolute(value));
         return this;
     }    
     
@@ -156,13 +151,18 @@ public class ArcToBuilder {
         return this;
     }    
     
-    public ArcToBuilder radiusYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.radiusYProperty()));
+    public ArcToBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }    
     
     public ArcToBuilder radiusXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.radiusXProperty()));
+        return this;
+    }    
+    
+    public ArcToBuilder radiusYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.radiusYProperty()));
         return this;
     }    
     

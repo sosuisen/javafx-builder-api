@@ -7,6 +7,9 @@ public class CustomMenuItemBuilder {
     private CustomMenuItemBuilder() {}
     
 
+    public static CustomMenuItemBuilder create() { return new CustomMenuItemBuilder(); }
+
+
     
     public static CustomMenuItemBuilder create(javafx.scene.Node node, boolean hideOnClick) {
         CustomMenuItemBuilder builder = new CustomMenuItemBuilder();
@@ -21,9 +24,6 @@ public class CustomMenuItemBuilder {
         builder.constructorArgs = new Object[]{node};
         return builder;
     }
-
-
-    public static CustomMenuItemBuilder create() { return new CustomMenuItemBuilder(); }
 
     private Object[] constructorArgs;
 
@@ -114,18 +114,18 @@ public class CustomMenuItemBuilder {
         return this;
     }    
     
-    public  CustomMenuItemBuilder content(javafx.scene.Node value) {
-        operations.add(obj -> obj.setContent(value));
-        return this;
-    }    
-    
     public  CustomMenuItemBuilder hideOnClick(boolean value) {
         operations.add(obj -> obj.setHideOnClick(value));
         return this;
     }    
     
-    public  CustomMenuItemBuilder userData(java.lang.Object value) {
-        operations.add(obj -> obj.setUserData(value));
+    public  CustomMenuItemBuilder content(javafx.scene.Node value) {
+        operations.add(obj -> obj.setContent(value));
+        return this;
+    }    
+    
+    public  CustomMenuItemBuilder onMenuValidation(javafx.event.EventHandler<javafx.event.Event> value) {
+        operations.add(obj -> obj.setOnMenuValidation(value));
         return this;
     }    
     
@@ -149,6 +149,16 @@ public class CustomMenuItemBuilder {
         return this;
     }    
     
+    public  CustomMenuItemBuilder disable(boolean value) {
+        operations.add(obj -> obj.setDisable(value));
+        return this;
+    }    
+    
+    public  CustomMenuItemBuilder id(java.lang.String value) {
+        operations.add(obj -> obj.setId(value));
+        return this;
+    }    
+    
     public  CustomMenuItemBuilder text(java.lang.String value) {
         operations.add(obj -> obj.setText(value));
         return this;
@@ -159,23 +169,13 @@ public class CustomMenuItemBuilder {
         return this;
     }    
     
-    public  CustomMenuItemBuilder id(java.lang.String value) {
-        operations.add(obj -> obj.setId(value));
-        return this;
-    }    
-    
-    public  CustomMenuItemBuilder disable(boolean value) {
-        operations.add(obj -> obj.setDisable(value));
+    public  CustomMenuItemBuilder userData(java.lang.Object value) {
+        operations.add(obj -> obj.setUserData(value));
         return this;
     }    
     
     public  CustomMenuItemBuilder style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
-        return this;
-    }    
-    
-    public  CustomMenuItemBuilder onMenuValidation(javafx.event.EventHandler<javafx.event.Event> value) {
-        operations.add(obj -> obj.setOnMenuValidation(value));
         return this;
     }
     @SafeVarargs
@@ -195,63 +195,13 @@ public class CustomMenuItemBuilder {
 
     
     
-    public CustomMenuItemBuilder contentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.contentProperty()));
-        return this;
-    }    
-    
     public CustomMenuItemBuilder hideOnClickPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.hideOnClickProperty()));
         return this;
     }    
     
-    public CustomMenuItemBuilder acceleratorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.KeyCombination>> op) {
-        operations.add(obj -> op.accept(obj.acceleratorProperty()));
-        return this;
-    }    
-    
-    public CustomMenuItemBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
-        return this;
-    }    
-    
-    public CustomMenuItemBuilder graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.graphicProperty()));
-        return this;
-    }    
-    
-    public CustomMenuItemBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.visibleProperty()));
-        return this;
-    }    
-    
-    public CustomMenuItemBuilder textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.textProperty()));
-        return this;
-    }    
-    
-    public CustomMenuItemBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.disableProperty()));
-        return this;
-    }    
-    
-    public CustomMenuItemBuilder onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onActionProperty()));
-        return this;
-    }    
-    
-    public CustomMenuItemBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.idProperty()));
-        return this;
-    }    
-    
-    public CustomMenuItemBuilder parentMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Menu>> op) {
-        operations.add(obj -> op.accept(obj.parentMenuProperty()));
-        return this;
-    }    
-    
-    public CustomMenuItemBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.styleProperty()));
+    public CustomMenuItemBuilder contentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.contentProperty()));
         return this;
     }    
     
@@ -262,6 +212,56 @@ public class CustomMenuItemBuilder {
     
     public CustomMenuItemBuilder parentPopupPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.parentPopupProperty()));
+        return this;
+    }    
+    
+    public CustomMenuItemBuilder parentMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Menu>> op) {
+        operations.add(obj -> op.accept(obj.parentMenuProperty()));
+        return this;
+    }    
+    
+    public CustomMenuItemBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.visibleProperty()));
+        return this;
+    }    
+    
+    public CustomMenuItemBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.disableProperty()));
+        return this;
+    }    
+    
+    public CustomMenuItemBuilder graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.graphicProperty()));
+        return this;
+    }    
+    
+    public CustomMenuItemBuilder textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.textProperty()));
+        return this;
+    }    
+    
+    public CustomMenuItemBuilder onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onActionProperty()));
+        return this;
+    }    
+    
+    public CustomMenuItemBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
+        return this;
+    }    
+    
+    public CustomMenuItemBuilder acceleratorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.KeyCombination>> op) {
+        operations.add(obj -> op.accept(obj.acceleratorProperty()));
+        return this;
+    }    
+    
+    public CustomMenuItemBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.idProperty()));
+        return this;
+    }    
+    
+    public CustomMenuItemBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
     }
 }

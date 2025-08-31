@@ -8,17 +8,17 @@ public class ButtonTypeBuilder {
     
 
     
-    public static ButtonTypeBuilder create(java.lang.String text, javafx.scene.control.ButtonBar.ButtonData buttonData) {
+    public static ButtonTypeBuilder create(java.lang.String text) {
         ButtonTypeBuilder builder = new ButtonTypeBuilder();
-        builder.constructorArgs = new Object[]{text, buttonData};
+        builder.constructorArgs = new Object[]{text};
         return builder;
     }
 
 
     
-    public static ButtonTypeBuilder create(java.lang.String text) {
+    public static ButtonTypeBuilder create(java.lang.String text, javafx.scene.control.ButtonBar.ButtonData buttonData) {
         ButtonTypeBuilder builder = new ButtonTypeBuilder();
-        builder.constructorArgs = new Object[]{text};
+        builder.constructorArgs = new Object[]{text, buttonData};
         return builder;
     }
 

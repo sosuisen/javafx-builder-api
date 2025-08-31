@@ -89,6 +89,11 @@ public class DragboardBuilder {
         return this;
     }    
     
+    public  DragboardBuilder dragViewOffsetY(double offsetY) {
+        operations.add(obj -> obj.setDragViewOffsetY(offsetY));
+        return this;
+    }    
+    
     public  DragboardBuilder dragView(javafx.scene.image.Image image) {
         operations.add(obj -> obj.setDragView(image));
         return this;
@@ -101,11 +106,6 @@ public class DragboardBuilder {
     
     public  DragboardBuilder dragViewOffsetX(double offsetX) {
         operations.add(obj -> obj.setDragViewOffsetX(offsetX));
-        return this;
-    }    
-    
-    public  DragboardBuilder dragViewOffsetY(double offsetY) {
-        operations.add(obj -> obj.setDragViewOffsetY(offsetY));
         return this;
     }    
     

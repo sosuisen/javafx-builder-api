@@ -97,13 +97,13 @@ public class PieChartDataBuilder {
         return this;
     }    
     
-    public  PieChartDataBuilder name(java.lang.String value) {
-        operations.add(obj -> obj.setName(value));
+    public  PieChartDataBuilder pieValue(double value) {
+        operations.add(obj -> obj.setPieValue(value));
         return this;
     }    
     
-    public  PieChartDataBuilder pieValue(double value) {
-        operations.add(obj -> obj.setPieValue(value));
+    public  PieChartDataBuilder name(java.lang.String value) {
+        operations.add(obj -> obj.setName(value));
         return this;
     }    
     
@@ -112,8 +112,8 @@ public class PieChartDataBuilder {
         return this;
     }    
     
-    public PieChartDataBuilder nodePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.nodeProperty()));
+    public PieChartDataBuilder chartPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.chart.PieChart>> op) {
+        operations.add(obj -> op.accept(obj.chartProperty()));
         return this;
     }    
     
@@ -122,8 +122,8 @@ public class PieChartDataBuilder {
         return this;
     }    
     
-    public PieChartDataBuilder chartPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.chart.PieChart>> op) {
-        operations.add(obj -> op.accept(obj.chartProperty()));
+    public PieChartDataBuilder nodePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.nodeProperty()));
         return this;
     }
 }

@@ -116,13 +116,8 @@ public class XYChartDataBuilder<X, Y> {
         return this;
     }    
     
-    public  XYChartDataBuilder<X, Y> node(javafx.scene.Node value) {
-        operations.add(obj -> obj.setNode(value));
-        return this;
-    }    
-    
-    public  XYChartDataBuilder<X, Y> extraValue(java.lang.Object value) {
-        operations.add(obj -> obj.setExtraValue(value));
+    public  XYChartDataBuilder<X, Y> xValue(X value) {
+        operations.add(obj -> obj.setXValue(value));
         return this;
     }    
     
@@ -131,8 +126,13 @@ public class XYChartDataBuilder<X, Y> {
         return this;
     }    
     
-    public  XYChartDataBuilder<X, Y> xValue(X value) {
-        operations.add(obj -> obj.setXValue(value));
+    public  XYChartDataBuilder<X, Y> extraValue(java.lang.Object value) {
+        operations.add(obj -> obj.setExtraValue(value));
+        return this;
+    }    
+    
+    public  XYChartDataBuilder<X, Y> node(javafx.scene.Node value) {
+        operations.add(obj -> obj.setNode(value));
         return this;
     }    
     
@@ -141,13 +141,13 @@ public class XYChartDataBuilder<X, Y> {
         return this;
     }    
     
-    public XYChartDataBuilder<X, Y> YValuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<Y>> op) {
-        operations.add(obj -> op.accept(obj.YValueProperty()));
+    public XYChartDataBuilder<X, Y> extraValuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Object>> op) {
+        operations.add(obj -> op.accept(obj.extraValueProperty()));
         return this;
     }    
     
-    public XYChartDataBuilder<X, Y> extraValuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Object>> op) {
-        operations.add(obj -> op.accept(obj.extraValueProperty()));
+    public XYChartDataBuilder<X, Y> YValuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<Y>> op) {
+        operations.add(obj -> op.accept(obj.YValueProperty()));
         return this;
     }    
     

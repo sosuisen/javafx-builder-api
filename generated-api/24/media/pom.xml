@@ -110,7 +110,7 @@
         <configuration>
           <source>17</source>
           <locale>en_US</locale>
-          <outputDirectory>${project.basedir}</outputDirectory>          
+          <outputDirectory>F:\\JavaFXProject\\javafx-builder-api-generator/docs/24/media</outputDirectory>
         </configuration>
       </plugin>
     </plugins>

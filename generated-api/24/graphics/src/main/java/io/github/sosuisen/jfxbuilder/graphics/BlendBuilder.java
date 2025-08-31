@@ -15,15 +15,15 @@ public class BlendBuilder {
     }
 
 
-    public static BlendBuilder create() { return new BlendBuilder(); }
-
-
     
     public static BlendBuilder create(javafx.scene.effect.BlendMode mode, javafx.scene.effect.Effect bottomInput, javafx.scene.effect.Effect topInput) {
         BlendBuilder builder = new BlendBuilder();
         builder.constructorArgs = new Object[]{mode, bottomInput, topInput};
         return builder;
     }
+
+
+    public static BlendBuilder create() { return new BlendBuilder(); }
 
     private Object[] constructorArgs;
 
@@ -119,13 +119,13 @@ public class BlendBuilder {
         return this;
     }    
     
-    public  BlendBuilder bottomInput(javafx.scene.effect.Effect value) {
-        operations.add(obj -> obj.setBottomInput(value));
+    public  BlendBuilder topInput(javafx.scene.effect.Effect value) {
+        operations.add(obj -> obj.setTopInput(value));
         return this;
     }    
     
-    public  BlendBuilder topInput(javafx.scene.effect.Effect value) {
-        operations.add(obj -> obj.setTopInput(value));
+    public  BlendBuilder bottomInput(javafx.scene.effect.Effect value) {
+        operations.add(obj -> obj.setBottomInput(value));
         return this;
     }    
     
@@ -139,8 +139,8 @@ public class BlendBuilder {
         return this;
     }    
     
-    public BlendBuilder modePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
-        operations.add(obj -> op.accept(obj.modeProperty()));
+    public BlendBuilder bottomInputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
+        operations.add(obj -> op.accept(obj.bottomInputProperty()));
         return this;
     }    
     
@@ -149,8 +149,8 @@ public class BlendBuilder {
         return this;
     }    
     
-    public BlendBuilder bottomInputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
-        operations.add(obj -> op.accept(obj.bottomInputProperty()));
+    public BlendBuilder modePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
+        operations.add(obj -> op.accept(obj.modeProperty()));
         return this;
     }
 }

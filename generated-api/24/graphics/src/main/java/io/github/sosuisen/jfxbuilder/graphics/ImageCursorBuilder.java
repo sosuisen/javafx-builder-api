@@ -7,6 +7,9 @@ public class ImageCursorBuilder {
     private ImageCursorBuilder() {}
     
 
+    public static ImageCursorBuilder create() { return new ImageCursorBuilder(); }
+
+
     
     public static ImageCursorBuilder create(javafx.scene.image.Image image, double hotspotX, double hotspotY) {
         ImageCursorBuilder builder = new ImageCursorBuilder();
@@ -21,9 +24,6 @@ public class ImageCursorBuilder {
         builder.constructorArgs = new Object[]{image};
         return builder;
     }
-
-
-    public static ImageCursorBuilder create() { return new ImageCursorBuilder(); }
 
     private Object[] constructorArgs;
 

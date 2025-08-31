@@ -11,17 +11,17 @@ public class XYChartSeriesBuilder<X, Y> {
 
 
     
-    public static <X, Y> XYChartSeriesBuilder<X, Y> create(javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>> data) {
+    public static <X, Y> XYChartSeriesBuilder<X, Y> create(java.lang.String name, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>> data) {
         XYChartSeriesBuilder<X, Y> builder = new XYChartSeriesBuilder<X, Y>();
-        builder.constructorArgs = new Object[]{data};
+        builder.constructorArgs = new Object[]{name, data};
         return builder;
     }
 
 
     
-    public static <X, Y> XYChartSeriesBuilder<X, Y> create(java.lang.String name, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>> data) {
+    public static <X, Y> XYChartSeriesBuilder<X, Y> create(javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>> data) {
         XYChartSeriesBuilder<X, Y> builder = new XYChartSeriesBuilder<X, Y>();
-        builder.constructorArgs = new Object[]{name, data};
+        builder.constructorArgs = new Object[]{data};
         return builder;
     }
 
@@ -116,6 +116,11 @@ public class XYChartSeriesBuilder<X, Y> {
         return this;
     }    
     
+    public  XYChartSeriesBuilder<X, Y> data(javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>> value) {
+        operations.add(obj -> obj.setData(value));
+        return this;
+    }    
+    
     public  XYChartSeriesBuilder<X, Y> name(java.lang.String value) {
         operations.add(obj -> obj.setName(value));
         return this;
@@ -123,11 +128,6 @@ public class XYChartSeriesBuilder<X, Y> {
     
     public  XYChartSeriesBuilder<X, Y> node(javafx.scene.Node value) {
         operations.add(obj -> obj.setNode(value));
-        return this;
-    }    
-    
-    public  XYChartSeriesBuilder<X, Y> data(javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>> value) {
-        operations.add(obj -> obj.setData(value));
         return this;
     }
     @SafeVarargs
@@ -158,13 +158,8 @@ public class XYChartSeriesBuilder<X, Y> {
     }
     
     
-    public XYChartSeriesBuilder<X, Y> nodePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.nodeProperty()));
-        return this;
-    }    
-    
-    public XYChartSeriesBuilder<X, Y> namePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.nameProperty()));
+    public XYChartSeriesBuilder<X, Y> dataPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>>>> op) {
+        operations.add(obj -> op.accept(obj.dataProperty()));
         return this;
     }    
     
@@ -173,8 +168,13 @@ public class XYChartSeriesBuilder<X, Y> {
         return this;
     }    
     
-    public XYChartSeriesBuilder<X, Y> dataPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>>>> op) {
-        operations.add(obj -> op.accept(obj.dataProperty()));
+    public XYChartSeriesBuilder<X, Y> namePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.nameProperty()));
+        return this;
+    }    
+    
+    public XYChartSeriesBuilder<X, Y> nodePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.nodeProperty()));
         return this;
     }
 }

@@ -7,16 +7,16 @@ public class LinearGradientBuilder {
     private LinearGradientBuilder() {}
     
 
-    
-    public static LinearGradientBuilder create(double startX, double startY, double endX, double endY, boolean proportional, javafx.scene.paint.CycleMethod cycleMethod, java.util.List<javafx.scene.paint.Stop> stops) {
+    @SafeVarargs
+    public static LinearGradientBuilder create(double startX, double startY, double endX, double endY, boolean proportional, javafx.scene.paint.CycleMethod cycleMethod, javafx.scene.paint.Stop... stops) {
         LinearGradientBuilder builder = new LinearGradientBuilder();
         builder.constructorArgs = new Object[]{startX, startY, endX, endY, proportional, cycleMethod, stops};
         return builder;
     }
 
 
-    @SafeVarargs
-    public static LinearGradientBuilder create(double startX, double startY, double endX, double endY, boolean proportional, javafx.scene.paint.CycleMethod cycleMethod, javafx.scene.paint.Stop... stops) {
+    
+    public static LinearGradientBuilder create(double startX, double startY, double endX, double endY, boolean proportional, javafx.scene.paint.CycleMethod cycleMethod, java.util.List<javafx.scene.paint.Stop> stops) {
         LinearGradientBuilder builder = new LinearGradientBuilder();
         builder.constructorArgs = new Object[]{startX, startY, endX, endY, proportional, cycleMethod, stops};
         return builder;

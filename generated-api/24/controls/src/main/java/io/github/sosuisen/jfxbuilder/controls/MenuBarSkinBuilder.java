@@ -123,13 +123,13 @@ public class MenuBarSkinBuilder {
 
     
     
-    public MenuBarSkinBuilder spacingPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.spacingProperty()));
+    public MenuBarSkinBuilder containerAlignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Pos>> op) {
+        operations.add(obj -> op.accept(obj.containerAlignmentProperty()));
         return this;
     }    
     
-    public MenuBarSkinBuilder containerAlignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Pos>> op) {
-        operations.add(obj -> op.accept(obj.containerAlignmentProperty()));
+    public MenuBarSkinBuilder spacingPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.spacingProperty()));
         return this;
     }
 }

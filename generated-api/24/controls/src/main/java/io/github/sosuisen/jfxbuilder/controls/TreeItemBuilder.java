@@ -7,14 +7,6 @@ public class TreeItemBuilder<T> {
     private TreeItemBuilder() {}
     
 
-    
-    public static <T> TreeItemBuilder<T> create(T value) {
-        TreeItemBuilder<T> builder = new TreeItemBuilder<T>();
-        builder.constructorArgs = new Object[]{value};
-        return builder;
-    }
-
-
     public static <T> TreeItemBuilder<T> create() { return new TreeItemBuilder<T>(); }
 
 
@@ -22,6 +14,14 @@ public class TreeItemBuilder<T> {
     public static <T> TreeItemBuilder<T> create(T value, javafx.scene.Node graphic) {
         TreeItemBuilder<T> builder = new TreeItemBuilder<T>();
         builder.constructorArgs = new Object[]{value, graphic};
+        return builder;
+    }
+
+
+    
+    public static <T> TreeItemBuilder<T> create(T value) {
+        TreeItemBuilder<T> builder = new TreeItemBuilder<T>();
+        builder.constructorArgs = new Object[]{value};
         return builder;
     }
 
@@ -116,6 +116,11 @@ public class TreeItemBuilder<T> {
         return this;
     }    
     
+    public  TreeItemBuilder<T> expanded(boolean value) {
+        operations.add(obj -> obj.setExpanded(value));
+        return this;
+    }    
+    
     public  TreeItemBuilder<T> value(T value) {
         operations.add(obj -> obj.setValue(value));
         return this;
@@ -123,11 +128,6 @@ public class TreeItemBuilder<T> {
     
     public  TreeItemBuilder<T> graphic(javafx.scene.Node value) {
         operations.add(obj -> obj.setGraphic(value));
-        return this;
-    }    
-    
-    public  TreeItemBuilder<T> expanded(boolean value) {
-        operations.add(obj -> obj.setExpanded(value));
         return this;
     }
     @SafeVarargs
@@ -158,13 +158,8 @@ public class TreeItemBuilder<T> {
     }
     
     
-    public TreeItemBuilder<T> graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.graphicProperty()));
-        return this;
-    }    
-    
-    public TreeItemBuilder<T> expandedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.expandedProperty()));
+    public TreeItemBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
+        operations.add(obj -> op.accept(obj.valueProperty()));
         return this;
     }    
     
@@ -173,13 +168,18 @@ public class TreeItemBuilder<T> {
         return this;
     }    
     
-    public TreeItemBuilder<T> parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeItem<T>>> op) {
-        operations.add(obj -> op.accept(obj.parentProperty()));
+    public TreeItemBuilder<T> expandedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.expandedProperty()));
         return this;
     }    
     
-    public TreeItemBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
-        operations.add(obj -> op.accept(obj.valueProperty()));
+    public TreeItemBuilder<T> graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.graphicProperty()));
+        return this;
+    }    
+    
+    public TreeItemBuilder<T> parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeItem<T>>> op) {
+        operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
     }
 }

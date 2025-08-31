@@ -106,13 +106,8 @@ public class LightSpotBuilder {
         return this;
     }    
     
-    public  LightSpotBuilder pointsAtX(double value) {
-        operations.add(obj -> obj.setPointsAtX(value));
-        return this;
-    }    
-    
-    public  LightSpotBuilder pointsAtY(double value) {
-        operations.add(obj -> obj.setPointsAtY(value));
+    public  LightSpotBuilder specularExponent(double value) {
+        operations.add(obj -> obj.setSpecularExponent(value));
         return this;
     }    
     
@@ -121,8 +116,13 @@ public class LightSpotBuilder {
         return this;
     }    
     
-    public  LightSpotBuilder specularExponent(double value) {
-        operations.add(obj -> obj.setSpecularExponent(value));
+    public  LightSpotBuilder pointsAtX(double value) {
+        operations.add(obj -> obj.setPointsAtX(value));
+        return this;
+    }    
+    
+    public  LightSpotBuilder pointsAtY(double value) {
+        operations.add(obj -> obj.setPointsAtY(value));
         return this;
     }    
     
@@ -146,6 +146,11 @@ public class LightSpotBuilder {
         return this;
     }    
     
+    public LightSpotBuilder specularExponentPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.specularExponentProperty()));
+        return this;
+    }    
+    
     public LightSpotBuilder pointsAtZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.pointsAtZProperty()));
         return this;
@@ -161,18 +166,13 @@ public class LightSpotBuilder {
         return this;
     }    
     
-    public LightSpotBuilder specularExponentPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.specularExponentProperty()));
+    public LightSpotBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.yProperty()));
         return this;
     }    
     
     public LightSpotBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
-        return this;
-    }    
-    
-    public LightSpotBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.yProperty()));
         return this;
     }    
     
