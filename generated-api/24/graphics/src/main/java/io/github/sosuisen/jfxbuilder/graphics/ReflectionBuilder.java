@@ -111,6 +111,11 @@ public class ReflectionBuilder {
         return this;
     }    
     
+    public  ReflectionBuilder bottomOpacity(double value) {
+        operations.add(obj -> obj.setBottomOpacity(value));
+        return this;
+    }    
+    
     public  ReflectionBuilder topOpacity(double value) {
         operations.add(obj -> obj.setTopOpacity(value));
         return this;
@@ -118,11 +123,6 @@ public class ReflectionBuilder {
     
     public  ReflectionBuilder fraction(double value) {
         operations.add(obj -> obj.setFraction(value));
-        return this;
-    }    
-    
-    public  ReflectionBuilder bottomOpacity(double value) {
-        operations.add(obj -> obj.setBottomOpacity(value));
         return this;
     }    
     
@@ -136,13 +136,8 @@ public class ReflectionBuilder {
         return this;
     }    
     
-    public ReflectionBuilder topOpacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.topOpacityProperty()));
-        return this;
-    }    
-    
-    public ReflectionBuilder topOffsetPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.topOffsetProperty()));
+    public ReflectionBuilder bottomOpacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.bottomOpacityProperty()));
         return this;
     }    
     
@@ -151,8 +146,13 @@ public class ReflectionBuilder {
         return this;
     }    
     
-    public ReflectionBuilder bottomOpacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.bottomOpacityProperty()));
+    public ReflectionBuilder topOpacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.topOpacityProperty()));
+        return this;
+    }    
+    
+    public ReflectionBuilder topOffsetPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.topOffsetProperty()));
         return this;
     }
 }

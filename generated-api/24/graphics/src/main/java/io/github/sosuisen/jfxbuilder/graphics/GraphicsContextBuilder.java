@@ -89,13 +89,18 @@ public class GraphicsContextBuilder {
         return this;
     }    
     
+    public  GraphicsContextBuilder effect(javafx.scene.effect.Effect e) {
+        operations.add(obj -> obj.setEffect(e));
+        return this;
+    }    
+    
     public  GraphicsContextBuilder fill(javafx.scene.paint.Paint p) {
         operations.add(obj -> obj.setFill(p));
         return this;
     }    
     
-    public  GraphicsContextBuilder effect(javafx.scene.effect.Effect e) {
-        operations.add(obj -> obj.setEffect(e));
+    public  GraphicsContextBuilder stroke(javafx.scene.paint.Paint p) {
+        operations.add(obj -> obj.setStroke(p));
         return this;
     }    
     
@@ -109,23 +114,33 @@ public class GraphicsContextBuilder {
         return this;
     }    
     
-    public  GraphicsContextBuilder stroke(javafx.scene.paint.Paint p) {
-        operations.add(obj -> obj.setStroke(p));
-        return this;
-    }    
-    
     public  GraphicsContextBuilder fillRule(javafx.scene.shape.FillRule fillRule) {
         operations.add(obj -> obj.setFillRule(fillRule));
         return this;
     }    
     
-    public  GraphicsContextBuilder globalBlendMode(javafx.scene.effect.BlendMode op) {
-        operations.add(obj -> obj.setGlobalBlendMode(op));
+    public  GraphicsContextBuilder fontSmoothingType(javafx.scene.text.FontSmoothingType fontsmoothing) {
+        operations.add(obj -> obj.setFontSmoothingType(fontsmoothing));
+        return this;
+    }    
+    
+    public  GraphicsContextBuilder font(javafx.scene.text.Font f) {
+        operations.add(obj -> obj.setFont(f));
+        return this;
+    }    
+    
+    public  GraphicsContextBuilder lineCap(javafx.scene.shape.StrokeLineCap cap) {
+        operations.add(obj -> obj.setLineCap(cap));
         return this;
     }    
     
     public  GraphicsContextBuilder globalAlpha(double alpha) {
         operations.add(obj -> obj.setGlobalAlpha(alpha));
+        return this;
+    }    
+    
+    public  GraphicsContextBuilder globalBlendMode(javafx.scene.effect.BlendMode op) {
+        operations.add(obj -> obj.setGlobalBlendMode(op));
         return this;
     }    
     
@@ -139,11 +154,6 @@ public class GraphicsContextBuilder {
         return this;
     }    
     
-    public  GraphicsContextBuilder lineDashes(double... dashes) {
-        operations.add(obj -> obj.setLineDashes(dashes));
-        return this;
-    }    
-    
     public  GraphicsContextBuilder miterLimit(double ml) {
         operations.add(obj -> obj.setMiterLimit(ml));
         return this;
@@ -154,13 +164,8 @@ public class GraphicsContextBuilder {
         return this;
     }    
     
-    public  GraphicsContextBuilder lineDashOffset(double dashOffset) {
-        operations.add(obj -> obj.setLineDashOffset(dashOffset));
-        return this;
-    }    
-    
-    public  GraphicsContextBuilder textBaseline(javafx.geometry.VPos baseline) {
-        operations.add(obj -> obj.setTextBaseline(baseline));
+    public  GraphicsContextBuilder lineDashes(double... dashes) {
+        operations.add(obj -> obj.setLineDashes(dashes));
         return this;
     }    
     
@@ -169,18 +174,13 @@ public class GraphicsContextBuilder {
         return this;
     }    
     
-    public  GraphicsContextBuilder font(javafx.scene.text.Font f) {
-        operations.add(obj -> obj.setFont(f));
+    public  GraphicsContextBuilder textBaseline(javafx.geometry.VPos baseline) {
+        operations.add(obj -> obj.setTextBaseline(baseline));
         return this;
     }    
     
-    public  GraphicsContextBuilder fontSmoothingType(javafx.scene.text.FontSmoothingType fontsmoothing) {
-        operations.add(obj -> obj.setFontSmoothingType(fontsmoothing));
-        return this;
-    }    
-    
-    public  GraphicsContextBuilder lineCap(javafx.scene.shape.StrokeLineCap cap) {
-        operations.add(obj -> obj.setLineCap(cap));
+    public  GraphicsContextBuilder lineDashOffset(double dashOffset) {
+        operations.add(obj -> obj.setLineDashOffset(dashOffset));
         return this;
     }
 }

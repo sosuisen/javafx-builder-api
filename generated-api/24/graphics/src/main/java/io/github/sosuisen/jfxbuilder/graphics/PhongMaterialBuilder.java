@@ -129,8 +129,8 @@ public class PhongMaterialBuilder {
         return this;
     }    
     
-    public  PhongMaterialBuilder selfIlluminationMap(javafx.scene.image.Image value) {
-        operations.add(obj -> obj.setSelfIlluminationMap(value));
+    public  PhongMaterialBuilder specularMap(javafx.scene.image.Image value) {
+        operations.add(obj -> obj.setSpecularMap(value));
         return this;
     }    
     
@@ -144,33 +144,13 @@ public class PhongMaterialBuilder {
         return this;
     }    
     
-    public  PhongMaterialBuilder specularMap(javafx.scene.image.Image value) {
-        operations.add(obj -> obj.setSpecularMap(value));
+    public  PhongMaterialBuilder selfIlluminationMap(javafx.scene.image.Image value) {
+        operations.add(obj -> obj.setSelfIlluminationMap(value));
         return this;
     }    
     
-    public PhongMaterialBuilder specularPowerPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.specularPowerProperty()));
-        return this;
-    }    
-    
-    public PhongMaterialBuilder specularMapPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.image.Image>> op) {
-        operations.add(obj -> op.accept(obj.specularMapProperty()));
-        return this;
-    }    
-    
-    public PhongMaterialBuilder specularColorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
-        operations.add(obj -> op.accept(obj.specularColorProperty()));
-        return this;
-    }    
-    
-    public PhongMaterialBuilder diffuseColorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
-        operations.add(obj -> op.accept(obj.diffuseColorProperty()));
-        return this;
-    }    
-    
-    public PhongMaterialBuilder bumpMapPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.image.Image>> op) {
-        operations.add(obj -> op.accept(obj.bumpMapProperty()));
+    public PhongMaterialBuilder selfIlluminationMapPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.image.Image>> op) {
+        operations.add(obj -> op.accept(obj.selfIlluminationMapProperty()));
         return this;
     }    
     
@@ -179,8 +159,28 @@ public class PhongMaterialBuilder {
         return this;
     }    
     
-    public PhongMaterialBuilder selfIlluminationMapPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.image.Image>> op) {
-        operations.add(obj -> op.accept(obj.selfIlluminationMapProperty()));
+    public PhongMaterialBuilder bumpMapPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.image.Image>> op) {
+        operations.add(obj -> op.accept(obj.bumpMapProperty()));
+        return this;
+    }    
+    
+    public PhongMaterialBuilder diffuseColorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
+        operations.add(obj -> op.accept(obj.diffuseColorProperty()));
+        return this;
+    }    
+    
+    public PhongMaterialBuilder specularPowerPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.specularPowerProperty()));
+        return this;
+    }    
+    
+    public PhongMaterialBuilder specularColorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
+        operations.add(obj -> op.accept(obj.specularColorProperty()));
+        return this;
+    }    
+    
+    public PhongMaterialBuilder specularMapPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.image.Image>> op) {
+        operations.add(obj -> op.accept(obj.specularMapProperty()));
         return this;
     }
 }

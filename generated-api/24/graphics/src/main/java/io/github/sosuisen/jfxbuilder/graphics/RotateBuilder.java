@@ -7,31 +7,15 @@ public class RotateBuilder {
     private RotateBuilder() {}
     
 
+    public static RotateBuilder create() { return new RotateBuilder(); }
+
+
     
     public static RotateBuilder create(double angle, double pivotX, double pivotY, double pivotZ, javafx.geometry.Point3D axis) {
         RotateBuilder builder = new RotateBuilder();
         builder.constructorArgs = new Object[]{angle, pivotX, pivotY, pivotZ, axis};
         return builder;
     }
-
-
-    
-    public static RotateBuilder create(double angle, double pivotX, double pivotY, double pivotZ) {
-        RotateBuilder builder = new RotateBuilder();
-        builder.constructorArgs = new Object[]{angle, pivotX, pivotY, pivotZ};
-        return builder;
-    }
-
-
-    
-    public static RotateBuilder create(double angle, double pivotX, double pivotY) {
-        RotateBuilder builder = new RotateBuilder();
-        builder.constructorArgs = new Object[]{angle, pivotX, pivotY};
-        return builder;
-    }
-
-
-    public static RotateBuilder create() { return new RotateBuilder(); }
 
 
     
@@ -46,6 +30,22 @@ public class RotateBuilder {
     public static RotateBuilder create(double angle, javafx.geometry.Point3D axis) {
         RotateBuilder builder = new RotateBuilder();
         builder.constructorArgs = new Object[]{angle, axis};
+        return builder;
+    }
+
+
+    
+    public static RotateBuilder create(double angle, double pivotX, double pivotY) {
+        RotateBuilder builder = new RotateBuilder();
+        builder.constructorArgs = new Object[]{angle, pivotX, pivotY};
+        return builder;
+    }
+
+
+    
+    public static RotateBuilder create(double angle, double pivotX, double pivotY, double pivotZ) {
+        RotateBuilder builder = new RotateBuilder();
+        builder.constructorArgs = new Object[]{angle, pivotX, pivotY, pivotZ};
         return builder;
     }
 
@@ -138,8 +138,8 @@ public class RotateBuilder {
         return this;
     }    
     
-    public  RotateBuilder pivotY(double value) {
-        operations.add(obj -> obj.setPivotY(value));
+    public  RotateBuilder axis(javafx.geometry.Point3D value) {
+        operations.add(obj -> obj.setAxis(value));
         return this;
     }    
     
@@ -148,8 +148,8 @@ public class RotateBuilder {
         return this;
     }    
     
-    public  RotateBuilder axis(javafx.geometry.Point3D value) {
-        operations.add(obj -> obj.setAxis(value));
+    public  RotateBuilder pivotY(double value) {
+        operations.add(obj -> obj.setPivotY(value));
         return this;
     }    
     
@@ -168,13 +168,8 @@ public class RotateBuilder {
         return this;
     }    
     
-    public RotateBuilder pivotXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.pivotXProperty()));
-        return this;
-    }    
-    
-    public RotateBuilder pivotZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.pivotZProperty()));
+    public RotateBuilder anglePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.angleProperty()));
         return this;
     }    
     
@@ -183,8 +178,13 @@ public class RotateBuilder {
         return this;
     }    
     
-    public RotateBuilder anglePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.angleProperty()));
+    public RotateBuilder pivotZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.pivotZProperty()));
+        return this;
+    }    
+    
+    public RotateBuilder pivotXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.pivotXProperty()));
         return this;
     }    
     
@@ -193,13 +193,13 @@ public class RotateBuilder {
         return this;
     }    
     
-    public RotateBuilder type2DPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.type2DProperty()));
+    public RotateBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.identityProperty()));
         return this;
     }    
     
-    public RotateBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.identityProperty()));
+    public RotateBuilder type2DPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.type2DProperty()));
         return this;
     }    
     

@@ -7,6 +7,9 @@ public class TranslateBuilder {
     private TranslateBuilder() {}
     
 
+    public static TranslateBuilder create() { return new TranslateBuilder(); }
+
+
     
     public static TranslateBuilder create(double x, double y, double z) {
         TranslateBuilder builder = new TranslateBuilder();
@@ -21,9 +24,6 @@ public class TranslateBuilder {
         builder.constructorArgs = new Object[]{x, y};
         return builder;
     }
-
-
-    public static TranslateBuilder create() { return new TranslateBuilder(); }
 
     private Object[] constructorArgs;
 
@@ -134,13 +134,13 @@ public class TranslateBuilder {
         return this;
     }    
     
-    public TranslateBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.xProperty()));
+    public TranslateBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.yProperty()));
         return this;
     }    
     
-    public TranslateBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.yProperty()));
+    public TranslateBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }    
     
@@ -149,13 +149,13 @@ public class TranslateBuilder {
         return this;
     }    
     
-    public TranslateBuilder type2DPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.type2DProperty()));
+    public TranslateBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.identityProperty()));
         return this;
     }    
     
-    public TranslateBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.identityProperty()));
+    public TranslateBuilder type2DPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.type2DProperty()));
         return this;
     }    
     

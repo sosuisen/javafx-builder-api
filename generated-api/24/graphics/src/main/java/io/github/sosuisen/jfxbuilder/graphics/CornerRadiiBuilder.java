@@ -8,22 +8,6 @@ public class CornerRadiiBuilder {
     
 
     
-    public static CornerRadiiBuilder create(double radius) {
-        CornerRadiiBuilder builder = new CornerRadiiBuilder();
-        builder.constructorArgs = new Object[]{radius};
-        return builder;
-    }
-
-
-    
-    public static CornerRadiiBuilder create(double topLeftHorizontalRadius, double topLeftVerticalRadius, double topRightVerticalRadius, double topRightHorizontalRadius, double bottomRightHorizontalRadius, double bottomRightVerticalRadius, double bottomLeftVerticalRadius, double bottomLeftHorizontalRadius, boolean topLeftHorizontalRadiusAsPercent, boolean topLeftVerticalRadiusAsPercent, boolean topRightVerticalRadiusAsPercent, boolean topRightHorizontalRadiusAsPercent, boolean bottomRightHorizontalRadiusAsPercent, boolean bottomRightVerticalRadiusAsPercent, boolean bottomLeftVerticalRadiusAsPercent, boolean bottomLeftHorizontalRadiusAsPercent) {
-        CornerRadiiBuilder builder = new CornerRadiiBuilder();
-        builder.constructorArgs = new Object[]{topLeftHorizontalRadius, topLeftVerticalRadius, topRightVerticalRadius, topRightHorizontalRadius, bottomRightHorizontalRadius, bottomRightVerticalRadius, bottomLeftVerticalRadius, bottomLeftHorizontalRadius, topLeftHorizontalRadiusAsPercent, topLeftVerticalRadiusAsPercent, topRightVerticalRadiusAsPercent, topRightHorizontalRadiusAsPercent, bottomRightHorizontalRadiusAsPercent, bottomRightVerticalRadiusAsPercent, bottomLeftVerticalRadiusAsPercent, bottomLeftHorizontalRadiusAsPercent};
-        return builder;
-    }
-
-
-    
     public static CornerRadiiBuilder create(double topLeft, double topRight, double bottomRight, double bottomLeft, boolean asPercent) {
         CornerRadiiBuilder builder = new CornerRadiiBuilder();
         builder.constructorArgs = new Object[]{topLeft, topRight, bottomRight, bottomLeft, asPercent};
@@ -35,6 +19,22 @@ public class CornerRadiiBuilder {
     public static CornerRadiiBuilder create(double radius, boolean asPercent) {
         CornerRadiiBuilder builder = new CornerRadiiBuilder();
         builder.constructorArgs = new Object[]{radius, asPercent};
+        return builder;
+    }
+
+
+    
+    public static CornerRadiiBuilder create(double radius) {
+        CornerRadiiBuilder builder = new CornerRadiiBuilder();
+        builder.constructorArgs = new Object[]{radius};
+        return builder;
+    }
+
+
+    
+    public static CornerRadiiBuilder create(double topLeftHorizontalRadius, double topLeftVerticalRadius, double topRightVerticalRadius, double topRightHorizontalRadius, double bottomRightHorizontalRadius, double bottomRightVerticalRadius, double bottomLeftVerticalRadius, double bottomLeftHorizontalRadius, boolean topLeftHorizontalRadiusAsPercent, boolean topLeftVerticalRadiusAsPercent, boolean topRightVerticalRadiusAsPercent, boolean topRightHorizontalRadiusAsPercent, boolean bottomRightHorizontalRadiusAsPercent, boolean bottomRightVerticalRadiusAsPercent, boolean bottomLeftVerticalRadiusAsPercent, boolean bottomLeftHorizontalRadiusAsPercent) {
+        CornerRadiiBuilder builder = new CornerRadiiBuilder();
+        builder.constructorArgs = new Object[]{topLeftHorizontalRadius, topLeftVerticalRadius, topRightVerticalRadius, topRightHorizontalRadius, bottomRightHorizontalRadius, bottomRightVerticalRadius, bottomLeftVerticalRadius, bottomLeftHorizontalRadius, topLeftHorizontalRadiusAsPercent, topLeftVerticalRadiusAsPercent, topRightVerticalRadiusAsPercent, topRightHorizontalRadiusAsPercent, bottomRightHorizontalRadiusAsPercent, bottomRightVerticalRadiusAsPercent, bottomLeftVerticalRadiusAsPercent, bottomLeftHorizontalRadiusAsPercent};
         return builder;
     }
 

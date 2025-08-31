@@ -111,8 +111,8 @@ public class WebEngineBuilder {
         return this;
     }    
     
-    public  WebEngineBuilder createPopupHandler(javafx.util.Callback<javafx.scene.web.PopupFeatures, javafx.scene.web.WebEngine> handler) {
-        operations.add(obj -> obj.setCreatePopupHandler(handler));
+    public  WebEngineBuilder userDataDirectory(java.io.File value) {
+        operations.add(obj -> obj.setUserDataDirectory(value));
         return this;
     }    
     
@@ -121,33 +121,18 @@ public class WebEngineBuilder {
         return this;
     }    
     
-    public  WebEngineBuilder userDataDirectory(java.io.File value) {
-        operations.add(obj -> obj.setUserDataDirectory(value));
-        return this;
-    }    
-    
     public  WebEngineBuilder javaScriptEnabled(boolean value) {
         operations.add(obj -> obj.setJavaScriptEnabled(value));
         return this;
     }    
     
-    public  WebEngineBuilder onError(javafx.event.EventHandler<javafx.scene.web.WebErrorEvent> handler) {
-        operations.add(obj -> obj.setOnError(handler));
+    public  WebEngineBuilder createPopupHandler(javafx.util.Callback<javafx.scene.web.PopupFeatures, javafx.scene.web.WebEngine> handler) {
+        operations.add(obj -> obj.setCreatePopupHandler(handler));
         return this;
     }    
     
-    public  WebEngineBuilder onAlert(javafx.event.EventHandler<javafx.scene.web.WebEvent<java.lang.String>> handler) {
-        operations.add(obj -> obj.setOnAlert(handler));
-        return this;
-    }    
-    
-    public  WebEngineBuilder userAgent(java.lang.String value) {
-        operations.add(obj -> obj.setUserAgent(value));
-        return this;
-    }    
-    
-    public  WebEngineBuilder onResized(javafx.event.EventHandler<javafx.scene.web.WebEvent<javafx.geometry.Rectangle2D>> handler) {
-        operations.add(obj -> obj.setOnResized(handler));
+    public  WebEngineBuilder promptHandler(javafx.util.Callback<javafx.scene.web.PromptData, java.lang.String> handler) {
+        operations.add(obj -> obj.setPromptHandler(handler));
         return this;
     }    
     
@@ -161,13 +146,23 @@ public class WebEngineBuilder {
         return this;
     }    
     
-    public  WebEngineBuilder promptHandler(javafx.util.Callback<javafx.scene.web.PromptData, java.lang.String> handler) {
-        operations.add(obj -> obj.setPromptHandler(handler));
+    public  WebEngineBuilder onResized(javafx.event.EventHandler<javafx.scene.web.WebEvent<javafx.geometry.Rectangle2D>> handler) {
+        operations.add(obj -> obj.setOnResized(handler));
         return this;
     }    
     
-    public WebEngineBuilder titlePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyStringProperty> op) {
-        operations.add(obj -> op.accept(obj.titleProperty()));
+    public  WebEngineBuilder userAgent(java.lang.String value) {
+        operations.add(obj -> obj.setUserAgent(value));
+        return this;
+    }    
+    
+    public  WebEngineBuilder onError(javafx.event.EventHandler<javafx.scene.web.WebErrorEvent> handler) {
+        operations.add(obj -> obj.setOnError(handler));
+        return this;
+    }    
+    
+    public  WebEngineBuilder onAlert(javafx.event.EventHandler<javafx.scene.web.WebEvent<java.lang.String>> handler) {
+        operations.add(obj -> obj.setOnAlert(handler));
         return this;
     }    
     
@@ -176,8 +171,13 @@ public class WebEngineBuilder {
         return this;
     }    
     
-    public WebEngineBuilder confirmHandlerPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<java.lang.String, java.lang.Boolean>>> op) {
-        operations.add(obj -> op.accept(obj.confirmHandlerProperty()));
+    public WebEngineBuilder createPopupHandlerPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.web.PopupFeatures, javafx.scene.web.WebEngine>>> op) {
+        operations.add(obj -> op.accept(obj.createPopupHandlerProperty()));
+        return this;
+    }    
+    
+    public WebEngineBuilder userDataDirectoryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.io.File>> op) {
+        operations.add(obj -> op.accept(obj.userDataDirectoryProperty()));
         return this;
     }    
     
@@ -186,18 +186,18 @@ public class WebEngineBuilder {
         return this;
     }    
     
-    public WebEngineBuilder createPopupHandlerPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.web.PopupFeatures, javafx.scene.web.WebEngine>>> op) {
-        operations.add(obj -> op.accept(obj.createPopupHandlerProperty()));
-        return this;
-    }    
-    
     public WebEngineBuilder promptHandlerPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.web.PromptData, java.lang.String>>> op) {
         operations.add(obj -> op.accept(obj.promptHandlerProperty()));
         return this;
     }    
     
-    public WebEngineBuilder userDataDirectoryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.io.File>> op) {
-        operations.add(obj -> op.accept(obj.userDataDirectoryProperty()));
+    public WebEngineBuilder confirmHandlerPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<java.lang.String, java.lang.Boolean>>> op) {
+        operations.add(obj -> op.accept(obj.confirmHandlerProperty()));
+        return this;
+    }    
+    
+    public WebEngineBuilder userStyleSheetLocationPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.userStyleSheetLocationProperty()));
         return this;
     }    
     
@@ -211,16 +211,6 @@ public class WebEngineBuilder {
         return this;
     }    
     
-    public WebEngineBuilder documentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<org.w3c.dom.Document>> op) {
-        operations.add(obj -> op.accept(obj.documentProperty()));
-        return this;
-    }    
-    
-    public WebEngineBuilder userStyleSheetLocationPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.userStyleSheetLocationProperty()));
-        return this;
-    }    
-    
     public WebEngineBuilder onAlertPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.web.WebEvent<java.lang.String>>>> op) {
         operations.add(obj -> op.accept(obj.onAlertProperty()));
         return this;
@@ -231,6 +221,11 @@ public class WebEngineBuilder {
         return this;
     }    
     
+    public WebEngineBuilder documentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<org.w3c.dom.Document>> op) {
+        operations.add(obj -> op.accept(obj.documentProperty()));
+        return this;
+    }    
+    
     public WebEngineBuilder onResizedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.web.WebEvent<javafx.geometry.Rectangle2D>>>> op) {
         operations.add(obj -> op.accept(obj.onResizedProperty()));
         return this;
@@ -238,6 +233,11 @@ public class WebEngineBuilder {
     
     public WebEngineBuilder userAgentPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.userAgentProperty()));
+        return this;
+    }    
+    
+    public WebEngineBuilder titlePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyStringProperty> op) {
+        operations.add(obj -> op.accept(obj.titleProperty()));
         return this;
     }
 }

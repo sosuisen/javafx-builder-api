@@ -106,11 +106,6 @@ public class BoxBlurBuilder {
         return this;
     }    
     
-    public  BoxBlurBuilder input(javafx.scene.effect.Effect value) {
-        operations.add(obj -> obj.setInput(value));
-        return this;
-    }    
-    
     public  BoxBlurBuilder height(double value) {
         operations.add(obj -> obj.setHeight(value));
         return this;
@@ -118,6 +113,11 @@ public class BoxBlurBuilder {
     
     public  BoxBlurBuilder width(double value) {
         operations.add(obj -> obj.setWidth(value));
+        return this;
+    }    
+    
+    public  BoxBlurBuilder input(javafx.scene.effect.Effect value) {
+        operations.add(obj -> obj.setInput(value));
         return this;
     }    
     

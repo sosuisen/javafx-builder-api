@@ -106,63 +106,8 @@ public class TextInputDialogBuilder {
         return this;
     }    
     
-    public  TextInputDialogBuilder x(double x) {
-        operations.add(obj -> obj.setX(x));
-        return this;
-    }    
-    
-    public  TextInputDialogBuilder y(double y) {
-        operations.add(obj -> obj.setY(y));
-        return this;
-    }    
-    
-    public  TextInputDialogBuilder title(java.lang.String title) {
-        operations.add(obj -> obj.setTitle(title));
-        return this;
-    }    
-    
-    public  TextInputDialogBuilder result(java.lang.String value) {
-        operations.add(obj -> obj.setResult(value));
-        return this;
-    }    
-    
-    public  TextInputDialogBuilder resizable(boolean resizable) {
-        operations.add(obj -> obj.setResizable(resizable));
-        return this;
-    }    
-    
-    public  TextInputDialogBuilder onCloseRequest(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
-        operations.add(obj -> obj.setOnCloseRequest(value));
-        return this;
-    }    
-    
-    public  TextInputDialogBuilder graphic(javafx.scene.Node graphic) {
-        operations.add(obj -> obj.setGraphic(graphic));
-        return this;
-    }    
-    
-    public  TextInputDialogBuilder width(double width) {
-        operations.add(obj -> obj.setWidth(width));
-        return this;
-    }    
-    
-    public  TextInputDialogBuilder onShown(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
-        operations.add(obj -> obj.setOnShown(value));
-        return this;
-    }    
-    
-    public  TextInputDialogBuilder height(double height) {
-        operations.add(obj -> obj.setHeight(height));
-        return this;
-    }    
-    
     public  TextInputDialogBuilder dialogPane(javafx.scene.control.DialogPane value) {
         operations.add(obj -> obj.setDialogPane(value));
-        return this;
-    }    
-    
-    public  TextInputDialogBuilder contentText(java.lang.String contentText) {
-        operations.add(obj -> obj.setContentText(contentText));
         return this;
     }    
     
@@ -176,8 +121,38 @@ public class TextInputDialogBuilder {
         return this;
     }    
     
-    public  TextInputDialogBuilder onHidden(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
-        operations.add(obj -> obj.setOnHidden(value));
+    public  TextInputDialogBuilder contentText(java.lang.String contentText) {
+        operations.add(obj -> obj.setContentText(contentText));
+        return this;
+    }    
+    
+    public  TextInputDialogBuilder result(java.lang.String value) {
+        operations.add(obj -> obj.setResult(value));
+        return this;
+    }    
+    
+    public  TextInputDialogBuilder title(java.lang.String title) {
+        operations.add(obj -> obj.setTitle(title));
+        return this;
+    }    
+    
+    public  TextInputDialogBuilder y(double y) {
+        operations.add(obj -> obj.setY(y));
+        return this;
+    }    
+    
+    public  TextInputDialogBuilder x(double x) {
+        operations.add(obj -> obj.setX(x));
+        return this;
+    }    
+    
+    public  TextInputDialogBuilder resizable(boolean resizable) {
+        operations.add(obj -> obj.setResizable(resizable));
+        return this;
+    }    
+    
+    public  TextInputDialogBuilder graphic(javafx.scene.Node graphic) {
+        operations.add(obj -> obj.setGraphic(graphic));
         return this;
     }    
     
@@ -186,13 +161,58 @@ public class TextInputDialogBuilder {
         return this;
     }    
     
+    public  TextInputDialogBuilder onCloseRequest(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
+        operations.add(obj -> obj.setOnCloseRequest(value));
+        return this;
+    }    
+    
     public  TextInputDialogBuilder onShowing(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
         operations.add(obj -> obj.setOnShowing(value));
         return this;
     }    
     
-    public TextInputDialogBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.xProperty()));
+    public  TextInputDialogBuilder onHidden(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
+        operations.add(obj -> obj.setOnHidden(value));
+        return this;
+    }    
+    
+    public  TextInputDialogBuilder onShown(javafx.event.EventHandler<javafx.scene.control.DialogEvent> value) {
+        operations.add(obj -> obj.setOnShown(value));
+        return this;
+    }    
+    
+    public  TextInputDialogBuilder width(double width) {
+        operations.add(obj -> obj.setWidth(width));
+        return this;
+    }    
+    
+    public  TextInputDialogBuilder height(double height) {
+        operations.add(obj -> obj.setHeight(height));
+        return this;
+    }    
+    
+    public TextInputDialogBuilder resultPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.resultProperty()));
+        return this;
+    }    
+    
+    public TextInputDialogBuilder dialogPanePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.DialogPane>> op) {
+        operations.add(obj -> op.accept(obj.dialogPaneProperty()));
+        return this;
+    }    
+    
+    public TextInputDialogBuilder headerTextPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.headerTextProperty()));
+        return this;
+    }    
+    
+    public TextInputDialogBuilder contentTextPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.contentTextProperty()));
+        return this;
+    }    
+    
+    public TextInputDialogBuilder resultConverterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.control.ButtonType, java.lang.String>>> op) {
+        operations.add(obj -> op.accept(obj.resultConverterProperty()));
         return this;
     }    
     
@@ -201,13 +221,18 @@ public class TextInputDialogBuilder {
         return this;
     }    
     
-    public TextInputDialogBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.widthProperty()));
+    public TextInputDialogBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }    
     
     public TextInputDialogBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
+        return this;
+    }    
+    
+    public TextInputDialogBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.widthProperty()));
         return this;
     }    
     
@@ -226,43 +251,8 @@ public class TextInputDialogBuilder {
         return this;
     }    
     
-    public TextInputDialogBuilder onShowingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onShowingProperty()));
-        return this;
-    }    
-    
-    public TextInputDialogBuilder onCloseRequestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onCloseRequestProperty()));
-        return this;
-    }    
-    
-    public TextInputDialogBuilder dialogPanePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.DialogPane>> op) {
-        operations.add(obj -> op.accept(obj.dialogPaneProperty()));
-        return this;
-    }    
-    
-    public TextInputDialogBuilder headerTextPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.headerTextProperty()));
-        return this;
-    }    
-    
-    public TextInputDialogBuilder resultPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.resultProperty()));
-        return this;
-    }    
-    
-    public TextInputDialogBuilder showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.showingProperty()));
-        return this;
-    }    
-    
-    public TextInputDialogBuilder resultConverterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.control.ButtonType, java.lang.String>>> op) {
-        operations.add(obj -> op.accept(obj.resultConverterProperty()));
-        return this;
-    }    
-    
-    public TextInputDialogBuilder contentTextPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.contentTextProperty()));
+    public TextInputDialogBuilder onHidingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onHidingProperty()));
         return this;
     }    
     
@@ -276,8 +266,18 @@ public class TextInputDialogBuilder {
         return this;
     }    
     
-    public TextInputDialogBuilder onHidingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onHidingProperty()));
+    public TextInputDialogBuilder onShowingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onShowingProperty()));
+        return this;
+    }    
+    
+    public TextInputDialogBuilder showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.showingProperty()));
+        return this;
+    }    
+    
+    public TextInputDialogBuilder onCloseRequestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.scene.control.DialogEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onCloseRequestProperty()));
         return this;
     }
 }

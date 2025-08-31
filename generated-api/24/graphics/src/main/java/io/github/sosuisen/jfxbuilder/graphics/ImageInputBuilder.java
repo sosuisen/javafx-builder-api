@@ -7,12 +7,7 @@ public class ImageInputBuilder {
     private ImageInputBuilder() {}
     
 
-    
-    public static ImageInputBuilder create(javafx.scene.image.Image source, double x, double y) {
-        ImageInputBuilder builder = new ImageInputBuilder();
-        builder.constructorArgs = new Object[]{source, x, y};
-        return builder;
-    }
+    public static ImageInputBuilder create() { return new ImageInputBuilder(); }
 
 
     
@@ -23,7 +18,12 @@ public class ImageInputBuilder {
     }
 
 
-    public static ImageInputBuilder create() { return new ImageInputBuilder(); }
+    
+    public static ImageInputBuilder create(javafx.scene.image.Image source, double x, double y) {
+        ImageInputBuilder builder = new ImageInputBuilder();
+        builder.constructorArgs = new Object[]{source, x, y};
+        return builder;
+    }
 
     private Object[] constructorArgs;
 
@@ -129,13 +129,13 @@ public class ImageInputBuilder {
         return this;
     }    
     
-    public ImageInputBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.xProperty()));
+    public ImageInputBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.yProperty()));
         return this;
     }    
     
-    public ImageInputBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.yProperty()));
+    public ImageInputBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }    
     

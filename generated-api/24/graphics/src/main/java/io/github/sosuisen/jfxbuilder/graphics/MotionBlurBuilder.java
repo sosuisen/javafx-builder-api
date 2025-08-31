@@ -111,18 +111,18 @@ public class MotionBlurBuilder {
         return this;
     }    
     
-    public  MotionBlurBuilder angle(double value) {
-        operations.add(obj -> obj.setAngle(value));
-        return this;
-    }    
-    
     public  MotionBlurBuilder radius(double value) {
         operations.add(obj -> obj.setRadius(value));
         return this;
     }    
     
-    public MotionBlurBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.radiusProperty()));
+    public  MotionBlurBuilder angle(double value) {
+        operations.add(obj -> obj.setAngle(value));
+        return this;
+    }    
+    
+    public MotionBlurBuilder anglePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.angleProperty()));
         return this;
     }    
     
@@ -131,8 +131,8 @@ public class MotionBlurBuilder {
         return this;
     }    
     
-    public MotionBlurBuilder anglePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.angleProperty()));
+    public MotionBlurBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.radiusProperty()));
         return this;
     }
 }

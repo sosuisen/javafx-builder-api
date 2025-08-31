@@ -49,48 +49,13 @@ public class StageBuilder {
         return this;
     }    
     
-    public  StageBuilder resizable(boolean value) {
-        operations.add(obj -> obj.setResizable(value));
-        return this;
-    }    
-    
-    public  StageBuilder maximized(boolean value) {
-        operations.add(obj -> obj.setMaximized(value));
-        return this;
-    }    
-    
-    public  StageBuilder fullScreen(boolean value) {
-        operations.add(obj -> obj.setFullScreen(value));
-        return this;
-    }    
-    
-    public  StageBuilder iconified(boolean value) {
-        operations.add(obj -> obj.setIconified(value));
-        return this;
-    }    
-    
-    public  StageBuilder alwaysOnTop(boolean value) {
-        operations.add(obj -> obj.setAlwaysOnTop(value));
-        return this;
-    }    
-    
-    public  StageBuilder scene(javafx.scene.Scene value) {
-        operations.add(obj -> obj.setScene(value));
-        return this;
-    }    
-    
-    public  StageBuilder title(java.lang.String value) {
-        operations.add(obj -> obj.setTitle(value));
-        return this;
-    }    
-    
-    public  StageBuilder maxWidth(double value) {
-        operations.add(obj -> obj.setMaxWidth(value));
-        return this;
-    }    
-    
     public  StageBuilder minWidth(double value) {
         operations.add(obj -> obj.setMinWidth(value));
+        return this;
+    }    
+    
+    public  StageBuilder minHeight(double value) {
+        operations.add(obj -> obj.setMinHeight(value));
         return this;
     }    
     
@@ -99,8 +64,43 @@ public class StageBuilder {
         return this;
     }    
     
-    public  StageBuilder minHeight(double value) {
-        operations.add(obj -> obj.setMinHeight(value));
+    public  StageBuilder maxWidth(double value) {
+        operations.add(obj -> obj.setMaxWidth(value));
+        return this;
+    }    
+    
+    public  StageBuilder title(java.lang.String value) {
+        operations.add(obj -> obj.setTitle(value));
+        return this;
+    }    
+    
+    public  StageBuilder scene(javafx.scene.Scene value) {
+        operations.add(obj -> obj.setScene(value));
+        return this;
+    }    
+    
+    public  StageBuilder iconified(boolean value) {
+        operations.add(obj -> obj.setIconified(value));
+        return this;
+    }    
+    
+    public  StageBuilder fullScreen(boolean value) {
+        operations.add(obj -> obj.setFullScreen(value));
+        return this;
+    }    
+    
+    public  StageBuilder alwaysOnTop(boolean value) {
+        operations.add(obj -> obj.setAlwaysOnTop(value));
+        return this;
+    }    
+    
+    public  StageBuilder maximized(boolean value) {
+        operations.add(obj -> obj.setMaximized(value));
+        return this;
+    }    
+    
+    public  StageBuilder resizable(boolean value) {
+        operations.add(obj -> obj.setResizable(value));
         return this;
     }    
     
@@ -114,18 +114,23 @@ public class StageBuilder {
         return this;
     }    
     
+    public  StageBuilder userData(java.lang.Object value) {
+        operations.add(obj -> obj.setUserData(value));
+        return this;
+    }    
+    
     public  StageBuilder height(double value) {
         operations.add(obj -> obj.setHeight(value));
         return this;
     }    
     
-    public  StageBuilder onShown(javafx.event.EventHandler<javafx.stage.WindowEvent> value) {
-        operations.add(obj -> obj.setOnShown(value));
+    public  StageBuilder width(double value) {
+        operations.add(obj -> obj.setWidth(value));
         return this;
     }    
     
-    public  StageBuilder width(double value) {
-        operations.add(obj -> obj.setWidth(value));
+    public  StageBuilder onShown(javafx.event.EventHandler<javafx.stage.WindowEvent> value) {
+        operations.add(obj -> obj.setOnShown(value));
         return this;
     }    
     
@@ -144,18 +149,28 @@ public class StageBuilder {
         return this;
     }    
     
-    public  StageBuilder renderScaleX(double scale) {
-        operations.add(obj -> obj.setRenderScaleX(scale));
-        return this;
-    }    
-    
     public  StageBuilder renderScaleY(double scale) {
         operations.add(obj -> obj.setRenderScaleY(scale));
         return this;
     }    
     
-    public  StageBuilder onCloseRequest(javafx.event.EventHandler<javafx.stage.WindowEvent> value) {
-        operations.add(obj -> obj.setOnCloseRequest(value));
+    public  StageBuilder renderScaleX(double scale) {
+        operations.add(obj -> obj.setRenderScaleX(scale));
+        return this;
+    }    
+    
+    public  StageBuilder forceIntegerRenderScale(boolean forced) {
+        operations.add(obj -> obj.setForceIntegerRenderScale(forced));
+        return this;
+    }    
+    
+    public  StageBuilder eventDispatcher(javafx.event.EventDispatcher value) {
+        operations.add(obj -> obj.setEventDispatcher(value));
+        return this;
+    }    
+    
+    public  StageBuilder onHiding(javafx.event.EventHandler<javafx.stage.WindowEvent> value) {
+        operations.add(obj -> obj.setOnHiding(value));
         return this;
     }    
     
@@ -169,23 +184,8 @@ public class StageBuilder {
         return this;
     }    
     
-    public  StageBuilder onHiding(javafx.event.EventHandler<javafx.stage.WindowEvent> value) {
-        operations.add(obj -> obj.setOnHiding(value));
-        return this;
-    }    
-    
-    public  StageBuilder userData(java.lang.Object value) {
-        operations.add(obj -> obj.setUserData(value));
-        return this;
-    }    
-    
-    public  StageBuilder eventDispatcher(javafx.event.EventDispatcher value) {
-        operations.add(obj -> obj.setEventDispatcher(value));
-        return this;
-    }    
-    
-    public  StageBuilder forceIntegerRenderScale(boolean forced) {
-        operations.add(obj -> obj.setForceIntegerRenderScale(forced));
+    public  StageBuilder onCloseRequest(javafx.event.EventHandler<javafx.stage.WindowEvent> value) {
+        operations.add(obj -> obj.setOnCloseRequest(value));
         return this;
     }
     @SafeVarargs
@@ -216,8 +216,8 @@ public class StageBuilder {
     }
     
     
-    public StageBuilder titlePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.titleProperty()));
+    public StageBuilder resizablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.resizableProperty()));
         return this;
     }    
     
@@ -226,33 +226,8 @@ public class StageBuilder {
         return this;
     }    
     
-    public StageBuilder maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.maxWidthProperty()));
-        return this;
-    }    
-    
-    public StageBuilder resizablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.resizableProperty()));
-        return this;
-    }    
-    
-    public StageBuilder iconifiedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.iconifiedProperty()));
-        return this;
-    }    
-    
-    public StageBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.minHeightProperty()));
-        return this;
-    }    
-    
     public StageBuilder maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxHeightProperty()));
-        return this;
-    }    
-    
-    public StageBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
     }    
     
@@ -261,8 +236,28 @@ public class StageBuilder {
         return this;
     }    
     
-    public StageBuilder alwaysOnTopPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.alwaysOnTopProperty()));
+    public StageBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.minHeightProperty()));
+        return this;
+    }    
+    
+    public StageBuilder iconifiedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.iconifiedProperty()));
+        return this;
+    }    
+    
+    public StageBuilder titlePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.titleProperty()));
+        return this;
+    }    
+    
+    public StageBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.minWidthProperty()));
+        return this;
+    }    
+    
+    public StageBuilder maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.maxWidthProperty()));
         return this;
     }    
     
@@ -276,33 +271,8 @@ public class StageBuilder {
         return this;
     }    
     
-    public StageBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.heightProperty()));
-        return this;
-    }    
-    
-    public StageBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.widthProperty()));
-        return this;
-    }    
-    
-    public StageBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.xProperty()));
-        return this;
-    }    
-    
-    public StageBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.yProperty()));
-        return this;
-    }    
-    
-    public StageBuilder focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusedProperty()));
-        return this;
-    }    
-    
-    public StageBuilder onShowingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onShowingProperty()));
+    public StageBuilder alwaysOnTopPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.alwaysOnTopProperty()));
         return this;
     }    
     
@@ -316,8 +286,8 @@ public class StageBuilder {
         return this;
     }    
     
-    public StageBuilder scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
-        operations.add(obj -> op.accept(obj.sceneProperty()));
+    public StageBuilder onShowingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onShowingProperty()));
         return this;
     }    
     
@@ -326,13 +296,33 @@ public class StageBuilder {
         return this;
     }    
     
+    public StageBuilder focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusedProperty()));
+        return this;
+    }    
+    
     public StageBuilder opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.opacityProperty()));
         return this;
     }    
     
-    public StageBuilder showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.showingProperty()));
+    public StageBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.heightProperty()));
+        return this;
+    }    
+    
+    public StageBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.widthProperty()));
+        return this;
+    }    
+    
+    public StageBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.yProperty()));
+        return this;
+    }    
+    
+    public StageBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }    
     
@@ -341,18 +331,13 @@ public class StageBuilder {
         return this;
     }    
     
-    public StageBuilder outputScaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.outputScaleXProperty()));
-        return this;
-    }    
-    
-    public StageBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
-        operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
-        return this;
-    }    
-    
     public StageBuilder onCloseRequestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
         operations.add(obj -> op.accept(obj.onCloseRequestProperty()));
+        return this;
+    }    
+    
+    public StageBuilder renderScaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.renderScaleYProperty()));
         return this;
     }    
     
@@ -361,13 +346,28 @@ public class StageBuilder {
         return this;
     }    
     
+    public StageBuilder outputScaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.outputScaleXProperty()));
+        return this;
+    }    
+    
     public StageBuilder renderScaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.renderScaleXProperty()));
         return this;
     }    
     
-    public StageBuilder renderScaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.renderScaleYProperty()));
+    public StageBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
+        operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
+        return this;
+    }    
+    
+    public StageBuilder showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.showingProperty()));
+        return this;
+    }    
+    
+    public StageBuilder scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
+        operations.add(obj -> op.accept(obj.sceneProperty()));
         return this;
     }
 }

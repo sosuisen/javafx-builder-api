@@ -121,8 +121,8 @@ public class FloatMapBuilder {
         return this;
     }    
     
-    public  FloatMapBuilder samples(int x, int y, float s0) {
-        operations.add(obj -> obj.setSamples(x, y, s0));
+    public  FloatMapBuilder samples(int x, int y, float s0, float s1) {
+        operations.add(obj -> obj.setSamples(x, y, s0, s1));
         return this;
     }    
     
@@ -136,8 +136,8 @@ public class FloatMapBuilder {
         return this;
     }    
     
-    public  FloatMapBuilder samples(int x, int y, float s0, float s1) {
-        operations.add(obj -> obj.setSamples(x, y, s0, s1));
+    public  FloatMapBuilder samples(int x, int y, float s0) {
+        operations.add(obj -> obj.setSamples(x, y, s0));
         return this;
     }    
     

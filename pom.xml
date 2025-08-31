@@ -82,7 +82,6 @@
             </goals>
             <configuration>
               <outputDirectory>generated-api/${javafx.major.version}/${builder.component}/</outputDirectory>
-              <escapeString>\</escapeString>
               <resources>
                 <resource>
                   <directory>src/main/resources/pom/${builder.component}</directory>

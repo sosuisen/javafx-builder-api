@@ -8,9 +8,9 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
     
 
     
-    public static SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder create(int min, int max, int initialValue, int amountToStepBy) {
+    public static SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder create(int min, int max) {
         SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder builder = new SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder();
-        builder.constructorArgs = new Object[]{min, max, initialValue, amountToStepBy};
+        builder.constructorArgs = new Object[]{min, max};
         return builder;
     }
 
@@ -24,9 +24,9 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
 
 
     
-    public static SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder create(int min, int max) {
+    public static SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder create(int min, int max, int initialValue, int amountToStepBy) {
         SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder builder = new SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder();
-        builder.constructorArgs = new Object[]{min, max};
+        builder.constructorArgs = new Object[]{min, max, initialValue, amountToStepBy};
         return builder;
     }
 
@@ -113,11 +113,6 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }    
     
-    public  SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder amountToStepBy(int value) {
-        operations.add(obj -> obj.setAmountToStepBy(value));
-        return this;
-    }    
-    
     public  SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder min(int value) {
         operations.add(obj -> obj.setMin(value));
         return this;
@@ -128,8 +123,8 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }    
     
-    public  SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder value(Integer newValue) {
-        operations.add(obj -> obj.setValue(newValue));
+    public  SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder amountToStepBy(int value) {
+        operations.add(obj -> obj.setAmountToStepBy(value));
         return this;
     }    
     
@@ -143,8 +138,8 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }    
     
-    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder minPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
-        operations.add(obj -> op.accept(obj.minProperty()));
+    public  SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder value(Integer newValue) {
+        operations.add(obj -> obj.setValue(newValue));
         return this;
     }    
     
@@ -153,18 +148,23 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }    
     
+    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder minPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
+        operations.add(obj -> op.accept(obj.minProperty()));
+        return this;
+    }    
+    
     public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder amountToStepByPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
         operations.add(obj -> op.accept(obj.amountToStepByProperty()));
         return this;
     }    
     
-    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<Integer>>> op) {
-        operations.add(obj -> op.accept(obj.converterProperty()));
+    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<Integer>> op) {
+        operations.add(obj -> op.accept(obj.valueProperty()));
         return this;
     }    
     
-    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<Integer>> op) {
-        operations.add(obj -> op.accept(obj.valueProperty()));
+    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<Integer>>> op) {
+        operations.add(obj -> op.accept(obj.converterProperty()));
         return this;
     }    
     

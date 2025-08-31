@@ -7,12 +7,7 @@ public class ShearBuilder {
     private ShearBuilder() {}
     
 
-    
-    public static ShearBuilder create(double x, double y, double pivotX, double pivotY) {
-        ShearBuilder builder = new ShearBuilder();
-        builder.constructorArgs = new Object[]{x, y, pivotX, pivotY};
-        return builder;
-    }
+    public static ShearBuilder create() { return new ShearBuilder(); }
 
 
     
@@ -23,7 +18,12 @@ public class ShearBuilder {
     }
 
 
-    public static ShearBuilder create() { return new ShearBuilder(); }
+    
+    public static ShearBuilder create(double x, double y, double pivotX, double pivotY) {
+        ShearBuilder builder = new ShearBuilder();
+        builder.constructorArgs = new Object[]{x, y, pivotX, pivotY};
+        return builder;
+    }
 
     private Object[] constructorArgs;
 
@@ -124,13 +124,13 @@ public class ShearBuilder {
         return this;
     }    
     
-    public  ShearBuilder pivotY(double value) {
-        operations.add(obj -> obj.setPivotY(value));
+    public  ShearBuilder pivotX(double value) {
+        operations.add(obj -> obj.setPivotX(value));
         return this;
     }    
     
-    public  ShearBuilder pivotX(double value) {
-        operations.add(obj -> obj.setPivotX(value));
+    public  ShearBuilder pivotY(double value) {
+        operations.add(obj -> obj.setPivotY(value));
         return this;
     }    
     
@@ -139,18 +139,13 @@ public class ShearBuilder {
         return this;
     }    
     
-    public ShearBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.xProperty()));
-        return this;
-    }    
-    
     public ShearBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));
         return this;
     }    
     
-    public ShearBuilder pivotXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.pivotXProperty()));
+    public ShearBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }    
     
@@ -159,13 +154,18 @@ public class ShearBuilder {
         return this;
     }    
     
-    public ShearBuilder type2DPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.type2DProperty()));
+    public ShearBuilder pivotXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.pivotXProperty()));
         return this;
     }    
     
     public ShearBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.identityProperty()));
+        return this;
+    }    
+    
+    public ShearBuilder type2DPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.type2DProperty()));
         return this;
     }    
     
