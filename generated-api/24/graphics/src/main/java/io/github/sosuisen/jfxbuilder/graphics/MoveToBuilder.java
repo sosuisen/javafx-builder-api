@@ -121,8 +121,8 @@ public class MoveToBuilder {
         return this;
     }    
     
-    public MoveToBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.yProperty()));
+    public MoveToBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.absoluteProperty()));
         return this;
     }    
     
@@ -131,8 +131,8 @@ public class MoveToBuilder {
         return this;
     }    
     
-    public MoveToBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.absoluteProperty()));
+    public MoveToBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.yProperty()));
         return this;
     }
 }

@@ -134,18 +134,8 @@ public class TranslateBuilder {
         return this;
     }    
     
-    public TranslateBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.yProperty()));
-        return this;
-    }    
-    
-    public TranslateBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.xProperty()));
-        return this;
-    }    
-    
-    public TranslateBuilder zPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.zProperty()));
+    public TranslateBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.identityProperty()));
         return this;
     }    
     
@@ -159,8 +149,18 @@ public class TranslateBuilder {
         return this;
     }    
     
-    public TranslateBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.identityProperty()));
+    public TranslateBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.xProperty()));
+        return this;
+    }    
+    
+    public TranslateBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.yProperty()));
+        return this;
+    }    
+    
+    public TranslateBuilder zPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.zProperty()));
         return this;
     }
 }

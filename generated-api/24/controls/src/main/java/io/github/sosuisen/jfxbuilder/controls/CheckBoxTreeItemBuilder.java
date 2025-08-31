@@ -189,23 +189,8 @@ public class CheckBoxTreeItemBuilder<T> {
     }
     
     
-    public CheckBoxTreeItemBuilder<T> selectedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.selectedProperty()));
-        return this;
-    }    
-    
-    public CheckBoxTreeItemBuilder<T> indeterminatePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.indeterminateProperty()));
-        return this;
-    }    
-    
-    public CheckBoxTreeItemBuilder<T> independentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.independentProperty()));
-        return this;
-    }    
-    
-    public CheckBoxTreeItemBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
-        operations.add(obj -> op.accept(obj.valueProperty()));
+    public CheckBoxTreeItemBuilder<T> expandedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.expandedProperty()));
         return this;
     }    
     
@@ -214,18 +199,33 @@ public class CheckBoxTreeItemBuilder<T> {
         return this;
     }    
     
-    public CheckBoxTreeItemBuilder<T> parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeItem<T>>> op) {
-        operations.add(obj -> op.accept(obj.parentProperty()));
+    public CheckBoxTreeItemBuilder<T> independentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.independentProperty()));
         return this;
     }    
     
-    public CheckBoxTreeItemBuilder<T> expandedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.expandedProperty()));
+    public CheckBoxTreeItemBuilder<T> indeterminatePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.indeterminateProperty()));
         return this;
     }    
     
     public CheckBoxTreeItemBuilder<T> leafPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.leafProperty()));
+        return this;
+    }    
+    
+    public CheckBoxTreeItemBuilder<T> parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeItem<T>>> op) {
+        operations.add(obj -> op.accept(obj.parentProperty()));
+        return this;
+    }    
+    
+    public CheckBoxTreeItemBuilder<T> selectedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.selectedProperty()));
+        return this;
+    }    
+    
+    public CheckBoxTreeItemBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
+        operations.add(obj -> op.accept(obj.valueProperty()));
         return this;
     }
 }

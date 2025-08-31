@@ -126,11 +126,6 @@ public class BoxBlurBuilder {
         return this;
     }    
     
-    public BoxBlurBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.widthProperty()));
-        return this;
-    }    
-    
     public BoxBlurBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
@@ -143,6 +138,11 @@ public class BoxBlurBuilder {
     
     public BoxBlurBuilder iterationsPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
         operations.add(obj -> op.accept(obj.iterationsProperty()));
+        return this;
+    }    
+    
+    public BoxBlurBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.widthProperty()));
         return this;
     }
 }

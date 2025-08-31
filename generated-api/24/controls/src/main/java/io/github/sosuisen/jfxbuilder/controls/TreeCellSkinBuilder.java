@@ -120,13 +120,13 @@ public class TreeCellSkinBuilder<T> {
 
     
     
-    public TreeCellSkinBuilder<T> indentPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.indentProperty()));
+    public TreeCellSkinBuilder<T> cellSizePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.cellSizeProperty()));
         return this;
     }    
     
-    public TreeCellSkinBuilder<T> cellSizePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.cellSizeProperty()));
+    public TreeCellSkinBuilder<T> indentPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.indentProperty()));
         return this;
     }
 }

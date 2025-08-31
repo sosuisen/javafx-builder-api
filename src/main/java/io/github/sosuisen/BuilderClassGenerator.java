@@ -530,6 +530,8 @@ public class BuilderClassGenerator {
     StringBuilder content = new StringBuilder();
     Method[] methods = clazz.getMethods();
 
+    Arrays.sort(methods, MethodComparator.forMethod());
+
     for (Method method : methods) {
       if (method.getName().endsWith("Property") && !java.lang.reflect.Modifier.isStatic(method.getModifiers())
           && method.getParameterCount() == 0) {

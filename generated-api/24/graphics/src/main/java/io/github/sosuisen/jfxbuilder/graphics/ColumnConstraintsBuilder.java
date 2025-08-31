@@ -157,13 +157,28 @@ public class ColumnConstraintsBuilder {
         return this;
     }    
     
-    public ColumnConstraintsBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.minWidthProperty()));
+    public ColumnConstraintsBuilder fillWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.fillWidthProperty()));
+        return this;
+    }    
+    
+    public ColumnConstraintsBuilder halignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.HPos>> op) {
+        operations.add(obj -> op.accept(obj.halignmentProperty()));
+        return this;
+    }    
+    
+    public ColumnConstraintsBuilder hgrowPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Priority>> op) {
+        operations.add(obj -> op.accept(obj.hgrowProperty()));
         return this;
     }    
     
     public ColumnConstraintsBuilder maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxWidthProperty()));
+        return this;
+    }    
+    
+    public ColumnConstraintsBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
     }    
     
@@ -174,21 +189,6 @@ public class ColumnConstraintsBuilder {
     
     public ColumnConstraintsBuilder prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefWidthProperty()));
-        return this;
-    }    
-    
-    public ColumnConstraintsBuilder hgrowPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Priority>> op) {
-        operations.add(obj -> op.accept(obj.hgrowProperty()));
-        return this;
-    }    
-    
-    public ColumnConstraintsBuilder fillWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.fillWidthProperty()));
-        return this;
-    }    
-    
-    public ColumnConstraintsBuilder halignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.HPos>> op) {
-        operations.add(obj -> op.accept(obj.halignmentProperty()));
         return this;
     }
 }

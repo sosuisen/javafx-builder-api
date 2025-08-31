@@ -225,28 +225,13 @@ public class AffineBuilder {
         return this;
     }    
     
-    public AffineBuilder mzzPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.mzzProperty()));
-        return this;
-    }    
-    
-    public AffineBuilder myzPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.myzProperty()));
+    public AffineBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.identityProperty()));
         return this;
     }    
     
     public AffineBuilder mxxPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.mxxProperty()));
-        return this;
-    }    
-    
-    public AffineBuilder myxPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.myxProperty()));
-        return this;
-    }    
-    
-    public AffineBuilder mzyPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.mzyProperty()));
         return this;
     }    
     
@@ -260,8 +245,8 @@ public class AffineBuilder {
         return this;
     }    
     
-    public AffineBuilder mzxPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.mzxProperty()));
+    public AffineBuilder myxPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.myxProperty()));
         return this;
     }    
     
@@ -270,8 +255,28 @@ public class AffineBuilder {
         return this;
     }    
     
-    public AffineBuilder tzPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.tzProperty()));
+    public AffineBuilder myzPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.myzProperty()));
+        return this;
+    }    
+    
+    public AffineBuilder mzxPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.mzxProperty()));
+        return this;
+    }    
+    
+    public AffineBuilder mzyPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.mzyProperty()));
+        return this;
+    }    
+    
+    public AffineBuilder mzzPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.mzzProperty()));
+        return this;
+    }    
+    
+    public AffineBuilder onTransformChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onTransformChangedProperty()));
         return this;
     }    
     
@@ -285,18 +290,13 @@ public class AffineBuilder {
         return this;
     }    
     
-    public AffineBuilder onTransformChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onTransformChangedProperty()));
-        return this;
-    }    
-    
     public AffineBuilder type2DPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.type2DProperty()));
         return this;
     }    
     
-    public AffineBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.identityProperty()));
+    public AffineBuilder tzPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.tzProperty()));
         return this;
     }
 }

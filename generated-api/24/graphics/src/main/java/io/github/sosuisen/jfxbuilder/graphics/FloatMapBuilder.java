@@ -141,13 +141,13 @@ public class FloatMapBuilder {
         return this;
     }    
     
-    public FloatMapBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
-        operations.add(obj -> op.accept(obj.widthProperty()));
+    public FloatMapBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
+        operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
     }    
     
-    public FloatMapBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
-        operations.add(obj -> op.accept(obj.heightProperty()));
+    public FloatMapBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
+        operations.add(obj -> op.accept(obj.widthProperty()));
         return this;
     }
 }

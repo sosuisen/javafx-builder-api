@@ -134,11 +134,6 @@ public class BlendBuilder {
         return this;
     }    
     
-    public BlendBuilder opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.opacityProperty()));
-        return this;
-    }    
-    
     public BlendBuilder bottomInputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.bottomInputProperty()));
         return this;
@@ -146,6 +141,11 @@ public class BlendBuilder {
     
     public BlendBuilder modePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
         operations.add(obj -> op.accept(obj.modeProperty()));
+        return this;
+    }    
+    
+    public BlendBuilder opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.opacityProperty()));
         return this;
     }    
     

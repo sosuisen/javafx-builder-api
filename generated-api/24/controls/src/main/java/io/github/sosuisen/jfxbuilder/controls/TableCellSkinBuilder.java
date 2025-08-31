@@ -115,13 +115,13 @@ public class TableCellSkinBuilder<S, T> {
 
     
     
-    public TableCellSkinBuilder<S, T> tableColumnPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TableColumn<S, T>>> op) {
-        operations.add(obj -> op.accept(obj.tableColumnProperty()));
+    public TableCellSkinBuilder<S, T> cellSizePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.cellSizeProperty()));
         return this;
     }    
     
-    public TableCellSkinBuilder<S, T> cellSizePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.cellSizeProperty()));
+    public TableCellSkinBuilder<S, T> tableColumnPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TableColumn<S, T>>> op) {
+        operations.add(obj -> op.accept(obj.tableColumnProperty()));
         return this;
     }
 }

@@ -168,8 +168,8 @@ public class RotateBuilder {
         return this;
     }    
     
-    public RotateBuilder pivotXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.pivotXProperty()));
+    public RotateBuilder anglePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.angleProperty()));
         return this;
     }    
     
@@ -178,18 +178,8 @@ public class RotateBuilder {
         return this;
     }    
     
-    public RotateBuilder pivotZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.pivotZProperty()));
-        return this;
-    }    
-    
-    public RotateBuilder anglePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.angleProperty()));
-        return this;
-    }    
-    
-    public RotateBuilder pivotYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.pivotYProperty()));
+    public RotateBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.identityProperty()));
         return this;
     }    
     
@@ -198,13 +188,23 @@ public class RotateBuilder {
         return this;
     }    
     
-    public RotateBuilder type2DPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.type2DProperty()));
+    public RotateBuilder pivotXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.pivotXProperty()));
         return this;
     }    
     
-    public RotateBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.identityProperty()));
+    public RotateBuilder pivotYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.pivotYProperty()));
+        return this;
+    }    
+    
+    public RotateBuilder pivotZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.pivotZProperty()));
+        return this;
+    }    
+    
+    public RotateBuilder type2DPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.type2DProperty()));
         return this;
     }
 }

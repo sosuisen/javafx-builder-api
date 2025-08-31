@@ -118,13 +118,8 @@ public class MediaBuilder {
 
     
     
-    public MediaBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
-        operations.add(obj -> op.accept(obj.widthProperty()));
-        return this;
-    }    
-    
-    public MediaBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
-        operations.add(obj -> op.accept(obj.heightProperty()));
+    public MediaBuilder durationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.util.Duration>> op) {
+        operations.add(obj -> op.accept(obj.durationProperty()));
         return this;
     }    
     
@@ -133,13 +128,18 @@ public class MediaBuilder {
         return this;
     }    
     
+    public MediaBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
+        operations.add(obj -> op.accept(obj.heightProperty()));
+        return this;
+    }    
+    
     public MediaBuilder onErrorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
         operations.add(obj -> op.accept(obj.onErrorProperty()));
         return this;
     }    
     
-    public MediaBuilder durationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.util.Duration>> op) {
-        operations.add(obj -> op.accept(obj.durationProperty()));
+    public MediaBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
+        operations.add(obj -> op.accept(obj.widthProperty()));
         return this;
     }
 }
