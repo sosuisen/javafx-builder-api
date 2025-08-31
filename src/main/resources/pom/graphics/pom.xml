@@ -116,6 +116,7 @@
         <configuration>
           <source>${maven.compiler.release}</source>
           <locale>en_US</locale>
+          <outputDirectory>\${project.basedir}</outputDirectory>          
         </configuration>
       </plugin>
     </plugins>
