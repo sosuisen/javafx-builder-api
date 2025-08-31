@@ -104,52 +104,102 @@ public class QuadCurveToBuilder {
     public QuadCurveToBuilder apply(java.util.function.Consumer<javafx.scene.shape.QuadCurveTo> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.QuadCurveTo#setAbsolute(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  QuadCurveToBuilder absolute(boolean value) {
         operations.add(obj -> obj.setAbsolute(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.QuadCurveTo#setControlX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  QuadCurveToBuilder controlX(double value) {
         operations.add(obj -> obj.setControlX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.QuadCurveTo#setControlY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  QuadCurveToBuilder controlY(double value) {
         operations.add(obj -> obj.setControlY(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.QuadCurveTo#setX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  QuadCurveToBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.QuadCurveTo#setY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  QuadCurveToBuilder y(double value) {
         operations.add(obj -> obj.setY(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#absoluteProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public QuadCurveToBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.absoluteProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#controlXProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public QuadCurveToBuilder controlXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.controlXProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#controlYProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public QuadCurveToBuilder controlYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.controlYProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#xProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public QuadCurveToBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#yProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public QuadCurveToBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));

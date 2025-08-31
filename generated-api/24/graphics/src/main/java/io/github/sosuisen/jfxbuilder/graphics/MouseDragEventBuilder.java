@@ -111,7 +111,12 @@ public class MouseDragEventBuilder {
     public MouseDragEventBuilder apply(java.util.function.Consumer<javafx.scene.input.MouseDragEvent> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.input.MouseDragEvent#setDragDetect(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  MouseDragEventBuilder dragDetect(boolean dragDetect) {
         operations.add(obj -> obj.setDragDetect(dragDetect));

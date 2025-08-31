@@ -104,47 +104,92 @@ public class FloatMapBuilder {
     public FloatMapBuilder apply(java.util.function.Consumer<javafx.scene.effect.FloatMap> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.FloatMap#setHeight(int)}
+     * 
+     * @return builder instance
+     */    
     
     public  FloatMapBuilder height(int value) {
         operations.add(obj -> obj.setHeight(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.FloatMap#setSample(int, int, int, float)}
+     * 
+     * @return builder instance
+     */    
     
     public  FloatMapBuilder sample(int x, int y, int band, float s) {
         operations.add(obj -> obj.setSample(x, y, band, s));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.FloatMap#setSamples(int, int, float)}
+     * 
+     * @return builder instance
+     */    
     
     public  FloatMapBuilder samples(int x, int y, float s0) {
         operations.add(obj -> obj.setSamples(x, y, s0));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.FloatMap#setSamples(int, int, float, float)}
+     * 
+     * @return builder instance
+     */    
     
     public  FloatMapBuilder samples(int x, int y, float s0, float s1) {
         operations.add(obj -> obj.setSamples(x, y, s0, s1));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.FloatMap#setSamples(int, int, float, float, float)}
+     * 
+     * @return builder instance
+     */    
     
     public  FloatMapBuilder samples(int x, int y, float s0, float s1, float s2) {
         operations.add(obj -> obj.setSamples(x, y, s0, s1, s2));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.FloatMap#setSamples(int, int, float, float, float, float)}
+     * 
+     * @return builder instance
+     */    
     
     public  FloatMapBuilder samples(int x, int y, float s0, float s1, float s2, float s3) {
         operations.add(obj -> obj.setSamples(x, y, s0, s1, s2, s3));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.FloatMap#setWidth(int)}
+     * 
+     * @return builder instance
+     */    
     
     public  FloatMapBuilder width(int value) {
         operations.add(obj -> obj.setWidth(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.FloatMap#heightProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public FloatMapBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.FloatMap#widthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public FloatMapBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));

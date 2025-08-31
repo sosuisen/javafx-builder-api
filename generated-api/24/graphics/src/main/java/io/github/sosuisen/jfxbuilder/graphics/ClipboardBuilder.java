@@ -87,7 +87,12 @@ public class ClipboardBuilder {
     public ClipboardBuilder apply(java.util.function.Consumer<javafx.scene.input.Clipboard> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.input.Clipboard#setContent(java.util.Map)}
+     * 
+     * @return builder instance
+     */    
     
     public  ClipboardBuilder content(java.util.Map<javafx.scene.input.DataFormat, java.lang.Object> content) {
         operations.add(obj -> obj.setContent(content));

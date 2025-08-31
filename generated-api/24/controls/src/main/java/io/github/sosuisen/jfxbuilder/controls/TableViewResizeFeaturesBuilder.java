@@ -97,7 +97,12 @@ public class TableViewResizeFeaturesBuilder<S> {
     public TableViewResizeFeaturesBuilder<S> apply(java.util.function.Consumer<javafx.scene.control.TableView.ResizeFeatures<S>> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TableView.ResizeFeatures#setColumnWidth(javafx.scene.control.TableColumnBase, double)}
+     * 
+     * @return builder instance
+     */    
     
     public  TableViewResizeFeaturesBuilder<S> columnWidth(javafx.scene.control.TableColumnBase<S, ?> col, double width) {
         operations.add(obj -> obj.setColumnWidth(col, width));

@@ -114,17 +114,32 @@ public class XYChartSeriesBuilder<X, Y> {
     public XYChartSeriesBuilder<X, Y> apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Series<X, Y>> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.chart.XYChart.Series#setData(javafx.collections.ObservableList)}
+     * 
+     * @return builder instance
+     */    
     
     public  XYChartSeriesBuilder<X, Y> data(javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>> value) {
         operations.add(obj -> obj.setData(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.chart.XYChart.Series#setName(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  XYChartSeriesBuilder<X, Y> name(java.lang.String value) {
         operations.add(obj -> obj.setName(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.chart.XYChart.Series#setNode(javafx.scene.Node)}
+     * 
+     * @return builder instance
+     */    
     
     public  XYChartSeriesBuilder<X, Y> node(javafx.scene.Node value) {
         operations.add(obj -> obj.setNode(value));
@@ -157,21 +172,41 @@ public class XYChartSeriesBuilder<X, Y> {
         return builder.addData(col);
     }
     
+    /**
+     * Applies a function to the {@link javafx.scene.chart.XYChart.Series#chartProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public XYChartSeriesBuilder<X, Y> chartPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.chart.XYChart<X, Y>>> op) {
         operations.add(obj -> op.accept(obj.chartProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.chart.XYChart.Series#dataProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public XYChartSeriesBuilder<X, Y> dataPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>>>> op) {
         operations.add(obj -> op.accept(obj.dataProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.chart.XYChart.Series#nameProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public XYChartSeriesBuilder<X, Y> namePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.nameProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.chart.XYChart.Series#nodeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public XYChartSeriesBuilder<X, Y> nodePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.nodeProperty()));

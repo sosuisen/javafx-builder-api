@@ -96,27 +96,52 @@ public class SnapshotParametersBuilder {
     public SnapshotParametersBuilder apply(java.util.function.Consumer<javafx.scene.SnapshotParameters> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.SnapshotParameters#setCamera(javafx.scene.Camera)}
+     * 
+     * @return builder instance
+     */    
     
     public  SnapshotParametersBuilder camera(javafx.scene.Camera camera) {
         operations.add(obj -> obj.setCamera(camera));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.SnapshotParameters#setDepthBuffer(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  SnapshotParametersBuilder depthBuffer(boolean depthBuffer) {
         operations.add(obj -> obj.setDepthBuffer(depthBuffer));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.SnapshotParameters#setFill(javafx.scene.paint.Paint)}
+     * 
+     * @return builder instance
+     */    
     
     public  SnapshotParametersBuilder fill(javafx.scene.paint.Paint fill) {
         operations.add(obj -> obj.setFill(fill));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.SnapshotParameters#setTransform(javafx.scene.transform.Transform)}
+     * 
+     * @return builder instance
+     */    
     
     public  SnapshotParametersBuilder transform(javafx.scene.transform.Transform transform) {
         operations.add(obj -> obj.setTransform(transform));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.SnapshotParameters#setViewport(javafx.geometry.Rectangle2D)}
+     * 
+     * @return builder instance
+     */    
     
     public  SnapshotParametersBuilder viewport(javafx.geometry.Rectangle2D viewport) {
         operations.add(obj -> obj.setViewport(viewport));

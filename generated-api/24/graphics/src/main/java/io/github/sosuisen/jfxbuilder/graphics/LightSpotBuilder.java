@@ -104,82 +104,162 @@ public class LightSpotBuilder {
     public LightSpotBuilder apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Light.Spot#setColor(javafx.scene.paint.Color)}
+     * 
+     * @return builder instance
+     */    
     
     public  LightSpotBuilder color(javafx.scene.paint.Color value) {
         operations.add(obj -> obj.setColor(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Light.Spot#setPointsAtX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  LightSpotBuilder pointsAtX(double value) {
         operations.add(obj -> obj.setPointsAtX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Light.Spot#setPointsAtY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  LightSpotBuilder pointsAtY(double value) {
         operations.add(obj -> obj.setPointsAtY(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Light.Spot#setPointsAtZ(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  LightSpotBuilder pointsAtZ(double value) {
         operations.add(obj -> obj.setPointsAtZ(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Light.Spot#setSpecularExponent(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  LightSpotBuilder specularExponent(double value) {
         operations.add(obj -> obj.setSpecularExponent(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Light.Spot#setX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  LightSpotBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Light.Spot#setY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  LightSpotBuilder y(double value) {
         operations.add(obj -> obj.setY(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Light.Spot#setZ(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  LightSpotBuilder z(double value) {
         operations.add(obj -> obj.setZ(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Light.Spot#colorProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public LightSpotBuilder colorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
         operations.add(obj -> op.accept(obj.colorProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Light.Spot#pointsAtXProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public LightSpotBuilder pointsAtXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.pointsAtXProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Light.Spot#pointsAtYProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public LightSpotBuilder pointsAtYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.pointsAtYProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Light.Spot#pointsAtZProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public LightSpotBuilder pointsAtZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.pointsAtZProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Light.Spot#specularExponentProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public LightSpotBuilder specularExponentPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.specularExponentProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Light.Spot#xProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public LightSpotBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Light.Spot#yProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public LightSpotBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Light.Spot#zProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public LightSpotBuilder zPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.zProperty()));

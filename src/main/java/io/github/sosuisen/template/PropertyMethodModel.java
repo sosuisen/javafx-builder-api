@@ -8,6 +8,7 @@ public record PropertyMethodModel(
         String methodName,
         String propertyName,
         String propertyType,
+        String originalClassName,
         String methodAnnotation) {
 
     public static PropertyMethodModel create(
@@ -15,12 +16,14 @@ public record PropertyMethodModel(
             String methodName,
             String propertyName,
             String propertyType,
+            String originalClassName,
             String methodAnnotation) {
         return new PropertyMethodModel(
                 builderClassNameWithTypeParameter,
                 methodName,
                 propertyName,
                 propertyType,
+                originalClassName,
                 methodAnnotation);
     }
 }

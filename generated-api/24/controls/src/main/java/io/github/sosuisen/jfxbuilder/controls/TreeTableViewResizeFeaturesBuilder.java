@@ -97,7 +97,12 @@ public class TreeTableViewResizeFeaturesBuilder<S> {
     public TreeTableViewResizeFeaturesBuilder<S> apply(java.util.function.Consumer<javafx.scene.control.TreeTableView.ResizeFeatures<S>> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TreeTableView.ResizeFeatures#setColumnWidth(javafx.scene.control.TableColumnBase, double)}
+     * 
+     * @return builder instance
+     */    
     
     public  TreeTableViewResizeFeaturesBuilder<S> columnWidth(javafx.scene.control.TreeTableColumn<S, ?> col, double width) {
         operations.add(obj -> obj.setColumnWidth(col, width));

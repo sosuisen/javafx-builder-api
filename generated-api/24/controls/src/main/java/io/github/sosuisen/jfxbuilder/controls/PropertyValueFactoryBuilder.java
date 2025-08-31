@@ -98,6 +98,11 @@ public class PropertyValueFactoryBuilder<S, T> {
         operations.add(func);
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.cell.PropertyValueFactory#getProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public PropertyValueFactoryBuilder<S, T> getPropertyApply(java.util.function.Consumer<java.lang.String> op) {
         operations.add(obj -> op.accept(obj.getProperty()));

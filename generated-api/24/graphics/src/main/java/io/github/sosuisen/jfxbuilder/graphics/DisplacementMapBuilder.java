@@ -112,72 +112,142 @@ public class DisplacementMapBuilder {
     public DisplacementMapBuilder apply(java.util.function.Consumer<javafx.scene.effect.DisplacementMap> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.DisplacementMap#setInput(javafx.scene.effect.Effect)}
+     * 
+     * @return builder instance
+     */    
     
     public  DisplacementMapBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.DisplacementMap#setMapData(javafx.scene.effect.FloatMap)}
+     * 
+     * @return builder instance
+     */    
     
     public  DisplacementMapBuilder mapData(javafx.scene.effect.FloatMap value) {
         operations.add(obj -> obj.setMapData(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.DisplacementMap#setOffsetX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  DisplacementMapBuilder offsetX(double value) {
         operations.add(obj -> obj.setOffsetX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.DisplacementMap#setOffsetY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  DisplacementMapBuilder offsetY(double value) {
         operations.add(obj -> obj.setOffsetY(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.DisplacementMap#setScaleX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  DisplacementMapBuilder scaleX(double value) {
         operations.add(obj -> obj.setScaleX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.DisplacementMap#setScaleY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  DisplacementMapBuilder scaleY(double value) {
         operations.add(obj -> obj.setScaleY(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.DisplacementMap#setWrap(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  DisplacementMapBuilder wrap(boolean value) {
         operations.add(obj -> obj.setWrap(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#inputProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DisplacementMapBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#mapDataProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DisplacementMapBuilder mapDataPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.FloatMap>> op) {
         operations.add(obj -> op.accept(obj.mapDataProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#offsetXProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DisplacementMapBuilder offsetXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.offsetXProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#offsetYProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DisplacementMapBuilder offsetYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.offsetYProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#scaleXProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DisplacementMapBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleXProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#scaleYProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DisplacementMapBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.DisplacementMap#wrapProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public DisplacementMapBuilder wrapPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.wrapProperty()));

@@ -103,7 +103,12 @@ public class DragEventBuilder {
     public DragEventBuilder apply(java.util.function.Consumer<javafx.scene.input.DragEvent> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.input.DragEvent#setDropCompleted(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  DragEventBuilder dropCompleted(boolean isTransferDone) {
         operations.add(obj -> obj.setDropCompleted(isTransferDone));

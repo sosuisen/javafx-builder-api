@@ -95,62 +95,122 @@ public class AudioClipBuilder {
     public AudioClipBuilder apply(java.util.function.Consumer<javafx.scene.media.AudioClip> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.media.AudioClip#setBalance(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  AudioClipBuilder balance(double balance) {
         operations.add(obj -> obj.setBalance(balance));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.media.AudioClip#setCycleCount(int)}
+     * 
+     * @return builder instance
+     */    
     
     public  AudioClipBuilder cycleCount(int count) {
         operations.add(obj -> obj.setCycleCount(count));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.media.AudioClip#setPan(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  AudioClipBuilder pan(double pan) {
         operations.add(obj -> obj.setPan(pan));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.media.AudioClip#setPriority(int)}
+     * 
+     * @return builder instance
+     */    
     
     public  AudioClipBuilder priority(int priority) {
         operations.add(obj -> obj.setPriority(priority));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.media.AudioClip#setRate(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  AudioClipBuilder rate(double rate) {
         operations.add(obj -> obj.setRate(rate));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.media.AudioClip#setVolume(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  AudioClipBuilder volume(double value) {
         operations.add(obj -> obj.setVolume(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.media.AudioClip#balanceProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public AudioClipBuilder balancePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.balanceProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.media.AudioClip#cycleCountProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public AudioClipBuilder cycleCountPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
         operations.add(obj -> op.accept(obj.cycleCountProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.media.AudioClip#panProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public AudioClipBuilder panPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.panProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.media.AudioClip#priorityProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public AudioClipBuilder priorityPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
         operations.add(obj -> op.accept(obj.priorityProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.media.AudioClip#rateProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public AudioClipBuilder ratePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rateProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.media.AudioClip#volumeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public AudioClipBuilder volumePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.volumeProperty()));

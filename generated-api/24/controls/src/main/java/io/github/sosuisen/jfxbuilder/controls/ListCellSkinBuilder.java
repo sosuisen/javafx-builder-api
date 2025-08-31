@@ -114,6 +114,11 @@ public class ListCellSkinBuilder<T> {
     }
 
     
+    /**
+     * Applies a function to the {@link javafx.scene.control.skin.ListCellSkin#cellSizeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ListCellSkinBuilder<T> cellSizePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.cellSizeProperty()));

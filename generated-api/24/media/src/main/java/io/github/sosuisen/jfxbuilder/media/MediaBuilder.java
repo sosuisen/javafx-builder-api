@@ -95,7 +95,12 @@ public class MediaBuilder {
     public MediaBuilder apply(java.util.function.Consumer<javafx.scene.media.Media> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.media.Media#setOnError(java.lang.Runnable)}
+     * 
+     * @return builder instance
+     */    
     
     public  MediaBuilder onError(java.lang.Runnable value) {
         operations.add(obj -> obj.setOnError(value));
@@ -117,26 +122,51 @@ public class MediaBuilder {
     }
 
     
+    /**
+     * Applies a function to the {@link javafx.scene.media.Media#durationProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MediaBuilder durationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.util.Duration>> op) {
         operations.add(obj -> op.accept(obj.durationProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.media.Media#errorProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MediaBuilder errorPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.media.MediaException>> op) {
         operations.add(obj -> op.accept(obj.errorProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.media.Media#heightProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MediaBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.media.Media#onErrorProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MediaBuilder onErrorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Runnable>> op) {
         operations.add(obj -> op.accept(obj.onErrorProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.media.Media#widthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MediaBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));

@@ -97,7 +97,12 @@ public class TreeTableRowSkinBuilder<T> {
     public TreeTableRowSkinBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.skin.TreeTableRowSkin<T>> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.skin.TreeTableRowSkin#setIndent(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  TreeTableRowSkinBuilder<T> indent(double value) {
         operations.add(obj -> obj.setIndent(value));
@@ -119,11 +124,21 @@ public class TreeTableRowSkinBuilder<T> {
     }
 
     
+    /**
+     * Applies a function to the {@link javafx.scene.control.skin.TreeTableRowSkin#cellSizeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TreeTableRowSkinBuilder<T> cellSizePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.cellSizeProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.skin.TreeTableRowSkin#indentProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TreeTableRowSkinBuilder<T> indentPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.indentProperty()));

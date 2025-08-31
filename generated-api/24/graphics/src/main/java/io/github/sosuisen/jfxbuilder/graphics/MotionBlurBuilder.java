@@ -104,32 +104,62 @@ public class MotionBlurBuilder {
     public MotionBlurBuilder apply(java.util.function.Consumer<javafx.scene.effect.MotionBlur> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.MotionBlur#setAngle(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  MotionBlurBuilder angle(double value) {
         operations.add(obj -> obj.setAngle(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.MotionBlur#setInput(javafx.scene.effect.Effect)}
+     * 
+     * @return builder instance
+     */    
     
     public  MotionBlurBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.MotionBlur#setRadius(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  MotionBlurBuilder radius(double value) {
         operations.add(obj -> obj.setRadius(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.MotionBlur#angleProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MotionBlurBuilder anglePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.angleProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.MotionBlur#inputProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MotionBlurBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.MotionBlur#radiusProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MotionBlurBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.radiusProperty()));

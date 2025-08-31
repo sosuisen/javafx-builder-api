@@ -110,7 +110,10 @@
         <configuration>
           <source>17</source>
           <locale>en_US</locale>
-          <outputDirectory>F:\\JavaFXProject\\javafx-builder-api-generator/docs/24/controls</outputDirectory>          
+          <outputDirectory>F:\\JavaFXProject\\javafx-builder-api-generator/docs/24/controls</outputDirectory>
+          <links>
+            <link>https://openjfx.io/javadoc/24/</link>
+          </links>
         </configuration>
       </plugin>
     </plugins>

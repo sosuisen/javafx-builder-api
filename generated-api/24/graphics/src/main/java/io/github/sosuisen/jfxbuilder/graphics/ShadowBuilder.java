@@ -112,62 +112,122 @@ public class ShadowBuilder {
     public ShadowBuilder apply(java.util.function.Consumer<javafx.scene.effect.Shadow> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Shadow#setBlurType(javafx.scene.effect.BlurType)}
+     * 
+     * @return builder instance
+     */    
     
     public  ShadowBuilder blurType(javafx.scene.effect.BlurType value) {
         operations.add(obj -> obj.setBlurType(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Shadow#setColor(javafx.scene.paint.Color)}
+     * 
+     * @return builder instance
+     */    
     
     public  ShadowBuilder color(javafx.scene.paint.Color value) {
         operations.add(obj -> obj.setColor(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Shadow#setHeight(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ShadowBuilder height(double value) {
         operations.add(obj -> obj.setHeight(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Shadow#setInput(javafx.scene.effect.Effect)}
+     * 
+     * @return builder instance
+     */    
     
     public  ShadowBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Shadow#setRadius(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ShadowBuilder radius(double value) {
         operations.add(obj -> obj.setRadius(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Shadow#setWidth(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ShadowBuilder width(double value) {
         operations.add(obj -> obj.setWidth(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Shadow#blurTypeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ShadowBuilder blurTypePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlurType>> op) {
         operations.add(obj -> op.accept(obj.blurTypeProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Shadow#colorProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ShadowBuilder colorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
         operations.add(obj -> op.accept(obj.colorProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Shadow#heightProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ShadowBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Shadow#inputProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ShadowBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Shadow#radiusProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ShadowBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.radiusProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Shadow#widthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ShadowBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));

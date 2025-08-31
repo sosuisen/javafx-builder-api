@@ -121,12 +121,22 @@ public class TextFormatterBuilder<V> {
     public TextFormatterBuilder<V> apply(java.util.function.Consumer<javafx.scene.control.TextFormatter<V>> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.TextFormatter#setValue(java.lang.Object)}
+     * 
+     * @return builder instance
+     */    
     
     public  TextFormatterBuilder<V> value(V value) {
         operations.add(obj -> obj.setValue(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.TextFormatter#valueProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TextFormatterBuilder<V> valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<V>> op) {
         operations.add(obj -> op.accept(obj.valueProperty()));

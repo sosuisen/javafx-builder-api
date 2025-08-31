@@ -110,7 +110,10 @@
         <configuration>
           <source>${maven.compiler.release}</source>
           <locale>en_US</locale>
-          <outputDirectory>${project.basedir}/docs/${javafx.major.version}/${builder.component}</outputDirectory>          
+          <outputDirectory>${project.basedir}/docs/${javafx.major.version}/${builder.component}</outputDirectory>
+          <links>
+            <link>https://openjfx.io/javadoc/${javafx.major.version}/</link>
+          </links>
         </configuration>
       </plugin>
     </plugins>

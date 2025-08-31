@@ -88,11 +88,21 @@ public class WebHistoryEntryBuilder {
         operations.add(func);
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.web.WebHistory.Entry#lastVisitedDateProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public WebHistoryEntryBuilder lastVisitedDatePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<java.util.Date>> op) {
         operations.add(obj -> op.accept(obj.lastVisitedDateProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.web.WebHistory.Entry#titleProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public WebHistoryEntryBuilder titlePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.titleProperty()));

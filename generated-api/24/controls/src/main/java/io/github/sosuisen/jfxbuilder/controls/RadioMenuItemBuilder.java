@@ -112,67 +112,132 @@ public class RadioMenuItemBuilder {
     public RadioMenuItemBuilder apply(java.util.function.Consumer<javafx.scene.control.RadioMenuItem> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.RadioMenuItem#setAccelerator(javafx.scene.input.KeyCombination)}
+     * 
+     * @return builder instance
+     */    
     
     public  RadioMenuItemBuilder accelerator(javafx.scene.input.KeyCombination value) {
         operations.add(obj -> obj.setAccelerator(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.RadioMenuItem#setDisable(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  RadioMenuItemBuilder disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.RadioMenuItem#setGraphic(javafx.scene.Node)}
+     * 
+     * @return builder instance
+     */    
     
     public  RadioMenuItemBuilder graphic(javafx.scene.Node value) {
         operations.add(obj -> obj.setGraphic(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.RadioMenuItem#setId(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  RadioMenuItemBuilder id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.RadioMenuItem#setMnemonicParsing(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  RadioMenuItemBuilder mnemonicParsing(boolean value) {
         operations.add(obj -> obj.setMnemonicParsing(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.RadioMenuItem#setOnAction(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  RadioMenuItemBuilder onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
         operations.add(obj -> obj.setOnAction(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.RadioMenuItem#setOnMenuValidation(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  RadioMenuItemBuilder onMenuValidation(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnMenuValidation(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.RadioMenuItem#setSelected(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  RadioMenuItemBuilder selected(boolean value) {
         operations.add(obj -> obj.setSelected(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.RadioMenuItem#setStyle(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  RadioMenuItemBuilder style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.RadioMenuItem#setText(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  RadioMenuItemBuilder text(java.lang.String value) {
         operations.add(obj -> obj.setText(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.RadioMenuItem#setToggleGroup(javafx.scene.control.ToggleGroup)}
+     * 
+     * @return builder instance
+     */    
     
     public  RadioMenuItemBuilder toggleGroup(javafx.scene.control.ToggleGroup value) {
         operations.add(obj -> obj.setToggleGroup(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.RadioMenuItem#setUserData(java.lang.Object)}
+     * 
+     * @return builder instance
+     */    
     
     public  RadioMenuItemBuilder userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.RadioMenuItem#setVisible(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  RadioMenuItemBuilder visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
@@ -194,71 +259,141 @@ public class RadioMenuItemBuilder {
     }
 
     
+    /**
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#acceleratorProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RadioMenuItemBuilder acceleratorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.KeyCombination>> op) {
         operations.add(obj -> op.accept(obj.acceleratorProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#disableProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RadioMenuItemBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#graphicProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RadioMenuItemBuilder graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.graphicProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#idProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RadioMenuItemBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#mnemonicParsingProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RadioMenuItemBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#onActionProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RadioMenuItemBuilder onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
         operations.add(obj -> op.accept(obj.onActionProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#onMenuValidationProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RadioMenuItemBuilder onMenuValidationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onMenuValidationProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#parentMenuProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RadioMenuItemBuilder parentMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Menu>> op) {
         operations.add(obj -> op.accept(obj.parentMenuProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#parentPopupProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RadioMenuItemBuilder parentPopupPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.parentPopupProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#selectedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RadioMenuItemBuilder selectedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.selectedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#styleProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RadioMenuItemBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#textProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RadioMenuItemBuilder textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.textProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#toggleGroupProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RadioMenuItemBuilder toggleGroupPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ToggleGroup>> op) {
         operations.add(obj -> op.accept(obj.toggleGroupProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.RadioMenuItem#visibleProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public RadioMenuItemBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));

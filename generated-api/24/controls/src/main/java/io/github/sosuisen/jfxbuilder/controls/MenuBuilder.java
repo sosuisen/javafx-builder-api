@@ -120,77 +120,152 @@ public class MenuBuilder {
     public MenuBuilder apply(java.util.function.Consumer<javafx.scene.control.Menu> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Menu#setAccelerator(javafx.scene.input.KeyCombination)}
+     * 
+     * @return builder instance
+     */    
     
     public  MenuBuilder accelerator(javafx.scene.input.KeyCombination value) {
         operations.add(obj -> obj.setAccelerator(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Menu#setDisable(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  MenuBuilder disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Menu#setGraphic(javafx.scene.Node)}
+     * 
+     * @return builder instance
+     */    
     
     public  MenuBuilder graphic(javafx.scene.Node value) {
         operations.add(obj -> obj.setGraphic(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Menu#setId(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  MenuBuilder id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Menu#setMnemonicParsing(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  MenuBuilder mnemonicParsing(boolean value) {
         operations.add(obj -> obj.setMnemonicParsing(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Menu#setOnAction(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  MenuBuilder onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
         operations.add(obj -> obj.setOnAction(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Menu#setOnHidden(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  MenuBuilder onHidden(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnHidden(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Menu#setOnHiding(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  MenuBuilder onHiding(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnHiding(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Menu#setOnMenuValidation(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  MenuBuilder onMenuValidation(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnMenuValidation(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Menu#setOnShowing(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  MenuBuilder onShowing(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnShowing(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Menu#setOnShown(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  MenuBuilder onShown(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnShown(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Menu#setStyle(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  MenuBuilder style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Menu#setText(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  MenuBuilder text(java.lang.String value) {
         operations.add(obj -> obj.setText(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Menu#setUserData(java.lang.Object)}
+     * 
+     * @return builder instance
+     */    
     
     public  MenuBuilder userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.Menu#setVisible(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  MenuBuilder visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
@@ -239,86 +314,171 @@ public class MenuBuilder {
     }
 
     
+    /**
+     * Applies a function to the {@link javafx.scene.control.Menu#acceleratorProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MenuBuilder acceleratorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.KeyCombination>> op) {
         operations.add(obj -> op.accept(obj.acceleratorProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Menu#disableProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MenuBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Menu#graphicProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MenuBuilder graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.graphicProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Menu#idProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MenuBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Menu#mnemonicParsingProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MenuBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Menu#onActionProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MenuBuilder onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
         operations.add(obj -> op.accept(obj.onActionProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Menu#onHiddenProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MenuBuilder onHiddenPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onHiddenProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Menu#onHidingProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MenuBuilder onHidingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onHidingProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Menu#onMenuValidationProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MenuBuilder onMenuValidationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onMenuValidationProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Menu#onShowingProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MenuBuilder onShowingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onShowingProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Menu#onShownProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MenuBuilder onShownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onShownProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Menu#parentMenuProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MenuBuilder parentMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Menu>> op) {
         operations.add(obj -> op.accept(obj.parentMenuProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Menu#parentPopupProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MenuBuilder parentPopupPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.parentPopupProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Menu#showingProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MenuBuilder showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.showingProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Menu#styleProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MenuBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Menu#textProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MenuBuilder textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.textProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.Menu#visibleProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public MenuBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));

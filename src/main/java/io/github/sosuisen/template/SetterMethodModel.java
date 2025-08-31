@@ -7,7 +7,9 @@ public record SetterMethodModel(
         String builderClassNameWithTypeParameter,
         String methodName,
         String parameterList,
+        String parameterTypeList,
         String argumentList,
+        String originalClassName,
         String originalMethodName,
         String methodAnnotation) {
 
@@ -15,14 +17,18 @@ public record SetterMethodModel(
             String builderClassNameWithTypeParameter,
             String methodName,
             String parameterList,
+            String parameterTypeList,
             String argumentList,
+            String originalClassName,
             String originalMethodName,
             String methodAnnotation) {
         return new SetterMethodModel(
                 builderClassNameWithTypeParameter,
                 methodName,
                 parameterList,
+                parameterTypeList,
                 argumentList,
+                originalClassName,
                 originalMethodName,
                 methodAnnotation);
     }

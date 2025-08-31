@@ -104,22 +104,42 @@ public class SepiaToneBuilder {
     public SepiaToneBuilder apply(java.util.function.Consumer<javafx.scene.effect.SepiaTone> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.SepiaTone#setInput(javafx.scene.effect.Effect)}
+     * 
+     * @return builder instance
+     */    
     
     public  SepiaToneBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.SepiaTone#setLevel(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  SepiaToneBuilder level(double value) {
         operations.add(obj -> obj.setLevel(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.SepiaTone#inputProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public SepiaToneBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.SepiaTone#levelProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public SepiaToneBuilder levelPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.levelProperty()));

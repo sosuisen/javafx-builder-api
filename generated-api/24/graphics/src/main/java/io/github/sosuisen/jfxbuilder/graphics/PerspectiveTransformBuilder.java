@@ -104,92 +104,182 @@ public class PerspectiveTransformBuilder {
     public PerspectiveTransformBuilder apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.PerspectiveTransform#setInput(javafx.scene.effect.Effect)}
+     * 
+     * @return builder instance
+     */    
     
     public  PerspectiveTransformBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.PerspectiveTransform#setLlx(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  PerspectiveTransformBuilder llx(double value) {
         operations.add(obj -> obj.setLlx(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.PerspectiveTransform#setLly(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  PerspectiveTransformBuilder lly(double value) {
         operations.add(obj -> obj.setLly(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.PerspectiveTransform#setLrx(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  PerspectiveTransformBuilder lrx(double value) {
         operations.add(obj -> obj.setLrx(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.PerspectiveTransform#setLry(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  PerspectiveTransformBuilder lry(double value) {
         operations.add(obj -> obj.setLry(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.PerspectiveTransform#setUlx(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  PerspectiveTransformBuilder ulx(double value) {
         operations.add(obj -> obj.setUlx(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.PerspectiveTransform#setUly(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  PerspectiveTransformBuilder uly(double value) {
         operations.add(obj -> obj.setUly(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.PerspectiveTransform#setUrx(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  PerspectiveTransformBuilder urx(double value) {
         operations.add(obj -> obj.setUrx(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.PerspectiveTransform#setUry(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  PerspectiveTransformBuilder ury(double value) {
         operations.add(obj -> obj.setUry(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#inputProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public PerspectiveTransformBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#llxProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public PerspectiveTransformBuilder llxPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.llxProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#llyProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public PerspectiveTransformBuilder llyPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.llyProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#lrxProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public PerspectiveTransformBuilder lrxPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.lrxProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#lryProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public PerspectiveTransformBuilder lryPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.lryProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#ulxProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public PerspectiveTransformBuilder ulxPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.ulxProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#ulyProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public PerspectiveTransformBuilder ulyPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.ulyProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#urxProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public PerspectiveTransformBuilder urxPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.urxProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.PerspectiveTransform#uryProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public PerspectiveTransformBuilder uryPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.uryProperty()));

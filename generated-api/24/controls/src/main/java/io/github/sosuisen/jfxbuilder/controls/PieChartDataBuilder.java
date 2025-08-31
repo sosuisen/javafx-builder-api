@@ -95,32 +95,62 @@ public class PieChartDataBuilder {
     public PieChartDataBuilder apply(java.util.function.Consumer<javafx.scene.chart.PieChart.Data> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.chart.PieChart.Data#setName(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  PieChartDataBuilder name(java.lang.String value) {
         operations.add(obj -> obj.setName(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.chart.PieChart.Data#setPieValue(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  PieChartDataBuilder pieValue(double value) {
         operations.add(obj -> obj.setPieValue(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.chart.PieChart.Data#chartProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public PieChartDataBuilder chartPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.chart.PieChart>> op) {
         operations.add(obj -> op.accept(obj.chartProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.chart.PieChart.Data#nameProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public PieChartDataBuilder namePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.nameProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.chart.PieChart.Data#nodeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public PieChartDataBuilder nodePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.nodeProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.chart.PieChart.Data#pieValueProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public PieChartDataBuilder pieValuePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.pieValueProperty()));

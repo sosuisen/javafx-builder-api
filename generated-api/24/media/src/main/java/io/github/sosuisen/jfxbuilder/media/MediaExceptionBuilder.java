@@ -87,7 +87,12 @@ public class MediaExceptionBuilder {
     public MediaExceptionBuilder apply(java.util.function.Consumer<javafx.scene.media.MediaException> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.media.MediaException#setStackTrace(java.lang.StackTraceElement...)}
+     * 
+     * @return builder instance
+     */    
     
     public  MediaExceptionBuilder stackTrace(java.lang.StackTraceElement[] arg0) {
         operations.add(obj -> obj.setStackTrace(arg0));

@@ -104,52 +104,102 @@ public class ColorInputBuilder {
     public ColorInputBuilder apply(java.util.function.Consumer<javafx.scene.effect.ColorInput> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.ColorInput#setHeight(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ColorInputBuilder height(double value) {
         operations.add(obj -> obj.setHeight(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.ColorInput#setPaint(javafx.scene.paint.Paint)}
+     * 
+     * @return builder instance
+     */    
     
     public  ColorInputBuilder paint(javafx.scene.paint.Paint value) {
         operations.add(obj -> obj.setPaint(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.ColorInput#setWidth(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ColorInputBuilder width(double value) {
         operations.add(obj -> obj.setWidth(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.ColorInput#setX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ColorInputBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.ColorInput#setY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ColorInputBuilder y(double value) {
         operations.add(obj -> obj.setY(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.ColorInput#heightProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ColorInputBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.ColorInput#paintProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ColorInputBuilder paintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Paint>> op) {
         operations.add(obj -> op.accept(obj.paintProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.ColorInput#widthProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ColorInputBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.ColorInput#xProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ColorInputBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.ColorInput#yProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ColorInputBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));

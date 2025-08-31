@@ -114,6 +114,11 @@ public class TableRowSkinBuilder<T> {
     }
 
     
+    /**
+     * Applies a function to the {@link javafx.scene.control.skin.TableRowSkin#cellSizeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public TableRowSkinBuilder<T> cellSizePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.cellSizeProperty()));

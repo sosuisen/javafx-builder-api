@@ -130,32 +130,62 @@ public class CheckBoxTreeItemBuilder<T> {
     public CheckBoxTreeItemBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.CheckBoxTreeItem<T>> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.CheckBoxTreeItem#setExpanded(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  CheckBoxTreeItemBuilder<T> expanded(boolean value) {
         operations.add(obj -> obj.setExpanded(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.CheckBoxTreeItem#setGraphic(javafx.scene.Node)}
+     * 
+     * @return builder instance
+     */    
     
     public  CheckBoxTreeItemBuilder<T> graphic(javafx.scene.Node value) {
         operations.add(obj -> obj.setGraphic(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.CheckBoxTreeItem#setIndependent(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  CheckBoxTreeItemBuilder<T> independent(boolean value) {
         operations.add(obj -> obj.setIndependent(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.CheckBoxTreeItem#setIndeterminate(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  CheckBoxTreeItemBuilder<T> indeterminate(boolean value) {
         operations.add(obj -> obj.setIndeterminate(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.CheckBoxTreeItem#setSelected(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  CheckBoxTreeItemBuilder<T> selected(boolean value) {
         operations.add(obj -> obj.setSelected(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.CheckBoxTreeItem#setValue(java.lang.Object)}
+     * 
+     * @return builder instance
+     */    
     
     public  CheckBoxTreeItemBuilder<T> value(T value) {
         operations.add(obj -> obj.setValue(value));
@@ -188,41 +218,81 @@ public class CheckBoxTreeItemBuilder<T> {
         return builder.addChildren(col);
     }
     
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#expandedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckBoxTreeItemBuilder<T> expandedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.expandedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#graphicProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckBoxTreeItemBuilder<T> graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.graphicProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#independentProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckBoxTreeItemBuilder<T> independentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.independentProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#indeterminateProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckBoxTreeItemBuilder<T> indeterminatePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.indeterminateProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#leafProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckBoxTreeItemBuilder<T> leafPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.leafProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#parentProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckBoxTreeItemBuilder<T> parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeItem<T>>> op) {
         operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#selectedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckBoxTreeItemBuilder<T> selectedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.selectedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#valueProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckBoxTreeItemBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
         operations.add(obj -> op.accept(obj.valueProperty()));

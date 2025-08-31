@@ -112,62 +112,122 @@ public class CheckMenuItemBuilder {
     public CheckMenuItemBuilder apply(java.util.function.Consumer<javafx.scene.control.CheckMenuItem> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.CheckMenuItem#setAccelerator(javafx.scene.input.KeyCombination)}
+     * 
+     * @return builder instance
+     */    
     
     public  CheckMenuItemBuilder accelerator(javafx.scene.input.KeyCombination value) {
         operations.add(obj -> obj.setAccelerator(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.CheckMenuItem#setDisable(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  CheckMenuItemBuilder disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.CheckMenuItem#setGraphic(javafx.scene.Node)}
+     * 
+     * @return builder instance
+     */    
     
     public  CheckMenuItemBuilder graphic(javafx.scene.Node value) {
         operations.add(obj -> obj.setGraphic(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.CheckMenuItem#setId(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  CheckMenuItemBuilder id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.CheckMenuItem#setMnemonicParsing(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  CheckMenuItemBuilder mnemonicParsing(boolean value) {
         operations.add(obj -> obj.setMnemonicParsing(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.CheckMenuItem#setOnAction(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  CheckMenuItemBuilder onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
         operations.add(obj -> obj.setOnAction(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.CheckMenuItem#setOnMenuValidation(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  CheckMenuItemBuilder onMenuValidation(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnMenuValidation(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.CheckMenuItem#setSelected(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  CheckMenuItemBuilder selected(boolean value) {
         operations.add(obj -> obj.setSelected(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.CheckMenuItem#setStyle(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  CheckMenuItemBuilder style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.CheckMenuItem#setText(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  CheckMenuItemBuilder text(java.lang.String value) {
         operations.add(obj -> obj.setText(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.CheckMenuItem#setUserData(java.lang.Object)}
+     * 
+     * @return builder instance
+     */    
     
     public  CheckMenuItemBuilder userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.CheckMenuItem#setVisible(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  CheckMenuItemBuilder visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
@@ -189,66 +249,131 @@ public class CheckMenuItemBuilder {
     }
 
     
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckMenuItem#acceleratorProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckMenuItemBuilder acceleratorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.KeyCombination>> op) {
         operations.add(obj -> op.accept(obj.acceleratorProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckMenuItem#disableProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckMenuItemBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckMenuItem#graphicProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckMenuItemBuilder graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.graphicProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckMenuItem#idProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckMenuItemBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckMenuItem#mnemonicParsingProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckMenuItemBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckMenuItem#onActionProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckMenuItemBuilder onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
         operations.add(obj -> op.accept(obj.onActionProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckMenuItem#onMenuValidationProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckMenuItemBuilder onMenuValidationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onMenuValidationProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckMenuItem#parentMenuProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckMenuItemBuilder parentMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.Menu>> op) {
         operations.add(obj -> op.accept(obj.parentMenuProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckMenuItem#parentPopupProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckMenuItemBuilder parentPopupPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.parentPopupProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckMenuItem#selectedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckMenuItemBuilder selectedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.selectedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckMenuItem#styleProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckMenuItemBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckMenuItem#textProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckMenuItemBuilder textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.textProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.control.CheckMenuItem#visibleProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CheckMenuItemBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));

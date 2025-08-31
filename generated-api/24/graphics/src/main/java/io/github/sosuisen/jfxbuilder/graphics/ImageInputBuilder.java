@@ -112,32 +112,62 @@ public class ImageInputBuilder {
     public ImageInputBuilder apply(java.util.function.Consumer<javafx.scene.effect.ImageInput> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.ImageInput#setSource(javafx.scene.image.Image)}
+     * 
+     * @return builder instance
+     */    
     
     public  ImageInputBuilder source(javafx.scene.image.Image value) {
         operations.add(obj -> obj.setSource(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.ImageInput#setX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ImageInputBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.ImageInput#setY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ImageInputBuilder y(double value) {
         operations.add(obj -> obj.setY(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.ImageInput#sourceProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ImageInputBuilder sourcePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.image.Image>> op) {
         operations.add(obj -> op.accept(obj.sourceProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.ImageInput#xProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ImageInputBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.ImageInput#yProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ImageInputBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));

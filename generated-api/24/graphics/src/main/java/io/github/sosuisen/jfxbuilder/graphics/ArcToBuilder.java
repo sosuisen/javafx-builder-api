@@ -104,82 +104,162 @@ public class ArcToBuilder {
     public ArcToBuilder apply(java.util.function.Consumer<javafx.scene.shape.ArcTo> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.ArcTo#setAbsolute(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  ArcToBuilder absolute(boolean value) {
         operations.add(obj -> obj.setAbsolute(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.ArcTo#setLargeArcFlag(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  ArcToBuilder largeArcFlag(boolean value) {
         operations.add(obj -> obj.setLargeArcFlag(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.ArcTo#setRadiusX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ArcToBuilder radiusX(double value) {
         operations.add(obj -> obj.setRadiusX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.ArcTo#setRadiusY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ArcToBuilder radiusY(double value) {
         operations.add(obj -> obj.setRadiusY(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.ArcTo#setSweepFlag(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  ArcToBuilder sweepFlag(boolean value) {
         operations.add(obj -> obj.setSweepFlag(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.ArcTo#setX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ArcToBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.ArcTo#setXAxisRotation(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ArcToBuilder xAxisRotation(double value) {
         operations.add(obj -> obj.setXAxisRotation(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.shape.ArcTo#setY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ArcToBuilder y(double value) {
         operations.add(obj -> obj.setY(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.ArcTo#XAxisRotationProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ArcToBuilder XAxisRotationPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.XAxisRotationProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.ArcTo#absoluteProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ArcToBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.absoluteProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.ArcTo#largeArcFlagProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ArcToBuilder largeArcFlagPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.largeArcFlagProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.ArcTo#radiusXProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ArcToBuilder radiusXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.radiusXProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.ArcTo#radiusYProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ArcToBuilder radiusYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.radiusYProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.ArcTo#sweepFlagProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ArcToBuilder sweepFlagPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.sweepFlagProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.ArcTo#xProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ArcToBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.shape.ArcTo#yProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ArcToBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));

@@ -128,82 +128,162 @@ public class ScaleBuilder {
     public ScaleBuilder apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.transform.Scale#setOnTransformChanged(javafx.event.EventHandler)}
+     * 
+     * @return builder instance
+     */    
     
     public  ScaleBuilder onTransformChanged(javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent> value) {
         operations.add(obj -> obj.setOnTransformChanged(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.transform.Scale#setPivotX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ScaleBuilder pivotX(double value) {
         operations.add(obj -> obj.setPivotX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.transform.Scale#setPivotY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ScaleBuilder pivotY(double value) {
         operations.add(obj -> obj.setPivotY(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.transform.Scale#setPivotZ(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ScaleBuilder pivotZ(double value) {
         operations.add(obj -> obj.setPivotZ(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.transform.Scale#setX(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ScaleBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.transform.Scale#setY(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ScaleBuilder y(double value) {
         operations.add(obj -> obj.setY(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.transform.Scale#setZ(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ScaleBuilder z(double value) {
         operations.add(obj -> obj.setZ(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.transform.Scale#identityProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ScaleBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.identityProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.transform.Scale#onTransformChangedProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ScaleBuilder onTransformChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.transform.TransformChangedEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTransformChangedProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.transform.Scale#pivotXProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ScaleBuilder pivotXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.pivotXProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.transform.Scale#pivotYProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ScaleBuilder pivotYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.pivotYProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.transform.Scale#pivotZProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ScaleBuilder pivotZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.pivotZProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.transform.Scale#type2DProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ScaleBuilder type2DPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.type2DProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.transform.Scale#xProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ScaleBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.transform.Scale#yProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ScaleBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.transform.Scale#zProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ScaleBuilder zPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.zProperty()));

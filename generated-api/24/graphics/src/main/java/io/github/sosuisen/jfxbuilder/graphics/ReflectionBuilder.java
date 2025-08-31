@@ -104,52 +104,102 @@ public class ReflectionBuilder {
     public ReflectionBuilder apply(java.util.function.Consumer<javafx.scene.effect.Reflection> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Reflection#setBottomOpacity(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ReflectionBuilder bottomOpacity(double value) {
         operations.add(obj -> obj.setBottomOpacity(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Reflection#setFraction(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ReflectionBuilder fraction(double value) {
         operations.add(obj -> obj.setFraction(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Reflection#setInput(javafx.scene.effect.Effect)}
+     * 
+     * @return builder instance
+     */    
     
     public  ReflectionBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Reflection#setTopOffset(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ReflectionBuilder topOffset(double value) {
         operations.add(obj -> obj.setTopOffset(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.effect.Reflection#setTopOpacity(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  ReflectionBuilder topOpacity(double value) {
         operations.add(obj -> obj.setTopOpacity(value));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Reflection#bottomOpacityProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ReflectionBuilder bottomOpacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.bottomOpacityProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Reflection#fractionProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ReflectionBuilder fractionPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.fractionProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Reflection#inputProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ReflectionBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Reflection#topOffsetProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ReflectionBuilder topOffsetPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.topOffsetProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.effect.Reflection#topOpacityProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public ReflectionBuilder topOpacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.topOpacityProperty()));

@@ -98,37 +98,72 @@ public class AxisTickMarkBuilder<T> {
     public AxisTickMarkBuilder<T> apply(java.util.function.Consumer<javafx.scene.chart.Axis.TickMark<T>> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.chart.Axis.TickMark#setLabel(java.lang.String)}
+     * 
+     * @return builder instance
+     */    
     
     public  AxisTickMarkBuilder<T> label(java.lang.String value) {
         operations.add(obj -> obj.setLabel(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.chart.Axis.TickMark#setPosition(double)}
+     * 
+     * @return builder instance
+     */    
     
     public  AxisTickMarkBuilder<T> position(double value) {
         operations.add(obj -> obj.setPosition(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.chart.Axis.TickMark#setTextVisible(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  AxisTickMarkBuilder<T> textVisible(boolean value) {
         operations.add(obj -> obj.setTextVisible(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.chart.Axis.TickMark#setValue(java.lang.Object)}
+     * 
+     * @return builder instance
+     */    
     
     public  AxisTickMarkBuilder<T> value(T v) {
         operations.add(obj -> obj.setValue(v));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.chart.Axis.TickMark#labelProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public AxisTickMarkBuilder<T> labelPropertyApply(java.util.function.Consumer<javafx.beans.binding.StringExpression> op) {
         operations.add(obj -> op.accept(obj.labelProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.chart.Axis.TickMark#positionProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public AxisTickMarkBuilder<T> positionPropertyApply(java.util.function.Consumer<javafx.beans.binding.DoubleExpression> op) {
         operations.add(obj -> op.accept(obj.positionProperty()));
         return this;
     }    
+    /**
+     * Applies a function to the {@link javafx.scene.chart.Axis.TickMark#valueProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public AxisTickMarkBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.binding.ObjectExpression<T>> op) {
         operations.add(obj -> op.accept(obj.valueProperty()));

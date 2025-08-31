@@ -114,6 +114,11 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
     }
 
     
+    /**
+     * Applies a function to the {@link javafx.scene.control.skin.CellSkinBase#cellSizeProperty()}.
+     * 
+     * @return builder instance
+     */    
     
     public CellSkinBaseBuilder<C> cellSizePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.cellSizeProperty()));

@@ -95,12 +95,22 @@ public class TextFieldSkinBuilder {
     public TextFieldSkinBuilder apply(java.util.function.Consumer<javafx.scene.control.skin.TextFieldSkin> func) {
         operations.add(func);
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.skin.TextFieldSkin#setCaretAnimating(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  TextFieldSkinBuilder caretAnimating(boolean value) {
         operations.add(obj -> obj.setCaretAnimating(value));
         return this;
-    }    
+    }
+    /**
+     * Builder method for {@link javafx.scene.control.skin.TextFieldSkin#setForwardBias(boolean)}
+     * 
+     * @return builder instance
+     */    
     
     public  TextFieldSkinBuilder forwardBias(boolean isLeading) {
         operations.add(obj -> obj.setForwardBias(isLeading));
