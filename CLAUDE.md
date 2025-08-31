@@ -9,6 +9,10 @@ You can read the files under the directory, but cannot modify them.
 This project reads the class names which are included in the sdk jar files.
 The sdk jar files are under the sdk/${javafx.version} directory.
 
+# Specifications
+- docs/API.md
+- Specifications are detailed in the Obsidian note found in the directory named after this project.
+
 # Scripts
 
 ## How to run class generator
