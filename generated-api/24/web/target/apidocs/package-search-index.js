@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"io.github.sosuisen.jfxbuilder.web"},{"l":"すべてのパッケージ","u":"allpackages-index.html"}];updateSearchResults();
