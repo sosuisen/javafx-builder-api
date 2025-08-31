@@ -109,6 +109,15 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.11.3</version>
+        <configuration>
+          <source>${maven.compiler.release}</source>
+          <locale>en_US</locale>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 

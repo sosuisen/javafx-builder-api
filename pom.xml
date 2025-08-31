@@ -93,6 +93,25 @@
               </resources>
             </configuration>
           </execution>
+          <execution>
+            <id>copy-package-info</id>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>generated-api/${javafx.major.version}/${builder.component}/src/main/java/io/github/sosuisen/jfxbuilder/${builder.component}/</outputDirectory>
+              <resources>
+                <resource>
+                  <directory>src/main/resources/package-info/${builder.component}</directory>
+                  <filtering>true</filtering>
+                  <includes>
+                    <include>package-info.java</include>
+                  </includes>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
         </executions>
       </plugin>
       <plugin>
