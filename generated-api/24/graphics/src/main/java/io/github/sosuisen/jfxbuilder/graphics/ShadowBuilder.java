@@ -144,13 +144,8 @@ public class ShadowBuilder {
         return this;
     }    
     
-    public ShadowBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.widthProperty()));
-        return this;
-    }    
-    
-    public ShadowBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.heightProperty()));
+    public ShadowBuilder blurTypePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlurType>> op) {
+        operations.add(obj -> op.accept(obj.blurTypeProperty()));
         return this;
     }    
     
@@ -159,18 +154,23 @@ public class ShadowBuilder {
         return this;
     }    
     
-    public ShadowBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.radiusProperty()));
-        return this;
-    }    
-    
-    public ShadowBuilder blurTypePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlurType>> op) {
-        operations.add(obj -> op.accept(obj.blurTypeProperty()));
+    public ShadowBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
     }    
     
     public ShadowBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
+        return this;
+    }    
+    
+    public ShadowBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.radiusProperty()));
+        return this;
+    }    
+    
+    public ShadowBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.widthProperty()));
         return this;
     }
 }

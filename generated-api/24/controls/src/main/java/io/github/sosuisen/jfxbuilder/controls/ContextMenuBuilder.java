@@ -329,28 +329,63 @@ public class ContextMenuBuilder {
 
     
     
-    public ContextMenuBuilder onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onActionProperty()));
+    public ContextMenuBuilder anchorLocationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.stage.PopupWindow.AnchorLocation>> op) {
+        operations.add(obj -> op.accept(obj.anchorLocationProperty()));
         return this;
     }    
     
-    public ContextMenuBuilder skinPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Skin<?>>> op) {
-        operations.add(obj -> op.accept(obj.skinProperty()));
+    public ContextMenuBuilder anchorXPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.anchorXProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder anchorYPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.anchorYProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder autoFixPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.autoFixProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder autoHidePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.autoHideProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder consumeAutoHidingEventsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.consumeAutoHidingEventsProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
+        operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.focusedProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder forceIntegerRenderScalePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.forceIntegerRenderScaleProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.heightProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder hideOnEscapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.hideOnEscapeProperty()));
         return this;
     }    
     
     public ContextMenuBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.minWidthProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.minHeightProperty()));
         return this;
     }    
     
@@ -364,8 +399,73 @@ public class ContextMenuBuilder {
         return this;
     }    
     
-    public ContextMenuBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.styleProperty()));
+    public ContextMenuBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.minHeightProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.minWidthProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onActionProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder onAutoHidePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
+        operations.add(obj -> op.accept(obj.onAutoHideProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder onCloseRequestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onCloseRequestProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder onHiddenPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onHiddenProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder onHidingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onHidingProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder onShowingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onShowingProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder onShownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onShownProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.opacityProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder outputScaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.outputScaleXProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder outputScaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.outputScaleYProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder ownerNodePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Node>> op) {
+        operations.add(obj -> op.accept(obj.ownerNodeProperty()));
+        return this;
+    }    
+    
+    public ContextMenuBuilder ownerWindowPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.stage.Window>> op) {
+        operations.add(obj -> op.accept(obj.ownerWindowProperty()));
         return this;
     }    
     
@@ -379,58 +479,33 @@ public class ContextMenuBuilder {
         return this;
     }    
     
-    public ContextMenuBuilder hideOnEscapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.hideOnEscapeProperty()));
+    public ContextMenuBuilder renderScaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.renderScaleXProperty()));
         return this;
     }    
     
-    public ContextMenuBuilder ownerWindowPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.stage.Window>> op) {
-        operations.add(obj -> op.accept(obj.ownerWindowProperty()));
+    public ContextMenuBuilder renderScaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.renderScaleYProperty()));
         return this;
     }    
     
-    public ContextMenuBuilder anchorLocationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.stage.PopupWindow.AnchorLocation>> op) {
-        operations.add(obj -> op.accept(obj.anchorLocationProperty()));
+    public ContextMenuBuilder scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
+        operations.add(obj -> op.accept(obj.sceneProperty()));
         return this;
     }    
     
-    public ContextMenuBuilder consumeAutoHidingEventsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.consumeAutoHidingEventsProperty()));
+    public ContextMenuBuilder showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.showingProperty()));
         return this;
     }    
     
-    public ContextMenuBuilder ownerNodePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Node>> op) {
-        operations.add(obj -> op.accept(obj.ownerNodeProperty()));
+    public ContextMenuBuilder skinPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Skin<?>>> op) {
+        operations.add(obj -> op.accept(obj.skinProperty()));
         return this;
     }    
     
-    public ContextMenuBuilder onAutoHidePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
-        operations.add(obj -> op.accept(obj.onAutoHideProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder anchorXPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.anchorXProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder autoHidePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.autoHideProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder autoFixPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.autoFixProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder anchorYPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.anchorYProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.heightProperty()));
+    public ContextMenuBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
     }    
     
@@ -446,81 +521,6 @@ public class ContextMenuBuilder {
     
     public ContextMenuBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder forceIntegerRenderScalePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.forceIntegerRenderScaleProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
-        operations.add(obj -> op.accept(obj.sceneProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.showingProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder onShowingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onShowingProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.focusedProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder onShownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onShownProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.opacityProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder onHidingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onHidingProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder onHiddenPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onHiddenProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder outputScaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.outputScaleYProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder renderScaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.renderScaleXProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder renderScaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.renderScaleYProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
-        operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder outputScaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.outputScaleXProperty()));
-        return this;
-    }    
-    
-    public ContextMenuBuilder onCloseRequestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.stage.WindowEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onCloseRequestProperty()));
         return this;
     }
 }

@@ -195,38 +195,8 @@ public class RadioMenuItemBuilder {
 
     
     
-    public RadioMenuItemBuilder selectedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.selectedProperty()));
-        return this;
-    }    
-    
-    public RadioMenuItemBuilder toggleGroupPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ToggleGroup>> op) {
-        operations.add(obj -> op.accept(obj.toggleGroupProperty()));
-        return this;
-    }    
-    
     public RadioMenuItemBuilder acceleratorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.KeyCombination>> op) {
         operations.add(obj -> op.accept(obj.acceleratorProperty()));
-        return this;
-    }    
-    
-    public RadioMenuItemBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
-        return this;
-    }    
-    
-    public RadioMenuItemBuilder onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
-        operations.add(obj -> op.accept(obj.onActionProperty()));
-        return this;
-    }    
-    
-    public RadioMenuItemBuilder textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.textProperty()));
-        return this;
-    }    
-    
-    public RadioMenuItemBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;
     }    
     
@@ -245,8 +215,18 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     
-    public RadioMenuItemBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
-        operations.add(obj -> op.accept(obj.styleProperty()));
+    public RadioMenuItemBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
+        return this;
+    }    
+    
+    public RadioMenuItemBuilder onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
+        operations.add(obj -> op.accept(obj.onActionProperty()));
+        return this;
+    }    
+    
+    public RadioMenuItemBuilder onMenuValidationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
+        operations.add(obj -> op.accept(obj.onMenuValidationProperty()));
         return this;
     }    
     
@@ -260,8 +240,28 @@ public class RadioMenuItemBuilder {
         return this;
     }    
     
-    public RadioMenuItemBuilder onMenuValidationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
-        operations.add(obj -> op.accept(obj.onMenuValidationProperty()));
+    public RadioMenuItemBuilder selectedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.selectedProperty()));
+        return this;
+    }    
+    
+    public RadioMenuItemBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.styleProperty()));
+        return this;
+    }    
+    
+    public RadioMenuItemBuilder textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
+        operations.add(obj -> op.accept(obj.textProperty()));
+        return this;
+    }    
+    
+    public RadioMenuItemBuilder toggleGroupPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ToggleGroup>> op) {
+        operations.add(obj -> op.accept(obj.toggleGroupProperty()));
+        return this;
+    }    
+    
+    public RadioMenuItemBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;
     }
 }

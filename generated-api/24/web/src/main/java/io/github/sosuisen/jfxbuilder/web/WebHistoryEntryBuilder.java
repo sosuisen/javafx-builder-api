@@ -89,13 +89,13 @@ public class WebHistoryEntryBuilder {
         return this;
     }    
     
-    public WebHistoryEntryBuilder titlePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<java.lang.String>> op) {
-        operations.add(obj -> op.accept(obj.titleProperty()));
+    public WebHistoryEntryBuilder lastVisitedDatePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<java.util.Date>> op) {
+        operations.add(obj -> op.accept(obj.lastVisitedDateProperty()));
         return this;
     }    
     
-    public WebHistoryEntryBuilder lastVisitedDatePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<java.util.Date>> op) {
-        operations.add(obj -> op.accept(obj.lastVisitedDateProperty()));
+    public WebHistoryEntryBuilder titlePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<java.lang.String>> op) {
+        operations.add(obj -> op.accept(obj.titleProperty()));
         return this;
     }
 }

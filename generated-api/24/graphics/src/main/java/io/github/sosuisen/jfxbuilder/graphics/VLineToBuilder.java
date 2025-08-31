@@ -116,13 +116,13 @@ public class VLineToBuilder {
         return this;
     }    
     
-    public VLineToBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.yProperty()));
+    public VLineToBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.absoluteProperty()));
         return this;
     }    
     
-    public VLineToBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.absoluteProperty()));
+    public VLineToBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.yProperty()));
         return this;
     }
 }

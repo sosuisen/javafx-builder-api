@@ -156,8 +156,18 @@ public class PerspectiveTransformBuilder {
         return this;
     }    
     
-    public PerspectiveTransformBuilder ulyPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.ulyProperty()));
+    public PerspectiveTransformBuilder llxPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.llxProperty()));
+        return this;
+    }    
+    
+    public PerspectiveTransformBuilder llyPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.llyProperty()));
+        return this;
+    }    
+    
+    public PerspectiveTransformBuilder lrxPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.lrxProperty()));
         return this;
     }    
     
@@ -171,13 +181,8 @@ public class PerspectiveTransformBuilder {
         return this;
     }    
     
-    public PerspectiveTransformBuilder uryPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.uryProperty()));
-        return this;
-    }    
-    
-    public PerspectiveTransformBuilder llyPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.llyProperty()));
+    public PerspectiveTransformBuilder ulyPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.ulyProperty()));
         return this;
     }    
     
@@ -186,13 +191,8 @@ public class PerspectiveTransformBuilder {
         return this;
     }    
     
-    public PerspectiveTransformBuilder lrxPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.lrxProperty()));
-        return this;
-    }    
-    
-    public PerspectiveTransformBuilder llxPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.llxProperty()));
+    public PerspectiveTransformBuilder uryPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.uryProperty()));
         return this;
     }
 }

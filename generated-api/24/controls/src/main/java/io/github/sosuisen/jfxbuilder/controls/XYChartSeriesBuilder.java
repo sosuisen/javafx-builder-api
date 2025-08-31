@@ -158,13 +158,13 @@ public class XYChartSeriesBuilder<X, Y> {
     }
     
     
-    public XYChartSeriesBuilder<X, Y> dataPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>>>> op) {
-        operations.add(obj -> op.accept(obj.dataProperty()));
+    public XYChartSeriesBuilder<X, Y> chartPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.chart.XYChart<X, Y>>> op) {
+        operations.add(obj -> op.accept(obj.chartProperty()));
         return this;
     }    
     
-    public XYChartSeriesBuilder<X, Y> chartPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.chart.XYChart<X, Y>>> op) {
-        operations.add(obj -> op.accept(obj.chartProperty()));
+    public XYChartSeriesBuilder<X, Y> dataPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>>>> op) {
+        operations.add(obj -> op.accept(obj.dataProperty()));
         return this;
     }    
     

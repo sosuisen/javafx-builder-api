@@ -146,8 +146,8 @@ public class LightSpotBuilder {
         return this;
     }    
     
-    public LightSpotBuilder specularExponentPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.specularExponentProperty()));
+    public LightSpotBuilder colorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
+        operations.add(obj -> op.accept(obj.colorProperty()));
         return this;
     }    
     
@@ -166,8 +166,8 @@ public class LightSpotBuilder {
         return this;
     }    
     
-    public LightSpotBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.yProperty()));
+    public LightSpotBuilder specularExponentPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.specularExponentProperty()));
         return this;
     }    
     
@@ -176,13 +176,13 @@ public class LightSpotBuilder {
         return this;
     }    
     
-    public LightSpotBuilder zPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.zProperty()));
+    public LightSpotBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.yProperty()));
         return this;
     }    
     
-    public LightSpotBuilder colorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
-        operations.add(obj -> op.accept(obj.colorProperty()));
+    public LightSpotBuilder zPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.zProperty()));
         return this;
     }
 }

@@ -126,8 +126,8 @@ public class LightPointBuilder {
         return this;
     }    
     
-    public LightPointBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.yProperty()));
+    public LightPointBuilder colorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
+        operations.add(obj -> op.accept(obj.colorProperty()));
         return this;
     }    
     
@@ -136,13 +136,13 @@ public class LightPointBuilder {
         return this;
     }    
     
-    public LightPointBuilder zPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.zProperty()));
+    public LightPointBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.yProperty()));
         return this;
     }    
     
-    public LightPointBuilder colorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
-        operations.add(obj -> op.accept(obj.colorProperty()));
+    public LightPointBuilder zPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.zProperty()));
         return this;
     }
 }

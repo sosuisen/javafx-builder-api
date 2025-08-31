@@ -129,8 +129,8 @@ public class ImageInputBuilder {
         return this;
     }    
     
-    public ImageInputBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.yProperty()));
+    public ImageInputBuilder sourcePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.image.Image>> op) {
+        operations.add(obj -> op.accept(obj.sourceProperty()));
         return this;
     }    
     
@@ -139,8 +139,8 @@ public class ImageInputBuilder {
         return this;
     }    
     
-    public ImageInputBuilder sourcePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.image.Image>> op) {
-        operations.add(obj -> op.accept(obj.sourceProperty()));
+    public ImageInputBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.yProperty()));
         return this;
     }
 }

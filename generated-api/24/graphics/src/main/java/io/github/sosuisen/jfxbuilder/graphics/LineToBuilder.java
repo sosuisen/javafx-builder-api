@@ -121,8 +121,8 @@ public class LineToBuilder {
         return this;
     }    
     
-    public LineToBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.yProperty()));
+    public LineToBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.absoluteProperty()));
         return this;
     }    
     
@@ -131,8 +131,8 @@ public class LineToBuilder {
         return this;
     }    
     
-    public LineToBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.absoluteProperty()));
+    public LineToBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.yProperty()));
         return this;
     }
 }

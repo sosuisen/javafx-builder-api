@@ -135,6 +135,11 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
 
     
     
+    public SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<T>>> op) {
+        operations.add(obj -> op.accept(obj.converterProperty()));
+        return this;
+    }    
+    
     public SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> itemsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.collections.ObservableList<T>>> op) {
         operations.add(obj -> op.accept(obj.itemsProperty()));
         return this;
@@ -142,11 +147,6 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
     
     public SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
         operations.add(obj -> op.accept(obj.valueProperty()));
-        return this;
-    }    
-    
-    public SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<T>>> op) {
-        operations.add(obj -> op.accept(obj.converterProperty()));
         return this;
     }    
     

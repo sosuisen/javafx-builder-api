@@ -131,13 +131,8 @@ public class ColorAdjustBuilder {
         return this;
     }    
     
-    public ColorAdjustBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
-        operations.add(obj -> op.accept(obj.inputProperty()));
-        return this;
-    }    
-    
-    public ColorAdjustBuilder saturationPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.saturationProperty()));
+    public ColorAdjustBuilder brightnessPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.brightnessProperty()));
         return this;
     }    
     
@@ -151,8 +146,13 @@ public class ColorAdjustBuilder {
         return this;
     }    
     
-    public ColorAdjustBuilder brightnessPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.brightnessProperty()));
+    public ColorAdjustBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
+        operations.add(obj -> op.accept(obj.inputProperty()));
+        return this;
+    }    
+    
+    public ColorAdjustBuilder saturationPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.saturationProperty()));
         return this;
     }
 }

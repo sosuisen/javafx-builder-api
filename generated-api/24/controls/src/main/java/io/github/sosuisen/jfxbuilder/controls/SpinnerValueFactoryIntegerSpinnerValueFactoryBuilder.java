@@ -148,6 +148,11 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }    
     
+    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<Integer>>> op) {
+        operations.add(obj -> op.accept(obj.converterProperty()));
+        return this;
+    }    
+    
     public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder maxPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
         operations.add(obj -> op.accept(obj.maxProperty()));
         return this;
@@ -160,11 +165,6 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
     
     public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<Integer>> op) {
         operations.add(obj -> op.accept(obj.valueProperty()));
-        return this;
-    }    
-    
-    public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<Integer>>> op) {
-        operations.add(obj -> op.accept(obj.converterProperty()));
         return this;
     }    
     

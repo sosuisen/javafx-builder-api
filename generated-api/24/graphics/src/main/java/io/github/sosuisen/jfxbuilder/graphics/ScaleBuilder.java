@@ -165,33 +165,8 @@ public class ScaleBuilder {
         return this;
     }    
     
-    public ScaleBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.yProperty()));
-        return this;
-    }    
-    
-    public ScaleBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.xProperty()));
-        return this;
-    }    
-    
-    public ScaleBuilder pivotXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.pivotXProperty()));
-        return this;
-    }    
-    
-    public ScaleBuilder pivotZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.pivotZProperty()));
-        return this;
-    }    
-    
-    public ScaleBuilder pivotYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.pivotYProperty()));
-        return this;
-    }    
-    
-    public ScaleBuilder zPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.zProperty()));
+    public ScaleBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.identityProperty()));
         return this;
     }    
     
@@ -200,13 +175,38 @@ public class ScaleBuilder {
         return this;
     }    
     
+    public ScaleBuilder pivotXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.pivotXProperty()));
+        return this;
+    }    
+    
+    public ScaleBuilder pivotYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.pivotYProperty()));
+        return this;
+    }    
+    
+    public ScaleBuilder pivotZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.pivotZProperty()));
+        return this;
+    }    
+    
     public ScaleBuilder type2DPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.type2DProperty()));
         return this;
     }    
     
-    public ScaleBuilder identityPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.identityProperty()));
+    public ScaleBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.xProperty()));
+        return this;
+    }    
+    
+    public ScaleBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.yProperty()));
+        return this;
+    }    
+    
+    public ScaleBuilder zPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.zProperty()));
         return this;
     }
 }

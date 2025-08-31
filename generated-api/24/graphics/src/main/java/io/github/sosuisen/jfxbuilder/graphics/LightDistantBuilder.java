@@ -126,13 +126,13 @@ public class LightDistantBuilder {
         return this;
     }    
     
-    public LightDistantBuilder elevationPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.elevationProperty()));
+    public LightDistantBuilder colorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
+        operations.add(obj -> op.accept(obj.colorProperty()));
         return this;
     }    
     
-    public LightDistantBuilder colorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
-        operations.add(obj -> op.accept(obj.colorProperty()));
+    public LightDistantBuilder elevationPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.elevationProperty()));
         return this;
     }
 }

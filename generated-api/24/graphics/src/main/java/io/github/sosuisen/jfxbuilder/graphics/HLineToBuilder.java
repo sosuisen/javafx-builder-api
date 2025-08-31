@@ -116,13 +116,13 @@ public class HLineToBuilder {
         return this;
     }    
     
-    public HLineToBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
-        operations.add(obj -> op.accept(obj.xProperty()));
+    public HLineToBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
+        operations.add(obj -> op.accept(obj.absoluteProperty()));
         return this;
     }    
     
-    public HLineToBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
-        operations.add(obj -> op.accept(obj.absoluteProperty()));
+    public HLineToBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
+        operations.add(obj -> op.accept(obj.xProperty()));
         return this;
     }
 }

@@ -136,13 +136,13 @@ public class XYChartDataBuilder<X, Y> {
         return this;
     }    
     
-    public XYChartDataBuilder<X, Y> YValuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<Y>> op) {
-        operations.add(obj -> op.accept(obj.YValueProperty()));
+    public XYChartDataBuilder<X, Y> XValuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<X>> op) {
+        operations.add(obj -> op.accept(obj.XValueProperty()));
         return this;
     }    
     
-    public XYChartDataBuilder<X, Y> XValuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<X>> op) {
-        operations.add(obj -> op.accept(obj.XValueProperty()));
+    public XYChartDataBuilder<X, Y> YValuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<Y>> op) {
+        operations.add(obj -> op.accept(obj.YValueProperty()));
         return this;
     }    
     
