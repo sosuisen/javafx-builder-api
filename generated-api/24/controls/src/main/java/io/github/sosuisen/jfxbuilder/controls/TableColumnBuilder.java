@@ -327,6 +327,11 @@ public class TableColumnBuilder<S, T> {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableColumn#getColumns()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TableColumnBuilder<S, T> addColumns(javafx.scene.control.TableColumn<S, ?>... elements) {
         operations.add(obj -> {
@@ -335,6 +340,11 @@ public class TableColumnBuilder<S, T> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableColumn#getColumns()} method.
+     * 
+     * @return builder instance
+     */     
     public final TableColumnBuilder<S, T> addColumns(java.util.Collection<? extends javafx.scene.control.TableColumn<S, ?>> col) {
         operations.add(obj -> {
             obj.getColumns().addAll(col);
@@ -343,17 +353,33 @@ public class TableColumnBuilder<S, T> {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableColumn#getColumns()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static <S, T> TableColumnBuilder<S, T> withColumns(javafx.scene.control.TableColumn<S, ?>... elements) {
         TableColumnBuilder<S, T> builder = new TableColumnBuilder<S, T>();
         return builder.addColumns(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableColumn#getColumns()} method.
+     * 
+     * @return builder instance
+     */     
     public static <S, T> TableColumnBuilder<S, T> withColumns(java.util.Collection<? extends javafx.scene.control.TableColumn<S, ?>> col) {
         TableColumnBuilder<S, T> builder = new TableColumnBuilder<S, T>();
         return builder.addColumns(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableColumn#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TableColumnBuilder<S, T> addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -362,12 +388,18 @@ public class TableColumnBuilder<S, T> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableColumn#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final TableColumnBuilder<S, T> addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
         });
         return this;
     }
+
 
     
     /**

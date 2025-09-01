@@ -138,6 +138,11 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
         operations.add(obj -> obj.setWrapAround(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#getItems()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> addItems(T... elements) {
         operations.add(obj -> {
@@ -146,12 +151,18 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#getItems()} method.
+     * 
+     * @return builder instance
+     */     
     public final SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> addItems(java.util.Collection<? extends T> col) {
         operations.add(obj -> {
             obj.getItems().addAll(col);
         });
         return this;
     }
+
 
     
     /**

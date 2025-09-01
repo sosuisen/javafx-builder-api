@@ -933,6 +933,11 @@ public class ImageViewBuilder {
         operations.add(obj -> obj.setY(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.image.ImageView#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ImageViewBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -941,6 +946,11 @@ public class ImageViewBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.image.ImageView#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final ImageViewBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -949,6 +959,12 @@ public class ImageViewBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.image.ImageView#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ImageViewBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -957,12 +973,18 @@ public class ImageViewBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.image.ImageView#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final ImageViewBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
 
 

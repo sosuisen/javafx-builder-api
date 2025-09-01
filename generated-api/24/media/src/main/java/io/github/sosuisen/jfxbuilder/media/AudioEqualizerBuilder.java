@@ -98,6 +98,11 @@ public class AudioEqualizerBuilder {
         operations.add(obj -> obj.setEnabled(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.media.AudioEqualizer#getBands()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final AudioEqualizerBuilder addBands(javafx.scene.media.EqualizerBand... elements) {
         operations.add(obj -> {
@@ -106,12 +111,18 @@ public class AudioEqualizerBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.media.AudioEqualizer#getBands()} method.
+     * 
+     * @return builder instance
+     */     
     public final AudioEqualizerBuilder addBands(java.util.Collection<? extends javafx.scene.media.EqualizerBand> col) {
         operations.add(obj -> {
             obj.getBands().addAll(col);
         });
         return this;
     }
+
 
     
     /**

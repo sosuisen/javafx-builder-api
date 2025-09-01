@@ -1075,6 +1075,11 @@ public class VBoxBuilder {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final VBoxBuilder addChildren(javafx.scene.Node... elements) {
         operations.add(obj -> {
@@ -1083,6 +1088,11 @@ public class VBoxBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     public final VBoxBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
         operations.add(obj -> {
             obj.getChildren().addAll(col);
@@ -1091,17 +1101,33 @@ public class VBoxBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static VBoxBuilder withChildren(javafx.scene.Node... elements) {
         VBoxBuilder builder = new VBoxBuilder();
         return builder.addChildren(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     public static VBoxBuilder withChildren(java.util.Collection<? extends javafx.scene.Node> col) {
         VBoxBuilder builder = new VBoxBuilder();
         return builder.addChildren(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final VBoxBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1110,6 +1136,11 @@ public class VBoxBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final VBoxBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1118,6 +1149,12 @@ public class VBoxBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final VBoxBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1126,6 +1163,11 @@ public class VBoxBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final VBoxBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1134,6 +1176,12 @@ public class VBoxBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final VBoxBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1142,12 +1190,18 @@ public class VBoxBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.VBox#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final VBoxBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**

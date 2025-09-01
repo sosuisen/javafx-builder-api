@@ -1167,6 +1167,11 @@ public class TreeViewBuilder<T> {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeView#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TreeViewBuilder<T> addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1175,6 +1180,11 @@ public class TreeViewBuilder<T> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeView#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final TreeViewBuilder<T> addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1183,6 +1193,12 @@ public class TreeViewBuilder<T> {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeView#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TreeViewBuilder<T> addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1191,6 +1207,11 @@ public class TreeViewBuilder<T> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeView#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final TreeViewBuilder<T> addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1199,6 +1220,12 @@ public class TreeViewBuilder<T> {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeView#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TreeViewBuilder<T> addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1207,12 +1234,18 @@ public class TreeViewBuilder<T> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeView#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final TreeViewBuilder<T> addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**

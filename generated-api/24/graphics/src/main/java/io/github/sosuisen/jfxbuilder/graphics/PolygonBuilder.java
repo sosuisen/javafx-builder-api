@@ -935,6 +935,11 @@ public class PolygonBuilder {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getPoints()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final PolygonBuilder addPoints(java.lang.Double... elements) {
         operations.add(obj -> {
@@ -943,6 +948,11 @@ public class PolygonBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getPoints()} method.
+     * 
+     * @return builder instance
+     */     
     public final PolygonBuilder addPoints(java.util.Collection<? extends java.lang.Double> col) {
         operations.add(obj -> {
             obj.getPoints().addAll(col);
@@ -951,17 +961,33 @@ public class PolygonBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getPoints()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static PolygonBuilder withPoints(java.lang.Double... elements) {
         PolygonBuilder builder = new PolygonBuilder();
         return builder.addPoints(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getPoints()} method.
+     * 
+     * @return builder instance
+     */     
     public static PolygonBuilder withPoints(java.util.Collection<? extends java.lang.Double> col) {
         PolygonBuilder builder = new PolygonBuilder();
         return builder.addPoints(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getStrokeDashArray()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final PolygonBuilder addStrokeDashArray(java.lang.Double... elements) {
         operations.add(obj -> {
@@ -970,6 +996,11 @@ public class PolygonBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getStrokeDashArray()} method.
+     * 
+     * @return builder instance
+     */     
     public final PolygonBuilder addStrokeDashArray(java.util.Collection<? extends java.lang.Double> col) {
         operations.add(obj -> {
             obj.getStrokeDashArray().addAll(col);
@@ -978,17 +1009,33 @@ public class PolygonBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getStrokeDashArray()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static PolygonBuilder withStrokeDashArray(java.lang.Double... elements) {
         PolygonBuilder builder = new PolygonBuilder();
         return builder.addStrokeDashArray(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getStrokeDashArray()} method.
+     * 
+     * @return builder instance
+     */     
     public static PolygonBuilder withStrokeDashArray(java.util.Collection<? extends java.lang.Double> col) {
         PolygonBuilder builder = new PolygonBuilder();
         return builder.addStrokeDashArray(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final PolygonBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -997,6 +1044,11 @@ public class PolygonBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final PolygonBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1005,6 +1057,12 @@ public class PolygonBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final PolygonBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1013,12 +1071,18 @@ public class PolygonBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Polygon#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final PolygonBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
 
 

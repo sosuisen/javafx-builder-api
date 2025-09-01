@@ -106,6 +106,11 @@ public class MediaBuilder {
         operations.add(obj -> obj.setOnError(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.media.Media#getTracks()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final MediaBuilder addTracks(javafx.scene.media.Track... elements) {
         operations.add(obj -> {
@@ -114,12 +119,18 @@ public class MediaBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.media.Media#getTracks()} method.
+     * 
+     * @return builder instance
+     */     
     public final MediaBuilder addTracks(java.util.Collection<? extends javafx.scene.media.Track> col) {
         operations.add(obj -> {
             obj.getTracks().addAll(col);
         });
         return this;
     }
+
 
     
     /**

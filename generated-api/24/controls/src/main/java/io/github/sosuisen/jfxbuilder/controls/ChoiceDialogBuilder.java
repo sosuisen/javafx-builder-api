@@ -295,6 +295,11 @@ public class ChoiceDialogBuilder<T> {
         operations.add(obj -> obj.setY(y));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceDialog#getItems()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ChoiceDialogBuilder<T> addItems(T... elements) {
         operations.add(obj -> {
@@ -303,6 +308,11 @@ public class ChoiceDialogBuilder<T> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceDialog#getItems()} method.
+     * 
+     * @return builder instance
+     */     
     public final ChoiceDialogBuilder<T> addItems(java.util.Collection<? extends T> col) {
         operations.add(obj -> {
             obj.getItems().addAll(col);
@@ -311,16 +321,27 @@ public class ChoiceDialogBuilder<T> {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceDialog#getItems()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static <T> ChoiceDialogBuilder<T> withItems(T... elements) {
         ChoiceDialogBuilder<T> builder = new ChoiceDialogBuilder<T>();
         return builder.addItems(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceDialog#getItems()} method.
+     * 
+     * @return builder instance
+     */     
     public static <T> ChoiceDialogBuilder<T> withItems(java.util.Collection<? extends T> col) {
         ChoiceDialogBuilder<T> builder = new ChoiceDialogBuilder<T>();
         return builder.addItems(col);
     }
+
     
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceDialog#contentTextProperty()}.

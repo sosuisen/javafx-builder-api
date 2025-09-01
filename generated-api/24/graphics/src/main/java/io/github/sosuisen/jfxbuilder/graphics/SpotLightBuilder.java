@@ -945,6 +945,11 @@ public class SpotLightBuilder {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.SpotLight#getExclusionScope()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final SpotLightBuilder addExclusionScope(javafx.scene.Node... elements) {
         operations.add(obj -> {
@@ -953,6 +958,11 @@ public class SpotLightBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.SpotLight#getExclusionScope()} method.
+     * 
+     * @return builder instance
+     */     
     public final SpotLightBuilder addExclusionScope(java.util.Collection<? extends javafx.scene.Node> col) {
         operations.add(obj -> {
             obj.getExclusionScope().addAll(col);
@@ -961,17 +971,33 @@ public class SpotLightBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.SpotLight#getExclusionScope()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static SpotLightBuilder withExclusionScope(javafx.scene.Node... elements) {
         SpotLightBuilder builder = new SpotLightBuilder();
         return builder.addExclusionScope(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.SpotLight#getExclusionScope()} method.
+     * 
+     * @return builder instance
+     */     
     public static SpotLightBuilder withExclusionScope(java.util.Collection<? extends javafx.scene.Node> col) {
         SpotLightBuilder builder = new SpotLightBuilder();
         return builder.addExclusionScope(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.SpotLight#getScope()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final SpotLightBuilder addScope(javafx.scene.Node... elements) {
         operations.add(obj -> {
@@ -980,6 +1006,11 @@ public class SpotLightBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.SpotLight#getScope()} method.
+     * 
+     * @return builder instance
+     */     
     public final SpotLightBuilder addScope(java.util.Collection<? extends javafx.scene.Node> col) {
         operations.add(obj -> {
             obj.getScope().addAll(col);
@@ -988,17 +1019,33 @@ public class SpotLightBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.SpotLight#getScope()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static SpotLightBuilder withScope(javafx.scene.Node... elements) {
         SpotLightBuilder builder = new SpotLightBuilder();
         return builder.addScope(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.SpotLight#getScope()} method.
+     * 
+     * @return builder instance
+     */     
     public static SpotLightBuilder withScope(java.util.Collection<? extends javafx.scene.Node> col) {
         SpotLightBuilder builder = new SpotLightBuilder();
         return builder.addScope(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.SpotLight#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final SpotLightBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1007,6 +1054,11 @@ public class SpotLightBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.SpotLight#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final SpotLightBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1015,6 +1067,12 @@ public class SpotLightBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.SpotLight#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final SpotLightBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1023,12 +1081,18 @@ public class SpotLightBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.SpotLight#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final SpotLightBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
 
 

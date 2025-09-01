@@ -905,6 +905,11 @@ public class PointLightBuilder {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getExclusionScope()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final PointLightBuilder addExclusionScope(javafx.scene.Node... elements) {
         operations.add(obj -> {
@@ -913,6 +918,11 @@ public class PointLightBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getExclusionScope()} method.
+     * 
+     * @return builder instance
+     */     
     public final PointLightBuilder addExclusionScope(java.util.Collection<? extends javafx.scene.Node> col) {
         operations.add(obj -> {
             obj.getExclusionScope().addAll(col);
@@ -921,17 +931,33 @@ public class PointLightBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getExclusionScope()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static PointLightBuilder withExclusionScope(javafx.scene.Node... elements) {
         PointLightBuilder builder = new PointLightBuilder();
         return builder.addExclusionScope(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getExclusionScope()} method.
+     * 
+     * @return builder instance
+     */     
     public static PointLightBuilder withExclusionScope(java.util.Collection<? extends javafx.scene.Node> col) {
         PointLightBuilder builder = new PointLightBuilder();
         return builder.addExclusionScope(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getScope()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final PointLightBuilder addScope(javafx.scene.Node... elements) {
         operations.add(obj -> {
@@ -940,6 +966,11 @@ public class PointLightBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getScope()} method.
+     * 
+     * @return builder instance
+     */     
     public final PointLightBuilder addScope(java.util.Collection<? extends javafx.scene.Node> col) {
         operations.add(obj -> {
             obj.getScope().addAll(col);
@@ -948,17 +979,33 @@ public class PointLightBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getScope()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static PointLightBuilder withScope(javafx.scene.Node... elements) {
         PointLightBuilder builder = new PointLightBuilder();
         return builder.addScope(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getScope()} method.
+     * 
+     * @return builder instance
+     */     
     public static PointLightBuilder withScope(java.util.Collection<? extends javafx.scene.Node> col) {
         PointLightBuilder builder = new PointLightBuilder();
         return builder.addScope(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final PointLightBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -967,6 +1014,11 @@ public class PointLightBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final PointLightBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -975,6 +1027,12 @@ public class PointLightBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final PointLightBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -983,12 +1041,18 @@ public class PointLightBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.PointLight#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final PointLightBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
 
 

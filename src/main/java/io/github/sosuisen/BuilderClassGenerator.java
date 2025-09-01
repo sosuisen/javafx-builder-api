@@ -427,7 +427,8 @@ public class BuilderClassGenerator {
                             typeParametersExtends,
                             addMethodName,
                             withMethodName,
-                            getterMethodName);
+                            getterMethodName,
+                            className);
                     TemplateOutput output = new StringOutput();
                     templateEngine.render("add-with-methods.jte", model, output);
 

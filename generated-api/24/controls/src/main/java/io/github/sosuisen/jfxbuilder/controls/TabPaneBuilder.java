@@ -1145,6 +1145,11 @@ public class TabPaneBuilder {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TabPaneBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1153,6 +1158,11 @@ public class TabPaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final TabPaneBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1161,6 +1171,12 @@ public class TabPaneBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TabPaneBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1169,6 +1185,11 @@ public class TabPaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final TabPaneBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1177,6 +1198,12 @@ public class TabPaneBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getTabs()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TabPaneBuilder addTabs(javafx.scene.control.Tab... elements) {
         operations.add(obj -> {
@@ -1185,6 +1212,11 @@ public class TabPaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getTabs()} method.
+     * 
+     * @return builder instance
+     */     
     public final TabPaneBuilder addTabs(java.util.Collection<? extends javafx.scene.control.Tab> col) {
         operations.add(obj -> {
             obj.getTabs().addAll(col);
@@ -1193,17 +1225,33 @@ public class TabPaneBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getTabs()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static TabPaneBuilder withTabs(javafx.scene.control.Tab... elements) {
         TabPaneBuilder builder = new TabPaneBuilder();
         return builder.addTabs(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getTabs()} method.
+     * 
+     * @return builder instance
+     */     
     public static TabPaneBuilder withTabs(java.util.Collection<? extends javafx.scene.control.Tab> col) {
         TabPaneBuilder builder = new TabPaneBuilder();
         return builder.addTabs(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TabPaneBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1212,12 +1260,18 @@ public class TabPaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TabPane#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final TabPaneBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**

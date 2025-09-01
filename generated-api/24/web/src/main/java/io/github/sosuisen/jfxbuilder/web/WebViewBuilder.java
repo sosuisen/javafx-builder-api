@@ -977,6 +977,11 @@ public class WebViewBuilder {
         operations.add(obj -> obj.setZoom(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.web.WebView#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final WebViewBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -985,6 +990,11 @@ public class WebViewBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.web.WebView#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final WebViewBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -993,6 +1003,12 @@ public class WebViewBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.web.WebView#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final WebViewBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1001,6 +1017,11 @@ public class WebViewBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.web.WebView#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final WebViewBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1009,6 +1030,12 @@ public class WebViewBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.web.WebView#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final WebViewBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1017,12 +1044,18 @@ public class WebViewBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.web.WebView#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final WebViewBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**
