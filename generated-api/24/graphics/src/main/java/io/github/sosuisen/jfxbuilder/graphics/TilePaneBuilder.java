@@ -1167,6 +1167,11 @@ public class TilePaneBuilder {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TilePaneBuilder addChildren(javafx.scene.Node... elements) {
         operations.add(obj -> {
@@ -1175,6 +1180,11 @@ public class TilePaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     public final TilePaneBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
         operations.add(obj -> {
             obj.getChildren().addAll(col);
@@ -1183,17 +1193,33 @@ public class TilePaneBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static TilePaneBuilder withChildren(javafx.scene.Node... elements) {
         TilePaneBuilder builder = new TilePaneBuilder();
         return builder.addChildren(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     public static TilePaneBuilder withChildren(java.util.Collection<? extends javafx.scene.Node> col) {
         TilePaneBuilder builder = new TilePaneBuilder();
         return builder.addChildren(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TilePaneBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1202,6 +1228,11 @@ public class TilePaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final TilePaneBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1210,6 +1241,12 @@ public class TilePaneBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TilePaneBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1218,6 +1255,11 @@ public class TilePaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final TilePaneBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1226,6 +1268,12 @@ public class TilePaneBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TilePaneBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1234,12 +1282,18 @@ public class TilePaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.TilePane#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final TilePaneBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**

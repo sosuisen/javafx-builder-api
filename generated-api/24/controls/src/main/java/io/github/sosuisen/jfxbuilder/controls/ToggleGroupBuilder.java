@@ -107,6 +107,11 @@ public class ToggleGroupBuilder {
         operations.add(obj -> obj.setUserData(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleGroup#getToggles()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ToggleGroupBuilder addToggles(javafx.scene.control.Toggle... elements) {
         operations.add(obj -> {
@@ -115,6 +120,11 @@ public class ToggleGroupBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleGroup#getToggles()} method.
+     * 
+     * @return builder instance
+     */     
     public final ToggleGroupBuilder addToggles(java.util.Collection<? extends javafx.scene.control.Toggle> col) {
         operations.add(obj -> {
             obj.getToggles().addAll(col);
@@ -123,16 +133,27 @@ public class ToggleGroupBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleGroup#getToggles()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static ToggleGroupBuilder withToggles(javafx.scene.control.Toggle... elements) {
         ToggleGroupBuilder builder = new ToggleGroupBuilder();
         return builder.addToggles(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ToggleGroup#getToggles()} method.
+     * 
+     * @return builder instance
+     */     
     public static ToggleGroupBuilder withToggles(java.util.Collection<? extends javafx.scene.control.Toggle> col) {
         ToggleGroupBuilder builder = new ToggleGroupBuilder();
         return builder.addToggles(col);
     }
+
     
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleGroup#selectedToggleProperty()}.

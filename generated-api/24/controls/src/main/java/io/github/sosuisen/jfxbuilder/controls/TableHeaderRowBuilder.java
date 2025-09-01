@@ -1040,6 +1040,11 @@ public class TableHeaderRowBuilder {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TableHeaderRowBuilder addChildren(javafx.scene.Node... elements) {
         operations.add(obj -> {
@@ -1048,6 +1053,11 @@ public class TableHeaderRowBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     public final TableHeaderRowBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
         operations.add(obj -> {
             obj.getChildren().addAll(col);
@@ -1056,6 +1066,12 @@ public class TableHeaderRowBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TableHeaderRowBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1064,6 +1080,11 @@ public class TableHeaderRowBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final TableHeaderRowBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1072,6 +1093,12 @@ public class TableHeaderRowBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TableHeaderRowBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1080,6 +1107,11 @@ public class TableHeaderRowBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final TableHeaderRowBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1088,6 +1120,12 @@ public class TableHeaderRowBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TableHeaderRowBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1096,12 +1134,18 @@ public class TableHeaderRowBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableHeaderRow#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final TableHeaderRowBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**

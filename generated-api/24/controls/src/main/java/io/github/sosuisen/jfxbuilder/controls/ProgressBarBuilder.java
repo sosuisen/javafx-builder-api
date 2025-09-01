@@ -1065,6 +1065,11 @@ public class ProgressBarBuilder {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressBar#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ProgressBarBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1073,6 +1078,11 @@ public class ProgressBarBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressBar#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final ProgressBarBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1081,6 +1091,12 @@ public class ProgressBarBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressBar#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ProgressBarBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1089,6 +1105,11 @@ public class ProgressBarBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressBar#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final ProgressBarBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1097,6 +1118,12 @@ public class ProgressBarBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressBar#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ProgressBarBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1105,12 +1132,18 @@ public class ProgressBarBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressBar#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final ProgressBarBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**

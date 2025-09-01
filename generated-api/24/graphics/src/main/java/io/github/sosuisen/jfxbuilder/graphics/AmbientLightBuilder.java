@@ -865,6 +865,11 @@ public class AmbientLightBuilder {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getExclusionScope()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final AmbientLightBuilder addExclusionScope(javafx.scene.Node... elements) {
         operations.add(obj -> {
@@ -873,6 +878,11 @@ public class AmbientLightBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getExclusionScope()} method.
+     * 
+     * @return builder instance
+     */     
     public final AmbientLightBuilder addExclusionScope(java.util.Collection<? extends javafx.scene.Node> col) {
         operations.add(obj -> {
             obj.getExclusionScope().addAll(col);
@@ -881,17 +891,33 @@ public class AmbientLightBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getExclusionScope()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static AmbientLightBuilder withExclusionScope(javafx.scene.Node... elements) {
         AmbientLightBuilder builder = new AmbientLightBuilder();
         return builder.addExclusionScope(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getExclusionScope()} method.
+     * 
+     * @return builder instance
+     */     
     public static AmbientLightBuilder withExclusionScope(java.util.Collection<? extends javafx.scene.Node> col) {
         AmbientLightBuilder builder = new AmbientLightBuilder();
         return builder.addExclusionScope(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getScope()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final AmbientLightBuilder addScope(javafx.scene.Node... elements) {
         operations.add(obj -> {
@@ -900,6 +926,11 @@ public class AmbientLightBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getScope()} method.
+     * 
+     * @return builder instance
+     */     
     public final AmbientLightBuilder addScope(java.util.Collection<? extends javafx.scene.Node> col) {
         operations.add(obj -> {
             obj.getScope().addAll(col);
@@ -908,17 +939,33 @@ public class AmbientLightBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getScope()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static AmbientLightBuilder withScope(javafx.scene.Node... elements) {
         AmbientLightBuilder builder = new AmbientLightBuilder();
         return builder.addScope(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getScope()} method.
+     * 
+     * @return builder instance
+     */     
     public static AmbientLightBuilder withScope(java.util.Collection<? extends javafx.scene.Node> col) {
         AmbientLightBuilder builder = new AmbientLightBuilder();
         return builder.addScope(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final AmbientLightBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -927,6 +974,11 @@ public class AmbientLightBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final AmbientLightBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -935,6 +987,12 @@ public class AmbientLightBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final AmbientLightBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -943,12 +1001,18 @@ public class AmbientLightBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.AmbientLight#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final AmbientLightBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
 
 

@@ -447,6 +447,11 @@ public class PopupControlBuilder {
         operations.add(obj -> obj.setY(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.PopupControl#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final PopupControlBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -455,12 +460,18 @@ public class PopupControlBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.PopupControl#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final PopupControlBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
         });
         return this;
     }
+
 
     
     /**

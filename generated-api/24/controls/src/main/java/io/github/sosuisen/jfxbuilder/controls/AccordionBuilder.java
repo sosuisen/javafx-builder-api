@@ -1065,6 +1065,11 @@ public class AccordionBuilder {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getPanes()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final AccordionBuilder addPanes(javafx.scene.control.TitledPane... elements) {
         operations.add(obj -> {
@@ -1073,6 +1078,11 @@ public class AccordionBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getPanes()} method.
+     * 
+     * @return builder instance
+     */     
     public final AccordionBuilder addPanes(java.util.Collection<? extends javafx.scene.control.TitledPane> col) {
         operations.add(obj -> {
             obj.getPanes().addAll(col);
@@ -1081,17 +1091,33 @@ public class AccordionBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getPanes()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static AccordionBuilder withPanes(javafx.scene.control.TitledPane... elements) {
         AccordionBuilder builder = new AccordionBuilder();
         return builder.addPanes(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getPanes()} method.
+     * 
+     * @return builder instance
+     */     
     public static AccordionBuilder withPanes(java.util.Collection<? extends javafx.scene.control.TitledPane> col) {
         AccordionBuilder builder = new AccordionBuilder();
         return builder.addPanes(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final AccordionBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1100,6 +1126,11 @@ public class AccordionBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final AccordionBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1108,6 +1139,12 @@ public class AccordionBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final AccordionBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1116,6 +1153,11 @@ public class AccordionBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final AccordionBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1124,6 +1166,12 @@ public class AccordionBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final AccordionBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1132,12 +1180,18 @@ public class AccordionBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Accordion#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final AccordionBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**

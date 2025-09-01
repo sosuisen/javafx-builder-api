@@ -1125,6 +1125,11 @@ public class PieChartBuilder {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getData()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final PieChartBuilder addData(javafx.scene.chart.PieChart.Data... elements) {
         operations.add(obj -> {
@@ -1133,6 +1138,11 @@ public class PieChartBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getData()} method.
+     * 
+     * @return builder instance
+     */     
     public final PieChartBuilder addData(java.util.Collection<? extends javafx.scene.chart.PieChart.Data> col) {
         operations.add(obj -> {
             obj.getData().addAll(col);
@@ -1141,17 +1151,33 @@ public class PieChartBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getData()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static PieChartBuilder withData(javafx.scene.chart.PieChart.Data... elements) {
         PieChartBuilder builder = new PieChartBuilder();
         return builder.addData(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getData()} method.
+     * 
+     * @return builder instance
+     */     
     public static PieChartBuilder withData(java.util.Collection<? extends javafx.scene.chart.PieChart.Data> col) {
         PieChartBuilder builder = new PieChartBuilder();
         return builder.addData(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final PieChartBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1160,6 +1186,11 @@ public class PieChartBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final PieChartBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1168,6 +1199,12 @@ public class PieChartBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final PieChartBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1176,6 +1213,11 @@ public class PieChartBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final PieChartBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1184,6 +1226,12 @@ public class PieChartBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final PieChartBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1192,12 +1240,18 @@ public class PieChartBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.PieChart#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final PieChartBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**

@@ -145,6 +145,11 @@ public class TreeItemBuilder<T> {
         operations.add(obj -> obj.setValue(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeItem#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TreeItemBuilder<T> addChildren(javafx.scene.control.TreeItem<T>... elements) {
         operations.add(obj -> {
@@ -153,6 +158,11 @@ public class TreeItemBuilder<T> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeItem#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     public final TreeItemBuilder<T> addChildren(java.util.Collection<? extends javafx.scene.control.TreeItem<T>> col) {
         operations.add(obj -> {
             obj.getChildren().addAll(col);
@@ -161,16 +171,27 @@ public class TreeItemBuilder<T> {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeItem#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static <T> TreeItemBuilder<T> withChildren(javafx.scene.control.TreeItem<T>... elements) {
         TreeItemBuilder<T> builder = new TreeItemBuilder<T>();
         return builder.addChildren(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeItem#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     public static <T> TreeItemBuilder<T> withChildren(java.util.Collection<? extends javafx.scene.control.TreeItem<T>> col) {
         TreeItemBuilder<T> builder = new TreeItemBuilder<T>();
         return builder.addChildren(col);
     }
+
     
     /**
      * Applies a function to the {@link javafx.scene.control.TreeItem#expandedProperty()}.

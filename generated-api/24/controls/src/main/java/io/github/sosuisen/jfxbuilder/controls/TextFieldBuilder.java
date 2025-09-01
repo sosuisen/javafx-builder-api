@@ -1135,6 +1135,11 @@ public class TextFieldBuilder {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextField#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TextFieldBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1143,6 +1148,11 @@ public class TextFieldBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextField#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final TextFieldBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1151,6 +1161,12 @@ public class TextFieldBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextField#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TextFieldBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1159,6 +1175,11 @@ public class TextFieldBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextField#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final TextFieldBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1167,6 +1188,12 @@ public class TextFieldBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextField#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final TextFieldBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1175,12 +1202,18 @@ public class TextFieldBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextField#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final TextFieldBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**

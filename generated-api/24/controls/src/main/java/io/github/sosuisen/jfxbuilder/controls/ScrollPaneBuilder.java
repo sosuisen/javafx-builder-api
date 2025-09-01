@@ -1225,6 +1225,11 @@ public class ScrollPaneBuilder {
         operations.add(obj -> obj.setVvalue(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollPane#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ScrollPaneBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1233,6 +1238,11 @@ public class ScrollPaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollPane#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final ScrollPaneBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1241,6 +1251,12 @@ public class ScrollPaneBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollPane#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ScrollPaneBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1249,6 +1265,11 @@ public class ScrollPaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollPane#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final ScrollPaneBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1257,6 +1278,12 @@ public class ScrollPaneBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollPane#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ScrollPaneBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1265,12 +1292,18 @@ public class ScrollPaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ScrollPane#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final ScrollPaneBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**

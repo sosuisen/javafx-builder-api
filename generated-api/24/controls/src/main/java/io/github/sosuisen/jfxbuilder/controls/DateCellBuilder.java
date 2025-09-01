@@ -1207,6 +1207,11 @@ public class DateCellBuilder {
         operations.add(obj -> obj.setWrapText(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DateCell#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final DateCellBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1215,6 +1220,11 @@ public class DateCellBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DateCell#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final DateCellBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1223,6 +1233,12 @@ public class DateCellBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DateCell#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final DateCellBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1231,6 +1247,11 @@ public class DateCellBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DateCell#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final DateCellBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1239,6 +1260,12 @@ public class DateCellBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DateCell#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final DateCellBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1247,12 +1274,18 @@ public class DateCellBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DateCell#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final DateCellBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**

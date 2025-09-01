@@ -1209,6 +1209,11 @@ public class ProgressBarTableCellBuilder<S> {
         operations.add(obj -> obj.setWrapText(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ProgressBarTableCell#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ProgressBarTableCellBuilder<S> addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1217,6 +1222,11 @@ public class ProgressBarTableCellBuilder<S> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ProgressBarTableCell#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final ProgressBarTableCellBuilder<S> addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1225,6 +1235,12 @@ public class ProgressBarTableCellBuilder<S> {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ProgressBarTableCell#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ProgressBarTableCellBuilder<S> addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1233,6 +1249,11 @@ public class ProgressBarTableCellBuilder<S> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ProgressBarTableCell#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final ProgressBarTableCellBuilder<S> addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1241,6 +1262,12 @@ public class ProgressBarTableCellBuilder<S> {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ProgressBarTableCell#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ProgressBarTableCellBuilder<S> addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1249,12 +1276,18 @@ public class ProgressBarTableCellBuilder<S> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ProgressBarTableCell#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final ProgressBarTableCellBuilder<S> addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**

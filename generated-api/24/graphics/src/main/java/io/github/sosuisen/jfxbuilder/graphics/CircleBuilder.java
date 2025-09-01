@@ -989,6 +989,11 @@ public class CircleBuilder {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getStrokeDashArray()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final CircleBuilder addStrokeDashArray(java.lang.Double... elements) {
         operations.add(obj -> {
@@ -997,6 +1002,11 @@ public class CircleBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getStrokeDashArray()} method.
+     * 
+     * @return builder instance
+     */     
     public final CircleBuilder addStrokeDashArray(java.util.Collection<? extends java.lang.Double> col) {
         operations.add(obj -> {
             obj.getStrokeDashArray().addAll(col);
@@ -1005,17 +1015,33 @@ public class CircleBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getStrokeDashArray()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static CircleBuilder withStrokeDashArray(java.lang.Double... elements) {
         CircleBuilder builder = new CircleBuilder();
         return builder.addStrokeDashArray(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getStrokeDashArray()} method.
+     * 
+     * @return builder instance
+     */     
     public static CircleBuilder withStrokeDashArray(java.util.Collection<? extends java.lang.Double> col) {
         CircleBuilder builder = new CircleBuilder();
         return builder.addStrokeDashArray(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final CircleBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1024,6 +1050,11 @@ public class CircleBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final CircleBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1032,6 +1063,12 @@ public class CircleBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final CircleBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1040,12 +1077,18 @@ public class CircleBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Circle#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final CircleBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
 
 

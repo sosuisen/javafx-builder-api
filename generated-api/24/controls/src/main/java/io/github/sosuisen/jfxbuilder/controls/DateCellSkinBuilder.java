@@ -96,6 +96,11 @@ public class DateCellSkinBuilder {
         operations.add(func);
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.DateCellSkin#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final DateCellSkinBuilder addChildren(javafx.scene.Node... elements) {
         operations.add(obj -> {
@@ -104,12 +109,18 @@ public class DateCellSkinBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.DateCellSkin#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     public final DateCellSkinBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
         operations.add(obj -> {
             obj.getChildren().addAll(col);
         });
         return this;
     }
+
 
     
     /**

@@ -1091,6 +1091,11 @@ public class DialogPaneBuilder {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getButtonTypes()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final DialogPaneBuilder addButtonTypes(javafx.scene.control.ButtonType... elements) {
         operations.add(obj -> {
@@ -1099,6 +1104,11 @@ public class DialogPaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getButtonTypes()} method.
+     * 
+     * @return builder instance
+     */     
     public final DialogPaneBuilder addButtonTypes(java.util.Collection<? extends javafx.scene.control.ButtonType> col) {
         operations.add(obj -> {
             obj.getButtonTypes().addAll(col);
@@ -1107,17 +1117,33 @@ public class DialogPaneBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getButtonTypes()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static DialogPaneBuilder withButtonTypes(javafx.scene.control.ButtonType... elements) {
         DialogPaneBuilder builder = new DialogPaneBuilder();
         return builder.addButtonTypes(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getButtonTypes()} method.
+     * 
+     * @return builder instance
+     */     
     public static DialogPaneBuilder withButtonTypes(java.util.Collection<? extends javafx.scene.control.ButtonType> col) {
         DialogPaneBuilder builder = new DialogPaneBuilder();
         return builder.addButtonTypes(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final DialogPaneBuilder addChildren(javafx.scene.Node... elements) {
         operations.add(obj -> {
@@ -1126,6 +1152,11 @@ public class DialogPaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     public final DialogPaneBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
         operations.add(obj -> {
             obj.getChildren().addAll(col);
@@ -1134,17 +1165,33 @@ public class DialogPaneBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static DialogPaneBuilder withChildren(javafx.scene.Node... elements) {
         DialogPaneBuilder builder = new DialogPaneBuilder();
         return builder.addChildren(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     public static DialogPaneBuilder withChildren(java.util.Collection<? extends javafx.scene.Node> col) {
         DialogPaneBuilder builder = new DialogPaneBuilder();
         return builder.addChildren(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final DialogPaneBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1153,6 +1200,11 @@ public class DialogPaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final DialogPaneBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1161,6 +1213,12 @@ public class DialogPaneBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final DialogPaneBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1169,6 +1227,11 @@ public class DialogPaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final DialogPaneBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1177,6 +1240,12 @@ public class DialogPaneBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final DialogPaneBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1185,12 +1254,18 @@ public class DialogPaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DialogPane#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final DialogPaneBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**

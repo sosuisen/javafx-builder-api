@@ -108,6 +108,11 @@ public class ComboBoxListViewSkinBuilder<T> {
         operations.add(obj -> obj.setHideOnClick(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ComboBoxListViewSkin#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ComboBoxListViewSkinBuilder<T> addChildren(javafx.scene.Node... elements) {
         operations.add(obj -> {
@@ -116,12 +121,18 @@ public class ComboBoxListViewSkinBuilder<T> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ComboBoxListViewSkin#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     public final ComboBoxListViewSkinBuilder<T> addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
         operations.add(obj -> {
             obj.getChildren().addAll(col);
         });
         return this;
     }
+
 
     
     /**

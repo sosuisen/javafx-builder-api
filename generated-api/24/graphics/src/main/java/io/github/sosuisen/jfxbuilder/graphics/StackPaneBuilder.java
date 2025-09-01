@@ -1039,6 +1039,11 @@ public class StackPaneBuilder {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.StackPane#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final StackPaneBuilder addChildren(javafx.scene.Node... elements) {
         operations.add(obj -> {
@@ -1047,6 +1052,11 @@ public class StackPaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.StackPane#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     public final StackPaneBuilder addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
         operations.add(obj -> {
             obj.getChildren().addAll(col);
@@ -1055,17 +1065,33 @@ public class StackPaneBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.StackPane#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static StackPaneBuilder withChildren(javafx.scene.Node... elements) {
         StackPaneBuilder builder = new StackPaneBuilder();
         return builder.addChildren(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.StackPane#getChildren()} method.
+     * 
+     * @return builder instance
+     */     
     public static StackPaneBuilder withChildren(java.util.Collection<? extends javafx.scene.Node> col) {
         StackPaneBuilder builder = new StackPaneBuilder();
         return builder.addChildren(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.StackPane#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final StackPaneBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1074,6 +1100,11 @@ public class StackPaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.StackPane#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final StackPaneBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1082,6 +1113,12 @@ public class StackPaneBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.StackPane#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final StackPaneBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1090,6 +1127,11 @@ public class StackPaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.StackPane#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final StackPaneBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1098,6 +1140,12 @@ public class StackPaneBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.StackPane#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final StackPaneBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1106,12 +1154,18 @@ public class StackPaneBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.layout.StackPane#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final StackPaneBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**

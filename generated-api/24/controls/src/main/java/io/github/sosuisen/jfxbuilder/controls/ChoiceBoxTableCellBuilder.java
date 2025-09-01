@@ -1251,6 +1251,11 @@ public class ChoiceBoxTableCellBuilder<S, T> {
         operations.add(obj -> obj.setWrapText(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getItems()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ChoiceBoxTableCellBuilder<S, T> addItems(T... elements) {
         operations.add(obj -> {
@@ -1259,6 +1264,11 @@ public class ChoiceBoxTableCellBuilder<S, T> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getItems()} method.
+     * 
+     * @return builder instance
+     */     
     public final ChoiceBoxTableCellBuilder<S, T> addItems(java.util.Collection<? extends T> col) {
         operations.add(obj -> {
             obj.getItems().addAll(col);
@@ -1267,17 +1277,33 @@ public class ChoiceBoxTableCellBuilder<S, T> {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getItems()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static <S, T> ChoiceBoxTableCellBuilder<S, T> withItems(T... elements) {
         ChoiceBoxTableCellBuilder<S, T> builder = new ChoiceBoxTableCellBuilder<S, T>();
         return builder.addItems(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getItems()} method.
+     * 
+     * @return builder instance
+     */     
     public static <S, T> ChoiceBoxTableCellBuilder<S, T> withItems(java.util.Collection<? extends T> col) {
         ChoiceBoxTableCellBuilder<S, T> builder = new ChoiceBoxTableCellBuilder<S, T>();
         return builder.addItems(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ChoiceBoxTableCellBuilder<S, T> addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1286,6 +1312,11 @@ public class ChoiceBoxTableCellBuilder<S, T> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final ChoiceBoxTableCellBuilder<S, T> addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1294,6 +1325,12 @@ public class ChoiceBoxTableCellBuilder<S, T> {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ChoiceBoxTableCellBuilder<S, T> addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1302,6 +1339,11 @@ public class ChoiceBoxTableCellBuilder<S, T> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final ChoiceBoxTableCellBuilder<S, T> addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1310,6 +1352,12 @@ public class ChoiceBoxTableCellBuilder<S, T> {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ChoiceBoxTableCellBuilder<S, T> addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1318,12 +1366,18 @@ public class ChoiceBoxTableCellBuilder<S, T> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTableCell#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final ChoiceBoxTableCellBuilder<S, T> addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**

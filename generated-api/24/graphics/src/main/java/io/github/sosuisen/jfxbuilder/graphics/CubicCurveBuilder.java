@@ -1015,6 +1015,11 @@ public class CubicCurveBuilder {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getStrokeDashArray()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final CubicCurveBuilder addStrokeDashArray(java.lang.Double... elements) {
         operations.add(obj -> {
@@ -1023,6 +1028,11 @@ public class CubicCurveBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getStrokeDashArray()} method.
+     * 
+     * @return builder instance
+     */     
     public final CubicCurveBuilder addStrokeDashArray(java.util.Collection<? extends java.lang.Double> col) {
         operations.add(obj -> {
             obj.getStrokeDashArray().addAll(col);
@@ -1031,17 +1041,33 @@ public class CubicCurveBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getStrokeDashArray()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static CubicCurveBuilder withStrokeDashArray(java.lang.Double... elements) {
         CubicCurveBuilder builder = new CubicCurveBuilder();
         return builder.addStrokeDashArray(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getStrokeDashArray()} method.
+     * 
+     * @return builder instance
+     */     
     public static CubicCurveBuilder withStrokeDashArray(java.util.Collection<? extends java.lang.Double> col) {
         CubicCurveBuilder builder = new CubicCurveBuilder();
         return builder.addStrokeDashArray(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final CubicCurveBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1050,6 +1076,11 @@ public class CubicCurveBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final CubicCurveBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1058,6 +1089,12 @@ public class CubicCurveBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final CubicCurveBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1066,12 +1103,18 @@ public class CubicCurveBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.CubicCurve#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final CubicCurveBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
 
 

@@ -9,17 +9,19 @@ public record AddWithMethodModel(
         String typeParametersExtends,
         String addMethodName,
         String withMethodName,
-        String getterMethodName) {
+        String getterMethodName,
+        String originalClassName) {
 
     public static AddWithMethodModel create(String builderClassNameWithTypeParameter,
             String observableListTypeParameter, String typeParametersExtends, String addMethodName,
-            String withMethodName, String getterMethodName) {
+            String withMethodName, String getterMethodName, String originalClassName) {
         return new AddWithMethodModel(
                 builderClassNameWithTypeParameter,
                 observableListTypeParameter,
                 typeParametersExtends,
                 addMethodName,
                 withMethodName,
-                getterMethodName);
+                getterMethodName,
+                originalClassName);
     }
 }

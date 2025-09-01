@@ -1135,6 +1135,11 @@ public class ColorPickerBuilder {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getCustomColors()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ColorPickerBuilder addCustomColors(javafx.scene.paint.Color... elements) {
         operations.add(obj -> {
@@ -1143,6 +1148,11 @@ public class ColorPickerBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getCustomColors()} method.
+     * 
+     * @return builder instance
+     */     
     public final ColorPickerBuilder addCustomColors(java.util.Collection<? extends javafx.scene.paint.Color> col) {
         operations.add(obj -> {
             obj.getCustomColors().addAll(col);
@@ -1151,17 +1161,33 @@ public class ColorPickerBuilder {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getCustomColors()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static ColorPickerBuilder withCustomColors(javafx.scene.paint.Color... elements) {
         ColorPickerBuilder builder = new ColorPickerBuilder();
         return builder.addCustomColors(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getCustomColors()} method.
+     * 
+     * @return builder instance
+     */     
     public static ColorPickerBuilder withCustomColors(java.util.Collection<? extends javafx.scene.paint.Color> col) {
         ColorPickerBuilder builder = new ColorPickerBuilder();
         return builder.addCustomColors(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ColorPickerBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1170,6 +1196,11 @@ public class ColorPickerBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final ColorPickerBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1178,6 +1209,12 @@ public class ColorPickerBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ColorPickerBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1186,6 +1223,11 @@ public class ColorPickerBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final ColorPickerBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1194,6 +1236,12 @@ public class ColorPickerBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ColorPickerBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1202,12 +1250,18 @@ public class ColorPickerBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ColorPicker#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final ColorPickerBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**

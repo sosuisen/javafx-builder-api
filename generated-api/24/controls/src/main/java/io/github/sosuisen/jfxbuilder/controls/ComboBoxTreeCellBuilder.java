@@ -1271,6 +1271,11 @@ public class ComboBoxTreeCellBuilder<T> {
         operations.add(obj -> obj.setWrapText(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeCell#getItems()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ComboBoxTreeCellBuilder<T> addItems(T... elements) {
         operations.add(obj -> {
@@ -1279,6 +1284,11 @@ public class ComboBoxTreeCellBuilder<T> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeCell#getItems()} method.
+     * 
+     * @return builder instance
+     */     
     public final ComboBoxTreeCellBuilder<T> addItems(java.util.Collection<? extends T> col) {
         operations.add(obj -> {
             obj.getItems().addAll(col);
@@ -1287,17 +1297,33 @@ public class ComboBoxTreeCellBuilder<T> {
     }
 
 
+    /**
+     * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeCell#getItems()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public static <T> ComboBoxTreeCellBuilder<T> withItems(T... elements) {
         ComboBoxTreeCellBuilder<T> builder = new ComboBoxTreeCellBuilder<T>();
         return builder.addItems(elements);
     }
 
+    /**
+     * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeCell#getItems()} method.
+     * 
+     * @return builder instance
+     */     
     public static <T> ComboBoxTreeCellBuilder<T> withItems(java.util.Collection<? extends T> col) {
         ComboBoxTreeCellBuilder<T> builder = new ComboBoxTreeCellBuilder<T>();
         return builder.addItems(col);
     }
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeCell#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ComboBoxTreeCellBuilder<T> addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1306,6 +1332,11 @@ public class ComboBoxTreeCellBuilder<T> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeCell#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final ComboBoxTreeCellBuilder<T> addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1314,6 +1345,12 @@ public class ComboBoxTreeCellBuilder<T> {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeCell#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ComboBoxTreeCellBuilder<T> addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1322,6 +1359,11 @@ public class ComboBoxTreeCellBuilder<T> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeCell#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final ComboBoxTreeCellBuilder<T> addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1330,6 +1372,12 @@ public class ComboBoxTreeCellBuilder<T> {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeCell#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final ComboBoxTreeCellBuilder<T> addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1338,12 +1386,18 @@ public class ComboBoxTreeCellBuilder<T> {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ComboBoxTreeCell#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final ComboBoxTreeCellBuilder<T> addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**

@@ -1235,6 +1235,11 @@ public class CheckBoxBuilder {
         operations.add(obj -> obj.setWrapText(value));
         return this;
     }
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBox#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final CheckBoxBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1243,6 +1248,11 @@ public class CheckBoxBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBox#getStyleClass()} method.
+     * 
+     * @return builder instance
+     */     
     public final CheckBoxBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1251,6 +1261,12 @@ public class CheckBoxBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBox#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final CheckBoxBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1259,6 +1275,11 @@ public class CheckBoxBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBox#getStylesheets()} method.
+     * 
+     * @return builder instance
+     */     
     public final CheckBoxBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1267,6 +1288,12 @@ public class CheckBoxBuilder {
     }
 
 
+
+    /**
+     * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBox#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     @SafeVarargs
     public final CheckBoxBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1275,12 +1302,18 @@ public class CheckBoxBuilder {
         return this;
     }
 
+    /**
+     * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBox#getTransforms()} method.
+     * 
+     * @return builder instance
+     */     
     public final CheckBoxBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
         });
         return this;
     }
+
 
     
     /**
