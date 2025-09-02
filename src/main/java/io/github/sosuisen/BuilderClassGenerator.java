@@ -246,64 +246,14 @@ public class BuilderClassGenerator {
     }
 
     private String generateLayoutConstraintMethods() {
-        // Check if current class inherits from javafx.scene.Node
-        if (!classMetadata.isNodeClass()) {
+        LayoutConstraintMethodModel model = LayoutConstraintMethodModel.builder()
+                .classMetadata(classMetadata)
+                .staticSetters(staticSetters)
+                .build();
+
+        if (model.methods().isEmpty()) {
             return "";
         }
-
-        // Create individual methods for each static setter
-        List<LayoutConstraintMethodModel.LayoutConstraintMethod> methods = new ArrayList<>();
-
-        for (StaticSetterInfo setterInfo : staticSetters) {
-            // Create method name as XXXXIn{SourceClassName}
-            String setterName = setterInfo.methodName().substring(3); // Remove "set" prefix
-            String sourceClassName = setterInfo.sourceClass().getSimpleName();
-
-            // Apply special naming logic
-            String camelCaseSetterName;
-            // Special handling for names starting with 'H' or 'V' followed by lowercase
-            // e.g., "Halignment" -> "hAlignment", "Vgrow" -> "vGrow"
-            if (setterName.length() >= 2 &&
-                    (setterName.charAt(0) == 'H' || setterName.charAt(0) == 'V') &&
-                    Character.isLowerCase(setterName.charAt(1))) {
-
-                String firstChar = String.valueOf(setterName.charAt(0)).toLowerCase();
-                String secondChar = String.valueOf(setterName.charAt(1)).toUpperCase();
-                String remainder = setterName.substring(2);
-                camelCaseSetterName = firstChar + secondChar + remainder;
-            } else {
-                // Standard case: just lowercase the first character
-                String firstChar = String.valueOf(setterName.charAt(0)).toLowerCase();
-                String remainder = setterName.substring(1);
-                camelCaseSetterName = firstChar + remainder;
-            }
-
-            String methodName = camelCaseSetterName + "In" + sourceClassName;
-
-            // Filter out Node parameters and create parameter list
-            var filteredParams = ParameterInfo.filterNodeParameters(setterInfo.parameters());
-            String parameterList = ParameterInfo.buildParameterList(filteredParams, classMetadata.getClassName());
-            String argumentList = ParameterInfo.buildArgumentList(filteredParams);
-
-            // Create single StaticCall for this setter
-            LayoutConstraintMethodModel.StaticCall staticCall = new LayoutConstraintMethodModel.StaticCall(
-                    setterInfo.sourceClass().getName(),
-                    setterInfo.methodName(),
-                    argumentList);
-
-            methods.add(new LayoutConstraintMethodModel.LayoutConstraintMethod(
-                    methodName,
-                    parameterList,
-                    staticCall));
-        }
-
-        if (methods.isEmpty()) {
-            return "";
-        }
-
-        LayoutConstraintMethodModel model = LayoutConstraintMethodModel.create(
-                classMetadata.builderClassNameWithTypeParameter(),
-                methods);
 
         TemplateOutput output = new StringOutput();
         templateEngine.render("layout-constraint-methods.jte", model, output);
