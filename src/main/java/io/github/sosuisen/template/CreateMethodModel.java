@@ -63,7 +63,8 @@ public record CreateMethodModel(
 
         public CreateMethodModel buildParameterized() {
             if (classMetadata == null || parameterList == null || argumentList == null) {
-                throw new IllegalStateException("classMetadata, parameterList, and argumentList are required for parameterized constructor");
+                throw new IllegalStateException(
+                        "classMetadata, parameterList, and argumentList are required for parameterized constructor");
             }
 
             return new CreateMethodModel(
@@ -78,41 +79,4 @@ public record CreateMethodModel(
         }
     }
 
-    // Keep the old create methods for backward compatibility (deprecated)
-    @Deprecated
-    public static CreateMethodModel createDefault(
-            String typeParameters,
-            String typeParametersWithExtends,
-            String builderClassNameWithTypeParameter,
-            String builderClassName) {
-        return new CreateMethodModel(
-                typeParameters,
-                typeParametersWithExtends,
-                builderClassNameWithTypeParameter,
-                builderClassName,
-                true,
-                "",
-                "",
-                false);
-    }
-
-    @Deprecated
-    public static CreateMethodModel createParameterized(
-            String typeParameters,
-            String typeParametersWithExtends,
-            String builderClassNameWithTypeParameter,
-            String builderClassName,
-            String parameterList,
-            String argumentList,
-            boolean isVarArgs) {
-        return new CreateMethodModel(
-                typeParameters,
-                typeParametersWithExtends,
-                builderClassNameWithTypeParameter,
-                builderClassName,
-                false,
-                parameterList,
-                argumentList,
-                isVarArgs);
-    }
 }

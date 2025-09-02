@@ -41,7 +41,6 @@ import io.github.sosuisen.template.StylesheetMethodModel;
 public class BuilderClassGenerator {
     private static final TemplateEngine templateEngine = initializeTemplateEngine();
 
-    private final String packageName;
     private final String[] outputDir;
     private final Class<?> clazz;
     private final ClassMetadata classMetadata;
@@ -50,23 +49,22 @@ public class BuilderClassGenerator {
 
     public BuilderClassGenerator(String packageName, String[] outputDir, Class<?> clazz,
             List<StaticSetterInfo> staticSetters) {
-        this.packageName = packageName;
         this.outputDir = outputDir;
         this.clazz = clazz;
         this.staticSetters = staticSetters;
 
-        classMetadata = new ClassMetadata(clazz);
-    }
-
-    public void generate() throws IOException {
-        String content = generateBuilderClass();
-        writeToFiles(content);
+        classMetadata = new ClassMetadata(clazz, packageName);
     }
 
     private static TemplateEngine initializeTemplateEngine() {
         Path templatePath = Paths.get("src/main/resources/templates");
         DirectoryCodeResolver codeResolver = new DirectoryCodeResolver(templatePath);
         return TemplateEngine.create(codeResolver, ContentType.Plain);
+    }
+
+    public void generate() throws IOException {
+        String content = generateBuilderClass();
+        writeToFiles(content);
     }
 
     private String generateBuilderClass() {
@@ -106,7 +104,6 @@ public class BuilderClassGenerator {
         String classAnnotation = ClassAnnotationManager.getClassAnnotation(classMetadata.getClassName());
 
         ClassHeaderModel model = ClassHeaderModel.builder()
-                .packageName(packageName)
                 .classMetadata(classMetadata)
                 .classAnnotation(classAnnotation)
                 .build();
@@ -227,7 +224,8 @@ public class BuilderClassGenerator {
     }
 
     private String generateApplyMethod() {
-        ApplyMethodModel model = ApplyMethodModel.create(classMetadata.builderClassNameWithTypeParameter(), classMetadata.classNameWithTypeParameter());
+        ApplyMethodModel model = ApplyMethodModel.create(classMetadata.builderClassNameWithTypeParameter(),
+                classMetadata.classNameWithTypeParameter());
         TemplateOutput output = new StringOutput();
         templateEngine.render("apply-method.jte", model, output);
         return output.toString();
@@ -255,7 +253,8 @@ public class BuilderClassGenerator {
             String parameterTypeList = buildParameterListTypesOnly(parameters);
             String argumentList = buildParameterListNamesOnly(parameters);
 
-            String methodAnnotation = MethodAnnotationManager.getMethodAnnotation(classMetadata.getClassName(), method.getName());
+            String methodAnnotation = MethodAnnotationManager.getMethodAnnotation(classMetadata.getClassName(),
+                    method.getName());
             SetterMethodModel model = SetterMethodModel.builder()
                     .classMetadata(classMetadata)
                     .methodName(methodName)
@@ -349,7 +348,8 @@ public class BuilderClassGenerator {
 
     private String generateStylesheetMethod() {
         StylesheetMethodModel model = StylesheetMethodModel.create(
-                clazz.getSimpleName(), classMetadata.getBuilderClassName(), classMetadata.builderClassNameWithTypeParameter());
+                clazz.getSimpleName(), classMetadata.getBuilderClassName(),
+                classMetadata.builderClassNameWithTypeParameter());
         TemplateOutput output = new StringOutput();
         templateEngine.render("stylesheet-method.jte", model, output);
         return output.toString();
@@ -459,7 +459,8 @@ public class BuilderClassGenerator {
                 // Check for type replacement
                 propertyType = TypeMappingManager.getReplacement(classMetadata.getClassName(), propertyType);
 
-                String methodAnnotation = MethodAnnotationManager.getMethodAnnotation(classMetadata.getClassName(), propertyName);
+                String methodAnnotation = MethodAnnotationManager.getMethodAnnotation(classMetadata.getClassName(),
+                        propertyName);
                 PropertyMethodModel model = PropertyMethodModel.builder()
                         .classMetadata(classMetadata)
                         .methodName(methodName)
