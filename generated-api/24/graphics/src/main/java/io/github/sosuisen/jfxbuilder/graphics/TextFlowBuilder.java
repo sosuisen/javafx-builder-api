@@ -1389,7 +1389,6 @@ public class TextFlowBuilder {
         operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
         return this;
     }
-
     
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#accessibleHelpProperty()}.
