@@ -1,4 +1,4 @@
-package io.github.sosuisen.extractor;
+package io.github.sosuisen.model;
 
 import java.io.IOException;
 import java.nio.file.Path;
@@ -7,8 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
-
-import io.github.sosuisen.BuildInfo;
 
 public class JarExtractor {
     private static final String SCENE_CLASS_STARTS_WITH = "javafx.scene.";

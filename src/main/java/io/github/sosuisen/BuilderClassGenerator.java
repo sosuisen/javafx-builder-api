@@ -13,10 +13,10 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import io.github.sosuisen.extractor.MethodComparator;
 import io.github.sosuisen.mapper.MethodAnnotationManager;
 import io.github.sosuisen.mapper.TypeMappingManager;
 import io.github.sosuisen.model.ClassMetadata;
+import io.github.sosuisen.model.MethodComparator;
 import io.github.sosuisen.model.ParameterInfo;
 import io.github.sosuisen.model.Parameters;
 import io.github.sosuisen.model.StaticSetterInfo;
