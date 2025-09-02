@@ -28,6 +28,12 @@ public class TableRowSkinBuilder<T> {
     private TableRowSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.TableRowSkin#TableRowSkin(javafx.scene.control.TableRow<T> control) TableRowSkin(TableRow)}
+     * and returns an instance of the {@code <T> TableRowSkinBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> TableRowSkinBuilder<T>}.
+     */
     
     public static <T> TableRowSkinBuilder<T> create(javafx.scene.control.TableRow<T> control) {
         TableRowSkinBuilder<T> builder = new TableRowSkinBuilder<T>();

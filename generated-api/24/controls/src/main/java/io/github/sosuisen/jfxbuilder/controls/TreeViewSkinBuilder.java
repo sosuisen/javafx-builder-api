@@ -28,6 +28,12 @@ public class TreeViewSkinBuilder<T> {
     private TreeViewSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.TreeViewSkin#TreeViewSkin(javafx.scene.control.TreeView control) TreeViewSkin(TreeView)}
+     * and returns an instance of the {@code <T> TreeViewSkinBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> TreeViewSkinBuilder<T>}.
+     */
     
     public static <T> TreeViewSkinBuilder<T> create(javafx.scene.control.TreeView control) {
         TreeViewSkinBuilder<T> builder = new TreeViewSkinBuilder<T>();

@@ -28,9 +28,20 @@ public class TextInputDialogBuilder {
     private TextInputDialogBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code TextInputDialogBuilder}.
+     *
+     * @return an instance of the {@code TextInputDialogBuilder}.
+     */
     public static TextInputDialogBuilder create() { return new TextInputDialogBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TextInputDialog#TextInputDialog(java.lang.String defaultValue) TextInputDialog(String)}
+     * and returns an instance of the {@code TextInputDialogBuilder}.
+     *
+     * @return an instance of the {@code TextInputDialogBuilder}.
+     */
     
     public static TextInputDialogBuilder create(java.lang.String defaultValue) {
         TextInputDialogBuilder builder = new TextInputDialogBuilder();

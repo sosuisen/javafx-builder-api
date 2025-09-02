@@ -28,9 +28,20 @@ public class TreeTableColumnBuilder<S, T> {
     private TreeTableColumnBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <S, T> TreeTableColumnBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> TreeTableColumnBuilder<S, T>}.
+     */
     public static <S, T> TreeTableColumnBuilder<S, T> create() { return new TreeTableColumnBuilder<S, T>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TreeTableColumn#TreeTableColumn(java.lang.String text) TreeTableColumn(String)}
+     * and returns an instance of the {@code <S, T> TreeTableColumnBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> TreeTableColumnBuilder<S, T>}.
+     */
     
     public static <S, T> TreeTableColumnBuilder<S, T> create(java.lang.String text) {
         TreeTableColumnBuilder<S, T> builder = new TreeTableColumnBuilder<S, T>();

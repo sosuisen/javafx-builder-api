@@ -28,9 +28,20 @@ public class SpotLightBuilder {
     private SpotLightBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code SpotLightBuilder}.
+     *
+     * @return an instance of the {@code SpotLightBuilder}.
+     */
     public static SpotLightBuilder create() { return new SpotLightBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.SpotLight#SpotLight(javafx.scene.paint.Color color) SpotLight(Color)}
+     * and returns an instance of the {@code SpotLightBuilder}.
+     *
+     * @return an instance of the {@code SpotLightBuilder}.
+     */
     
     public static SpotLightBuilder create(javafx.scene.paint.Color color) {
         SpotLightBuilder builder = new SpotLightBuilder();

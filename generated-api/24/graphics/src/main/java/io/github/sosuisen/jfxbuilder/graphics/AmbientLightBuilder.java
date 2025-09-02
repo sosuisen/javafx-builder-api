@@ -28,9 +28,20 @@ public class AmbientLightBuilder {
     private AmbientLightBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code AmbientLightBuilder}.
+     *
+     * @return an instance of the {@code AmbientLightBuilder}.
+     */
     public static AmbientLightBuilder create() { return new AmbientLightBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.AmbientLight#AmbientLight(javafx.scene.paint.Color color) AmbientLight(Color)}
+     * and returns an instance of the {@code AmbientLightBuilder}.
+     *
+     * @return an instance of the {@code AmbientLightBuilder}.
+     */
     
     public static AmbientLightBuilder create(javafx.scene.paint.Color color) {
         AmbientLightBuilder builder = new AmbientLightBuilder();

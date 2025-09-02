@@ -28,9 +28,20 @@ public class CheckBoxListCellBuilder<T> {
     private CheckBoxListCellBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <T> CheckBoxListCellBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> CheckBoxListCellBuilder<T>}.
+     */
     public static <T> CheckBoxListCellBuilder<T> create() { return new CheckBoxListCellBuilder<T>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.CheckBoxListCell#CheckBoxListCell(javafx.util.Callback<T, javafx.beans.value.ObservableValue<java.lang.Boolean>> getSelectedProperty) CheckBoxListCell(Callback)}
+     * and returns an instance of the {@code <T> CheckBoxListCellBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> CheckBoxListCellBuilder<T>}.
+     */
     
     public static <T> CheckBoxListCellBuilder<T> create(javafx.util.Callback<T, javafx.beans.value.ObservableValue<java.lang.Boolean>> getSelectedProperty) {
         CheckBoxListCellBuilder<T> builder = new CheckBoxListCellBuilder<T>();
@@ -39,6 +50,12 @@ public class CheckBoxListCellBuilder<T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.CheckBoxListCell#CheckBoxListCell(javafx.util.Callback<T, javafx.beans.value.ObservableValue<java.lang.Boolean>> getSelectedProperty, javafx.util.StringConverter<T> converter) CheckBoxListCell(Callback, StringConverter)}
+     * and returns an instance of the {@code <T> CheckBoxListCellBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> CheckBoxListCellBuilder<T>}.
+     */
     
     public static <T> CheckBoxListCellBuilder<T> create(javafx.util.Callback<T, javafx.beans.value.ObservableValue<java.lang.Boolean>> getSelectedProperty, javafx.util.StringConverter<T> converter) {
         CheckBoxListCellBuilder<T> builder = new CheckBoxListCellBuilder<T>();

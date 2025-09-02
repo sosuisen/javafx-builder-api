@@ -28,9 +28,20 @@ public class BorderPaneBuilder {
     private BorderPaneBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code BorderPaneBuilder}.
+     *
+     * @return an instance of the {@code BorderPaneBuilder}.
+     */
     public static BorderPaneBuilder create() { return new BorderPaneBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.BorderPane#BorderPane(javafx.scene.Node center) BorderPane(Node)}
+     * and returns an instance of the {@code BorderPaneBuilder}.
+     *
+     * @return an instance of the {@code BorderPaneBuilder}.
+     */
     
     public static BorderPaneBuilder create(javafx.scene.Node center) {
         BorderPaneBuilder builder = new BorderPaneBuilder();
@@ -39,6 +50,12 @@ public class BorderPaneBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.BorderPane#BorderPane(javafx.scene.Node center, javafx.scene.Node top, javafx.scene.Node right, javafx.scene.Node bottom, javafx.scene.Node left) BorderPane(Node, Node, Node, Node, Node)}
+     * and returns an instance of the {@code BorderPaneBuilder}.
+     *
+     * @return an instance of the {@code BorderPaneBuilder}.
+     */
     
     public static BorderPaneBuilder create(javafx.scene.Node center, javafx.scene.Node top, javafx.scene.Node right, javafx.scene.Node bottom, javafx.scene.Node left) {
         BorderPaneBuilder builder = new BorderPaneBuilder();

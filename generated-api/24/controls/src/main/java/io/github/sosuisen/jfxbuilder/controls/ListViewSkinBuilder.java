@@ -28,6 +28,12 @@ public class ListViewSkinBuilder<T> {
     private ListViewSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ListViewSkin#ListViewSkin(javafx.scene.control.ListView<T> control) ListViewSkin(ListView)}
+     * and returns an instance of the {@code <T> ListViewSkinBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ListViewSkinBuilder<T>}.
+     */
     
     public static <T> ListViewSkinBuilder<T> create(javafx.scene.control.ListView<T> control) {
         ListViewSkinBuilder<T> builder = new ListViewSkinBuilder<T>();

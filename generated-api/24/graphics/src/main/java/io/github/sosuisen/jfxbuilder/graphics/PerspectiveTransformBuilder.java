@@ -28,9 +28,20 @@ public class PerspectiveTransformBuilder {
     private PerspectiveTransformBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code PerspectiveTransformBuilder}.
+     *
+     * @return an instance of the {@code PerspectiveTransformBuilder}.
+     */
     public static PerspectiveTransformBuilder create() { return new PerspectiveTransformBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.PerspectiveTransform#PerspectiveTransform(double ulx, double uly, double urx, double ury, double lrx, double lry, double llx, double lly) PerspectiveTransform(double, double, double, double, double, double, double, double)}
+     * and returns an instance of the {@code PerspectiveTransformBuilder}.
+     *
+     * @return an instance of the {@code PerspectiveTransformBuilder}.
+     */
     
     public static PerspectiveTransformBuilder create(double ulx, double uly, double urx, double ury, double lrx, double lry, double llx, double lly) {
         PerspectiveTransformBuilder builder = new PerspectiveTransformBuilder();

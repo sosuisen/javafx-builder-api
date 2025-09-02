@@ -28,6 +28,12 @@ public class DatePickerSkinBuilder {
     private DatePickerSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.DatePickerSkin#DatePickerSkin(javafx.scene.control.DatePicker control) DatePickerSkin(DatePicker)}
+     * and returns an instance of the {@code DatePickerSkinBuilder}.
+     *
+     * @return an instance of the {@code DatePickerSkinBuilder}.
+     */
     
     public static DatePickerSkinBuilder create(javafx.scene.control.DatePicker control) {
         DatePickerSkinBuilder builder = new DatePickerSkinBuilder();

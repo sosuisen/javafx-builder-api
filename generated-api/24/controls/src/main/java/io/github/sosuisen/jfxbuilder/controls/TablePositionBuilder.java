@@ -28,6 +28,12 @@ public class TablePositionBuilder<S, T> {
     private TablePositionBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TablePosition#TablePosition(javafx.scene.control.TableView<S> tableView, int row, javafx.scene.control.TableColumn<S, T> tableColumn) TablePosition(TableView, int, TableColumn)}
+     * and returns an instance of the {@code <S, T> TablePositionBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> TablePositionBuilder<S, T>}.
+     */
     
     public static <S, T> TablePositionBuilder<S, T> create(javafx.scene.control.TableView<S> tableView, int row, javafx.scene.control.TableColumn<S, T> tableColumn) {
         TablePositionBuilder<S, T> builder = new TablePositionBuilder<S, T>();

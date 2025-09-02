@@ -28,9 +28,20 @@ public class StackPaneBuilder {
     private StackPaneBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code StackPaneBuilder}.
+     *
+     * @return an instance of the {@code StackPaneBuilder}.
+     */
     public static StackPaneBuilder create() { return new StackPaneBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.StackPane#StackPane(javafx.scene.Node... children) StackPane(Node...)}
+     * and returns an instance of the {@code StackPaneBuilder}.
+     *
+     * @return an instance of the {@code StackPaneBuilder}.
+     */
     @SafeVarargs
     public static StackPaneBuilder create(javafx.scene.Node... children) {
         StackPaneBuilder builder = new StackPaneBuilder();

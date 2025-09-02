@@ -28,6 +28,12 @@ public class CornerRadiiBuilder {
     private CornerRadiiBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.CornerRadii#CornerRadii(double radius) CornerRadii(double)}
+     * and returns an instance of the {@code CornerRadiiBuilder}.
+     *
+     * @return an instance of the {@code CornerRadiiBuilder}.
+     */
     
     public static CornerRadiiBuilder create(double radius) {
         CornerRadiiBuilder builder = new CornerRadiiBuilder();
@@ -36,6 +42,12 @@ public class CornerRadiiBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.CornerRadii#CornerRadii(double radius, boolean asPercent) CornerRadii(double, boolean)}
+     * and returns an instance of the {@code CornerRadiiBuilder}.
+     *
+     * @return an instance of the {@code CornerRadiiBuilder}.
+     */
     
     public static CornerRadiiBuilder create(double radius, boolean asPercent) {
         CornerRadiiBuilder builder = new CornerRadiiBuilder();
@@ -44,6 +56,12 @@ public class CornerRadiiBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.CornerRadii#CornerRadii(double topLeft, double topRight, double bottomRight, double bottomLeft, boolean asPercent) CornerRadii(double, double, double, double, boolean)}
+     * and returns an instance of the {@code CornerRadiiBuilder}.
+     *
+     * @return an instance of the {@code CornerRadiiBuilder}.
+     */
     
     public static CornerRadiiBuilder create(double topLeft, double topRight, double bottomRight, double bottomLeft, boolean asPercent) {
         CornerRadiiBuilder builder = new CornerRadiiBuilder();
@@ -52,6 +70,12 @@ public class CornerRadiiBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.CornerRadii#CornerRadii(double topLeftHorizontalRadius, double topLeftVerticalRadius, double topRightVerticalRadius, double topRightHorizontalRadius, double bottomRightHorizontalRadius, double bottomRightVerticalRadius, double bottomLeftVerticalRadius, double bottomLeftHorizontalRadius, boolean topLeftHorizontalRadiusAsPercent, boolean topLeftVerticalRadiusAsPercent, boolean topRightVerticalRadiusAsPercent, boolean topRightHorizontalRadiusAsPercent, boolean bottomRightHorizontalRadiusAsPercent, boolean bottomRightVerticalRadiusAsPercent, boolean bottomLeftVerticalRadiusAsPercent, boolean bottomLeftHorizontalRadiusAsPercent) CornerRadii(double, double, double, double, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean)}
+     * and returns an instance of the {@code CornerRadiiBuilder}.
+     *
+     * @return an instance of the {@code CornerRadiiBuilder}.
+     */
     
     public static CornerRadiiBuilder create(double topLeftHorizontalRadius, double topLeftVerticalRadius, double topRightVerticalRadius, double topRightHorizontalRadius, double bottomRightHorizontalRadius, double bottomRightVerticalRadius, double bottomLeftVerticalRadius, double bottomLeftHorizontalRadius, boolean topLeftHorizontalRadiusAsPercent, boolean topLeftVerticalRadiusAsPercent, boolean topRightVerticalRadiusAsPercent, boolean topRightHorizontalRadiusAsPercent, boolean bottomRightHorizontalRadiusAsPercent, boolean bottomRightVerticalRadiusAsPercent, boolean bottomLeftVerticalRadiusAsPercent, boolean bottomLeftHorizontalRadiusAsPercent) {
         CornerRadiiBuilder builder = new CornerRadiiBuilder();

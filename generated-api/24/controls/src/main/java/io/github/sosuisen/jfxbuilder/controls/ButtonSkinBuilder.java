@@ -28,6 +28,12 @@ public class ButtonSkinBuilder {
     private ButtonSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ButtonSkin#ButtonSkin(javafx.scene.control.Button control) ButtonSkin(Button)}
+     * and returns an instance of the {@code ButtonSkinBuilder}.
+     *
+     * @return an instance of the {@code ButtonSkinBuilder}.
+     */
     
     public static ButtonSkinBuilder create(javafx.scene.control.Button control) {
         ButtonSkinBuilder builder = new ButtonSkinBuilder();

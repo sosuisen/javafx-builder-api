@@ -28,9 +28,20 @@ public class MenuItemBuilder {
     private MenuItemBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code MenuItemBuilder}.
+     *
+     * @return an instance of the {@code MenuItemBuilder}.
+     */
     public static MenuItemBuilder create() { return new MenuItemBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.MenuItem#MenuItem(java.lang.String text) MenuItem(String)}
+     * and returns an instance of the {@code MenuItemBuilder}.
+     *
+     * @return an instance of the {@code MenuItemBuilder}.
+     */
     
     public static MenuItemBuilder create(java.lang.String text) {
         MenuItemBuilder builder = new MenuItemBuilder();
@@ -39,6 +50,12 @@ public class MenuItemBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.MenuItem#MenuItem(java.lang.String text, javafx.scene.Node graphic) MenuItem(String, Node)}
+     * and returns an instance of the {@code MenuItemBuilder}.
+     *
+     * @return an instance of the {@code MenuItemBuilder}.
+     */
     
     public static MenuItemBuilder create(java.lang.String text, javafx.scene.Node graphic) {
         MenuItemBuilder builder = new MenuItemBuilder();

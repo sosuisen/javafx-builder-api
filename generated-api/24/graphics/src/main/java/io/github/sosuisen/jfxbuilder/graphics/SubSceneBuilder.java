@@ -28,6 +28,12 @@ public class SubSceneBuilder {
     private SubSceneBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.SubScene#SubScene(javafx.scene.Parent root, double width, double height) SubScene(Parent, double, double)}
+     * and returns an instance of the {@code SubSceneBuilder}.
+     *
+     * @return an instance of the {@code SubSceneBuilder}.
+     */
     
     public static SubSceneBuilder create(javafx.scene.Parent root, double width, double height) {
         SubSceneBuilder builder = new SubSceneBuilder();
@@ -36,6 +42,12 @@ public class SubSceneBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.SubScene#SubScene(javafx.scene.Parent root, double width, double height, boolean depthBuffer, javafx.scene.SceneAntialiasing antiAliasing) SubScene(Parent, double, double, boolean, SceneAntialiasing)}
+     * and returns an instance of the {@code SubSceneBuilder}.
+     *
+     * @return an instance of the {@code SubSceneBuilder}.
+     */
     
     public static SubSceneBuilder create(javafx.scene.Parent root, double width, double height, boolean depthBuffer, javafx.scene.SceneAntialiasing antiAliasing) {
         SubSceneBuilder builder = new SubSceneBuilder();

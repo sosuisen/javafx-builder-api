@@ -28,9 +28,20 @@ public class PhongMaterialBuilder {
     private PhongMaterialBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code PhongMaterialBuilder}.
+     *
+     * @return an instance of the {@code PhongMaterialBuilder}.
+     */
     public static PhongMaterialBuilder create() { return new PhongMaterialBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.paint.PhongMaterial#PhongMaterial(javafx.scene.paint.Color diffuseColor) PhongMaterial(Color)}
+     * and returns an instance of the {@code PhongMaterialBuilder}.
+     *
+     * @return an instance of the {@code PhongMaterialBuilder}.
+     */
     
     public static PhongMaterialBuilder create(javafx.scene.paint.Color diffuseColor) {
         PhongMaterialBuilder builder = new PhongMaterialBuilder();
@@ -39,6 +50,12 @@ public class PhongMaterialBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.paint.PhongMaterial#PhongMaterial(javafx.scene.paint.Color diffuseColor, javafx.scene.image.Image diffuseMap, javafx.scene.image.Image specularMap, javafx.scene.image.Image bumpMap, javafx.scene.image.Image selfIlluminationMap) PhongMaterial(Color, Image, Image, Image, Image)}
+     * and returns an instance of the {@code PhongMaterialBuilder}.
+     *
+     * @return an instance of the {@code PhongMaterialBuilder}.
+     */
     
     public static PhongMaterialBuilder create(javafx.scene.paint.Color diffuseColor, javafx.scene.image.Image diffuseMap, javafx.scene.image.Image specularMap, javafx.scene.image.Image bumpMap, javafx.scene.image.Image selfIlluminationMap) {
         PhongMaterialBuilder builder = new PhongMaterialBuilder();

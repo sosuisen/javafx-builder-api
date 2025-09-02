@@ -28,9 +28,20 @@ public class HBoxBuilder {
     private HBoxBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code HBoxBuilder}.
+     *
+     * @return an instance of the {@code HBoxBuilder}.
+     */
     public static HBoxBuilder create() { return new HBoxBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.HBox#HBox(double spacing) HBox(double)}
+     * and returns an instance of the {@code HBoxBuilder}.
+     *
+     * @return an instance of the {@code HBoxBuilder}.
+     */
     
     public static HBoxBuilder create(double spacing) {
         HBoxBuilder builder = new HBoxBuilder();
@@ -39,6 +50,12 @@ public class HBoxBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.HBox#HBox(double spacing, javafx.scene.Node... children) HBox(double, Node...)}
+     * and returns an instance of the {@code HBoxBuilder}.
+     *
+     * @return an instance of the {@code HBoxBuilder}.
+     */
     @SafeVarargs
     public static HBoxBuilder create(double spacing, javafx.scene.Node... children) {
         HBoxBuilder builder = new HBoxBuilder();
@@ -47,6 +64,12 @@ public class HBoxBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.HBox#HBox(javafx.scene.Node... children) HBox(Node...)}
+     * and returns an instance of the {@code HBoxBuilder}.
+     *
+     * @return an instance of the {@code HBoxBuilder}.
+     */
     @SafeVarargs
     public static HBoxBuilder create(javafx.scene.Node... children) {
         HBoxBuilder builder = new HBoxBuilder();

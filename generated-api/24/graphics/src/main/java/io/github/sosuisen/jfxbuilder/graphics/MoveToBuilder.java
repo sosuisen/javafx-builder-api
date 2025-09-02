@@ -28,9 +28,20 @@ public class MoveToBuilder {
     private MoveToBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code MoveToBuilder}.
+     *
+     * @return an instance of the {@code MoveToBuilder}.
+     */
     public static MoveToBuilder create() { return new MoveToBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.MoveTo#MoveTo(double x, double y) MoveTo(double, double)}
+     * and returns an instance of the {@code MoveToBuilder}.
+     *
+     * @return an instance of the {@code MoveToBuilder}.
+     */
     
     public static MoveToBuilder create(double x, double y) {
         MoveToBuilder builder = new MoveToBuilder();

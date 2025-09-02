@@ -28,9 +28,20 @@ public class EqualizerBandBuilder {
     private EqualizerBandBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code EqualizerBandBuilder}.
+     *
+     * @return an instance of the {@code EqualizerBandBuilder}.
+     */
     public static EqualizerBandBuilder create() { return new EqualizerBandBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.media.EqualizerBand#EqualizerBand(double centerFrequency, double bandwidth, double gain) EqualizerBand(double, double, double)}
+     * and returns an instance of the {@code EqualizerBandBuilder}.
+     *
+     * @return an instance of the {@code EqualizerBandBuilder}.
+     */
     
     public static EqualizerBandBuilder create(double centerFrequency, double bandwidth, double gain) {
         EqualizerBandBuilder builder = new EqualizerBandBuilder();

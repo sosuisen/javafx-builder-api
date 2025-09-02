@@ -28,9 +28,20 @@ public class BoxBlurBuilder {
     private BoxBlurBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code BoxBlurBuilder}.
+     *
+     * @return an instance of the {@code BoxBlurBuilder}.
+     */
     public static BoxBlurBuilder create() { return new BoxBlurBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.BoxBlur#BoxBlur(double width, double height, int iterations) BoxBlur(double, double, int)}
+     * and returns an instance of the {@code BoxBlurBuilder}.
+     *
+     * @return an instance of the {@code BoxBlurBuilder}.
+     */
     
     public static BoxBlurBuilder create(double width, double height, int iterations) {
         BoxBlurBuilder builder = new BoxBlurBuilder();

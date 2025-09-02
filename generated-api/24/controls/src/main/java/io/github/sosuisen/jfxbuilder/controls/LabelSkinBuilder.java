@@ -28,6 +28,12 @@ public class LabelSkinBuilder {
     private LabelSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.LabelSkin#LabelSkin(javafx.scene.control.Label control) LabelSkin(Label)}
+     * and returns an instance of the {@code LabelSkinBuilder}.
+     *
+     * @return an instance of the {@code LabelSkinBuilder}.
+     */
     
     public static LabelSkinBuilder create(javafx.scene.control.Label control) {
         LabelSkinBuilder builder = new LabelSkinBuilder();

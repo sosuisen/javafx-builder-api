@@ -28,9 +28,20 @@ public class PaginationBuilder {
     private PaginationBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code PaginationBuilder}.
+     *
+     * @return an instance of the {@code PaginationBuilder}.
+     */
     public static PaginationBuilder create() { return new PaginationBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Pagination#Pagination(int pageCount) Pagination(int)}
+     * and returns an instance of the {@code PaginationBuilder}.
+     *
+     * @return an instance of the {@code PaginationBuilder}.
+     */
     
     public static PaginationBuilder create(int pageCount) {
         PaginationBuilder builder = new PaginationBuilder();
@@ -39,6 +50,12 @@ public class PaginationBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Pagination#Pagination(int pageCount, int pageIndex) Pagination(int, int)}
+     * and returns an instance of the {@code PaginationBuilder}.
+     *
+     * @return an instance of the {@code PaginationBuilder}.
+     */
     
     public static PaginationBuilder create(int pageCount, int pageIndex) {
         PaginationBuilder builder = new PaginationBuilder();

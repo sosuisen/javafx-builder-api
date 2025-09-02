@@ -28,9 +28,20 @@ public class TreeItemBuilder<T> {
     private TreeItemBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <T> TreeItemBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> TreeItemBuilder<T>}.
+     */
     public static <T> TreeItemBuilder<T> create() { return new TreeItemBuilder<T>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TreeItem#TreeItem(T value) TreeItem(Object)}
+     * and returns an instance of the {@code <T> TreeItemBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> TreeItemBuilder<T>}.
+     */
     
     public static <T> TreeItemBuilder<T> create(T value) {
         TreeItemBuilder<T> builder = new TreeItemBuilder<T>();
@@ -39,6 +50,12 @@ public class TreeItemBuilder<T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TreeItem#TreeItem(T value, javafx.scene.Node graphic) TreeItem(Object, Node)}
+     * and returns an instance of the {@code <T> TreeItemBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> TreeItemBuilder<T>}.
+     */
     
     public static <T> TreeItemBuilder<T> create(T value, javafx.scene.Node graphic) {
         TreeItemBuilder<T> builder = new TreeItemBuilder<T>();

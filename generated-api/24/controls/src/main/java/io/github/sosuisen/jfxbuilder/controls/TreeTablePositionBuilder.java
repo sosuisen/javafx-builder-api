@@ -28,6 +28,12 @@ public class TreeTablePositionBuilder<S, T> {
     private TreeTablePositionBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TreeTablePosition#TreeTablePosition(javafx.scene.control.TreeTableView<S> treeTableView, int row, javafx.scene.control.TreeTableColumn<S, T> tableColumn) TreeTablePosition(TreeTableView, int, TreeTableColumn)}
+     * and returns an instance of the {@code <S, T> TreeTablePositionBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> TreeTablePositionBuilder<S, T>}.
+     */
     
     public static <S, T> TreeTablePositionBuilder<S, T> create(javafx.scene.control.TreeTableView<S> treeTableView, int row, javafx.scene.control.TreeTableColumn<S, T> tableColumn) {
         TreeTablePositionBuilder<S, T> builder = new TreeTablePositionBuilder<S, T>();

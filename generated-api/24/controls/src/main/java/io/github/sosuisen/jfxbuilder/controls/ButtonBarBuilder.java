@@ -28,9 +28,20 @@ public class ButtonBarBuilder {
     private ButtonBarBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ButtonBarBuilder}.
+     *
+     * @return an instance of the {@code ButtonBarBuilder}.
+     */
     public static ButtonBarBuilder create() { return new ButtonBarBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.ButtonBar#ButtonBar(java.lang.String buttonOrder) ButtonBar(String)}
+     * and returns an instance of the {@code ButtonBarBuilder}.
+     *
+     * @return an instance of the {@code ButtonBarBuilder}.
+     */
     
     public static ButtonBarBuilder create(java.lang.String buttonOrder) {
         ButtonBarBuilder builder = new ButtonBarBuilder();

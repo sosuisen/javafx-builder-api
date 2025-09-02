@@ -28,6 +28,11 @@ public class ScrollBarBuilder {
     private ScrollBarBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ScrollBarBuilder}.
+     *
+     * @return an instance of the {@code ScrollBarBuilder}.
+     */
     public static ScrollBarBuilder create() { return new ScrollBarBuilder(); }
 
     private Object[] constructorArgs;

@@ -28,6 +28,12 @@ public class StackedAreaChartBuilder<X, Y> {
     private StackedAreaChartBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.chart.StackedAreaChart#StackedAreaChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) StackedAreaChart(Axis, Axis)}
+     * and returns an instance of the {@code <X, Y> StackedAreaChartBuilder<X, Y>}.
+     *
+     * @return an instance of the {@code <X, Y> StackedAreaChartBuilder<X, Y>}.
+     */
     
     public static <X, Y> StackedAreaChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) {
         StackedAreaChartBuilder<X, Y> builder = new StackedAreaChartBuilder<X, Y>();
@@ -36,6 +42,12 @@ public class StackedAreaChartBuilder<X, Y> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.chart.StackedAreaChart#StackedAreaChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) StackedAreaChart(Axis, Axis, ObservableList)}
+     * and returns an instance of the {@code <X, Y> StackedAreaChartBuilder<X, Y>}.
+     *
+     * @return an instance of the {@code <X, Y> StackedAreaChartBuilder<X, Y>}.
+     */
     
     public static <X, Y> StackedAreaChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) {
         StackedAreaChartBuilder<X, Y> builder = new StackedAreaChartBuilder<X, Y>();

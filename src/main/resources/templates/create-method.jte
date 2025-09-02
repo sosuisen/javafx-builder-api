@@ -3,8 +3,19 @@
 @param CreateMethodModel model
 
 @if(model.isDefaultConstructor())
+    /**
+     * Returns an instance of the {@code ${model.typeParametersWithExtends().isEmpty() ? "" : model.typeParametersWithExtends() + " "}${model.builderClassNameWithTypeParameter()}}.
+     *
+     * @return an instance of the {@code ${model.typeParametersWithExtends().isEmpty() ? "" : model.typeParametersWithExtends() + " "}${model.builderClassNameWithTypeParameter()}}.
+     */
     public static ${model.typeParametersWithExtends().isEmpty() ? "" : model.typeParametersWithExtends() + " "}${model.builderClassNameWithTypeParameter()} create() { return new ${model.builderClassNameWithTypeParameter()}(); }
 @else
+    /**
+     * Accepts the same arguments as {@link ${model.canonicalClassName()}#${model.simpleClassName()}(${model.parameterList()}) ${model.simpleClassName()}(${model.parameterListSimpleTypesOnly()})}
+     * and returns an instance of the {@code ${model.typeParametersWithExtends().isEmpty() ? "" : model.typeParametersWithExtends() + " "}${model.builderClassNameWithTypeParameter()}}.
+     *
+     * @return an instance of the {@code ${model.typeParametersWithExtends().isEmpty() ? "" : model.typeParametersWithExtends() + " "}${model.builderClassNameWithTypeParameter()}}.
+     */
     @if(model.isVarArgs())@SafeVarargs@endif
     public static ${model.typeParametersWithExtends().isEmpty() ? "" : model.typeParametersWithExtends() + " "}${model.builderClassNameWithTypeParameter()} create(${model.parameterList()}) {
         ${model.builderClassNameWithTypeParameter()} builder = new ${model.builderClassNameWithTypeParameter()}();

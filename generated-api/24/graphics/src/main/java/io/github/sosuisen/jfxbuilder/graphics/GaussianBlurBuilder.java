@@ -28,9 +28,20 @@ public class GaussianBlurBuilder {
     private GaussianBlurBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code GaussianBlurBuilder}.
+     *
+     * @return an instance of the {@code GaussianBlurBuilder}.
+     */
     public static GaussianBlurBuilder create() { return new GaussianBlurBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.GaussianBlur#GaussianBlur(double radius) GaussianBlur(double)}
+     * and returns an instance of the {@code GaussianBlurBuilder}.
+     *
+     * @return an instance of the {@code GaussianBlurBuilder}.
+     */
     
     public static GaussianBlurBuilder create(double radius) {
         GaussianBlurBuilder builder = new GaussianBlurBuilder();

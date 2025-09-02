@@ -28,6 +28,11 @@ public class WebViewBuilder {
     private WebViewBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code WebViewBuilder}.
+     *
+     * @return an instance of the {@code WebViewBuilder}.
+     */
     public static WebViewBuilder create() { return new WebViewBuilder(); }
 
     private Object[] constructorArgs;

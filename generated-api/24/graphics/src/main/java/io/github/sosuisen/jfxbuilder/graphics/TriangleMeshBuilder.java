@@ -28,9 +28,20 @@ public class TriangleMeshBuilder {
     private TriangleMeshBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code TriangleMeshBuilder}.
+     *
+     * @return an instance of the {@code TriangleMeshBuilder}.
+     */
     public static TriangleMeshBuilder create() { return new TriangleMeshBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.TriangleMesh#TriangleMesh(javafx.scene.shape.VertexFormat vertexFormat) TriangleMesh(VertexFormat)}
+     * and returns an instance of the {@code TriangleMeshBuilder}.
+     *
+     * @return an instance of the {@code TriangleMeshBuilder}.
+     */
     
     public static TriangleMeshBuilder create(javafx.scene.shape.VertexFormat vertexFormat) {
         TriangleMeshBuilder builder = new TriangleMeshBuilder();

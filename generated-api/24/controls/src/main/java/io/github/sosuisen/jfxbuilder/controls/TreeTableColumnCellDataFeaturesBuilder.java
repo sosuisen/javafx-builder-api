@@ -28,6 +28,12 @@ public class TreeTableColumnCellDataFeaturesBuilder<S, T> {
     private TreeTableColumnCellDataFeaturesBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TreeTableColumn.CellDataFeatures#CellDataFeatures(javafx.scene.control.TreeTableView<S> treeTableView, javafx.scene.control.TreeTableColumn<S, T> tableColumn, javafx.scene.control.TreeItem<S> value) CellDataFeatures(TreeTableView, TreeTableColumn, TreeItem)}
+     * and returns an instance of the {@code <S, T> TreeTableColumnCellDataFeaturesBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> TreeTableColumnCellDataFeaturesBuilder<S, T>}.
+     */
     
     public static <S, T> TreeTableColumnCellDataFeaturesBuilder<S, T> create(javafx.scene.control.TreeTableView<S> treeTableView, javafx.scene.control.TreeTableColumn<S, T> tableColumn, javafx.scene.control.TreeItem<S> value) {
         TreeTableColumnCellDataFeaturesBuilder<S, T> builder = new TreeTableColumnCellDataFeaturesBuilder<S, T>();

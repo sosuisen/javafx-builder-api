@@ -28,9 +28,20 @@ public class NumberAxisBuilder {
     private NumberAxisBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code NumberAxisBuilder}.
+     *
+     * @return an instance of the {@code NumberAxisBuilder}.
+     */
     public static NumberAxisBuilder create() { return new NumberAxisBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.chart.NumberAxis#NumberAxis(double lowerBound, double upperBound, double tickUnit) NumberAxis(double, double, double)}
+     * and returns an instance of the {@code NumberAxisBuilder}.
+     *
+     * @return an instance of the {@code NumberAxisBuilder}.
+     */
     
     public static NumberAxisBuilder create(double lowerBound, double upperBound, double tickUnit) {
         NumberAxisBuilder builder = new NumberAxisBuilder();
@@ -39,6 +50,12 @@ public class NumberAxisBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.chart.NumberAxis#NumberAxis(java.lang.String axisLabel, double lowerBound, double upperBound, double tickUnit) NumberAxis(String, double, double, double)}
+     * and returns an instance of the {@code NumberAxisBuilder}.
+     *
+     * @return an instance of the {@code NumberAxisBuilder}.
+     */
     
     public static NumberAxisBuilder create(java.lang.String axisLabel, double lowerBound, double upperBound, double tickUnit) {
         NumberAxisBuilder builder = new NumberAxisBuilder();

@@ -28,6 +28,11 @@ public class HTMLEditorBuilder {
     private HTMLEditorBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code HTMLEditorBuilder}.
+     *
+     * @return an instance of the {@code HTMLEditorBuilder}.
+     */
     public static HTMLEditorBuilder create() { return new HTMLEditorBuilder(); }
 
     private Object[] constructorArgs;

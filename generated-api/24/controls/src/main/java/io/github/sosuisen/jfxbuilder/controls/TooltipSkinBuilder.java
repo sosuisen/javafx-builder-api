@@ -28,6 +28,12 @@ public class TooltipSkinBuilder {
     private TooltipSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.TooltipSkin#TooltipSkin(javafx.scene.control.Tooltip t) TooltipSkin(Tooltip)}
+     * and returns an instance of the {@code TooltipSkinBuilder}.
+     *
+     * @return an instance of the {@code TooltipSkinBuilder}.
+     */
     
     public static TooltipSkinBuilder create(javafx.scene.control.Tooltip t) {
         TooltipSkinBuilder builder = new TooltipSkinBuilder();

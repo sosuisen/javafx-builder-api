@@ -28,6 +28,12 @@ public class PropertyValueFactoryBuilder<S, T> {
     private PropertyValueFactoryBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.PropertyValueFactory#PropertyValueFactory(java.lang.String property) PropertyValueFactory(String)}
+     * and returns an instance of the {@code <S, T> PropertyValueFactoryBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> PropertyValueFactoryBuilder<S, T>}.
+     */
     
     public static <S, T> PropertyValueFactoryBuilder<S, T> create(java.lang.String property) {
         PropertyValueFactoryBuilder<S, T> builder = new PropertyValueFactoryBuilder<S, T>();

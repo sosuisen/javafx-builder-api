@@ -28,9 +28,20 @@ public class CheckMenuItemBuilder {
     private CheckMenuItemBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code CheckMenuItemBuilder}.
+     *
+     * @return an instance of the {@code CheckMenuItemBuilder}.
+     */
     public static CheckMenuItemBuilder create() { return new CheckMenuItemBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.CheckMenuItem#CheckMenuItem(java.lang.String text) CheckMenuItem(String)}
+     * and returns an instance of the {@code CheckMenuItemBuilder}.
+     *
+     * @return an instance of the {@code CheckMenuItemBuilder}.
+     */
     
     public static CheckMenuItemBuilder create(java.lang.String text) {
         CheckMenuItemBuilder builder = new CheckMenuItemBuilder();
@@ -39,6 +50,12 @@ public class CheckMenuItemBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.CheckMenuItem#CheckMenuItem(java.lang.String text, javafx.scene.Node graphic) CheckMenuItem(String, Node)}
+     * and returns an instance of the {@code CheckMenuItemBuilder}.
+     *
+     * @return an instance of the {@code CheckMenuItemBuilder}.
+     */
     
     public static CheckMenuItemBuilder create(java.lang.String text, javafx.scene.Node graphic) {
         CheckMenuItemBuilder builder = new CheckMenuItemBuilder();

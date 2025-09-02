@@ -28,9 +28,20 @@ public class ChoiceDialogBuilder<T> {
     private ChoiceDialogBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <T> ChoiceDialogBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ChoiceDialogBuilder<T>}.
+     */
     public static <T> ChoiceDialogBuilder<T> create() { return new ChoiceDialogBuilder<T>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.ChoiceDialog#ChoiceDialog(T defaultChoice, T... choices) ChoiceDialog(Object, Object...)}
+     * and returns an instance of the {@code <T> ChoiceDialogBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ChoiceDialogBuilder<T>}.
+     */
     @SafeVarargs
     public static <T> ChoiceDialogBuilder<T> create(T defaultChoice, T... choices) {
         ChoiceDialogBuilder<T> builder = new ChoiceDialogBuilder<T>();
@@ -39,6 +50,12 @@ public class ChoiceDialogBuilder<T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.ChoiceDialog#ChoiceDialog(T defaultChoice, java.util.Collection<T> choices) ChoiceDialog(Object, Collection)}
+     * and returns an instance of the {@code <T> ChoiceDialogBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ChoiceDialogBuilder<T>}.
+     */
     
     public static <T> ChoiceDialogBuilder<T> create(T defaultChoice, java.util.Collection<T> choices) {
         ChoiceDialogBuilder<T> builder = new ChoiceDialogBuilder<T>();

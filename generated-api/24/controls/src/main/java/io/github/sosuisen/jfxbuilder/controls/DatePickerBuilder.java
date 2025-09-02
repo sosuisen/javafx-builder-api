@@ -28,9 +28,20 @@ public class DatePickerBuilder {
     private DatePickerBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code DatePickerBuilder}.
+     *
+     * @return an instance of the {@code DatePickerBuilder}.
+     */
     public static DatePickerBuilder create() { return new DatePickerBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.DatePicker#DatePicker(java.time.LocalDate localDate) DatePicker(LocalDate)}
+     * and returns an instance of the {@code DatePickerBuilder}.
+     *
+     * @return an instance of the {@code DatePickerBuilder}.
+     */
     
     public static DatePickerBuilder create(java.time.LocalDate localDate) {
         DatePickerBuilder builder = new DatePickerBuilder();

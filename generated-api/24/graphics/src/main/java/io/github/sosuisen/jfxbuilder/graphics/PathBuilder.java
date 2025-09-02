@@ -28,9 +28,20 @@ public class PathBuilder {
     private PathBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code PathBuilder}.
+     *
+     * @return an instance of the {@code PathBuilder}.
+     */
     public static PathBuilder create() { return new PathBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Path#Path(java.util.Collection<? extends javafx.scene.shape.PathElement> elements) Path(Collection)}
+     * and returns an instance of the {@code PathBuilder}.
+     *
+     * @return an instance of the {@code PathBuilder}.
+     */
     
     public static PathBuilder create(java.util.Collection<? extends javafx.scene.shape.PathElement> elements) {
         PathBuilder builder = new PathBuilder();
@@ -39,6 +50,12 @@ public class PathBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Path#Path(javafx.scene.shape.PathElement... elements) Path(PathElement...)}
+     * and returns an instance of the {@code PathBuilder}.
+     *
+     * @return an instance of the {@code PathBuilder}.
+     */
     @SafeVarargs
     public static PathBuilder create(javafx.scene.shape.PathElement... elements) {
         PathBuilder builder = new PathBuilder();

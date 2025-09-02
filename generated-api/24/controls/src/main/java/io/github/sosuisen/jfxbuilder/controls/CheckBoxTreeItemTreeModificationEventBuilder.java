@@ -28,6 +28,12 @@ public class CheckBoxTreeItemTreeModificationEventBuilder<T> {
     private CheckBoxTreeItemTreeModificationEventBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.CheckBoxTreeItem.TreeModificationEvent#TreeModificationEvent(javafx.event.EventType<? extends javafx.event.Event> eventType, javafx.scene.control.CheckBoxTreeItem<T> treeItem, boolean selectionChanged) TreeModificationEvent(EventType, CheckBoxTreeItem, boolean)}
+     * and returns an instance of the {@code <T> CheckBoxTreeItemTreeModificationEventBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> CheckBoxTreeItemTreeModificationEventBuilder<T>}.
+     */
     
     public static <T> CheckBoxTreeItemTreeModificationEventBuilder<T> create(javafx.event.EventType<? extends javafx.event.Event> eventType, javafx.scene.control.CheckBoxTreeItem<T> treeItem, boolean selectionChanged) {
         CheckBoxTreeItemTreeModificationEventBuilder<T> builder = new CheckBoxTreeItemTreeModificationEventBuilder<T>();

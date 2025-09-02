@@ -28,6 +28,12 @@ public class WebErrorEventBuilder {
     private WebErrorEventBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.web.WebErrorEvent#WebErrorEvent(java.lang.Object source, javafx.event.EventType<javafx.scene.web.WebErrorEvent> type, java.lang.String message, java.lang.Throwable exception) WebErrorEvent(Object, EventType, String, Throwable)}
+     * and returns an instance of the {@code WebErrorEventBuilder}.
+     *
+     * @return an instance of the {@code WebErrorEventBuilder}.
+     */
     
     public static WebErrorEventBuilder create(java.lang.Object source, javafx.event.EventType<javafx.scene.web.WebErrorEvent> type, java.lang.String message, java.lang.Throwable exception) {
         WebErrorEventBuilder builder = new WebErrorEventBuilder();

@@ -28,9 +28,20 @@ public class LightDistantBuilder {
     private LightDistantBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code LightDistantBuilder}.
+     *
+     * @return an instance of the {@code LightDistantBuilder}.
+     */
     public static LightDistantBuilder create() { return new LightDistantBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.Light.Distant#Distant(double azimuth, double elevation, javafx.scene.paint.Color color) Distant(double, double, Color)}
+     * and returns an instance of the {@code LightDistantBuilder}.
+     *
+     * @return an instance of the {@code LightDistantBuilder}.
+     */
     
     public static LightDistantBuilder create(double azimuth, double elevation, javafx.scene.paint.Color color) {
         LightDistantBuilder builder = new LightDistantBuilder();

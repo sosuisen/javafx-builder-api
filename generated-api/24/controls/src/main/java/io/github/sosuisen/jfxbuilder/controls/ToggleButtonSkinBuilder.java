@@ -28,6 +28,12 @@ public class ToggleButtonSkinBuilder {
     private ToggleButtonSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ToggleButtonSkin#ToggleButtonSkin(javafx.scene.control.ToggleButton control) ToggleButtonSkin(ToggleButton)}
+     * and returns an instance of the {@code ToggleButtonSkinBuilder}.
+     *
+     * @return an instance of the {@code ToggleButtonSkinBuilder}.
+     */
     
     public static ToggleButtonSkinBuilder create(javafx.scene.control.ToggleButton control) {
         ToggleButtonSkinBuilder builder = new ToggleButtonSkinBuilder();

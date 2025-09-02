@@ -28,9 +28,20 @@ public class MenuBuilder {
     private MenuBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code MenuBuilder}.
+     *
+     * @return an instance of the {@code MenuBuilder}.
+     */
     public static MenuBuilder create() { return new MenuBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Menu#Menu(java.lang.String text) Menu(String)}
+     * and returns an instance of the {@code MenuBuilder}.
+     *
+     * @return an instance of the {@code MenuBuilder}.
+     */
     
     public static MenuBuilder create(java.lang.String text) {
         MenuBuilder builder = new MenuBuilder();
@@ -39,6 +50,12 @@ public class MenuBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Menu#Menu(java.lang.String text, javafx.scene.Node graphic) Menu(String, Node)}
+     * and returns an instance of the {@code MenuBuilder}.
+     *
+     * @return an instance of the {@code MenuBuilder}.
+     */
     
     public static MenuBuilder create(java.lang.String text, javafx.scene.Node graphic) {
         MenuBuilder builder = new MenuBuilder();
@@ -47,6 +64,12 @@ public class MenuBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Menu#Menu(java.lang.String text, javafx.scene.Node graphic, javafx.scene.control.MenuItem... items) Menu(String, Node, MenuItem...)}
+     * and returns an instance of the {@code MenuBuilder}.
+     *
+     * @return an instance of the {@code MenuBuilder}.
+     */
     @SafeVarargs
     public static MenuBuilder create(java.lang.String text, javafx.scene.Node graphic, javafx.scene.control.MenuItem... items) {
         MenuBuilder builder = new MenuBuilder();

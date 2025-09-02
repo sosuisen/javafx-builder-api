@@ -41,7 +41,7 @@ public class ParameterStringBuilder {
         return argList.toString();
     }
 
-    public static String buildParameterListTypesOnly(Parameter[] parameters) {
+    public static String buildParameterListCanonicalTypesOnly(Parameter[] parameters) {
         StringBuilder argList = new StringBuilder();
         for (int i = 0; i < parameters.length; i++) {
             Parameter param = parameters[i];
@@ -52,6 +52,38 @@ public class ParameterStringBuilder {
             }
         }
         return argList.toString();
+    }
+
+    public static String buildParameterListSimpleTypesOnly(Parameter[] parameters) {
+        StringBuilder argList = new StringBuilder();
+        for (int i = 0; i < parameters.length; i++) {
+            Parameter param = parameters[i];
+            String typeName = toReadableTypeName(param.getType().getName());
+
+            typeName = typeName.substring(findLastDotWordIndexReverse(typeName) + 1);
+            argList.append(typeName);
+            if (i < parameters.length - 1) {
+                argList.append(", ");
+            }
+        }
+        return argList.toString();
+    }
+
+    /**
+     * Finds the index of the last occurrence of a period followed by a single
+     * letter.
+     * 
+     * Example: ".S" matches in "java.lang.String..." and returns 9.
+     * 
+     */
+    private static int findLastDotWordIndexReverse(String str) {
+        for (int i = str.length() - 2; i >= 0; i--) {
+            if (str.charAt(i) == '.' &&
+                    Character.isLetterOrDigit(str.charAt(i + 1))) {
+                return i;
+            }
+        }
+        return -1;
     }
 
     // Mapping for primitive array type descriptors to readable names with varargs

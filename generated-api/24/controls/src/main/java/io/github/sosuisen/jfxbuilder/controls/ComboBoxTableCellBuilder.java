@@ -28,9 +28,20 @@ public class ComboBoxTableCellBuilder<S, T> {
     private ComboBoxTableCellBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <S, T> ComboBoxTableCellBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> ComboBoxTableCellBuilder<S, T>}.
+     */
     public static <S, T> ComboBoxTableCellBuilder<S, T> create() { return new ComboBoxTableCellBuilder<S, T>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ComboBoxTableCell#ComboBoxTableCell(T... items) ComboBoxTableCell(Object...)}
+     * and returns an instance of the {@code <S, T> ComboBoxTableCellBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> ComboBoxTableCellBuilder<S, T>}.
+     */
     @SafeVarargs
     public static <S, T> ComboBoxTableCellBuilder<S, T> create(T... items) {
         ComboBoxTableCellBuilder<S, T> builder = new ComboBoxTableCellBuilder<S, T>();
@@ -39,6 +50,12 @@ public class ComboBoxTableCellBuilder<S, T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ComboBoxTableCell#ComboBoxTableCell(javafx.collections.ObservableList<T> items) ComboBoxTableCell(ObservableList)}
+     * and returns an instance of the {@code <S, T> ComboBoxTableCellBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> ComboBoxTableCellBuilder<S, T>}.
+     */
     
     public static <S, T> ComboBoxTableCellBuilder<S, T> create(javafx.collections.ObservableList<T> items) {
         ComboBoxTableCellBuilder<S, T> builder = new ComboBoxTableCellBuilder<S, T>();
@@ -47,6 +64,12 @@ public class ComboBoxTableCellBuilder<S, T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ComboBoxTableCell#ComboBoxTableCell(javafx.util.StringConverter<T> converter, T... items) ComboBoxTableCell(StringConverter, Object...)}
+     * and returns an instance of the {@code <S, T> ComboBoxTableCellBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> ComboBoxTableCellBuilder<S, T>}.
+     */
     @SafeVarargs
     public static <S, T> ComboBoxTableCellBuilder<S, T> create(javafx.util.StringConverter<T> converter, T... items) {
         ComboBoxTableCellBuilder<S, T> builder = new ComboBoxTableCellBuilder<S, T>();
@@ -55,6 +78,12 @@ public class ComboBoxTableCellBuilder<S, T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ComboBoxTableCell#ComboBoxTableCell(javafx.util.StringConverter<T> converter, javafx.collections.ObservableList<T> items) ComboBoxTableCell(StringConverter, ObservableList)}
+     * and returns an instance of the {@code <S, T> ComboBoxTableCellBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> ComboBoxTableCellBuilder<S, T>}.
+     */
     
     public static <S, T> ComboBoxTableCellBuilder<S, T> create(javafx.util.StringConverter<T> converter, javafx.collections.ObservableList<T> items) {
         ComboBoxTableCellBuilder<S, T> builder = new ComboBoxTableCellBuilder<S, T>();

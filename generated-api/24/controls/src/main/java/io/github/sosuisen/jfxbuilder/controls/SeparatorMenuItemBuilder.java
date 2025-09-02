@@ -28,6 +28,11 @@ public class SeparatorMenuItemBuilder {
     private SeparatorMenuItemBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code SeparatorMenuItemBuilder}.
+     *
+     * @return an instance of the {@code SeparatorMenuItemBuilder}.
+     */
     public static SeparatorMenuItemBuilder create() { return new SeparatorMenuItemBuilder(); }
 
     private Object[] constructorArgs;

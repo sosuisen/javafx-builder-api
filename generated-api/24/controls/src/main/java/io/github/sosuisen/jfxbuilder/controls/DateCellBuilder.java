@@ -28,6 +28,11 @@ public class DateCellBuilder {
     private DateCellBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code DateCellBuilder}.
+     *
+     * @return an instance of the {@code DateCellBuilder}.
+     */
     public static DateCellBuilder create() { return new DateCellBuilder(); }
 
     private Object[] constructorArgs;

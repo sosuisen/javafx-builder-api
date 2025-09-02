@@ -28,6 +28,12 @@ public class SortEventBuilder<C> {
     private SortEventBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.SortEvent#SortEvent(C source, javafx.event.EventTarget target) SortEvent(Object, EventTarget)}
+     * and returns an instance of the {@code <C> SortEventBuilder<C>}.
+     *
+     * @return an instance of the {@code <C> SortEventBuilder<C>}.
+     */
     
     public static <C> SortEventBuilder<C> create(C source, javafx.event.EventTarget target) {
         SortEventBuilder<C> builder = new SortEventBuilder<C>();

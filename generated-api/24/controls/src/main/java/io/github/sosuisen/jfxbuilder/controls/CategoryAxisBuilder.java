@@ -28,9 +28,20 @@ public class CategoryAxisBuilder {
     private CategoryAxisBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code CategoryAxisBuilder}.
+     *
+     * @return an instance of the {@code CategoryAxisBuilder}.
+     */
     public static CategoryAxisBuilder create() { return new CategoryAxisBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.chart.CategoryAxis#CategoryAxis(javafx.collections.ObservableList<java.lang.String> categories) CategoryAxis(ObservableList)}
+     * and returns an instance of the {@code CategoryAxisBuilder}.
+     *
+     * @return an instance of the {@code CategoryAxisBuilder}.
+     */
     
     public static CategoryAxisBuilder create(javafx.collections.ObservableList<java.lang.String> categories) {
         CategoryAxisBuilder builder = new CategoryAxisBuilder();

@@ -28,9 +28,20 @@ public class TabPaneBuilder {
     private TabPaneBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code TabPaneBuilder}.
+     *
+     * @return an instance of the {@code TabPaneBuilder}.
+     */
     public static TabPaneBuilder create() { return new TabPaneBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TabPane#TabPane(javafx.scene.control.Tab... tabs) TabPane(Tab...)}
+     * and returns an instance of the {@code TabPaneBuilder}.
+     *
+     * @return an instance of the {@code TabPaneBuilder}.
+     */
     @SafeVarargs
     public static TabPaneBuilder create(javafx.scene.control.Tab... tabs) {
         TabPaneBuilder builder = new TabPaneBuilder();

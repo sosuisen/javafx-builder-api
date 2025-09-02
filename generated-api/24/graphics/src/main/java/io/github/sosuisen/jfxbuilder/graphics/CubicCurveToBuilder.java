@@ -28,9 +28,20 @@ public class CubicCurveToBuilder {
     private CubicCurveToBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code CubicCurveToBuilder}.
+     *
+     * @return an instance of the {@code CubicCurveToBuilder}.
+     */
     public static CubicCurveToBuilder create() { return new CubicCurveToBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.CubicCurveTo#CubicCurveTo(double controlX1, double controlY1, double controlX2, double controlY2, double x, double y) CubicCurveTo(double, double, double, double, double, double)}
+     * and returns an instance of the {@code CubicCurveToBuilder}.
+     *
+     * @return an instance of the {@code CubicCurveToBuilder}.
+     */
     
     public static CubicCurveToBuilder create(double controlX1, double controlY1, double controlX2, double controlY2, double x, double y) {
         CubicCurveToBuilder builder = new CubicCurveToBuilder();

@@ -28,6 +28,12 @@ public class AlertBuilder {
     private AlertBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Alert#Alert(javafx.scene.control.Alert.AlertType alertType) Alert(Alert$AlertType)}
+     * and returns an instance of the {@code AlertBuilder}.
+     *
+     * @return an instance of the {@code AlertBuilder}.
+     */
     
     public static AlertBuilder create(javafx.scene.control.Alert.AlertType alertType) {
         AlertBuilder builder = new AlertBuilder();
@@ -36,6 +42,12 @@ public class AlertBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Alert#Alert(javafx.scene.control.Alert.AlertType alertType, java.lang.String contentText, javafx.scene.control.ButtonType... buttons) Alert(Alert$AlertType, String, ButtonType...)}
+     * and returns an instance of the {@code AlertBuilder}.
+     *
+     * @return an instance of the {@code AlertBuilder}.
+     */
     @SafeVarargs
     public static AlertBuilder create(javafx.scene.control.Alert.AlertType alertType, java.lang.String contentText, javafx.scene.control.ButtonType... buttons) {
         AlertBuilder builder = new AlertBuilder();

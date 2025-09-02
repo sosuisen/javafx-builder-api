@@ -28,9 +28,20 @@ public class ContextMenuBuilder {
     private ContextMenuBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ContextMenuBuilder}.
+     *
+     * @return an instance of the {@code ContextMenuBuilder}.
+     */
     public static ContextMenuBuilder create() { return new ContextMenuBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.ContextMenu#ContextMenu(javafx.scene.control.MenuItem... items) ContextMenu(MenuItem...)}
+     * and returns an instance of the {@code ContextMenuBuilder}.
+     *
+     * @return an instance of the {@code ContextMenuBuilder}.
+     */
     @SafeVarargs
     public static ContextMenuBuilder create(javafx.scene.control.MenuItem... items) {
         ContextMenuBuilder builder = new ContextMenuBuilder();

@@ -28,9 +28,20 @@ public class TableViewBuilder<S> {
     private TableViewBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <S> TableViewBuilder<S>}.
+     *
+     * @return an instance of the {@code <S> TableViewBuilder<S>}.
+     */
     public static <S> TableViewBuilder<S> create() { return new TableViewBuilder<S>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TableView#TableView(javafx.collections.ObservableList<S> items) TableView(ObservableList)}
+     * and returns an instance of the {@code <S> TableViewBuilder<S>}.
+     *
+     * @return an instance of the {@code <S> TableViewBuilder<S>}.
+     */
     
     public static <S> TableViewBuilder<S> create(javafx.collections.ObservableList<S> items) {
         TableViewBuilder<S> builder = new TableViewBuilder<S>();

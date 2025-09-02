@@ -28,6 +28,11 @@ public class AxisTickMarkBuilder<T> {
     private AxisTickMarkBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <T> AxisTickMarkBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> AxisTickMarkBuilder<T>}.
+     */
     public static <T> AxisTickMarkBuilder<T> create() { return new AxisTickMarkBuilder<T>(); }
 
     private Object[] constructorArgs;

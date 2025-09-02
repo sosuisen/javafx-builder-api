@@ -28,9 +28,20 @@ public class VLineToBuilder {
     private VLineToBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code VLineToBuilder}.
+     *
+     * @return an instance of the {@code VLineToBuilder}.
+     */
     public static VLineToBuilder create() { return new VLineToBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.VLineTo#VLineTo(double y) VLineTo(double)}
+     * and returns an instance of the {@code VLineToBuilder}.
+     *
+     * @return an instance of the {@code VLineToBuilder}.
+     */
     
     public static VLineToBuilder create(double y) {
         VLineToBuilder builder = new VLineToBuilder();

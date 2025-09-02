@@ -28,9 +28,20 @@ public class ColorInputBuilder {
     private ColorInputBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ColorInputBuilder}.
+     *
+     * @return an instance of the {@code ColorInputBuilder}.
+     */
     public static ColorInputBuilder create() { return new ColorInputBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.ColorInput#ColorInput(double x, double y, double width, double height, javafx.scene.paint.Paint paint) ColorInput(double, double, double, double, Paint)}
+     * and returns an instance of the {@code ColorInputBuilder}.
+     *
+     * @return an instance of the {@code ColorInputBuilder}.
+     */
     
     public static ColorInputBuilder create(double x, double y, double width, double height, javafx.scene.paint.Paint paint) {
         ColorInputBuilder builder = new ColorInputBuilder();

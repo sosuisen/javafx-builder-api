@@ -28,9 +28,20 @@ public class SepiaToneBuilder {
     private SepiaToneBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code SepiaToneBuilder}.
+     *
+     * @return an instance of the {@code SepiaToneBuilder}.
+     */
     public static SepiaToneBuilder create() { return new SepiaToneBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.SepiaTone#SepiaTone(double level) SepiaTone(double)}
+     * and returns an instance of the {@code SepiaToneBuilder}.
+     *
+     * @return an instance of the {@code SepiaToneBuilder}.
+     */
     
     public static SepiaToneBuilder create(double level) {
         SepiaToneBuilder builder = new SepiaToneBuilder();

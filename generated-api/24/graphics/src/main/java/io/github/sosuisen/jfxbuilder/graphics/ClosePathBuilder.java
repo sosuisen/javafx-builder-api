@@ -28,6 +28,11 @@ public class ClosePathBuilder {
     private ClosePathBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ClosePathBuilder}.
+     *
+     * @return an instance of the {@code ClosePathBuilder}.
+     */
     public static ClosePathBuilder create() { return new ClosePathBuilder(); }
 
     private Object[] constructorArgs;

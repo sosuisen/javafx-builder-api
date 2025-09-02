@@ -28,6 +28,12 @@ public class ComboBoxListViewSkinBuilder<T> {
     private ComboBoxListViewSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ComboBoxListViewSkin#ComboBoxListViewSkin(javafx.scene.control.ComboBox<T> control) ComboBoxListViewSkin(ComboBox)}
+     * and returns an instance of the {@code <T> ComboBoxListViewSkinBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ComboBoxListViewSkinBuilder<T>}.
+     */
     
     public static <T> ComboBoxListViewSkinBuilder<T> create(javafx.scene.control.ComboBox<T> control) {
         ComboBoxListViewSkinBuilder<T> builder = new ComboBoxListViewSkinBuilder<T>();

@@ -28,6 +28,12 @@ public class TouchEventBuilder {
     private TouchEventBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.input.TouchEvent#TouchEvent(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.TouchEvent> eventType, javafx.scene.input.TouchPoint touchPoint, java.util.List<javafx.scene.input.TouchPoint> touchPoints, int eventSetId, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown) TouchEvent(Object, EventTarget, EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean)}
+     * and returns an instance of the {@code TouchEventBuilder}.
+     *
+     * @return an instance of the {@code TouchEventBuilder}.
+     */
     
     public static TouchEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.TouchEvent> eventType, javafx.scene.input.TouchPoint touchPoint, java.util.List<javafx.scene.input.TouchPoint> touchPoints, int eventSetId, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown) {
         TouchEventBuilder builder = new TouchEventBuilder();
@@ -36,6 +42,12 @@ public class TouchEventBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.input.TouchEvent#TouchEvent(javafx.event.EventType<javafx.scene.input.TouchEvent> eventType, javafx.scene.input.TouchPoint touchPoint, java.util.List<javafx.scene.input.TouchPoint> touchPoints, int eventSetId, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown) TouchEvent(EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean)}
+     * and returns an instance of the {@code TouchEventBuilder}.
+     *
+     * @return an instance of the {@code TouchEventBuilder}.
+     */
     
     public static TouchEventBuilder create(javafx.event.EventType<javafx.scene.input.TouchEvent> eventType, javafx.scene.input.TouchPoint touchPoint, java.util.List<javafx.scene.input.TouchPoint> touchPoints, int eventSetId, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown) {
         TouchEventBuilder builder = new TouchEventBuilder();

@@ -28,9 +28,20 @@ public class LabelBuilder {
     private LabelBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code LabelBuilder}.
+     *
+     * @return an instance of the {@code LabelBuilder}.
+     */
     public static LabelBuilder create() { return new LabelBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Label#Label(java.lang.String text) Label(String)}
+     * and returns an instance of the {@code LabelBuilder}.
+     *
+     * @return an instance of the {@code LabelBuilder}.
+     */
     
     public static LabelBuilder create(java.lang.String text) {
         LabelBuilder builder = new LabelBuilder();
@@ -39,6 +50,12 @@ public class LabelBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Label#Label(java.lang.String text, javafx.scene.Node graphic) Label(String, Node)}
+     * and returns an instance of the {@code LabelBuilder}.
+     *
+     * @return an instance of the {@code LabelBuilder}.
+     */
     
     public static LabelBuilder create(java.lang.String text, javafx.scene.Node graphic) {
         LabelBuilder builder = new LabelBuilder();

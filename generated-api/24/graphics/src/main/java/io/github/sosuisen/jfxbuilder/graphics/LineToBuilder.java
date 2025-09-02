@@ -28,9 +28,20 @@ public class LineToBuilder {
     private LineToBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code LineToBuilder}.
+     *
+     * @return an instance of the {@code LineToBuilder}.
+     */
     public static LineToBuilder create() { return new LineToBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.LineTo#LineTo(double x, double y) LineTo(double, double)}
+     * and returns an instance of the {@code LineToBuilder}.
+     *
+     * @return an instance of the {@code LineToBuilder}.
+     */
     
     public static LineToBuilder create(double x, double y) {
         LineToBuilder builder = new LineToBuilder();

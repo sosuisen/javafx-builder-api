@@ -28,6 +28,12 @@ public class KeyCodeCombinationBuilder {
     private KeyCodeCombinationBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.input.KeyCodeCombination#KeyCodeCombination(javafx.scene.input.KeyCode code, javafx.scene.input.KeyCombination.ModifierValue shift, javafx.scene.input.KeyCombination.ModifierValue control, javafx.scene.input.KeyCombination.ModifierValue alt, javafx.scene.input.KeyCombination.ModifierValue meta, javafx.scene.input.KeyCombination.ModifierValue shortcut) KeyCodeCombination(KeyCode, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue)}
+     * and returns an instance of the {@code KeyCodeCombinationBuilder}.
+     *
+     * @return an instance of the {@code KeyCodeCombinationBuilder}.
+     */
     
     public static KeyCodeCombinationBuilder create(javafx.scene.input.KeyCode code, javafx.scene.input.KeyCombination.ModifierValue shift, javafx.scene.input.KeyCombination.ModifierValue control, javafx.scene.input.KeyCombination.ModifierValue alt, javafx.scene.input.KeyCombination.ModifierValue meta, javafx.scene.input.KeyCombination.ModifierValue shortcut) {
         KeyCodeCombinationBuilder builder = new KeyCodeCombinationBuilder();
@@ -36,6 +42,12 @@ public class KeyCodeCombinationBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.input.KeyCodeCombination#KeyCodeCombination(javafx.scene.input.KeyCode code, javafx.scene.input.KeyCombination.Modifier... modifiers) KeyCodeCombination(KeyCode, KeyCombination$Modifier...)}
+     * and returns an instance of the {@code KeyCodeCombinationBuilder}.
+     *
+     * @return an instance of the {@code KeyCodeCombinationBuilder}.
+     */
     @SafeVarargs
     public static KeyCodeCombinationBuilder create(javafx.scene.input.KeyCode code, javafx.scene.input.KeyCombination.Modifier... modifiers) {
         KeyCodeCombinationBuilder builder = new KeyCodeCombinationBuilder();

@@ -28,6 +28,12 @@ public class LineChartBuilder<X, Y> {
     private LineChartBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.chart.LineChart#LineChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) LineChart(Axis, Axis)}
+     * and returns an instance of the {@code <X, Y> LineChartBuilder<X, Y>}.
+     *
+     * @return an instance of the {@code <X, Y> LineChartBuilder<X, Y>}.
+     */
     
     public static <X, Y> LineChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) {
         LineChartBuilder<X, Y> builder = new LineChartBuilder<X, Y>();
@@ -36,6 +42,12 @@ public class LineChartBuilder<X, Y> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.chart.LineChart#LineChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) LineChart(Axis, Axis, ObservableList)}
+     * and returns an instance of the {@code <X, Y> LineChartBuilder<X, Y>}.
+     *
+     * @return an instance of the {@code <X, Y> LineChartBuilder<X, Y>}.
+     */
     
     public static <X, Y> LineChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) {
         LineChartBuilder<X, Y> builder = new LineChartBuilder<X, Y>();

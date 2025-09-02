@@ -49,7 +49,8 @@ public record SetterMethodModel(
             // Build parameter lists
             String parameterList = ParameterStringBuilder.buildParameterListWithTypes(
                     setterMethod.getParameters(), classMetadata.getCanonicalClassName(), setterMethod.isVarArgs());
-            String parameterTypeList = ParameterStringBuilder.buildParameterListTypesOnly(setterMethod.getParameters());
+            String parameterTypeList = ParameterStringBuilder
+                    .buildParameterListCanonicalTypesOnly(setterMethod.getParameters());
             String argumentList = ParameterStringBuilder.buildParameterListNamesOnly(setterMethod.getParameters());
 
             // Get method annotation

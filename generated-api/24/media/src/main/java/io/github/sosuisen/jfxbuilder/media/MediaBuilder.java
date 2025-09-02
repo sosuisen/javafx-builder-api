@@ -28,6 +28,12 @@ public class MediaBuilder {
     private MediaBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.media.Media#Media(java.lang.String source) Media(String)}
+     * and returns an instance of the {@code MediaBuilder}.
+     *
+     * @return an instance of the {@code MediaBuilder}.
+     */
     
     public static MediaBuilder create(java.lang.String source) {
         MediaBuilder builder = new MediaBuilder();

@@ -28,9 +28,20 @@ public class WebEngineBuilder {
     private WebEngineBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code WebEngineBuilder}.
+     *
+     * @return an instance of the {@code WebEngineBuilder}.
+     */
     public static WebEngineBuilder create() { return new WebEngineBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.web.WebEngine#WebEngine(java.lang.String url) WebEngine(String)}
+     * and returns an instance of the {@code WebEngineBuilder}.
+     *
+     * @return an instance of the {@code WebEngineBuilder}.
+     */
     
     public static WebEngineBuilder create(java.lang.String url) {
         WebEngineBuilder builder = new WebEngineBuilder();

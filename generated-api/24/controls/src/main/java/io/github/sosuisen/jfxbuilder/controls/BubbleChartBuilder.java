@@ -28,6 +28,12 @@ public class BubbleChartBuilder<X, Y> {
     private BubbleChartBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.chart.BubbleChart#BubbleChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) BubbleChart(Axis, Axis)}
+     * and returns an instance of the {@code <X, Y> BubbleChartBuilder<X, Y>}.
+     *
+     * @return an instance of the {@code <X, Y> BubbleChartBuilder<X, Y>}.
+     */
     
     public static <X, Y> BubbleChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) {
         BubbleChartBuilder<X, Y> builder = new BubbleChartBuilder<X, Y>();
@@ -36,6 +42,12 @@ public class BubbleChartBuilder<X, Y> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.chart.BubbleChart#BubbleChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) BubbleChart(Axis, Axis, ObservableList)}
+     * and returns an instance of the {@code <X, Y> BubbleChartBuilder<X, Y>}.
+     *
+     * @return an instance of the {@code <X, Y> BubbleChartBuilder<X, Y>}.
+     */
     
     public static <X, Y> BubbleChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) {
         BubbleChartBuilder<X, Y> builder = new BubbleChartBuilder<X, Y>();

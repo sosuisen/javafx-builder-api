@@ -28,9 +28,20 @@ public class GridPaneBuilder {
     private GridPaneBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code GridPaneBuilder}.
+     *
+     * @return an instance of the {@code GridPaneBuilder}.
+     */
     public static GridPaneBuilder create() { return new GridPaneBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.GridPane#GridPane(double hgap, double vgap) GridPane(double, double)}
+     * and returns an instance of the {@code GridPaneBuilder}.
+     *
+     * @return an instance of the {@code GridPaneBuilder}.
+     */
     
     public static GridPaneBuilder create(double hgap, double vgap) {
         GridPaneBuilder builder = new GridPaneBuilder();

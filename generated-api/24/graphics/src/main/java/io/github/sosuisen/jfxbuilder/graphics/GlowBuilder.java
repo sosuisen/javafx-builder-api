@@ -28,9 +28,20 @@ public class GlowBuilder {
     private GlowBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code GlowBuilder}.
+     *
+     * @return an instance of the {@code GlowBuilder}.
+     */
     public static GlowBuilder create() { return new GlowBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.Glow#Glow(double level) Glow(double)}
+     * and returns an instance of the {@code GlowBuilder}.
+     *
+     * @return an instance of the {@code GlowBuilder}.
+     */
     
     public static GlowBuilder create(double level) {
         GlowBuilder builder = new GlowBuilder();

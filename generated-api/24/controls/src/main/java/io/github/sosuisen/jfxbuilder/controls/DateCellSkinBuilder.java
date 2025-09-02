@@ -28,6 +28,12 @@ public class DateCellSkinBuilder {
     private DateCellSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.DateCellSkin#DateCellSkin(javafx.scene.control.DateCell control) DateCellSkin(DateCell)}
+     * and returns an instance of the {@code DateCellSkinBuilder}.
+     *
+     * @return an instance of the {@code DateCellSkinBuilder}.
+     */
     
     public static DateCellSkinBuilder create(javafx.scene.control.DateCell control) {
         DateCellSkinBuilder builder = new DateCellSkinBuilder();

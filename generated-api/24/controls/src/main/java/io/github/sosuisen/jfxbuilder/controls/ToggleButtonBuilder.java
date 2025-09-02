@@ -28,9 +28,20 @@ public class ToggleButtonBuilder {
     private ToggleButtonBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ToggleButtonBuilder}.
+     *
+     * @return an instance of the {@code ToggleButtonBuilder}.
+     */
     public static ToggleButtonBuilder create() { return new ToggleButtonBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.ToggleButton#ToggleButton(java.lang.String text) ToggleButton(String)}
+     * and returns an instance of the {@code ToggleButtonBuilder}.
+     *
+     * @return an instance of the {@code ToggleButtonBuilder}.
+     */
     
     public static ToggleButtonBuilder create(java.lang.String text) {
         ToggleButtonBuilder builder = new ToggleButtonBuilder();
@@ -39,6 +50,12 @@ public class ToggleButtonBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.ToggleButton#ToggleButton(java.lang.String text, javafx.scene.Node graphic) ToggleButton(String, Node)}
+     * and returns an instance of the {@code ToggleButtonBuilder}.
+     *
+     * @return an instance of the {@code ToggleButtonBuilder}.
+     */
     
     public static ToggleButtonBuilder create(java.lang.String text, javafx.scene.Node graphic) {
         ToggleButtonBuilder builder = new ToggleButtonBuilder();

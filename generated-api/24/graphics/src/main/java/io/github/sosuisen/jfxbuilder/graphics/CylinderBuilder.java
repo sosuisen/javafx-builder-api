@@ -28,9 +28,20 @@ public class CylinderBuilder {
     private CylinderBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code CylinderBuilder}.
+     *
+     * @return an instance of the {@code CylinderBuilder}.
+     */
     public static CylinderBuilder create() { return new CylinderBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Cylinder#Cylinder(double radius, double height) Cylinder(double, double)}
+     * and returns an instance of the {@code CylinderBuilder}.
+     *
+     * @return an instance of the {@code CylinderBuilder}.
+     */
     
     public static CylinderBuilder create(double radius, double height) {
         CylinderBuilder builder = new CylinderBuilder();
@@ -39,6 +50,12 @@ public class CylinderBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Cylinder#Cylinder(double radius, double height, int divisions) Cylinder(double, double, int)}
+     * and returns an instance of the {@code CylinderBuilder}.
+     *
+     * @return an instance of the {@code CylinderBuilder}.
+     */
     
     public static CylinderBuilder create(double radius, double height, int divisions) {
         CylinderBuilder builder = new CylinderBuilder();

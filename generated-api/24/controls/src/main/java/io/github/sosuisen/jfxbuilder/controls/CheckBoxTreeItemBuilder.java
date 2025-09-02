@@ -28,9 +28,20 @@ public class CheckBoxTreeItemBuilder<T> {
     private CheckBoxTreeItemBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     */
     public static <T> CheckBoxTreeItemBuilder<T> create() { return new CheckBoxTreeItemBuilder<T>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(T value) CheckBoxTreeItem(Object)}
+     * and returns an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     */
     
     public static <T> CheckBoxTreeItemBuilder<T> create(T value) {
         CheckBoxTreeItemBuilder<T> builder = new CheckBoxTreeItemBuilder<T>();
@@ -39,6 +50,12 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(T value, javafx.scene.Node graphic) CheckBoxTreeItem(Object, Node)}
+     * and returns an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     */
     
     public static <T> CheckBoxTreeItemBuilder<T> create(T value, javafx.scene.Node graphic) {
         CheckBoxTreeItemBuilder<T> builder = new CheckBoxTreeItemBuilder<T>();
@@ -47,6 +64,12 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(T value, javafx.scene.Node graphic, boolean selected) CheckBoxTreeItem(Object, Node, boolean)}
+     * and returns an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     */
     
     public static <T> CheckBoxTreeItemBuilder<T> create(T value, javafx.scene.Node graphic, boolean selected) {
         CheckBoxTreeItemBuilder<T> builder = new CheckBoxTreeItemBuilder<T>();
@@ -55,6 +78,12 @@ public class CheckBoxTreeItemBuilder<T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(T value, javafx.scene.Node graphic, boolean selected, boolean independent) CheckBoxTreeItem(Object, Node, boolean, boolean)}
+     * and returns an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     */
     
     public static <T> CheckBoxTreeItemBuilder<T> create(T value, javafx.scene.Node graphic, boolean selected, boolean independent) {
         CheckBoxTreeItemBuilder<T> builder = new CheckBoxTreeItemBuilder<T>();

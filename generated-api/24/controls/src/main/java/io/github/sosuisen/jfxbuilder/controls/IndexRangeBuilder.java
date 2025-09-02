@@ -28,6 +28,12 @@ public class IndexRangeBuilder {
     private IndexRangeBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.IndexRange#IndexRange(int start, int end) IndexRange(int, int)}
+     * and returns an instance of the {@code IndexRangeBuilder}.
+     *
+     * @return an instance of the {@code IndexRangeBuilder}.
+     */
     
     public static IndexRangeBuilder create(int start, int end) {
         IndexRangeBuilder builder = new IndexRangeBuilder();
@@ -36,6 +42,12 @@ public class IndexRangeBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.IndexRange#IndexRange(javafx.scene.control.IndexRange range) IndexRange(IndexRange)}
+     * and returns an instance of the {@code IndexRangeBuilder}.
+     *
+     * @return an instance of the {@code IndexRangeBuilder}.
+     */
     
     public static IndexRangeBuilder create(javafx.scene.control.IndexRange range) {
         IndexRangeBuilder builder = new IndexRangeBuilder();

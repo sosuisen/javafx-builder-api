@@ -28,6 +28,12 @@ public class PieChartDataBuilder {
     private PieChartDataBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.chart.PieChart.Data#Data(java.lang.String name, double value) Data(String, double)}
+     * and returns an instance of the {@code PieChartDataBuilder}.
+     *
+     * @return an instance of the {@code PieChartDataBuilder}.
+     */
     
     public static PieChartDataBuilder create(java.lang.String name, double value) {
         PieChartDataBuilder builder = new PieChartDataBuilder();

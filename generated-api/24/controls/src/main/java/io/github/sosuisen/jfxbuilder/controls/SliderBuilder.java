@@ -28,9 +28,20 @@ public class SliderBuilder {
     private SliderBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code SliderBuilder}.
+     *
+     * @return an instance of the {@code SliderBuilder}.
+     */
     public static SliderBuilder create() { return new SliderBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Slider#Slider(double min, double max, double value) Slider(double, double, double)}
+     * and returns an instance of the {@code SliderBuilder}.
+     *
+     * @return an instance of the {@code SliderBuilder}.
+     */
     
     public static SliderBuilder create(double min, double max, double value) {
         SliderBuilder builder = new SliderBuilder();

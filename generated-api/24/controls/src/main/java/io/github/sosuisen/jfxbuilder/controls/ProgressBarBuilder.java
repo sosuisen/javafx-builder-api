@@ -28,9 +28,20 @@ public class ProgressBarBuilder {
     private ProgressBarBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ProgressBarBuilder}.
+     *
+     * @return an instance of the {@code ProgressBarBuilder}.
+     */
     public static ProgressBarBuilder create() { return new ProgressBarBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.ProgressBar#ProgressBar(double progress) ProgressBar(double)}
+     * and returns an instance of the {@code ProgressBarBuilder}.
+     *
+     * @return an instance of the {@code ProgressBarBuilder}.
+     */
     
     public static ProgressBarBuilder create(double progress) {
         ProgressBarBuilder builder = new ProgressBarBuilder();

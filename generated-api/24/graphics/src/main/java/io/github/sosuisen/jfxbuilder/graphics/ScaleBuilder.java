@@ -28,9 +28,20 @@ public class ScaleBuilder {
     private ScaleBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ScaleBuilder}.
+     *
+     * @return an instance of the {@code ScaleBuilder}.
+     */
     public static ScaleBuilder create() { return new ScaleBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.transform.Scale#Scale(double x, double y) Scale(double, double)}
+     * and returns an instance of the {@code ScaleBuilder}.
+     *
+     * @return an instance of the {@code ScaleBuilder}.
+     */
     
     public static ScaleBuilder create(double x, double y) {
         ScaleBuilder builder = new ScaleBuilder();
@@ -39,6 +50,12 @@ public class ScaleBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.transform.Scale#Scale(double x, double y, double z) Scale(double, double, double)}
+     * and returns an instance of the {@code ScaleBuilder}.
+     *
+     * @return an instance of the {@code ScaleBuilder}.
+     */
     
     public static ScaleBuilder create(double x, double y, double z) {
         ScaleBuilder builder = new ScaleBuilder();
@@ -47,6 +64,12 @@ public class ScaleBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.transform.Scale#Scale(double x, double y, double pivotX, double pivotY) Scale(double, double, double, double)}
+     * and returns an instance of the {@code ScaleBuilder}.
+     *
+     * @return an instance of the {@code ScaleBuilder}.
+     */
     
     public static ScaleBuilder create(double x, double y, double pivotX, double pivotY) {
         ScaleBuilder builder = new ScaleBuilder();
@@ -55,6 +78,12 @@ public class ScaleBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.transform.Scale#Scale(double x, double y, double z, double pivotX, double pivotY, double pivotZ) Scale(double, double, double, double, double, double)}
+     * and returns an instance of the {@code ScaleBuilder}.
+     *
+     * @return an instance of the {@code ScaleBuilder}.
+     */
     
     public static ScaleBuilder create(double x, double y, double z, double pivotX, double pivotY, double pivotZ) {
         ScaleBuilder builder = new ScaleBuilder();

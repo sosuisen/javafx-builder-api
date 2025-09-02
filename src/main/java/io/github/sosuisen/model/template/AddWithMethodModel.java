@@ -86,7 +86,7 @@ public record AddWithMethodModel(
             return new AddWithMethodModel(
                     classMetadata.builderClassNameWithTypeParameter(),
                     observableListTypeParameter,
-                    classMetadata.gettypeParametersWithExtends(),
+                    classMetadata.getTypeParametersWithExtends(),
                     addMethodName,
                     withMethodName,
                     getterMethodName,

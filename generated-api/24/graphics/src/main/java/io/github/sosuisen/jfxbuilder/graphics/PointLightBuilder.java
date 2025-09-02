@@ -28,9 +28,20 @@ public class PointLightBuilder {
     private PointLightBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code PointLightBuilder}.
+     *
+     * @return an instance of the {@code PointLightBuilder}.
+     */
     public static PointLightBuilder create() { return new PointLightBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.PointLight#PointLight(javafx.scene.paint.Color color) PointLight(Color)}
+     * and returns an instance of the {@code PointLightBuilder}.
+     *
+     * @return an instance of the {@code PointLightBuilder}.
+     */
     
     public static PointLightBuilder create(javafx.scene.paint.Color color) {
         PointLightBuilder builder = new PointLightBuilder();

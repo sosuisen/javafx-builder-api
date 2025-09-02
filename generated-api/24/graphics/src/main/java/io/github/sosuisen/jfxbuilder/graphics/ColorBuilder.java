@@ -28,6 +28,12 @@ public class ColorBuilder {
     private ColorBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.paint.Color#Color(double red, double green, double blue, double opacity) Color(double, double, double, double)}
+     * and returns an instance of the {@code ColorBuilder}.
+     *
+     * @return an instance of the {@code ColorBuilder}.
+     */
     
     public static ColorBuilder create(double red, double green, double blue, double opacity) {
         ColorBuilder builder = new ColorBuilder();

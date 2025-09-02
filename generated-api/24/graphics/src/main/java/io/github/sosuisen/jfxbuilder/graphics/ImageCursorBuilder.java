@@ -28,9 +28,20 @@ public class ImageCursorBuilder {
     private ImageCursorBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ImageCursorBuilder}.
+     *
+     * @return an instance of the {@code ImageCursorBuilder}.
+     */
     public static ImageCursorBuilder create() { return new ImageCursorBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.ImageCursor#ImageCursor(javafx.scene.image.Image image) ImageCursor(Image)}
+     * and returns an instance of the {@code ImageCursorBuilder}.
+     *
+     * @return an instance of the {@code ImageCursorBuilder}.
+     */
     
     public static ImageCursorBuilder create(javafx.scene.image.Image image) {
         ImageCursorBuilder builder = new ImageCursorBuilder();
@@ -39,6 +50,12 @@ public class ImageCursorBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.ImageCursor#ImageCursor(javafx.scene.image.Image image, double hotspotX, double hotspotY) ImageCursor(Image, double, double)}
+     * and returns an instance of the {@code ImageCursorBuilder}.
+     *
+     * @return an instance of the {@code ImageCursorBuilder}.
+     */
     
     public static ImageCursorBuilder create(javafx.scene.image.Image image, double hotspotX, double hotspotY) {
         ImageCursorBuilder builder = new ImageCursorBuilder();

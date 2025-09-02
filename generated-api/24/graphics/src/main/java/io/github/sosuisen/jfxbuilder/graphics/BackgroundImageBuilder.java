@@ -28,6 +28,12 @@ public class BackgroundImageBuilder {
     private BackgroundImageBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.BackgroundImage#BackgroundImage(javafx.scene.image.Image image, javafx.scene.layout.BackgroundRepeat repeatX, javafx.scene.layout.BackgroundRepeat repeatY, javafx.scene.layout.BackgroundPosition position, javafx.scene.layout.BackgroundSize size) BackgroundImage(Image, BackgroundRepeat, BackgroundRepeat, BackgroundPosition, BackgroundSize)}
+     * and returns an instance of the {@code BackgroundImageBuilder}.
+     *
+     * @return an instance of the {@code BackgroundImageBuilder}.
+     */
     
     public static BackgroundImageBuilder create(javafx.scene.image.Image image, javafx.scene.layout.BackgroundRepeat repeatX, javafx.scene.layout.BackgroundRepeat repeatY, javafx.scene.layout.BackgroundPosition position, javafx.scene.layout.BackgroundSize size) {
         BackgroundImageBuilder builder = new BackgroundImageBuilder();

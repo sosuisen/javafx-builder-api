@@ -28,6 +28,12 @@ public class TableCellSkinBuilder<S, T> {
     private TableCellSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.TableCellSkin#TableCellSkin(javafx.scene.control.TableCell<S, T> control) TableCellSkin(TableCell)}
+     * and returns an instance of the {@code <S, T> TableCellSkinBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> TableCellSkinBuilder<S, T>}.
+     */
     
     public static <S, T> TableCellSkinBuilder<S, T> create(javafx.scene.control.TableCell<S, T> control) {
         TableCellSkinBuilder<S, T> builder = new TableCellSkinBuilder<S, T>();

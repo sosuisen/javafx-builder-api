@@ -28,6 +28,12 @@ public class ListCellSkinBuilder<T> {
     private ListCellSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ListCellSkin#ListCellSkin(javafx.scene.control.ListCell<T> control) ListCellSkin(ListCell)}
+     * and returns an instance of the {@code <T> ListCellSkinBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ListCellSkinBuilder<T>}.
+     */
     
     public static <T> ListCellSkinBuilder<T> create(javafx.scene.control.ListCell<T> control) {
         ListCellSkinBuilder<T> builder = new ListCellSkinBuilder<T>();

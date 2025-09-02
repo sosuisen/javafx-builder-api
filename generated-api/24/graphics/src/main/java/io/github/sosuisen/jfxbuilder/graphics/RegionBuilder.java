@@ -28,6 +28,11 @@ public class RegionBuilder {
     private RegionBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code RegionBuilder}.
+     *
+     * @return an instance of the {@code RegionBuilder}.
+     */
     public static RegionBuilder create() { return new RegionBuilder(); }
 
     private Object[] constructorArgs;

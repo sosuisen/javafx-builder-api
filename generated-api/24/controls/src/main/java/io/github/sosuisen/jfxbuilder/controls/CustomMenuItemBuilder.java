@@ -28,9 +28,20 @@ public class CustomMenuItemBuilder {
     private CustomMenuItemBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code CustomMenuItemBuilder}.
+     *
+     * @return an instance of the {@code CustomMenuItemBuilder}.
+     */
     public static CustomMenuItemBuilder create() { return new CustomMenuItemBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.CustomMenuItem#CustomMenuItem(javafx.scene.Node node) CustomMenuItem(Node)}
+     * and returns an instance of the {@code CustomMenuItemBuilder}.
+     *
+     * @return an instance of the {@code CustomMenuItemBuilder}.
+     */
     
     public static CustomMenuItemBuilder create(javafx.scene.Node node) {
         CustomMenuItemBuilder builder = new CustomMenuItemBuilder();
@@ -39,6 +50,12 @@ public class CustomMenuItemBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.CustomMenuItem#CustomMenuItem(javafx.scene.Node node, boolean hideOnClick) CustomMenuItem(Node, boolean)}
+     * and returns an instance of the {@code CustomMenuItemBuilder}.
+     *
+     * @return an instance of the {@code CustomMenuItemBuilder}.
+     */
     
     public static CustomMenuItemBuilder create(javafx.scene.Node node, boolean hideOnClick) {
         CustomMenuItemBuilder builder = new CustomMenuItemBuilder();

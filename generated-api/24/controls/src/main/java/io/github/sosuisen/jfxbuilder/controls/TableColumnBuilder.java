@@ -28,9 +28,20 @@ public class TableColumnBuilder<S, T> {
     private TableColumnBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <S, T> TableColumnBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> TableColumnBuilder<S, T>}.
+     */
     public static <S, T> TableColumnBuilder<S, T> create() { return new TableColumnBuilder<S, T>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TableColumn#TableColumn(java.lang.String text) TableColumn(String)}
+     * and returns an instance of the {@code <S, T> TableColumnBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> TableColumnBuilder<S, T>}.
+     */
     
     public static <S, T> TableColumnBuilder<S, T> create(java.lang.String text) {
         TableColumnBuilder<S, T> builder = new TableColumnBuilder<S, T>();

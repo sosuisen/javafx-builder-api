@@ -28,6 +28,12 @@ public class BorderImageBuilder {
     private BorderImageBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.BorderImage#BorderImage(javafx.scene.image.Image image, javafx.scene.layout.BorderWidths widths, javafx.geometry.Insets insets, javafx.scene.layout.BorderWidths slices, boolean filled, javafx.scene.layout.BorderRepeat repeatX, javafx.scene.layout.BorderRepeat repeatY) BorderImage(Image, BorderWidths, Insets, BorderWidths, boolean, BorderRepeat, BorderRepeat)}
+     * and returns an instance of the {@code BorderImageBuilder}.
+     *
+     * @return an instance of the {@code BorderImageBuilder}.
+     */
     
     public static BorderImageBuilder create(javafx.scene.image.Image image, javafx.scene.layout.BorderWidths widths, javafx.geometry.Insets insets, javafx.scene.layout.BorderWidths slices, boolean filled, javafx.scene.layout.BorderRepeat repeatX, javafx.scene.layout.BorderRepeat repeatY) {
         BorderImageBuilder builder = new BorderImageBuilder();

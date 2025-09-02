@@ -28,9 +28,20 @@ public class CheckBoxBuilder {
     private CheckBoxBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code CheckBoxBuilder}.
+     *
+     * @return an instance of the {@code CheckBoxBuilder}.
+     */
     public static CheckBoxBuilder create() { return new CheckBoxBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.CheckBox#CheckBox(java.lang.String text) CheckBox(String)}
+     * and returns an instance of the {@code CheckBoxBuilder}.
+     *
+     * @return an instance of the {@code CheckBoxBuilder}.
+     */
     
     public static CheckBoxBuilder create(java.lang.String text) {
         CheckBoxBuilder builder = new CheckBoxBuilder();

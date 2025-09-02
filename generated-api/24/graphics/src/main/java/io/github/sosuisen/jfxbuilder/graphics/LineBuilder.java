@@ -28,9 +28,20 @@ public class LineBuilder {
     private LineBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code LineBuilder}.
+     *
+     * @return an instance of the {@code LineBuilder}.
+     */
     public static LineBuilder create() { return new LineBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Line#Line(double startX, double startY, double endX, double endY) Line(double, double, double, double)}
+     * and returns an instance of the {@code LineBuilder}.
+     *
+     * @return an instance of the {@code LineBuilder}.
+     */
     
     public static LineBuilder create(double startX, double startY, double endX, double endY) {
         LineBuilder builder = new LineBuilder();

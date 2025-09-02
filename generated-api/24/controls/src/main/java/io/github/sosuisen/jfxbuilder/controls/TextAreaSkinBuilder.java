@@ -28,6 +28,12 @@ public class TextAreaSkinBuilder {
     private TextAreaSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.TextAreaSkin#TextAreaSkin(javafx.scene.control.TextArea control) TextAreaSkin(TextArea)}
+     * and returns an instance of the {@code TextAreaSkinBuilder}.
+     *
+     * @return an instance of the {@code TextAreaSkinBuilder}.
+     */
     
     public static TextAreaSkinBuilder create(javafx.scene.control.TextArea control) {
         TextAreaSkinBuilder builder = new TextAreaSkinBuilder();

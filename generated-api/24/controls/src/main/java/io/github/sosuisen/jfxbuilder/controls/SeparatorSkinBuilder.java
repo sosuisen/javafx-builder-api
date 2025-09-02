@@ -28,6 +28,12 @@ public class SeparatorSkinBuilder {
     private SeparatorSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.SeparatorSkin#SeparatorSkin(javafx.scene.control.Separator control) SeparatorSkin(Separator)}
+     * and returns an instance of the {@code SeparatorSkinBuilder}.
+     *
+     * @return an instance of the {@code SeparatorSkinBuilder}.
+     */
     
     public static SeparatorSkinBuilder create(javafx.scene.control.Separator control) {
         SeparatorSkinBuilder builder = new SeparatorSkinBuilder();

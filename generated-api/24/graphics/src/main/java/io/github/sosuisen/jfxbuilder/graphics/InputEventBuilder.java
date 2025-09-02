@@ -28,6 +28,12 @@ public class InputEventBuilder {
     private InputEventBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.input.InputEvent#InputEvent(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<? extends javafx.scene.input.InputEvent> eventType) InputEvent(Object, EventTarget, EventType)}
+     * and returns an instance of the {@code InputEventBuilder}.
+     *
+     * @return an instance of the {@code InputEventBuilder}.
+     */
     
     public static InputEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<? extends javafx.scene.input.InputEvent> eventType) {
         InputEventBuilder builder = new InputEventBuilder();
@@ -36,6 +42,12 @@ public class InputEventBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.input.InputEvent#InputEvent(javafx.event.EventType<? extends javafx.scene.input.InputEvent> eventType) InputEvent(EventType)}
+     * and returns an instance of the {@code InputEventBuilder}.
+     *
+     * @return an instance of the {@code InputEventBuilder}.
+     */
     
     public static InputEventBuilder create(javafx.event.EventType<? extends javafx.scene.input.InputEvent> eventType) {
         InputEventBuilder builder = new InputEventBuilder();

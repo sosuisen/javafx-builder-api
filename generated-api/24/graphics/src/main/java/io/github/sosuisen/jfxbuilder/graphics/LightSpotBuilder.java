@@ -28,9 +28,20 @@ public class LightSpotBuilder {
     private LightSpotBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code LightSpotBuilder}.
+     *
+     * @return an instance of the {@code LightSpotBuilder}.
+     */
     public static LightSpotBuilder create() { return new LightSpotBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.Light.Spot#Spot(double x, double y, double z, double specularExponent, javafx.scene.paint.Color color) Spot(double, double, double, double, Color)}
+     * and returns an instance of the {@code LightSpotBuilder}.
+     *
+     * @return an instance of the {@code LightSpotBuilder}.
+     */
     
     public static LightSpotBuilder create(double x, double y, double z, double specularExponent, javafx.scene.paint.Color color) {
         LightSpotBuilder builder = new LightSpotBuilder();

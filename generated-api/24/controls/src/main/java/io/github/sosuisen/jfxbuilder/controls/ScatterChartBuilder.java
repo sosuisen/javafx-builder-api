@@ -28,6 +28,12 @@ public class ScatterChartBuilder<X, Y> {
     private ScatterChartBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.chart.ScatterChart#ScatterChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) ScatterChart(Axis, Axis)}
+     * and returns an instance of the {@code <X, Y> ScatterChartBuilder<X, Y>}.
+     *
+     * @return an instance of the {@code <X, Y> ScatterChartBuilder<X, Y>}.
+     */
     
     public static <X, Y> ScatterChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) {
         ScatterChartBuilder<X, Y> builder = new ScatterChartBuilder<X, Y>();
@@ -36,6 +42,12 @@ public class ScatterChartBuilder<X, Y> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.chart.ScatterChart#ScatterChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) ScatterChart(Axis, Axis, ObservableList)}
+     * and returns an instance of the {@code <X, Y> ScatterChartBuilder<X, Y>}.
+     *
+     * @return an instance of the {@code <X, Y> ScatterChartBuilder<X, Y>}.
+     */
     
     public static <X, Y> ScatterChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) {
         ScatterChartBuilder<X, Y> builder = new ScatterChartBuilder<X, Y>();

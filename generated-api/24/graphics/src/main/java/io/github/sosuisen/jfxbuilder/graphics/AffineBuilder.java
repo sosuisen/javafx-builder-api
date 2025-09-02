@@ -28,9 +28,20 @@ public class AffineBuilder {
     private AffineBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code AffineBuilder}.
+     *
+     * @return an instance of the {@code AffineBuilder}.
+     */
     public static AffineBuilder create() { return new AffineBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.transform.Affine#Affine(double mxx, double mxy, double tx, double myx, double myy, double ty) Affine(double, double, double, double, double, double)}
+     * and returns an instance of the {@code AffineBuilder}.
+     *
+     * @return an instance of the {@code AffineBuilder}.
+     */
     
     public static AffineBuilder create(double mxx, double mxy, double tx, double myx, double myy, double ty) {
         AffineBuilder builder = new AffineBuilder();
@@ -39,6 +50,12 @@ public class AffineBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.transform.Affine#Affine(double mxx, double mxy, double mxz, double tx, double myx, double myy, double myz, double ty, double mzx, double mzy, double mzz, double tz) Affine(double, double, double, double, double, double, double, double, double, double, double, double)}
+     * and returns an instance of the {@code AffineBuilder}.
+     *
+     * @return an instance of the {@code AffineBuilder}.
+     */
     
     public static AffineBuilder create(double mxx, double mxy, double mxz, double tx, double myx, double myy, double myz, double ty, double mzx, double mzy, double mzz, double tz) {
         AffineBuilder builder = new AffineBuilder();
@@ -47,6 +64,12 @@ public class AffineBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.transform.Affine#Affine(double[] matrix, javafx.scene.transform.MatrixType type, int offset) Affine(double..., MatrixType, int)}
+     * and returns an instance of the {@code AffineBuilder}.
+     *
+     * @return an instance of the {@code AffineBuilder}.
+     */
     
     public static AffineBuilder create(double[] matrix, javafx.scene.transform.MatrixType type, int offset) {
         AffineBuilder builder = new AffineBuilder();
@@ -55,6 +78,12 @@ public class AffineBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.transform.Affine#Affine(javafx.scene.transform.Transform transform) Affine(Transform)}
+     * and returns an instance of the {@code AffineBuilder}.
+     *
+     * @return an instance of the {@code AffineBuilder}.
+     */
     
     public static AffineBuilder create(javafx.scene.transform.Transform transform) {
         AffineBuilder builder = new AffineBuilder();

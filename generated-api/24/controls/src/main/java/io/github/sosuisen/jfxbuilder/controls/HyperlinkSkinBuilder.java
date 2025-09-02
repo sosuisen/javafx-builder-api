@@ -28,6 +28,12 @@ public class HyperlinkSkinBuilder {
     private HyperlinkSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.HyperlinkSkin#HyperlinkSkin(javafx.scene.control.Hyperlink control) HyperlinkSkin(Hyperlink)}
+     * and returns an instance of the {@code HyperlinkSkinBuilder}.
+     *
+     * @return an instance of the {@code HyperlinkSkinBuilder}.
+     */
     
     public static HyperlinkSkinBuilder create(javafx.scene.control.Hyperlink control) {
         HyperlinkSkinBuilder builder = new HyperlinkSkinBuilder();

@@ -28,6 +28,11 @@ public class ClipboardContentBuilder {
     private ClipboardContentBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ClipboardContentBuilder}.
+     *
+     * @return an instance of the {@code ClipboardContentBuilder}.
+     */
     public static ClipboardContentBuilder create() { return new ClipboardContentBuilder(); }
 
     private Object[] constructorArgs;

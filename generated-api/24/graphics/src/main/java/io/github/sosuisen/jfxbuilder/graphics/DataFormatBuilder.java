@@ -28,6 +28,12 @@ public class DataFormatBuilder {
     private DataFormatBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.input.DataFormat#DataFormat(java.lang.String... ids) DataFormat(String...)}
+     * and returns an instance of the {@code DataFormatBuilder}.
+     *
+     * @return an instance of the {@code DataFormatBuilder}.
+     */
     @SafeVarargs
     public static DataFormatBuilder create(java.lang.String... ids) {
         DataFormatBuilder builder = new DataFormatBuilder();

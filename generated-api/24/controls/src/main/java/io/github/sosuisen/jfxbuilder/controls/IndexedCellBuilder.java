@@ -28,6 +28,11 @@ public class IndexedCellBuilder<T> {
     private IndexedCellBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <T> IndexedCellBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> IndexedCellBuilder<T>}.
+     */
     public static <T> IndexedCellBuilder<T> create() { return new IndexedCellBuilder<T>(); }
 
     private Object[] constructorArgs;

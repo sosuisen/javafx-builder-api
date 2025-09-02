@@ -28,9 +28,20 @@ public class TextFieldBuilder {
     private TextFieldBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code TextFieldBuilder}.
+     *
+     * @return an instance of the {@code TextFieldBuilder}.
+     */
     public static TextFieldBuilder create() { return new TextFieldBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TextField#TextField(java.lang.String text) TextField(String)}
+     * and returns an instance of the {@code TextFieldBuilder}.
+     *
+     * @return an instance of the {@code TextFieldBuilder}.
+     */
     
     public static TextFieldBuilder create(java.lang.String text) {
         TextFieldBuilder builder = new TextFieldBuilder();

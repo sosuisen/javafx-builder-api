@@ -28,9 +28,20 @@ public class SplitPaneBuilder {
     private SplitPaneBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code SplitPaneBuilder}.
+     *
+     * @return an instance of the {@code SplitPaneBuilder}.
+     */
     public static SplitPaneBuilder create() { return new SplitPaneBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.SplitPane#SplitPane(javafx.scene.Node... items) SplitPane(Node...)}
+     * and returns an instance of the {@code SplitPaneBuilder}.
+     *
+     * @return an instance of the {@code SplitPaneBuilder}.
+     */
     @SafeVarargs
     public static SplitPaneBuilder create(javafx.scene.Node... items) {
         SplitPaneBuilder builder = new SplitPaneBuilder();

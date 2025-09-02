@@ -28,9 +28,20 @@ public class SeparatorBuilder {
     private SeparatorBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code SeparatorBuilder}.
+     *
+     * @return an instance of the {@code SeparatorBuilder}.
+     */
     public static SeparatorBuilder create() { return new SeparatorBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Separator#Separator(javafx.geometry.Orientation orientation) Separator(Orientation)}
+     * and returns an instance of the {@code SeparatorBuilder}.
+     *
+     * @return an instance of the {@code SeparatorBuilder}.
+     */
     
     public static SeparatorBuilder create(javafx.geometry.Orientation orientation) {
         SeparatorBuilder builder = new SeparatorBuilder();

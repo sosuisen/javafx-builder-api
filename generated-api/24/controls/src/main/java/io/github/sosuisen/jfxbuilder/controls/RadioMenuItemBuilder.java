@@ -28,9 +28,20 @@ public class RadioMenuItemBuilder {
     private RadioMenuItemBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code RadioMenuItemBuilder}.
+     *
+     * @return an instance of the {@code RadioMenuItemBuilder}.
+     */
     public static RadioMenuItemBuilder create() { return new RadioMenuItemBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.RadioMenuItem#RadioMenuItem(java.lang.String text) RadioMenuItem(String)}
+     * and returns an instance of the {@code RadioMenuItemBuilder}.
+     *
+     * @return an instance of the {@code RadioMenuItemBuilder}.
+     */
     
     public static RadioMenuItemBuilder create(java.lang.String text) {
         RadioMenuItemBuilder builder = new RadioMenuItemBuilder();
@@ -39,6 +50,12 @@ public class RadioMenuItemBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.RadioMenuItem#RadioMenuItem(java.lang.String text, javafx.scene.Node graphic) RadioMenuItem(String, Node)}
+     * and returns an instance of the {@code RadioMenuItemBuilder}.
+     *
+     * @return an instance of the {@code RadioMenuItemBuilder}.
+     */
     
     public static RadioMenuItemBuilder create(java.lang.String text, javafx.scene.Node graphic) {
         RadioMenuItemBuilder builder = new RadioMenuItemBuilder();

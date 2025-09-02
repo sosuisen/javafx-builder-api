@@ -28,6 +28,11 @@ public class DialogPaneBuilder {
     private DialogPaneBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code DialogPaneBuilder}.
+     *
+     * @return an instance of the {@code DialogPaneBuilder}.
+     */
     public static DialogPaneBuilder create() { return new DialogPaneBuilder(); }
 
     private Object[] constructorArgs;

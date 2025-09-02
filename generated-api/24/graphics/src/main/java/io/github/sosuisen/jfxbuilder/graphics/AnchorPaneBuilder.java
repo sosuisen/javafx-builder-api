@@ -28,9 +28,20 @@ public class AnchorPaneBuilder {
     private AnchorPaneBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code AnchorPaneBuilder}.
+     *
+     * @return an instance of the {@code AnchorPaneBuilder}.
+     */
     public static AnchorPaneBuilder create() { return new AnchorPaneBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.AnchorPane#AnchorPane(javafx.scene.Node... children) AnchorPane(Node...)}
+     * and returns an instance of the {@code AnchorPaneBuilder}.
+     *
+     * @return an instance of the {@code AnchorPaneBuilder}.
+     */
     @SafeVarargs
     public static AnchorPaneBuilder create(javafx.scene.Node... children) {
         AnchorPaneBuilder builder = new AnchorPaneBuilder();

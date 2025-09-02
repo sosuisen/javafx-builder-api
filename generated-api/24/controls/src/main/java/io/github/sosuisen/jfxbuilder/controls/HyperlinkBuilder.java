@@ -28,9 +28,20 @@ public class HyperlinkBuilder {
     private HyperlinkBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code HyperlinkBuilder}.
+     *
+     * @return an instance of the {@code HyperlinkBuilder}.
+     */
     public static HyperlinkBuilder create() { return new HyperlinkBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Hyperlink#Hyperlink(java.lang.String text) Hyperlink(String)}
+     * and returns an instance of the {@code HyperlinkBuilder}.
+     *
+     * @return an instance of the {@code HyperlinkBuilder}.
+     */
     
     public static HyperlinkBuilder create(java.lang.String text) {
         HyperlinkBuilder builder = new HyperlinkBuilder();
@@ -39,6 +50,12 @@ public class HyperlinkBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Hyperlink#Hyperlink(java.lang.String text, javafx.scene.Node graphic) Hyperlink(String, Node)}
+     * and returns an instance of the {@code HyperlinkBuilder}.
+     *
+     * @return an instance of the {@code HyperlinkBuilder}.
+     */
     
     public static HyperlinkBuilder create(java.lang.String text, javafx.scene.Node graphic) {
         HyperlinkBuilder builder = new HyperlinkBuilder();

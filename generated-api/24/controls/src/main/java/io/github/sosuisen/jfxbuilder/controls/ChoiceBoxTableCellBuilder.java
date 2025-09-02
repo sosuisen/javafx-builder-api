@@ -28,9 +28,20 @@ public class ChoiceBoxTableCellBuilder<S, T> {
     private ChoiceBoxTableCellBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     */
     public static <S, T> ChoiceBoxTableCellBuilder<S, T> create() { return new ChoiceBoxTableCellBuilder<S, T>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(T... items) ChoiceBoxTableCell(Object...)}
+     * and returns an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     */
     @SafeVarargs
     public static <S, T> ChoiceBoxTableCellBuilder<S, T> create(T... items) {
         ChoiceBoxTableCellBuilder<S, T> builder = new ChoiceBoxTableCellBuilder<S, T>();
@@ -39,6 +50,12 @@ public class ChoiceBoxTableCellBuilder<S, T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(javafx.collections.ObservableList<T> items) ChoiceBoxTableCell(ObservableList)}
+     * and returns an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     */
     
     public static <S, T> ChoiceBoxTableCellBuilder<S, T> create(javafx.collections.ObservableList<T> items) {
         ChoiceBoxTableCellBuilder<S, T> builder = new ChoiceBoxTableCellBuilder<S, T>();
@@ -47,6 +64,12 @@ public class ChoiceBoxTableCellBuilder<S, T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(javafx.util.StringConverter<T> converter, T... items) ChoiceBoxTableCell(StringConverter, Object...)}
+     * and returns an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     */
     @SafeVarargs
     public static <S, T> ChoiceBoxTableCellBuilder<S, T> create(javafx.util.StringConverter<T> converter, T... items) {
         ChoiceBoxTableCellBuilder<S, T> builder = new ChoiceBoxTableCellBuilder<S, T>();
@@ -55,6 +78,12 @@ public class ChoiceBoxTableCellBuilder<S, T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(javafx.util.StringConverter<T> converter, javafx.collections.ObservableList<T> items) ChoiceBoxTableCell(StringConverter, ObservableList)}
+     * and returns an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     */
     
     public static <S, T> ChoiceBoxTableCellBuilder<S, T> create(javafx.util.StringConverter<T> converter, javafx.collections.ObservableList<T> items) {
         ChoiceBoxTableCellBuilder<S, T> builder = new ChoiceBoxTableCellBuilder<S, T>();

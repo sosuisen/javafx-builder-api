@@ -28,9 +28,20 @@ public class ColorAdjustBuilder {
     private ColorAdjustBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ColorAdjustBuilder}.
+     *
+     * @return an instance of the {@code ColorAdjustBuilder}.
+     */
     public static ColorAdjustBuilder create() { return new ColorAdjustBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.ColorAdjust#ColorAdjust(double hue, double saturation, double brightness, double contrast) ColorAdjust(double, double, double, double)}
+     * and returns an instance of the {@code ColorAdjustBuilder}.
+     *
+     * @return an instance of the {@code ColorAdjustBuilder}.
+     */
     
     public static ColorAdjustBuilder create(double hue, double saturation, double brightness, double contrast) {
         ColorAdjustBuilder builder = new ColorAdjustBuilder();

@@ -28,6 +28,11 @@ public class SplitPaneDividerBuilder {
     private SplitPaneDividerBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code SplitPaneDividerBuilder}.
+     *
+     * @return an instance of the {@code SplitPaneDividerBuilder}.
+     */
     public static SplitPaneDividerBuilder create() { return new SplitPaneDividerBuilder(); }
 
     private Object[] constructorArgs;

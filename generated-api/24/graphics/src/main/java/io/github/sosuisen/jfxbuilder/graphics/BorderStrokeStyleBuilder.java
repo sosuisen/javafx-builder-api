@@ -28,6 +28,12 @@ public class BorderStrokeStyleBuilder {
     private BorderStrokeStyleBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.BorderStrokeStyle#BorderStrokeStyle(javafx.scene.shape.StrokeType type, javafx.scene.shape.StrokeLineJoin lineJoin, javafx.scene.shape.StrokeLineCap lineCap, double miterLimit, double dashOffset, java.util.List<java.lang.Double> dashArray) BorderStrokeStyle(StrokeType, StrokeLineJoin, StrokeLineCap, double, double, List)}
+     * and returns an instance of the {@code BorderStrokeStyleBuilder}.
+     *
+     * @return an instance of the {@code BorderStrokeStyleBuilder}.
+     */
     
     public static BorderStrokeStyleBuilder create(javafx.scene.shape.StrokeType type, javafx.scene.shape.StrokeLineJoin lineJoin, javafx.scene.shape.StrokeLineCap lineCap, double miterLimit, double dashOffset, java.util.List<java.lang.Double> dashArray) {
         BorderStrokeStyleBuilder builder = new BorderStrokeStyleBuilder();

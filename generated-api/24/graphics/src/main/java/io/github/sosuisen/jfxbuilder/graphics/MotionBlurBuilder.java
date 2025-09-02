@@ -28,9 +28,20 @@ public class MotionBlurBuilder {
     private MotionBlurBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code MotionBlurBuilder}.
+     *
+     * @return an instance of the {@code MotionBlurBuilder}.
+     */
     public static MotionBlurBuilder create() { return new MotionBlurBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.MotionBlur#MotionBlur(double angle, double radius) MotionBlur(double, double)}
+     * and returns an instance of the {@code MotionBlurBuilder}.
+     *
+     * @return an instance of the {@code MotionBlurBuilder}.
+     */
     
     public static MotionBlurBuilder create(double angle, double radius) {
         MotionBlurBuilder builder = new MotionBlurBuilder();

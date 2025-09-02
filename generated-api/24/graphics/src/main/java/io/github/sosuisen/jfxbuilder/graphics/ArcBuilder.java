@@ -28,9 +28,20 @@ public class ArcBuilder {
     private ArcBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ArcBuilder}.
+     *
+     * @return an instance of the {@code ArcBuilder}.
+     */
     public static ArcBuilder create() { return new ArcBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Arc#Arc(double centerX, double centerY, double radiusX, double radiusY, double startAngle, double length) Arc(double, double, double, double, double, double)}
+     * and returns an instance of the {@code ArcBuilder}.
+     *
+     * @return an instance of the {@code ArcBuilder}.
+     */
     
     public static ArcBuilder create(double centerX, double centerY, double radiusX, double radiusY, double startAngle, double length) {
         ArcBuilder builder = new ArcBuilder();

@@ -28,6 +28,12 @@ public class MenuButtonSkinBaseBuilder<C extends javafx.scene.control.MenuButton
     private MenuButtonSkinBaseBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.MenuButtonSkinBase#MenuButtonSkinBase(C control) MenuButtonSkinBase(MenuButton)}
+     * and returns an instance of the {@code <C extends javafx.scene.control.MenuButton> MenuButtonSkinBaseBuilder<C>}.
+     *
+     * @return an instance of the {@code <C extends javafx.scene.control.MenuButton> MenuButtonSkinBaseBuilder<C>}.
+     */
     
     public static <C extends javafx.scene.control.MenuButton> MenuButtonSkinBaseBuilder<C> create(C control) {
         MenuButtonSkinBaseBuilder<C> builder = new MenuButtonSkinBaseBuilder<C>();

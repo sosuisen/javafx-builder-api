@@ -28,6 +28,12 @@ public class HTMLEditorSkinBuilder {
     private HTMLEditorSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.web.HTMLEditorSkin#HTMLEditorSkin(javafx.scene.web.HTMLEditor control) HTMLEditorSkin(HTMLEditor)}
+     * and returns an instance of the {@code HTMLEditorSkinBuilder}.
+     *
+     * @return an instance of the {@code HTMLEditorSkinBuilder}.
+     */
     
     public static HTMLEditorSkinBuilder create(javafx.scene.web.HTMLEditor control) {
         HTMLEditorSkinBuilder builder = new HTMLEditorSkinBuilder();

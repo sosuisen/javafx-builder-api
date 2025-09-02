@@ -28,6 +28,12 @@ public class FontBuilder {
     private FontBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.text.Font#Font(double size) Font(double)}
+     * and returns an instance of the {@code FontBuilder}.
+     *
+     * @return an instance of the {@code FontBuilder}.
+     */
     
     public static FontBuilder create(double size) {
         FontBuilder builder = new FontBuilder();
@@ -36,6 +42,12 @@ public class FontBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.text.Font#Font(java.lang.String name, double size) Font(String, double)}
+     * and returns an instance of the {@code FontBuilder}.
+     *
+     * @return an instance of the {@code FontBuilder}.
+     */
     
     public static FontBuilder create(java.lang.String name, double size) {
         FontBuilder builder = new FontBuilder();

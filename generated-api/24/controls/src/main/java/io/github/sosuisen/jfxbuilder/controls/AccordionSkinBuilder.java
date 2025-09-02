@@ -28,6 +28,12 @@ public class AccordionSkinBuilder {
     private AccordionSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.AccordionSkin#AccordionSkin(javafx.scene.control.Accordion control) AccordionSkin(Accordion)}
+     * and returns an instance of the {@code AccordionSkinBuilder}.
+     *
+     * @return an instance of the {@code AccordionSkinBuilder}.
+     */
     
     public static AccordionSkinBuilder create(javafx.scene.control.Accordion control) {
         AccordionSkinBuilder builder = new AccordionSkinBuilder();

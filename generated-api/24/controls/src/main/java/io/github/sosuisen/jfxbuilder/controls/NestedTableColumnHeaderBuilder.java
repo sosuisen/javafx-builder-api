@@ -28,6 +28,12 @@ public class NestedTableColumnHeaderBuilder {
     private NestedTableColumnHeaderBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.NestedTableColumnHeader#NestedTableColumnHeader(javafx.scene.control.TableColumnBase tc) NestedTableColumnHeader(TableColumnBase)}
+     * and returns an instance of the {@code NestedTableColumnHeaderBuilder}.
+     *
+     * @return an instance of the {@code NestedTableColumnHeaderBuilder}.
+     */
     
     public static NestedTableColumnHeaderBuilder create(javafx.scene.control.TableColumnBase tc) {
         NestedTableColumnHeaderBuilder builder = new NestedTableColumnHeaderBuilder();

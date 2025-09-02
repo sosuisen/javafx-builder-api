@@ -28,9 +28,20 @@ public class ShadowBuilder {
     private ShadowBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ShadowBuilder}.
+     *
+     * @return an instance of the {@code ShadowBuilder}.
+     */
     public static ShadowBuilder create() { return new ShadowBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.Shadow#Shadow(double radius, javafx.scene.paint.Color color) Shadow(double, Color)}
+     * and returns an instance of the {@code ShadowBuilder}.
+     *
+     * @return an instance of the {@code ShadowBuilder}.
+     */
     
     public static ShadowBuilder create(double radius, javafx.scene.paint.Color color) {
         ShadowBuilder builder = new ShadowBuilder();
@@ -39,6 +50,12 @@ public class ShadowBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.Shadow#Shadow(javafx.scene.effect.BlurType blurType, javafx.scene.paint.Color color, double radius) Shadow(BlurType, Color, double)}
+     * and returns an instance of the {@code ShadowBuilder}.
+     *
+     * @return an instance of the {@code ShadowBuilder}.
+     */
     
     public static ShadowBuilder create(javafx.scene.effect.BlurType blurType, javafx.scene.paint.Color color, double radius) {
         ShadowBuilder builder = new ShadowBuilder();

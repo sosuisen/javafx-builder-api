@@ -28,9 +28,20 @@ public class PerspectiveCameraBuilder {
     private PerspectiveCameraBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code PerspectiveCameraBuilder}.
+     *
+     * @return an instance of the {@code PerspectiveCameraBuilder}.
+     */
     public static PerspectiveCameraBuilder create() { return new PerspectiveCameraBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.PerspectiveCamera#PerspectiveCamera(boolean fixedEyeAtCameraZero) PerspectiveCamera(boolean)}
+     * and returns an instance of the {@code PerspectiveCameraBuilder}.
+     *
+     * @return an instance of the {@code PerspectiveCameraBuilder}.
+     */
     
     public static PerspectiveCameraBuilder create(boolean fixedEyeAtCameraZero) {
         PerspectiveCameraBuilder builder = new PerspectiveCameraBuilder();

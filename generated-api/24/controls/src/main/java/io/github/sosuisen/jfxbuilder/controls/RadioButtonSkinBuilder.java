@@ -28,6 +28,12 @@ public class RadioButtonSkinBuilder {
     private RadioButtonSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.RadioButtonSkin#RadioButtonSkin(javafx.scene.control.RadioButton control) RadioButtonSkin(RadioButton)}
+     * and returns an instance of the {@code RadioButtonSkinBuilder}.
+     *
+     * @return an instance of the {@code RadioButtonSkinBuilder}.
+     */
     
     public static RadioButtonSkinBuilder create(javafx.scene.control.RadioButton control) {
         RadioButtonSkinBuilder builder = new RadioButtonSkinBuilder();

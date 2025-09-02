@@ -28,9 +28,20 @@ public class AccordionBuilder {
     private AccordionBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code AccordionBuilder}.
+     *
+     * @return an instance of the {@code AccordionBuilder}.
+     */
     public static AccordionBuilder create() { return new AccordionBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Accordion#Accordion(javafx.scene.control.TitledPane... titledPanes) Accordion(TitledPane...)}
+     * and returns an instance of the {@code AccordionBuilder}.
+     *
+     * @return an instance of the {@code AccordionBuilder}.
+     */
     @SafeVarargs
     public static AccordionBuilder create(javafx.scene.control.TitledPane... titledPanes) {
         AccordionBuilder builder = new AccordionBuilder();

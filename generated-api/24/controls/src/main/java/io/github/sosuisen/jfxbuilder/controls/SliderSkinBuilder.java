@@ -28,6 +28,12 @@ public class SliderSkinBuilder {
     private SliderSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.SliderSkin#SliderSkin(javafx.scene.control.Slider control) SliderSkin(Slider)}
+     * and returns an instance of the {@code SliderSkinBuilder}.
+     *
+     * @return an instance of the {@code SliderSkinBuilder}.
+     */
     
     public static SliderSkinBuilder create(javafx.scene.control.Slider control) {
         SliderSkinBuilder builder = new SliderSkinBuilder();

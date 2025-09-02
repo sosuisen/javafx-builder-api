@@ -28,9 +28,20 @@ public class MenuButtonBuilder {
     private MenuButtonBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code MenuButtonBuilder}.
+     *
+     * @return an instance of the {@code MenuButtonBuilder}.
+     */
     public static MenuButtonBuilder create() { return new MenuButtonBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.MenuButton#MenuButton(java.lang.String text) MenuButton(String)}
+     * and returns an instance of the {@code MenuButtonBuilder}.
+     *
+     * @return an instance of the {@code MenuButtonBuilder}.
+     */
     
     public static MenuButtonBuilder create(java.lang.String text) {
         MenuButtonBuilder builder = new MenuButtonBuilder();
@@ -39,6 +50,12 @@ public class MenuButtonBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.MenuButton#MenuButton(java.lang.String text, javafx.scene.Node graphic) MenuButton(String, Node)}
+     * and returns an instance of the {@code MenuButtonBuilder}.
+     *
+     * @return an instance of the {@code MenuButtonBuilder}.
+     */
     
     public static MenuButtonBuilder create(java.lang.String text, javafx.scene.Node graphic) {
         MenuButtonBuilder builder = new MenuButtonBuilder();
@@ -47,6 +64,12 @@ public class MenuButtonBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.MenuButton#MenuButton(java.lang.String text, javafx.scene.Node graphic, javafx.scene.control.MenuItem... items) MenuButton(String, Node, MenuItem...)}
+     * and returns an instance of the {@code MenuButtonBuilder}.
+     *
+     * @return an instance of the {@code MenuButtonBuilder}.
+     */
     @SafeVarargs
     public static MenuButtonBuilder create(java.lang.String text, javafx.scene.Node graphic, javafx.scene.control.MenuItem... items) {
         MenuButtonBuilder builder = new MenuButtonBuilder();

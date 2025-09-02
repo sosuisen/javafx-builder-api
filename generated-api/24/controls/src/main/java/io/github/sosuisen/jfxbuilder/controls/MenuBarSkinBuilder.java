@@ -28,6 +28,12 @@ public class MenuBarSkinBuilder {
     private MenuBarSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.MenuBarSkin#MenuBarSkin(javafx.scene.control.MenuBar control) MenuBarSkin(MenuBar)}
+     * and returns an instance of the {@code MenuBarSkinBuilder}.
+     *
+     * @return an instance of the {@code MenuBarSkinBuilder}.
+     */
     
     public static MenuBarSkinBuilder create(javafx.scene.control.MenuBar control) {
         MenuBarSkinBuilder builder = new MenuBarSkinBuilder();

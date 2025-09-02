@@ -28,6 +28,11 @@ public class ParallelCameraBuilder {
     private ParallelCameraBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ParallelCameraBuilder}.
+     *
+     * @return an instance of the {@code ParallelCameraBuilder}.
+     */
     public static ParallelCameraBuilder create() { return new ParallelCameraBuilder(); }
 
     private Object[] constructorArgs;

@@ -28,9 +28,20 @@ public class PieChartBuilder {
     private PieChartBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code PieChartBuilder}.
+     *
+     * @return an instance of the {@code PieChartBuilder}.
+     */
     public static PieChartBuilder create() { return new PieChartBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.chart.PieChart#PieChart(javafx.collections.ObservableList<javafx.scene.chart.PieChart.Data> data) PieChart(ObservableList)}
+     * and returns an instance of the {@code PieChartBuilder}.
+     *
+     * @return an instance of the {@code PieChartBuilder}.
+     */
     
     public static PieChartBuilder create(javafx.collections.ObservableList<javafx.scene.chart.PieChart.Data> data) {
         PieChartBuilder builder = new PieChartBuilder();

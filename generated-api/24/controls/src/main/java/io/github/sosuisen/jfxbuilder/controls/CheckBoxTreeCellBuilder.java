@@ -28,9 +28,20 @@ public class CheckBoxTreeCellBuilder<T> {
     private CheckBoxTreeCellBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <T> CheckBoxTreeCellBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> CheckBoxTreeCellBuilder<T>}.
+     */
     public static <T> CheckBoxTreeCellBuilder<T> create() { return new CheckBoxTreeCellBuilder<T>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.CheckBoxTreeCell#CheckBoxTreeCell(javafx.util.Callback<javafx.scene.control.TreeItem<T>, javafx.beans.value.ObservableValue<java.lang.Boolean>> getSelectedProperty) CheckBoxTreeCell(Callback)}
+     * and returns an instance of the {@code <T> CheckBoxTreeCellBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> CheckBoxTreeCellBuilder<T>}.
+     */
     
     public static <T> CheckBoxTreeCellBuilder<T> create(javafx.util.Callback<javafx.scene.control.TreeItem<T>, javafx.beans.value.ObservableValue<java.lang.Boolean>> getSelectedProperty) {
         CheckBoxTreeCellBuilder<T> builder = new CheckBoxTreeCellBuilder<T>();
@@ -39,6 +50,12 @@ public class CheckBoxTreeCellBuilder<T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.CheckBoxTreeCell#CheckBoxTreeCell(javafx.util.Callback<javafx.scene.control.TreeItem<T>, javafx.beans.value.ObservableValue<java.lang.Boolean>> getSelectedProperty, javafx.util.StringConverter<javafx.scene.control.TreeItem<T>> converter) CheckBoxTreeCell(Callback, StringConverter)}
+     * and returns an instance of the {@code <T> CheckBoxTreeCellBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> CheckBoxTreeCellBuilder<T>}.
+     */
     
     public static <T> CheckBoxTreeCellBuilder<T> create(javafx.util.Callback<javafx.scene.control.TreeItem<T>, javafx.beans.value.ObservableValue<java.lang.Boolean>> getSelectedProperty, javafx.util.StringConverter<javafx.scene.control.TreeItem<T>> converter) {
         CheckBoxTreeCellBuilder<T> builder = new CheckBoxTreeCellBuilder<T>();

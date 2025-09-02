@@ -28,9 +28,20 @@ public class FlowPaneBuilder {
     private FlowPaneBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code FlowPaneBuilder}.
+     *
+     * @return an instance of the {@code FlowPaneBuilder}.
+     */
     public static FlowPaneBuilder create() { return new FlowPaneBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(double hgap, double vgap) FlowPane(double, double)}
+     * and returns an instance of the {@code FlowPaneBuilder}.
+     *
+     * @return an instance of the {@code FlowPaneBuilder}.
+     */
     
     public static FlowPaneBuilder create(double hgap, double vgap) {
         FlowPaneBuilder builder = new FlowPaneBuilder();
@@ -39,6 +50,12 @@ public class FlowPaneBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(double hgap, double vgap, javafx.scene.Node... children) FlowPane(double, double, Node...)}
+     * and returns an instance of the {@code FlowPaneBuilder}.
+     *
+     * @return an instance of the {@code FlowPaneBuilder}.
+     */
     @SafeVarargs
     public static FlowPaneBuilder create(double hgap, double vgap, javafx.scene.Node... children) {
         FlowPaneBuilder builder = new FlowPaneBuilder();
@@ -47,6 +64,12 @@ public class FlowPaneBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(javafx.geometry.Orientation orientation) FlowPane(Orientation)}
+     * and returns an instance of the {@code FlowPaneBuilder}.
+     *
+     * @return an instance of the {@code FlowPaneBuilder}.
+     */
     
     public static FlowPaneBuilder create(javafx.geometry.Orientation orientation) {
         FlowPaneBuilder builder = new FlowPaneBuilder();
@@ -55,6 +78,12 @@ public class FlowPaneBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(javafx.geometry.Orientation orientation, double hgap, double vgap) FlowPane(Orientation, double, double)}
+     * and returns an instance of the {@code FlowPaneBuilder}.
+     *
+     * @return an instance of the {@code FlowPaneBuilder}.
+     */
     
     public static FlowPaneBuilder create(javafx.geometry.Orientation orientation, double hgap, double vgap) {
         FlowPaneBuilder builder = new FlowPaneBuilder();
@@ -63,6 +92,12 @@ public class FlowPaneBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(javafx.geometry.Orientation orientation, double hgap, double vgap, javafx.scene.Node... children) FlowPane(Orientation, double, double, Node...)}
+     * and returns an instance of the {@code FlowPaneBuilder}.
+     *
+     * @return an instance of the {@code FlowPaneBuilder}.
+     */
     @SafeVarargs
     public static FlowPaneBuilder create(javafx.geometry.Orientation orientation, double hgap, double vgap, javafx.scene.Node... children) {
         FlowPaneBuilder builder = new FlowPaneBuilder();
@@ -71,6 +106,12 @@ public class FlowPaneBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(javafx.geometry.Orientation orientation, javafx.scene.Node... children) FlowPane(Orientation, Node...)}
+     * and returns an instance of the {@code FlowPaneBuilder}.
+     *
+     * @return an instance of the {@code FlowPaneBuilder}.
+     */
     @SafeVarargs
     public static FlowPaneBuilder create(javafx.geometry.Orientation orientation, javafx.scene.Node... children) {
         FlowPaneBuilder builder = new FlowPaneBuilder();
@@ -79,6 +120,12 @@ public class FlowPaneBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(javafx.scene.Node... children) FlowPane(Node...)}
+     * and returns an instance of the {@code FlowPaneBuilder}.
+     *
+     * @return an instance of the {@code FlowPaneBuilder}.
+     */
     @SafeVarargs
     public static FlowPaneBuilder create(javafx.scene.Node... children) {
         FlowPaneBuilder builder = new FlowPaneBuilder();
