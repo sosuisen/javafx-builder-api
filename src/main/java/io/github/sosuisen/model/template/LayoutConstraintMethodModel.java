@@ -22,12 +22,12 @@ public class LayoutConstraintMethodModel {
     }
 
     private final String builderClassNameWithTypeParameter;
-    private final List<LayoutConstraintMethod> methods;
+    private final LayoutConstraintMethod method;
 
     private LayoutConstraintMethodModel(String builderClassNameWithTypeParameter,
-            List<LayoutConstraintMethod> methods) {
+            LayoutConstraintMethod method) {
         this.builderClassNameWithTypeParameter = builderClassNameWithTypeParameter;
-        this.methods = methods;
+        this.method = method;
     }
 
     public static Builder builder() {
@@ -36,62 +36,50 @@ public class LayoutConstraintMethodModel {
 
     public static class Builder {
         private ClassMetadata classMetadata;
-        private List<StaticSetterInfo> staticSetters;
+        private StaticSetterInfo setterInfo;
 
         public Builder classMetadata(ClassMetadata classMetadata) {
             this.classMetadata = classMetadata;
             return this;
         }
 
-        public Builder staticSetters(List<StaticSetterInfo> staticSetters) {
-            this.staticSetters = staticSetters;
+        public Builder setterInfo(StaticSetterInfo setterInfo) {
+            this.setterInfo = setterInfo;
             return this;
         }
 
         public LayoutConstraintMethodModel build() {
-            if (classMetadata == null || staticSetters == null) {
-                throw new IllegalStateException("classMetadata and staticSetters are required");
-            }
-
-            // Check if current class inherits from javafx.scene.Node
-            if (!classMetadata.isNodeClass()) {
-                return new LayoutConstraintMethodModel(
-                        classMetadata.builderClassNameWithTypeParameter(),
-                        new ArrayList<>());
+            if (classMetadata == null || setterInfo == null) {
+                throw new IllegalStateException("classMetadata and setterInfo are required");
             }
 
             // Create individual methods for each static setter
             List<LayoutConstraintMethod> methods = new ArrayList<>();
 
-            for (StaticSetterInfo setterInfo : staticSetters) {
-                // Create method name as XXXXIn{SourceClassName}
-                String setterName = setterInfo.methodName().substring(3); // Remove "set" prefix
-                String sourceClassName = setterInfo.sourceClass().getSimpleName();
+            // Create method name as XXXXIn{SourceClassName}
+            String setterName = setterInfo.methodName().substring(3); // Remove "set" prefix
+            String sourceClassName = setterInfo.sourceClass().getSimpleName();
 
-                // Apply special naming logic
-                String camelCaseSetterName = convertToSpecialCamelCase(setterName);
-                String methodName = camelCaseSetterName + "In" + sourceClassName;
+            // Apply special naming logic
+            String camelCaseSetterName = convertToSpecialCamelCase(setterName);
+            String methodName = camelCaseSetterName + "In" + sourceClassName;
 
-                // Filter out Node parameters and create parameter list
-                var filteredParams = ParameterInfo.filterNodeParameters(setterInfo.parameters());
-                String parameterList = ParameterInfo.buildParameterList(filteredParams, classMetadata.getClassName());
-                String argumentList = ParameterInfo.buildArgumentList(filteredParams);
+            // Filter out Node parameters and create parameter list
+            List<ParameterInfo> filteredParams = ParameterInfo.filterNodeParameters(setterInfo.parameters());
+            String parameterList = ParameterInfo.buildParameterList(filteredParams, classMetadata.getClassName());
+            String argumentList = ParameterInfo.buildArgumentList(filteredParams);
 
-                // Create single StaticCall for this setter
-                StaticCall staticCall = new StaticCall(
-                        setterInfo.sourceClass().getName(),
-                        setterInfo.methodName(),
-                        argumentList);
+            // Create single StaticCall for this setter
+            StaticCall staticCall = new StaticCall(
+                    setterInfo.sourceClass().getName(),
+                    setterInfo.methodName(),
+                    argumentList);
 
-                methods.add(new LayoutConstraintMethod(
-                        methodName,
-                        parameterList,
-                        staticCall));
-            }
-
-            return new LayoutConstraintMethodModel(
-                    classMetadata.builderClassNameWithTypeParameter(),
-                    methods);
+            return new LayoutConstraintMethodModel(classMetadata.builderClassNameWithTypeParameter(),
+                    new LayoutConstraintMethod(
+                            methodName,
+                            parameterList,
+                            staticCall));
         }
 
         private String convertToSpecialCamelCase(String setterName) {
@@ -112,13 +100,30 @@ public class LayoutConstraintMethodModel {
                 return firstChar + remainder;
             }
         }
+
     }
 
     public String builderClassNameWithTypeParameter() {
         return builderClassNameWithTypeParameter;
     }
 
-    public List<LayoutConstraintMethod> methods() {
-        return methods;
+    public String sourceClassFullName() {
+        return method.staticCall().sourceClassFullName();
+    }
+
+    public String staticMethodName() {
+        return method.staticCall().staticMethodName();
+    }
+
+    public String methodName() {
+        return method.methodName();
+    }
+
+    public String parameterList() {
+        return method.parameterList();
+    }
+
+    public String argumentList() {
+        return method.staticCall().argumentList();
     }
 }
