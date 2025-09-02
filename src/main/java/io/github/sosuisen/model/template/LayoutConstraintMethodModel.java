@@ -17,6 +17,7 @@ public class LayoutConstraintMethodModel {
     public record LayoutConstraintMethod(
             String methodName,
             String parameterList,
+            String parameterListSimpleTypesOnly,
             StaticCall staticCall) {
     }
 
@@ -64,6 +65,10 @@ public class LayoutConstraintMethodModel {
             List<ParameterInfo> filteredParams = ParameterInfo.filterNodeParameters(setterInfo.parameters());
             String parameterList = ParameterInfo.buildParameterList(filteredParams,
                     classMetadata.getCanonicalClassName());
+
+            String parameterListSimpleTypesOnly = ParameterInfo.buildParameterListSimpleTypesOnly(filteredParams,
+                    classMetadata.getCanonicalClassName());
+
             String argumentList = ParameterInfo.buildArgumentList(filteredParams);
 
             // Create single StaticCall for this setter
@@ -76,6 +81,7 @@ public class LayoutConstraintMethodModel {
                     new LayoutConstraintMethod(
                             methodName,
                             parameterList,
+                            parameterListSimpleTypesOnly,
                             staticCall));
         }
 
@@ -104,6 +110,11 @@ public class LayoutConstraintMethodModel {
         return builderClassNameWithTypeParameter;
     }
 
+    public String sourceClassSimpleName() {
+        String canonicalName = method.staticCall().sourceClassFullName();
+        return canonicalName.substring(canonicalName.lastIndexOf('.') + 1);
+    }
+
     public String sourceClassFullName() {
         return method.staticCall().sourceClassFullName();
     }
@@ -118,6 +129,10 @@ public class LayoutConstraintMethodModel {
 
     public String parameterList() {
         return method.parameterList();
+    }
+
+    public String parameterListSimpleTypesOnly() {
+        return method.parameterListSimpleTypesOnly();
     }
 
     public String argumentList() {
