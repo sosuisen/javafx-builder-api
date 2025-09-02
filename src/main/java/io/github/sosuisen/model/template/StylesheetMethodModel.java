@@ -6,7 +6,7 @@ import io.github.sosuisen.model.data.ClassMetadata;
  * Data model for stylesheet method JTE template
  */
 public record StylesheetMethodModel(
-        String className,
+        String simpleClassName,
         String builderClassName,
         String builderClassNameWithTypeParameter) {
 

@@ -48,13 +48,13 @@ public record SetterMethodModel(
 
             // Build parameter lists
             String parameterList = ParameterStringBuilder.buildParameterListWithTypes(
-                    setterMethod.getParameters(), classMetadata.getClassName(), setterMethod.isVarArgs());
+                    setterMethod.getParameters(), classMetadata.getCanonicalClassName(), setterMethod.isVarArgs());
             String parameterTypeList = ParameterStringBuilder.buildParameterListTypesOnly(setterMethod.getParameters());
             String argumentList = ParameterStringBuilder.buildParameterListNamesOnly(setterMethod.getParameters());
 
             // Get method annotation
             String methodAnnotation = MethodAnnotationManager.getMethodAnnotation(
-                    classMetadata.getClassName(), setterMethod.getName());
+                    classMetadata.getCanonicalClassName(), setterMethod.getName());
 
             return new SetterMethodModel(
                     classMetadata.builderClassNameWithTypeParameter(),
@@ -62,7 +62,7 @@ public record SetterMethodModel(
                     parameterList,
                     parameterTypeList,
                     argumentList,
-                    classMetadata.getClassName(),
+                    classMetadata.getCanonicalClassName(),
                     setterMethod.getName(),
                     methodAnnotation != null ? methodAnnotation : "");
         }

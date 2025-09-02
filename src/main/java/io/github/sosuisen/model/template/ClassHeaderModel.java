@@ -30,7 +30,7 @@ public record ClassHeaderModel(
             if (classMetadata == null) {
                 throw new IllegalStateException("classMetadata are required");
             }
-            String classAnnotation = ClassAnnotationManager.getClassAnnotation(classMetadata.getClassName());
+            String classAnnotation = ClassAnnotationManager.getClassAnnotation(classMetadata.getCanonicalClassName());
             return new ClassHeaderModel(
                     classMetadata.getPackageName(),
                     classMetadata.getBuilderClassName(),

@@ -6,7 +6,7 @@ import io.github.sosuisen.model.data.ClassMetadata;
  * Data model for build method JTE template
  */
 public record BuildMethodModel(
-        String className,
+        String canonicalClassName,
         String returnType,
         boolean hasDefaultConstructor,
         boolean hasGenerics,
@@ -35,10 +35,10 @@ public record BuildMethodModel(
             boolean hasGenerics = !classMetadata.getTypeParameters().isEmpty();
             boolean suppressWarnings = hasGenerics;
             boolean isPaneSubclass = isPaneSubclass(classMetadata.getTargetClass());
-            String styleClass = isPaneSubclass ? toKebabCase(classMetadata.getClassName()) : null;
+            String styleClass = isPaneSubclass ? toKebabCase(classMetadata.getCanonicalClassName()) : null;
 
             return new BuildMethodModel(
-                    classMetadata.getClassName(),
+                    classMetadata.getCanonicalClassName(),
                     classMetadata.classNameWithTypeParameter(),
                     hasDefaultConstructor,
                     hasGenerics,

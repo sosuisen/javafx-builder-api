@@ -7,7 +7,7 @@ public class ClassMetadata {
     private final Class<?> targetClass;
     final String typeParameters;
     final String typeParametersWithExtends;
-    final String className;
+    final String canonicalClassName;
     final String simpleClassName;
     final String builderClassName;
     final String packageName;
@@ -16,7 +16,7 @@ public class ClassMetadata {
         this.targetClass = clazz;
         typeParameters = getTypeParameterString();
         typeParametersWithExtends = getTypeParametersWithExtendsString();
-        className = clazz.getCanonicalName();
+        canonicalClassName = clazz.getCanonicalName();
         simpleClassName = clazz.getSimpleName();
         builderClassName = createBuilderClassName();
         this.packageName = packageName;
@@ -30,8 +30,8 @@ public class ClassMetadata {
         return typeParametersWithExtends;
     }
 
-    public String getClassName() {
-        return className;
+    public String getCanonicalClassName() {
+        return canonicalClassName;
     }
 
     public String getSimpleClassName() {
@@ -47,7 +47,7 @@ public class ClassMetadata {
     }
 
     public String classNameWithTypeParameter() {
-        return className + typeParameters;
+        return canonicalClassName + typeParameters;
     }
 
     public String builderClassNameWithTypeParameter() {
@@ -71,8 +71,8 @@ public class ClassMetadata {
     private String createBuilderClassName() {
         // Find the first uppercase letter
         int firstUpperCaseIndex = -1;
-        for (int i = 0; i < className.length(); i++) {
-            if (Character.isUpperCase(className.charAt(i))) {
+        for (int i = 0; i < canonicalClassName.length(); i++) {
+            if (Character.isUpperCase(canonicalClassName.charAt(i))) {
                 firstUpperCaseIndex = i;
                 break;
             }
@@ -80,11 +80,11 @@ public class ClassMetadata {
 
         // If no uppercase letter found, use the entire className
         if (firstUpperCaseIndex == -1) {
-            return className.replace(".", "") + "Builder";
+            return canonicalClassName.replace(".", "") + "Builder";
         }
 
         // Extract substring from first uppercase letter onwards and remove dots
-        String result = className.substring(firstUpperCaseIndex).replace(".", "") + "Builder";
+        String result = canonicalClassName.substring(firstUpperCaseIndex).replace(".", "") + "Builder";
         return result;
     }
 

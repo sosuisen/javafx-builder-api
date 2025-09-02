@@ -62,7 +62,8 @@ public class LayoutConstraintMethodModel {
 
             // Filter out Node parameters and create parameter list
             List<ParameterInfo> filteredParams = ParameterInfo.filterNodeParameters(setterInfo.parameters());
-            String parameterList = ParameterInfo.buildParameterList(filteredParams, classMetadata.getClassName());
+            String parameterList = ParameterInfo.buildParameterList(filteredParams,
+                    classMetadata.getCanonicalClassName());
             String argumentList = ParameterInfo.buildArgumentList(filteredParams);
 
             // Create single StaticCall for this setter
