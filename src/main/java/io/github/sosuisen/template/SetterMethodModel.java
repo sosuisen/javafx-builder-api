@@ -64,9 +64,10 @@ public record SetterMethodModel(
         }
 
         public SetterMethodModel build() {
-            if (classMetadata == null || methodName == null || parameterList == null || 
-                parameterTypeList == null || argumentList == null || originalMethodName == null) {
-                throw new IllegalStateException("classMetadata, methodName, parameterList, parameterTypeList, argumentList, and originalMethodName are required");
+            if (classMetadata == null || methodName == null || parameterList == null ||
+                    parameterTypeList == null || argumentList == null || originalMethodName == null) {
+                throw new IllegalStateException(
+                        "classMetadata, methodName, parameterList, parameterTypeList, argumentList, and originalMethodName are required");
             }
 
             return new SetterMethodModel(
@@ -79,27 +80,5 @@ public record SetterMethodModel(
                     originalMethodName,
                     methodAnnotation != null ? methodAnnotation : "");
         }
-    }
-
-    // Keep the old create method for backward compatibility (deprecated)
-    @Deprecated
-    public static SetterMethodModel create(
-            String builderClassNameWithTypeParameter,
-            String methodName,
-            String parameterList,
-            String parameterTypeList,
-            String argumentList,
-            String originalClassName,
-            String originalMethodName,
-            String methodAnnotation) {
-        return new SetterMethodModel(
-                builderClassNameWithTypeParameter,
-                methodName,
-                parameterList,
-                parameterTypeList,
-                argumentList,
-                originalClassName,
-                originalMethodName,
-                methodAnnotation);
     }
 }

@@ -51,7 +51,8 @@ public record PropertyMethodModel(
 
         public PropertyMethodModel build() {
             if (classMetadata == null || methodName == null || propertyName == null || propertyType == null) {
-                throw new IllegalStateException("classMetadata, methodName, propertyName, and propertyType are required");
+                throw new IllegalStateException(
+                        "classMetadata, methodName, propertyName, and propertyType are required");
             }
 
             return new PropertyMethodModel(
@@ -64,21 +65,4 @@ public record PropertyMethodModel(
         }
     }
 
-    // Keep the old create method for backward compatibility (deprecated)
-    @Deprecated
-    public static PropertyMethodModel create(
-            String builderClassNameWithTypeParameter,
-            String methodName,
-            String propertyName,
-            String propertyType,
-            String originalClassName,
-            String methodAnnotation) {
-        return new PropertyMethodModel(
-                builderClassNameWithTypeParameter,
-                methodName,
-                propertyName,
-                propertyType,
-                originalClassName,
-                methodAnnotation);
-    }
 }

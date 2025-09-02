@@ -48,26 +48,6 @@ public record BuildMethodModel(
         }
     }
 
-    // Keep the old create method for backward compatibility (deprecated)
-    @Deprecated
-    public static BuildMethodModel create(Class<?> clazz, String className, String classNameWithTypeParameter,
-            String typeParameters) {
-        boolean hasDefaultConstructor = clazz != null ? new ClassMetadata(clazz).hasDefaultConstructor() : false;
-        boolean hasGenerics = !typeParameters.isEmpty();
-        boolean suppressWarnings = hasGenerics;
-        boolean isPaneSubclass = isPaneSubclass(clazz);
-        String styleClass = isPaneSubclass ? toKebabCase(className) : null;
-
-        return new BuildMethodModel(
-                className,
-                classNameWithTypeParameter,
-                hasDefaultConstructor,
-                hasGenerics,
-                suppressWarnings,
-                isPaneSubclass,
-                styleClass);
-    }
-
     private static boolean isPaneSubclass(Class<?> clazz) {
         try {
             Class<?> paneClass = Class.forName("javafx.scene.layout.Pane");

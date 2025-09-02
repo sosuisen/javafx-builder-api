@@ -18,14 +18,8 @@ public record ClassHeaderModel(
     }
 
     public static class Builder {
-        private String packageName;
         private ClassMetadata classMetadata;
         private String classAnnotation;
-
-        public Builder packageName(String packageName) {
-            this.packageName = packageName;
-            return this;
-        }
 
         public Builder classMetadata(ClassMetadata classMetadata) {
             this.classMetadata = classMetadata;
@@ -38,12 +32,12 @@ public record ClassHeaderModel(
         }
 
         public ClassHeaderModel build() {
-            if (packageName == null || classMetadata == null) {
-                throw new IllegalStateException("packageName and classMetadata are required");
+            if (classMetadata == null) {
+                throw new IllegalStateException("classMetadata are required");
             }
 
             return new ClassHeaderModel(
-                    packageName,
+                    classMetadata.getPackageName(),
                     classMetadata.getBuilderClassName(),
                     classMetadata.getTypeParameters(),
                     classMetadata.gettypeParametersWithExtends(),
@@ -52,21 +46,4 @@ public record ClassHeaderModel(
         }
     }
 
-    // Keep the old create method for backward compatibility (deprecated)
-    @Deprecated
-    public static ClassHeaderModel create(
-            String packageName,
-            String builderClassName,
-            String typeParameters,
-            String typeParametersWithExtends,
-            String classNameWithTypeParameter,
-            String classAnnotation) {
-        return new ClassHeaderModel(
-                packageName,
-                builderClassName,
-                typeParameters,
-                typeParametersWithExtends,
-                classNameWithTypeParameter,
-                classAnnotation);
-    }
 }
