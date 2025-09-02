@@ -16,6 +16,16 @@ public class BackgroundPositionBuilder {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.layout.BackgroundPosition BackgroundPosition} class
+     */
     public javafx.scene.layout.BackgroundPosition build() {
         javafx.scene.layout.BackgroundPosition newInstance;
 

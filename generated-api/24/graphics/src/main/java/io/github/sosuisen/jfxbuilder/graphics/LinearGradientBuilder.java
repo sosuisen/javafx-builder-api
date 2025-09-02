@@ -24,6 +24,16 @@ public class LinearGradientBuilder {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.paint.LinearGradient LinearGradient} class
+     */
     public javafx.scene.paint.LinearGradient build() {
         javafx.scene.paint.LinearGradient newInstance;
 

@@ -8,6 +8,16 @@ public class MediaMarkerEventBuilder {
     
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.media.MediaMarkerEvent MediaMarkerEvent} class
+     */
     public javafx.scene.media.MediaMarkerEvent build() {
         javafx.scene.media.MediaMarkerEvent newInstance;
 

@@ -59,6 +59,16 @@ public class SpinnerBuilder<T> {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.control.Spinner Spinner} class
+     */
     public javafx.scene.control.Spinner<T> build() {
         javafx.scene.control.Spinner<T> newInstance;
 

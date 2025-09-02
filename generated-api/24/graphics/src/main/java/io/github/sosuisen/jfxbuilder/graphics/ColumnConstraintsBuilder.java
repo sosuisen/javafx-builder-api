@@ -35,6 +35,16 @@ public class ColumnConstraintsBuilder {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.layout.ColumnConstraints ColumnConstraints} class
+     */
     public javafx.scene.layout.ColumnConstraints build() {
         javafx.scene.layout.ColumnConstraints newInstance;
 

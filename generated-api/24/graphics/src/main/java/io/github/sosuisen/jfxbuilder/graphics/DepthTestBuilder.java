@@ -8,6 +8,16 @@ public class DepthTestBuilder {
     
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.DepthTest DepthTest} class
+     */
     public javafx.scene.DepthTest build() {
         javafx.scene.DepthTest newInstance;
 

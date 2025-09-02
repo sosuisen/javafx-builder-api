@@ -7,6 +7,7 @@ import io.github.sosuisen.model.data.ClassMetadata;
  */
 public record BuildMethodModel(
         String canonicalClassName,
+        String simpleClassName,
         String returnType,
         boolean hasDefaultConstructor,
         boolean hasGenerics,
@@ -39,6 +40,7 @@ public record BuildMethodModel(
 
             return new BuildMethodModel(
                     classMetadata.getCanonicalClassName(),
+                    classMetadata.getSimpleClassName(),
                     classMetadata.classNameWithTypeParameter(),
                     hasDefaultConstructor,
                     hasGenerics,

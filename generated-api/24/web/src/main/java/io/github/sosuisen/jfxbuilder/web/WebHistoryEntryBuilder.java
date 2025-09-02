@@ -1,6 +1,10 @@
 
 package io.github.sosuisen.jfxbuilder.web;
 
+/**
+ *
+ * @author Hidekazu Kubota
+ */
 
 public class WebHistoryEntryBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.web.WebHistory.Entry>> operations = new java.util.ArrayList<>();
@@ -8,6 +12,16 @@ public class WebHistoryEntryBuilder {
     
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.web.WebHistory.Entry Entry} class
+     */
     public javafx.scene.web.WebHistory.Entry build() {
         javafx.scene.web.WebHistory.Entry newInstance;
 

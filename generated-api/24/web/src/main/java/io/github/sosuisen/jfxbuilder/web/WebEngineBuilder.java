@@ -1,6 +1,10 @@
 
 package io.github.sosuisen.jfxbuilder.web;
 
+/**
+ *
+ * @author Hidekazu Kubota
+ */
 
 public class WebEngineBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.web.WebEngine>> operations = new java.util.ArrayList<>();
@@ -19,6 +23,16 @@ public class WebEngineBuilder {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.web.WebEngine WebEngine} class
+     */
     public javafx.scene.web.WebEngine build() {
         javafx.scene.web.WebEngine newInstance;
 

@@ -11,6 +11,16 @@ public class ProgressBarTreeTableCellBuilder<S> {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.control.cell.ProgressBarTreeTableCell ProgressBarTreeTableCell} class
+     */
     public javafx.scene.control.cell.ProgressBarTreeTableCell<S> build() {
         javafx.scene.control.cell.ProgressBarTreeTableCell<S> newInstance;
 

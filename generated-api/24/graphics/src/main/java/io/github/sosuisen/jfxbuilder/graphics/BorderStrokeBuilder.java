@@ -32,6 +32,16 @@ public class BorderStrokeBuilder {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.layout.BorderStroke BorderStroke} class
+     */
     public javafx.scene.layout.BorderStroke build() {
         javafx.scene.layout.BorderStroke newInstance;
 

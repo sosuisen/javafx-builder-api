@@ -11,6 +11,16 @@ public class PasswordFieldBuilder {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.control.PasswordField PasswordField} class
+     */
     public javafx.scene.control.PasswordField build() {
         javafx.scene.control.PasswordField newInstance;
 

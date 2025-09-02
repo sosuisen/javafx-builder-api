@@ -56,6 +56,16 @@ public class ImageBuilder {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.image.Image Image} class
+     */
     public javafx.scene.image.Image build() {
         javafx.scene.image.Image newInstance;
 

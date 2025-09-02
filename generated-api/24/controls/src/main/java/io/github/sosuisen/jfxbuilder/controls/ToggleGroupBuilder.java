@@ -11,6 +11,16 @@ public class ToggleGroupBuilder {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.control.ToggleGroup ToggleGroup} class
+     */
     public javafx.scene.control.ToggleGroup build() {
         javafx.scene.control.ToggleGroup newInstance;
 
