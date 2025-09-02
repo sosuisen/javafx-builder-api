@@ -152,7 +152,18 @@ public class TilePaneBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TilePane instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(tilePane -> tilePane.setId("Main" + tilePane.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TilePaneBuilder apply(java.util.function.Consumer<javafx.scene.layout.TilePane> func) {
         operations.add(func);
         return this;

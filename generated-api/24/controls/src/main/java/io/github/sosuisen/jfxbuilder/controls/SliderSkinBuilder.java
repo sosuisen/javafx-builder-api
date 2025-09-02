@@ -91,7 +91,18 @@ public class SliderSkinBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the SliderSkin instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(sliderSkin -> sliderSkin.setId("Main" + sliderSkin.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public SliderSkinBuilder apply(java.util.function.Consumer<javafx.scene.control.skin.SliderSkin> func) {
         operations.add(func);
         return this;

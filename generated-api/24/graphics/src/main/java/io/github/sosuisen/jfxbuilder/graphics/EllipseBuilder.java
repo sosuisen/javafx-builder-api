@@ -108,7 +108,18 @@ public class EllipseBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Ellipse instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(ellipse -> ellipse.setId("Main" + ellipse.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public EllipseBuilder apply(java.util.function.Consumer<javafx.scene.shape.Ellipse> func) {
         operations.add(func);
         return this;

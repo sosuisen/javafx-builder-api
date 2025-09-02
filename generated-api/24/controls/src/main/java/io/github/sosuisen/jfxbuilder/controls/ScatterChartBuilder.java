@@ -101,7 +101,18 @@ public class ScatterChartBuilder<X, Y> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ScatterChart instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(scatterChart -> scatterChart.setId("Main" + scatterChart.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ScatterChartBuilder<X, Y> apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) {
         operations.add(func);
         return this;

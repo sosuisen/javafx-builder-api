@@ -83,7 +83,18 @@ public class StrokeLineCapBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the StrokeLineCap instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(strokeLineCap -> strokeLineCap.setId("Main" + strokeLineCap.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public StrokeLineCapBuilder apply(java.util.function.Consumer<javafx.scene.shape.StrokeLineCap> func) {
         operations.add(func);
         return this;

@@ -83,7 +83,18 @@ public class TreeSortModeBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TreeSortMode instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(treeSortMode -> treeSortMode.setId("Main" + treeSortMode.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TreeSortModeBuilder apply(java.util.function.Consumer<javafx.scene.control.TreeSortMode> func) {
         operations.add(func);
         return this;

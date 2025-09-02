@@ -92,7 +92,18 @@ public class SplitPaneDividerBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Divider instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(divider -> divider.setId("Main" + divider.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public SplitPaneDividerBuilder apply(java.util.function.Consumer<javafx.scene.control.SplitPane.Divider> func) {
         operations.add(func);
         return this;

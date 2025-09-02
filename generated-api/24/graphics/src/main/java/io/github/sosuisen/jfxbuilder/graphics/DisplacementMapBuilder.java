@@ -108,7 +108,18 @@ public class DisplacementMapBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the DisplacementMap instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(displacementMap -> displacementMap.setId("Main" + displacementMap.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public DisplacementMapBuilder apply(java.util.function.Consumer<javafx.scene.effect.DisplacementMap> func) {
         operations.add(func);
         return this;

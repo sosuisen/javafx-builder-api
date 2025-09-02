@@ -83,7 +83,18 @@ public class ClipboardBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Clipboard instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(clipboard -> clipboard.setId("Main" + clipboard.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ClipboardBuilder apply(java.util.function.Consumer<javafx.scene.input.Clipboard> func) {
         operations.add(func);
         return this;

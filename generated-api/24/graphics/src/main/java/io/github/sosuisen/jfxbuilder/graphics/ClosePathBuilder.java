@@ -92,7 +92,18 @@ public class ClosePathBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ClosePath instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(closePath -> closePath.setId("Main" + closePath.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ClosePathBuilder apply(java.util.function.Consumer<javafx.scene.shape.ClosePath> func) {
         operations.add(func);
         return this;

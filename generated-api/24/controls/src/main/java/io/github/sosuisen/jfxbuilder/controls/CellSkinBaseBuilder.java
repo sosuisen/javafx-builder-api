@@ -93,7 +93,18 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the CellSkinBase instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(cellSkinBase -> cellSkinBase.setId("Main" + cellSkinBase.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public CellSkinBaseBuilder<C> apply(java.util.function.Consumer<javafx.scene.control.skin.CellSkinBase<C>> func) {
         operations.add(func);
         return this;

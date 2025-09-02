@@ -91,7 +91,18 @@ public class ProgressBarSkinBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ProgressBarSkin instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(progressBarSkin -> progressBarSkin.setId("Main" + progressBarSkin.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ProgressBarSkinBuilder apply(java.util.function.Consumer<javafx.scene.control.skin.ProgressBarSkin> func) {
         operations.add(func);
         return this;

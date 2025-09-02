@@ -108,7 +108,18 @@ public class CylinderBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Cylinder instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(cylinder -> cylinder.setId("Main" + cylinder.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public CylinderBuilder apply(java.util.function.Consumer<javafx.scene.shape.Cylinder> func) {
         operations.add(func);
         return this;

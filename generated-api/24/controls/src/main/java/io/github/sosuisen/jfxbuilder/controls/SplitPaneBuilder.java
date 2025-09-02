@@ -100,7 +100,18 @@ public class SplitPaneBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the SplitPane instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(splitPane -> splitPane.setId("Main" + splitPane.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public SplitPaneBuilder apply(java.util.function.Consumer<javafx.scene.control.SplitPane> func) {
         operations.add(func);
         return this;

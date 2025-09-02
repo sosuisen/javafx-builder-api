@@ -93,7 +93,18 @@ public class ComboBoxListViewSkinBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ComboBoxListViewSkin instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(comboBoxListViewSkin -> comboBoxListViewSkin.setId("Main" + comboBoxListViewSkin.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ComboBoxListViewSkinBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.skin.ComboBoxListViewSkin<T>> func) {
         operations.add(func);
         return this;

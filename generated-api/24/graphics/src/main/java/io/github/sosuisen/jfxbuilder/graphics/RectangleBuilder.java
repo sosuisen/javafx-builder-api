@@ -116,7 +116,18 @@ public class RectangleBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Rectangle instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(rectangle -> rectangle.setId("Main" + rectangle.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public RectangleBuilder apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) {
         operations.add(func);
         return this;

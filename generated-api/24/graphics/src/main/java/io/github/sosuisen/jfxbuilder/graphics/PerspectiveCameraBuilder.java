@@ -100,7 +100,18 @@ public class PerspectiveCameraBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the PerspectiveCamera instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(perspectiveCamera -> perspectiveCamera.setId("Main" + perspectiveCamera.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public PerspectiveCameraBuilder apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) {
         operations.add(func);
         return this;

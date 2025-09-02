@@ -126,7 +126,18 @@ public class ComboBoxListCellBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ComboBoxListCell instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(comboBoxListCell -> comboBoxListCell.setId("Main" + comboBoxListCell.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ComboBoxListCellBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.cell.ComboBoxListCell<T>> func) {
         operations.add(func);
         return this;

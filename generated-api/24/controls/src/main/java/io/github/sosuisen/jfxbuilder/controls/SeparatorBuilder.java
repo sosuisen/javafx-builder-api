@@ -100,7 +100,18 @@ public class SeparatorBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Separator instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(separator -> separator.setId("Main" + separator.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public SeparatorBuilder apply(java.util.function.Consumer<javafx.scene.control.Separator> func) {
         operations.add(func);
         return this;

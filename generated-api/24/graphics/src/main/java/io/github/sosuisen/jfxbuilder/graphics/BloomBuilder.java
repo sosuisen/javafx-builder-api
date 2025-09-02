@@ -100,7 +100,18 @@ public class BloomBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Bloom instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(bloom -> bloom.setId("Main" + bloom.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public BloomBuilder apply(java.util.function.Consumer<javafx.scene.effect.Bloom> func) {
         operations.add(func);
         return this;

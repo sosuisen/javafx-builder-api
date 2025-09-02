@@ -108,7 +108,18 @@ public class NumberAxisBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the NumberAxis instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(numberAxis -> numberAxis.setId("Main" + numberAxis.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public NumberAxisBuilder apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) {
         operations.add(func);
         return this;

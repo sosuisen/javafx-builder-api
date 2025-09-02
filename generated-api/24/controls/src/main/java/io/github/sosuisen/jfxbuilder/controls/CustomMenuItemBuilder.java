@@ -108,7 +108,18 @@ public class CustomMenuItemBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the CustomMenuItem instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(customMenuItem -> customMenuItem.setId("Main" + customMenuItem.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public CustomMenuItemBuilder apply(java.util.function.Consumer<javafx.scene.control.CustomMenuItem> func) {
         operations.add(func);
         return this;

@@ -100,7 +100,18 @@ public class RadioButtonBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the RadioButton instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(radioButton -> radioButton.setId("Main" + radioButton.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public RadioButtonBuilder apply(java.util.function.Consumer<javafx.scene.control.RadioButton> func) {
         operations.add(func);
         return this;

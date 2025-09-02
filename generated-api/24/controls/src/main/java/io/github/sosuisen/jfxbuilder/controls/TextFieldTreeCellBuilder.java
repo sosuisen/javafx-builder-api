@@ -102,7 +102,18 @@ public class TextFieldTreeCellBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TextFieldTreeCell instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(textFieldTreeCell -> textFieldTreeCell.setId("Main" + textFieldTreeCell.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TextFieldTreeCellBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldTreeCell<T>> func) {
         operations.add(func);
         return this;

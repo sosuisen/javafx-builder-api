@@ -83,7 +83,18 @@ public class HitInfoBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the HitInfo instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(hitInfo -> hitInfo.setId("Main" + hitInfo.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public HitInfoBuilder apply(java.util.function.Consumer<javafx.scene.text.HitInfo> func) {
         operations.add(func);
         return this;

@@ -83,7 +83,18 @@ public class BorderRepeatBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the BorderRepeat instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(borderRepeat -> borderRepeat.setId("Main" + borderRepeat.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public BorderRepeatBuilder apply(java.util.function.Consumer<javafx.scene.layout.BorderRepeat> func) {
         operations.add(func);
         return this;

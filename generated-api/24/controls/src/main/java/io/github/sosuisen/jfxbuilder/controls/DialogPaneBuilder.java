@@ -96,7 +96,18 @@ public class DialogPaneBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the DialogPane instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(dialogPane -> dialogPane.setId("Main" + dialogPane.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public DialogPaneBuilder apply(java.util.function.Consumer<javafx.scene.control.DialogPane> func) {
         operations.add(func);
         return this;

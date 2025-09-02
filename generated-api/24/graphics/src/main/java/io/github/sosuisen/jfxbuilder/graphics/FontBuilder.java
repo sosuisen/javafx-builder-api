@@ -99,7 +99,18 @@ public class FontBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Font instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(font -> font.setId("Main" + font.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public FontBuilder apply(java.util.function.Consumer<javafx.scene.text.Font> func) {
         operations.add(func);
         return this;

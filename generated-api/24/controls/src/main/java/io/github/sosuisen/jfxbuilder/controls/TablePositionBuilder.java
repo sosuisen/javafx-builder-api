@@ -93,7 +93,18 @@ public class TablePositionBuilder<S, T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TablePosition instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(tablePosition -> tablePosition.setId("Main" + tablePosition.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TablePositionBuilder<S, T> apply(java.util.function.Consumer<javafx.scene.control.TablePosition<S, T>> func) {
         operations.add(func);
         return this;

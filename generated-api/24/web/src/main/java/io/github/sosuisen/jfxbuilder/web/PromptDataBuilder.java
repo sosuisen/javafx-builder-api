@@ -91,7 +91,18 @@ public class PromptDataBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the PromptData instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(promptData -> promptData.setId("Main" + promptData.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public PromptDataBuilder apply(java.util.function.Consumer<javafx.scene.web.PromptData> func) {
         operations.add(func);
         return this;

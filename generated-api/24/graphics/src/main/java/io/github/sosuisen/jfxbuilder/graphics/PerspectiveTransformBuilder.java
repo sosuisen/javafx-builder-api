@@ -100,7 +100,18 @@ public class PerspectiveTransformBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the PerspectiveTransform instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(perspectiveTransform -> perspectiveTransform.setId("Main" + perspectiveTransform.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public PerspectiveTransformBuilder apply(java.util.function.Consumer<javafx.scene.effect.PerspectiveTransform> func) {
         operations.add(func);
         return this;

@@ -99,7 +99,18 @@ public class RadialGradientBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the RadialGradient instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(radialGradient -> radialGradient.setId("Main" + radialGradient.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public RadialGradientBuilder apply(java.util.function.Consumer<javafx.scene.paint.RadialGradient> func) {
         operations.add(func);
         return this;

@@ -108,7 +108,18 @@ public class ShearBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Shear instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(shear -> shear.setId("Main" + shear.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ShearBuilder apply(java.util.function.Consumer<javafx.scene.transform.Shear> func) {
         operations.add(func);
         return this;

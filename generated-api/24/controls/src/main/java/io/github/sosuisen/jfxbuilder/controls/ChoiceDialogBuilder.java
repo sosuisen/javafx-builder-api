@@ -110,7 +110,18 @@ public class ChoiceDialogBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ChoiceDialog instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(choiceDialog -> choiceDialog.setId("Main" + choiceDialog.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ChoiceDialogBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.ChoiceDialog<T>> func) {
         operations.add(func);
         return this;

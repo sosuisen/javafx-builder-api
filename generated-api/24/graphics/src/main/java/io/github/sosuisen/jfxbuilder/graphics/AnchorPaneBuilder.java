@@ -104,7 +104,18 @@ public class AnchorPaneBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the AnchorPane instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(anchorPane -> anchorPane.setId("Main" + anchorPane.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public AnchorPaneBuilder apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) {
         operations.add(func);
         return this;

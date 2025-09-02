@@ -83,7 +83,18 @@ public class VertexFormatBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the VertexFormat instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(vertexFormat -> vertexFormat.setId("Main" + vertexFormat.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public VertexFormatBuilder apply(java.util.function.Consumer<javafx.scene.shape.VertexFormat> func) {
         operations.add(func);
         return this;

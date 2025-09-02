@@ -100,7 +100,18 @@ public class AccordionBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Accordion instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(accordion -> accordion.setId("Main" + accordion.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public AccordionBuilder apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) {
         operations.add(func);
         return this;

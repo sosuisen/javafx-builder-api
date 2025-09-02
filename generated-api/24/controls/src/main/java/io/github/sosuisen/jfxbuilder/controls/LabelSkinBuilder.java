@@ -91,7 +91,18 @@ public class LabelSkinBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the LabelSkin instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(labelSkin -> labelSkin.setId("Main" + labelSkin.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public LabelSkinBuilder apply(java.util.function.Consumer<javafx.scene.control.skin.LabelSkin> func) {
         operations.add(func);
         return this;

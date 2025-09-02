@@ -93,7 +93,18 @@ public class SortEventBuilder<C> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the SortEvent instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(sortEvent -> sortEvent.setId("Main" + sortEvent.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public SortEventBuilder<C> apply(java.util.function.Consumer<javafx.scene.control.SortEvent<C>> func) {
         operations.add(func);
         return this;

@@ -83,7 +83,18 @@ public class GraphicsContextBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the GraphicsContext instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(graphicsContext -> graphicsContext.setId("Main" + graphicsContext.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public GraphicsContextBuilder apply(java.util.function.Consumer<javafx.scene.canvas.GraphicsContext> func) {
         operations.add(func);
         return this;

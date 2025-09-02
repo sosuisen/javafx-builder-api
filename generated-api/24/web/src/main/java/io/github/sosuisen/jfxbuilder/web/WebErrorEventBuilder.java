@@ -91,7 +91,18 @@ public class WebErrorEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the WebErrorEvent instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(webErrorEvent -> webErrorEvent.setId("Main" + webErrorEvent.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public WebErrorEventBuilder apply(java.util.function.Consumer<javafx.scene.web.WebErrorEvent> func) {
         operations.add(func);
         return this;

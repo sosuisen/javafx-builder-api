@@ -126,7 +126,18 @@ public class ChoiceBoxListCellBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ChoiceBoxListCell instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(choiceBoxListCell -> choiceBoxListCell.setId("Main" + choiceBoxListCell.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ChoiceBoxListCellBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) {
         operations.add(func);
         return this;

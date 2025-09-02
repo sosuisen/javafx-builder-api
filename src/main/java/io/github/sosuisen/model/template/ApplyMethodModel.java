@@ -7,7 +7,9 @@ import io.github.sosuisen.model.data.ClassMetadata;
  */
 public record ApplyMethodModel(
         String builderClassNameWithTypeParameter,
-        String classNameWithTypeParameter) {
+        String classNameWithTypeParameter,
+        String simpleClassName,
+        String camelCaseOfClassName) {
 
     public static Builder builder() {
         return new Builder();
@@ -26,9 +28,15 @@ public record ApplyMethodModel(
                 throw new IllegalStateException("classMetadata is required");
             }
 
+            String camelCaseOfClassName = classMetadata.getSimpleClassName().substring(0, 1).toLowerCase()
+                    + classMetadata.getSimpleClassName().substring(1);
+
             return new ApplyMethodModel(
                     classMetadata.builderClassNameWithTypeParameter(),
-                    classMetadata.classNameWithTypeParameter());
+                    classMetadata.classNameWithTypeParameter(),
+                    classMetadata.getSimpleClassName(),
+                    camelCaseOfClassName);
         }
     }
+
 }

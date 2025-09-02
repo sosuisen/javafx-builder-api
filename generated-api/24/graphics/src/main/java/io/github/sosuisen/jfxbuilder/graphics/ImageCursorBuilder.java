@@ -108,7 +108,18 @@ public class ImageCursorBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ImageCursor instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(imageCursor -> imageCursor.setId("Main" + imageCursor.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ImageCursorBuilder apply(java.util.function.Consumer<javafx.scene.ImageCursor> func) {
         operations.add(func);
         return this;

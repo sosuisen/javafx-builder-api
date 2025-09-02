@@ -83,7 +83,18 @@ public class ButtonBarButtonDataBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ButtonData instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(buttonData -> buttonData.setId("Main" + buttonData.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ButtonBarButtonDataBuilder apply(java.util.function.Consumer<javafx.scene.control.ButtonBar.ButtonData> func) {
         operations.add(func);
         return this;

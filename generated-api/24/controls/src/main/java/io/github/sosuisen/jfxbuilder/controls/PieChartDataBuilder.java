@@ -91,7 +91,18 @@ public class PieChartDataBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Data instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(data -> data.setId("Main" + data.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public PieChartDataBuilder apply(java.util.function.Consumer<javafx.scene.chart.PieChart.Data> func) {
         operations.add(func);
         return this;

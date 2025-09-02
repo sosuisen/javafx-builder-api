@@ -83,7 +83,18 @@ public class AccessibleRoleBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the AccessibleRole instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(accessibleRole -> accessibleRole.setId("Main" + accessibleRole.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public AccessibleRoleBuilder apply(java.util.function.Consumer<javafx.scene.AccessibleRole> func) {
         operations.add(func);
         return this;

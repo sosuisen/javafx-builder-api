@@ -100,7 +100,18 @@ public class LightingBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Lighting instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(lighting -> lighting.setId("Main" + lighting.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public LightingBuilder apply(java.util.function.Consumer<javafx.scene.effect.Lighting> func) {
         operations.add(func);
         return this;

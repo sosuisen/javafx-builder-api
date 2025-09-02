@@ -101,7 +101,18 @@ public class BubbleChartBuilder<X, Y> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the BubbleChart instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(bubbleChart -> bubbleChart.setId("Main" + bubbleChart.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public BubbleChartBuilder<X, Y> apply(java.util.function.Consumer<javafx.scene.chart.BubbleChart<X, Y>> func) {
         operations.add(func);
         return this;

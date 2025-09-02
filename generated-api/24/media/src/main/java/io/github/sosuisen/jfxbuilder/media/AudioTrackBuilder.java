@@ -83,7 +83,18 @@ public class AudioTrackBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the AudioTrack instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(audioTrack -> audioTrack.setId("Main" + audioTrack.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public AudioTrackBuilder apply(java.util.function.Consumer<javafx.scene.media.AudioTrack> func) {
         operations.add(func);
         return this;

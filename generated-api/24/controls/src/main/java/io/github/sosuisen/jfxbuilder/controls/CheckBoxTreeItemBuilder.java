@@ -126,7 +126,18 @@ public class CheckBoxTreeItemBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the CheckBoxTreeItem instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(checkBoxTreeItem -> checkBoxTreeItem.setId("Main" + checkBoxTreeItem.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public CheckBoxTreeItemBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.CheckBoxTreeItem<T>> func) {
         operations.add(func);
         return this;

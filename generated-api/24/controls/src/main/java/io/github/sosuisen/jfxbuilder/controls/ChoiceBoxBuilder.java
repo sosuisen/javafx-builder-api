@@ -102,7 +102,18 @@ public class ChoiceBoxBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ChoiceBox instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(choiceBox -> choiceBox.setId("Main" + choiceBox.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ChoiceBoxBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) {
         operations.add(func);
         return this;

@@ -92,7 +92,18 @@ public class PasswordFieldBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the PasswordField instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(passwordField -> passwordField.setId("Main" + passwordField.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public PasswordFieldBuilder apply(java.util.function.Consumer<javafx.scene.control.PasswordField> func) {
         operations.add(func);
         return this;

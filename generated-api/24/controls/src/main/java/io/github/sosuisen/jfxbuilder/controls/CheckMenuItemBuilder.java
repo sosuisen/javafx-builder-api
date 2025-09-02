@@ -108,7 +108,18 @@ public class CheckMenuItemBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the CheckMenuItem instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(checkMenuItem -> checkMenuItem.setId("Main" + checkMenuItem.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public CheckMenuItemBuilder apply(java.util.function.Consumer<javafx.scene.control.CheckMenuItem> func) {
         operations.add(func);
         return this;

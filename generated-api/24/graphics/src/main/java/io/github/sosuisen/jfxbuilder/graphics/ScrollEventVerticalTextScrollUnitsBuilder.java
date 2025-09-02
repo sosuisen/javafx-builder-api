@@ -83,7 +83,18 @@ public class ScrollEventVerticalTextScrollUnitsBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the VerticalTextScrollUnits instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(verticalTextScrollUnits -> verticalTextScrollUnits.setId("Main" + verticalTextScrollUnits.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ScrollEventVerticalTextScrollUnitsBuilder apply(java.util.function.Consumer<javafx.scene.input.ScrollEvent.VerticalTextScrollUnits> func) {
         operations.add(func);
         return this;

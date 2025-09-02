@@ -92,7 +92,18 @@ public class RobotBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Robot instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(robot -> robot.setId("Main" + robot.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public RobotBuilder apply(java.util.function.Consumer<javafx.scene.robot.Robot> func) {
         operations.add(func);
         return this;

@@ -116,7 +116,18 @@ public class RowConstraintsBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the RowConstraints instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(rowConstraints -> rowConstraints.setId("Main" + rowConstraints.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public RowConstraintsBuilder apply(java.util.function.Consumer<javafx.scene.layout.RowConstraints> func) {
         operations.add(func);
         return this;

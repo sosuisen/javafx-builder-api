@@ -94,7 +94,18 @@ public class TreeTableRowBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TreeTableRow instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(treeTableRow -> treeTableRow.setId("Main" + treeTableRow.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TreeTableRowBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) {
         operations.add(func);
         return this;

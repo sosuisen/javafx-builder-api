@@ -91,7 +91,18 @@ public class ScrollBarSkinBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ScrollBarSkin instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(scrollBarSkin -> scrollBarSkin.setId("Main" + scrollBarSkin.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ScrollBarSkinBuilder apply(java.util.function.Consumer<javafx.scene.control.skin.ScrollBarSkin> func) {
         operations.add(func);
         return this;

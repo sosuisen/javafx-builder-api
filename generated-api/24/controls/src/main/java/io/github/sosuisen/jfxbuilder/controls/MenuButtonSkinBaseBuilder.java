@@ -93,7 +93,18 @@ public class MenuButtonSkinBaseBuilder<C extends javafx.scene.control.MenuButton
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the MenuButtonSkinBase instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(menuButtonSkinBase -> menuButtonSkinBase.setId("Main" + menuButtonSkinBase.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public MenuButtonSkinBaseBuilder<C> apply(java.util.function.Consumer<javafx.scene.control.skin.MenuButtonSkinBase<C>> func) {
         operations.add(func);
         return this;

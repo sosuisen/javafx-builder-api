@@ -101,7 +101,18 @@ public class StackedAreaChartBuilder<X, Y> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the StackedAreaChart instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(stackedAreaChart -> stackedAreaChart.setId("Main" + stackedAreaChart.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public StackedAreaChartBuilder<X, Y> apply(java.util.function.Consumer<javafx.scene.chart.StackedAreaChart<X, Y>> func) {
         operations.add(func);
         return this;

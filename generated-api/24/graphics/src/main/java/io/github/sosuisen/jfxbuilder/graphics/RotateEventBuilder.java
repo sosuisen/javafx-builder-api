@@ -99,7 +99,18 @@ public class RotateEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the RotateEvent instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(rotateEvent -> rotateEvent.setId("Main" + rotateEvent.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public RotateEventBuilder apply(java.util.function.Consumer<javafx.scene.input.RotateEvent> func) {
         operations.add(func);
         return this;

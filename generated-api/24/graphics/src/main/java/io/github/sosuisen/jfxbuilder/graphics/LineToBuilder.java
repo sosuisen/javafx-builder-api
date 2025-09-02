@@ -100,7 +100,18 @@ public class LineToBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the LineTo instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(lineTo -> lineTo.setId("Main" + lineTo.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public LineToBuilder apply(java.util.function.Consumer<javafx.scene.shape.LineTo> func) {
         operations.add(func);
         return this;

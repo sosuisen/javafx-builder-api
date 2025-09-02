@@ -99,7 +99,18 @@ public class TouchEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TouchEvent instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(touchEvent -> touchEvent.setId("Main" + touchEvent.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TouchEventBuilder apply(java.util.function.Consumer<javafx.scene.input.TouchEvent> func) {
         operations.add(func);
         return this;

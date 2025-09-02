@@ -99,7 +99,18 @@ public class ContextMenuEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ContextMenuEvent instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(contextMenuEvent -> contextMenuEvent.setId("Main" + contextMenuEvent.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ContextMenuEventBuilder apply(java.util.function.Consumer<javafx.scene.input.ContextMenuEvent> func) {
         operations.add(func);
         return this;

@@ -91,7 +91,18 @@ public class MediaPlayerBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the MediaPlayer instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(mediaPlayer -> mediaPlayer.setId("Main" + mediaPlayer.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public MediaPlayerBuilder apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) {
         operations.add(func);
         return this;

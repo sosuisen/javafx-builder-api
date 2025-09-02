@@ -107,7 +107,18 @@ public class BorderStrokeBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the BorderStroke instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(borderStroke -> borderStroke.setId("Main" + borderStroke.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public BorderStrokeBuilder apply(java.util.function.Consumer<javafx.scene.layout.BorderStroke> func) {
         operations.add(func);
         return this;

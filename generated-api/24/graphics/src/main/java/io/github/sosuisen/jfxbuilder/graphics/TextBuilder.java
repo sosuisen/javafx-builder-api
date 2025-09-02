@@ -108,7 +108,18 @@ public class TextBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Text instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(text -> text.setId("Main" + text.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TextBuilder apply(java.util.function.Consumer<javafx.scene.text.Text> func) {
         operations.add(func);
         return this;

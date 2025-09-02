@@ -83,7 +83,18 @@ public class HTMLEditorSkinCommandBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Command instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(command -> command.setId("Main" + command.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public HTMLEditorSkinCommandBuilder apply(java.util.function.Consumer<javafx.scene.web.HTMLEditorSkin.Command> func) {
         operations.add(func);
         return this;

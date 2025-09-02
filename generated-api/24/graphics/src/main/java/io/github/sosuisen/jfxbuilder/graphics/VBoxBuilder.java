@@ -120,7 +120,18 @@ public class VBoxBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the VBox instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(vBox -> vBox.setId("Main" + vBox.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public VBoxBuilder apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) {
         operations.add(func);
         return this;

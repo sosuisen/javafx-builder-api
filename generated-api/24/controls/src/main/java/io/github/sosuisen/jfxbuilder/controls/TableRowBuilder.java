@@ -94,7 +94,18 @@ public class TableRowBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TableRow instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(tableRow -> tableRow.setId("Main" + tableRow.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TableRowBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.TableRow<T>> func) {
         operations.add(func);
         return this;

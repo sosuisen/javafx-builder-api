@@ -91,7 +91,18 @@ public class TextFieldSkinBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TextFieldSkin instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(textFieldSkin -> textFieldSkin.setId("Main" + textFieldSkin.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TextFieldSkinBuilder apply(java.util.function.Consumer<javafx.scene.control.skin.TextFieldSkin> func) {
         operations.add(func);
         return this;

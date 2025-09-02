@@ -99,7 +99,18 @@ public class AlertBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Alert instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(alert -> alert.setId("Main" + alert.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public AlertBuilder apply(java.util.function.Consumer<javafx.scene.control.Alert> func) {
         operations.add(func);
         return this;

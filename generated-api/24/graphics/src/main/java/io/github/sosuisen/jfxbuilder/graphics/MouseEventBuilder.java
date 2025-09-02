@@ -115,7 +115,18 @@ public class MouseEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the MouseEvent instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(mouseEvent -> mouseEvent.setId("Main" + mouseEvent.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public MouseEventBuilder apply(java.util.function.Consumer<javafx.scene.input.MouseEvent> func) {
         operations.add(func);
         return this;

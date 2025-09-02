@@ -124,7 +124,18 @@ public class AffineBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Affine instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(affine -> affine.setId("Main" + affine.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public AffineBuilder apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) {
         operations.add(func);
         return this;
