@@ -9,9 +9,9 @@
 @if(model.hasDefaultConstructor())
         if (constructorArgs == null) {
 @if(model.hasGenerics())
-            newInstance = new ${model.className()}<>();
+            newInstance = new ${model.canonicalClassName()}<>();
 @else
-            newInstance = new ${model.className()}();
+            newInstance = new ${model.canonicalClassName()}();
 @endif
         } else {
             newInstance = callParameterizedConstructor();
@@ -34,7 +34,7 @@
     private ${model.returnType()} callParameterizedConstructor() {
         ${model.returnType()} newInstance;        
         try {
-            java.lang.reflect.Constructor<?>[] constructors = ${model.className()}.class.getConstructors();
+            java.lang.reflect.Constructor<?>[] constructors = ${model.canonicalClassName()}.class.getConstructors();
             newInstance = null;
             for (java.lang.reflect.Constructor<?> constructor : constructors) {
                 if (constructor.getParameterCount() == constructorArgs.length && isConstructorCompatible(constructor, constructorArgs)) {

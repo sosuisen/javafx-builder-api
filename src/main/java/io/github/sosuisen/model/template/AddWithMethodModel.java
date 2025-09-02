@@ -68,13 +68,15 @@ public record AddWithMethodModel(
                     Matcher matcher = pattern.matcher(returnType);
                     if (matcher.find()) {
                         observableListTypeParameter = matcher.group(1).replace("$", ".");
-                        observableListTypeParameter = TypeMappingManager.getReplacement(classMetadata.getClassName(),
+                        observableListTypeParameter = TypeMappingManager.getReplacement(
+                                classMetadata.getCanonicalClassName(),
                                 observableListTypeParameter);
                     }
                 }
             } catch (NoSuchMethodException e) {
                 throw new IllegalArgumentException(
-                        "Method " + getterMethodName + " not found in class " + classMetadata.getClassName(), e);
+                        "Method " + getterMethodName + " not found in class " + classMetadata.getCanonicalClassName(),
+                        e);
             }
 
             if (observableListTypeParameter == null) {
@@ -88,7 +90,7 @@ public record AddWithMethodModel(
                     addMethodName,
                     withMethodName,
                     getterMethodName,
-                    classMetadata.getClassName(),
+                    classMetadata.getCanonicalClassName(),
                     withMethodName != null);
         }
     }

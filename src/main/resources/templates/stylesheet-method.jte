@@ -3,7 +3,7 @@
 @param StylesheetMethodModel model
     
     /**
-     * Utility setter to add CSS string for this ${model.className()}'s contents.
+     * Utility setter to add CSS string for this ${model.simpleClassName()}'s contents.
      * For example:
      * <pre>
      * ${model.builderClassName()} builder = ${model.builderClassName()}.create()

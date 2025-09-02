@@ -57,17 +57,17 @@ public record PropertyMethodModel(
             // StringProperty, ObservableList<Node>)
             String propertyType = propertyMethod.getGenericReturnType().getTypeName().replace("$", ".");
             // Check for type replacement
-            propertyType = TypeMappingManager.getReplacement(classMetadata.getClassName(), propertyType);
+            propertyType = TypeMappingManager.getReplacement(classMetadata.getCanonicalClassName(), propertyType);
 
             String methodAnnotation = MethodAnnotationManager.getMethodAnnotation(
-                    classMetadata.getClassName(), propertyName);
+                    classMetadata.getCanonicalClassName(), propertyName);
 
             return new PropertyMethodModel(
                     classMetadata.builderClassNameWithTypeParameter(),
                     methodName,
                     propertyName,
                     propertyType,
-                    classMetadata.getClassName(),
+                    classMetadata.getCanonicalClassName(),
                     methodAnnotation != null ? methodAnnotation : "");
         }
     }

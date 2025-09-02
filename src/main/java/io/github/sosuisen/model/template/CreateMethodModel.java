@@ -51,7 +51,7 @@ public record CreateMethodModel(
 
             if (!isDefaultConstructor) {
                 parameterList = ParameterStringBuilder.buildParameterListWithTypes(parameters,
-                        classMetadata.getClassName(),
+                        classMetadata.getCanonicalClassName(),
                         isVarArgs);
                 argumentList = ParameterStringBuilder.buildParameterListNamesOnly(parameters);
             }
