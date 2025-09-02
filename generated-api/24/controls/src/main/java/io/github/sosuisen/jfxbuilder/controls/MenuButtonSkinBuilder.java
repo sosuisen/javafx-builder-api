@@ -91,7 +91,18 @@ public class MenuButtonSkinBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the MenuButtonSkin instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(menuButtonSkin -> menuButtonSkin.setId("Main" + menuButtonSkin.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public MenuButtonSkinBuilder apply(java.util.function.Consumer<javafx.scene.control.skin.MenuButtonSkin> func) {
         operations.add(func);
         return this;

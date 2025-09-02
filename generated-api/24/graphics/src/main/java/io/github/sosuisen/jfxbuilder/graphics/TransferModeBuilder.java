@@ -83,7 +83,18 @@ public class TransferModeBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TransferMode instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(transferMode -> transferMode.setId("Main" + transferMode.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TransferModeBuilder apply(java.util.function.Consumer<javafx.scene.input.TransferMode> func) {
         operations.add(func);
         return this;

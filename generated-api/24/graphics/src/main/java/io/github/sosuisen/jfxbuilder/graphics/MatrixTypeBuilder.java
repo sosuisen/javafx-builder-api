@@ -83,7 +83,18 @@ public class MatrixTypeBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the MatrixType instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(matrixType -> matrixType.setId("Main" + matrixType.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public MatrixTypeBuilder apply(java.util.function.Consumer<javafx.scene.transform.MatrixType> func) {
         operations.add(func);
         return this;

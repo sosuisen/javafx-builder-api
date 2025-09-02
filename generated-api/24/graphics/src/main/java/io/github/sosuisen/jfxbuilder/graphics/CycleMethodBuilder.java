@@ -83,7 +83,18 @@ public class CycleMethodBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the CycleMethod instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(cycleMethod -> cycleMethod.setId("Main" + cycleMethod.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public CycleMethodBuilder apply(java.util.function.Consumer<javafx.scene.paint.CycleMethod> func) {
         operations.add(func);
         return this;

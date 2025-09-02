@@ -100,7 +100,18 @@ public class CubicCurveToBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the CubicCurveTo instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(cubicCurveTo -> cubicCurveTo.setId("Main" + cubicCurveTo.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public CubicCurveToBuilder apply(java.util.function.Consumer<javafx.scene.shape.CubicCurveTo> func) {
         operations.add(func);
         return this;

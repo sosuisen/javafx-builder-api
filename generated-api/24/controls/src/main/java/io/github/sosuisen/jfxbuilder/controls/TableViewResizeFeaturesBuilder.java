@@ -93,7 +93,18 @@ public class TableViewResizeFeaturesBuilder<S> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ResizeFeatures instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(resizeFeatures -> resizeFeatures.setId("Main" + resizeFeatures.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TableViewResizeFeaturesBuilder<S> apply(java.util.function.Consumer<javafx.scene.control.TableView.ResizeFeatures<S>> func) {
         operations.add(func);
         return this;

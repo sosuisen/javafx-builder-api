@@ -99,7 +99,18 @@ public class SwipeEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the SwipeEvent instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(swipeEvent -> swipeEvent.setId("Main" + swipeEvent.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public SwipeEventBuilder apply(java.util.function.Consumer<javafx.scene.input.SwipeEvent> func) {
         operations.add(func);
         return this;

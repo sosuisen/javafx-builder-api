@@ -83,7 +83,18 @@ public class DrawModeBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the DrawMode instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(drawMode -> drawMode.setId("Main" + drawMode.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public DrawModeBuilder apply(java.util.function.Consumer<javafx.scene.shape.DrawMode> func) {
         operations.add(func);
         return this;

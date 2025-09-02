@@ -104,7 +104,18 @@ public class PaneBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Pane instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(pane -> pane.setId("Main" + pane.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public PaneBuilder apply(java.util.function.Consumer<javafx.scene.layout.Pane> func) {
         operations.add(func);
         return this;

@@ -91,7 +91,18 @@ public class NestedTableColumnHeaderBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the NestedTableColumnHeader instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(nestedTableColumnHeader -> nestedTableColumnHeader.setId("Main" + nestedTableColumnHeader.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public NestedTableColumnHeaderBuilder apply(java.util.function.Consumer<javafx.scene.control.skin.NestedTableColumnHeader> func) {
         operations.add(func);
         return this;

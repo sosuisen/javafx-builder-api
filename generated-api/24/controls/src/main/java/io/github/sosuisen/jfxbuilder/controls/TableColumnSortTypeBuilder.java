@@ -83,7 +83,18 @@ public class TableColumnSortTypeBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the SortType instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(sortType -> sortType.setId("Main" + sortType.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TableColumnSortTypeBuilder apply(java.util.function.Consumer<javafx.scene.control.TableColumn.SortType> func) {
         operations.add(func);
         return this;

@@ -108,7 +108,18 @@ public class GroupBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Group instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(group -> group.setId("Main" + group.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public GroupBuilder apply(java.util.function.Consumer<javafx.scene.Group> func) {
         operations.add(func);
         return this;

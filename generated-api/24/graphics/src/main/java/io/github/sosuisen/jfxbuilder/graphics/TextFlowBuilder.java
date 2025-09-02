@@ -104,7 +104,18 @@ public class TextFlowBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TextFlow instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(textFlow -> textFlow.setId("Main" + textFlow.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TextFlowBuilder apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) {
         operations.add(func);
         return this;

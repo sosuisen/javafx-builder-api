@@ -93,7 +93,18 @@ public class ListViewSkinBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ListViewSkin instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(listViewSkin -> listViewSkin.setId("Main" + listViewSkin.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ListViewSkinBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.skin.ListViewSkin<T>> func) {
         operations.add(func);
         return this;

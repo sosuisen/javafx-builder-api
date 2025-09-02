@@ -102,7 +102,18 @@ public class ComboBoxBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ComboBox instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(comboBox -> comboBox.setId("Main" + comboBox.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ComboBoxBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.ComboBox<T>> func) {
         operations.add(func);
         return this;

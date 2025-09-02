@@ -100,7 +100,18 @@ public class DirectionalLightBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the DirectionalLight instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(directionalLight -> directionalLight.setId("Main" + directionalLight.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public DirectionalLightBuilder apply(java.util.function.Consumer<javafx.scene.DirectionalLight> func) {
         operations.add(func);
         return this;

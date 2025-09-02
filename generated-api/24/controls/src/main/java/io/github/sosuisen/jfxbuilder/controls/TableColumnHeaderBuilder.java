@@ -91,7 +91,18 @@ public class TableColumnHeaderBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TableColumnHeader instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(tableColumnHeader -> tableColumnHeader.setId("Main" + tableColumnHeader.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TableColumnHeaderBuilder apply(java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader> func) {
         operations.add(func);
         return this;

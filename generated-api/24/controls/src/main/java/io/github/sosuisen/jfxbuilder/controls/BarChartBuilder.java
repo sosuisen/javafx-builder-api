@@ -109,7 +109,18 @@ public class BarChartBuilder<X, Y> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the BarChart instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(barChart -> barChart.setId("Main" + barChart.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public BarChartBuilder<X, Y> apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) {
         operations.add(func);
         return this;

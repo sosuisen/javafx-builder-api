@@ -100,7 +100,18 @@ public class CategoryAxisBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the CategoryAxis instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(categoryAxis -> categoryAxis.setId("Main" + categoryAxis.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public CategoryAxisBuilder apply(java.util.function.Consumer<javafx.scene.chart.CategoryAxis> func) {
         operations.add(func);
         return this;

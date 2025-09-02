@@ -100,7 +100,18 @@ public class FloatMapBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the FloatMap instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(floatMap -> floatMap.setId("Main" + floatMap.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public FloatMapBuilder apply(java.util.function.Consumer<javafx.scene.effect.FloatMap> func) {
         operations.add(func);
         return this;

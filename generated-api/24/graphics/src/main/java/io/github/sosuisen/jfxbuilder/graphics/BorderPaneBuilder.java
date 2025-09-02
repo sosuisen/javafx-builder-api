@@ -112,7 +112,18 @@ public class BorderPaneBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the BorderPane instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(borderPane -> borderPane.setId("Main" + borderPane.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public BorderPaneBuilder apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) {
         operations.add(func);
         return this;

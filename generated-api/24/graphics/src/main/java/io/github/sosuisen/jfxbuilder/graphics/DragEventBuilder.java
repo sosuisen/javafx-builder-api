@@ -99,7 +99,18 @@ public class DragEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the DragEvent instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(dragEvent -> dragEvent.setId("Main" + dragEvent.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public DragEventBuilder apply(java.util.function.Consumer<javafx.scene.input.DragEvent> func) {
         operations.add(func);
         return this;

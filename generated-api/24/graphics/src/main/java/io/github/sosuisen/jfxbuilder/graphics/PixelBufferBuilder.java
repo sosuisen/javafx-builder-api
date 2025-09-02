@@ -93,7 +93,18 @@ public class PixelBufferBuilder<T extends java.nio.Buffer> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the PixelBuffer instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(pixelBuffer -> pixelBuffer.setId("Main" + pixelBuffer.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public PixelBufferBuilder<T> apply(java.util.function.Consumer<javafx.scene.image.PixelBuffer<T>> func) {
         operations.add(func);
         return this;

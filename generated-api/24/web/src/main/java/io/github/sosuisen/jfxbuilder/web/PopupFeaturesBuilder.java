@@ -91,7 +91,18 @@ public class PopupFeaturesBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the PopupFeatures instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(popupFeatures -> popupFeatures.setId("Main" + popupFeatures.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public PopupFeaturesBuilder apply(java.util.function.Consumer<javafx.scene.web.PopupFeatures> func) {
         operations.add(func);
         return this;

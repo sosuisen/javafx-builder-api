@@ -83,7 +83,18 @@ public class CacheHintBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the CacheHint instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(cacheHint -> cacheHint.setId("Main" + cacheHint.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public CacheHintBuilder apply(java.util.function.Consumer<javafx.scene.CacheHint> func) {
         operations.add(func);
         return this;

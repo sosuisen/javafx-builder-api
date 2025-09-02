@@ -107,7 +107,18 @@ public class ScrollEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ScrollEvent instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(scrollEvent -> scrollEvent.setId("Main" + scrollEvent.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ScrollEventBuilder apply(java.util.function.Consumer<javafx.scene.input.ScrollEvent> func) {
         operations.add(func);
         return this;

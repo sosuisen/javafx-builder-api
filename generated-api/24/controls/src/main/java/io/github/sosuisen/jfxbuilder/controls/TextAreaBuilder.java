@@ -100,7 +100,18 @@ public class TextAreaBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TextArea instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(textArea -> textArea.setId("Main" + textArea.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TextAreaBuilder apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) {
         operations.add(func);
         return this;

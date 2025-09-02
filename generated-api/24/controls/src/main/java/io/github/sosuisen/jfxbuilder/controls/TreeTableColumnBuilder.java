@@ -102,7 +102,18 @@ public class TreeTableColumnBuilder<S, T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TreeTableColumn instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(treeTableColumn -> treeTableColumn.setId("Main" + treeTableColumn.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TreeTableColumnBuilder<S, T> apply(java.util.function.Consumer<javafx.scene.control.TreeTableColumn<S, T>> func) {
         operations.add(func);
         return this;

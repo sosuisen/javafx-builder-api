@@ -115,7 +115,18 @@ public class WritableImageBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the WritableImage instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(writableImage -> writableImage.setId("Main" + writableImage.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public WritableImageBuilder apply(java.util.function.Consumer<javafx.scene.image.WritableImage> func) {
         operations.add(func);
         return this;

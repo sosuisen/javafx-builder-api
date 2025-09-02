@@ -91,7 +91,18 @@ public class HTMLEditorSkinBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the HTMLEditorSkin instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(hTMLEditorSkin -> hTMLEditorSkin.setId("Main" + hTMLEditorSkin.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public HTMLEditorSkinBuilder apply(java.util.function.Consumer<javafx.scene.web.HTMLEditorSkin> func) {
         operations.add(func);
         return this;

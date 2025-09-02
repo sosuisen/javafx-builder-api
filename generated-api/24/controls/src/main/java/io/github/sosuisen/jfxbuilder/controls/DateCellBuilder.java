@@ -92,7 +92,18 @@ public class DateCellBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the DateCell instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(dateCell -> dateCell.setId("Main" + dateCell.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public DateCellBuilder apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) {
         operations.add(func);
         return this;

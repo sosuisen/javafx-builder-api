@@ -116,7 +116,18 @@ public class InnerShadowBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the InnerShadow instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(innerShadow -> innerShadow.setId("Main" + innerShadow.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public InnerShadowBuilder apply(java.util.function.Consumer<javafx.scene.effect.InnerShadow> func) {
         operations.add(func);
         return this;

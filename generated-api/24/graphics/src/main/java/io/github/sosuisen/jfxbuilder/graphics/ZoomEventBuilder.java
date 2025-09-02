@@ -99,7 +99,18 @@ public class ZoomEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ZoomEvent instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(zoomEvent -> zoomEvent.setId("Main" + zoomEvent.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ZoomEventBuilder apply(java.util.function.Consumer<javafx.scene.input.ZoomEvent> func) {
         operations.add(func);
         return this;

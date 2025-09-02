@@ -92,7 +92,18 @@ public class PopupControlBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the PopupControl instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(popupControl -> popupControl.setId("Main" + popupControl.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public PopupControlBuilder apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) {
         operations.add(func);
         return this;

@@ -94,7 +94,18 @@ public class DialogBuilder<R> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Dialog instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(dialog -> dialog.setId("Main" + dialog.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public DialogBuilder<R> apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) {
         operations.add(func);
         return this;

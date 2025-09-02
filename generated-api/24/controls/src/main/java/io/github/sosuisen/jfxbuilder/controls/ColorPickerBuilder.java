@@ -100,7 +100,18 @@ public class ColorPickerBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ColorPicker instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(colorPicker -> colorPicker.setId("Main" + colorPicker.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ColorPickerBuilder apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) {
         operations.add(func);
         return this;

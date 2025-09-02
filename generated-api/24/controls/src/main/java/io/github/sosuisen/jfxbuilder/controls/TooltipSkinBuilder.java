@@ -91,7 +91,18 @@ public class TooltipSkinBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TooltipSkin instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(tooltipSkin -> tooltipSkin.setId("Main" + tooltipSkin.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TooltipSkinBuilder apply(java.util.function.Consumer<javafx.scene.control.skin.TooltipSkin> func) {
         operations.add(func);
         return this;

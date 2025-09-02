@@ -91,7 +91,18 @@ public class DatePickerSkinBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the DatePickerSkin instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(datePickerSkin -> datePickerSkin.setId("Main" + datePickerSkin.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public DatePickerSkinBuilder apply(java.util.function.Consumer<javafx.scene.control.skin.DatePickerSkin> func) {
         operations.add(func);
         return this;

@@ -83,7 +83,18 @@ public class KeyCombinationModifierValueBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ModifierValue instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(modifierValue -> modifierValue.setId("Main" + modifierValue.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public KeyCombinationModifierValueBuilder apply(java.util.function.Consumer<javafx.scene.input.KeyCombination.ModifierValue> func) {
         operations.add(func);
         return this;

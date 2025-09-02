@@ -100,7 +100,18 @@ public class ProgressIndicatorBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ProgressIndicator instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(progressIndicator -> progressIndicator.setId("Main" + progressIndicator.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ProgressIndicatorBuilder apply(java.util.function.Consumer<javafx.scene.control.ProgressIndicator> func) {
         operations.add(func);
         return this;

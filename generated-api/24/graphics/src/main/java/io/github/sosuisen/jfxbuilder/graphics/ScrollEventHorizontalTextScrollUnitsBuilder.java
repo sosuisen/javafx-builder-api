@@ -83,7 +83,18 @@ public class ScrollEventHorizontalTextScrollUnitsBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the HorizontalTextScrollUnits instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(horizontalTextScrollUnits -> horizontalTextScrollUnits.setId("Main" + horizontalTextScrollUnits.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ScrollEventHorizontalTextScrollUnitsBuilder apply(java.util.function.Consumer<javafx.scene.input.ScrollEvent.HorizontalTextScrollUnits> func) {
         operations.add(func);
         return this;

@@ -99,7 +99,18 @@ public class SubSceneBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the SubScene instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(subScene -> subScene.setId("Main" + subScene.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public SubSceneBuilder apply(java.util.function.Consumer<javafx.scene.SubScene> func) {
         operations.add(func);
         return this;

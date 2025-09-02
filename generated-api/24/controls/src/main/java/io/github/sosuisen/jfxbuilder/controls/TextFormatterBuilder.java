@@ -117,7 +117,18 @@ public class TextFormatterBuilder<V> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TextFormatter instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(textFormatter -> textFormatter.setId("Main" + textFormatter.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TextFormatterBuilder<V> apply(java.util.function.Consumer<javafx.scene.control.TextFormatter<V>> func) {
         operations.add(func);
         return this;

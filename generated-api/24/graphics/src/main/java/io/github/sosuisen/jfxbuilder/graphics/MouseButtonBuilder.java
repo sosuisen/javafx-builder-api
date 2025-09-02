@@ -83,7 +83,18 @@ public class MouseButtonBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the MouseButton instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(mouseButton -> mouseButton.setId("Main" + mouseButton.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public MouseButtonBuilder apply(java.util.function.Consumer<javafx.scene.input.MouseButton> func) {
         operations.add(func);
         return this;

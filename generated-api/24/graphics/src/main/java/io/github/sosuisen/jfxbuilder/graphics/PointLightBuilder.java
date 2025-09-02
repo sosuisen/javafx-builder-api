@@ -100,7 +100,18 @@ public class PointLightBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the PointLight instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(pointLight -> pointLight.setId("Main" + pointLight.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public PointLightBuilder apply(java.util.function.Consumer<javafx.scene.PointLight> func) {
         operations.add(func);
         return this;

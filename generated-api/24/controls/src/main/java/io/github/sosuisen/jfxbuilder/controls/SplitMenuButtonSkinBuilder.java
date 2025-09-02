@@ -91,7 +91,18 @@ public class SplitMenuButtonSkinBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the SplitMenuButtonSkin instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(splitMenuButtonSkin -> splitMenuButtonSkin.setId("Main" + splitMenuButtonSkin.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public SplitMenuButtonSkinBuilder apply(java.util.function.Consumer<javafx.scene.control.skin.SplitMenuButtonSkin> func) {
         operations.add(func);
         return this;

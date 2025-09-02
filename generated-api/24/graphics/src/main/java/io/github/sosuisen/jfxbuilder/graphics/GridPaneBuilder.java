@@ -104,7 +104,18 @@ public class GridPaneBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the GridPane instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(gridPane -> gridPane.setId("Main" + gridPane.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public GridPaneBuilder apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) {
         operations.add(func);
         return this;

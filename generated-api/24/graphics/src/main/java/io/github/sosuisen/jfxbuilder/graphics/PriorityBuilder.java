@@ -83,7 +83,18 @@ public class PriorityBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Priority instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(priority -> priority.setId("Main" + priority.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public PriorityBuilder apply(java.util.function.Consumer<javafx.scene.layout.Priority> func) {
         operations.add(func);
         return this;

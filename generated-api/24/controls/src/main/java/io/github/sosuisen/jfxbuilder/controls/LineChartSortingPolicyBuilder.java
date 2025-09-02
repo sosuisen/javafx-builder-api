@@ -83,7 +83,18 @@ public class LineChartSortingPolicyBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the SortingPolicy instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(sortingPolicy -> sortingPolicy.setId("Main" + sortingPolicy.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public LineChartSortingPolicyBuilder apply(java.util.function.Consumer<javafx.scene.chart.LineChart.SortingPolicy> func) {
         operations.add(func);
         return this;

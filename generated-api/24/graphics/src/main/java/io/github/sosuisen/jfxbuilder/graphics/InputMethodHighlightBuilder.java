@@ -83,7 +83,18 @@ public class InputMethodHighlightBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the InputMethodHighlight instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(inputMethodHighlight -> inputMethodHighlight.setId("Main" + inputMethodHighlight.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public InputMethodHighlightBuilder apply(java.util.function.Consumer<javafx.scene.input.InputMethodHighlight> func) {
         operations.add(func);
         return this;

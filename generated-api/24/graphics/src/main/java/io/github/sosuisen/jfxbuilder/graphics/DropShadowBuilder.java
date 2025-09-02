@@ -116,7 +116,18 @@ public class DropShadowBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the DropShadow instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(dropShadow -> dropShadow.setId("Main" + dropShadow.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public DropShadowBuilder apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) {
         operations.add(func);
         return this;

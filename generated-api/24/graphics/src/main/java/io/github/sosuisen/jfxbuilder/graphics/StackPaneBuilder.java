@@ -104,7 +104,18 @@ public class StackPaneBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the StackPane instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(stackPane -> stackPane.setId("Main" + stackPane.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public StackPaneBuilder apply(java.util.function.Consumer<javafx.scene.layout.StackPane> func) {
         operations.add(func);
         return this;

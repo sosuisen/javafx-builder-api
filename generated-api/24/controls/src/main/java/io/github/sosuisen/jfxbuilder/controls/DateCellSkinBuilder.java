@@ -91,7 +91,18 @@ public class DateCellSkinBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the DateCellSkin instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(dateCellSkin -> dateCellSkin.setId("Main" + dateCellSkin.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public DateCellSkinBuilder apply(java.util.function.Consumer<javafx.scene.control.skin.DateCellSkin> func) {
         operations.add(func);
         return this;

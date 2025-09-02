@@ -91,7 +91,18 @@ public class StopBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Stop instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(stop -> stop.setId("Main" + stop.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public StopBuilder apply(java.util.function.Consumer<javafx.scene.paint.Stop> func) {
         operations.add(func);
         return this;

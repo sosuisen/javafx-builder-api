@@ -43,7 +43,18 @@ public class StageBuilder {
     }
 
 
-    
+    /**
+     * Applies a function to the Stage instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(stage -> stage.setId("Main" + stage.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public StageBuilder apply(java.util.function.Consumer<javafx.stage.Stage> func) {
         operations.add(func);
         return this;

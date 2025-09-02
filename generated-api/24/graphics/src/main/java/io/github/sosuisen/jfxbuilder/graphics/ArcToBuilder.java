@@ -100,7 +100,18 @@ public class ArcToBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ArcTo instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(arcTo -> arcTo.setId("Main" + arcTo.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ArcToBuilder apply(java.util.function.Consumer<javafx.scene.shape.ArcTo> func) {
         operations.add(func);
         return this;

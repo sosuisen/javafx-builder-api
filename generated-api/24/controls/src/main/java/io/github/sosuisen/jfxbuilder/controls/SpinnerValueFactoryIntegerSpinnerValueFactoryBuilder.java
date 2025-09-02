@@ -107,7 +107,18 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the IntegerSpinnerValueFactory instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(integerSpinnerValueFactory -> integerSpinnerValueFactory.setId("Main" + integerSpinnerValueFactory.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory> func) {
         operations.add(func);
         return this;

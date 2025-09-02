@@ -92,7 +92,18 @@ public class SVGPathBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the SVGPath instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(sVGPath -> sVGPath.setId("Main" + sVGPath.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public SVGPathBuilder apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) {
         operations.add(func);
         return this;

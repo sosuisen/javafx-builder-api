@@ -92,7 +92,18 @@ public class RegionBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Region instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(region -> region.setId("Main" + region.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public RegionBuilder apply(java.util.function.Consumer<javafx.scene.layout.Region> func) {
         operations.add(func);
         return this;

@@ -83,7 +83,18 @@ public class GestureEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the GestureEvent instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(gestureEvent -> gestureEvent.setId("Main" + gestureEvent.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public GestureEventBuilder apply(java.util.function.Consumer<javafx.scene.input.GestureEvent> func) {
         operations.add(func);
         return this;

@@ -108,7 +108,18 @@ public class SphereBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Sphere instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(sphere -> sphere.setId("Main" + sphere.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public SphereBuilder apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) {
         operations.add(func);
         return this;

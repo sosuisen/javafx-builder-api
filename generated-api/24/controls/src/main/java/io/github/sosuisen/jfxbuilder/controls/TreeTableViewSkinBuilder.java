@@ -93,7 +93,18 @@ public class TreeTableViewSkinBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TreeTableViewSkin instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(treeTableViewSkin -> treeTableViewSkin.setId("Main" + treeTableViewSkin.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TreeTableViewSkinBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.skin.TreeTableViewSkin<T>> func) {
         operations.add(func);
         return this;

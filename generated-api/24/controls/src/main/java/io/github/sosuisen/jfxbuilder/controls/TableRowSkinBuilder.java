@@ -93,7 +93,18 @@ public class TableRowSkinBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TableRowSkin instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(tableRowSkin -> tableRowSkin.setId("Main" + tableRowSkin.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TableRowSkinBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.skin.TableRowSkin<T>> func) {
         operations.add(func);
         return this;

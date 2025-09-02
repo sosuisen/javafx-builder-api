@@ -93,7 +93,18 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TreeTableViewFocusModel instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(treeTableViewFocusModel -> treeTableViewFocusModel.setId("Main" + treeTableViewFocusModel.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TreeTableViewTreeTableViewFocusModelBuilder<S> apply(java.util.function.Consumer<javafx.scene.control.TreeTableView.TreeTableViewFocusModel<S>> func) {
         operations.add(func);
         return this;

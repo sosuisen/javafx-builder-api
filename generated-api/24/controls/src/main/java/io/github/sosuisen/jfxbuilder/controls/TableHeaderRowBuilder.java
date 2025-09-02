@@ -95,7 +95,18 @@ public class TableHeaderRowBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TableHeaderRow instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(tableHeaderRow -> tableHeaderRow.setId("Main" + tableHeaderRow.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TableHeaderRowBuilder apply(java.util.function.Consumer<javafx.scene.control.skin.TableHeaderRow> func) {
         operations.add(func);
         return this;

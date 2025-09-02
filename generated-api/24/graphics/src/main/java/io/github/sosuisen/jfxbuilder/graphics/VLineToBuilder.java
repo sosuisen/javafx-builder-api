@@ -100,7 +100,18 @@ public class VLineToBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the VLineTo instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(vLineTo -> vLineTo.setId("Main" + vLineTo.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public VLineToBuilder apply(java.util.function.Consumer<javafx.scene.shape.VLineTo> func) {
         operations.add(func);
         return this;

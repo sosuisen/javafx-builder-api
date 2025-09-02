@@ -100,7 +100,18 @@ public class QuadCurveBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the QuadCurve instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(quadCurve -> quadCurve.setId("Main" + quadCurve.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public QuadCurveBuilder apply(java.util.function.Consumer<javafx.scene.shape.QuadCurve> func) {
         operations.add(func);
         return this;

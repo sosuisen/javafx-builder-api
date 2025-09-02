@@ -100,7 +100,18 @@ public class CheckBoxBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the CheckBox instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(checkBox -> checkBox.setId("Main" + checkBox.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public CheckBoxBuilder apply(java.util.function.Consumer<javafx.scene.control.CheckBox> func) {
         operations.add(func);
         return this;

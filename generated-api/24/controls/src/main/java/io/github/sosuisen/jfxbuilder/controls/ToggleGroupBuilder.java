@@ -92,7 +92,18 @@ public class ToggleGroupBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ToggleGroup instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(toggleGroup -> toggleGroup.setId("Main" + toggleGroup.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ToggleGroupBuilder apply(java.util.function.Consumer<javafx.scene.control.ToggleGroup> func) {
         operations.add(func);
         return this;

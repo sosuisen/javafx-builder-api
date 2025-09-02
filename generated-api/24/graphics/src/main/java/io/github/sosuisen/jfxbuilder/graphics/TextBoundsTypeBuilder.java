@@ -83,7 +83,18 @@ public class TextBoundsTypeBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TextBoundsType instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(textBoundsType -> textBoundsType.setId("Main" + textBoundsType.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TextBoundsTypeBuilder apply(java.util.function.Consumer<javafx.scene.text.TextBoundsType> func) {
         operations.add(func);
         return this;

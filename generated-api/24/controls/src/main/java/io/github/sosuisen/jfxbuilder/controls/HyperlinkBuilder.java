@@ -108,7 +108,18 @@ public class HyperlinkBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Hyperlink instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(hyperlink -> hyperlink.setId("Main" + hyperlink.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public HyperlinkBuilder apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) {
         operations.add(func);
         return this;

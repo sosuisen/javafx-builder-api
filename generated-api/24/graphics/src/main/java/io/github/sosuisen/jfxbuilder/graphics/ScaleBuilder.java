@@ -124,7 +124,18 @@ public class ScaleBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Scale instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(scale -> scale.setId("Main" + scale.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ScaleBuilder apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) {
         operations.add(func);
         return this;

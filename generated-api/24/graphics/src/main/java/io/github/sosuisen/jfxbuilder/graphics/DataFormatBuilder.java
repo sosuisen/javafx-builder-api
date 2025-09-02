@@ -91,7 +91,18 @@ public class DataFormatBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the DataFormat instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(dataFormat -> dataFormat.setId("Main" + dataFormat.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public DataFormatBuilder apply(java.util.function.Consumer<javafx.scene.input.DataFormat> func) {
         operations.add(func);
         return this;

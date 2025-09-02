@@ -124,7 +124,18 @@ public class SplitMenuButtonBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the SplitMenuButton instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(splitMenuButton -> splitMenuButton.setId("Main" + splitMenuButton.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public SplitMenuButtonBuilder apply(java.util.function.Consumer<javafx.scene.control.SplitMenuButton> func) {
         operations.add(func);
         return this;

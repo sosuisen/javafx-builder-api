@@ -83,7 +83,18 @@ public class TextInputControlSkinTextUnitBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TextUnit instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(textUnit -> textUnit.setId("Main" + textUnit.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TextInputControlSkinTextUnitBuilder apply(java.util.function.Consumer<javafx.scene.control.skin.TextInputControlSkin.TextUnit> func) {
         operations.add(func);
         return this;

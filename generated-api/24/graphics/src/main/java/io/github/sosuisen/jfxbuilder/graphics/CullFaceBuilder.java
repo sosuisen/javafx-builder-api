@@ -83,7 +83,18 @@ public class CullFaceBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the CullFace instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(cullFace -> cullFace.setId("Main" + cullFace.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public CullFaceBuilder apply(java.util.function.Consumer<javafx.scene.shape.CullFace> func) {
         operations.add(func);
         return this;

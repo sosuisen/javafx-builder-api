@@ -83,7 +83,18 @@ public class MediaMarkerEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the MediaMarkerEvent instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(mediaMarkerEvent -> mediaMarkerEvent.setId("Main" + mediaMarkerEvent.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public MediaMarkerEventBuilder apply(java.util.function.Consumer<javafx.scene.media.MediaMarkerEvent> func) {
         operations.add(func);
         return this;

@@ -152,7 +152,18 @@ public class FlowPaneBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the FlowPane instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(flowPane -> flowPane.setId("Main" + flowPane.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public FlowPaneBuilder apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) {
         operations.add(func);
         return this;

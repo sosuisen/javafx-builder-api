@@ -100,7 +100,18 @@ public class LightSpotBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Spot instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(spot -> spot.setId("Main" + spot.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public LightSpotBuilder apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) {
         operations.add(func);
         return this;

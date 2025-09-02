@@ -126,7 +126,18 @@ public class SceneBuilder {
         return this;
     }
 
-    
+    /**
+     * Applies a function to the Scene instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(scene -> scene.setId("Main" + scene.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public SceneBuilder apply(java.util.function.Consumer<javafx.scene.Scene> func) {
         operations.add(func);
         return this;

@@ -142,7 +142,18 @@ public class SpinnerBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the Spinner instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(spinner -> spinner.setId("Main" + spinner.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public SpinnerBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) {
         operations.add(func);
         return this;

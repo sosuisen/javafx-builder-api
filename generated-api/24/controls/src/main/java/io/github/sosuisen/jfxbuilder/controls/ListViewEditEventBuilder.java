@@ -93,7 +93,18 @@ public class ListViewEditEventBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the EditEvent instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(editEvent -> editEvent.setId("Main" + editEvent.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ListViewEditEventBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.ListView.EditEvent<T>> func) {
         operations.add(func);
         return this;

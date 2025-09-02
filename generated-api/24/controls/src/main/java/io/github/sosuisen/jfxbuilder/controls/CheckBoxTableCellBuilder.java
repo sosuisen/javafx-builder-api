@@ -110,7 +110,18 @@ public class CheckBoxTableCellBuilder<S, T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the CheckBoxTableCell instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(checkBoxTableCell -> checkBoxTableCell.setId("Main" + checkBoxTableCell.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public CheckBoxTableCellBuilder<S, T> apply(java.util.function.Consumer<javafx.scene.control.cell.CheckBoxTableCell<S, T>> func) {
         operations.add(func);
         return this;

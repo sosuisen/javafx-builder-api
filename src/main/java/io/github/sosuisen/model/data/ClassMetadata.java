@@ -8,6 +8,7 @@ public class ClassMetadata {
     final String typeParameters;
     final String typeParametersWithExtends;
     final String className;
+    final String simpleClassName;
     final String builderClassName;
     final String packageName;
 
@@ -16,6 +17,7 @@ public class ClassMetadata {
         typeParameters = getTypeParameterString();
         typeParametersWithExtends = getTypeParametersWithExtendsString();
         className = clazz.getCanonicalName();
+        simpleClassName = clazz.getSimpleName();
         builderClassName = createBuilderClassName();
         this.packageName = packageName;
     }
@@ -30,6 +32,10 @@ public class ClassMetadata {
 
     public String getClassName() {
         return className;
+    }
+
+    public String getSimpleClassName() {
+        return simpleClassName;
     }
 
     public String getBuilderClassName() {

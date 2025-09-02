@@ -93,7 +93,18 @@ public class MapValueFactoryBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the MapValueFactory instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(mapValueFactory -> mapValueFactory.setId("Main" + mapValueFactory.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public MapValueFactoryBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.cell.MapValueFactory<T>> func) {
         operations.add(func);
         return this;

@@ -100,7 +100,18 @@ public class AmbientLightBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the AmbientLight instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(ambientLight -> ambientLight.setId("Main" + ambientLight.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public AmbientLightBuilder apply(java.util.function.Consumer<javafx.scene.AmbientLight> func) {
         operations.add(func);
         return this;

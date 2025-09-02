@@ -100,7 +100,18 @@ public class ToolBarBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ToolBar instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(toolBar -> toolBar.setId("Main" + toolBar.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ToolBarBuilder apply(java.util.function.Consumer<javafx.scene.control.ToolBar> func) {
         operations.add(func);
         return this;

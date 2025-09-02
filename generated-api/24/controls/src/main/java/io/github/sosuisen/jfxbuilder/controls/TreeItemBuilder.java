@@ -110,7 +110,18 @@ public class TreeItemBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the TreeItem instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(treeItem -> treeItem.setId("Main" + treeItem.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public TreeItemBuilder<T> apply(java.util.function.Consumer<javafx.scene.control.TreeItem<T>> func) {
         operations.add(func);
         return this;

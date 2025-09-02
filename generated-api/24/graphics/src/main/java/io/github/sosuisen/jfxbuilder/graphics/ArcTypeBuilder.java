@@ -83,7 +83,18 @@ public class ArcTypeBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
-    
+    /**
+     * Applies a function to the ArcType instance currently being built.
+     * Most operations on the instance can be performed using this method.
+     *
+     * <p>Example usage:</p>     
+     * <pre>{@code
+     * apply(arcType -> arcType.setId("Main" + arcType.getTypeSelector()))
+     * }</pre>
+     * 
+     * @return builder instance
+     *
+     */
     public ArcTypeBuilder apply(java.util.function.Consumer<javafx.scene.shape.ArcType> func) {
         operations.add(func);
         return this;
