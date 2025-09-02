@@ -1,5 +1,6 @@
 package io.github.sosuisen.template;
 
+import io.github.sosuisen.mapper.ClassAnnotationManager;
 import io.github.sosuisen.model.ClassMetadata;
 
 /**
@@ -19,15 +20,9 @@ public record ClassHeaderModel(
 
     public static class Builder {
         private ClassMetadata classMetadata;
-        private String classAnnotation;
 
         public Builder classMetadata(ClassMetadata classMetadata) {
             this.classMetadata = classMetadata;
-            return this;
-        }
-
-        public Builder classAnnotation(String classAnnotation) {
-            this.classAnnotation = classAnnotation;
             return this;
         }
 
@@ -35,7 +30,7 @@ public record ClassHeaderModel(
             if (classMetadata == null) {
                 throw new IllegalStateException("classMetadata are required");
             }
-
+            String classAnnotation = ClassAnnotationManager.getClassAnnotation(classMetadata.getClassName());
             return new ClassHeaderModel(
                     classMetadata.getPackageName(),
                     classMetadata.getBuilderClassName(),

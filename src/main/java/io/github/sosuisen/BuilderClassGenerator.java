@@ -82,6 +82,7 @@ public class BuilderClassGenerator {
         }
 
         content.append(generateApplyMethod());
+
         content.append(generateSetterMethods());
 
         content.append(generateAddAndWithMethods());
@@ -91,6 +92,7 @@ public class BuilderClassGenerator {
         }
 
         content.append(generateLayoutConstraintMethods());
+
         content.append(generatePropertyMethods());
 
         content.append(generateSpecialMethods());
@@ -101,13 +103,9 @@ public class BuilderClassGenerator {
     }
 
     private String generateClassHeader() {
-        String classAnnotation = ClassAnnotationManager.getClassAnnotation(classMetadata.getClassName());
-
         ClassHeaderModel model = ClassHeaderModel.builder()
                 .classMetadata(classMetadata)
-                .classAnnotation(classAnnotation)
                 .build();
-
         TemplateOutput output = new StringOutput();
         templateEngine.render("class-header.jte", model, output);
         return output.toString();
