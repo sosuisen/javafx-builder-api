@@ -1491,7 +1491,6 @@ public class ProgressBarTableCellBuilder<S> {
         operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
         return this;
     }
-
     
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ProgressBarTableCell#accessibleHelpProperty()}.

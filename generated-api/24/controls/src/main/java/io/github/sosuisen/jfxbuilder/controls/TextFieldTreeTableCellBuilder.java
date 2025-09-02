@@ -1509,7 +1509,6 @@ public class TextFieldTreeTableCellBuilder<S, T> {
         operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
         return this;
     }
-
     
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldTreeTableCell#accessibleHelpProperty()}.
