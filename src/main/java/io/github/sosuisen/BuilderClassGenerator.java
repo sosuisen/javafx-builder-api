@@ -157,8 +157,9 @@ public class BuilderClassGenerator {
     }
 
     private String generateApplyMethod() {
-        ApplyMethodModel model = ApplyMethodModel.create(classMetadata.builderClassNameWithTypeParameter(),
-                classMetadata.classNameWithTypeParameter());
+        ApplyMethodModel model = ApplyMethodModel.builder()
+                .classMetadata(classMetadata)
+                .build();
         TemplateOutput output = new StringOutput();
         templateEngine.render("apply-method.jte", model, output);
         return output.toString();
