@@ -1,4 +1,4 @@
-package io.github.sosuisen.extractor;
+package io.github.sosuisen.model;
 
 import java.io.IOException;
 import java.lang.reflect.Method;
@@ -8,9 +8,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-
-import io.github.sosuisen.model.ParameterInfo;
-import io.github.sosuisen.model.StaticSetterInfo;
 
 public class LayoutConstraintsExtractor {
 

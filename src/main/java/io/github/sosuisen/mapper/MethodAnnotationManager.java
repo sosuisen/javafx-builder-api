@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
-import io.github.sosuisen.BuildInfo;
+import io.github.sosuisen.model.BuildInfo;
 
 public class MethodAnnotationManager {
     private static final Map<String, String> METHOD_ANNOTATIONS = new HashMap<>();
