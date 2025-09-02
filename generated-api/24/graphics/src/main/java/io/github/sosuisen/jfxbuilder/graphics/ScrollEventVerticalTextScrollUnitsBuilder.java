@@ -8,6 +8,16 @@ public class ScrollEventVerticalTextScrollUnitsBuilder {
     
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.input.ScrollEvent.VerticalTextScrollUnits VerticalTextScrollUnits} class
+     */
     public javafx.scene.input.ScrollEvent.VerticalTextScrollUnits build() {
         javafx.scene.input.ScrollEvent.VerticalTextScrollUnits newInstance;
 

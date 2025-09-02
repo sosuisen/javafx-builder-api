@@ -24,6 +24,16 @@ public class StackedAreaChartBuilder<X, Y> {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.chart.StackedAreaChart StackedAreaChart} class
+     */
     public javafx.scene.chart.StackedAreaChart<X, Y> build() {
         javafx.scene.chart.StackedAreaChart<X, Y> newInstance;
 

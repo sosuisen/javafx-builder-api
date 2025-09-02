@@ -1,6 +1,10 @@
 
 package io.github.sosuisen.jfxbuilder.web;
 
+/**
+ *
+ * @author Hidekazu Kubota
+ */
 
 public class HTMLEditorSkinBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.web.HTMLEditorSkin>> operations = new java.util.ArrayList<>();
@@ -16,6 +20,16 @@ public class HTMLEditorSkinBuilder {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.web.HTMLEditorSkin HTMLEditorSkin} class
+     */
     public javafx.scene.web.HTMLEditorSkin build() {
         javafx.scene.web.HTMLEditorSkin newInstance;
 

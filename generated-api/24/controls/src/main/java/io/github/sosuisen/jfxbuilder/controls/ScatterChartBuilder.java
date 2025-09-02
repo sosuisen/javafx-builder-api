@@ -24,6 +24,16 @@ public class ScatterChartBuilder<X, Y> {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.chart.ScatterChart ScatterChart} class
+     */
     public javafx.scene.chart.ScatterChart<X, Y> build() {
         javafx.scene.chart.ScatterChart<X, Y> newInstance;
 

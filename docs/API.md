@@ -65,7 +65,7 @@ Examples:
 
 This method builds and returns an instance of the original class.
 
-Note that intermediate methods are not evaluated until build() is called (lazy evaluation).
+Note that intermediate builder methods are not evaluated until the build() method is called; in other words, they are evaluated lazily.
 
 Example:
 ```java

@@ -8,6 +8,16 @@ public class MediaExceptionTypeBuilder {
     
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.media.MediaException.Type Type} class
+     */
     public javafx.scene.media.MediaException.Type build() {
         javafx.scene.media.MediaException.Type newInstance;
 

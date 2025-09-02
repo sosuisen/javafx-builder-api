@@ -16,6 +16,16 @@ public class CheckBoxTreeItemTreeModificationEventBuilder<T> {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.control.CheckBoxTreeItem.TreeModificationEvent TreeModificationEvent} class
+     */
     public javafx.scene.control.CheckBoxTreeItem.TreeModificationEvent<T> build() {
         javafx.scene.control.CheckBoxTreeItem.TreeModificationEvent<T> newInstance;
 

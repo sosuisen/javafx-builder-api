@@ -11,6 +11,16 @@ public class DateCellBuilder {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.control.DateCell DateCell} class
+     */
     public javafx.scene.control.DateCell build() {
         javafx.scene.control.DateCell newInstance;
 

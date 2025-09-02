@@ -32,6 +32,16 @@ public class BorderWidthsBuilder {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.layout.BorderWidths BorderWidths} class
+     */
     public javafx.scene.layout.BorderWidths build() {
         javafx.scene.layout.BorderWidths newInstance;
 

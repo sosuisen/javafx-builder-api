@@ -19,6 +19,16 @@ public class LightPointBuilder {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.effect.Light.Point Point} class
+     */
     public javafx.scene.effect.Light.Point build() {
         javafx.scene.effect.Light.Point newInstance;
 

@@ -27,6 +27,16 @@ public class CylinderBuilder {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.shape.Cylinder Cylinder} class
+     */
     public javafx.scene.shape.Cylinder build() {
         javafx.scene.shape.Cylinder newInstance;
 

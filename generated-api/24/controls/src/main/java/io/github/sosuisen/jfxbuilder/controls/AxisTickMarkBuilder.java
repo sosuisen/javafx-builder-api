@@ -11,6 +11,16 @@ public class AxisTickMarkBuilder<T> {
 
     private Object[] constructorArgs;
 
+    /**
+     * This method builds and returns an instance of the original class.
+     * 
+     * <p>
+     * Intermediate builder methods are not evaluated until the build() method
+     * is called; in other words, they are evaluated lazily.
+     * </p>
+     *
+     * @return new instance of the {@link javafx.scene.chart.Axis.TickMark TickMark} class
+     */
     public javafx.scene.chart.Axis.TickMark<T> build() {
         javafx.scene.chart.Axis.TickMark<T> newInstance;
 
