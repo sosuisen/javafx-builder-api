@@ -1,6 +1,6 @@
 package io.github.sosuisen.template;
 
-import io.github.sosuisen.parser.ConstructorParser;
+import io.github.sosuisen.model.ClassMetadata;
 
 /**
  * Data model for build method JTE template
@@ -14,9 +14,45 @@ public record BuildMethodModel(
         boolean isPaneSubclass,
         String styleClass) {
 
+    public static Builder builder() {
+        return new Builder();
+    }
+
+    public static class Builder {
+        private ClassMetadata classMetadata;
+
+        public Builder classMetadata(ClassMetadata classMetadata) {
+            this.classMetadata = classMetadata;
+            return this;
+        }
+
+        public BuildMethodModel build() {
+            if (classMetadata == null) {
+                throw new IllegalStateException("classMetadata is required");
+            }
+
+            boolean hasDefaultConstructor = classMetadata.hasDefaultConstructor();
+            boolean hasGenerics = !classMetadata.getTypeParameters().isEmpty();
+            boolean suppressWarnings = hasGenerics;
+            boolean isPaneSubclass = isPaneSubclass(classMetadata.getTargetClass());
+            String styleClass = isPaneSubclass ? toKebabCase(classMetadata.getClassName()) : null;
+
+            return new BuildMethodModel(
+                    classMetadata.getClassName(),
+                    classMetadata.classNameWithTypeParameter(),
+                    hasDefaultConstructor,
+                    hasGenerics,
+                    suppressWarnings,
+                    isPaneSubclass,
+                    styleClass);
+        }
+    }
+
+    // Keep the old create method for backward compatibility (deprecated)
+    @Deprecated
     public static BuildMethodModel create(Class<?> clazz, String className, String classNameWithTypeParameter,
             String typeParameters) {
-        boolean hasDefaultConstructor = ConstructorParser.hasDefaultConstructor(clazz);
+        boolean hasDefaultConstructor = clazz != null ? new ClassMetadata(clazz).hasDefaultConstructor() : false;
         boolean hasGenerics = !typeParameters.isEmpty();
         boolean suppressWarnings = hasGenerics;
         boolean isPaneSubclass = isPaneSubclass(clazz);

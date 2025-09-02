@@ -6,19 +6,20 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import io.github.sosuisen.mapper.TypeMappingManager;
-import io.github.sosuisen.parser.ConstructorParser;
+import io.github.sosuisen.model.ClassMetadata;
 
 /**
- * Data model for add/with method JTE template (supports both Items and Menus)
+ * Data model for add/with method JTE template
  */
 public record AddWithMethodModel(
         String builderClassNameWithTypeParameter,
         String observableListTypeParameter,
-        String typeParametersExtends,
+        String typeParametersWithExtends,
         String addMethodName,
         String withMethodName,
         String getterMethodName,
-        String originalClassName) {
+        String originalClassName,
+        boolean hasWithMethod) {
 
     public static Builder builder() {
         return new Builder();
@@ -26,39 +27,21 @@ public record AddWithMethodModel(
 
     public static class Builder {
         private String getterMethodName;
-        private Class<?> targetClass;
-        private String builderClassName;
-        private String typeParameters;
-        private String typeParametersExtends;
+        private ClassMetadata classMetadata;
 
         public Builder getterMethodName(String getterMethodName) {
             this.getterMethodName = getterMethodName;
             return this;
         }
 
-        public Builder targetClass(Class<?> targetClass) {
-            this.targetClass = targetClass;
-            return this;
-        }
-
-        public Builder builderClassName(String builderClassName) {
-            this.builderClassName = builderClassName;
-            return this;
-        }
-
-        public Builder typeParameters(String typeParameters) {
-            this.typeParameters = typeParameters;
-            return this;
-        }
-
-        public Builder typeParametersExtends(String typeParametersExtends) {
-            this.typeParametersExtends = typeParametersExtends;
+        public Builder classMetadata(ClassMetadata classMetadata) {
+            this.classMetadata = classMetadata;
             return this;
         }
 
         public AddWithMethodModel build() {
-            if (getterMethodName == null || targetClass == null || builderClassName == null) {
-                throw new IllegalStateException("getterMethodName, targetClass, and builderClassName are required");
+            if (getterMethodName == null || classMetadata == null) {
+                throw new IllegalStateException("getterMethodName and classMetadata are required");
             }
 
             // Calculate derived values
@@ -71,49 +54,42 @@ public record AddWithMethodModel(
                     "getStylesheets",
                     "getTransforms",
                     "getStyleClass");
-            if (!ignoreList.contains(getterMethodName) && ConstructorParser.hasDefaultConstructor(targetClass)) {
+            if (!ignoreList.contains(getterMethodName) && classMetadata.hasDefaultConstructor()) {
                 withMethodName = "with" + propertyName;
             }
 
             // Extract observable list type parameter from getter method return type
             String observableListTypeParameter = null;
             try {
-                Method getterMethod = targetClass.getMethod(getterMethodName);
+                Method getterMethod = classMetadata.getTargetClass().getMethod(getterMethodName);
                 String returnType = getterMethod.getGenericReturnType().getTypeName();
                 if (returnType.startsWith("javafx.collections.ObservableList<")) {
                     Pattern pattern = Pattern.compile("<(.+)>$");
                     Matcher matcher = pattern.matcher(returnType);
                     if (matcher.find()) {
                         observableListTypeParameter = matcher.group(1).replace("$", ".");
-                        String className = targetClass.getCanonicalName();
-                        observableListTypeParameter = TypeMappingManager.getReplacement(className,
+                        observableListTypeParameter = TypeMappingManager.getReplacement(classMetadata.getClassName(),
                                 observableListTypeParameter);
                     }
                 }
             } catch (NoSuchMethodException e) {
                 throw new IllegalArgumentException(
-                        "Method " + getterMethodName + " not found in class " + targetClass.getName(), e);
+                        "Method " + getterMethodName + " not found in class " + classMetadata.getClassName(), e);
             }
 
             if (observableListTypeParameter == null) {
                 throw new IllegalArgumentException("Method " + getterMethodName + " does not return an ObservableList");
             }
 
-            // Calculate builder class name with type parameter
-            String builderClassNameWithTypeParameter = builderClassName
-                    + (typeParameters != null ? typeParameters : "");
-
-            // Get original class name
-            String originalClassName = targetClass.getCanonicalName();
-
             return new AddWithMethodModel(
-                    builderClassNameWithTypeParameter,
+                    classMetadata.builderClassNameWithTypeParameter(),
                     observableListTypeParameter,
-                    typeParametersExtends,
+                    classMetadata.gettypeParametersWithExtends(),
                     addMethodName,
                     withMethodName,
                     getterMethodName,
-                    originalClassName);
+                    classMetadata.getClassName(),
+                    withMethodName != null);
         }
     }
 }
