@@ -114,11 +114,6 @@ public class ChoiceDialogBuilder<T> {
      * Applies a function to the ChoiceDialog instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(choiceDialog -> choiceDialog.setId("Main" + choiceDialog.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

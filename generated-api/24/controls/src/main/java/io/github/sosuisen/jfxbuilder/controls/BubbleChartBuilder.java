@@ -109,7 +109,7 @@ public class BubbleChartBuilder<X, Y> {
      * <pre>{@code
      * apply(bubbleChart -> bubbleChart.setId("Main" + bubbleChart.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

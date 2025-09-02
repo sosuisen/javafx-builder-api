@@ -108,7 +108,7 @@ public class PerspectiveCameraBuilder {
      * <pre>{@code
      * apply(perspectiveCamera -> perspectiveCamera.setId("Main" + perspectiveCamera.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

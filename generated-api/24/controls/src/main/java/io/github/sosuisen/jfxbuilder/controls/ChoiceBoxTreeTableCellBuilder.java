@@ -134,7 +134,7 @@ public class ChoiceBoxTreeTableCellBuilder<S, T> {
      * <pre>{@code
      * apply(choiceBoxTreeTableCell -> choiceBoxTreeTableCell.setId("Main" + choiceBoxTreeTableCell.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

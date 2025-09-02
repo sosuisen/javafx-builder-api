@@ -103,11 +103,6 @@ public class ImagePatternBuilder {
      * Applies a function to the ImagePattern instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(imagePattern -> imagePattern.setId("Main" + imagePattern.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

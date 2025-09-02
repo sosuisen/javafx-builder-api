@@ -116,7 +116,7 @@ public class TextBuilder {
      * <pre>{@code
      * apply(text -> text.setId("Main" + text.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

@@ -95,11 +95,6 @@ public class TouchPointBuilder {
      * Applies a function to the TouchPoint instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(touchPoint -> touchPoint.setId("Main" + touchPoint.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

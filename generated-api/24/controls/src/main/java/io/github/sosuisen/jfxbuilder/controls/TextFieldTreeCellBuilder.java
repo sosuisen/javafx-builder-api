@@ -110,7 +110,7 @@ public class TextFieldTreeCellBuilder<T> {
      * <pre>{@code
      * apply(textFieldTreeCell -> textFieldTreeCell.setId("Main" + textFieldTreeCell.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

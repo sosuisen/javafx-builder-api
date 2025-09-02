@@ -104,11 +104,6 @@ public class LightDistantBuilder {
      * Applies a function to the Distant instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(distant -> distant.setId("Main" + distant.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

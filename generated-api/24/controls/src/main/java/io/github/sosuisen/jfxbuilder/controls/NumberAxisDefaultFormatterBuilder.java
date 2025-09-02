@@ -103,11 +103,6 @@ public class NumberAxisDefaultFormatterBuilder {
      * Applies a function to the DefaultFormatter instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(defaultFormatter -> defaultFormatter.setId("Main" + defaultFormatter.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

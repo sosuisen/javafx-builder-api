@@ -87,11 +87,6 @@ public class TableColumnSortTypeBuilder {
      * Applies a function to the SortType instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(sortType -> sortType.setId("Main" + sortType.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

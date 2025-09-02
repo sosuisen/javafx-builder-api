@@ -108,7 +108,7 @@ public class MediaViewBuilder {
      * <pre>{@code
      * apply(mediaView -> mediaView.setId("Main" + mediaView.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

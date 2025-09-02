@@ -100,7 +100,7 @@ public class SVGPathBuilder {
      * <pre>{@code
      * apply(sVGPath -> sVGPath.setId("Main" + sVGPath.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

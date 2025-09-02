@@ -87,11 +87,6 @@ public class VideoTrackBuilder {
      * Applies a function to the VideoTrack instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(videoTrack -> videoTrack.setId("Main" + videoTrack.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

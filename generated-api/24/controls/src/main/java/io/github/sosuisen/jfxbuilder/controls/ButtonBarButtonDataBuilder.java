@@ -87,11 +87,6 @@ public class ButtonBarButtonDataBuilder {
      * Applies a function to the ButtonData instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(buttonData -> buttonData.setId("Main" + buttonData.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

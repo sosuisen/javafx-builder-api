@@ -87,11 +87,6 @@ public class HTMLEditorSkinCommandBuilder {
      * Applies a function to the Command instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(command -> command.setId("Main" + command.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

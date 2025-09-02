@@ -97,11 +97,6 @@ public class TableColumnCellEditEventBuilder<S, T> {
      * Applies a function to the CellEditEvent instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(cellEditEvent -> cellEditEvent.setId("Main" + cellEditEvent.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

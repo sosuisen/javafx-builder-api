@@ -119,11 +119,6 @@ public class CornerRadiiBuilder {
      * Applies a function to the CornerRadii instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(cornerRadii -> cornerRadii.setId("Main" + cornerRadii.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

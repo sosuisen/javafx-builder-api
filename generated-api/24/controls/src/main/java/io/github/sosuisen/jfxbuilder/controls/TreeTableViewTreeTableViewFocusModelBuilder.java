@@ -97,11 +97,6 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
      * Applies a function to the TreeTableViewFocusModel instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(treeTableViewFocusModel -> treeTableViewFocusModel.setId("Main" + treeTableViewFocusModel.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

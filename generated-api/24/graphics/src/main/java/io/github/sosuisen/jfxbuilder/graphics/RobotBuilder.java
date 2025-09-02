@@ -96,11 +96,6 @@ public class RobotBuilder {
      * Applies a function to the Robot instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(robot -> robot.setId("Main" + robot.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

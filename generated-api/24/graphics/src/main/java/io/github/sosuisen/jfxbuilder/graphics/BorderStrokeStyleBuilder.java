@@ -95,11 +95,6 @@ public class BorderStrokeStyleBuilder {
      * Applies a function to the BorderStrokeStyle instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(borderStrokeStyle -> borderStrokeStyle.setId("Main" + borderStrokeStyle.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

@@ -103,11 +103,6 @@ public class IndexRangeBuilder {
      * Applies a function to the IndexRange instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(indexRange -> indexRange.setId("Main" + indexRange.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

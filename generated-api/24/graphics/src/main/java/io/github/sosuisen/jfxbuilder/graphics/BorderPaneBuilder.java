@@ -120,7 +120,7 @@ public class BorderPaneBuilder {
      * <pre>{@code
      * apply(borderPane -> borderPane.setId("Main" + borderPane.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

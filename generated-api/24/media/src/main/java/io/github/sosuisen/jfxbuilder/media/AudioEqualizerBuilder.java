@@ -87,11 +87,6 @@ public class AudioEqualizerBuilder {
      * Applies a function to the AudioEqualizer instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(audioEqualizer -> audioEqualizer.setId("Main" + audioEqualizer.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

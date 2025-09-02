@@ -108,7 +108,7 @@ public class PolygonBuilder {
      * <pre>{@code
      * apply(polygon -> polygon.setId("Main" + polygon.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

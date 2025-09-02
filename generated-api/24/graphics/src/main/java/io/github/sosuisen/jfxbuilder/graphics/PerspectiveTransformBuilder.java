@@ -104,11 +104,6 @@ public class PerspectiveTransformBuilder {
      * Applies a function to the PerspectiveTransform instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(perspectiveTransform -> perspectiveTransform.setId("Main" + perspectiveTransform.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

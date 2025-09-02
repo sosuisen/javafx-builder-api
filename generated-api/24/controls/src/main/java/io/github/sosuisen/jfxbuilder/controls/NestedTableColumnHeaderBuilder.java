@@ -99,7 +99,7 @@ public class NestedTableColumnHeaderBuilder {
      * <pre>{@code
      * apply(nestedTableColumnHeader -> nestedTableColumnHeader.setId("Main" + nestedTableColumnHeader.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

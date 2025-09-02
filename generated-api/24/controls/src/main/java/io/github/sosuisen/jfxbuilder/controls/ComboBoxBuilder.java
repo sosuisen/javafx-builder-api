@@ -110,7 +110,7 @@ public class ComboBoxBuilder<T> {
      * <pre>{@code
      * apply(comboBox -> comboBox.setId("Main" + comboBox.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

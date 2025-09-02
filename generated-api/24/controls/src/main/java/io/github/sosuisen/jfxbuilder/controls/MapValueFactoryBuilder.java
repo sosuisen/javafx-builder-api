@@ -97,11 +97,6 @@ public class MapValueFactoryBuilder<T> {
      * Applies a function to the MapValueFactory instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(mapValueFactory -> mapValueFactory.setId("Main" + mapValueFactory.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

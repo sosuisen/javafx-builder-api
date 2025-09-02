@@ -111,11 +111,6 @@ public class ScrollEventBuilder {
      * Applies a function to the ScrollEvent instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(scrollEvent -> scrollEvent.setId("Main" + scrollEvent.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

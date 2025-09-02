@@ -104,11 +104,6 @@ public class LightingBuilder {
      * Applies a function to the Lighting instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(lighting -> lighting.setId("Main" + lighting.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

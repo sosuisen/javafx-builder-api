@@ -97,11 +97,6 @@ public class ScrollToEventBuilder<T> {
      * Applies a function to the ScrollToEvent instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(scrollToEvent -> scrollToEvent.setId("Main" + scrollToEvent.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

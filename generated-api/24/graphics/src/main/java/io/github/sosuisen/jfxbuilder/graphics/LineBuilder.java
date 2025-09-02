@@ -108,7 +108,7 @@ public class LineBuilder {
      * <pre>{@code
      * apply(line -> line.setId("Main" + line.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

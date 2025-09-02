@@ -95,11 +95,6 @@ public class DataFormatBuilder {
      * Applies a function to the DataFormat instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(dataFormat -> dataFormat.setId("Main" + dataFormat.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

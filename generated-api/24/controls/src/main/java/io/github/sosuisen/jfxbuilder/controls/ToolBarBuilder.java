@@ -108,7 +108,7 @@ public class ToolBarBuilder {
      * <pre>{@code
      * apply(toolBar -> toolBar.setId("Main" + toolBar.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

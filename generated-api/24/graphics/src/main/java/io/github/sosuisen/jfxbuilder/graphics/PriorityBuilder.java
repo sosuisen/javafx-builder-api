@@ -87,11 +87,6 @@ public class PriorityBuilder {
      * Applies a function to the Priority instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(priority -> priority.setId("Main" + priority.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

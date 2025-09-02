@@ -103,11 +103,6 @@ public class RotateEventBuilder {
      * Applies a function to the RotateEvent instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(rotateEvent -> rotateEvent.setId("Main" + rotateEvent.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

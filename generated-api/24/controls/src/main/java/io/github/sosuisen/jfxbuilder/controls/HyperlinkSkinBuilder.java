@@ -95,11 +95,6 @@ public class HyperlinkSkinBuilder {
      * Applies a function to the HyperlinkSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(hyperlinkSkin -> hyperlinkSkin.setId("Main" + hyperlinkSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

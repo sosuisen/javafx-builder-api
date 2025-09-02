@@ -87,11 +87,6 @@ public class BlurTypeBuilder {
      * Applies a function to the BlurType instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(blurType -> blurType.setId("Main" + blurType.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

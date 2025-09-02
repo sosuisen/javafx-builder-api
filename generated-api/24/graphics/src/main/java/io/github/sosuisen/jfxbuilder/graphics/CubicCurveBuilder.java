@@ -108,7 +108,7 @@ public class CubicCurveBuilder {
      * <pre>{@code
      * apply(cubicCurve -> cubicCurve.setId("Main" + cubicCurve.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

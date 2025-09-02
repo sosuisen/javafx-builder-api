@@ -119,11 +119,6 @@ public class WritableImageBuilder {
      * Applies a function to the WritableImage instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(writableImage -> writableImage.setId("Main" + writableImage.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

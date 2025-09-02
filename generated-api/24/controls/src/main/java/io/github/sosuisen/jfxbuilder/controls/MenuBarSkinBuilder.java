@@ -95,11 +95,6 @@ public class MenuBarSkinBuilder {
      * Applies a function to the MenuBarSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(menuBarSkin -> menuBarSkin.setId("Main" + menuBarSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

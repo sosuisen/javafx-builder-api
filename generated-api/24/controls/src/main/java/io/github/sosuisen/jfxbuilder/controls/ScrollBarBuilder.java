@@ -100,7 +100,7 @@ public class ScrollBarBuilder {
      * <pre>{@code
      * apply(scrollBar -> scrollBar.setId("Main" + scrollBar.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

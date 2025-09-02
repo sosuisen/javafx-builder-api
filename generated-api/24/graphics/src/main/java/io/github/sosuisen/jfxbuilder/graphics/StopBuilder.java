@@ -95,11 +95,6 @@ public class StopBuilder {
      * Applies a function to the Stop instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(stop -> stop.setId("Main" + stop.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

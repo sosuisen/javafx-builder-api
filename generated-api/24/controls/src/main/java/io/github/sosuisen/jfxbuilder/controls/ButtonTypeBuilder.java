@@ -103,11 +103,6 @@ public class ButtonTypeBuilder {
      * Applies a function to the ButtonType instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(buttonType -> buttonType.setId("Main" + buttonType.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

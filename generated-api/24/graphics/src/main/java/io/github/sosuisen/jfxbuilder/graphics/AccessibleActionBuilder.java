@@ -87,11 +87,6 @@ public class AccessibleActionBuilder {
      * Applies a function to the AccessibleAction instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(accessibleAction -> accessibleAction.setId("Main" + accessibleAction.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

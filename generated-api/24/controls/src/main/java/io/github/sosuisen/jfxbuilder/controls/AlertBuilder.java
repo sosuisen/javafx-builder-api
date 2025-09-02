@@ -103,11 +103,6 @@ public class AlertBuilder {
      * Applies a function to the Alert instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(alert -> alert.setId("Main" + alert.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

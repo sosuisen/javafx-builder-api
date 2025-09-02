@@ -98,11 +98,6 @@ public class DialogBuilder<R> {
      * Applies a function to the Dialog instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(dialog -> dialog.setId("Main" + dialog.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

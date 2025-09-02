@@ -128,7 +128,7 @@ public class HBoxBuilder {
      * <pre>{@code
      * apply(hBox -> hBox.setId("Main" + hBox.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

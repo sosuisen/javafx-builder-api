@@ -128,11 +128,6 @@ public class AffineBuilder {
      * Applies a function to the Affine instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(affine -> affine.setId("Main" + affine.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

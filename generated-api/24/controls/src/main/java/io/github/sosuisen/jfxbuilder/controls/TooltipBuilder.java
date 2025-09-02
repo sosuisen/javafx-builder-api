@@ -104,11 +104,6 @@ public class TooltipBuilder {
      * Applies a function to the Tooltip instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(tooltip -> tooltip.setId("Main" + tooltip.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

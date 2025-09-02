@@ -87,11 +87,6 @@ public class MediaErrorEventBuilder {
      * Applies a function to the MediaErrorEvent instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(mediaErrorEvent -> mediaErrorEvent.setId("Main" + mediaErrorEvent.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

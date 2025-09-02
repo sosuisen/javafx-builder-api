@@ -110,7 +110,7 @@ public class ListViewBuilder<T> {
      * <pre>{@code
      * apply(listView -> listView.setId("Main" + listView.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

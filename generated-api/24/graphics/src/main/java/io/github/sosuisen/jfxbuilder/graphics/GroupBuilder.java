@@ -116,7 +116,7 @@ public class GroupBuilder {
      * <pre>{@code
      * apply(group -> group.setId("Main" + group.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

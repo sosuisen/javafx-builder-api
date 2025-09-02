@@ -104,11 +104,6 @@ public class FloatMapBuilder {
      * Applies a function to the FloatMap instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(floatMap -> floatMap.setId("Main" + floatMap.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

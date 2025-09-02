@@ -110,7 +110,7 @@ public class TreeViewBuilder<T> {
      * <pre>{@code
      * apply(treeView -> treeView.setId("Main" + treeView.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

@@ -87,11 +87,6 @@ public class ArcTypeBuilder {
      * Applies a function to the ArcType instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(arcType -> arcType.setId("Main" + arcType.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

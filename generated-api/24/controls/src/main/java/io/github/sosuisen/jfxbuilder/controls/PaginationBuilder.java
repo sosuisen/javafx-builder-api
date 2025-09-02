@@ -116,7 +116,7 @@ public class PaginationBuilder {
      * <pre>{@code
      * apply(pagination -> pagination.setId("Main" + pagination.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

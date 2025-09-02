@@ -110,7 +110,7 @@ public class TextFieldListCellBuilder<T> {
      * <pre>{@code
      * apply(textFieldListCell -> textFieldListCell.setId("Main" + textFieldListCell.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

@@ -102,7 +102,7 @@ public class TableCellBuilder<S, T> {
      * <pre>{@code
      * apply(tableCell -> tableCell.setId("Main" + tableCell.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

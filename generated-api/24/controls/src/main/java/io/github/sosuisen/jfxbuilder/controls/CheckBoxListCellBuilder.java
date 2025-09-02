@@ -118,7 +118,7 @@ public class CheckBoxListCellBuilder<T> {
      * <pre>{@code
      * apply(checkBoxListCell -> checkBoxListCell.setId("Main" + checkBoxListCell.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

@@ -99,7 +99,7 @@ public class TableColumnHeaderBuilder {
      * <pre>{@code
      * apply(tableColumnHeader -> tableColumnHeader.setId("Main" + tableColumnHeader.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

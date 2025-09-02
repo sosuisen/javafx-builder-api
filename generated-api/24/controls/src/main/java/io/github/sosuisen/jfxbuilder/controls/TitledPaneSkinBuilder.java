@@ -95,11 +95,6 @@ public class TitledPaneSkinBuilder {
      * Applies a function to the TitledPaneSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(titledPaneSkin -> titledPaneSkin.setId("Main" + titledPaneSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

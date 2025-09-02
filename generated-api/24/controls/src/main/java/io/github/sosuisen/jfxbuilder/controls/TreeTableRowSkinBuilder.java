@@ -97,11 +97,6 @@ public class TreeTableRowSkinBuilder<T> {
      * Applies a function to the TreeTableRowSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(treeTableRowSkin -> treeTableRowSkin.setId("Main" + treeTableRowSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

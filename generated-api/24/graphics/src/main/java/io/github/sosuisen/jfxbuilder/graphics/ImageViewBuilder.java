@@ -116,7 +116,7 @@ public class ImageViewBuilder {
      * <pre>{@code
      * apply(imageView -> imageView.setId("Main" + imageView.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

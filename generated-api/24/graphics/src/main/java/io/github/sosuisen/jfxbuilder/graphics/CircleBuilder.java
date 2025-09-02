@@ -132,7 +132,7 @@ public class CircleBuilder {
      * <pre>{@code
      * apply(circle -> circle.setId("Main" + circle.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

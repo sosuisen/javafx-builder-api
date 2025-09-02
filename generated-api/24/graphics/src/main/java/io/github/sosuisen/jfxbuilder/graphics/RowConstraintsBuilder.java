@@ -120,11 +120,6 @@ public class RowConstraintsBuilder {
      * Applies a function to the RowConstraints instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(rowConstraints -> rowConstraints.setId("Main" + rowConstraints.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

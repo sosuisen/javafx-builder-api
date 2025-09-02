@@ -87,11 +87,6 @@ public class TabPaneTabClosingPolicyBuilder {
      * Applies a function to the TabClosingPolicy instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(tabClosingPolicy -> tabClosingPolicy.setId("Main" + tabClosingPolicy.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

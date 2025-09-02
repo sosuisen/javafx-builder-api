@@ -95,11 +95,6 @@ public class TooltipSkinBuilder {
      * Applies a function to the TooltipSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(tooltipSkin -> tooltipSkin.setId("Main" + tooltipSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

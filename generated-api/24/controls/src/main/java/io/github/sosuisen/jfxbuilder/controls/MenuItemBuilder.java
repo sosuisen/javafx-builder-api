@@ -112,11 +112,6 @@ public class MenuItemBuilder {
      * Applies a function to the MenuItem instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(menuItem -> menuItem.setId("Main" + menuItem.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

@@ -98,11 +98,6 @@ public class AxisTickMarkBuilder<T> {
      * Applies a function to the TickMark instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(tickMark -> tickMark.setId("Main" + tickMark.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

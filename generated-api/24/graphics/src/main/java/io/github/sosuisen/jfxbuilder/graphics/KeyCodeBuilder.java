@@ -87,11 +87,6 @@ public class KeyCodeBuilder {
      * Applies a function to the KeyCode instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(keyCode -> keyCode.setId("Main" + keyCode.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

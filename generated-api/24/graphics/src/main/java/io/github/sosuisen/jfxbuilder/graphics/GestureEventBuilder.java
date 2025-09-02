@@ -87,11 +87,6 @@ public class GestureEventBuilder {
      * Applies a function to the GestureEvent instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(gestureEvent -> gestureEvent.setId("Main" + gestureEvent.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

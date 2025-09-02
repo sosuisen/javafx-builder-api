@@ -108,7 +108,7 @@ public class AccordionBuilder {
      * <pre>{@code
      * apply(accordion -> accordion.setId("Main" + accordion.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

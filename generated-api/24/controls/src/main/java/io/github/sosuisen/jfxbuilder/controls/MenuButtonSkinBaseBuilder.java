@@ -97,11 +97,6 @@ public class MenuButtonSkinBaseBuilder<C extends javafx.scene.control.MenuButton
      * Applies a function to the MenuButtonSkinBase instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(menuButtonSkinBase -> menuButtonSkinBase.setId("Main" + menuButtonSkinBase.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

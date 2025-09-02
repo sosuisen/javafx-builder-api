@@ -104,11 +104,6 @@ public class HLineToBuilder {
      * Applies a function to the HLineTo instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(hLineTo -> hLineTo.setId("Main" + hLineTo.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

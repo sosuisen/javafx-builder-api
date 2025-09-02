@@ -108,7 +108,7 @@ public class SpotLightBuilder {
      * <pre>{@code
      * apply(spotLight -> spotLight.setId("Main" + spotLight.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

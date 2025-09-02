@@ -97,11 +97,6 @@ public class TablePositionBuilder<S, T> {
      * Applies a function to the TablePosition instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(tablePosition -> tablePosition.setId("Main" + tablePosition.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

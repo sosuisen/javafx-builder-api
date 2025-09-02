@@ -97,11 +97,6 @@ public class CheckBoxTreeItemTreeModificationEventBuilder<T> {
      * Applies a function to the TreeModificationEvent instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(treeModificationEvent -> treeModificationEvent.setId("Main" + treeModificationEvent.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

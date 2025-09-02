@@ -108,7 +108,7 @@ public class PointLightBuilder {
      * <pre>{@code
      * apply(pointLight -> pointLight.setId("Main" + pointLight.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

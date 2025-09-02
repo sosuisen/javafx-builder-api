@@ -100,7 +100,7 @@ public class WebViewBuilder {
      * <pre>{@code
      * apply(webView -> webView.setId("Main" + webView.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

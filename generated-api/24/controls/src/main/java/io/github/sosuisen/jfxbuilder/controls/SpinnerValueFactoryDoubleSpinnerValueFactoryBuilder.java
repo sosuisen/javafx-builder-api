@@ -111,11 +111,6 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
      * Applies a function to the DoubleSpinnerValueFactory instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(doubleSpinnerValueFactory -> doubleSpinnerValueFactory.setId("Main" + doubleSpinnerValueFactory.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

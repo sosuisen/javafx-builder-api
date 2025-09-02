@@ -87,11 +87,6 @@ public class AudioTrackBuilder {
      * Applies a function to the AudioTrack instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(audioTrack -> audioTrack.setId("Main" + audioTrack.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

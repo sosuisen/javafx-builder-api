@@ -87,11 +87,6 @@ public class TextInputControlSkinTextUnitBuilder {
      * Applies a function to the TextUnit instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(textUnit -> textUnit.setId("Main" + textUnit.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

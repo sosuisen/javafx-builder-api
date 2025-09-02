@@ -116,7 +116,7 @@ public class LabelBuilder {
      * <pre>{@code
      * apply(label -> label.setId("Main" + label.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

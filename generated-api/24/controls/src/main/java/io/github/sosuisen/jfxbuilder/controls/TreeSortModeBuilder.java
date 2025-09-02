@@ -87,11 +87,6 @@ public class TreeSortModeBuilder {
      * Applies a function to the TreeSortMode instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(treeSortMode -> treeSortMode.setId("Main" + treeSortMode.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

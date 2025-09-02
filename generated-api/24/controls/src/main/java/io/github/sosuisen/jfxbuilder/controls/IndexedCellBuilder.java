@@ -102,7 +102,7 @@ public class IndexedCellBuilder<T> {
      * <pre>{@code
      * apply(indexedCell -> indexedCell.setId("Main" + indexedCell.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

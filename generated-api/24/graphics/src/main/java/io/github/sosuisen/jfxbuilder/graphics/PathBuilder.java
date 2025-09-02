@@ -116,7 +116,7 @@ public class PathBuilder {
      * <pre>{@code
      * apply(path -> path.setId("Main" + path.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

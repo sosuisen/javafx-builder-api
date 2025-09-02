@@ -108,7 +108,7 @@ public class SliderBuilder {
      * <pre>{@code
      * apply(slider -> slider.setId("Main" + slider.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

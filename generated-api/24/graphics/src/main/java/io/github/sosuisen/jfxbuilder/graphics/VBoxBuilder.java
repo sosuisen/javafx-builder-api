@@ -128,7 +128,7 @@ public class VBoxBuilder {
      * <pre>{@code
      * apply(vBox -> vBox.setId("Main" + vBox.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

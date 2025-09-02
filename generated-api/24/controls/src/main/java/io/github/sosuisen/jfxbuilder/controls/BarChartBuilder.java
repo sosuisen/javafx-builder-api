@@ -117,7 +117,7 @@ public class BarChartBuilder<X, Y> {
      * <pre>{@code
      * apply(barChart -> barChart.setId("Main" + barChart.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

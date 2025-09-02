@@ -135,11 +135,6 @@ public class ImageBuilder {
      * Applies a function to the Image instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(image -> image.setId("Main" + image.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

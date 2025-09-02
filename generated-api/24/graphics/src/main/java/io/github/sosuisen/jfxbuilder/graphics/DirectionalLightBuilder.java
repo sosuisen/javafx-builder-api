@@ -108,7 +108,7 @@ public class DirectionalLightBuilder {
      * <pre>{@code
      * apply(directionalLight -> directionalLight.setId("Main" + directionalLight.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

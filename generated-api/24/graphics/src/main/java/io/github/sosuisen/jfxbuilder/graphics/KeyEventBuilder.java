@@ -103,11 +103,6 @@ public class KeyEventBuilder {
      * Applies a function to the KeyEvent instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(keyEvent -> keyEvent.setId("Main" + keyEvent.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

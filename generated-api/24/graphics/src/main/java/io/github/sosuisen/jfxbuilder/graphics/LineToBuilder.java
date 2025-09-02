@@ -104,11 +104,6 @@ public class LineToBuilder {
      * Applies a function to the LineTo instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(lineTo -> lineTo.setId("Main" + lineTo.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

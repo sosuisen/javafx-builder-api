@@ -102,7 +102,7 @@ public class TreeCellBuilder<T> {
      * <pre>{@code
      * apply(treeCell -> treeCell.setId("Main" + treeCell.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

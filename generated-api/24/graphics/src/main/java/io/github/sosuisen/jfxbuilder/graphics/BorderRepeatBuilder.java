@@ -87,11 +87,6 @@ public class BorderRepeatBuilder {
      * Applies a function to the BorderRepeat instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(borderRepeat -> borderRepeat.setId("Main" + borderRepeat.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

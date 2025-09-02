@@ -103,11 +103,6 @@ public class ContextMenuEventBuilder {
      * Applies a function to the ContextMenuEvent instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(contextMenuEvent -> contextMenuEvent.setId("Main" + contextMenuEvent.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

@@ -103,11 +103,6 @@ public class SwipeEventBuilder {
      * Applies a function to the SwipeEvent instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(swipeEvent -> swipeEvent.setId("Main" + swipeEvent.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

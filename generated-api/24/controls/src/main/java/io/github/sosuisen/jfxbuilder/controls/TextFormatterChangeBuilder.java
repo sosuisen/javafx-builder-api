@@ -87,11 +87,6 @@ public class TextFormatterChangeBuilder {
      * Applies a function to the Change instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(change -> change.setId("Main" + change.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

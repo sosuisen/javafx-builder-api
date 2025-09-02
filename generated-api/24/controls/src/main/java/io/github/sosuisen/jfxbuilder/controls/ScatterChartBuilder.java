@@ -109,7 +109,7 @@ public class ScatterChartBuilder<X, Y> {
      * <pre>{@code
      * apply(scatterChart -> scatterChart.setId("Main" + scatterChart.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

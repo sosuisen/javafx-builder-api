@@ -108,7 +108,7 @@ public class SeparatorBuilder {
      * <pre>{@code
      * apply(separator -> separator.setId("Main" + separator.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

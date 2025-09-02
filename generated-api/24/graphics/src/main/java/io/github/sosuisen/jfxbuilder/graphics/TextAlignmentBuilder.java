@@ -87,11 +87,6 @@ public class TextAlignmentBuilder {
      * Applies a function to the TextAlignment instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(textAlignment -> textAlignment.setId("Main" + textAlignment.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

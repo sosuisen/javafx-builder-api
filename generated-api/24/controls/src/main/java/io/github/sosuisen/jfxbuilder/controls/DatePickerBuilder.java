@@ -108,7 +108,7 @@ public class DatePickerBuilder {
      * <pre>{@code
      * apply(datePicker -> datePicker.setId("Main" + datePicker.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

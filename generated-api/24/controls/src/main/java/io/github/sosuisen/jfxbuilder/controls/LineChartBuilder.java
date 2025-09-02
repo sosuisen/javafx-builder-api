@@ -109,7 +109,7 @@ public class LineChartBuilder<X, Y> {
      * <pre>{@code
      * apply(lineChart -> lineChart.setId("Main" + lineChart.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

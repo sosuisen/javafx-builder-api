@@ -104,11 +104,6 @@ public class GlowBuilder {
      * Applies a function to the Glow instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(glow -> glow.setId("Main" + glow.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

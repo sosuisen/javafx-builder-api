@@ -108,7 +108,7 @@ public class RadioButtonBuilder {
      * <pre>{@code
      * apply(radioButton -> radioButton.setId("Main" + radioButton.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

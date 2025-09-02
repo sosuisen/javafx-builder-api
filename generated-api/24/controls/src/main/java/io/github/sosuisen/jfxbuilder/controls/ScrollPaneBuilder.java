@@ -108,7 +108,7 @@ public class ScrollPaneBuilder {
      * <pre>{@code
      * apply(scrollPane -> scrollPane.setId("Main" + scrollPane.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

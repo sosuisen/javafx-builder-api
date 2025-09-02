@@ -97,11 +97,6 @@ public class TreeTableViewSkinBuilder<T> {
      * Applies a function to the TreeTableViewSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(treeTableViewSkin -> treeTableViewSkin.setId("Main" + treeTableViewSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

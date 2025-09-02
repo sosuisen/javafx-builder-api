@@ -95,11 +95,6 @@ public class ColorBuilder {
      * Applies a function to the Color instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(color -> color.setId("Main" + color.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

@@ -95,11 +95,6 @@ public class MnemonicBuilder {
      * Applies a function to the Mnemonic instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(mnemonic -> mnemonic.setId("Main" + mnemonic.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

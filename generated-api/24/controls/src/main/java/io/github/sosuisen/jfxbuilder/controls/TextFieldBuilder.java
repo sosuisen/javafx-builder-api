@@ -108,7 +108,7 @@ public class TextFieldBuilder {
      * <pre>{@code
      * apply(textField -> textField.setId("Main" + textField.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

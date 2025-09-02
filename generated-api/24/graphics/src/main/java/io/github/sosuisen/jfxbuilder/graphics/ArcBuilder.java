@@ -108,7 +108,7 @@ public class ArcBuilder {
      * <pre>{@code
      * apply(arc -> arc.setId("Main" + arc.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

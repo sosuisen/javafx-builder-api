@@ -103,11 +103,6 @@ public class KeyCodeCombinationBuilder {
      * Applies a function to the KeyCodeCombination instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(keyCodeCombination -> keyCodeCombination.setId("Main" + keyCodeCombination.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

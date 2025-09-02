@@ -108,7 +108,7 @@ public class PolylineBuilder {
      * <pre>{@code
      * apply(polyline -> polyline.setId("Main" + polyline.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

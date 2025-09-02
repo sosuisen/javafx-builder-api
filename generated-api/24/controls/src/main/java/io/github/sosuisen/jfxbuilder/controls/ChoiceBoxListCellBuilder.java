@@ -134,7 +134,7 @@ public class ChoiceBoxListCellBuilder<T> {
      * <pre>{@code
      * apply(choiceBoxListCell -> choiceBoxListCell.setId("Main" + choiceBoxListCell.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

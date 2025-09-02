@@ -87,11 +87,6 @@ public class InputMethodHighlightBuilder {
      * Applies a function to the InputMethodHighlight instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(inputMethodHighlight -> inputMethodHighlight.setId("Main" + inputMethodHighlight.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

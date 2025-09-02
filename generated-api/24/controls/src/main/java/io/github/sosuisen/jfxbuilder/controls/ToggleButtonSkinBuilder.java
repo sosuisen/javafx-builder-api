@@ -95,11 +95,6 @@ public class ToggleButtonSkinBuilder {
      * Applies a function to the ToggleButtonSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(toggleButtonSkin -> toggleButtonSkin.setId("Main" + toggleButtonSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

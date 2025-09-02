@@ -108,7 +108,7 @@ public class TitledPaneBuilder {
      * <pre>{@code
      * apply(titledPane -> titledPane.setId("Main" + titledPane.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

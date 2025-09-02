@@ -97,11 +97,6 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
      * Applies a function to the CellSkinBase instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(cellSkinBase -> cellSkinBase.setId("Main" + cellSkinBase.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

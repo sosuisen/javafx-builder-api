@@ -112,11 +112,6 @@ public class RadioMenuItemBuilder {
      * Applies a function to the RadioMenuItem instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(radioMenuItem -> radioMenuItem.setId("Main" + radioMenuItem.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

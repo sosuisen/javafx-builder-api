@@ -104,7 +104,7 @@ public class DialogPaneBuilder {
      * <pre>{@code
      * apply(dialogPane -> dialogPane.setId("Main" + dialogPane.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

@@ -108,7 +108,7 @@ public class ColorPickerBuilder {
      * <pre>{@code
      * apply(colorPicker -> colorPicker.setId("Main" + colorPicker.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

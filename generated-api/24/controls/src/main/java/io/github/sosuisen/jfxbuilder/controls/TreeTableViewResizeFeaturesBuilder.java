@@ -97,11 +97,6 @@ public class TreeTableViewResizeFeaturesBuilder<S> {
      * Applies a function to the ResizeFeatures instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(resizeFeatures -> resizeFeatures.setId("Main" + resizeFeatures.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

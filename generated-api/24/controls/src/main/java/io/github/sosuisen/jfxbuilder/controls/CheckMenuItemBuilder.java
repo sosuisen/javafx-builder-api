@@ -112,11 +112,6 @@ public class CheckMenuItemBuilder {
      * Applies a function to the CheckMenuItem instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(checkMenuItem -> checkMenuItem.setId("Main" + checkMenuItem.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

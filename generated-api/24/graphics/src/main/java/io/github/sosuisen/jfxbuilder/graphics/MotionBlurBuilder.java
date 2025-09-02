@@ -104,11 +104,6 @@ public class MotionBlurBuilder {
      * Applies a function to the MotionBlur instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(motionBlur -> motionBlur.setId("Main" + motionBlur.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

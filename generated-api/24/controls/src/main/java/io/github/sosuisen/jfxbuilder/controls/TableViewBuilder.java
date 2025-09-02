@@ -110,7 +110,7 @@ public class TableViewBuilder<S> {
      * <pre>{@code
      * apply(tableView -> tableView.setId("Main" + tableView.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

@@ -108,7 +108,7 @@ public class ProgressIndicatorBuilder {
      * <pre>{@code
      * apply(progressIndicator -> progressIndicator.setId("Main" + progressIndicator.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */
