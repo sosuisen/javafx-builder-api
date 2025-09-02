@@ -1,4 +1,4 @@
-@import io.github.sosuisen.template.BorderPaneMethodModel
+@import io.github.sosuisen.model.template.BorderPaneMethodModel
 
 @param BorderPaneMethodModel model
 

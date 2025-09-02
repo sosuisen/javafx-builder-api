@@ -1,4 +1,4 @@
-@import io.github.sosuisen.template.GridPaneMethodModel
+@import io.github.sosuisen.model.template.GridPaneMethodModel
 
 @param GridPaneMethodModel model
 

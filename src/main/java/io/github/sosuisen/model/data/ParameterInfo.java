@@ -2,7 +2,7 @@ package io.github.sosuisen.model.data;
 
 import java.util.List;
 
-import io.github.sosuisen.mapper.TypeMappingManager;
+import io.github.sosuisen.model.mapper.TypeMappingManager;
 
 public record ParameterInfo(
         String typeName,

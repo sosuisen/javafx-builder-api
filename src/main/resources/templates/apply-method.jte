@@ -1,4 +1,4 @@
-@import io.github.sosuisen.template.ApplyMethodModel
+@import io.github.sosuisen.model.template.ApplyMethodModel
 
 @param ApplyMethodModel model
 

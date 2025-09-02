@@ -1,7 +1,7 @@
-package io.github.sosuisen.template;
+package io.github.sosuisen.model.template;
 
-import io.github.sosuisen.mapper.ClassAnnotationManager;
 import io.github.sosuisen.model.data.ClassMetadata;
+import io.github.sosuisen.model.mapper.ClassAnnotationManager;
 
 /**
  * Data model for class header JTE template

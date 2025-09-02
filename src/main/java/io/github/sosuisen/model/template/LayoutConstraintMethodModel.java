@@ -1,30 +1,32 @@
-package io.github.sosuisen.template;
+package io.github.sosuisen.model.template;
 
 import java.util.List;
 
 public class LayoutConstraintMethodModel {
-    
+
     public record StaticCall(
-        String sourceClassFullName,
-        String staticMethodName,
-        String argumentList
-    ) {}
+            String sourceClassFullName,
+            String staticMethodName,
+            String argumentList) {
+    }
 
     public record LayoutConstraintMethod(
-        String methodName,
-        String parameterList,
-        StaticCall staticCall
-    ) {}
+            String methodName,
+            String parameterList,
+            StaticCall staticCall) {
+    }
 
     private final String builderClassNameWithTypeParameter;
     private final List<LayoutConstraintMethod> methods;
 
-    private LayoutConstraintMethodModel(String builderClassNameWithTypeParameter, List<LayoutConstraintMethod> methods) {
+    private LayoutConstraintMethodModel(String builderClassNameWithTypeParameter,
+            List<LayoutConstraintMethod> methods) {
         this.builderClassNameWithTypeParameter = builderClassNameWithTypeParameter;
         this.methods = methods;
     }
 
-    public static LayoutConstraintMethodModel create(String builderClassNameWithTypeParameter, List<LayoutConstraintMethod> methods) {
+    public static LayoutConstraintMethodModel create(String builderClassNameWithTypeParameter,
+            List<LayoutConstraintMethod> methods) {
         return new LayoutConstraintMethodModel(builderClassNameWithTypeParameter, methods);
     }
 

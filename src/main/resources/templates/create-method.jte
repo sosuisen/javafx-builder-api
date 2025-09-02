@@ -1,4 +1,4 @@
-@import io.github.sosuisen.template.CreateMethodModel
+@import io.github.sosuisen.model.template.CreateMethodModel
 
 @param CreateMethodModel model
 

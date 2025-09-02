@@ -1,4 +1,4 @@
-@import io.github.sosuisen.template.BuildMethodModel
+@import io.github.sosuisen.model.template.BuildMethodModel
 
 @param BuildMethodModel model
 
