@@ -1,6 +1,5 @@
 package io.github.sosuisen.model.template;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import io.github.sosuisen.model.data.ClassMetadata;
@@ -52,9 +51,6 @@ public class LayoutConstraintMethodModel {
             if (classMetadata == null || setterInfo == null) {
                 throw new IllegalStateException("classMetadata and setterInfo are required");
             }
-
-            // Create individual methods for each static setter
-            List<LayoutConstraintMethod> methods = new ArrayList<>();
 
             // Create method name as XXXXIn{SourceClassName}
             String setterName = setterInfo.methodName().substring(3); // Remove "set" prefix
