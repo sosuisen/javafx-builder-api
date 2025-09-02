@@ -28,9 +28,20 @@ public class RowConstraintsBuilder {
     private RowConstraintsBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code RowConstraintsBuilder}.
+     *
+     * @return an instance of the {@code RowConstraintsBuilder}.
+     */
     public static RowConstraintsBuilder create() { return new RowConstraintsBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.RowConstraints#RowConstraints(double height) RowConstraints(double)}
+     * and returns an instance of the {@code RowConstraintsBuilder}.
+     *
+     * @return an instance of the {@code RowConstraintsBuilder}.
+     */
     
     public static RowConstraintsBuilder create(double height) {
         RowConstraintsBuilder builder = new RowConstraintsBuilder();
@@ -39,6 +50,12 @@ public class RowConstraintsBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.RowConstraints#RowConstraints(double minHeight, double prefHeight, double maxHeight) RowConstraints(double, double, double)}
+     * and returns an instance of the {@code RowConstraintsBuilder}.
+     *
+     * @return an instance of the {@code RowConstraintsBuilder}.
+     */
     
     public static RowConstraintsBuilder create(double minHeight, double prefHeight, double maxHeight) {
         RowConstraintsBuilder builder = new RowConstraintsBuilder();
@@ -47,6 +64,12 @@ public class RowConstraintsBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.RowConstraints#RowConstraints(double minHeight, double prefHeight, double maxHeight, javafx.scene.layout.Priority vgrow, javafx.geometry.VPos valignment, boolean fillHeight) RowConstraints(double, double, double, Priority, VPos, boolean)}
+     * and returns an instance of the {@code RowConstraintsBuilder}.
+     *
+     * @return an instance of the {@code RowConstraintsBuilder}.
+     */
     
     public static RowConstraintsBuilder create(double minHeight, double prefHeight, double maxHeight, javafx.scene.layout.Priority vgrow, javafx.geometry.VPos valignment, boolean fillHeight) {
         RowConstraintsBuilder builder = new RowConstraintsBuilder();

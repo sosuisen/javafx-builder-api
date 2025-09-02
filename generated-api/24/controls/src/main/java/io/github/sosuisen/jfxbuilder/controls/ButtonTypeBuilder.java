@@ -28,6 +28,12 @@ public class ButtonTypeBuilder {
     private ButtonTypeBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.ButtonType#ButtonType(java.lang.String text) ButtonType(String)}
+     * and returns an instance of the {@code ButtonTypeBuilder}.
+     *
+     * @return an instance of the {@code ButtonTypeBuilder}.
+     */
     
     public static ButtonTypeBuilder create(java.lang.String text) {
         ButtonTypeBuilder builder = new ButtonTypeBuilder();
@@ -36,6 +42,12 @@ public class ButtonTypeBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.ButtonType#ButtonType(java.lang.String text, javafx.scene.control.ButtonBar.ButtonData buttonData) ButtonType(String, ButtonBar$ButtonData)}
+     * and returns an instance of the {@code ButtonTypeBuilder}.
+     *
+     * @return an instance of the {@code ButtonTypeBuilder}.
+     */
     
     public static ButtonTypeBuilder create(java.lang.String text, javafx.scene.control.ButtonBar.ButtonData buttonData) {
         ButtonTypeBuilder builder = new ButtonTypeBuilder();

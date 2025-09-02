@@ -28,6 +28,12 @@ public class PromptDataBuilder {
     private PromptDataBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.web.PromptData#PromptData(java.lang.String message, java.lang.String defaultValue) PromptData(String, String)}
+     * and returns an instance of the {@code PromptDataBuilder}.
+     *
+     * @return an instance of the {@code PromptDataBuilder}.
+     */
     
     public static PromptDataBuilder create(java.lang.String message, java.lang.String defaultValue) {
         PromptDataBuilder builder = new PromptDataBuilder();

@@ -28,9 +28,20 @@ public class TransformChangedEventBuilder {
     private TransformChangedEventBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code TransformChangedEventBuilder}.
+     *
+     * @return an instance of the {@code TransformChangedEventBuilder}.
+     */
     public static TransformChangedEventBuilder create() { return new TransformChangedEventBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.transform.TransformChangedEvent#TransformChangedEvent(java.lang.Object source, javafx.event.EventTarget target) TransformChangedEvent(Object, EventTarget)}
+     * and returns an instance of the {@code TransformChangedEventBuilder}.
+     *
+     * @return an instance of the {@code TransformChangedEventBuilder}.
+     */
     
     public static TransformChangedEventBuilder create(java.lang.Object source, javafx.event.EventTarget target) {
         TransformChangedEventBuilder builder = new TransformChangedEventBuilder();

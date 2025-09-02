@@ -28,6 +28,11 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     private VirtualFlowBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <T extends javafx.scene.control.IndexedCell> VirtualFlowBuilder<T>}.
+     *
+     * @return an instance of the {@code <T extends javafx.scene.control.IndexedCell> VirtualFlowBuilder<T>}.
+     */
     public static <T extends javafx.scene.control.IndexedCell> VirtualFlowBuilder<T> create() { return new VirtualFlowBuilder<T>(); }
 
     private Object[] constructorArgs;

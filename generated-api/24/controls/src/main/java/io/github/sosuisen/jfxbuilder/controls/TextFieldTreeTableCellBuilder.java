@@ -28,9 +28,20 @@ public class TextFieldTreeTableCellBuilder<S, T> {
     private TextFieldTreeTableCellBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <S, T> TextFieldTreeTableCellBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> TextFieldTreeTableCellBuilder<S, T>}.
+     */
     public static <S, T> TextFieldTreeTableCellBuilder<S, T> create() { return new TextFieldTreeTableCellBuilder<S, T>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.TextFieldTreeTableCell#TextFieldTreeTableCell(javafx.util.StringConverter<T> converter) TextFieldTreeTableCell(StringConverter)}
+     * and returns an instance of the {@code <S, T> TextFieldTreeTableCellBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> TextFieldTreeTableCellBuilder<S, T>}.
+     */
     
     public static <S, T> TextFieldTreeTableCellBuilder<S, T> create(javafx.util.StringConverter<T> converter) {
         TextFieldTreeTableCellBuilder<S, T> builder = new TextFieldTreeTableCellBuilder<S, T>();

@@ -28,6 +28,12 @@ public class DialogEventBuilder {
     private DialogEventBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.DialogEvent#DialogEvent(javafx.scene.control.Dialog<?> source, javafx.event.EventType<? extends javafx.event.Event> eventType) DialogEvent(Dialog, EventType)}
+     * and returns an instance of the {@code DialogEventBuilder}.
+     *
+     * @return an instance of the {@code DialogEventBuilder}.
+     */
     
     public static DialogEventBuilder create(javafx.scene.control.Dialog<?> source, javafx.event.EventType<? extends javafx.event.Event> eventType) {
         DialogEventBuilder builder = new DialogEventBuilder();

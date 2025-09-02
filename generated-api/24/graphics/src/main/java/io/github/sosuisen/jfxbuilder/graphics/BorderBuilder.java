@@ -28,6 +28,12 @@ public class BorderBuilder {
     private BorderBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.Border#Border(java.util.List<javafx.scene.layout.BorderStroke> strokes, java.util.List<javafx.scene.layout.BorderImage> images) Border(List, List)}
+     * and returns an instance of the {@code BorderBuilder}.
+     *
+     * @return an instance of the {@code BorderBuilder}.
+     */
     
     public static BorderBuilder create(java.util.List<javafx.scene.layout.BorderStroke> strokes, java.util.List<javafx.scene.layout.BorderImage> images) {
         BorderBuilder builder = new BorderBuilder();
@@ -36,6 +42,12 @@ public class BorderBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.Border#Border(javafx.scene.layout.BorderImage... images) Border(BorderImage...)}
+     * and returns an instance of the {@code BorderBuilder}.
+     *
+     * @return an instance of the {@code BorderBuilder}.
+     */
     @SafeVarargs
     public static BorderBuilder create(javafx.scene.layout.BorderImage... images) {
         BorderBuilder builder = new BorderBuilder();
@@ -44,6 +56,12 @@ public class BorderBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.Border#Border(javafx.scene.layout.BorderStroke... strokes) Border(BorderStroke...)}
+     * and returns an instance of the {@code BorderBuilder}.
+     *
+     * @return an instance of the {@code BorderBuilder}.
+     */
     @SafeVarargs
     public static BorderBuilder create(javafx.scene.layout.BorderStroke... strokes) {
         BorderBuilder builder = new BorderBuilder();
@@ -52,6 +70,12 @@ public class BorderBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.Border#Border(javafx.scene.layout.BorderStroke[] strokes, javafx.scene.layout.BorderImage[] images) Border(BorderStroke..., BorderImage...)}
+     * and returns an instance of the {@code BorderBuilder}.
+     *
+     * @return an instance of the {@code BorderBuilder}.
+     */
     
     public static BorderBuilder create(javafx.scene.layout.BorderStroke[] strokes, javafx.scene.layout.BorderImage[] images) {
         BorderBuilder builder = new BorderBuilder();

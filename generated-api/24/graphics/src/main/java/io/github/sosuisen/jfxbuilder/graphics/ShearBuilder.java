@@ -28,9 +28,20 @@ public class ShearBuilder {
     private ShearBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ShearBuilder}.
+     *
+     * @return an instance of the {@code ShearBuilder}.
+     */
     public static ShearBuilder create() { return new ShearBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.transform.Shear#Shear(double x, double y) Shear(double, double)}
+     * and returns an instance of the {@code ShearBuilder}.
+     *
+     * @return an instance of the {@code ShearBuilder}.
+     */
     
     public static ShearBuilder create(double x, double y) {
         ShearBuilder builder = new ShearBuilder();
@@ -39,6 +50,12 @@ public class ShearBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.transform.Shear#Shear(double x, double y, double pivotX, double pivotY) Shear(double, double, double, double)}
+     * and returns an instance of the {@code ShearBuilder}.
+     *
+     * @return an instance of the {@code ShearBuilder}.
+     */
     
     public static ShearBuilder create(double x, double y, double pivotX, double pivotY) {
         ShearBuilder builder = new ShearBuilder();

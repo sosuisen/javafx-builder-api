@@ -28,9 +28,20 @@ public class TreeViewBuilder<T> {
     private TreeViewBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <T> TreeViewBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> TreeViewBuilder<T>}.
+     */
     public static <T> TreeViewBuilder<T> create() { return new TreeViewBuilder<T>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TreeView#TreeView(javafx.scene.control.TreeItem<T> root) TreeView(TreeItem)}
+     * and returns an instance of the {@code <T> TreeViewBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> TreeViewBuilder<T>}.
+     */
     
     public static <T> TreeViewBuilder<T> create(javafx.scene.control.TreeItem<T> root) {
         TreeViewBuilder<T> builder = new TreeViewBuilder<T>();

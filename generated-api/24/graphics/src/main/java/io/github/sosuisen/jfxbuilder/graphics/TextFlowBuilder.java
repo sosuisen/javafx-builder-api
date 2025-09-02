@@ -28,9 +28,20 @@ public class TextFlowBuilder {
     private TextFlowBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code TextFlowBuilder}.
+     *
+     * @return an instance of the {@code TextFlowBuilder}.
+     */
     public static TextFlowBuilder create() { return new TextFlowBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.text.TextFlow#TextFlow(javafx.scene.Node... children) TextFlow(Node...)}
+     * and returns an instance of the {@code TextFlowBuilder}.
+     *
+     * @return an instance of the {@code TextFlowBuilder}.
+     */
     @SafeVarargs
     public static TextFlowBuilder create(javafx.scene.Node... children) {
         TextFlowBuilder builder = new TextFlowBuilder();

@@ -28,6 +28,12 @@ public class MapValueFactoryBuilder<T> {
     private MapValueFactoryBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.MapValueFactory#MapValueFactory(java.lang.Object key) MapValueFactory(Object)}
+     * and returns an instance of the {@code <T> MapValueFactoryBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> MapValueFactoryBuilder<T>}.
+     */
     
     public static <T> MapValueFactoryBuilder<T> create(java.lang.Object key) {
         MapValueFactoryBuilder<T> builder = new MapValueFactoryBuilder<T>();

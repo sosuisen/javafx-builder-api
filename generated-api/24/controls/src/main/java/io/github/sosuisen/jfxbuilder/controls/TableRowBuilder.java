@@ -28,6 +28,11 @@ public class TableRowBuilder<T> {
     private TableRowBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <T> TableRowBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> TableRowBuilder<T>}.
+     */
     public static <T> TableRowBuilder<T> create() { return new TableRowBuilder<T>(); }
 
     private Object[] constructorArgs;

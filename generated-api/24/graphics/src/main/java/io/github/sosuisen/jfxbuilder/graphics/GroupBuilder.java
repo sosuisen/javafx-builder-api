@@ -28,9 +28,20 @@ public class GroupBuilder {
     private GroupBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code GroupBuilder}.
+     *
+     * @return an instance of the {@code GroupBuilder}.
+     */
     public static GroupBuilder create() { return new GroupBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.Group#Group(java.util.Collection<javafx.scene.Node> children) Group(Collection)}
+     * and returns an instance of the {@code GroupBuilder}.
+     *
+     * @return an instance of the {@code GroupBuilder}.
+     */
     
     public static GroupBuilder create(java.util.Collection<javafx.scene.Node> children) {
         GroupBuilder builder = new GroupBuilder();
@@ -39,6 +50,12 @@ public class GroupBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.Group#Group(javafx.scene.Node... children) Group(Node...)}
+     * and returns an instance of the {@code GroupBuilder}.
+     *
+     * @return an instance of the {@code GroupBuilder}.
+     */
     @SafeVarargs
     public static GroupBuilder create(javafx.scene.Node... children) {
         GroupBuilder builder = new GroupBuilder();

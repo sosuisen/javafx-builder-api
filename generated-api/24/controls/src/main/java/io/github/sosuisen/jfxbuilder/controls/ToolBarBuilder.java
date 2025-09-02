@@ -28,9 +28,20 @@ public class ToolBarBuilder {
     private ToolBarBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ToolBarBuilder}.
+     *
+     * @return an instance of the {@code ToolBarBuilder}.
+     */
     public static ToolBarBuilder create() { return new ToolBarBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.ToolBar#ToolBar(javafx.scene.Node... items) ToolBar(Node...)}
+     * and returns an instance of the {@code ToolBarBuilder}.
+     *
+     * @return an instance of the {@code ToolBarBuilder}.
+     */
     @SafeVarargs
     public static ToolBarBuilder create(javafx.scene.Node... items) {
         ToolBarBuilder builder = new ToolBarBuilder();

@@ -28,6 +28,12 @@ public class TextFieldSkinBuilder {
     private TextFieldSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.TextFieldSkin#TextFieldSkin(javafx.scene.control.TextField control) TextFieldSkin(TextField)}
+     * and returns an instance of the {@code TextFieldSkinBuilder}.
+     *
+     * @return an instance of the {@code TextFieldSkinBuilder}.
+     */
     
     public static TextFieldSkinBuilder create(javafx.scene.control.TextField control) {
         TextFieldSkinBuilder builder = new TextFieldSkinBuilder();

@@ -28,6 +28,11 @@ public class RobotBuilder {
     private RobotBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code RobotBuilder}.
+     *
+     * @return an instance of the {@code RobotBuilder}.
+     */
     public static RobotBuilder create() { return new RobotBuilder(); }
 
     private Object[] constructorArgs;

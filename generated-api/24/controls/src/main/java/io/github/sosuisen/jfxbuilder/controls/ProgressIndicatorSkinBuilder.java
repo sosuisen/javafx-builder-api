@@ -28,6 +28,12 @@ public class ProgressIndicatorSkinBuilder {
     private ProgressIndicatorSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ProgressIndicatorSkin#ProgressIndicatorSkin(javafx.scene.control.ProgressIndicator control) ProgressIndicatorSkin(ProgressIndicator)}
+     * and returns an instance of the {@code ProgressIndicatorSkinBuilder}.
+     *
+     * @return an instance of the {@code ProgressIndicatorSkinBuilder}.
+     */
     
     public static ProgressIndicatorSkinBuilder create(javafx.scene.control.ProgressIndicator control) {
         ProgressIndicatorSkinBuilder builder = new ProgressIndicatorSkinBuilder();

@@ -28,6 +28,12 @@ public class TitledPaneSkinBuilder {
     private TitledPaneSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.TitledPaneSkin#TitledPaneSkin(javafx.scene.control.TitledPane control) TitledPaneSkin(TitledPane)}
+     * and returns an instance of the {@code TitledPaneSkinBuilder}.
+     *
+     * @return an instance of the {@code TitledPaneSkinBuilder}.
+     */
     
     public static TitledPaneSkinBuilder create(javafx.scene.control.TitledPane control) {
         TitledPaneSkinBuilder builder = new TitledPaneSkinBuilder();

@@ -28,9 +28,20 @@ public class MeshViewBuilder {
     private MeshViewBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code MeshViewBuilder}.
+     *
+     * @return an instance of the {@code MeshViewBuilder}.
+     */
     public static MeshViewBuilder create() { return new MeshViewBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.MeshView#MeshView(javafx.scene.shape.Mesh mesh) MeshView(Mesh)}
+     * and returns an instance of the {@code MeshViewBuilder}.
+     *
+     * @return an instance of the {@code MeshViewBuilder}.
+     */
     
     public static MeshViewBuilder create(javafx.scene.shape.Mesh mesh) {
         MeshViewBuilder builder = new MeshViewBuilder();

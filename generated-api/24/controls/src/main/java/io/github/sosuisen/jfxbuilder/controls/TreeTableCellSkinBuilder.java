@@ -28,6 +28,12 @@ public class TreeTableCellSkinBuilder<S, T> {
     private TreeTableCellSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.TreeTableCellSkin#TreeTableCellSkin(javafx.scene.control.TreeTableCell<S, T> control) TreeTableCellSkin(TreeTableCell)}
+     * and returns an instance of the {@code <S, T> TreeTableCellSkinBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> TreeTableCellSkinBuilder<S, T>}.
+     */
     
     public static <S, T> TreeTableCellSkinBuilder<S, T> create(javafx.scene.control.TreeTableCell<S, T> control) {
         TreeTableCellSkinBuilder<S, T> builder = new TreeTableCellSkinBuilder<S, T>();

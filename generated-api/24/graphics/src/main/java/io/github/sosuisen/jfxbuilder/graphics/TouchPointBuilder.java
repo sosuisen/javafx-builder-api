@@ -28,6 +28,12 @@ public class TouchPointBuilder {
     private TouchPointBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.input.TouchPoint#TouchPoint(int id, javafx.scene.input.TouchPoint.State state, double x, double y, double screenX, double screenY, javafx.event.EventTarget target, javafx.scene.input.PickResult pickResult) TouchPoint(int, TouchPoint$State, double, double, double, double, EventTarget, PickResult)}
+     * and returns an instance of the {@code TouchPointBuilder}.
+     *
+     * @return an instance of the {@code TouchPointBuilder}.
+     */
     
     public static TouchPointBuilder create(int id, javafx.scene.input.TouchPoint.State state, double x, double y, double screenX, double screenY, javafx.event.EventTarget target, javafx.scene.input.PickResult pickResult) {
         TouchPointBuilder builder = new TouchPointBuilder();

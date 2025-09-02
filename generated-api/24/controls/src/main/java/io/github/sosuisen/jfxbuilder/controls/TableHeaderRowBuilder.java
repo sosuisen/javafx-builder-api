@@ -28,6 +28,12 @@ public class TableHeaderRowBuilder {
     private TableHeaderRowBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.TableHeaderRow#TableHeaderRow(javafx.scene.control.skin.TableViewSkinBase skin) TableHeaderRow(TableViewSkinBase)}
+     * and returns an instance of the {@code TableHeaderRowBuilder}.
+     *
+     * @return an instance of the {@code TableHeaderRowBuilder}.
+     */
     
     public static TableHeaderRowBuilder create(javafx.scene.control.skin.TableViewSkinBase skin) {
         TableHeaderRowBuilder builder = new TableHeaderRowBuilder();

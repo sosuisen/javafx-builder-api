@@ -28,6 +28,12 @@ public class PopupFeaturesBuilder {
     private PopupFeaturesBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.web.PopupFeatures#PopupFeatures(boolean menu, boolean status, boolean toolbar, boolean resizable) PopupFeatures(boolean, boolean, boolean, boolean)}
+     * and returns an instance of the {@code PopupFeaturesBuilder}.
+     *
+     * @return an instance of the {@code PopupFeaturesBuilder}.
+     */
     
     public static PopupFeaturesBuilder create(boolean menu, boolean status, boolean toolbar, boolean resizable) {
         PopupFeaturesBuilder builder = new PopupFeaturesBuilder();

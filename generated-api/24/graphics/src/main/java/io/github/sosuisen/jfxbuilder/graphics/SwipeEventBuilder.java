@@ -28,6 +28,12 @@ public class SwipeEventBuilder {
     private SwipeEventBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.input.SwipeEvent#SwipeEvent(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.SwipeEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, int touchCount, javafx.scene.input.PickResult pickResult) SwipeEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult)}
+     * and returns an instance of the {@code SwipeEventBuilder}.
+     *
+     * @return an instance of the {@code SwipeEventBuilder}.
+     */
     
     public static SwipeEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.SwipeEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, int touchCount, javafx.scene.input.PickResult pickResult) {
         SwipeEventBuilder builder = new SwipeEventBuilder();
@@ -36,6 +42,12 @@ public class SwipeEventBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.input.SwipeEvent#SwipeEvent(javafx.event.EventType<javafx.scene.input.SwipeEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, int touchCount, javafx.scene.input.PickResult pickResult) SwipeEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult)}
+     * and returns an instance of the {@code SwipeEventBuilder}.
+     *
+     * @return an instance of the {@code SwipeEventBuilder}.
+     */
     
     public static SwipeEventBuilder create(javafx.event.EventType<javafx.scene.input.SwipeEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, int touchCount, javafx.scene.input.PickResult pickResult) {
         SwipeEventBuilder builder = new SwipeEventBuilder();

@@ -28,6 +28,12 @@ public class ToolBarSkinBuilder {
     private ToolBarSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ToolBarSkin#ToolBarSkin(javafx.scene.control.ToolBar control) ToolBarSkin(ToolBar)}
+     * and returns an instance of the {@code ToolBarSkinBuilder}.
+     *
+     * @return an instance of the {@code ToolBarSkinBuilder}.
+     */
     
     public static ToolBarSkinBuilder create(javafx.scene.control.ToolBar control) {
         ToolBarSkinBuilder builder = new ToolBarSkinBuilder();

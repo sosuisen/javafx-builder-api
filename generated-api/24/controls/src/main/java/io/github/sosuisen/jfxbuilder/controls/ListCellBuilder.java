@@ -28,6 +28,11 @@ public class ListCellBuilder<T> {
     private ListCellBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <T> ListCellBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ListCellBuilder<T>}.
+     */
     public static <T> ListCellBuilder<T> create() { return new ListCellBuilder<T>(); }
 
     private Object[] constructorArgs;

@@ -28,9 +28,20 @@ public class BloomBuilder {
     private BloomBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code BloomBuilder}.
+     *
+     * @return an instance of the {@code BloomBuilder}.
+     */
     public static BloomBuilder create() { return new BloomBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.Bloom#Bloom(double threshold) Bloom(double)}
+     * and returns an instance of the {@code BloomBuilder}.
+     *
+     * @return an instance of the {@code BloomBuilder}.
+     */
     
     public static BloomBuilder create(double threshold) {
         BloomBuilder builder = new BloomBuilder();

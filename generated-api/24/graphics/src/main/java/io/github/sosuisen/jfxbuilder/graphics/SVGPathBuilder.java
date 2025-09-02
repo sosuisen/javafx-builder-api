@@ -28,6 +28,11 @@ public class SVGPathBuilder {
     private SVGPathBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code SVGPathBuilder}.
+     *
+     * @return an instance of the {@code SVGPathBuilder}.
+     */
     public static SVGPathBuilder create() { return new SVGPathBuilder(); }
 
     private Object[] constructorArgs;

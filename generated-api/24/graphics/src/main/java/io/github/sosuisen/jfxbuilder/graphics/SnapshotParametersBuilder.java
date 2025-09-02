@@ -28,6 +28,11 @@ public class SnapshotParametersBuilder {
     private SnapshotParametersBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code SnapshotParametersBuilder}.
+     *
+     * @return an instance of the {@code SnapshotParametersBuilder}.
+     */
     public static SnapshotParametersBuilder create() { return new SnapshotParametersBuilder(); }
 
     private Object[] constructorArgs;

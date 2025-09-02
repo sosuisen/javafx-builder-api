@@ -28,9 +28,20 @@ public class TitledPaneBuilder {
     private TitledPaneBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code TitledPaneBuilder}.
+     *
+     * @return an instance of the {@code TitledPaneBuilder}.
+     */
     public static TitledPaneBuilder create() { return new TitledPaneBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TitledPane#TitledPane(java.lang.String title, javafx.scene.Node content) TitledPane(String, Node)}
+     * and returns an instance of the {@code TitledPaneBuilder}.
+     *
+     * @return an instance of the {@code TitledPaneBuilder}.
+     */
     
     public static TitledPaneBuilder create(java.lang.String title, javafx.scene.Node content) {
         TitledPaneBuilder builder = new TitledPaneBuilder();

@@ -28,9 +28,20 @@ public class LightingBuilder {
     private LightingBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code LightingBuilder}.
+     *
+     * @return an instance of the {@code LightingBuilder}.
+     */
     public static LightingBuilder create() { return new LightingBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.Lighting#Lighting(javafx.scene.effect.Light light) Lighting(Light)}
+     * and returns an instance of the {@code LightingBuilder}.
+     *
+     * @return an instance of the {@code LightingBuilder}.
+     */
     
     public static LightingBuilder create(javafx.scene.effect.Light light) {
         LightingBuilder builder = new LightingBuilder();

@@ -10,12 +10,14 @@ import io.github.sosuisen.model.data.ClassMetadata;
  * Data model for constructor method JTE template
  */
 public record CreateMethodModel(
-        String typeParameters,
+        String canonicalClassName,
+        String simpleClassName,
         String typeParametersWithExtends,
         String builderClassNameWithTypeParameter,
         String builderClassName,
         boolean isDefaultConstructor,
         String parameterList,
+        String parameterListSimpleTypesOnly,
         String argumentList,
         boolean isVarArgs) {
 
@@ -46,6 +48,7 @@ public record CreateMethodModel(
             boolean isDefaultConstructor = parameters.length == 0;
 
             String parameterList = "";
+            String parameterListSimpleTypesOnly = "";
             String argumentList = "";
             boolean isVarArgs = constructor.isVarArgs();
 
@@ -53,16 +56,19 @@ public record CreateMethodModel(
                 parameterList = ParameterStringBuilder.buildParameterListWithTypes(parameters,
                         classMetadata.getCanonicalClassName(),
                         isVarArgs);
+                parameterListSimpleTypesOnly = ParameterStringBuilder.buildParameterListSimpleTypesOnly(parameters);
                 argumentList = ParameterStringBuilder.buildParameterListNamesOnly(parameters);
             }
 
             return new CreateMethodModel(
-                    classMetadata.getTypeParameters(),
-                    classMetadata.gettypeParametersWithExtends(),
+                    classMetadata.getCanonicalClassName(),
+                    classMetadata.getSimpleClassName(),
+                    classMetadata.getTypeParametersWithExtends(),
                     classMetadata.builderClassNameWithTypeParameter(),
                     classMetadata.getBuilderClassName(),
                     isDefaultConstructor,
                     parameterList,
+                    parameterListSimpleTypesOnly,
                     argumentList,
                     isVarArgs);
         }

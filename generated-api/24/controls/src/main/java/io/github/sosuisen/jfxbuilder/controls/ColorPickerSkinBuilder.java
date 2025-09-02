@@ -28,6 +28,12 @@ public class ColorPickerSkinBuilder {
     private ColorPickerSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ColorPickerSkin#ColorPickerSkin(javafx.scene.control.ColorPicker control) ColorPickerSkin(ColorPicker)}
+     * and returns an instance of the {@code ColorPickerSkinBuilder}.
+     *
+     * @return an instance of the {@code ColorPickerSkinBuilder}.
+     */
     
     public static ColorPickerSkinBuilder create(javafx.scene.control.ColorPicker control) {
         ColorPickerSkinBuilder builder = new ColorPickerSkinBuilder();

@@ -28,9 +28,20 @@ public class TilePaneBuilder {
     private TilePaneBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code TilePaneBuilder}.
+     *
+     * @return an instance of the {@code TilePaneBuilder}.
+     */
     public static TilePaneBuilder create() { return new TilePaneBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(double hgap, double vgap) TilePane(double, double)}
+     * and returns an instance of the {@code TilePaneBuilder}.
+     *
+     * @return an instance of the {@code TilePaneBuilder}.
+     */
     
     public static TilePaneBuilder create(double hgap, double vgap) {
         TilePaneBuilder builder = new TilePaneBuilder();
@@ -39,6 +50,12 @@ public class TilePaneBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(double hgap, double vgap, javafx.scene.Node... children) TilePane(double, double, Node...)}
+     * and returns an instance of the {@code TilePaneBuilder}.
+     *
+     * @return an instance of the {@code TilePaneBuilder}.
+     */
     @SafeVarargs
     public static TilePaneBuilder create(double hgap, double vgap, javafx.scene.Node... children) {
         TilePaneBuilder builder = new TilePaneBuilder();
@@ -47,6 +64,12 @@ public class TilePaneBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(javafx.geometry.Orientation orientation) TilePane(Orientation)}
+     * and returns an instance of the {@code TilePaneBuilder}.
+     *
+     * @return an instance of the {@code TilePaneBuilder}.
+     */
     
     public static TilePaneBuilder create(javafx.geometry.Orientation orientation) {
         TilePaneBuilder builder = new TilePaneBuilder();
@@ -55,6 +78,12 @@ public class TilePaneBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(javafx.geometry.Orientation orientation, double hgap, double vgap) TilePane(Orientation, double, double)}
+     * and returns an instance of the {@code TilePaneBuilder}.
+     *
+     * @return an instance of the {@code TilePaneBuilder}.
+     */
     
     public static TilePaneBuilder create(javafx.geometry.Orientation orientation, double hgap, double vgap) {
         TilePaneBuilder builder = new TilePaneBuilder();
@@ -63,6 +92,12 @@ public class TilePaneBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(javafx.geometry.Orientation orientation, double hgap, double vgap, javafx.scene.Node... children) TilePane(Orientation, double, double, Node...)}
+     * and returns an instance of the {@code TilePaneBuilder}.
+     *
+     * @return an instance of the {@code TilePaneBuilder}.
+     */
     @SafeVarargs
     public static TilePaneBuilder create(javafx.geometry.Orientation orientation, double hgap, double vgap, javafx.scene.Node... children) {
         TilePaneBuilder builder = new TilePaneBuilder();
@@ -71,6 +106,12 @@ public class TilePaneBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(javafx.geometry.Orientation orientation, javafx.scene.Node... children) TilePane(Orientation, Node...)}
+     * and returns an instance of the {@code TilePaneBuilder}.
+     *
+     * @return an instance of the {@code TilePaneBuilder}.
+     */
     @SafeVarargs
     public static TilePaneBuilder create(javafx.geometry.Orientation orientation, javafx.scene.Node... children) {
         TilePaneBuilder builder = new TilePaneBuilder();
@@ -79,6 +120,12 @@ public class TilePaneBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(javafx.scene.Node... children) TilePane(Node...)}
+     * and returns an instance of the {@code TilePaneBuilder}.
+     *
+     * @return an instance of the {@code TilePaneBuilder}.
+     */
     @SafeVarargs
     public static TilePaneBuilder create(javafx.scene.Node... children) {
         TilePaneBuilder builder = new TilePaneBuilder();

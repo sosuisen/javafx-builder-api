@@ -28,9 +28,20 @@ public class ReflectionBuilder {
     private ReflectionBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ReflectionBuilder}.
+     *
+     * @return an instance of the {@code ReflectionBuilder}.
+     */
     public static ReflectionBuilder create() { return new ReflectionBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.Reflection#Reflection(double topOffset, double fraction, double topOpacity, double bottomOpacity) Reflection(double, double, double, double)}
+     * and returns an instance of the {@code ReflectionBuilder}.
+     *
+     * @return an instance of the {@code ReflectionBuilder}.
+     */
     
     public static ReflectionBuilder create(double topOffset, double fraction, double topOpacity, double bottomOpacity) {
         ReflectionBuilder builder = new ReflectionBuilder();

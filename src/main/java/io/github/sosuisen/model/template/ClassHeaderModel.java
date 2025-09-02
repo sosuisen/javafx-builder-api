@@ -11,7 +11,6 @@ public record ClassHeaderModel(
         String canonicalClassName,
         String simpleClassName,
         String builderClassName,
-        String typeParameters,
         String typeParametersWithExtends,
         String classNameWithTypeParameter,
         String classAnnotation) {
@@ -38,8 +37,7 @@ public record ClassHeaderModel(
                     classMetadata.getCanonicalClassName(),
                     classMetadata.getSimpleClassName(),
                     classMetadata.getBuilderClassName(),
-                    classMetadata.getTypeParameters(),
-                    classMetadata.gettypeParametersWithExtends(),
+                    classMetadata.getTypeParametersWithExtends(),
                     classMetadata.classNameWithTypeParameter(),
                     classAnnotation != null ? classAnnotation : "");
         }

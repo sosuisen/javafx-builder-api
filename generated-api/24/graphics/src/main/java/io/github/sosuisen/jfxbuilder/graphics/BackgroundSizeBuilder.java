@@ -28,6 +28,12 @@ public class BackgroundSizeBuilder {
     private BackgroundSizeBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.BackgroundSize#BackgroundSize(double width, double height, boolean widthAsPercentage, boolean heightAsPercentage, boolean contain, boolean cover) BackgroundSize(double, double, boolean, boolean, boolean, boolean)}
+     * and returns an instance of the {@code BackgroundSizeBuilder}.
+     *
+     * @return an instance of the {@code BackgroundSizeBuilder}.
+     */
     
     public static BackgroundSizeBuilder create(double width, double height, boolean widthAsPercentage, boolean heightAsPercentage, boolean contain, boolean cover) {
         BackgroundSizeBuilder builder = new BackgroundSizeBuilder();

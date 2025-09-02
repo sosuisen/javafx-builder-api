@@ -28,6 +28,12 @@ public class AudioClipBuilder {
     private AudioClipBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.media.AudioClip#AudioClip(java.lang.String source) AudioClip(String)}
+     * and returns an instance of the {@code AudioClipBuilder}.
+     *
+     * @return an instance of the {@code AudioClipBuilder}.
+     */
     
     public static AudioClipBuilder create(java.lang.String source) {
         AudioClipBuilder builder = new AudioClipBuilder();

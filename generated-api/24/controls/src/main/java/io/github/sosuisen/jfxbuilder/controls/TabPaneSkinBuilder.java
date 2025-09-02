@@ -28,6 +28,12 @@ public class TabPaneSkinBuilder {
     private TabPaneSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.TabPaneSkin#TabPaneSkin(javafx.scene.control.TabPane control) TabPaneSkin(TabPane)}
+     * and returns an instance of the {@code TabPaneSkinBuilder}.
+     *
+     * @return an instance of the {@code TabPaneSkinBuilder}.
+     */
     
     public static TabPaneSkinBuilder create(javafx.scene.control.TabPane control) {
         TabPaneSkinBuilder builder = new TabPaneSkinBuilder();

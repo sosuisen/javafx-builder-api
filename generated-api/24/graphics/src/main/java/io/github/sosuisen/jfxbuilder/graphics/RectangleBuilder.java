@@ -28,9 +28,20 @@ public class RectangleBuilder {
     private RectangleBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code RectangleBuilder}.
+     *
+     * @return an instance of the {@code RectangleBuilder}.
+     */
     public static RectangleBuilder create() { return new RectangleBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Rectangle#Rectangle(double width, double height) Rectangle(double, double)}
+     * and returns an instance of the {@code RectangleBuilder}.
+     *
+     * @return an instance of the {@code RectangleBuilder}.
+     */
     
     public static RectangleBuilder create(double width, double height) {
         RectangleBuilder builder = new RectangleBuilder();
@@ -39,6 +50,12 @@ public class RectangleBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Rectangle#Rectangle(double x, double y, double width, double height) Rectangle(double, double, double, double)}
+     * and returns an instance of the {@code RectangleBuilder}.
+     *
+     * @return an instance of the {@code RectangleBuilder}.
+     */
     
     public static RectangleBuilder create(double x, double y, double width, double height) {
         RectangleBuilder builder = new RectangleBuilder();
@@ -47,6 +64,12 @@ public class RectangleBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Rectangle#Rectangle(double width, double height, javafx.scene.paint.Paint fill) Rectangle(double, double, Paint)}
+     * and returns an instance of the {@code RectangleBuilder}.
+     *
+     * @return an instance of the {@code RectangleBuilder}.
+     */
     
     public static RectangleBuilder create(double width, double height, javafx.scene.paint.Paint fill) {
         RectangleBuilder builder = new RectangleBuilder();

@@ -28,6 +28,12 @@ public class PixelBufferBuilder<T extends java.nio.Buffer> {
     private PixelBufferBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.image.PixelBuffer#PixelBuffer(int width, int height, T buffer, javafx.scene.image.PixelFormat<T> pixelFormat) PixelBuffer(int, int, Buffer, PixelFormat)}
+     * and returns an instance of the {@code <T extends java.nio.Buffer> PixelBufferBuilder<T>}.
+     *
+     * @return an instance of the {@code <T extends java.nio.Buffer> PixelBufferBuilder<T>}.
+     */
     
     public static <T extends java.nio.Buffer> PixelBufferBuilder<T> create(int width, int height, T buffer, javafx.scene.image.PixelFormat<T> pixelFormat) {
         PixelBufferBuilder<T> builder = new PixelBufferBuilder<T>();

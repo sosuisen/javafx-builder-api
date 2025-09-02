@@ -28,9 +28,20 @@ public class ButtonBuilder {
     private ButtonBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ButtonBuilder}.
+     *
+     * @return an instance of the {@code ButtonBuilder}.
+     */
     public static ButtonBuilder create() { return new ButtonBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Button#Button(java.lang.String text) Button(String)}
+     * and returns an instance of the {@code ButtonBuilder}.
+     *
+     * @return an instance of the {@code ButtonBuilder}.
+     */
     
     public static ButtonBuilder create(java.lang.String text) {
         ButtonBuilder builder = new ButtonBuilder();
@@ -39,6 +50,12 @@ public class ButtonBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Button#Button(java.lang.String text, javafx.scene.Node graphic) Button(String, Node)}
+     * and returns an instance of the {@code ButtonBuilder}.
+     *
+     * @return an instance of the {@code ButtonBuilder}.
+     */
     
     public static ButtonBuilder create(java.lang.String text, javafx.scene.Node graphic) {
         ButtonBuilder builder = new ButtonBuilder();

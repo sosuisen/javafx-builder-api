@@ -28,9 +28,20 @@ public class BlendBuilder {
     private BlendBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code BlendBuilder}.
+     *
+     * @return an instance of the {@code BlendBuilder}.
+     */
     public static BlendBuilder create() { return new BlendBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.Blend#Blend(javafx.scene.effect.BlendMode mode) Blend(BlendMode)}
+     * and returns an instance of the {@code BlendBuilder}.
+     *
+     * @return an instance of the {@code BlendBuilder}.
+     */
     
     public static BlendBuilder create(javafx.scene.effect.BlendMode mode) {
         BlendBuilder builder = new BlendBuilder();
@@ -39,6 +50,12 @@ public class BlendBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.Blend#Blend(javafx.scene.effect.BlendMode mode, javafx.scene.effect.Effect bottomInput, javafx.scene.effect.Effect topInput) Blend(BlendMode, Effect, Effect)}
+     * and returns an instance of the {@code BlendBuilder}.
+     *
+     * @return an instance of the {@code BlendBuilder}.
+     */
     
     public static BlendBuilder create(javafx.scene.effect.BlendMode mode, javafx.scene.effect.Effect bottomInput, javafx.scene.effect.Effect topInput) {
         BlendBuilder builder = new BlendBuilder();

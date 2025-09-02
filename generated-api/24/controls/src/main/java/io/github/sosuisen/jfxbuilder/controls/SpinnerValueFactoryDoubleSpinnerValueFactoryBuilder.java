@@ -28,6 +28,12 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
     private SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#DoubleSpinnerValueFactory(double min, double max) DoubleSpinnerValueFactory(double, double)}
+     * and returns an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
+     *
+     * @return an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
+     */
     
     public static SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder create(double min, double max) {
         SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder builder = new SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder();
@@ -36,6 +42,12 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#DoubleSpinnerValueFactory(double min, double max, double initialValue) DoubleSpinnerValueFactory(double, double, double)}
+     * and returns an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
+     *
+     * @return an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
+     */
     
     public static SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder create(double min, double max, double initialValue) {
         SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder builder = new SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder();
@@ -44,6 +56,12 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#DoubleSpinnerValueFactory(double min, double max, double initialValue, double amountToStepBy) DoubleSpinnerValueFactory(double, double, double, double)}
+     * and returns an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
+     *
+     * @return an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
+     */
     
     public static SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder create(double min, double max, double initialValue, double amountToStepBy) {
         SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder builder = new SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder();

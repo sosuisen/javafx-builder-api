@@ -28,9 +28,20 @@ public class SplitMenuButtonBuilder {
     private SplitMenuButtonBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code SplitMenuButtonBuilder}.
+     *
+     * @return an instance of the {@code SplitMenuButtonBuilder}.
+     */
     public static SplitMenuButtonBuilder create() { return new SplitMenuButtonBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.SplitMenuButton#SplitMenuButton(java.lang.String text) SplitMenuButton(String)}
+     * and returns an instance of the {@code SplitMenuButtonBuilder}.
+     *
+     * @return an instance of the {@code SplitMenuButtonBuilder}.
+     */
     
     public static SplitMenuButtonBuilder create(java.lang.String text) {
         SplitMenuButtonBuilder builder = new SplitMenuButtonBuilder();
@@ -39,6 +50,12 @@ public class SplitMenuButtonBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.SplitMenuButton#SplitMenuButton(java.lang.String text, javafx.scene.Node graphic) SplitMenuButton(String, Node)}
+     * and returns an instance of the {@code SplitMenuButtonBuilder}.
+     *
+     * @return an instance of the {@code SplitMenuButtonBuilder}.
+     */
     
     public static SplitMenuButtonBuilder create(java.lang.String text, javafx.scene.Node graphic) {
         SplitMenuButtonBuilder builder = new SplitMenuButtonBuilder();
@@ -47,6 +64,12 @@ public class SplitMenuButtonBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.SplitMenuButton#SplitMenuButton(java.lang.String text, javafx.scene.Node graphic, javafx.scene.control.MenuItem... items) SplitMenuButton(String, Node, MenuItem...)}
+     * and returns an instance of the {@code SplitMenuButtonBuilder}.
+     *
+     * @return an instance of the {@code SplitMenuButtonBuilder}.
+     */
     @SafeVarargs
     public static SplitMenuButtonBuilder create(java.lang.String text, javafx.scene.Node graphic, javafx.scene.control.MenuItem... items) {
         SplitMenuButtonBuilder builder = new SplitMenuButtonBuilder();
@@ -55,6 +78,12 @@ public class SplitMenuButtonBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.SplitMenuButton#SplitMenuButton(javafx.scene.control.MenuItem... items) SplitMenuButton(MenuItem...)}
+     * and returns an instance of the {@code SplitMenuButtonBuilder}.
+     *
+     * @return an instance of the {@code SplitMenuButtonBuilder}.
+     */
     @SafeVarargs
     public static SplitMenuButtonBuilder create(javafx.scene.control.MenuItem... items) {
         SplitMenuButtonBuilder builder = new SplitMenuButtonBuilder();

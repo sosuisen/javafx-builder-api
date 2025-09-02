@@ -28,6 +28,12 @@ public class ProgressBarSkinBuilder {
     private ProgressBarSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ProgressBarSkin#ProgressBarSkin(javafx.scene.control.ProgressBar control) ProgressBarSkin(ProgressBar)}
+     * and returns an instance of the {@code ProgressBarSkinBuilder}.
+     *
+     * @return an instance of the {@code ProgressBarSkinBuilder}.
+     */
     
     public static ProgressBarSkinBuilder create(javafx.scene.control.ProgressBar control) {
         ProgressBarSkinBuilder builder = new ProgressBarSkinBuilder();

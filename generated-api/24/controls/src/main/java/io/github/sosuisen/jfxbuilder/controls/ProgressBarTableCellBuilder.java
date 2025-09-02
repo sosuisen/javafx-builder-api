@@ -28,6 +28,11 @@ public class ProgressBarTableCellBuilder<S> {
     private ProgressBarTableCellBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <S> ProgressBarTableCellBuilder<S>}.
+     *
+     * @return an instance of the {@code <S> ProgressBarTableCellBuilder<S>}.
+     */
     public static <S> ProgressBarTableCellBuilder<S> create() { return new ProgressBarTableCellBuilder<S>(); }
 
     private Object[] constructorArgs;

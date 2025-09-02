@@ -28,6 +28,12 @@ public class InputMethodEventBuilder {
     private InputMethodEventBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.input.InputMethodEvent#InputMethodEvent(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.InputMethodEvent> eventType, java.util.List<javafx.scene.input.InputMethodTextRun> composed, java.lang.String committed, int caretPosition) InputMethodEvent(Object, EventTarget, EventType, List, String, int)}
+     * and returns an instance of the {@code InputMethodEventBuilder}.
+     *
+     * @return an instance of the {@code InputMethodEventBuilder}.
+     */
     
     public static InputMethodEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.InputMethodEvent> eventType, java.util.List<javafx.scene.input.InputMethodTextRun> composed, java.lang.String committed, int caretPosition) {
         InputMethodEventBuilder builder = new InputMethodEventBuilder();
@@ -36,6 +42,12 @@ public class InputMethodEventBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.input.InputMethodEvent#InputMethodEvent(javafx.event.EventType<javafx.scene.input.InputMethodEvent> eventType, java.util.List<javafx.scene.input.InputMethodTextRun> composed, java.lang.String committed, int caretPosition) InputMethodEvent(EventType, List, String, int)}
+     * and returns an instance of the {@code InputMethodEventBuilder}.
+     *
+     * @return an instance of the {@code InputMethodEventBuilder}.
+     */
     
     public static InputMethodEventBuilder create(javafx.event.EventType<javafx.scene.input.InputMethodEvent> eventType, java.util.List<javafx.scene.input.InputMethodTextRun> composed, java.lang.String committed, int caretPosition) {
         InputMethodEventBuilder builder = new InputMethodEventBuilder();

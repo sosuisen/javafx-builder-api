@@ -28,9 +28,20 @@ public class ComboBoxBuilder<T> {
     private ComboBoxBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <T> ComboBoxBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ComboBoxBuilder<T>}.
+     */
     public static <T> ComboBoxBuilder<T> create() { return new ComboBoxBuilder<T>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.ComboBox#ComboBox(javafx.collections.ObservableList<T> items) ComboBox(ObservableList)}
+     * and returns an instance of the {@code <T> ComboBoxBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ComboBoxBuilder<T>}.
+     */
     
     public static <T> ComboBoxBuilder<T> create(javafx.collections.ObservableList<T> items) {
         ComboBoxBuilder<T> builder = new ComboBoxBuilder<T>();

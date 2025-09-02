@@ -28,6 +28,12 @@ public class ImagePatternBuilder {
     private ImagePatternBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.paint.ImagePattern#ImagePattern(javafx.scene.image.Image image) ImagePattern(Image)}
+     * and returns an instance of the {@code ImagePatternBuilder}.
+     *
+     * @return an instance of the {@code ImagePatternBuilder}.
+     */
     
     public static ImagePatternBuilder create(javafx.scene.image.Image image) {
         ImagePatternBuilder builder = new ImagePatternBuilder();
@@ -36,6 +42,12 @@ public class ImagePatternBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.paint.ImagePattern#ImagePattern(javafx.scene.image.Image image, double x, double y, double width, double height, boolean proportional) ImagePattern(Image, double, double, double, double, boolean)}
+     * and returns an instance of the {@code ImagePatternBuilder}.
+     *
+     * @return an instance of the {@code ImagePatternBuilder}.
+     */
     
     public static ImagePatternBuilder create(javafx.scene.image.Image image, double x, double y, double width, double height, boolean proportional) {
         ImagePatternBuilder builder = new ImagePatternBuilder();

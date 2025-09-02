@@ -28,9 +28,20 @@ public class RotateBuilder {
     private RotateBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code RotateBuilder}.
+     *
+     * @return an instance of the {@code RotateBuilder}.
+     */
     public static RotateBuilder create() { return new RotateBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.transform.Rotate#Rotate(double angle) Rotate(double)}
+     * and returns an instance of the {@code RotateBuilder}.
+     *
+     * @return an instance of the {@code RotateBuilder}.
+     */
     
     public static RotateBuilder create(double angle) {
         RotateBuilder builder = new RotateBuilder();
@@ -39,6 +50,12 @@ public class RotateBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.transform.Rotate#Rotate(double angle, double pivotX, double pivotY) Rotate(double, double, double)}
+     * and returns an instance of the {@code RotateBuilder}.
+     *
+     * @return an instance of the {@code RotateBuilder}.
+     */
     
     public static RotateBuilder create(double angle, double pivotX, double pivotY) {
         RotateBuilder builder = new RotateBuilder();
@@ -47,6 +64,12 @@ public class RotateBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.transform.Rotate#Rotate(double angle, double pivotX, double pivotY, double pivotZ) Rotate(double, double, double, double)}
+     * and returns an instance of the {@code RotateBuilder}.
+     *
+     * @return an instance of the {@code RotateBuilder}.
+     */
     
     public static RotateBuilder create(double angle, double pivotX, double pivotY, double pivotZ) {
         RotateBuilder builder = new RotateBuilder();
@@ -55,6 +78,12 @@ public class RotateBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.transform.Rotate#Rotate(double angle, double pivotX, double pivotY, double pivotZ, javafx.geometry.Point3D axis) Rotate(double, double, double, double, Point3D)}
+     * and returns an instance of the {@code RotateBuilder}.
+     *
+     * @return an instance of the {@code RotateBuilder}.
+     */
     
     public static RotateBuilder create(double angle, double pivotX, double pivotY, double pivotZ, javafx.geometry.Point3D axis) {
         RotateBuilder builder = new RotateBuilder();
@@ -63,6 +92,12 @@ public class RotateBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.transform.Rotate#Rotate(double angle, javafx.geometry.Point3D axis) Rotate(double, Point3D)}
+     * and returns an instance of the {@code RotateBuilder}.
+     *
+     * @return an instance of the {@code RotateBuilder}.
+     */
     
     public static RotateBuilder create(double angle, javafx.geometry.Point3D axis) {
         RotateBuilder builder = new RotateBuilder();

@@ -28,6 +28,12 @@ public class TableViewResizeFeaturesBuilder<S> {
     private TableViewResizeFeaturesBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TableView.ResizeFeatures#ResizeFeatures(javafx.scene.control.TableView<S> table, javafx.scene.control.TableColumn<S, ?> column, java.lang.Double delta) ResizeFeatures(TableView, TableColumn, Double)}
+     * and returns an instance of the {@code <S> TableViewResizeFeaturesBuilder<S>}.
+     *
+     * @return an instance of the {@code <S> TableViewResizeFeaturesBuilder<S>}.
+     */
     
     public static <S> TableViewResizeFeaturesBuilder<S> create(javafx.scene.control.TableView<S> table, javafx.scene.control.TableColumn<S, ?> column, java.lang.Double delta) {
         TableViewResizeFeaturesBuilder<S> builder = new TableViewResizeFeaturesBuilder<S>();

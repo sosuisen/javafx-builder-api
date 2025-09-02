@@ -28,6 +28,12 @@ public class PaginationSkinBuilder {
     private PaginationSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.PaginationSkin#PaginationSkin(javafx.scene.control.Pagination control) PaginationSkin(Pagination)}
+     * and returns an instance of the {@code PaginationSkinBuilder}.
+     *
+     * @return an instance of the {@code PaginationSkinBuilder}.
+     */
     
     public static PaginationSkinBuilder create(javafx.scene.control.Pagination control) {
         PaginationSkinBuilder builder = new PaginationSkinBuilder();

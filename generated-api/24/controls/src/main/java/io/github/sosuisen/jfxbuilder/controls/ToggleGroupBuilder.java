@@ -28,6 +28,11 @@ public class ToggleGroupBuilder {
     private ToggleGroupBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ToggleGroupBuilder}.
+     *
+     * @return an instance of the {@code ToggleGroupBuilder}.
+     */
     public static ToggleGroupBuilder create() { return new ToggleGroupBuilder(); }
 
     private Object[] constructorArgs;

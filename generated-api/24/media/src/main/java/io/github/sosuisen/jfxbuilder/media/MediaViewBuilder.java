@@ -28,9 +28,20 @@ public class MediaViewBuilder {
     private MediaViewBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code MediaViewBuilder}.
+     *
+     * @return an instance of the {@code MediaViewBuilder}.
+     */
     public static MediaViewBuilder create() { return new MediaViewBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.media.MediaView#MediaView(javafx.scene.media.MediaPlayer mediaPlayer) MediaView(MediaPlayer)}
+     * and returns an instance of the {@code MediaViewBuilder}.
+     *
+     * @return an instance of the {@code MediaViewBuilder}.
+     */
     
     public static MediaViewBuilder create(javafx.scene.media.MediaPlayer mediaPlayer) {
         MediaViewBuilder builder = new MediaViewBuilder();

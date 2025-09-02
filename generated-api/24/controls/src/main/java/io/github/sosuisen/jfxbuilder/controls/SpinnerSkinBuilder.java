@@ -28,6 +28,12 @@ public class SpinnerSkinBuilder<T> {
     private SpinnerSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.SpinnerSkin#SpinnerSkin(javafx.scene.control.Spinner<T> control) SpinnerSkin(Spinner)}
+     * and returns an instance of the {@code <T> SpinnerSkinBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> SpinnerSkinBuilder<T>}.
+     */
     
     public static <T> SpinnerSkinBuilder<T> create(javafx.scene.control.Spinner<T> control) {
         SpinnerSkinBuilder<T> builder = new SpinnerSkinBuilder<T>();

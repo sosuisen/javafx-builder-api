@@ -28,6 +28,12 @@ public class CheckBoxSkinBuilder {
     private CheckBoxSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.CheckBoxSkin#CheckBoxSkin(javafx.scene.control.CheckBox control) CheckBoxSkin(CheckBox)}
+     * and returns an instance of the {@code CheckBoxSkinBuilder}.
+     *
+     * @return an instance of the {@code CheckBoxSkinBuilder}.
+     */
     
     public static CheckBoxSkinBuilder create(javafx.scene.control.CheckBox control) {
         CheckBoxSkinBuilder builder = new CheckBoxSkinBuilder();

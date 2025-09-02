@@ -28,6 +28,11 @@ public class PopupControlBuilder {
     private PopupControlBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code PopupControlBuilder}.
+     *
+     * @return an instance of the {@code PopupControlBuilder}.
+     */
     public static PopupControlBuilder create() { return new PopupControlBuilder(); }
 
     private Object[] constructorArgs;

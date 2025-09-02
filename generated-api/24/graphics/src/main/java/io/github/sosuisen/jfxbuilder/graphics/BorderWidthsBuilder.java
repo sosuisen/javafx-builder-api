@@ -28,6 +28,12 @@ public class BorderWidthsBuilder {
     private BorderWidthsBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.BorderWidths#BorderWidths(double width) BorderWidths(double)}
+     * and returns an instance of the {@code BorderWidthsBuilder}.
+     *
+     * @return an instance of the {@code BorderWidthsBuilder}.
+     */
     
     public static BorderWidthsBuilder create(double width) {
         BorderWidthsBuilder builder = new BorderWidthsBuilder();
@@ -36,6 +42,12 @@ public class BorderWidthsBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.BorderWidths#BorderWidths(double top, double right, double bottom, double left) BorderWidths(double, double, double, double)}
+     * and returns an instance of the {@code BorderWidthsBuilder}.
+     *
+     * @return an instance of the {@code BorderWidthsBuilder}.
+     */
     
     public static BorderWidthsBuilder create(double top, double right, double bottom, double left) {
         BorderWidthsBuilder builder = new BorderWidthsBuilder();
@@ -44,6 +56,12 @@ public class BorderWidthsBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.BorderWidths#BorderWidths(double top, double right, double bottom, double left, boolean topAsPercentage, boolean rightAsPercentage, boolean bottomAsPercentage, boolean leftAsPercentage) BorderWidths(double, double, double, double, boolean, boolean, boolean, boolean)}
+     * and returns an instance of the {@code BorderWidthsBuilder}.
+     *
+     * @return an instance of the {@code BorderWidthsBuilder}.
+     */
     
     public static BorderWidthsBuilder create(double top, double right, double bottom, double left, boolean topAsPercentage, boolean rightAsPercentage, boolean bottomAsPercentage, boolean leftAsPercentage) {
         BorderWidthsBuilder builder = new BorderWidthsBuilder();

@@ -28,9 +28,20 @@ public class ColorPickerBuilder {
     private ColorPickerBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ColorPickerBuilder}.
+     *
+     * @return an instance of the {@code ColorPickerBuilder}.
+     */
     public static ColorPickerBuilder create() { return new ColorPickerBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.ColorPicker#ColorPicker(javafx.scene.paint.Color color) ColorPicker(Color)}
+     * and returns an instance of the {@code ColorPickerBuilder}.
+     *
+     * @return an instance of the {@code ColorPickerBuilder}.
+     */
     
     public static ColorPickerBuilder create(javafx.scene.paint.Color color) {
         ColorPickerBuilder builder = new ColorPickerBuilder();

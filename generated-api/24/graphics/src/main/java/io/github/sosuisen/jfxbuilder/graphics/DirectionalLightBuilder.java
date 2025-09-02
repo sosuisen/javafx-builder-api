@@ -28,9 +28,20 @@ public class DirectionalLightBuilder {
     private DirectionalLightBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code DirectionalLightBuilder}.
+     *
+     * @return an instance of the {@code DirectionalLightBuilder}.
+     */
     public static DirectionalLightBuilder create() { return new DirectionalLightBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.DirectionalLight#DirectionalLight(javafx.scene.paint.Color color) DirectionalLight(Color)}
+     * and returns an instance of the {@code DirectionalLightBuilder}.
+     *
+     * @return an instance of the {@code DirectionalLightBuilder}.
+     */
     
     public static DirectionalLightBuilder create(javafx.scene.paint.Color color) {
         DirectionalLightBuilder builder = new DirectionalLightBuilder();

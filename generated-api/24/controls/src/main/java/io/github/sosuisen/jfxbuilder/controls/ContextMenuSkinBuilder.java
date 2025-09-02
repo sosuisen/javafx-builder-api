@@ -28,6 +28,12 @@ public class ContextMenuSkinBuilder {
     private ContextMenuSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ContextMenuSkin#ContextMenuSkin(javafx.scene.control.ContextMenu control) ContextMenuSkin(ContextMenu)}
+     * and returns an instance of the {@code ContextMenuSkinBuilder}.
+     *
+     * @return an instance of the {@code ContextMenuSkinBuilder}.
+     */
     
     public static ContextMenuSkinBuilder create(javafx.scene.control.ContextMenu control) {
         ContextMenuSkinBuilder builder = new ContextMenuSkinBuilder();

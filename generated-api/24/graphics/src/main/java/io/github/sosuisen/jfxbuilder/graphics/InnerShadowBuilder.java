@@ -28,9 +28,20 @@ public class InnerShadowBuilder {
     private InnerShadowBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code InnerShadowBuilder}.
+     *
+     * @return an instance of the {@code InnerShadowBuilder}.
+     */
     public static InnerShadowBuilder create() { return new InnerShadowBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.InnerShadow#InnerShadow(double radius, double offsetX, double offsetY, javafx.scene.paint.Color color) InnerShadow(double, double, double, Color)}
+     * and returns an instance of the {@code InnerShadowBuilder}.
+     *
+     * @return an instance of the {@code InnerShadowBuilder}.
+     */
     
     public static InnerShadowBuilder create(double radius, double offsetX, double offsetY, javafx.scene.paint.Color color) {
         InnerShadowBuilder builder = new InnerShadowBuilder();
@@ -39,6 +50,12 @@ public class InnerShadowBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.InnerShadow#InnerShadow(double radius, javafx.scene.paint.Color color) InnerShadow(double, Color)}
+     * and returns an instance of the {@code InnerShadowBuilder}.
+     *
+     * @return an instance of the {@code InnerShadowBuilder}.
+     */
     
     public static InnerShadowBuilder create(double radius, javafx.scene.paint.Color color) {
         InnerShadowBuilder builder = new InnerShadowBuilder();
@@ -47,6 +64,12 @@ public class InnerShadowBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.InnerShadow#InnerShadow(javafx.scene.effect.BlurType blurType, javafx.scene.paint.Color color, double radius, double choke, double offsetX, double offsetY) InnerShadow(BlurType, Color, double, double, double, double)}
+     * and returns an instance of the {@code InnerShadowBuilder}.
+     *
+     * @return an instance of the {@code InnerShadowBuilder}.
+     */
     
     public static InnerShadowBuilder create(javafx.scene.effect.BlurType blurType, javafx.scene.paint.Color color, double radius, double choke, double offsetX, double offsetY) {
         InnerShadowBuilder builder = new InnerShadowBuilder();

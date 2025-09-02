@@ -28,6 +28,12 @@ public class ScrollPaneSkinBuilder {
     private ScrollPaneSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ScrollPaneSkin#ScrollPaneSkin(javafx.scene.control.ScrollPane control) ScrollPaneSkin(ScrollPane)}
+     * and returns an instance of the {@code ScrollPaneSkinBuilder}.
+     *
+     * @return an instance of the {@code ScrollPaneSkinBuilder}.
+     */
     
     public static ScrollPaneSkinBuilder create(javafx.scene.control.ScrollPane control) {
         ScrollPaneSkinBuilder builder = new ScrollPaneSkinBuilder();

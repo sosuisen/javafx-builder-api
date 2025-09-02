@@ -28,9 +28,20 @@ public class CanvasBuilder {
     private CanvasBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code CanvasBuilder}.
+     *
+     * @return an instance of the {@code CanvasBuilder}.
+     */
     public static CanvasBuilder create() { return new CanvasBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.canvas.Canvas#Canvas(double width, double height) Canvas(double, double)}
+     * and returns an instance of the {@code CanvasBuilder}.
+     *
+     * @return an instance of the {@code CanvasBuilder}.
+     */
     
     public static CanvasBuilder create(double width, double height) {
         CanvasBuilder builder = new CanvasBuilder();

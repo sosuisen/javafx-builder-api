@@ -28,9 +28,20 @@ public class TooltipBuilder {
     private TooltipBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code TooltipBuilder}.
+     *
+     * @return an instance of the {@code TooltipBuilder}.
+     */
     public static TooltipBuilder create() { return new TooltipBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Tooltip#Tooltip(java.lang.String text) Tooltip(String)}
+     * and returns an instance of the {@code TooltipBuilder}.
+     *
+     * @return an instance of the {@code TooltipBuilder}.
+     */
     
     public static TooltipBuilder create(java.lang.String text) {
         TooltipBuilder builder = new TooltipBuilder();

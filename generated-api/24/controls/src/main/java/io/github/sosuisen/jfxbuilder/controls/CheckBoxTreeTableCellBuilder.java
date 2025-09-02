@@ -28,9 +28,20 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
     private CheckBoxTreeTableCellBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <S, T> CheckBoxTreeTableCellBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> CheckBoxTreeTableCellBuilder<S, T>}.
+     */
     public static <S, T> CheckBoxTreeTableCellBuilder<S, T> create() { return new CheckBoxTreeTableCellBuilder<S, T>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.CheckBoxTreeTableCell#CheckBoxTreeTableCell(javafx.util.Callback<java.lang.Integer, javafx.beans.value.ObservableValue<java.lang.Boolean>> getSelectedProperty) CheckBoxTreeTableCell(Callback)}
+     * and returns an instance of the {@code <S, T> CheckBoxTreeTableCellBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> CheckBoxTreeTableCellBuilder<S, T>}.
+     */
     
     public static <S, T> CheckBoxTreeTableCellBuilder<S, T> create(javafx.util.Callback<java.lang.Integer, javafx.beans.value.ObservableValue<java.lang.Boolean>> getSelectedProperty) {
         CheckBoxTreeTableCellBuilder<S, T> builder = new CheckBoxTreeTableCellBuilder<S, T>();
@@ -39,6 +50,12 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.CheckBoxTreeTableCell#CheckBoxTreeTableCell(javafx.util.Callback<java.lang.Integer, javafx.beans.value.ObservableValue<java.lang.Boolean>> getSelectedProperty, javafx.util.StringConverter<T> converter) CheckBoxTreeTableCell(Callback, StringConverter)}
+     * and returns an instance of the {@code <S, T> CheckBoxTreeTableCellBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> CheckBoxTreeTableCellBuilder<S, T>}.
+     */
     
     public static <S, T> CheckBoxTreeTableCellBuilder<S, T> create(javafx.util.Callback<java.lang.Integer, javafx.beans.value.ObservableValue<java.lang.Boolean>> getSelectedProperty, javafx.util.StringConverter<T> converter) {
         CheckBoxTreeTableCellBuilder<S, T> builder = new CheckBoxTreeTableCellBuilder<S, T>();

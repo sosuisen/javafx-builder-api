@@ -28,9 +28,20 @@ public class PaneBuilder {
     private PaneBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code PaneBuilder}.
+     *
+     * @return an instance of the {@code PaneBuilder}.
+     */
     public static PaneBuilder create() { return new PaneBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.Pane#Pane(javafx.scene.Node... children) Pane(Node...)}
+     * and returns an instance of the {@code PaneBuilder}.
+     *
+     * @return an instance of the {@code PaneBuilder}.
+     */
     @SafeVarargs
     public static PaneBuilder create(javafx.scene.Node... children) {
         PaneBuilder builder = new PaneBuilder();

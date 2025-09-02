@@ -28,9 +28,20 @@ public class EllipseBuilder {
     private EllipseBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code EllipseBuilder}.
+     *
+     * @return an instance of the {@code EllipseBuilder}.
+     */
     public static EllipseBuilder create() { return new EllipseBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Ellipse#Ellipse(double radiusX, double radiusY) Ellipse(double, double)}
+     * and returns an instance of the {@code EllipseBuilder}.
+     *
+     * @return an instance of the {@code EllipseBuilder}.
+     */
     
     public static EllipseBuilder create(double radiusX, double radiusY) {
         EllipseBuilder builder = new EllipseBuilder();
@@ -39,6 +50,12 @@ public class EllipseBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Ellipse#Ellipse(double centerX, double centerY, double radiusX, double radiusY) Ellipse(double, double, double, double)}
+     * and returns an instance of the {@code EllipseBuilder}.
+     *
+     * @return an instance of the {@code EllipseBuilder}.
+     */
     
     public static EllipseBuilder create(double centerX, double centerY, double radiusX, double radiusY) {
         EllipseBuilder builder = new EllipseBuilder();

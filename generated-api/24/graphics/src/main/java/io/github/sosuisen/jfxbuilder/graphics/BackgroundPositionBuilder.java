@@ -28,6 +28,12 @@ public class BackgroundPositionBuilder {
     private BackgroundPositionBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.BackgroundPosition#BackgroundPosition(javafx.geometry.Side horizontalSide, double horizontalPosition, boolean horizontalAsPercentage, javafx.geometry.Side verticalSide, double verticalPosition, boolean verticalAsPercentage) BackgroundPosition(Side, double, boolean, Side, double, boolean)}
+     * and returns an instance of the {@code BackgroundPositionBuilder}.
+     *
+     * @return an instance of the {@code BackgroundPositionBuilder}.
+     */
     
     public static BackgroundPositionBuilder create(javafx.geometry.Side horizontalSide, double horizontalPosition, boolean horizontalAsPercentage, javafx.geometry.Side verticalSide, double verticalPosition, boolean verticalAsPercentage) {
         BackgroundPositionBuilder builder = new BackgroundPositionBuilder();

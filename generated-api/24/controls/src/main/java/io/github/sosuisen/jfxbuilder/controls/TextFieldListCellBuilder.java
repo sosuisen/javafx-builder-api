@@ -28,9 +28,20 @@ public class TextFieldListCellBuilder<T> {
     private TextFieldListCellBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <T> TextFieldListCellBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> TextFieldListCellBuilder<T>}.
+     */
     public static <T> TextFieldListCellBuilder<T> create() { return new TextFieldListCellBuilder<T>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.TextFieldListCell#TextFieldListCell(javafx.util.StringConverter<T> converter) TextFieldListCell(StringConverter)}
+     * and returns an instance of the {@code <T> TextFieldListCellBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> TextFieldListCellBuilder<T>}.
+     */
     
     public static <T> TextFieldListCellBuilder<T> create(javafx.util.StringConverter<T> converter) {
         TextFieldListCellBuilder<T> builder = new TextFieldListCellBuilder<T>();

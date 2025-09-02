@@ -28,9 +28,20 @@ public class ChoiceBoxTreeCellBuilder<T> {
     private ChoiceBoxTreeCellBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <T> ChoiceBoxTreeCellBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ChoiceBoxTreeCellBuilder<T>}.
+     */
     public static <T> ChoiceBoxTreeCellBuilder<T> create() { return new ChoiceBoxTreeCellBuilder<T>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTreeCell#ChoiceBoxTreeCell(T... items) ChoiceBoxTreeCell(Object...)}
+     * and returns an instance of the {@code <T> ChoiceBoxTreeCellBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ChoiceBoxTreeCellBuilder<T>}.
+     */
     @SafeVarargs
     public static <T> ChoiceBoxTreeCellBuilder<T> create(T... items) {
         ChoiceBoxTreeCellBuilder<T> builder = new ChoiceBoxTreeCellBuilder<T>();
@@ -39,6 +50,12 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTreeCell#ChoiceBoxTreeCell(javafx.collections.ObservableList<T> items) ChoiceBoxTreeCell(ObservableList)}
+     * and returns an instance of the {@code <T> ChoiceBoxTreeCellBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ChoiceBoxTreeCellBuilder<T>}.
+     */
     
     public static <T> ChoiceBoxTreeCellBuilder<T> create(javafx.collections.ObservableList<T> items) {
         ChoiceBoxTreeCellBuilder<T> builder = new ChoiceBoxTreeCellBuilder<T>();
@@ -47,6 +64,12 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTreeCell#ChoiceBoxTreeCell(javafx.util.StringConverter<T> converter, T... items) ChoiceBoxTreeCell(StringConverter, Object...)}
+     * and returns an instance of the {@code <T> ChoiceBoxTreeCellBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ChoiceBoxTreeCellBuilder<T>}.
+     */
     @SafeVarargs
     public static <T> ChoiceBoxTreeCellBuilder<T> create(javafx.util.StringConverter<T> converter, T... items) {
         ChoiceBoxTreeCellBuilder<T> builder = new ChoiceBoxTreeCellBuilder<T>();
@@ -55,6 +78,12 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTreeCell#ChoiceBoxTreeCell(javafx.util.StringConverter<T> converter, javafx.collections.ObservableList<T> items) ChoiceBoxTreeCell(StringConverter, ObservableList)}
+     * and returns an instance of the {@code <T> ChoiceBoxTreeCellBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ChoiceBoxTreeCellBuilder<T>}.
+     */
     
     public static <T> ChoiceBoxTreeCellBuilder<T> create(javafx.util.StringConverter<T> converter, javafx.collections.ObservableList<T> items) {
         ChoiceBoxTreeCellBuilder<T> builder = new ChoiceBoxTreeCellBuilder<T>();

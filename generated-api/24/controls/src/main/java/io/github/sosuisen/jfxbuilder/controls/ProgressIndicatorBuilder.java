@@ -28,9 +28,20 @@ public class ProgressIndicatorBuilder {
     private ProgressIndicatorBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ProgressIndicatorBuilder}.
+     *
+     * @return an instance of the {@code ProgressIndicatorBuilder}.
+     */
     public static ProgressIndicatorBuilder create() { return new ProgressIndicatorBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.ProgressIndicator#ProgressIndicator(double progress) ProgressIndicator(double)}
+     * and returns an instance of the {@code ProgressIndicatorBuilder}.
+     *
+     * @return an instance of the {@code ProgressIndicatorBuilder}.
+     */
     
     public static ProgressIndicatorBuilder create(double progress) {
         ProgressIndicatorBuilder builder = new ProgressIndicatorBuilder();

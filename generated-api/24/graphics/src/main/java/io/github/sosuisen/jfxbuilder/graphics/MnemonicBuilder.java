@@ -28,6 +28,12 @@ public class MnemonicBuilder {
     private MnemonicBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.input.Mnemonic#Mnemonic(javafx.scene.Node node, javafx.scene.input.KeyCombination keyCombination) Mnemonic(Node, KeyCombination)}
+     * and returns an instance of the {@code MnemonicBuilder}.
+     *
+     * @return an instance of the {@code MnemonicBuilder}.
+     */
     
     public static MnemonicBuilder create(javafx.scene.Node node, javafx.scene.input.KeyCombination keyCombination) {
         MnemonicBuilder builder = new MnemonicBuilder();

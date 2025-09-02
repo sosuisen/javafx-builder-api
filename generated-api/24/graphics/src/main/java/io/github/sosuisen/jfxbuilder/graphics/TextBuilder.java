@@ -28,9 +28,20 @@ public class TextBuilder {
     private TextBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code TextBuilder}.
+     *
+     * @return an instance of the {@code TextBuilder}.
+     */
     public static TextBuilder create() { return new TextBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.text.Text#Text(double x, double y, java.lang.String text) Text(double, double, String)}
+     * and returns an instance of the {@code TextBuilder}.
+     *
+     * @return an instance of the {@code TextBuilder}.
+     */
     
     public static TextBuilder create(double x, double y, java.lang.String text) {
         TextBuilder builder = new TextBuilder();
@@ -39,6 +50,12 @@ public class TextBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.text.Text#Text(java.lang.String text) Text(String)}
+     * and returns an instance of the {@code TextBuilder}.
+     *
+     * @return an instance of the {@code TextBuilder}.
+     */
     
     public static TextBuilder create(java.lang.String text) {
         TextBuilder builder = new TextBuilder();

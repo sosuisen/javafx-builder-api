@@ -28,6 +28,12 @@ public class TreeCellSkinBuilder<T> {
     private TreeCellSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.TreeCellSkin#TreeCellSkin(javafx.scene.control.TreeCell<T> control) TreeCellSkin(TreeCell)}
+     * and returns an instance of the {@code <T> TreeCellSkinBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> TreeCellSkinBuilder<T>}.
+     */
     
     public static <T> TreeCellSkinBuilder<T> create(javafx.scene.control.TreeCell<T> control) {
         TreeCellSkinBuilder<T> builder = new TreeCellSkinBuilder<T>();

@@ -28,6 +28,12 @@ public class KeyCharacterCombinationBuilder {
     private KeyCharacterCombinationBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.input.KeyCharacterCombination#KeyCharacterCombination(java.lang.String character, javafx.scene.input.KeyCombination.ModifierValue shift, javafx.scene.input.KeyCombination.ModifierValue control, javafx.scene.input.KeyCombination.ModifierValue alt, javafx.scene.input.KeyCombination.ModifierValue meta, javafx.scene.input.KeyCombination.ModifierValue shortcut) KeyCharacterCombination(String, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue)}
+     * and returns an instance of the {@code KeyCharacterCombinationBuilder}.
+     *
+     * @return an instance of the {@code KeyCharacterCombinationBuilder}.
+     */
     
     public static KeyCharacterCombinationBuilder create(java.lang.String character, javafx.scene.input.KeyCombination.ModifierValue shift, javafx.scene.input.KeyCombination.ModifierValue control, javafx.scene.input.KeyCombination.ModifierValue alt, javafx.scene.input.KeyCombination.ModifierValue meta, javafx.scene.input.KeyCombination.ModifierValue shortcut) {
         KeyCharacterCombinationBuilder builder = new KeyCharacterCombinationBuilder();
@@ -36,6 +42,12 @@ public class KeyCharacterCombinationBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.input.KeyCharacterCombination#KeyCharacterCombination(java.lang.String character, javafx.scene.input.KeyCombination.Modifier... modifiers) KeyCharacterCombination(String, KeyCombination$Modifier...)}
+     * and returns an instance of the {@code KeyCharacterCombinationBuilder}.
+     *
+     * @return an instance of the {@code KeyCharacterCombinationBuilder}.
+     */
     @SafeVarargs
     public static KeyCharacterCombinationBuilder create(java.lang.String character, javafx.scene.input.KeyCombination.Modifier... modifiers) {
         KeyCharacterCombinationBuilder builder = new KeyCharacterCombinationBuilder();

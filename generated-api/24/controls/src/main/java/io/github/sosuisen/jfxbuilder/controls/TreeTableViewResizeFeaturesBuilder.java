@@ -28,6 +28,12 @@ public class TreeTableViewResizeFeaturesBuilder<S> {
     private TreeTableViewResizeFeaturesBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TreeTableView.ResizeFeatures#ResizeFeatures(javafx.scene.control.TreeTableView<S> treeTable, javafx.scene.control.TreeTableColumn<S, ?> column, java.lang.Double delta) ResizeFeatures(TreeTableView, TreeTableColumn, Double)}
+     * and returns an instance of the {@code <S> TreeTableViewResizeFeaturesBuilder<S>}.
+     *
+     * @return an instance of the {@code <S> TreeTableViewResizeFeaturesBuilder<S>}.
+     */
     
     public static <S> TreeTableViewResizeFeaturesBuilder<S> create(javafx.scene.control.TreeTableView<S> treeTable, javafx.scene.control.TreeTableColumn<S, ?> column, java.lang.Double delta) {
         TreeTableViewResizeFeaturesBuilder<S> builder = new TreeTableViewResizeFeaturesBuilder<S>();

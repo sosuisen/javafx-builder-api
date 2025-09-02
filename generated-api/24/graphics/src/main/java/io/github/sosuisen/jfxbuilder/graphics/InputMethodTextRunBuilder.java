@@ -28,6 +28,12 @@ public class InputMethodTextRunBuilder {
     private InputMethodTextRunBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.input.InputMethodTextRun#InputMethodTextRun(java.lang.String text, javafx.scene.input.InputMethodHighlight highlight) InputMethodTextRun(String, InputMethodHighlight)}
+     * and returns an instance of the {@code InputMethodTextRunBuilder}.
+     *
+     * @return an instance of the {@code InputMethodTextRunBuilder}.
+     */
     
     public static InputMethodTextRunBuilder create(java.lang.String text, javafx.scene.input.InputMethodHighlight highlight) {
         InputMethodTextRunBuilder builder = new InputMethodTextRunBuilder();

@@ -28,9 +28,20 @@ public class CircleBuilder {
     private CircleBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code CircleBuilder}.
+     *
+     * @return an instance of the {@code CircleBuilder}.
+     */
     public static CircleBuilder create() { return new CircleBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Circle#Circle(double radius) Circle(double)}
+     * and returns an instance of the {@code CircleBuilder}.
+     *
+     * @return an instance of the {@code CircleBuilder}.
+     */
     
     public static CircleBuilder create(double radius) {
         CircleBuilder builder = new CircleBuilder();
@@ -39,6 +50,12 @@ public class CircleBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Circle#Circle(double centerX, double centerY, double radius) Circle(double, double, double)}
+     * and returns an instance of the {@code CircleBuilder}.
+     *
+     * @return an instance of the {@code CircleBuilder}.
+     */
     
     public static CircleBuilder create(double centerX, double centerY, double radius) {
         CircleBuilder builder = new CircleBuilder();
@@ -47,6 +64,12 @@ public class CircleBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Circle#Circle(double centerX, double centerY, double radius, javafx.scene.paint.Paint fill) Circle(double, double, double, Paint)}
+     * and returns an instance of the {@code CircleBuilder}.
+     *
+     * @return an instance of the {@code CircleBuilder}.
+     */
     
     public static CircleBuilder create(double centerX, double centerY, double radius, javafx.scene.paint.Paint fill) {
         CircleBuilder builder = new CircleBuilder();
@@ -55,6 +78,12 @@ public class CircleBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Circle#Circle(double radius, javafx.scene.paint.Paint fill) Circle(double, Paint)}
+     * and returns an instance of the {@code CircleBuilder}.
+     *
+     * @return an instance of the {@code CircleBuilder}.
+     */
     
     public static CircleBuilder create(double radius, javafx.scene.paint.Paint fill) {
         CircleBuilder builder = new CircleBuilder();

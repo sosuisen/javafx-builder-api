@@ -28,6 +28,12 @@ public class StopBuilder {
     private StopBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.paint.Stop#Stop(double offset, javafx.scene.paint.Color color) Stop(double, Color)}
+     * and returns an instance of the {@code StopBuilder}.
+     *
+     * @return an instance of the {@code StopBuilder}.
+     */
     
     public static StopBuilder create(double offset, javafx.scene.paint.Color color) {
         StopBuilder builder = new StopBuilder();

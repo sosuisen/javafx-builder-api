@@ -28,6 +28,12 @@ public class WritableImageBuilder {
     private WritableImageBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.image.WritableImage#WritableImage(int width, int height) WritableImage(int, int)}
+     * and returns an instance of the {@code WritableImageBuilder}.
+     *
+     * @return an instance of the {@code WritableImageBuilder}.
+     */
     
     public static WritableImageBuilder create(int width, int height) {
         WritableImageBuilder builder = new WritableImageBuilder();
@@ -36,6 +42,12 @@ public class WritableImageBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.image.WritableImage#WritableImage(javafx.scene.image.PixelBuffer<? extends java.nio.Buffer> pixelBuffer) WritableImage(PixelBuffer)}
+     * and returns an instance of the {@code WritableImageBuilder}.
+     *
+     * @return an instance of the {@code WritableImageBuilder}.
+     */
     
     public static WritableImageBuilder create(javafx.scene.image.PixelBuffer<? extends java.nio.Buffer> pixelBuffer) {
         WritableImageBuilder builder = new WritableImageBuilder();
@@ -44,6 +56,12 @@ public class WritableImageBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.image.WritableImage#WritableImage(javafx.scene.image.PixelReader reader, int width, int height) WritableImage(PixelReader, int, int)}
+     * and returns an instance of the {@code WritableImageBuilder}.
+     *
+     * @return an instance of the {@code WritableImageBuilder}.
+     */
     
     public static WritableImageBuilder create(javafx.scene.image.PixelReader reader, int width, int height) {
         WritableImageBuilder builder = new WritableImageBuilder();
@@ -52,6 +70,12 @@ public class WritableImageBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.image.WritableImage#WritableImage(javafx.scene.image.PixelReader reader, int x, int y, int width, int height) WritableImage(PixelReader, int, int, int, int)}
+     * and returns an instance of the {@code WritableImageBuilder}.
+     *
+     * @return an instance of the {@code WritableImageBuilder}.
+     */
     
     public static WritableImageBuilder create(javafx.scene.image.PixelReader reader, int x, int y, int width, int height) {
         WritableImageBuilder builder = new WritableImageBuilder();

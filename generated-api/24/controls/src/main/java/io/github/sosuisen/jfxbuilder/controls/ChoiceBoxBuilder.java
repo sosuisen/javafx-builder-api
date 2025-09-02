@@ -28,9 +28,20 @@ public class ChoiceBoxBuilder<T> {
     private ChoiceBoxBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <T> ChoiceBoxBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ChoiceBoxBuilder<T>}.
+     */
     public static <T> ChoiceBoxBuilder<T> create() { return new ChoiceBoxBuilder<T>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.ChoiceBox#ChoiceBox(javafx.collections.ObservableList<T> items) ChoiceBox(ObservableList)}
+     * and returns an instance of the {@code <T> ChoiceBoxBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ChoiceBoxBuilder<T>}.
+     */
     
     public static <T> ChoiceBoxBuilder<T> create(javafx.collections.ObservableList<T> items) {
         ChoiceBoxBuilder<T> builder = new ChoiceBoxBuilder<T>();

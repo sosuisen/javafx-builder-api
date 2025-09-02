@@ -28,9 +28,20 @@ public class PolylineBuilder {
     private PolylineBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code PolylineBuilder}.
+     *
+     * @return an instance of the {@code PolylineBuilder}.
+     */
     public static PolylineBuilder create() { return new PolylineBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Polyline#Polyline(double... points) Polyline(double...)}
+     * and returns an instance of the {@code PolylineBuilder}.
+     *
+     * @return an instance of the {@code PolylineBuilder}.
+     */
     @SafeVarargs
     public static PolylineBuilder create(double... points) {
         PolylineBuilder builder = new PolylineBuilder();

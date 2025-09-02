@@ -28,6 +28,12 @@ public class BackgroundBuilder {
     private BackgroundBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.Background#Background(java.util.List<javafx.scene.layout.BackgroundFill> fills, java.util.List<javafx.scene.layout.BackgroundImage> images) Background(List, List)}
+     * and returns an instance of the {@code BackgroundBuilder}.
+     *
+     * @return an instance of the {@code BackgroundBuilder}.
+     */
     
     public static BackgroundBuilder create(java.util.List<javafx.scene.layout.BackgroundFill> fills, java.util.List<javafx.scene.layout.BackgroundImage> images) {
         BackgroundBuilder builder = new BackgroundBuilder();
@@ -36,6 +42,12 @@ public class BackgroundBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.Background#Background(javafx.scene.layout.BackgroundFill... fills) Background(BackgroundFill...)}
+     * and returns an instance of the {@code BackgroundBuilder}.
+     *
+     * @return an instance of the {@code BackgroundBuilder}.
+     */
     @SafeVarargs
     public static BackgroundBuilder create(javafx.scene.layout.BackgroundFill... fills) {
         BackgroundBuilder builder = new BackgroundBuilder();
@@ -44,6 +56,12 @@ public class BackgroundBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.Background#Background(javafx.scene.layout.BackgroundFill[] fills, javafx.scene.layout.BackgroundImage[] images) Background(BackgroundFill..., BackgroundImage...)}
+     * and returns an instance of the {@code BackgroundBuilder}.
+     *
+     * @return an instance of the {@code BackgroundBuilder}.
+     */
     
     public static BackgroundBuilder create(javafx.scene.layout.BackgroundFill[] fills, javafx.scene.layout.BackgroundImage[] images) {
         BackgroundBuilder builder = new BackgroundBuilder();
@@ -52,6 +70,12 @@ public class BackgroundBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.Background#Background(javafx.scene.layout.BackgroundImage... images) Background(BackgroundImage...)}
+     * and returns an instance of the {@code BackgroundBuilder}.
+     *
+     * @return an instance of the {@code BackgroundBuilder}.
+     */
     @SafeVarargs
     public static BackgroundBuilder create(javafx.scene.layout.BackgroundImage... images) {
         BackgroundBuilder builder = new BackgroundBuilder();

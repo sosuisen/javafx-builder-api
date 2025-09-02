@@ -28,6 +28,12 @@ public class ScrollBarSkinBuilder {
     private ScrollBarSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ScrollBarSkin#ScrollBarSkin(javafx.scene.control.ScrollBar control) ScrollBarSkin(ScrollBar)}
+     * and returns an instance of the {@code ScrollBarSkinBuilder}.
+     *
+     * @return an instance of the {@code ScrollBarSkinBuilder}.
+     */
     
     public static ScrollBarSkinBuilder create(javafx.scene.control.ScrollBar control) {
         ScrollBarSkinBuilder builder = new ScrollBarSkinBuilder();

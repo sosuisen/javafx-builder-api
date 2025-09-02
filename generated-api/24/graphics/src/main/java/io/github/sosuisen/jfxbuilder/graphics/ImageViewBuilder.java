@@ -28,9 +28,20 @@ public class ImageViewBuilder {
     private ImageViewBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ImageViewBuilder}.
+     *
+     * @return an instance of the {@code ImageViewBuilder}.
+     */
     public static ImageViewBuilder create() { return new ImageViewBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.image.ImageView#ImageView(java.lang.String url) ImageView(String)}
+     * and returns an instance of the {@code ImageViewBuilder}.
+     *
+     * @return an instance of the {@code ImageViewBuilder}.
+     */
     
     public static ImageViewBuilder create(java.lang.String url) {
         ImageViewBuilder builder = new ImageViewBuilder();
@@ -39,6 +50,12 @@ public class ImageViewBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.image.ImageView#ImageView(javafx.scene.image.Image image) ImageView(Image)}
+     * and returns an instance of the {@code ImageViewBuilder}.
+     *
+     * @return an instance of the {@code ImageViewBuilder}.
+     */
     
     public static ImageViewBuilder create(javafx.scene.image.Image image) {
         ImageViewBuilder builder = new ImageViewBuilder();

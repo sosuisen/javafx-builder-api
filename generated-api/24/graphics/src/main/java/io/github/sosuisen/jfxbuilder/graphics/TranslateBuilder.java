@@ -28,9 +28,20 @@ public class TranslateBuilder {
     private TranslateBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code TranslateBuilder}.
+     *
+     * @return an instance of the {@code TranslateBuilder}.
+     */
     public static TranslateBuilder create() { return new TranslateBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.transform.Translate#Translate(double x, double y) Translate(double, double)}
+     * and returns an instance of the {@code TranslateBuilder}.
+     *
+     * @return an instance of the {@code TranslateBuilder}.
+     */
     
     public static TranslateBuilder create(double x, double y) {
         TranslateBuilder builder = new TranslateBuilder();
@@ -39,6 +50,12 @@ public class TranslateBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.transform.Translate#Translate(double x, double y, double z) Translate(double, double, double)}
+     * and returns an instance of the {@code TranslateBuilder}.
+     *
+     * @return an instance of the {@code TranslateBuilder}.
+     */
     
     public static TranslateBuilder create(double x, double y, double z) {
         TranslateBuilder builder = new TranslateBuilder();

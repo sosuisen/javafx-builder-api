@@ -28,9 +28,20 @@ public class ScrollPaneBuilder {
     private ScrollPaneBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ScrollPaneBuilder}.
+     *
+     * @return an instance of the {@code ScrollPaneBuilder}.
+     */
     public static ScrollPaneBuilder create() { return new ScrollPaneBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.ScrollPane#ScrollPane(javafx.scene.Node content) ScrollPane(Node)}
+     * and returns an instance of the {@code ScrollPaneBuilder}.
+     *
+     * @return an instance of the {@code ScrollPaneBuilder}.
+     */
     
     public static ScrollPaneBuilder create(javafx.scene.Node content) {
         ScrollPaneBuilder builder = new ScrollPaneBuilder();

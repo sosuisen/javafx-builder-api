@@ -28,6 +28,11 @@ public class PasswordFieldBuilder {
     private PasswordFieldBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code PasswordFieldBuilder}.
+     *
+     * @return an instance of the {@code PasswordFieldBuilder}.
+     */
     public static PasswordFieldBuilder create() { return new PasswordFieldBuilder(); }
 
     private Object[] constructorArgs;

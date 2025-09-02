@@ -28,9 +28,20 @@ public class MenuBarBuilder {
     private MenuBarBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code MenuBarBuilder}.
+     *
+     * @return an instance of the {@code MenuBarBuilder}.
+     */
     public static MenuBarBuilder create() { return new MenuBarBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.MenuBar#MenuBar(javafx.scene.control.Menu... menus) MenuBar(Menu...)}
+     * and returns an instance of the {@code MenuBarBuilder}.
+     *
+     * @return an instance of the {@code MenuBarBuilder}.
+     */
     @SafeVarargs
     public static MenuBarBuilder create(javafx.scene.control.Menu... menus) {
         MenuBarBuilder builder = new MenuBarBuilder();

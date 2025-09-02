@@ -28,6 +28,12 @@ public class ChoiceBoxSkinBuilder<T> {
     private ChoiceBoxSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ChoiceBoxSkin#ChoiceBoxSkin(javafx.scene.control.ChoiceBox<T> control) ChoiceBoxSkin(ChoiceBox)}
+     * and returns an instance of the {@code <T> ChoiceBoxSkinBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ChoiceBoxSkinBuilder<T>}.
+     */
     
     public static <T> ChoiceBoxSkinBuilder<T> create(javafx.scene.control.ChoiceBox<T> control) {
         ChoiceBoxSkinBuilder<T> builder = new ChoiceBoxSkinBuilder<T>();

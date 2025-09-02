@@ -28,9 +28,20 @@ public class HLineToBuilder {
     private HLineToBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code HLineToBuilder}.
+     *
+     * @return an instance of the {@code HLineToBuilder}.
+     */
     public static HLineToBuilder create() { return new HLineToBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.HLineTo#HLineTo(double x) HLineTo(double)}
+     * and returns an instance of the {@code HLineToBuilder}.
+     *
+     * @return an instance of the {@code HLineToBuilder}.
+     */
     
     public static HLineToBuilder create(double x) {
         HLineToBuilder builder = new HLineToBuilder();

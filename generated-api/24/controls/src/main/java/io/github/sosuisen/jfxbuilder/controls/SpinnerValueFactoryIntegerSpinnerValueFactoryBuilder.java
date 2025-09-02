@@ -28,6 +28,12 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
     private SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#IntegerSpinnerValueFactory(int min, int max) IntegerSpinnerValueFactory(int, int)}
+     * and returns an instance of the {@code SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder}.
+     *
+     * @return an instance of the {@code SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder}.
+     */
     
     public static SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder create(int min, int max) {
         SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder builder = new SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder();
@@ -36,6 +42,12 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#IntegerSpinnerValueFactory(int min, int max, int initialValue) IntegerSpinnerValueFactory(int, int, int)}
+     * and returns an instance of the {@code SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder}.
+     *
+     * @return an instance of the {@code SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder}.
+     */
     
     public static SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder create(int min, int max, int initialValue) {
         SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder builder = new SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder();
@@ -44,6 +56,12 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#IntegerSpinnerValueFactory(int min, int max, int initialValue, int amountToStepBy) IntegerSpinnerValueFactory(int, int, int, int)}
+     * and returns an instance of the {@code SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder}.
+     *
+     * @return an instance of the {@code SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder}.
+     */
     
     public static SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder create(int min, int max, int initialValue, int amountToStepBy) {
         SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder builder = new SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder();

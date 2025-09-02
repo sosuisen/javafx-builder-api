@@ -28,6 +28,12 @@ public class AreaChartBuilder<X, Y> {
     private AreaChartBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.chart.AreaChart#AreaChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) AreaChart(Axis, Axis)}
+     * and returns an instance of the {@code <X, Y> AreaChartBuilder<X, Y>}.
+     *
+     * @return an instance of the {@code <X, Y> AreaChartBuilder<X, Y>}.
+     */
     
     public static <X, Y> AreaChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) {
         AreaChartBuilder<X, Y> builder = new AreaChartBuilder<X, Y>();
@@ -36,6 +42,12 @@ public class AreaChartBuilder<X, Y> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.chart.AreaChart#AreaChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) AreaChart(Axis, Axis, ObservableList)}
+     * and returns an instance of the {@code <X, Y> AreaChartBuilder<X, Y>}.
+     *
+     * @return an instance of the {@code <X, Y> AreaChartBuilder<X, Y>}.
+     */
     
     public static <X, Y> AreaChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) {
         AreaChartBuilder<X, Y> builder = new AreaChartBuilder<X, Y>();

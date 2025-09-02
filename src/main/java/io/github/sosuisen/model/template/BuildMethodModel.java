@@ -33,7 +33,7 @@ public record BuildMethodModel(
             }
 
             boolean hasDefaultConstructor = classMetadata.hasDefaultConstructor();
-            boolean hasGenerics = !classMetadata.getTypeParameters().isEmpty();
+            boolean hasGenerics = !classMetadata.getTypeParametersWithExtends().isEmpty();
             boolean suppressWarnings = hasGenerics;
             boolean isPaneSubclass = isPaneSubclass(classMetadata.getTargetClass());
             String styleClass = isPaneSubclass ? toKebabCase(classMetadata.getCanonicalClassName()) : null;

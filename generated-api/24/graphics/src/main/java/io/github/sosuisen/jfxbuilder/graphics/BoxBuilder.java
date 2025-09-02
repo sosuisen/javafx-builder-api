@@ -28,9 +28,20 @@ public class BoxBuilder {
     private BoxBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code BoxBuilder}.
+     *
+     * @return an instance of the {@code BoxBuilder}.
+     */
     public static BoxBuilder create() { return new BoxBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Box#Box(double width, double height, double depth) Box(double, double, double)}
+     * and returns an instance of the {@code BoxBuilder}.
+     *
+     * @return an instance of the {@code BoxBuilder}.
+     */
     
     public static BoxBuilder create(double width, double height, double depth) {
         BoxBuilder builder = new BoxBuilder();

@@ -28,6 +28,12 @@ public class BackgroundFillBuilder {
     private BackgroundFillBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.BackgroundFill#BackgroundFill(javafx.scene.paint.Paint fill, javafx.scene.layout.CornerRadii radii, javafx.geometry.Insets insets) BackgroundFill(Paint, CornerRadii, Insets)}
+     * and returns an instance of the {@code BackgroundFillBuilder}.
+     *
+     * @return an instance of the {@code BackgroundFillBuilder}.
+     */
     
     public static BackgroundFillBuilder create(javafx.scene.paint.Paint fill, javafx.scene.layout.CornerRadii radii, javafx.geometry.Insets insets) {
         BackgroundFillBuilder builder = new BackgroundFillBuilder();

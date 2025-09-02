@@ -28,9 +28,20 @@ public class TabBuilder {
     private TabBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code TabBuilder}.
+     *
+     * @return an instance of the {@code TabBuilder}.
+     */
     public static TabBuilder create() { return new TabBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Tab#Tab(java.lang.String text) Tab(String)}
+     * and returns an instance of the {@code TabBuilder}.
+     *
+     * @return an instance of the {@code TabBuilder}.
+     */
     
     public static TabBuilder create(java.lang.String text) {
         TabBuilder builder = new TabBuilder();
@@ -39,6 +50,12 @@ public class TabBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.Tab#Tab(java.lang.String text, javafx.scene.Node content) Tab(String, Node)}
+     * and returns an instance of the {@code TabBuilder}.
+     *
+     * @return an instance of the {@code TabBuilder}.
+     */
     
     public static TabBuilder create(java.lang.String text, javafx.scene.Node content) {
         TabBuilder builder = new TabBuilder();

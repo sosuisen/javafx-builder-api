@@ -28,6 +28,12 @@ public class TreeItemTreeModificationEventBuilder<T> {
     private TreeItemTreeModificationEventBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TreeItem.TreeModificationEvent#TreeModificationEvent(javafx.event.EventType<? extends javafx.event.Event> eventType, javafx.scene.control.TreeItem<T> treeItem) TreeModificationEvent(EventType, TreeItem)}
+     * and returns an instance of the {@code <T> TreeItemTreeModificationEventBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> TreeItemTreeModificationEventBuilder<T>}.
+     */
     
     public static <T> TreeItemTreeModificationEventBuilder<T> create(javafx.event.EventType<? extends javafx.event.Event> eventType, javafx.scene.control.TreeItem<T> treeItem) {
         TreeItemTreeModificationEventBuilder<T> builder = new TreeItemTreeModificationEventBuilder<T>();
@@ -36,6 +42,12 @@ public class TreeItemTreeModificationEventBuilder<T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TreeItem.TreeModificationEvent#TreeModificationEvent(javafx.event.EventType<? extends javafx.event.Event> eventType, javafx.scene.control.TreeItem<T> treeItem, T newValue) TreeModificationEvent(EventType, TreeItem, Object)}
+     * and returns an instance of the {@code <T> TreeItemTreeModificationEventBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> TreeItemTreeModificationEventBuilder<T>}.
+     */
     
     public static <T> TreeItemTreeModificationEventBuilder<T> create(javafx.event.EventType<? extends javafx.event.Event> eventType, javafx.scene.control.TreeItem<T> treeItem, T newValue) {
         TreeItemTreeModificationEventBuilder<T> builder = new TreeItemTreeModificationEventBuilder<T>();
@@ -44,6 +56,12 @@ public class TreeItemTreeModificationEventBuilder<T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TreeItem.TreeModificationEvent#TreeModificationEvent(javafx.event.EventType<? extends javafx.event.Event> eventType, javafx.scene.control.TreeItem<T> treeItem, boolean expanded) TreeModificationEvent(EventType, TreeItem, boolean)}
+     * and returns an instance of the {@code <T> TreeItemTreeModificationEventBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> TreeItemTreeModificationEventBuilder<T>}.
+     */
     
     public static <T> TreeItemTreeModificationEventBuilder<T> create(javafx.event.EventType<? extends javafx.event.Event> eventType, javafx.scene.control.TreeItem<T> treeItem, boolean expanded) {
         TreeItemTreeModificationEventBuilder<T> builder = new TreeItemTreeModificationEventBuilder<T>();
@@ -52,6 +70,12 @@ public class TreeItemTreeModificationEventBuilder<T> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TreeItem.TreeModificationEvent#TreeModificationEvent(javafx.event.EventType<? extends javafx.event.Event> eventType, javafx.scene.control.TreeItem<T> treeItem, java.util.List<? extends javafx.scene.control.TreeItem<T>> added, java.util.List<? extends javafx.scene.control.TreeItem<T>> removed) TreeModificationEvent(EventType, TreeItem, List, List)}
+     * and returns an instance of the {@code <T> TreeItemTreeModificationEventBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> TreeItemTreeModificationEventBuilder<T>}.
+     */
     
     public static <T> TreeItemTreeModificationEventBuilder<T> create(javafx.event.EventType<? extends javafx.event.Event> eventType, javafx.scene.control.TreeItem<T> treeItem, java.util.List<? extends javafx.scene.control.TreeItem<T>> added, java.util.List<? extends javafx.scene.control.TreeItem<T>> removed) {
         TreeItemTreeModificationEventBuilder<T> builder = new TreeItemTreeModificationEventBuilder<T>();

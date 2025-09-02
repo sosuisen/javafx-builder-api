@@ -22,11 +22,7 @@ public class ClassMetadata {
         this.packageName = packageName;
     }
 
-    public String getTypeParameters() {
-        return typeParameters;
-    }
-
-    public String gettypeParametersWithExtends() {
+    public String getTypeParametersWithExtends() {
         return typeParametersWithExtends;
     }
 

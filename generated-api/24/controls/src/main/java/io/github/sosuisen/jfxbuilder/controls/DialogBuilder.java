@@ -28,6 +28,11 @@ public class DialogBuilder<R> {
     private DialogBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <R> DialogBuilder<R>}.
+     *
+     * @return an instance of the {@code <R> DialogBuilder<R>}.
+     */
     public static <R> DialogBuilder<R> create() { return new DialogBuilder<R>(); }
 
     private Object[] constructorArgs;

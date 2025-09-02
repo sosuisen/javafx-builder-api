@@ -28,6 +28,12 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
     private SpinnerValueFactoryListSpinnerValueFactoryBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#ListSpinnerValueFactory(javafx.collections.ObservableList<T> items) ListSpinnerValueFactory(ObservableList)}
+     * and returns an instance of the {@code <T> SpinnerValueFactoryListSpinnerValueFactoryBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> SpinnerValueFactoryListSpinnerValueFactoryBuilder<T>}.
+     */
     
     public static <T> SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> create(javafx.collections.ObservableList<T> items) {
         SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> builder = new SpinnerValueFactoryListSpinnerValueFactoryBuilder<T>();

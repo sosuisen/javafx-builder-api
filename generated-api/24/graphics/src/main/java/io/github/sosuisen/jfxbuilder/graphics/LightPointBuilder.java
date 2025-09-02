@@ -28,9 +28,20 @@ public class LightPointBuilder {
     private LightPointBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code LightPointBuilder}.
+     *
+     * @return an instance of the {@code LightPointBuilder}.
+     */
     public static LightPointBuilder create() { return new LightPointBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.Light.Point#Point(double x, double y, double z, javafx.scene.paint.Color color) Point(double, double, double, Color)}
+     * and returns an instance of the {@code LightPointBuilder}.
+     *
+     * @return an instance of the {@code LightPointBuilder}.
+     */
     
     public static LightPointBuilder create(double x, double y, double z, javafx.scene.paint.Color color) {
         LightPointBuilder builder = new LightPointBuilder();

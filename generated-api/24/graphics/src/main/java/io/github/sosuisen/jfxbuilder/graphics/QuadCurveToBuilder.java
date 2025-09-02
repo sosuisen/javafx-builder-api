@@ -28,9 +28,20 @@ public class QuadCurveToBuilder {
     private QuadCurveToBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code QuadCurveToBuilder}.
+     *
+     * @return an instance of the {@code QuadCurveToBuilder}.
+     */
     public static QuadCurveToBuilder create() { return new QuadCurveToBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.QuadCurveTo#QuadCurveTo(double controlX, double controlY, double x, double y) QuadCurveTo(double, double, double, double)}
+     * and returns an instance of the {@code QuadCurveToBuilder}.
+     *
+     * @return an instance of the {@code QuadCurveToBuilder}.
+     */
     
     public static QuadCurveToBuilder create(double controlX, double controlY, double x, double y) {
         QuadCurveToBuilder builder = new QuadCurveToBuilder();

@@ -28,9 +28,20 @@ public class ArcToBuilder {
     private ArcToBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code ArcToBuilder}.
+     *
+     * @return an instance of the {@code ArcToBuilder}.
+     */
     public static ArcToBuilder create() { return new ArcToBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.ArcTo#ArcTo(double radiusX, double radiusY, double xAxisRotation, double x, double y, boolean largeArcFlag, boolean sweepFlag) ArcTo(double, double, double, double, double, boolean, boolean)}
+     * and returns an instance of the {@code ArcToBuilder}.
+     *
+     * @return an instance of the {@code ArcToBuilder}.
+     */
     
     public static ArcToBuilder create(double radiusX, double radiusY, double xAxisRotation, double x, double y, boolean largeArcFlag, boolean sweepFlag) {
         ArcToBuilder builder = new ArcToBuilder();

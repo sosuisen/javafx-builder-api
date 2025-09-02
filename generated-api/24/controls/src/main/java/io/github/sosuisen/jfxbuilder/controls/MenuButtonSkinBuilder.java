@@ -28,6 +28,12 @@ public class MenuButtonSkinBuilder {
     private MenuButtonSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.MenuButtonSkin#MenuButtonSkin(javafx.scene.control.MenuButton control) MenuButtonSkin(MenuButton)}
+     * and returns an instance of the {@code MenuButtonSkinBuilder}.
+     *
+     * @return an instance of the {@code MenuButtonSkinBuilder}.
+     */
     
     public static MenuButtonSkinBuilder create(javafx.scene.control.MenuButton control) {
         MenuButtonSkinBuilder builder = new MenuButtonSkinBuilder();

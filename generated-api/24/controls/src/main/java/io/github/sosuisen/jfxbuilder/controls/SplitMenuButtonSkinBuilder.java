@@ -28,6 +28,12 @@ public class SplitMenuButtonSkinBuilder {
     private SplitMenuButtonSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.SplitMenuButtonSkin#SplitMenuButtonSkin(javafx.scene.control.SplitMenuButton control) SplitMenuButtonSkin(SplitMenuButton)}
+     * and returns an instance of the {@code SplitMenuButtonSkinBuilder}.
+     *
+     * @return an instance of the {@code SplitMenuButtonSkinBuilder}.
+     */
     
     public static SplitMenuButtonSkinBuilder create(javafx.scene.control.SplitMenuButton control) {
         SplitMenuButtonSkinBuilder builder = new SplitMenuButtonSkinBuilder();

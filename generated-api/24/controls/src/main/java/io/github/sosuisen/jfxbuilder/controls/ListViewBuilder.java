@@ -28,9 +28,20 @@ public class ListViewBuilder<T> {
     private ListViewBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <T> ListViewBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ListViewBuilder<T>}.
+     */
     public static <T> ListViewBuilder<T> create() { return new ListViewBuilder<T>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.ListView#ListView(javafx.collections.ObservableList<T> items) ListView(ObservableList)}
+     * and returns an instance of the {@code <T> ListViewBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> ListViewBuilder<T>}.
+     */
     
     public static <T> ListViewBuilder<T> create(javafx.collections.ObservableList<T> items) {
         ListViewBuilder<T> builder = new ListViewBuilder<T>();

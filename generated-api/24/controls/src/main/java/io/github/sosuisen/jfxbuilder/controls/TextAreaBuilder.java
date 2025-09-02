@@ -28,9 +28,20 @@ public class TextAreaBuilder {
     private TextAreaBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code TextAreaBuilder}.
+     *
+     * @return an instance of the {@code TextAreaBuilder}.
+     */
     public static TextAreaBuilder create() { return new TextAreaBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.TextArea#TextArea(java.lang.String text) TextArea(String)}
+     * and returns an instance of the {@code TextAreaBuilder}.
+     *
+     * @return an instance of the {@code TextAreaBuilder}.
+     */
     
     public static TextAreaBuilder create(java.lang.String text) {
         TextAreaBuilder builder = new TextAreaBuilder();

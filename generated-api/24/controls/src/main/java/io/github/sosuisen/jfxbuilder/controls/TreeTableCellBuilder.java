@@ -28,6 +28,11 @@ public class TreeTableCellBuilder<S, T> {
     private TreeTableCellBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <S, T> TreeTableCellBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> TreeTableCellBuilder<S, T>}.
+     */
     public static <S, T> TreeTableCellBuilder<S, T> create() { return new TreeTableCellBuilder<S, T>(); }
 
     private Object[] constructorArgs;

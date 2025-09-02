@@ -28,6 +28,12 @@ public class SplitPaneSkinBuilder {
     private SplitPaneSkinBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.SplitPaneSkin#SplitPaneSkin(javafx.scene.control.SplitPane control) SplitPaneSkin(SplitPane)}
+     * and returns an instance of the {@code SplitPaneSkinBuilder}.
+     *
+     * @return an instance of the {@code SplitPaneSkinBuilder}.
+     */
     
     public static SplitPaneSkinBuilder create(javafx.scene.control.SplitPane control) {
         SplitPaneSkinBuilder builder = new SplitPaneSkinBuilder();

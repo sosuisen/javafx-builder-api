@@ -28,6 +28,12 @@ public class TableColumnHeaderBuilder {
     private TableColumnHeaderBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.skin.TableColumnHeader#TableColumnHeader(javafx.scene.control.TableColumnBase tc) TableColumnHeader(TableColumnBase)}
+     * and returns an instance of the {@code TableColumnHeaderBuilder}.
+     *
+     * @return an instance of the {@code TableColumnHeaderBuilder}.
+     */
     
     public static TableColumnHeaderBuilder create(javafx.scene.control.TableColumnBase tc) {
         TableColumnHeaderBuilder builder = new TableColumnHeaderBuilder();

@@ -28,9 +28,20 @@ public class VBoxBuilder {
     private VBoxBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code VBoxBuilder}.
+     *
+     * @return an instance of the {@code VBoxBuilder}.
+     */
     public static VBoxBuilder create() { return new VBoxBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.VBox#VBox(double spacing) VBox(double)}
+     * and returns an instance of the {@code VBoxBuilder}.
+     *
+     * @return an instance of the {@code VBoxBuilder}.
+     */
     
     public static VBoxBuilder create(double spacing) {
         VBoxBuilder builder = new VBoxBuilder();
@@ -39,6 +50,12 @@ public class VBoxBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.VBox#VBox(double spacing, javafx.scene.Node... children) VBox(double, Node...)}
+     * and returns an instance of the {@code VBoxBuilder}.
+     *
+     * @return an instance of the {@code VBoxBuilder}.
+     */
     @SafeVarargs
     public static VBoxBuilder create(double spacing, javafx.scene.Node... children) {
         VBoxBuilder builder = new VBoxBuilder();
@@ -47,6 +64,12 @@ public class VBoxBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.layout.VBox#VBox(javafx.scene.Node... children) VBox(Node...)}
+     * and returns an instance of the {@code VBoxBuilder}.
+     *
+     * @return an instance of the {@code VBoxBuilder}.
+     */
     @SafeVarargs
     public static VBoxBuilder create(javafx.scene.Node... children) {
         VBoxBuilder builder = new VBoxBuilder();

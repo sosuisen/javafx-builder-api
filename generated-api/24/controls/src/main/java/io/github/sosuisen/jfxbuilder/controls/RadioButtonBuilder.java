@@ -28,9 +28,20 @@ public class RadioButtonBuilder {
     private RadioButtonBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code RadioButtonBuilder}.
+     *
+     * @return an instance of the {@code RadioButtonBuilder}.
+     */
     public static RadioButtonBuilder create() { return new RadioButtonBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.RadioButton#RadioButton(java.lang.String text) RadioButton(String)}
+     * and returns an instance of the {@code RadioButtonBuilder}.
+     *
+     * @return an instance of the {@code RadioButtonBuilder}.
+     */
     
     public static RadioButtonBuilder create(java.lang.String text) {
         RadioButtonBuilder builder = new RadioButtonBuilder();

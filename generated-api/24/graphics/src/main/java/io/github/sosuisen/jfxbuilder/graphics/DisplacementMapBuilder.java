@@ -28,9 +28,20 @@ public class DisplacementMapBuilder {
     private DisplacementMapBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code DisplacementMapBuilder}.
+     *
+     * @return an instance of the {@code DisplacementMapBuilder}.
+     */
     public static DisplacementMapBuilder create() { return new DisplacementMapBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.DisplacementMap#DisplacementMap(javafx.scene.effect.FloatMap mapData) DisplacementMap(FloatMap)}
+     * and returns an instance of the {@code DisplacementMapBuilder}.
+     *
+     * @return an instance of the {@code DisplacementMapBuilder}.
+     */
     
     public static DisplacementMapBuilder create(javafx.scene.effect.FloatMap mapData) {
         DisplacementMapBuilder builder = new DisplacementMapBuilder();
@@ -39,6 +50,12 @@ public class DisplacementMapBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.DisplacementMap#DisplacementMap(javafx.scene.effect.FloatMap mapData, double offsetX, double offsetY, double scaleX, double scaleY) DisplacementMap(FloatMap, double, double, double, double)}
+     * and returns an instance of the {@code DisplacementMapBuilder}.
+     *
+     * @return an instance of the {@code DisplacementMapBuilder}.
+     */
     
     public static DisplacementMapBuilder create(javafx.scene.effect.FloatMap mapData, double offsetX, double offsetY, double scaleX, double scaleY) {
         DisplacementMapBuilder builder = new DisplacementMapBuilder();

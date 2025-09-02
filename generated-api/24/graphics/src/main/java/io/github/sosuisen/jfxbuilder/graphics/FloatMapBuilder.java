@@ -28,9 +28,20 @@ public class FloatMapBuilder {
     private FloatMapBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code FloatMapBuilder}.
+     *
+     * @return an instance of the {@code FloatMapBuilder}.
+     */
     public static FloatMapBuilder create() { return new FloatMapBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.FloatMap#FloatMap(int width, int height) FloatMap(int, int)}
+     * and returns an instance of the {@code FloatMapBuilder}.
+     *
+     * @return an instance of the {@code FloatMapBuilder}.
+     */
     
     public static FloatMapBuilder create(int width, int height) {
         FloatMapBuilder builder = new FloatMapBuilder();

@@ -28,9 +28,20 @@ public class PolygonBuilder {
     private PolygonBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code PolygonBuilder}.
+     *
+     * @return an instance of the {@code PolygonBuilder}.
+     */
     public static PolygonBuilder create() { return new PolygonBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Polygon#Polygon(double... points) Polygon(double...)}
+     * and returns an instance of the {@code PolygonBuilder}.
+     *
+     * @return an instance of the {@code PolygonBuilder}.
+     */
     @SafeVarargs
     public static PolygonBuilder create(double... points) {
         PolygonBuilder builder = new PolygonBuilder();

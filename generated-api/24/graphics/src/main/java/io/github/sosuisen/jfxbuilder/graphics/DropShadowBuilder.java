@@ -28,9 +28,20 @@ public class DropShadowBuilder {
     private DropShadowBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code DropShadowBuilder}.
+     *
+     * @return an instance of the {@code DropShadowBuilder}.
+     */
     public static DropShadowBuilder create() { return new DropShadowBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.DropShadow#DropShadow(double radius, double offsetX, double offsetY, javafx.scene.paint.Color color) DropShadow(double, double, double, Color)}
+     * and returns an instance of the {@code DropShadowBuilder}.
+     *
+     * @return an instance of the {@code DropShadowBuilder}.
+     */
     
     public static DropShadowBuilder create(double radius, double offsetX, double offsetY, javafx.scene.paint.Color color) {
         DropShadowBuilder builder = new DropShadowBuilder();
@@ -39,6 +50,12 @@ public class DropShadowBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.DropShadow#DropShadow(double radius, javafx.scene.paint.Color color) DropShadow(double, Color)}
+     * and returns an instance of the {@code DropShadowBuilder}.
+     *
+     * @return an instance of the {@code DropShadowBuilder}.
+     */
     
     public static DropShadowBuilder create(double radius, javafx.scene.paint.Color color) {
         DropShadowBuilder builder = new DropShadowBuilder();
@@ -47,6 +64,12 @@ public class DropShadowBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.effect.DropShadow#DropShadow(javafx.scene.effect.BlurType blurType, javafx.scene.paint.Color color, double radius, double spread, double offsetX, double offsetY) DropShadow(BlurType, Color, double, double, double, double)}
+     * and returns an instance of the {@code DropShadowBuilder}.
+     *
+     * @return an instance of the {@code DropShadowBuilder}.
+     */
     
     public static DropShadowBuilder create(javafx.scene.effect.BlurType blurType, javafx.scene.paint.Color color, double radius, double spread, double offsetX, double offsetY) {
         DropShadowBuilder builder = new DropShadowBuilder();

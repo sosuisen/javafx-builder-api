@@ -28,9 +28,20 @@ public class SphereBuilder {
     private SphereBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code SphereBuilder}.
+     *
+     * @return an instance of the {@code SphereBuilder}.
+     */
     public static SphereBuilder create() { return new SphereBuilder(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Sphere#Sphere(double radius) Sphere(double)}
+     * and returns an instance of the {@code SphereBuilder}.
+     *
+     * @return an instance of the {@code SphereBuilder}.
+     */
     
     public static SphereBuilder create(double radius) {
         SphereBuilder builder = new SphereBuilder();
@@ -39,6 +50,12 @@ public class SphereBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.shape.Sphere#Sphere(double radius, int divisions) Sphere(double, int)}
+     * and returns an instance of the {@code SphereBuilder}.
+     *
+     * @return an instance of the {@code SphereBuilder}.
+     */
     
     public static SphereBuilder create(double radius, int divisions) {
         SphereBuilder builder = new SphereBuilder();

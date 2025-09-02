@@ -28,6 +28,12 @@ public class ZoomEventBuilder {
     private ZoomEventBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.input.ZoomEvent#ZoomEvent(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.ZoomEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, boolean inertia, double zoomFactor, double totalZoomFactor, javafx.scene.input.PickResult pickResult) ZoomEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
+     * and returns an instance of the {@code ZoomEventBuilder}.
+     *
+     * @return an instance of the {@code ZoomEventBuilder}.
+     */
     
     public static ZoomEventBuilder create(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.ZoomEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, boolean inertia, double zoomFactor, double totalZoomFactor, javafx.scene.input.PickResult pickResult) {
         ZoomEventBuilder builder = new ZoomEventBuilder();
@@ -36,6 +42,12 @@ public class ZoomEventBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.input.ZoomEvent#ZoomEvent(javafx.event.EventType<javafx.scene.input.ZoomEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, boolean inertia, double zoomFactor, double totalZoomFactor, javafx.scene.input.PickResult pickResult) ZoomEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
+     * and returns an instance of the {@code ZoomEventBuilder}.
+     *
+     * @return an instance of the {@code ZoomEventBuilder}.
+     */
     
     public static ZoomEventBuilder create(javafx.event.EventType<javafx.scene.input.ZoomEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, boolean inertia, double zoomFactor, double totalZoomFactor, javafx.scene.input.PickResult pickResult) {
         ZoomEventBuilder builder = new ZoomEventBuilder();

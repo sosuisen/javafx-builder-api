@@ -28,6 +28,12 @@ public class MediaPlayerBuilder {
     private MediaPlayerBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.media.MediaPlayer#MediaPlayer(javafx.scene.media.Media media) MediaPlayer(Media)}
+     * and returns an instance of the {@code MediaPlayerBuilder}.
+     *
+     * @return an instance of the {@code MediaPlayerBuilder}.
+     */
     
     public static MediaPlayerBuilder create(javafx.scene.media.Media media) {
         MediaPlayerBuilder builder = new MediaPlayerBuilder();

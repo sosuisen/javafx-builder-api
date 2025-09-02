@@ -28,6 +28,12 @@ public class TreeItemPropertyValueFactoryBuilder<S, T> {
     private TreeItemPropertyValueFactoryBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.control.cell.TreeItemPropertyValueFactory#TreeItemPropertyValueFactory(java.lang.String property) TreeItemPropertyValueFactory(String)}
+     * and returns an instance of the {@code <S, T> TreeItemPropertyValueFactoryBuilder<S, T>}.
+     *
+     * @return an instance of the {@code <S, T> TreeItemPropertyValueFactoryBuilder<S, T>}.
+     */
     
     public static <S, T> TreeItemPropertyValueFactoryBuilder<S, T> create(java.lang.String property) {
         TreeItemPropertyValueFactoryBuilder<S, T> builder = new TreeItemPropertyValueFactoryBuilder<S, T>();

@@ -28,9 +28,20 @@ public class XYChartDataBuilder<X, Y> {
     private XYChartDataBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <X, Y> XYChartDataBuilder<X, Y>}.
+     *
+     * @return an instance of the {@code <X, Y> XYChartDataBuilder<X, Y>}.
+     */
     public static <X, Y> XYChartDataBuilder<X, Y> create() { return new XYChartDataBuilder<X, Y>(); }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.chart.XYChart.Data#Data(X xValue, Y yValue) Data(Object, Object)}
+     * and returns an instance of the {@code <X, Y> XYChartDataBuilder<X, Y>}.
+     *
+     * @return an instance of the {@code <X, Y> XYChartDataBuilder<X, Y>}.
+     */
     
     public static <X, Y> XYChartDataBuilder<X, Y> create(X xValue, Y yValue) {
         XYChartDataBuilder<X, Y> builder = new XYChartDataBuilder<X, Y>();
@@ -39,6 +50,12 @@ public class XYChartDataBuilder<X, Y> {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.chart.XYChart.Data#Data(X xValue, Y yValue, java.lang.Object extraValue) Data(Object, Object, Object)}
+     * and returns an instance of the {@code <X, Y> XYChartDataBuilder<X, Y>}.
+     *
+     * @return an instance of the {@code <X, Y> XYChartDataBuilder<X, Y>}.
+     */
     
     public static <X, Y> XYChartDataBuilder<X, Y> create(X xValue, Y yValue, java.lang.Object extraValue) {
         XYChartDataBuilder<X, Y> builder = new XYChartDataBuilder<X, Y>();

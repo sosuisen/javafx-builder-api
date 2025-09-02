@@ -28,6 +28,12 @@ public class ImageBuilder {
     private ImageBuilder() {}
     
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.image.Image#Image(java.io.InputStream is) Image(InputStream)}
+     * and returns an instance of the {@code ImageBuilder}.
+     *
+     * @return an instance of the {@code ImageBuilder}.
+     */
     
     public static ImageBuilder create(java.io.InputStream is) {
         ImageBuilder builder = new ImageBuilder();
@@ -36,6 +42,12 @@ public class ImageBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.image.Image#Image(java.io.InputStream is, double requestedWidth, double requestedHeight, boolean preserveRatio, boolean smooth) Image(InputStream, double, double, boolean, boolean)}
+     * and returns an instance of the {@code ImageBuilder}.
+     *
+     * @return an instance of the {@code ImageBuilder}.
+     */
     
     public static ImageBuilder create(java.io.InputStream is, double requestedWidth, double requestedHeight, boolean preserveRatio, boolean smooth) {
         ImageBuilder builder = new ImageBuilder();
@@ -44,6 +56,12 @@ public class ImageBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.image.Image#Image(java.lang.String url) Image(String)}
+     * and returns an instance of the {@code ImageBuilder}.
+     *
+     * @return an instance of the {@code ImageBuilder}.
+     */
     
     public static ImageBuilder create(java.lang.String url) {
         ImageBuilder builder = new ImageBuilder();
@@ -52,6 +70,12 @@ public class ImageBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.image.Image#Image(java.lang.String url, boolean backgroundLoading) Image(String, boolean)}
+     * and returns an instance of the {@code ImageBuilder}.
+     *
+     * @return an instance of the {@code ImageBuilder}.
+     */
     
     public static ImageBuilder create(java.lang.String url, boolean backgroundLoading) {
         ImageBuilder builder = new ImageBuilder();
@@ -60,6 +84,12 @@ public class ImageBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.image.Image#Image(java.lang.String url, double requestedWidth, double requestedHeight, boolean preserveRatio, boolean smooth) Image(String, double, double, boolean, boolean)}
+     * and returns an instance of the {@code ImageBuilder}.
+     *
+     * @return an instance of the {@code ImageBuilder}.
+     */
     
     public static ImageBuilder create(java.lang.String url, double requestedWidth, double requestedHeight, boolean preserveRatio, boolean smooth) {
         ImageBuilder builder = new ImageBuilder();
@@ -68,6 +98,12 @@ public class ImageBuilder {
     }
 
 
+    /**
+     * Accepts the same arguments as {@link javafx.scene.image.Image#Image(java.lang.String url, double requestedWidth, double requestedHeight, boolean preserveRatio, boolean smooth, boolean backgroundLoading) Image(String, double, double, boolean, boolean, boolean)}
+     * and returns an instance of the {@code ImageBuilder}.
+     *
+     * @return an instance of the {@code ImageBuilder}.
+     */
     
     public static ImageBuilder create(java.lang.String url, double requestedWidth, double requestedHeight, boolean preserveRatio, boolean smooth, boolean backgroundLoading) {
         ImageBuilder builder = new ImageBuilder();

@@ -28,6 +28,11 @@ public class CellBuilder<T> {
     private CellBuilder() {}
     
 
+    /**
+     * Returns an instance of the {@code <T> CellBuilder<T>}.
+     *
+     * @return an instance of the {@code <T> CellBuilder<T>}.
+     */
     public static <T> CellBuilder<T> create() { return new CellBuilder<T>(); }
 
     private Object[] constructorArgs;
