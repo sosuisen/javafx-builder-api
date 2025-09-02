@@ -1,4 +1,4 @@
-package io.github.sosuisen.model;
+package io.github.sosuisen.model.data;
 
 import java.io.IOException;
 import java.io.InputStream;

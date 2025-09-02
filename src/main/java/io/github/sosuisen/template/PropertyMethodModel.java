@@ -1,6 +1,6 @@
 package io.github.sosuisen.template;
 
-import io.github.sosuisen.model.ClassMetadata;
+import io.github.sosuisen.model.data.ClassMetadata;
 
 /**
  * Data model for property method JTE template

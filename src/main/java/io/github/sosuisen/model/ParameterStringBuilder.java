@@ -1,10 +1,11 @@
 package io.github.sosuisen.model;
 
 import java.lang.reflect.Parameter;
+import java.util.Map;
 
 import io.github.sosuisen.mapper.TypeMappingManager;
 
-public class Parameters {
+public class ParameterStringBuilder {
     public static String buildParameterListWithTypes(Parameter[] parameters, String className, boolean isVarArgs) {
         StringBuilder paramList = new StringBuilder();
         for (int i = 0; i < parameters.length; i++) {
@@ -44,12 +45,46 @@ public class Parameters {
         StringBuilder argList = new StringBuilder();
         for (int i = 0; i < parameters.length; i++) {
             Parameter param = parameters[i];
-            String typeName = TypeNameConverter.toReadableTypeName(param.getType().getName());
+            String typeName = toReadableTypeName(param.getType().getName());
             argList.append(typeName);
             if (i < parameters.length - 1) {
                 argList.append(", ");
             }
         }
         return argList.toString();
+    }
+
+    // Mapping for primitive array type descriptors to readable names with varargs
+    private static final Map<String, String> PRIMITIVE_ARRAY_MAP = Map.of(
+            "[Z", "boolean...",
+            "[B", "byte...",
+            "[C", "char...",
+            "[D", "double...",
+            "[F", "float...",
+            "[I", "int...",
+            "[J", "long...",
+            "[S", "short...");
+
+    /**
+     * Converts internal Java type name to readable format with varargs notation.
+     * Handles primitive arrays like [D -> double..., [I -> int..., etc.
+     * 
+     * @param internalTypeName The internal type name from Class.getName()
+     * @return Readable type name with varargs notation
+     */
+    private static String toReadableTypeName(String internalTypeName) {
+        // Handle primitive arrays
+        if (PRIMITIVE_ARRAY_MAP.containsKey(internalTypeName)) {
+            return PRIMITIVE_ARRAY_MAP.get(internalTypeName);
+        }
+
+        // Handle object arrays like [Ljava.lang.String; -> java.lang.String...
+        if (internalTypeName.startsWith("[L") && internalTypeName.endsWith(";")) {
+            String className = internalTypeName.substring(2, internalTypeName.length() - 1);
+            return className + "...";
+        }
+
+        // For regular types, return as-is
+        return internalTypeName;
     }
 }

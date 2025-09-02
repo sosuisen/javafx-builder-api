@@ -3,8 +3,8 @@ package io.github.sosuisen.template;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Parameter;
 
-import io.github.sosuisen.model.ClassMetadata;
-import io.github.sosuisen.model.Parameters;
+import io.github.sosuisen.model.ParameterStringBuilder;
+import io.github.sosuisen.model.data.ClassMetadata;
 
 /**
  * Data model for constructor method JTE template
@@ -50,9 +50,10 @@ public record CreateMethodModel(
             boolean isVarArgs = constructor.isVarArgs();
 
             if (!isDefaultConstructor) {
-                parameterList = Parameters.buildParameterListWithTypes(parameters, classMetadata.getClassName(),
+                parameterList = ParameterStringBuilder.buildParameterListWithTypes(parameters,
+                        classMetadata.getClassName(),
                         isVarArgs);
-                argumentList = Parameters.buildParameterListNamesOnly(parameters);
+                argumentList = ParameterStringBuilder.buildParameterListNamesOnly(parameters);
             }
 
             return new CreateMethodModel(

@@ -15,11 +15,11 @@ import java.util.stream.Collectors;
 
 import io.github.sosuisen.mapper.MethodAnnotationManager;
 import io.github.sosuisen.mapper.TypeMappingManager;
-import io.github.sosuisen.model.ClassMetadata;
 import io.github.sosuisen.model.MethodComparator;
-import io.github.sosuisen.model.ParameterInfo;
-import io.github.sosuisen.model.Parameters;
-import io.github.sosuisen.model.StaticSetterInfo;
+import io.github.sosuisen.model.ParameterStringBuilder;
+import io.github.sosuisen.model.data.ClassMetadata;
+import io.github.sosuisen.model.data.ParameterInfo;
+import io.github.sosuisen.model.data.StaticSetterInfo;
 import gg.jte.ContentType;
 import gg.jte.TemplateEngine;
 import gg.jte.TemplateOutput;
@@ -182,10 +182,11 @@ public class BuilderClassGenerator {
             methodName = Character.toLowerCase(methodName.charAt(0)) + methodName.substring(1);
 
             Parameter[] parameters = method.getParameters();
-            String parameterList = Parameters.buildParameterListWithTypes(parameters, classMetadata.getClassName(),
+            String parameterList = ParameterStringBuilder.buildParameterListWithTypes(parameters,
+                    classMetadata.getClassName(),
                     method.isVarArgs());
-            String parameterTypeList = Parameters.buildParameterListTypesOnly(parameters);
-            String argumentList = Parameters.buildParameterListNamesOnly(parameters);
+            String parameterTypeList = ParameterStringBuilder.buildParameterListTypesOnly(parameters);
+            String argumentList = ParameterStringBuilder.buildParameterListNamesOnly(parameters);
 
             String methodAnnotation = MethodAnnotationManager.getMethodAnnotation(classMetadata.getClassName(),
                     method.getName());

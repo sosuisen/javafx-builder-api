@@ -8,6 +8,8 @@ import java.util.List;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
+import io.github.sosuisen.model.data.BuildInfo;
+
 public class JarExtractor {
     private static final String SCENE_CLASS_STARTS_WITH = "javafx.scene.";
     private static final String STAGE_CLASS = "javafx.stage.Stage";

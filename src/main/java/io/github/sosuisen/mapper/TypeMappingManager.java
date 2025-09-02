@@ -1,13 +1,13 @@
 package io.github.sosuisen.mapper;
 
-import io.github.sosuisen.model.BuildInfo;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 import java.util.function.Function;
+
+import io.github.sosuisen.model.data.BuildInfo;
 
 public class TypeMappingManager {
     private static final Map<String, String> TYPE_MAPPINGS = new HashMap<>();
