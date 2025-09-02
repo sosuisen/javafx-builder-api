@@ -3,20 +3,16 @@ package io.github.sosuisen;
 import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
-import java.lang.reflect.Parameter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
 import io.github.sosuisen.model.MethodComparator;
-import io.github.sosuisen.model.ParameterStringBuilder;
 import io.github.sosuisen.model.data.ClassMetadata;
-import io.github.sosuisen.model.data.ParameterInfo;
 import io.github.sosuisen.model.data.StaticSetterInfo;
 import io.github.sosuisen.model.mapper.MethodAnnotationManager;
 import io.github.sosuisen.model.mapper.TypeMappingManager;
@@ -276,35 +272,21 @@ public class BuilderClassGenerator {
             if (method.getName().endsWith("Property") && !java.lang.reflect.Modifier.isStatic(method.getModifiers())
                     && method.getParameterCount() == 0) {
 
-                String propertyName = method.getName(); // e.g., "textProperty"
-                String methodBaseName = propertyName.substring(0, propertyName.length() - 8); // Remove "Property",
-                                                                                              // e.g., "text"
-                String methodName = methodBaseName + "PropertyApply"; // e.g., "textPropertyApply"
-
-                // Get the return type of the property method with generics (e.g.,
-                // StringProperty, ObservableList<Node>)
-                String propertyType = method.getGenericReturnType().getTypeName().replace("$", ".");
-                // Check for type replacement
-                propertyType = TypeMappingManager.getReplacement(classMetadata.getClassName(), propertyType);
-
-                String methodAnnotation = MethodAnnotationManager.getMethodAnnotation(classMetadata.getClassName(),
-                        propertyName);
-                PropertyMethodModel model = PropertyMethodModel.builder()
-                        .classMetadata(classMetadata)
-                        .methodName(methodName)
-                        .propertyName(propertyName)
-                        .propertyType(propertyType)
-                        .methodAnnotation(methodAnnotation)
-                        .build();
-
-                TemplateOutput output = new StringOutput();
-                templateEngine.render("property-method.jte", model, output);
-
-                content.append(output.toString());
+                content.append(generatePropertyMethod(method));
             }
         }
 
         return content.toString();
+    }
+
+    private String generatePropertyMethod(Method method) {
+        PropertyMethodModel model = PropertyMethodModel.builder()
+                .classMetadata(classMetadata)
+                .propertyMethod(method)
+                .build();
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("property-method.jte", model, output);
+        return output.toString();
     }
 
     private String generateSpecialMethods() {
