@@ -1294,7 +1294,7 @@ public class SplitMenuButtonBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitMenuButton#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final SplitMenuButtonBuilder addItems(javafx.scene.control.MenuItem... elements) {
         operations.add(obj -> {
@@ -1307,7 +1307,7 @@ public class SplitMenuButtonBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitMenuButton#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final SplitMenuButtonBuilder addItems(java.util.Collection<? extends javafx.scene.control.MenuItem> col) {
         operations.add(obj -> {
             obj.getItems().addAll(col);
@@ -1320,7 +1320,7 @@ public class SplitMenuButtonBuilder {
      * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitMenuButton#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public static SplitMenuButtonBuilder withItems(javafx.scene.control.MenuItem... elements) {
         SplitMenuButtonBuilder builder = new SplitMenuButtonBuilder();
@@ -1331,7 +1331,7 @@ public class SplitMenuButtonBuilder {
      * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitMenuButton#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     public static SplitMenuButtonBuilder withItems(java.util.Collection<? extends javafx.scene.control.MenuItem> col) {
         SplitMenuButtonBuilder builder = new SplitMenuButtonBuilder();
         return builder.addItems(col);
@@ -1342,7 +1342,7 @@ public class SplitMenuButtonBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitMenuButton#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final SplitMenuButtonBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1355,7 +1355,7 @@ public class SplitMenuButtonBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitMenuButton#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final SplitMenuButtonBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1369,7 +1369,7 @@ public class SplitMenuButtonBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitMenuButton#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final SplitMenuButtonBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1382,7 +1382,7 @@ public class SplitMenuButtonBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitMenuButton#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final SplitMenuButtonBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1396,7 +1396,7 @@ public class SplitMenuButtonBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitMenuButton#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final SplitMenuButtonBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1409,7 +1409,7 @@ public class SplitMenuButtonBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitMenuButton#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final SplitMenuButtonBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);

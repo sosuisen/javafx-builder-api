@@ -1190,7 +1190,7 @@ public class CategoryAxisBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getCategories()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final CategoryAxisBuilder addCategories(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1203,7 +1203,7 @@ public class CategoryAxisBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getCategories()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final CategoryAxisBuilder addCategories(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getCategories().addAll(col);
@@ -1216,7 +1216,7 @@ public class CategoryAxisBuilder {
      * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getCategories()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public static CategoryAxisBuilder withCategories(java.lang.String... elements) {
         CategoryAxisBuilder builder = new CategoryAxisBuilder();
@@ -1227,7 +1227,7 @@ public class CategoryAxisBuilder {
      * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getCategories()} method.
      * 
      * @return builder instance
-     */     
+     */
     public static CategoryAxisBuilder withCategories(java.util.Collection<? extends java.lang.String> col) {
         CategoryAxisBuilder builder = new CategoryAxisBuilder();
         return builder.addCategories(col);
@@ -1238,7 +1238,7 @@ public class CategoryAxisBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final CategoryAxisBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1251,7 +1251,7 @@ public class CategoryAxisBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final CategoryAxisBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1265,7 +1265,7 @@ public class CategoryAxisBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final CategoryAxisBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1278,7 +1278,7 @@ public class CategoryAxisBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final CategoryAxisBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1292,7 +1292,7 @@ public class CategoryAxisBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getTickMarks()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final CategoryAxisBuilder addTickMarks(javafx.scene.chart.Axis.TickMark<String>... elements) {
         operations.add(obj -> {
@@ -1305,7 +1305,7 @@ public class CategoryAxisBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getTickMarks()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final CategoryAxisBuilder addTickMarks(java.util.Collection<? extends javafx.scene.chart.Axis.TickMark<String>> col) {
         operations.add(obj -> {
             obj.getTickMarks().addAll(col);
@@ -1318,7 +1318,7 @@ public class CategoryAxisBuilder {
      * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getTickMarks()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public static CategoryAxisBuilder withTickMarks(javafx.scene.chart.Axis.TickMark<String>... elements) {
         CategoryAxisBuilder builder = new CategoryAxisBuilder();
@@ -1329,7 +1329,7 @@ public class CategoryAxisBuilder {
      * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getTickMarks()} method.
      * 
      * @return builder instance
-     */     
+     */
     public static CategoryAxisBuilder withTickMarks(java.util.Collection<? extends javafx.scene.chart.Axis.TickMark<String>> col) {
         CategoryAxisBuilder builder = new CategoryAxisBuilder();
         return builder.addTickMarks(col);
@@ -1340,7 +1340,7 @@ public class CategoryAxisBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final CategoryAxisBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1353,7 +1353,7 @@ public class CategoryAxisBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.CategoryAxis#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final CategoryAxisBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);

@@ -206,7 +206,7 @@ public class CheckBoxTreeItemBuilder<T> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBoxTreeItem#getChildren()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final CheckBoxTreeItemBuilder<T> addChildren(javafx.scene.control.TreeItem<T>... elements) {
         operations.add(obj -> {
@@ -219,7 +219,7 @@ public class CheckBoxTreeItemBuilder<T> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBoxTreeItem#getChildren()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final CheckBoxTreeItemBuilder<T> addChildren(java.util.Collection<? extends javafx.scene.control.TreeItem<T>> col) {
         operations.add(obj -> {
             obj.getChildren().addAll(col);
@@ -232,7 +232,7 @@ public class CheckBoxTreeItemBuilder<T> {
      * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBoxTreeItem#getChildren()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public static <T> CheckBoxTreeItemBuilder<T> withChildren(javafx.scene.control.TreeItem<T>... elements) {
         CheckBoxTreeItemBuilder<T> builder = new CheckBoxTreeItemBuilder<T>();
@@ -243,7 +243,7 @@ public class CheckBoxTreeItemBuilder<T> {
      * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.CheckBoxTreeItem#getChildren()} method.
      * 
      * @return builder instance
-     */     
+     */
     public static <T> CheckBoxTreeItemBuilder<T> withChildren(java.util.Collection<? extends javafx.scene.control.TreeItem<T>> col) {
         CheckBoxTreeItemBuilder<T> builder = new CheckBoxTreeItemBuilder<T>();
         return builder.addChildren(col);

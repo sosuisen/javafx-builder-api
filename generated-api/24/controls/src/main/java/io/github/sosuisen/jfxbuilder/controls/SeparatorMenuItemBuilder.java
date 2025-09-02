@@ -242,7 +242,7 @@ public class SeparatorMenuItemBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SeparatorMenuItem#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final SeparatorMenuItemBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -255,7 +255,7 @@ public class SeparatorMenuItemBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SeparatorMenuItem#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final SeparatorMenuItemBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);

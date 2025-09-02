@@ -1171,7 +1171,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedAreaChart#getData()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final StackedAreaChartBuilder<X, Y> addData(javafx.scene.chart.XYChart.Series<X, Y>... elements) {
         operations.add(obj -> {
@@ -1184,7 +1184,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedAreaChart#getData()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final StackedAreaChartBuilder<X, Y> addData(java.util.Collection<? extends javafx.scene.chart.XYChart.Series<X, Y>> col) {
         operations.add(obj -> {
             obj.getData().addAll(col);
@@ -1198,7 +1198,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedAreaChart#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final StackedAreaChartBuilder<X, Y> addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1211,7 +1211,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedAreaChart#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final StackedAreaChartBuilder<X, Y> addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1225,7 +1225,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedAreaChart#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final StackedAreaChartBuilder<X, Y> addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1238,7 +1238,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedAreaChart#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final StackedAreaChartBuilder<X, Y> addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1252,7 +1252,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedAreaChart#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final StackedAreaChartBuilder<X, Y> addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1265,7 +1265,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedAreaChart#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final StackedAreaChartBuilder<X, Y> addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);

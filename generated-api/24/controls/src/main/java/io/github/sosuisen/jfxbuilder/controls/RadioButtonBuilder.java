@@ -1240,7 +1240,7 @@ public class RadioButtonBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioButton#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final RadioButtonBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1253,7 +1253,7 @@ public class RadioButtonBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioButton#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final RadioButtonBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1267,7 +1267,7 @@ public class RadioButtonBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioButton#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final RadioButtonBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1280,7 +1280,7 @@ public class RadioButtonBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioButton#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final RadioButtonBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1294,7 +1294,7 @@ public class RadioButtonBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioButton#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final RadioButtonBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1307,7 +1307,7 @@ public class RadioButtonBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.RadioButton#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final RadioButtonBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);

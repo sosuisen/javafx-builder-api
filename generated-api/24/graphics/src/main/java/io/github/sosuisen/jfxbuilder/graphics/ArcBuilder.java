@@ -1020,7 +1020,7 @@ public class ArcBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getStrokeDashArray()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final ArcBuilder addStrokeDashArray(java.lang.Double... elements) {
         operations.add(obj -> {
@@ -1033,7 +1033,7 @@ public class ArcBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getStrokeDashArray()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final ArcBuilder addStrokeDashArray(java.util.Collection<? extends java.lang.Double> col) {
         operations.add(obj -> {
             obj.getStrokeDashArray().addAll(col);
@@ -1046,7 +1046,7 @@ public class ArcBuilder {
      * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getStrokeDashArray()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public static ArcBuilder withStrokeDashArray(java.lang.Double... elements) {
         ArcBuilder builder = new ArcBuilder();
@@ -1057,7 +1057,7 @@ public class ArcBuilder {
      * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getStrokeDashArray()} method.
      * 
      * @return builder instance
-     */     
+     */
     public static ArcBuilder withStrokeDashArray(java.util.Collection<? extends java.lang.Double> col) {
         ArcBuilder builder = new ArcBuilder();
         return builder.addStrokeDashArray(col);
@@ -1068,7 +1068,7 @@ public class ArcBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final ArcBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1081,7 +1081,7 @@ public class ArcBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final ArcBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1095,7 +1095,7 @@ public class ArcBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final ArcBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1108,7 +1108,7 @@ public class ArcBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Arc#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final ArcBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);

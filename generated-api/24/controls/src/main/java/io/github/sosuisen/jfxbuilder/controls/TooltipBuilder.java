@@ -580,7 +580,7 @@ public class TooltipBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Tooltip#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final TooltipBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -593,7 +593,7 @@ public class TooltipBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Tooltip#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final TooltipBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);

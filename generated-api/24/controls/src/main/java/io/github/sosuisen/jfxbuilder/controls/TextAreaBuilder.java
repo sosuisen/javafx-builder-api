@@ -1170,7 +1170,7 @@ public class TextAreaBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getParagraphs()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final TextAreaBuilder addParagraphs(java.lang.CharSequence... elements) {
         operations.add(obj -> {
@@ -1183,7 +1183,7 @@ public class TextAreaBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getParagraphs()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final TextAreaBuilder addParagraphs(java.util.Collection<? extends java.lang.CharSequence> col) {
         operations.add(obj -> {
             obj.getParagraphs().addAll(col);
@@ -1196,7 +1196,7 @@ public class TextAreaBuilder {
      * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getParagraphs()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public static TextAreaBuilder withParagraphs(java.lang.CharSequence... elements) {
         TextAreaBuilder builder = new TextAreaBuilder();
@@ -1207,7 +1207,7 @@ public class TextAreaBuilder {
      * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getParagraphs()} method.
      * 
      * @return builder instance
-     */     
+     */
     public static TextAreaBuilder withParagraphs(java.util.Collection<? extends java.lang.CharSequence> col) {
         TextAreaBuilder builder = new TextAreaBuilder();
         return builder.addParagraphs(col);
@@ -1218,7 +1218,7 @@ public class TextAreaBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final TextAreaBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1231,7 +1231,7 @@ public class TextAreaBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final TextAreaBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1245,7 +1245,7 @@ public class TextAreaBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final TextAreaBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1258,7 +1258,7 @@ public class TextAreaBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final TextAreaBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1272,7 +1272,7 @@ public class TextAreaBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final TextAreaBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1285,7 +1285,7 @@ public class TextAreaBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TextArea#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final TextAreaBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);

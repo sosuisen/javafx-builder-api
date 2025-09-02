@@ -160,7 +160,7 @@ public class XYChartSeriesBuilder<X, Y> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.XYChart.Series#getData()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final XYChartSeriesBuilder<X, Y> addData(javafx.scene.chart.XYChart.Data<X, Y>... elements) {
         operations.add(obj -> {
@@ -173,7 +173,7 @@ public class XYChartSeriesBuilder<X, Y> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.XYChart.Series#getData()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final XYChartSeriesBuilder<X, Y> addData(java.util.Collection<? extends javafx.scene.chart.XYChart.Data<X, Y>> col) {
         operations.add(obj -> {
             obj.getData().addAll(col);
@@ -186,7 +186,7 @@ public class XYChartSeriesBuilder<X, Y> {
      * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.XYChart.Series#getData()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public static <X, Y> XYChartSeriesBuilder<X, Y> withData(javafx.scene.chart.XYChart.Data<X, Y>... elements) {
         XYChartSeriesBuilder<X, Y> builder = new XYChartSeriesBuilder<X, Y>();
@@ -197,7 +197,7 @@ public class XYChartSeriesBuilder<X, Y> {
      * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.XYChart.Series#getData()} method.
      * 
      * @return builder instance
-     */     
+     */
     public static <X, Y> XYChartSeriesBuilder<X, Y> withData(java.util.Collection<? extends javafx.scene.chart.XYChart.Data<X, Y>> col) {
         XYChartSeriesBuilder<X, Y> builder = new XYChartSeriesBuilder<X, Y>();
         return builder.addData(col);

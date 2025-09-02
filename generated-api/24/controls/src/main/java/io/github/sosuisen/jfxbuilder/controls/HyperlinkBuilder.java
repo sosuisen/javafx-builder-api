@@ -1238,7 +1238,7 @@ public class HyperlinkBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Hyperlink#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final HyperlinkBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1251,7 +1251,7 @@ public class HyperlinkBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Hyperlink#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final HyperlinkBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1265,7 +1265,7 @@ public class HyperlinkBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Hyperlink#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final HyperlinkBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1278,7 +1278,7 @@ public class HyperlinkBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Hyperlink#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final HyperlinkBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1292,7 +1292,7 @@ public class HyperlinkBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Hyperlink#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final HyperlinkBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1305,7 +1305,7 @@ public class HyperlinkBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Hyperlink#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final HyperlinkBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);

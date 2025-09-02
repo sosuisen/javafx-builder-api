@@ -113,7 +113,7 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.CellSkinBase#getChildren()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final CellSkinBaseBuilder<C> addChildren(javafx.scene.Node... elements) {
         operations.add(obj -> {
@@ -126,7 +126,7 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.CellSkinBase#getChildren()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final CellSkinBaseBuilder<C> addChildren(java.util.Collection<? extends javafx.scene.Node> col) {
         operations.add(obj -> {
             obj.getChildren().addAll(col);

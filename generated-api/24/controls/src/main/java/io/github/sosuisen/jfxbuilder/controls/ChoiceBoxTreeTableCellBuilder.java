@@ -1266,7 +1266,7 @@ public class ChoiceBoxTreeTableCellBuilder<S, T> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTreeTableCell#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final ChoiceBoxTreeTableCellBuilder<S, T> addItems(T... elements) {
         operations.add(obj -> {
@@ -1279,7 +1279,7 @@ public class ChoiceBoxTreeTableCellBuilder<S, T> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTreeTableCell#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final ChoiceBoxTreeTableCellBuilder<S, T> addItems(java.util.Collection<? extends T> col) {
         operations.add(obj -> {
             obj.getItems().addAll(col);
@@ -1292,7 +1292,7 @@ public class ChoiceBoxTreeTableCellBuilder<S, T> {
      * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTreeTableCell#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public static <S, T> ChoiceBoxTreeTableCellBuilder<S, T> withItems(T... elements) {
         ChoiceBoxTreeTableCellBuilder<S, T> builder = new ChoiceBoxTreeTableCellBuilder<S, T>();
@@ -1303,7 +1303,7 @@ public class ChoiceBoxTreeTableCellBuilder<S, T> {
      * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTreeTableCell#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     public static <S, T> ChoiceBoxTreeTableCellBuilder<S, T> withItems(java.util.Collection<? extends T> col) {
         ChoiceBoxTreeTableCellBuilder<S, T> builder = new ChoiceBoxTreeTableCellBuilder<S, T>();
         return builder.addItems(col);
@@ -1314,7 +1314,7 @@ public class ChoiceBoxTreeTableCellBuilder<S, T> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTreeTableCell#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final ChoiceBoxTreeTableCellBuilder<S, T> addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1327,7 +1327,7 @@ public class ChoiceBoxTreeTableCellBuilder<S, T> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTreeTableCell#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final ChoiceBoxTreeTableCellBuilder<S, T> addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1341,7 +1341,7 @@ public class ChoiceBoxTreeTableCellBuilder<S, T> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTreeTableCell#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final ChoiceBoxTreeTableCellBuilder<S, T> addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1354,7 +1354,7 @@ public class ChoiceBoxTreeTableCellBuilder<S, T> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTreeTableCell#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final ChoiceBoxTreeTableCellBuilder<S, T> addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1368,7 +1368,7 @@ public class ChoiceBoxTreeTableCellBuilder<S, T> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTreeTableCell#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final ChoiceBoxTreeTableCellBuilder<S, T> addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1381,7 +1381,7 @@ public class ChoiceBoxTreeTableCellBuilder<S, T> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.ChoiceBoxTreeTableCell#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final ChoiceBoxTreeTableCellBuilder<S, T> addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
