@@ -1,6 +1,27 @@
 
 package io.github.sosuisen.jfxbuilder.controls;
 
+/**
+ * The {@code RadioMenuItemBuilder} class constructs instances of the {@link javafx.scene.control.RadioMenuItem RadioMenuItem} class 
+ * and offers a fluent interface for creating and configuring it. 
+ *
+ * <p>
+ * This class includes a static {@code create} method that accepts the same arguments as the original {@link javafx.scene.control.RadioMenuItem RadioMenuItem} constructor
+ * and returns an instance of the {@code RadioMenuItemBuilder}.
+ * </p>
+ *
+ * <p>
+ * You can use method chaining to call the builder methods for configuring the {@link javafx.scene.control.RadioMenuItem RadioMenuItem}.
+ * Finally, invoke the {@code build} method to generate an instance of the {@link javafx.scene.control.RadioMenuItem RadioMenuItem} class.
+ * </p>
+ *
+ * <p>
+ * Note that intermediate builder methods are not evaluated until the {@code build} method
+ * is called, meaning they are evaluated lazily.
+ * </p>
+ *
+ * @author Hidekazu Kubota &lt;hidekazu.kubota@gmail.com&gt;
+ */
 
 public class RadioMenuItemBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.RadioMenuItem>> operations = new java.util.ArrayList<>();

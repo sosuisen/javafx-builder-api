@@ -1,6 +1,27 @@
 
 package io.github.sosuisen.jfxbuilder.controls;
 
+/**
+ * The {@code TreeItemBuilder} class constructs instances of the {@link javafx.scene.control.TreeItem TreeItem} class 
+ * and offers a fluent interface for creating and configuring it. 
+ *
+ * <p>
+ * This class includes a static {@code create} method that accepts the same arguments as the original {@link javafx.scene.control.TreeItem TreeItem} constructor
+ * and returns an instance of the {@code TreeItemBuilder}.
+ * </p>
+ *
+ * <p>
+ * You can use method chaining to call the builder methods for configuring the {@link javafx.scene.control.TreeItem TreeItem}.
+ * Finally, invoke the {@code build} method to generate an instance of the {@link javafx.scene.control.TreeItem TreeItem} class.
+ * </p>
+ *
+ * <p>
+ * Note that intermediate builder methods are not evaluated until the {@code build} method
+ * is called, meaning they are evaluated lazily.
+ * </p>
+ *
+ * @author Hidekazu Kubota &lt;hidekazu.kubota@gmail.com&gt;
+ */
 
 public class TreeItemBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeItem<T>>> operations = new java.util.ArrayList<>();

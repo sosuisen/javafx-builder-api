@@ -1,6 +1,27 @@
 
 package io.github.sosuisen.jfxbuilder.controls;
 
+/**
+ * The {@code TableHeaderRowBuilder} class constructs instances of the {@link javafx.scene.control.skin.TableHeaderRow TableHeaderRow} class 
+ * and offers a fluent interface for creating and configuring it. 
+ *
+ * <p>
+ * This class includes a static {@code create} method that accepts the same arguments as the original {@link javafx.scene.control.skin.TableHeaderRow TableHeaderRow} constructor
+ * and returns an instance of the {@code TableHeaderRowBuilder}.
+ * </p>
+ *
+ * <p>
+ * You can use method chaining to call the builder methods for configuring the {@link javafx.scene.control.skin.TableHeaderRow TableHeaderRow}.
+ * Finally, invoke the {@code build} method to generate an instance of the {@link javafx.scene.control.skin.TableHeaderRow TableHeaderRow} class.
+ * </p>
+ *
+ * <p>
+ * Note that intermediate builder methods are not evaluated until the {@code build} method
+ * is called, meaning they are evaluated lazily.
+ * </p>
+ *
+ * @author Hidekazu Kubota &lt;hidekazu.kubota@gmail.com&gt;
+ */
 @SuppressWarnings("rawtypes")
 public class TableHeaderRowBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.TableHeaderRow>> operations = new java.util.ArrayList<>();
