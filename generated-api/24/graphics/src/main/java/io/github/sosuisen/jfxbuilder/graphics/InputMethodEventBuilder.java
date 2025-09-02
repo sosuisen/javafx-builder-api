@@ -119,7 +119,7 @@ public class InputMethodEventBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.input.InputMethodEvent#getComposed()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final InputMethodEventBuilder addComposed(javafx.scene.input.InputMethodTextRun... elements) {
         operations.add(obj -> {
@@ -132,7 +132,7 @@ public class InputMethodEventBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.input.InputMethodEvent#getComposed()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final InputMethodEventBuilder addComposed(java.util.Collection<? extends javafx.scene.input.InputMethodTextRun> col) {
         operations.add(obj -> {
             obj.getComposed().addAll(col);

@@ -1072,7 +1072,7 @@ public class HTMLEditorBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final HTMLEditorBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1085,7 +1085,7 @@ public class HTMLEditorBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final HTMLEditorBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1099,7 +1099,7 @@ public class HTMLEditorBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final HTMLEditorBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1112,7 +1112,7 @@ public class HTMLEditorBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final HTMLEditorBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1126,7 +1126,7 @@ public class HTMLEditorBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final HTMLEditorBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1139,7 +1139,7 @@ public class HTMLEditorBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.web.HTMLEditor#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final HTMLEditorBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);

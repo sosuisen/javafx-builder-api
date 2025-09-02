@@ -113,7 +113,7 @@ public class WebHistoryBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.web.WebHistory#getEntries()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final WebHistoryBuilder addEntries(javafx.scene.web.WebHistory.Entry... elements) {
         operations.add(obj -> {
@@ -126,7 +126,7 @@ public class WebHistoryBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.web.WebHistory#getEntries()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final WebHistoryBuilder addEntries(java.util.Collection<? extends javafx.scene.web.WebHistory.Entry> col) {
         operations.add(obj -> {
             obj.getEntries().addAll(col);

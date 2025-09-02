@@ -890,7 +890,7 @@ public class DirectionalLightBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getExclusionScope()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final DirectionalLightBuilder addExclusionScope(javafx.scene.Node... elements) {
         operations.add(obj -> {
@@ -903,7 +903,7 @@ public class DirectionalLightBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getExclusionScope()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final DirectionalLightBuilder addExclusionScope(java.util.Collection<? extends javafx.scene.Node> col) {
         operations.add(obj -> {
             obj.getExclusionScope().addAll(col);
@@ -916,7 +916,7 @@ public class DirectionalLightBuilder {
      * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getExclusionScope()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public static DirectionalLightBuilder withExclusionScope(javafx.scene.Node... elements) {
         DirectionalLightBuilder builder = new DirectionalLightBuilder();
@@ -927,7 +927,7 @@ public class DirectionalLightBuilder {
      * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getExclusionScope()} method.
      * 
      * @return builder instance
-     */     
+     */
     public static DirectionalLightBuilder withExclusionScope(java.util.Collection<? extends javafx.scene.Node> col) {
         DirectionalLightBuilder builder = new DirectionalLightBuilder();
         return builder.addExclusionScope(col);
@@ -938,7 +938,7 @@ public class DirectionalLightBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getScope()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final DirectionalLightBuilder addScope(javafx.scene.Node... elements) {
         operations.add(obj -> {
@@ -951,7 +951,7 @@ public class DirectionalLightBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getScope()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final DirectionalLightBuilder addScope(java.util.Collection<? extends javafx.scene.Node> col) {
         operations.add(obj -> {
             obj.getScope().addAll(col);
@@ -964,7 +964,7 @@ public class DirectionalLightBuilder {
      * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getScope()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public static DirectionalLightBuilder withScope(javafx.scene.Node... elements) {
         DirectionalLightBuilder builder = new DirectionalLightBuilder();
@@ -975,7 +975,7 @@ public class DirectionalLightBuilder {
      * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getScope()} method.
      * 
      * @return builder instance
-     */     
+     */
     public static DirectionalLightBuilder withScope(java.util.Collection<? extends javafx.scene.Node> col) {
         DirectionalLightBuilder builder = new DirectionalLightBuilder();
         return builder.addScope(col);
@@ -986,7 +986,7 @@ public class DirectionalLightBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final DirectionalLightBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -999,7 +999,7 @@ public class DirectionalLightBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final DirectionalLightBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1013,7 +1013,7 @@ public class DirectionalLightBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final DirectionalLightBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1026,7 +1026,7 @@ public class DirectionalLightBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.DirectionalLight#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final DirectionalLightBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);

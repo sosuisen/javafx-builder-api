@@ -998,7 +998,7 @@ public class EllipseBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Ellipse#getStrokeDashArray()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final EllipseBuilder addStrokeDashArray(java.lang.Double... elements) {
         operations.add(obj -> {
@@ -1011,7 +1011,7 @@ public class EllipseBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Ellipse#getStrokeDashArray()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final EllipseBuilder addStrokeDashArray(java.util.Collection<? extends java.lang.Double> col) {
         operations.add(obj -> {
             obj.getStrokeDashArray().addAll(col);
@@ -1024,7 +1024,7 @@ public class EllipseBuilder {
      * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Ellipse#getStrokeDashArray()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public static EllipseBuilder withStrokeDashArray(java.lang.Double... elements) {
         EllipseBuilder builder = new EllipseBuilder();
@@ -1035,7 +1035,7 @@ public class EllipseBuilder {
      * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Ellipse#getStrokeDashArray()} method.
      * 
      * @return builder instance
-     */     
+     */
     public static EllipseBuilder withStrokeDashArray(java.util.Collection<? extends java.lang.Double> col) {
         EllipseBuilder builder = new EllipseBuilder();
         return builder.addStrokeDashArray(col);
@@ -1046,7 +1046,7 @@ public class EllipseBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Ellipse#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final EllipseBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1059,7 +1059,7 @@ public class EllipseBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Ellipse#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final EllipseBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1073,7 +1073,7 @@ public class EllipseBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Ellipse#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final EllipseBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1086,7 +1086,7 @@ public class EllipseBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Ellipse#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final EllipseBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);

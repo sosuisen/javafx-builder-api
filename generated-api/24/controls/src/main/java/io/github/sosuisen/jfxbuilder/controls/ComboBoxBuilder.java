@@ -1222,7 +1222,7 @@ public class ComboBoxBuilder<T> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ComboBox#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final ComboBoxBuilder<T> addItems(T... elements) {
         operations.add(obj -> {
@@ -1235,7 +1235,7 @@ public class ComboBoxBuilder<T> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ComboBox#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final ComboBoxBuilder<T> addItems(java.util.Collection<? extends T> col) {
         operations.add(obj -> {
             obj.getItems().addAll(col);
@@ -1248,7 +1248,7 @@ public class ComboBoxBuilder<T> {
      * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ComboBox#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public static <T> ComboBoxBuilder<T> withItems(T... elements) {
         ComboBoxBuilder<T> builder = new ComboBoxBuilder<T>();
@@ -1259,7 +1259,7 @@ public class ComboBoxBuilder<T> {
      * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ComboBox#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     public static <T> ComboBoxBuilder<T> withItems(java.util.Collection<? extends T> col) {
         ComboBoxBuilder<T> builder = new ComboBoxBuilder<T>();
         return builder.addItems(col);
@@ -1270,7 +1270,7 @@ public class ComboBoxBuilder<T> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ComboBox#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final ComboBoxBuilder<T> addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1283,7 +1283,7 @@ public class ComboBoxBuilder<T> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ComboBox#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final ComboBoxBuilder<T> addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1297,7 +1297,7 @@ public class ComboBoxBuilder<T> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ComboBox#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final ComboBoxBuilder<T> addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1310,7 +1310,7 @@ public class ComboBoxBuilder<T> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ComboBox#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final ComboBoxBuilder<T> addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1324,7 +1324,7 @@ public class ComboBoxBuilder<T> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ComboBox#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final ComboBoxBuilder<T> addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1337,7 +1337,7 @@ public class ComboBoxBuilder<T> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ComboBox#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final ComboBoxBuilder<T> addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);

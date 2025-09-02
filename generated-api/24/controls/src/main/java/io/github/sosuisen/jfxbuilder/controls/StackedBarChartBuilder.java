@@ -1179,7 +1179,7 @@ public class StackedBarChartBuilder<X, Y> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getData()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final StackedBarChartBuilder<X, Y> addData(javafx.scene.chart.XYChart.Series<X, Y>... elements) {
         operations.add(obj -> {
@@ -1192,7 +1192,7 @@ public class StackedBarChartBuilder<X, Y> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getData()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final StackedBarChartBuilder<X, Y> addData(java.util.Collection<? extends javafx.scene.chart.XYChart.Series<X, Y>> col) {
         operations.add(obj -> {
             obj.getData().addAll(col);
@@ -1206,7 +1206,7 @@ public class StackedBarChartBuilder<X, Y> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final StackedBarChartBuilder<X, Y> addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1219,7 +1219,7 @@ public class StackedBarChartBuilder<X, Y> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final StackedBarChartBuilder<X, Y> addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1233,7 +1233,7 @@ public class StackedBarChartBuilder<X, Y> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final StackedBarChartBuilder<X, Y> addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1246,7 +1246,7 @@ public class StackedBarChartBuilder<X, Y> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final StackedBarChartBuilder<X, Y> addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1260,7 +1260,7 @@ public class StackedBarChartBuilder<X, Y> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final StackedBarChartBuilder<X, Y> addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1273,7 +1273,7 @@ public class StackedBarChartBuilder<X, Y> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.StackedBarChart#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final StackedBarChartBuilder<X, Y> addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);

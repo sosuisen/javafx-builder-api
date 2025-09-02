@@ -299,7 +299,7 @@ public class AlertBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Alert#getButtonTypes()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final AlertBuilder addButtonTypes(javafx.scene.control.ButtonType... elements) {
         operations.add(obj -> {
@@ -312,7 +312,7 @@ public class AlertBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Alert#getButtonTypes()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final AlertBuilder addButtonTypes(java.util.Collection<? extends javafx.scene.control.ButtonType> col) {
         operations.add(obj -> {
             obj.getButtonTypes().addAll(col);

@@ -616,7 +616,7 @@ public class SceneBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.Scene#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final SceneBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -629,7 +629,7 @@ public class SceneBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.Scene#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final SceneBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);

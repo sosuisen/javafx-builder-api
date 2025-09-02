@@ -1080,7 +1080,7 @@ public class MenuBarBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getMenus()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final MenuBarBuilder addMenus(javafx.scene.control.Menu... elements) {
         operations.add(obj -> {
@@ -1093,7 +1093,7 @@ public class MenuBarBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getMenus()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final MenuBarBuilder addMenus(java.util.Collection<? extends javafx.scene.control.Menu> col) {
         operations.add(obj -> {
             obj.getMenus().addAll(col);
@@ -1106,7 +1106,7 @@ public class MenuBarBuilder {
      * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getMenus()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public static MenuBarBuilder withMenus(javafx.scene.control.Menu... elements) {
         MenuBarBuilder builder = new MenuBarBuilder();
@@ -1117,7 +1117,7 @@ public class MenuBarBuilder {
      * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getMenus()} method.
      * 
      * @return builder instance
-     */     
+     */
     public static MenuBarBuilder withMenus(java.util.Collection<? extends javafx.scene.control.Menu> col) {
         MenuBarBuilder builder = new MenuBarBuilder();
         return builder.addMenus(col);
@@ -1128,7 +1128,7 @@ public class MenuBarBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final MenuBarBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1141,7 +1141,7 @@ public class MenuBarBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final MenuBarBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1155,7 +1155,7 @@ public class MenuBarBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final MenuBarBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1168,7 +1168,7 @@ public class MenuBarBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final MenuBarBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1182,7 +1182,7 @@ public class MenuBarBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final MenuBarBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1195,7 +1195,7 @@ public class MenuBarBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuBar#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final MenuBarBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);

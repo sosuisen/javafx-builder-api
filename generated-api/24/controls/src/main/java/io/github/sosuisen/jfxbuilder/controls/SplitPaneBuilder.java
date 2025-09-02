@@ -1100,7 +1100,7 @@ public class SplitPaneBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitPane#getDividers()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final SplitPaneBuilder addDividers(javafx.scene.control.SplitPane.Divider... elements) {
         operations.add(obj -> {
@@ -1113,7 +1113,7 @@ public class SplitPaneBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitPane#getDividers()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final SplitPaneBuilder addDividers(java.util.Collection<? extends javafx.scene.control.SplitPane.Divider> col) {
         operations.add(obj -> {
             obj.getDividers().addAll(col);
@@ -1126,7 +1126,7 @@ public class SplitPaneBuilder {
      * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitPane#getDividers()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public static SplitPaneBuilder withDividers(javafx.scene.control.SplitPane.Divider... elements) {
         SplitPaneBuilder builder = new SplitPaneBuilder();
@@ -1137,7 +1137,7 @@ public class SplitPaneBuilder {
      * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitPane#getDividers()} method.
      * 
      * @return builder instance
-     */     
+     */
     public static SplitPaneBuilder withDividers(java.util.Collection<? extends javafx.scene.control.SplitPane.Divider> col) {
         SplitPaneBuilder builder = new SplitPaneBuilder();
         return builder.addDividers(col);
@@ -1148,7 +1148,7 @@ public class SplitPaneBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitPane#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final SplitPaneBuilder addItems(javafx.scene.Node... elements) {
         operations.add(obj -> {
@@ -1161,7 +1161,7 @@ public class SplitPaneBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitPane#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final SplitPaneBuilder addItems(java.util.Collection<? extends javafx.scene.Node> col) {
         operations.add(obj -> {
             obj.getItems().addAll(col);
@@ -1174,7 +1174,7 @@ public class SplitPaneBuilder {
      * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitPane#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public static SplitPaneBuilder withItems(javafx.scene.Node... elements) {
         SplitPaneBuilder builder = new SplitPaneBuilder();
@@ -1185,7 +1185,7 @@ public class SplitPaneBuilder {
      * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitPane#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     public static SplitPaneBuilder withItems(java.util.Collection<? extends javafx.scene.Node> col) {
         SplitPaneBuilder builder = new SplitPaneBuilder();
         return builder.addItems(col);
@@ -1196,7 +1196,7 @@ public class SplitPaneBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitPane#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final SplitPaneBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1209,7 +1209,7 @@ public class SplitPaneBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitPane#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final SplitPaneBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1223,7 +1223,7 @@ public class SplitPaneBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitPane#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final SplitPaneBuilder addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1236,7 +1236,7 @@ public class SplitPaneBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitPane#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final SplitPaneBuilder addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1250,7 +1250,7 @@ public class SplitPaneBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitPane#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final SplitPaneBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1263,7 +1263,7 @@ public class SplitPaneBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SplitPane#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final SplitPaneBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);

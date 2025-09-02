@@ -950,7 +950,7 @@ public class MediaViewBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.media.MediaView#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final MediaViewBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -963,7 +963,7 @@ public class MediaViewBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.media.MediaView#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final MediaViewBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -977,7 +977,7 @@ public class MediaViewBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.media.MediaView#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final MediaViewBuilder addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -990,7 +990,7 @@ public class MediaViewBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.media.MediaView#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final MediaViewBuilder addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);

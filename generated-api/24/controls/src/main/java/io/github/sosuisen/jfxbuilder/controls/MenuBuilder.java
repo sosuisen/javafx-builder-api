@@ -286,7 +286,7 @@ public class MenuBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Menu#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final MenuBuilder addItems(javafx.scene.control.MenuItem... elements) {
         operations.add(obj -> {
@@ -299,7 +299,7 @@ public class MenuBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Menu#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final MenuBuilder addItems(java.util.Collection<? extends javafx.scene.control.MenuItem> col) {
         operations.add(obj -> {
             obj.getItems().addAll(col);
@@ -312,7 +312,7 @@ public class MenuBuilder {
      * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Menu#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public static MenuBuilder withItems(javafx.scene.control.MenuItem... elements) {
         MenuBuilder builder = new MenuBuilder();
@@ -323,7 +323,7 @@ public class MenuBuilder {
      * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Menu#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     public static MenuBuilder withItems(java.util.Collection<? extends javafx.scene.control.MenuItem> col) {
         MenuBuilder builder = new MenuBuilder();
         return builder.addItems(col);
@@ -334,7 +334,7 @@ public class MenuBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Menu#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final MenuBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -347,7 +347,7 @@ public class MenuBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.Menu#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final MenuBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);

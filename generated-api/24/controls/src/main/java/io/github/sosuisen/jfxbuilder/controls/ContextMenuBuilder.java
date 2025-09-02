@@ -480,7 +480,7 @@ public class ContextMenuBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ContextMenu#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final ContextMenuBuilder addItems(javafx.scene.control.MenuItem... elements) {
         operations.add(obj -> {
@@ -493,7 +493,7 @@ public class ContextMenuBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ContextMenu#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final ContextMenuBuilder addItems(java.util.Collection<? extends javafx.scene.control.MenuItem> col) {
         operations.add(obj -> {
             obj.getItems().addAll(col);
@@ -506,7 +506,7 @@ public class ContextMenuBuilder {
      * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ContextMenu#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public static ContextMenuBuilder withItems(javafx.scene.control.MenuItem... elements) {
         ContextMenuBuilder builder = new ContextMenuBuilder();
@@ -517,7 +517,7 @@ public class ContextMenuBuilder {
      * Create an instance of the builder, then call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ContextMenu#getItems()} method.
      * 
      * @return builder instance
-     */     
+     */
     public static ContextMenuBuilder withItems(java.util.Collection<? extends javafx.scene.control.MenuItem> col) {
         ContextMenuBuilder builder = new ContextMenuBuilder();
         return builder.addItems(col);
@@ -528,7 +528,7 @@ public class ContextMenuBuilder {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ContextMenu#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final ContextMenuBuilder addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -541,7 +541,7 @@ public class ContextMenuBuilder {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ContextMenu#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final ContextMenuBuilder addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);

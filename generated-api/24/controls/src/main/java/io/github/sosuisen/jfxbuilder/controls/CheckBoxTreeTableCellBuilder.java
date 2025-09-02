@@ -1260,7 +1260,7 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeTableCell#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final CheckBoxTreeTableCellBuilder<S, T> addStyleClass(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1273,7 +1273,7 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeTableCell#getStyleClass()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final CheckBoxTreeTableCellBuilder<S, T> addStyleClass(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStyleClass().addAll(col);
@@ -1287,7 +1287,7 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeTableCell#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final CheckBoxTreeTableCellBuilder<S, T> addStylesheets(java.lang.String... elements) {
         operations.add(obj -> {
@@ -1300,7 +1300,7 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeTableCell#getStylesheets()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final CheckBoxTreeTableCellBuilder<S, T> addStylesheets(java.util.Collection<? extends java.lang.String> col) {
         operations.add(obj -> {
             obj.getStylesheets().addAll(col);
@@ -1314,7 +1314,7 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
      * Call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeTableCell#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     @SafeVarargs
     public final CheckBoxTreeTableCellBuilder<S, T> addTransforms(javafx.scene.transform.Transform... elements) {
         operations.add(obj -> {
@@ -1327,7 +1327,7 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
      * Call the {@link java.util.List#addAll(Collection<? extends E> c) addAll} method on the ObservableList returned by the {@link javafx.scene.control.cell.CheckBoxTreeTableCell#getTransforms()} method.
      * 
      * @return builder instance
-     */     
+     */
     public final CheckBoxTreeTableCellBuilder<S, T> addTransforms(java.util.Collection<? extends javafx.scene.transform.Transform> col) {
         operations.add(obj -> {
             obj.getTransforms().addAll(col);
