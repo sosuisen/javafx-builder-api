@@ -246,15 +246,21 @@ public class BuilderClassGenerator {
     }
 
     private String generateLayoutConstraintMethods() {
-        LayoutConstraintMethodModel model = LayoutConstraintMethodModel.builder()
-                .classMetadata(classMetadata)
-                .staticSetters(staticSetters)
-                .build();
-
-        if (model.methods().isEmpty()) {
+        if (!classMetadata.isNodeClass()) {
             return "";
         }
+        StringBuilder result = new StringBuilder();
+        for (StaticSetterInfo setterInfo : staticSetters) {
+            result.append(generateLayoutConstraintMethod(setterInfo));
+        }
+        return result.toString();
+    }
 
+    private String generateLayoutConstraintMethod(StaticSetterInfo setterInfo) {
+        LayoutConstraintMethodModel model = LayoutConstraintMethodModel.builder()
+                .classMetadata(classMetadata)
+                .setterInfo(setterInfo)
+                .build();
         TemplateOutput output = new StringOutput();
         templateEngine.render("layout-constraint-methods.jte", model, output);
         return output.toString();
