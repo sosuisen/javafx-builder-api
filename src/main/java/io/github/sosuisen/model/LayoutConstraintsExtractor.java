@@ -9,6 +9,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import io.github.sosuisen.model.data.ParameterInfo;
+import io.github.sosuisen.model.data.StaticSetterInfo;
+
 public class LayoutConstraintsExtractor {
 
     // LAYOUT_CONSTRAINTS_JAR contains static setter methods for layout constraints

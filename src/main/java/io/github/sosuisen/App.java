@@ -4,10 +4,10 @@ import java.io.IOException;
 import java.lang.reflect.Modifier;
 import java.util.regex.Pattern;
 
-import io.github.sosuisen.model.BuildInfo;
 import io.github.sosuisen.model.JarExtractor;
 import io.github.sosuisen.model.LayoutConstraintsExtractor;
-import io.github.sosuisen.model.StaticSetterInfo;
+import io.github.sosuisen.model.data.BuildInfo;
+import io.github.sosuisen.model.data.StaticSetterInfo;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.stage.Stage;

@@ -6,7 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import io.github.sosuisen.mapper.TypeMappingManager;
-import io.github.sosuisen.model.ClassMetadata;
+import io.github.sosuisen.model.data.ClassMetadata;
 
 /**
  * Data model for add/with method JTE template
