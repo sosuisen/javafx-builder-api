@@ -19,6 +19,29 @@ public record ParameterInfo(
         return paramType + " " + parameterName;
     }
 
+    public String toSimpleParameterType(String className) {
+        String paramType = TypeMappingManager.getReplacement(className, typeName);
+        paramType = paramType.substring(findLastDotWordIndexReverse(paramType) + 1);
+        return paramType;
+    }
+
+    /**
+     * Finds the index of the last occurrence of a period followed by a single
+     * letter.
+     * 
+     * Example: ".S" matches in "java.lang.String..." and returns 9.
+     * 
+     */
+    private static int findLastDotWordIndexReverse(String str) {
+        for (int i = str.length() - 2; i >= 0; i--) {
+            if (str.charAt(i) == '.' &&
+                    Character.isLetterOrDigit(str.charAt(i + 1))) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
     public static List<ParameterInfo> filterNodeParameters(List<ParameterInfo> parameters) {
         return parameters.stream()
                 .filter(param -> !param.isNodeType())
@@ -31,6 +54,16 @@ public record ParameterInfo(
             if (i > 0)
                 paramList.append(", ");
             paramList.append(parameters.get(i).toParameterString(className));
+        }
+        return paramList.toString();
+    }
+
+    public static String buildParameterListSimpleTypesOnly(List<ParameterInfo> parameters, String className) {
+        StringBuilder paramList = new StringBuilder();
+        for (int i = 0; i < parameters.size(); i++) {
+            if (i > 0)
+                paramList.append(", ");
+            paramList.append(parameters.get(i).toSimpleParameterType(className));
         }
         return paramList.toString();
     }

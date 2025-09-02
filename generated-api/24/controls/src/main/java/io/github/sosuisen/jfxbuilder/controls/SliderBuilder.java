@@ -1325,187 +1325,869 @@ public class SliderBuilder {
                 java.util.Base64.getEncoder().encodeToString(css.getBytes())));
         return this;
     }
-
+    /**
+     * Invokes the {@link javafx.scene.layout.AnchorPane#setBottomAnchor(Node child, java.lang.Double value) AnchorPane.setBottomAnchor(Node, Double)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new AnchorPane(btn);
+     * AnchorPane.setBottomAnchor(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = AnchorPaneBuilder.create(
+     *                                  ButtonBuilder.create()
+     *                                               .bottomAnchorInAnchorPane(new Insets(10))
+     *                                               .build())
+     *                             .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder bottomAnchorInAnchorPane(java.lang.Double value) {
         operations.add(obj -> javafx.scene.layout.AnchorPane.setBottomAnchor(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.AnchorPane#setLeftAnchor(Node child, java.lang.Double value) AnchorPane.setLeftAnchor(Node, Double)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new AnchorPane(btn);
+     * AnchorPane.setLeftAnchor(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = AnchorPaneBuilder.create(
+     *                                  ButtonBuilder.create()
+     *                                               .leftAnchorInAnchorPane(new Insets(10))
+     *                                               .build())
+     *                             .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder leftAnchorInAnchorPane(java.lang.Double value) {
         operations.add(obj -> javafx.scene.layout.AnchorPane.setLeftAnchor(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.AnchorPane#setRightAnchor(Node child, java.lang.Double value) AnchorPane.setRightAnchor(Node, Double)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new AnchorPane(btn);
+     * AnchorPane.setRightAnchor(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = AnchorPaneBuilder.create(
+     *                                  ButtonBuilder.create()
+     *                                               .rightAnchorInAnchorPane(new Insets(10))
+     *                                               .build())
+     *                             .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder rightAnchorInAnchorPane(java.lang.Double value) {
         operations.add(obj -> javafx.scene.layout.AnchorPane.setRightAnchor(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.AnchorPane#setTopAnchor(Node child, java.lang.Double value) AnchorPane.setTopAnchor(Node, Double)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new AnchorPane(btn);
+     * AnchorPane.setTopAnchor(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = AnchorPaneBuilder.create(
+     *                                  ButtonBuilder.create()
+     *                                               .topAnchorInAnchorPane(new Insets(10))
+     *                                               .build())
+     *                             .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder topAnchorInAnchorPane(java.lang.Double value) {
         operations.add(obj -> javafx.scene.layout.AnchorPane.setTopAnchor(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.BorderPane#setAlignment(Node child, javafx.geometry.Pos value) BorderPane.setAlignment(Node, Pos)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new BorderPane(btn);
+     * BorderPane.setAlignment(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = BorderPaneBuilder.create(
+     *                                  ButtonBuilder.create()
+     *                                               .alignmentInBorderPane(new Insets(10))
+     *                                               .build())
+     *                             .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder alignmentInBorderPane(javafx.geometry.Pos value) {
         operations.add(obj -> javafx.scene.layout.BorderPane.setAlignment(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.BorderPane#setMargin(Node child, javafx.geometry.Insets value) BorderPane.setMargin(Node, Insets)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new BorderPane(btn);
+     * BorderPane.setMargin(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = BorderPaneBuilder.create(
+     *                                  ButtonBuilder.create()
+     *                                               .marginInBorderPane(new Insets(10))
+     *                                               .build())
+     *                             .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder marginInBorderPane(javafx.geometry.Insets value) {
         operations.add(obj -> javafx.scene.layout.BorderPane.setMargin(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.FlowPane#setMargin(Node child, javafx.geometry.Insets value) FlowPane.setMargin(Node, Insets)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new FlowPane(btn);
+     * FlowPane.setMargin(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = FlowPaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .marginInFlowPane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder marginInFlowPane(javafx.geometry.Insets value) {
         operations.add(obj -> javafx.scene.layout.FlowPane.setMargin(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.GridPane#setColumnIndex(Node child, java.lang.Integer value) GridPane.setColumnIndex(Node, Integer)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new GridPane(btn);
+     * GridPane.setColumnIndex(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = GridPaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .columnIndexInGridPane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder columnIndexInGridPane(java.lang.Integer value) {
         operations.add(obj -> javafx.scene.layout.GridPane.setColumnIndex(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.GridPane#setColumnSpan(Node child, java.lang.Integer value) GridPane.setColumnSpan(Node, Integer)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new GridPane(btn);
+     * GridPane.setColumnSpan(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = GridPaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .columnSpanInGridPane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder columnSpanInGridPane(java.lang.Integer value) {
         operations.add(obj -> javafx.scene.layout.GridPane.setColumnSpan(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(Node child, int columnIndex, int rowIndex) GridPane.setConstraints(Node, int, int)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new GridPane(btn);
+     * GridPane.setConstraints(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = GridPaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .constraintsInGridPane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder constraintsInGridPane(int columnIndex, int rowIndex) {
         operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(Node child, int columnIndex, int rowIndex, int columnspan, int rowspan) GridPane.setConstraints(Node, int, int, int, int)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new GridPane(btn);
+     * GridPane.setConstraints(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = GridPaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .constraintsInGridPane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan) {
         operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(Node child, int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment) GridPane.setConstraints(Node, int, int, int, int, HPos, VPos)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new GridPane(btn);
+     * GridPane.setConstraints(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = GridPaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .constraintsInGridPane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment) {
         operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(Node child, int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow) GridPane.setConstraints(Node, int, int, int, int, HPos, VPos, Priority, Priority)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new GridPane(btn);
+     * GridPane.setConstraints(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = GridPaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .constraintsInGridPane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow) {
         operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.GridPane#setConstraints(Node child, int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow, javafx.geometry.Insets margin) GridPane.setConstraints(Node, int, int, int, int, HPos, VPos, Priority, Priority, Insets)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new GridPane(btn);
+     * GridPane.setConstraints(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = GridPaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .constraintsInGridPane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder constraintsInGridPane(int columnIndex, int rowIndex, int columnspan, int rowspan, javafx.geometry.HPos halignment, javafx.geometry.VPos valignment, javafx.scene.layout.Priority hgrow, javafx.scene.layout.Priority vgrow, javafx.geometry.Insets margin) {
         operations.add(obj -> javafx.scene.layout.GridPane.setConstraints(obj, columnIndex, rowIndex, columnspan, rowspan, halignment, valignment, hgrow, vgrow, margin));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.GridPane#setFillHeight(Node child, java.lang.Boolean value) GridPane.setFillHeight(Node, Boolean)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new GridPane(btn);
+     * GridPane.setFillHeight(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = GridPaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .fillHeightInGridPane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder fillHeightInGridPane(java.lang.Boolean value) {
         operations.add(obj -> javafx.scene.layout.GridPane.setFillHeight(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.GridPane#setFillWidth(Node child, java.lang.Boolean value) GridPane.setFillWidth(Node, Boolean)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new GridPane(btn);
+     * GridPane.setFillWidth(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = GridPaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .fillWidthInGridPane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder fillWidthInGridPane(java.lang.Boolean value) {
         operations.add(obj -> javafx.scene.layout.GridPane.setFillWidth(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.GridPane#setHalignment(Node child, javafx.geometry.HPos value) GridPane.setHalignment(Node, HPos)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new GridPane(btn);
+     * GridPane.setHalignment(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = GridPaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .hAlignmentInGridPane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder hAlignmentInGridPane(javafx.geometry.HPos value) {
         operations.add(obj -> javafx.scene.layout.GridPane.setHalignment(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.GridPane#setHgrow(Node child, javafx.scene.layout.Priority value) GridPane.setHgrow(Node, Priority)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new GridPane(btn);
+     * GridPane.setHgrow(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = GridPaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .hGrowInGridPane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder hGrowInGridPane(javafx.scene.layout.Priority value) {
         operations.add(obj -> javafx.scene.layout.GridPane.setHgrow(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.GridPane#setMargin(Node child, javafx.geometry.Insets value) GridPane.setMargin(Node, Insets)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new GridPane(btn);
+     * GridPane.setMargin(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = GridPaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .marginInGridPane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder marginInGridPane(javafx.geometry.Insets value) {
         operations.add(obj -> javafx.scene.layout.GridPane.setMargin(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.GridPane#setRowIndex(Node child, java.lang.Integer value) GridPane.setRowIndex(Node, Integer)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new GridPane(btn);
+     * GridPane.setRowIndex(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = GridPaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .rowIndexInGridPane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder rowIndexInGridPane(java.lang.Integer value) {
         operations.add(obj -> javafx.scene.layout.GridPane.setRowIndex(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.GridPane#setRowSpan(Node child, java.lang.Integer value) GridPane.setRowSpan(Node, Integer)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new GridPane(btn);
+     * GridPane.setRowSpan(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = GridPaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .rowSpanInGridPane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder rowSpanInGridPane(java.lang.Integer value) {
         operations.add(obj -> javafx.scene.layout.GridPane.setRowSpan(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.GridPane#setValignment(Node child, javafx.geometry.VPos value) GridPane.setValignment(Node, VPos)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new GridPane(btn);
+     * GridPane.setValignment(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = GridPaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .vAlignmentInGridPane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder vAlignmentInGridPane(javafx.geometry.VPos value) {
         operations.add(obj -> javafx.scene.layout.GridPane.setValignment(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.GridPane#setVgrow(Node child, javafx.scene.layout.Priority value) GridPane.setVgrow(Node, Priority)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new GridPane(btn);
+     * GridPane.setVgrow(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = GridPaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .vGrowInGridPane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder vGrowInGridPane(javafx.scene.layout.Priority value) {
         operations.add(obj -> javafx.scene.layout.GridPane.setVgrow(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.HBox#setHgrow(Node child, javafx.scene.layout.Priority value) HBox.setHgrow(Node, Priority)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new HBox(btn);
+     * HBox.setHgrow(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = HBoxBuilder.create(
+     *                            ButtonBuilder.create()
+     *                                         .hGrowInHBox(new Insets(10))
+     *                                         .build())
+     *                       .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder hGrowInHBox(javafx.scene.layout.Priority value) {
         operations.add(obj -> javafx.scene.layout.HBox.setHgrow(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.HBox#setMargin(Node child, javafx.geometry.Insets value) HBox.setMargin(Node, Insets)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new HBox(btn);
+     * HBox.setMargin(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = HBoxBuilder.create(
+     *                            ButtonBuilder.create()
+     *                                         .marginInHBox(new Insets(10))
+     *                                         .build())
+     *                       .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder marginInHBox(javafx.geometry.Insets value) {
         operations.add(obj -> javafx.scene.layout.HBox.setMargin(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.StackPane#setAlignment(Node child, javafx.geometry.Pos value) StackPane.setAlignment(Node, Pos)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new StackPane(btn);
+     * StackPane.setAlignment(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = StackPaneBuilder.create(
+     *                                 ButtonBuilder.create()
+     *                                              .alignmentInStackPane(new Insets(10))
+     *                                              .build())
+     *                            .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder alignmentInStackPane(javafx.geometry.Pos value) {
         operations.add(obj -> javafx.scene.layout.StackPane.setAlignment(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.StackPane#setMargin(Node child, javafx.geometry.Insets value) StackPane.setMargin(Node, Insets)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new StackPane(btn);
+     * StackPane.setMargin(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = StackPaneBuilder.create(
+     *                                 ButtonBuilder.create()
+     *                                              .marginInStackPane(new Insets(10))
+     *                                              .build())
+     *                            .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder marginInStackPane(javafx.geometry.Insets value) {
         operations.add(obj -> javafx.scene.layout.StackPane.setMargin(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.TilePane#setAlignment(Node child, javafx.geometry.Pos value) TilePane.setAlignment(Node, Pos)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new TilePane(btn);
+     * TilePane.setAlignment(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = TilePaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .alignmentInTilePane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder alignmentInTilePane(javafx.geometry.Pos value) {
         operations.add(obj -> javafx.scene.layout.TilePane.setAlignment(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.TilePane#setMargin(Node child, javafx.geometry.Insets value) TilePane.setMargin(Node, Insets)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new TilePane(btn);
+     * TilePane.setMargin(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = TilePaneBuilder.create(
+     *                                ButtonBuilder.create()
+     *                                             .marginInTilePane(new Insets(10))
+     *                                             .build())
+     *                           .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder marginInTilePane(javafx.geometry.Insets value) {
         operations.add(obj -> javafx.scene.layout.TilePane.setMargin(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.VBox#setMargin(Node child, javafx.geometry.Insets value) VBox.setMargin(Node, Insets)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new VBox(btn);
+     * VBox.setMargin(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = VBoxBuilder.create(
+     *                            ButtonBuilder.create()
+     *                                         .marginInVBox(new Insets(10))
+     *                                         .build())
+     *                       .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder marginInVBox(javafx.geometry.Insets value) {
         operations.add(obj -> javafx.scene.layout.VBox.setMargin(obj, value));
         return this;
     }
 
-
+    /**
+     * Invokes the {@link javafx.scene.layout.VBox#setVgrow(Node child, javafx.scene.layout.Priority value) VBox.setVgrow(Node, Priority)} 
+     * using a fluent API.
+     *
+     * <p>
+     * Example:
+     * </p>
+     * <pre>{@code
+     * // Original API
+     * var btn = new Button();
+     * var root = new VBox(btn);
+     * VBox.setVgrow(btn, new Insets(10));
+     *
+     * // Fluent API
+     * var root = VBoxBuilder.create(
+     *                            ButtonBuilder.create()
+     *                                         .vGrowInVBox(new Insets(10))
+     *                                         .build())
+     *                       .build();
+     * }</pre>
+     *
+     * @return builder instance
+     */
     public SliderBuilder vGrowInVBox(javafx.scene.layout.Priority value) {
         operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
         return this;
