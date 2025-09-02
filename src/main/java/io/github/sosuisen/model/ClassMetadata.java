@@ -9,13 +9,15 @@ public class ClassMetadata {
     final String typeParametersWithExtends;
     final String className;
     final String builderClassName;
+    final String packageName;
 
-    public ClassMetadata(Class<?> clazz) {
+    public ClassMetadata(Class<?> clazz, String packageName) {
         this.targetClass = clazz;
         typeParameters = getTypeParameterString(clazz);
         typeParametersWithExtends = getTypeParametersWithExtendsString(clazz);
         className = clazz.getCanonicalName();
         builderClassName = createBuilderClassName();
+        this.packageName = packageName;
     }
 
     public String getTypeParameters() {
@@ -32,6 +34,10 @@ public class ClassMetadata {
 
     public String getBuilderClassName() {
         return builderClassName;
+    }
+
+    public String getPackageName() {
+        return packageName;
     }
 
     public String classNameWithTypeParameter() {
