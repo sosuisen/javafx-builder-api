@@ -179,50 +179,19 @@ public class BuilderClassGenerator {
                 .collect(Collectors.toList());
 
         for (Method method : setterMethods) {
-            String methodName = method.getName().substring(3);
-            methodName = Character.toLowerCase(methodName.charAt(0)) + methodName.substring(1);
-
-            Parameter[] parameters = method.getParameters();
-            String parameterList = ParameterStringBuilder.buildParameterListWithTypes(parameters,
-                    classMetadata.getClassName(),
-                    method.isVarArgs());
-            String parameterTypeList = ParameterStringBuilder.buildParameterListTypesOnly(parameters);
-            String argumentList = ParameterStringBuilder.buildParameterListNamesOnly(parameters);
-
-            String methodAnnotation = MethodAnnotationManager.getMethodAnnotation(classMetadata.getClassName(),
-                    method.getName());
-            SetterMethodModel model = SetterMethodModel.builder()
-                    .classMetadata(classMetadata)
-                    .methodName(methodName)
-                    .parameterList(parameterList)
-                    .parameterTypeList(parameterTypeList)
-                    .argumentList(argumentList)
-                    .originalMethodName(method.getName())
-                    .methodAnnotation(methodAnnotation)
-                    .build();
-
-            TemplateOutput output = new StringOutput();
-            templateEngine.render("setter-method.jte", model, output);
-
-            content.append(output.toString());
+            content.append(generateSetterMethod(method));
         }
-
         return content.toString();
     }
 
-    private String generateSpecialMethods() {
-        StringBuilder content = new StringBuilder();
-
-        // Generate BorderPane specific static methods
-        if ("BorderPane".equals(clazz.getSimpleName())) {
-            content.append(generateBorderPaneMethods());
-        }
-
-        if ("GridPane".equals(clazz.getSimpleName())) {
-            content.append(generateGridPaneMethods());
-        }
-
-        return content.toString();
+    private String generateSetterMethod(Method method) {
+        SetterMethodModel model = SetterMethodModel.builder()
+                .classMetadata(classMetadata)
+                .setterMethod(method)
+                .build();
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("setter-method.jte", model, output);
+        return output.toString();
     }
 
     private String generateAddAndWithMethods() {
@@ -258,7 +227,6 @@ public class BuilderClassGenerator {
                     .getterMethodName(getterMethodName)
                     .classMetadata(classMetadata)
                     .build();
-
             TemplateOutput output = new StringOutput();
             templateEngine.render("add-with-methods.jte", model, output);
             return output.toString();
@@ -266,6 +234,30 @@ public class BuilderClassGenerator {
             // Method doesn't exist or doesn't return ObservableList, skip
             return "";
         }
+    }
+
+    private String generateStylesheetMethod() {
+        StylesheetMethodModel model = StylesheetMethodModel.builder()
+                .classMetadata(classMetadata)
+                .build();
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("stylesheet-method.jte", model, output);
+        return output.toString();
+    }
+
+    private String generateSpecialMethods() {
+        StringBuilder content = new StringBuilder();
+
+        // Generate BorderPane specific static methods
+        if ("BorderPane".equals(clazz.getSimpleName())) {
+            content.append(generateBorderPaneMethods());
+        }
+
+        if ("GridPane".equals(clazz.getSimpleName())) {
+            content.append(generateGridPaneMethods());
+        }
+
+        return content.toString();
     }
 
     private String generateBorderPaneMethods() {
@@ -279,15 +271,6 @@ public class BuilderClassGenerator {
         GridPaneMethodModel model = GridPaneMethodModel.create(classMetadata.getBuilderClassName());
         TemplateOutput output = new StringOutput();
         templateEngine.render("gridpane-methods.jte", model, output);
-        return output.toString();
-    }
-
-    private String generateStylesheetMethod() {
-        StylesheetMethodModel model = StylesheetMethodModel.create(
-                clazz.getSimpleName(), classMetadata.getBuilderClassName(),
-                classMetadata.builderClassNameWithTypeParameter());
-        TemplateOutput output = new StringOutput();
-        templateEngine.render("stylesheet-method.jte", model, output);
         return output.toString();
     }
 
