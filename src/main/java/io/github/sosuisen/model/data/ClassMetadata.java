@@ -13,8 +13,8 @@ public class ClassMetadata {
 
     public ClassMetadata(Class<?> clazz, String packageName) {
         this.targetClass = clazz;
-        typeParameters = getTypeParameterString(clazz);
-        typeParametersWithExtends = getTypeParametersWithExtendsString(clazz);
+        typeParameters = getTypeParameterString();
+        typeParametersWithExtends = getTypeParametersWithExtendsString();
         className = clazz.getCanonicalName();
         builderClassName = createBuilderClassName();
         this.packageName = packageName;
@@ -82,47 +82,66 @@ public class ClassMetadata {
         return result;
     }
 
-    private String getTypeParameterString(Class<?> clazz) {
-        if (clazz.getTypeParameters().length == 0) {
+    private String getTypeParameterString() {
+        if (targetClass.getTypeParameters().length == 0) {
             return "";
         }
 
         StringBuilder typeParameterBuilder = new StringBuilder("<");
-        for (int i = 0; i < clazz.getTypeParameters().length; i++) {
+        for (int i = 0; i < targetClass.getTypeParameters().length; i++) {
             if (i > 0)
                 typeParameterBuilder.append(", ");
 
-            typeParameterBuilder.append(clazz.getTypeParameters()[i].getName());
+            typeParameterBuilder.append(targetClass.getTypeParameters()[i].getName());
         }
         typeParameterBuilder.append(">");
         return typeParameterBuilder.toString();
     }
 
-    private String getTypeParametersWithExtendsString(Class<?> clazz) {
-        if (clazz.getTypeParameters().length == 0) {
+    private String getTypeParametersWithExtendsString() {
+        if (targetClass.getTypeParameters().length == 0) {
             return "";
         }
 
         StringBuilder typeParameterBuilder = new StringBuilder("<");
-        for (int i = 0; i < clazz.getTypeParameters().length; i++) {
+        for (int i = 0; i < targetClass.getTypeParameters().length; i++) {
             if (i > 0)
                 typeParameterBuilder.append(", ");
 
-            Type[] bounds = clazz.getTypeParameters()[i].getBounds();
+            Type[] bounds = targetClass.getTypeParameters()[i].getBounds();
             if (bounds.length > 0) {
                 if (!bounds[0].getTypeName().equals("java.lang.Object")) {
                     // e.g.) CellSkinBase<C extends Cell>
                     typeParameterBuilder
-                            .append(clazz.getTypeParameters()[i].getName() + " extends " + bounds[0].getTypeName());
+                            .append(targetClass.getTypeParameters()[i].getName() + " extends "
+                                    + bounds[0].getTypeName());
                 } else {
-                    typeParameterBuilder.append(clazz.getTypeParameters()[i].getName());
+                    typeParameterBuilder.append(targetClass.getTypeParameters()[i].getName());
                 }
             } else {
-                typeParameterBuilder.append(clazz.getTypeParameters()[i].getName());
+                typeParameterBuilder.append(targetClass.getTypeParameters()[i].getName());
             }
 
         }
         typeParameterBuilder.append(">");
         return typeParameterBuilder.toString();
+    }
+
+    public boolean isNodeClass() {
+        try {
+            Class<?> nodeClass = Class.forName("javafx.scene.Node");
+            return nodeClass.isAssignableFrom(targetClass);
+        } catch (ClassNotFoundException e) {
+            return false;
+        }
+    }
+
+    public boolean isParentClass() {
+        try {
+            Class<?> parentClass = Class.forName("javafx.scene.Parent");
+            return parentClass.isAssignableFrom(targetClass);
+        } catch (ClassNotFoundException e) {
+            return false;
+        }
     }
 }

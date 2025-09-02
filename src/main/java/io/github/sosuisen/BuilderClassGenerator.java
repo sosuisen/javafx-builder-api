@@ -86,7 +86,7 @@ public class BuilderClassGenerator {
 
         content.append(generateAddAndWithMethods());
 
-        if (isParentClass()) {
+        if (classMetadata.isParentClass()) {
             content.append(generateStylesheetMethod());
         }
 
@@ -245,38 +245,9 @@ public class BuilderClassGenerator {
         return output.toString();
     }
 
-    private String generateSpecialMethods() {
-        StringBuilder content = new StringBuilder();
-
-        // Generate BorderPane specific static methods
-        if ("BorderPane".equals(clazz.getSimpleName())) {
-            content.append(generateBorderPaneMethods());
-        }
-
-        if ("GridPane".equals(clazz.getSimpleName())) {
-            content.append(generateGridPaneMethods());
-        }
-
-        return content.toString();
-    }
-
-    private String generateBorderPaneMethods() {
-        BorderPaneMethodModel model = BorderPaneMethodModel.create(clazz, classMetadata.getBuilderClassName());
-        TemplateOutput output = new StringOutput();
-        templateEngine.render("borderpane-methods.jte", model, output);
-        return output.toString();
-    }
-
-    private String generateGridPaneMethods() {
-        GridPaneMethodModel model = GridPaneMethodModel.create(classMetadata.getBuilderClassName());
-        TemplateOutput output = new StringOutput();
-        templateEngine.render("gridpane-methods.jte", model, output);
-        return output.toString();
-    }
-
     private String generateLayoutConstraintMethods() {
         // Check if current class inherits from javafx.scene.Node
-        if (!isNodeClass()) {
+        if (!classMetadata.isNodeClass()) {
             return "";
         }
 
@@ -339,24 +310,6 @@ public class BuilderClassGenerator {
         return output.toString();
     }
 
-    private boolean isNodeClass() {
-        try {
-            Class<?> nodeClass = Class.forName("javafx.scene.Node");
-            return nodeClass.isAssignableFrom(clazz);
-        } catch (ClassNotFoundException e) {
-            return false;
-        }
-    }
-
-    private boolean isParentClass() {
-        try {
-            Class<?> parentClass = Class.forName("javafx.scene.Parent");
-            return parentClass.isAssignableFrom(clazz);
-        } catch (ClassNotFoundException e) {
-            return false;
-        }
-    }
-
     private String generatePropertyMethods() {
         StringBuilder content = new StringBuilder();
         Method[] methods = clazz.getMethods();
@@ -396,6 +349,35 @@ public class BuilderClassGenerator {
         }
 
         return content.toString();
+    }
+
+    private String generateSpecialMethods() {
+        StringBuilder content = new StringBuilder();
+
+        // Generate BorderPane specific static methods
+        if ("BorderPane".equals(clazz.getSimpleName())) {
+            content.append(generateBorderPaneMethods());
+        }
+
+        if ("GridPane".equals(clazz.getSimpleName())) {
+            content.append(generateGridPaneMethods());
+        }
+
+        return content.toString();
+    }
+
+    private String generateBorderPaneMethods() {
+        BorderPaneMethodModel model = BorderPaneMethodModel.create(clazz, classMetadata.getBuilderClassName());
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("borderpane-methods.jte", model, output);
+        return output.toString();
+    }
+
+    private String generateGridPaneMethods() {
+        GridPaneMethodModel model = GridPaneMethodModel.create(classMetadata.getBuilderClassName());
+        TemplateOutput output = new StringOutput();
+        templateEngine.render("gridpane-methods.jte", model, output);
+        return output.toString();
     }
 
     private void writeToFiles(String content) throws IOException {
