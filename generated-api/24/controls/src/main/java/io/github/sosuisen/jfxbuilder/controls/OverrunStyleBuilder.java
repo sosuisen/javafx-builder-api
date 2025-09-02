@@ -87,11 +87,6 @@ public class OverrunStyleBuilder {
      * Applies a function to the OverrunStyle instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(overrunStyle -> overrunStyle.setId("Main" + overrunStyle.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

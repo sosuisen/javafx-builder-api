@@ -112,7 +112,7 @@ public class GridPaneBuilder {
      * <pre>{@code
      * apply(gridPane -> gridPane.setId("Main" + gridPane.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

@@ -116,7 +116,7 @@ public class CylinderBuilder {
      * <pre>{@code
      * apply(cylinder -> cylinder.setId("Main" + cylinder.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

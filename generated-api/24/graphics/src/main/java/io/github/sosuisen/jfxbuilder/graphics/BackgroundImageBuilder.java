@@ -95,11 +95,6 @@ public class BackgroundImageBuilder {
      * Applies a function to the BackgroundImage instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(backgroundImage -> backgroundImage.setId("Main" + backgroundImage.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

@@ -103,11 +103,6 @@ public class TouchEventBuilder {
      * Applies a function to the TouchEvent instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(touchEvent -> touchEvent.setId("Main" + touchEvent.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

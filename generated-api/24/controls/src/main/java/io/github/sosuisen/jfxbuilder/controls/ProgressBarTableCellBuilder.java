@@ -102,7 +102,7 @@ public class ProgressBarTableCellBuilder<S> {
      * <pre>{@code
      * apply(progressBarTableCell -> progressBarTableCell.setId("Main" + progressBarTableCell.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

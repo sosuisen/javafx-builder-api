@@ -87,11 +87,6 @@ public class CacheHintBuilder {
      * Applies a function to the CacheHint instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(cacheHint -> cacheHint.setId("Main" + cacheHint.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

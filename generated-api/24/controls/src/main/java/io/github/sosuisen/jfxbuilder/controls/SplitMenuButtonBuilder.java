@@ -132,7 +132,7 @@ public class SplitMenuButtonBuilder {
      * <pre>{@code
      * apply(splitMenuButton -> splitMenuButton.setId("Main" + splitMenuButton.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

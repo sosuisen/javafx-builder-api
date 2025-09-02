@@ -87,11 +87,6 @@ public class WebHistoryEntryBuilder {
      * Applies a function to the Entry instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(entry -> entry.setId("Main" + entry.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

@@ -104,11 +104,6 @@ public class ColorInputBuilder {
      * Applies a function to the ColorInput instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(colorInput -> colorInput.setId("Main" + colorInput.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

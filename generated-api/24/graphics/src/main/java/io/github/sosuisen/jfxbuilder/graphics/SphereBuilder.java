@@ -116,7 +116,7 @@ public class SphereBuilder {
      * <pre>{@code
      * apply(sphere -> sphere.setId("Main" + sphere.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

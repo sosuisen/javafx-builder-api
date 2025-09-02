@@ -95,11 +95,6 @@ public class ColorPickerSkinBuilder {
      * Applies a function to the ColorPickerSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(colorPickerSkin -> colorPickerSkin.setId("Main" + colorPickerSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

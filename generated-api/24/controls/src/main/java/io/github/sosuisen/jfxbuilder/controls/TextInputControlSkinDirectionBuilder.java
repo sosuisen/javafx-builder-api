@@ -87,11 +87,6 @@ public class TextInputControlSkinDirectionBuilder {
      * Applies a function to the Direction instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(direction -> direction.setId("Main" + direction.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

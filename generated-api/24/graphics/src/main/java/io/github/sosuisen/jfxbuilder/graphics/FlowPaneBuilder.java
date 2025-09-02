@@ -160,7 +160,7 @@ public class FlowPaneBuilder {
      * <pre>{@code
      * apply(flowPane -> flowPane.setId("Main" + flowPane.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

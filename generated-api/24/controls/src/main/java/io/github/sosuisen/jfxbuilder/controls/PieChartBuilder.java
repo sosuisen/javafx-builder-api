@@ -108,7 +108,7 @@ public class PieChartBuilder {
      * <pre>{@code
      * apply(pieChart -> pieChart.setId("Main" + pieChart.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

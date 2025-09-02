@@ -95,11 +95,6 @@ public class WebErrorEventBuilder {
      * Applies a function to the WebErrorEvent instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(webErrorEvent -> webErrorEvent.setId("Main" + webErrorEvent.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

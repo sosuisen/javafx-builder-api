@@ -104,11 +104,6 @@ public class BloomBuilder {
      * Applies a function to the Bloom instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(bloom -> bloom.setId("Main" + bloom.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

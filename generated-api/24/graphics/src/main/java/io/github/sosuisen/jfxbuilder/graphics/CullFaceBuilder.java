@@ -87,11 +87,6 @@ public class CullFaceBuilder {
      * Applies a function to the CullFace instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(cullFace -> cullFace.setId("Main" + cullFace.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

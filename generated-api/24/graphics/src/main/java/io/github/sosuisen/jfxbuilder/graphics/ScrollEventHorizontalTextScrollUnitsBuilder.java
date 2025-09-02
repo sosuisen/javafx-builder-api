@@ -87,11 +87,6 @@ public class ScrollEventHorizontalTextScrollUnitsBuilder {
      * Applies a function to the HorizontalTextScrollUnits instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(horizontalTextScrollUnits -> horizontalTextScrollUnits.setId("Main" + horizontalTextScrollUnits.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

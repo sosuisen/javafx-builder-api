@@ -96,11 +96,6 @@ public class SnapshotParametersBuilder {
      * Applies a function to the SnapshotParameters instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(snapshotParameters -> snapshotParameters.setId("Main" + snapshotParameters.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

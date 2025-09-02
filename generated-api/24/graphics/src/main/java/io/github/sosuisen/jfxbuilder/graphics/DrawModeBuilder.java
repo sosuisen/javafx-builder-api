@@ -87,11 +87,6 @@ public class DrawModeBuilder {
      * Applies a function to the DrawMode instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(drawMode -> drawMode.setId("Main" + drawMode.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

@@ -118,7 +118,7 @@ public class CheckBoxTreeCellBuilder<T> {
      * <pre>{@code
      * apply(checkBoxTreeCell -> checkBoxTreeCell.setId("Main" + checkBoxTreeCell.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

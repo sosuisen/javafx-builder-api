@@ -136,11 +136,6 @@ public class RotateBuilder {
      * Applies a function to the Rotate instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(rotate -> rotate.setId("Main" + rotate.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

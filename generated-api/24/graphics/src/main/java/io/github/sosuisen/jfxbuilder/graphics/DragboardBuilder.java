@@ -87,11 +87,6 @@ public class DragboardBuilder {
      * Applies a function to the Dragboard instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(dragboard -> dragboard.setId("Main" + dragboard.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

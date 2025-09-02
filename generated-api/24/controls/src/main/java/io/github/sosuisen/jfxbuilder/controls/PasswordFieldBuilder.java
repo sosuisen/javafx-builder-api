@@ -100,7 +100,7 @@ public class PasswordFieldBuilder {
      * <pre>{@code
      * apply(passwordField -> passwordField.setId("Main" + passwordField.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

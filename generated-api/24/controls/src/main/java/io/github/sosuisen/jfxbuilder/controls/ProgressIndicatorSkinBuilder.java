@@ -95,11 +95,6 @@ public class ProgressIndicatorSkinBuilder {
      * Applies a function to the ProgressIndicatorSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(progressIndicatorSkin -> progressIndicatorSkin.setId("Main" + progressIndicatorSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

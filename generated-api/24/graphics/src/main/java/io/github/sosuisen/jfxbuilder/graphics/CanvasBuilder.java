@@ -108,7 +108,7 @@ public class CanvasBuilder {
      * <pre>{@code
      * apply(canvas -> canvas.setId("Main" + canvas.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

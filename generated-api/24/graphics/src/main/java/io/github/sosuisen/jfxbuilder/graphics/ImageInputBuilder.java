@@ -112,11 +112,6 @@ public class ImageInputBuilder {
      * Applies a function to the ImageInput instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(imageInput -> imageInput.setId("Main" + imageInput.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

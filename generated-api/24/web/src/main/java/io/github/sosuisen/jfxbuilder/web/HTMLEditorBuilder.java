@@ -100,7 +100,7 @@ public class HTMLEditorBuilder {
      * <pre>{@code
      * apply(hTMLEditor -> hTMLEditor.setId("Main" + hTMLEditor.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

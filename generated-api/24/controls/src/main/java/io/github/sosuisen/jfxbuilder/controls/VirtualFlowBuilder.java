@@ -102,7 +102,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
      * <pre>{@code
      * apply(virtualFlow -> virtualFlow.setId("Main" + virtualFlow.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

@@ -87,11 +87,6 @@ public class VertexFormatBuilder {
      * Applies a function to the VertexFormat instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(vertexFormat -> vertexFormat.setId("Main" + vertexFormat.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

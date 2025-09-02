@@ -112,7 +112,7 @@ public class PaneBuilder {
      * <pre>{@code
      * apply(pane -> pane.setId("Main" + pane.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

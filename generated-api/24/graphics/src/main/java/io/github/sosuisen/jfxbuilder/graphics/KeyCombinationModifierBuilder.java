@@ -87,11 +87,6 @@ public class KeyCombinationModifierBuilder {
      * Applies a function to the Modifier instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(modifier -> modifier.setId("Main" + modifier.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

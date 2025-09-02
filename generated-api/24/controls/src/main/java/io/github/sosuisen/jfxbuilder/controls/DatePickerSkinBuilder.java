@@ -95,11 +95,6 @@ public class DatePickerSkinBuilder {
      * Applies a function to the DatePickerSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(datePickerSkin -> datePickerSkin.setId("Main" + datePickerSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

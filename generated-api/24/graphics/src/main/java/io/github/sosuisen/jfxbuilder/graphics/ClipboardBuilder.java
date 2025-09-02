@@ -87,11 +87,6 @@ public class ClipboardBuilder {
      * Applies a function to the Clipboard instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(clipboard -> clipboard.setId("Main" + clipboard.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

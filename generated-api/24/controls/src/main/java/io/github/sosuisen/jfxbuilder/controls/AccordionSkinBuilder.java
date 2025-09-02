@@ -95,11 +95,6 @@ public class AccordionSkinBuilder {
      * Applies a function to the AccordionSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(accordionSkin -> accordionSkin.setId("Main" + accordionSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

@@ -103,11 +103,6 @@ public class InputEventBuilder {
      * Applies a function to the InputEvent instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(inputEvent -> inputEvent.setId("Main" + inputEvent.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

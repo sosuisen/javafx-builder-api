@@ -104,11 +104,6 @@ public class WebEngineBuilder {
      * Applies a function to the WebEngine instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(webEngine -> webEngine.setId("Main" + webEngine.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

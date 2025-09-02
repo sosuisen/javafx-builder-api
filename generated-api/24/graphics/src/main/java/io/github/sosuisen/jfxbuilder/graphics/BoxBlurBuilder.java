@@ -104,11 +104,6 @@ public class BoxBlurBuilder {
      * Applies a function to the BoxBlur instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(boxBlur -> boxBlur.setId("Main" + boxBlur.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

@@ -119,11 +119,6 @@ public class BorderBuilder {
      * Applies a function to the Border instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(border -> border.setId("Main" + border.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

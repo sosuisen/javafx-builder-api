@@ -104,11 +104,6 @@ public class TextInputDialogBuilder {
      * Applies a function to the TextInputDialog instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(textInputDialog -> textInputDialog.setId("Main" + textInputDialog.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

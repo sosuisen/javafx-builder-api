@@ -108,7 +108,7 @@ public class MeshViewBuilder {
      * <pre>{@code
      * apply(meshView -> meshView.setId("Main" + meshView.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

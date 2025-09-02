@@ -87,11 +87,6 @@ public class MatrixTypeBuilder {
      * Applies a function to the MatrixType instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(matrixType -> matrixType.setId("Main" + matrixType.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

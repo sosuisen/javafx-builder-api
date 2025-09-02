@@ -100,7 +100,7 @@ public class ParallelCameraBuilder {
      * <pre>{@code
      * apply(parallelCamera -> parallelCamera.setId("Main" + parallelCamera.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

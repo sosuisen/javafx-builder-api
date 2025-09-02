@@ -87,11 +87,6 @@ public class DepthTestBuilder {
      * Applies a function to the DepthTest instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(depthTest -> depthTest.setId("Main" + depthTest.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

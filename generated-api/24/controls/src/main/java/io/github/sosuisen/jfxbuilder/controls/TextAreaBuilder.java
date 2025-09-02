@@ -108,7 +108,7 @@ public class TextAreaBuilder {
      * <pre>{@code
      * apply(textArea -> textArea.setId("Main" + textArea.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

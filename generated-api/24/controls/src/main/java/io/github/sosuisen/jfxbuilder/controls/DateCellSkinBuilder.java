@@ -95,11 +95,6 @@ public class DateCellSkinBuilder {
      * Applies a function to the DateCellSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(dateCellSkin -> dateCellSkin.setId("Main" + dateCellSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

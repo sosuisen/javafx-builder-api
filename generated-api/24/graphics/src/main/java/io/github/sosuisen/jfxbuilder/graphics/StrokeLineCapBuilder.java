@@ -87,11 +87,6 @@ public class StrokeLineCapBuilder {
      * Applies a function to the StrokeLineCap instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(strokeLineCap -> strokeLineCap.setId("Main" + strokeLineCap.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

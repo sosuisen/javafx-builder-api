@@ -120,11 +120,6 @@ public class DropShadowBuilder {
      * Applies a function to the DropShadow instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(dropShadow -> dropShadow.setId("Main" + dropShadow.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

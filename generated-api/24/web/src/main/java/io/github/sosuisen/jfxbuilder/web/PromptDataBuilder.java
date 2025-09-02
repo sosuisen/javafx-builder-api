@@ -95,11 +95,6 @@ public class PromptDataBuilder {
      * Applies a function to the PromptData instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(promptData -> promptData.setId("Main" + promptData.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

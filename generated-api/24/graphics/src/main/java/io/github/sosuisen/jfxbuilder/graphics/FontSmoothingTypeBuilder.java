@@ -87,11 +87,6 @@ public class FontSmoothingTypeBuilder {
      * Applies a function to the FontSmoothingType instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(fontSmoothingType -> fontSmoothingType.setId("Main" + fontSmoothingType.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

@@ -160,7 +160,7 @@ public class TilePaneBuilder {
      * <pre>{@code
      * apply(tilePane -> tilePane.setId("Main" + tilePane.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

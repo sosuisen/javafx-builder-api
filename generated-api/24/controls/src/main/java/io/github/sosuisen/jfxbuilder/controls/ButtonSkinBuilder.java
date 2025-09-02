@@ -95,11 +95,6 @@ public class ButtonSkinBuilder {
      * Applies a function to the ButtonSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(buttonSkin -> buttonSkin.setId("Main" + buttonSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

@@ -104,11 +104,6 @@ public class GaussianBlurBuilder {
      * Applies a function to the GaussianBlur instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(gaussianBlur -> gaussianBlur.setId("Main" + gaussianBlur.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

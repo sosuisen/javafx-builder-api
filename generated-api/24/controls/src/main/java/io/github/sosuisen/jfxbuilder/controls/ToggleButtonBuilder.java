@@ -116,7 +116,7 @@ public class ToggleButtonBuilder {
      * <pre>{@code
      * apply(toggleButton -> toggleButton.setId("Main" + toggleButton.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

@@ -95,11 +95,6 @@ public class ContextMenuSkinBuilder {
      * Applies a function to the ContextMenuSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(contextMenuSkin -> contextMenuSkin.setId("Main" + contextMenuSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

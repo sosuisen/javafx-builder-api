@@ -97,11 +97,6 @@ public class TableViewTableViewFocusModelBuilder<S> {
      * Applies a function to the TableViewFocusModel instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(tableViewFocusModel -> tableViewFocusModel.setId("Main" + tableViewFocusModel.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

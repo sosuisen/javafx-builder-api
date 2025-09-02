@@ -96,11 +96,6 @@ public class SeparatorMenuItemBuilder {
      * Applies a function to the SeparatorMenuItem instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(separatorMenuItem -> separatorMenuItem.setId("Main" + separatorMenuItem.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

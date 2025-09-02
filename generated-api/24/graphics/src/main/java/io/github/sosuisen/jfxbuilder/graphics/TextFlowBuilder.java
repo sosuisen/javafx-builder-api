@@ -112,7 +112,7 @@ public class TextFlowBuilder {
      * <pre>{@code
      * apply(textFlow -> textFlow.setId("Main" + textFlow.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

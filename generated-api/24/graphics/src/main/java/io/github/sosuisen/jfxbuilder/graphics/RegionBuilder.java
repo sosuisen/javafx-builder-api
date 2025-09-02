@@ -100,7 +100,7 @@ public class RegionBuilder {
      * <pre>{@code
      * apply(region -> region.setId("Main" + region.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

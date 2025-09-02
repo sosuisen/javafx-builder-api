@@ -87,11 +87,6 @@ public class BlendModeBuilder {
      * Applies a function to the BlendMode instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(blendMode -> blendMode.setId("Main" + blendMode.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

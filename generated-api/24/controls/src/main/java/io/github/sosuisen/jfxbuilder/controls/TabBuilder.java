@@ -112,11 +112,6 @@ public class TabBuilder {
      * Applies a function to the Tab instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(tab -> tab.setId("Main" + tab.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

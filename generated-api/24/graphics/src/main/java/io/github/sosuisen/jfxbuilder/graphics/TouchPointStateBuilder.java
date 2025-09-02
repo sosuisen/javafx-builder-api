@@ -87,11 +87,6 @@ public class TouchPointStateBuilder {
      * Applies a function to the State instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(state -> state.setId("Main" + state.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

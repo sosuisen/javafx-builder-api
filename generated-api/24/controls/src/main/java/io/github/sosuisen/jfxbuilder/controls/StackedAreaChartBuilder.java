@@ -109,7 +109,7 @@ public class StackedAreaChartBuilder<X, Y> {
      * <pre>{@code
      * apply(stackedAreaChart -> stackedAreaChart.setId("Main" + stackedAreaChart.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

@@ -108,7 +108,7 @@ public class ButtonBarBuilder {
      * <pre>{@code
      * apply(buttonBar -> buttonBar.setId("Main" + buttonBar.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

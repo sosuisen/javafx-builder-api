@@ -108,7 +108,7 @@ public class BoxBuilder {
      * <pre>{@code
      * apply(box -> box.setId("Main" + box.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

@@ -108,7 +108,7 @@ public class TabPaneBuilder {
      * <pre>{@code
      * apply(tabPane -> tabPane.setId("Main" + tabPane.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

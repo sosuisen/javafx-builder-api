@@ -150,7 +150,7 @@ public class SpinnerBuilder<T> {
      * <pre>{@code
      * apply(spinner -> spinner.setId("Main" + spinner.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

@@ -112,11 +112,6 @@ public class DisplacementMapBuilder {
      * Applies a function to the DisplacementMap instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(displacementMap -> displacementMap.setId("Main" + displacementMap.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

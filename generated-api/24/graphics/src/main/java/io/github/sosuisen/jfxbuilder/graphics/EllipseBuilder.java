@@ -116,7 +116,7 @@ public class EllipseBuilder {
      * <pre>{@code
      * apply(ellipse -> ellipse.setId("Main" + ellipse.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

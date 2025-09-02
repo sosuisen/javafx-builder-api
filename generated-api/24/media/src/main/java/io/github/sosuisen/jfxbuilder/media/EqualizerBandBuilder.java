@@ -104,11 +104,6 @@ public class EqualizerBandBuilder {
      * Applies a function to the EqualizerBand instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(equalizerBand -> equalizerBand.setId("Main" + equalizerBand.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

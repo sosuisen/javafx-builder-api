@@ -96,11 +96,6 @@ public class ClosePathBuilder {
      * Applies a function to the ClosePath instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(closePath -> closePath.setId("Main" + closePath.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

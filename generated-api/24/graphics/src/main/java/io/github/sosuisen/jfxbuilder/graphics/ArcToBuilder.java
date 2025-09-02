@@ -104,11 +104,6 @@ public class ArcToBuilder {
      * Applies a function to the ArcTo instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(arcTo -> arcTo.setId("Main" + arcTo.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

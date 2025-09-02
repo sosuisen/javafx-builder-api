@@ -104,11 +104,6 @@ public class ReflectionBuilder {
      * Applies a function to the Reflection instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(reflection -> reflection.setId("Main" + reflection.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

@@ -95,11 +95,6 @@ public class BackgroundFillBuilder {
      * Applies a function to the BackgroundFill instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(backgroundFill -> backgroundFill.setId("Main" + backgroundFill.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

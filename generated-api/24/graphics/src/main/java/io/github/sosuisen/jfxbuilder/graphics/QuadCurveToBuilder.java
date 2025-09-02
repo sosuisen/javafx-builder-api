@@ -104,11 +104,6 @@ public class QuadCurveToBuilder {
      * Applies a function to the QuadCurveTo instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(quadCurveTo -> quadCurveTo.setId("Main" + quadCurveTo.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

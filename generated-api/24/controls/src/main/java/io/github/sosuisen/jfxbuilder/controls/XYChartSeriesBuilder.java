@@ -114,11 +114,6 @@ public class XYChartSeriesBuilder<X, Y> {
      * Applies a function to the Series instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(series -> series.setId("Main" + series.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

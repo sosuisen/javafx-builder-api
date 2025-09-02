@@ -124,7 +124,7 @@ public class RectangleBuilder {
      * <pre>{@code
      * apply(rectangle -> rectangle.setId("Main" + rectangle.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

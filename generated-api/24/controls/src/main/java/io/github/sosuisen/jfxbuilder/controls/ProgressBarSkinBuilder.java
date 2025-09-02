@@ -95,11 +95,6 @@ public class ProgressBarSkinBuilder {
      * Applies a function to the ProgressBarSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(progressBarSkin -> progressBarSkin.setId("Main" + progressBarSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

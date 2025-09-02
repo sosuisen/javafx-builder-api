@@ -107,7 +107,7 @@ public class SubSceneBuilder {
      * <pre>{@code
      * apply(subScene -> subScene.setId("Main" + subScene.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

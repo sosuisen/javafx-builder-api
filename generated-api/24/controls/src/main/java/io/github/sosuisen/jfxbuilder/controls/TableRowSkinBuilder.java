@@ -97,11 +97,6 @@ public class TableRowSkinBuilder<T> {
      * Applies a function to the TableRowSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(tableRowSkin -> tableRowSkin.setId("Main" + tableRowSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

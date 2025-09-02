@@ -121,11 +121,6 @@ public class TextFormatterBuilder<V> {
      * Applies a function to the TextFormatter instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(textFormatter -> textFormatter.setId("Main" + textFormatter.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

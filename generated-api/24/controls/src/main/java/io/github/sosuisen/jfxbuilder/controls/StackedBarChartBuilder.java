@@ -117,7 +117,7 @@ public class StackedBarChartBuilder<X, Y> {
      * <pre>{@code
      * apply(stackedBarChart -> stackedBarChart.setId("Main" + stackedBarChart.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

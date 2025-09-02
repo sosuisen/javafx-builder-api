@@ -116,7 +116,7 @@ public class NumberAxisBuilder {
      * <pre>{@code
      * apply(numberAxis -> numberAxis.setId("Main" + numberAxis.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

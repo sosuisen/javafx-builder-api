@@ -100,7 +100,7 @@ public class DateCellBuilder {
      * <pre>{@code
      * apply(dateCell -> dateCell.setId("Main" + dateCell.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

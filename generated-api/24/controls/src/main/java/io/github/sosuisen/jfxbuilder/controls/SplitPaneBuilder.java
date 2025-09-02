@@ -108,7 +108,7 @@ public class SplitPaneBuilder {
      * <pre>{@code
      * apply(splitPane -> splitPane.setId("Main" + splitPane.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

@@ -120,11 +120,6 @@ public class InnerShadowBuilder {
      * Applies a function to the InnerShadow instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(innerShadow -> innerShadow.setId("Main" + innerShadow.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

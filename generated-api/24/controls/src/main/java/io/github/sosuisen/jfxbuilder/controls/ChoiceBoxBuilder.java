@@ -110,7 +110,7 @@ public class ChoiceBoxBuilder<T> {
      * <pre>{@code
      * apply(choiceBox -> choiceBox.setId("Main" + choiceBox.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

@@ -134,7 +134,7 @@ public class ComboBoxListCellBuilder<T> {
      * <pre>{@code
      * apply(comboBoxListCell -> comboBoxListCell.setId("Main" + comboBoxListCell.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

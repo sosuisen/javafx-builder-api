@@ -87,11 +87,6 @@ public class SubtitleTrackBuilder {
      * Applies a function to the SubtitleTrack instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(subtitleTrack -> subtitleTrack.setId("Main" + subtitleTrack.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

@@ -87,11 +87,6 @@ public class CycleMethodBuilder {
      * Applies a function to the CycleMethod instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(cycleMethod -> cycleMethod.setId("Main" + cycleMethod.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

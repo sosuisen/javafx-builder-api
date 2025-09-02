@@ -95,11 +95,6 @@ public class MenuButtonSkinBuilder {
      * Applies a function to the MenuButtonSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(menuButtonSkin -> menuButtonSkin.setId("Main" + menuButtonSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

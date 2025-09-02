@@ -112,7 +112,7 @@ public class AnchorPaneBuilder {
      * <pre>{@code
      * apply(anchorPane -> anchorPane.setId("Main" + anchorPane.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

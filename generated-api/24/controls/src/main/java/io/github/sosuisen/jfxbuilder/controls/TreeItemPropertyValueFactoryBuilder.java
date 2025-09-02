@@ -97,11 +97,6 @@ public class TreeItemPropertyValueFactoryBuilder<S, T> {
      * Applies a function to the TreeItemPropertyValueFactory instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(treeItemPropertyValueFactory -> treeItemPropertyValueFactory.setId("Main" + treeItemPropertyValueFactory.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

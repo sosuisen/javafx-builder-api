@@ -114,11 +114,6 @@ public class XYChartDataBuilder<X, Y> {
      * Applies a function to the Data instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(data -> data.setId("Main" + data.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

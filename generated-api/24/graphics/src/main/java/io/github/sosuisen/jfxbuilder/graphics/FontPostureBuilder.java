@@ -87,11 +87,6 @@ public class FontPostureBuilder {
      * Applies a function to the FontPosture instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(fontPosture -> fontPosture.setId("Main" + fontPosture.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

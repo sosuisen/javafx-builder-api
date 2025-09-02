@@ -97,11 +97,6 @@ public class ComboBoxListViewSkinBuilder<T> {
      * Applies a function to the ComboBoxListViewSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(comboBoxListViewSkin -> comboBoxListViewSkin.setId("Main" + comboBoxListViewSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

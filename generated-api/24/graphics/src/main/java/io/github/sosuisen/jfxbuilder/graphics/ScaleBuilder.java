@@ -128,11 +128,6 @@ public class ScaleBuilder {
      * Applies a function to the Scale instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(scale -> scale.setId("Main" + scale.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

@@ -116,7 +116,7 @@ public class ButtonBuilder {
      * <pre>{@code
      * apply(button -> button.setId("Main" + button.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

@@ -108,7 +108,7 @@ public class MenuBarBuilder {
      * <pre>{@code
      * apply(menuBar -> menuBar.setId("Main" + menuBar.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

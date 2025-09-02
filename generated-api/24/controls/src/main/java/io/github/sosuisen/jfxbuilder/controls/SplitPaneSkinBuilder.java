@@ -95,11 +95,6 @@ public class SplitPaneSkinBuilder {
      * Applies a function to the SplitPaneSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(splitPaneSkin -> splitPaneSkin.setId("Main" + splitPaneSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

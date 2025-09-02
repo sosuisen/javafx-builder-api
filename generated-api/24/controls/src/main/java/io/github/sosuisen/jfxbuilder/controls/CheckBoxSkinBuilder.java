@@ -95,11 +95,6 @@ public class CheckBoxSkinBuilder {
      * Applies a function to the CheckBoxSkin instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(checkBoxSkin -> checkBoxSkin.setId("Main" + checkBoxSkin.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

@@ -97,11 +97,6 @@ public class PropertyValueFactoryBuilder<S, T> {
      * Applies a function to the PropertyValueFactory instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(propertyValueFactory -> propertyValueFactory.setId("Main" + propertyValueFactory.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

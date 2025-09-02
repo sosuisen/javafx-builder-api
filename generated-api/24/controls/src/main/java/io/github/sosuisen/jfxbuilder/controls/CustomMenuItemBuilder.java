@@ -112,11 +112,6 @@ public class CustomMenuItemBuilder {
      * Applies a function to the CustomMenuItem instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(customMenuItem -> customMenuItem.setId("Main" + customMenuItem.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

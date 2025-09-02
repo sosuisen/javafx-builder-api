@@ -109,7 +109,7 @@ public class AreaChartBuilder<X, Y> {
      * <pre>{@code
      * apply(areaChart -> areaChart.setId("Main" + areaChart.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

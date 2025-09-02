@@ -116,7 +116,7 @@ public class HyperlinkBuilder {
      * <pre>{@code
      * apply(hyperlink -> hyperlink.setId("Main" + hyperlink.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

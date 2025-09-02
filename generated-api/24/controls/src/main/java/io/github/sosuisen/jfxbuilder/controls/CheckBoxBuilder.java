@@ -108,7 +108,7 @@ public class CheckBoxBuilder {
      * <pre>{@code
      * apply(checkBox -> checkBox.setId("Main" + checkBox.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

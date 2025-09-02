@@ -108,7 +108,7 @@ public class AmbientLightBuilder {
      * <pre>{@code
      * apply(ambientLight -> ambientLight.setId("Main" + ambientLight.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

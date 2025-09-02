@@ -87,11 +87,6 @@ public class TextBoundsTypeBuilder {
      * Applies a function to the TextBoundsType instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(textBoundsType -> textBoundsType.setId("Main" + textBoundsType.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

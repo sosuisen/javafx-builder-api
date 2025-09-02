@@ -108,7 +108,7 @@ public class QuadCurveBuilder {
      * <pre>{@code
      * apply(quadCurve -> quadCurve.setId("Main" + quadCurve.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

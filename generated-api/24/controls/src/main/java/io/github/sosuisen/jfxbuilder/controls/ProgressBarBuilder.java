@@ -108,7 +108,7 @@ public class ProgressBarBuilder {
      * <pre>{@code
      * apply(progressBar -> progressBar.setId("Main" + progressBar.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

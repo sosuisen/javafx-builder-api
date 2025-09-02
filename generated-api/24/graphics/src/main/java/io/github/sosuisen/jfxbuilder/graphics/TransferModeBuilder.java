@@ -87,11 +87,6 @@ public class TransferModeBuilder {
      * Applies a function to the TransferMode instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(transferMode -> transferMode.setId("Main" + transferMode.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

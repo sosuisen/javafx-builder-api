@@ -112,11 +112,6 @@ public class BlendBuilder {
      * Applies a function to the Blend instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(blend -> blend.setId("Main" + blend.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

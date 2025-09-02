@@ -103,7 +103,7 @@ public class TableHeaderRowBuilder {
      * <pre>{@code
      * apply(tableHeaderRow -> tableHeaderRow.setId("Main" + tableHeaderRow.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

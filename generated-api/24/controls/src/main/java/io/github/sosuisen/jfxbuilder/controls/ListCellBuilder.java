@@ -102,7 +102,7 @@ public class ListCellBuilder<T> {
      * <pre>{@code
      * apply(listCell -> listCell.setId("Main" + listCell.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

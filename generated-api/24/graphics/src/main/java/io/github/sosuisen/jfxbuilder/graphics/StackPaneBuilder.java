@@ -112,7 +112,7 @@ public class StackPaneBuilder {
      * <pre>{@code
      * apply(stackPane -> stackPane.setId("Main" + stackPane.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

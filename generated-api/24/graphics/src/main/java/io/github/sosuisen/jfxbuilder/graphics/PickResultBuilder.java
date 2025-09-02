@@ -119,11 +119,6 @@ public class PickResultBuilder {
      * Applies a function to the PickResult instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(pickResult -> pickResult.setId("Main" + pickResult.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

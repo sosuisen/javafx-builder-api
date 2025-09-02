@@ -134,7 +134,7 @@ public class ComboBoxTreeTableCellBuilder<S, T> {
      * <pre>{@code
      * apply(comboBoxTreeTableCell -> comboBoxTreeTableCell.setId("Main" + comboBoxTreeTableCell.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

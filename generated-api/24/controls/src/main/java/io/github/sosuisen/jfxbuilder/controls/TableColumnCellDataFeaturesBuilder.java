@@ -97,11 +97,6 @@ public class TableColumnCellDataFeaturesBuilder<S, T> {
      * Applies a function to the CellDataFeatures instance currently being built.
      * Most operations on the instance can be performed using this method.
      *
-     * <p>Example usage:</p>     
-     * <pre>{@code
-     * apply(cellDataFeatures -> cellDataFeatures.setId("Main" + cellDataFeatures.getTypeSelector()))
-     * }</pre>
-     * 
      * @return builder instance
      *
      */

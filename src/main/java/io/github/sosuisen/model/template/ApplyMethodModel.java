@@ -9,7 +9,8 @@ public record ApplyMethodModel(
         String builderClassNameWithTypeParameter,
         String classNameWithTypeParameter,
         String simpleClassName,
-        String camelCaseOfClassName) {
+        String camelCaseOfClassName,
+        boolean isNodeClass) {
 
     public static Builder builder() {
         return new Builder();
@@ -35,7 +36,8 @@ public record ApplyMethodModel(
                     classMetadata.builderClassNameWithTypeParameter(),
                     classMetadata.classNameWithTypeParameter(),
                     classMetadata.getSimpleClassName(),
-                    camelCaseOfClassName);
+                    camelCaseOfClassName,
+                    classMetadata.isNodeClass());
         }
     }
 

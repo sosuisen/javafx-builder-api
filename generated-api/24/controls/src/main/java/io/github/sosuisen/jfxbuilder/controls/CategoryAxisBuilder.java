@@ -108,7 +108,7 @@ public class CategoryAxisBuilder {
      * <pre>{@code
      * apply(categoryAxis -> categoryAxis.setId("Main" + categoryAxis.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */

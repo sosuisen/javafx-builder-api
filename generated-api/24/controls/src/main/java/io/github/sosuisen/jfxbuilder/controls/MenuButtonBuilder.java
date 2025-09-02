@@ -124,7 +124,7 @@ public class MenuButtonBuilder {
      * <pre>{@code
      * apply(menuButton -> menuButton.setId("Main" + menuButton.getTypeSelector()))
      * }</pre>
-     * 
+     *
      * @return builder instance
      *
      */
