@@ -14,13 +14,12 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import io.github.sosuisen.extractor.MethodComparator;
-import io.github.sosuisen.extractor.ParameterInfo;
-import io.github.sosuisen.extractor.StaticSetterInfo;
-import io.github.sosuisen.extractor.TypeNameConverter;
-import io.github.sosuisen.mapper.ClassAnnotationManager;
 import io.github.sosuisen.mapper.MethodAnnotationManager;
 import io.github.sosuisen.mapper.TypeMappingManager;
 import io.github.sosuisen.model.ClassMetadata;
+import io.github.sosuisen.model.ParameterInfo;
+import io.github.sosuisen.model.Parameters;
+import io.github.sosuisen.model.StaticSetterInfo;
 import gg.jte.ContentType;
 import gg.jte.TemplateEngine;
 import gg.jte.TemplateOutput;
@@ -139,77 +138,13 @@ public class BuilderClassGenerator {
     }
 
     private String generateCreateMethod(Constructor<?> constructor) {
-        Parameter[] parameters = constructor.getParameters();
-
-        CreateMethodModel model;
-
-        if (parameters.length == 0) {
-            model = CreateMethodModel.builder()
-                    .classMetadata(classMetadata)
-                    .buildDefault();
-        } else {
-            String parameterList = buildParameterListWithTypes(parameters, constructor.isVarArgs());
-            String argumentList = buildParameterListNamesOnly(parameters);
-
-            model = CreateMethodModel.builder()
-                    .classMetadata(classMetadata)
-                    .parameterList(parameterList)
-                    .argumentList(argumentList)
-                    .isVarArgs(constructor.isVarArgs())
-                    .buildParameterized();
-        }
-
+        CreateMethodModel model = CreateMethodModel.builder()
+                .classMetadata(classMetadata)
+                .constructor(constructor)
+                .build();
         TemplateOutput output = new StringOutput();
         templateEngine.render("create-method.jte", model, output);
         return output.toString();
-    }
-
-    private String buildParameterListWithTypes(Parameter[] parameters, boolean isVarArgs) {
-        StringBuilder paramList = new StringBuilder();
-        for (int i = 0; i < parameters.length; i++) {
-            Parameter param = parameters[i];
-
-            String paramType = param.getParameterizedType().getTypeName();
-            if (isVarArgs) {
-                paramType = paramType.replace("[]", "...");
-            }
-            paramType = paramType.replaceAll("\\$", ".");
-
-            // Check for type replacement first
-            paramType = TypeMappingManager.getReplacement(classMetadata.getClassName(), paramType);
-
-            paramList.append(paramType);
-            paramList.append(" ").append(param.getName());
-            if (i < parameters.length - 1) {
-                paramList.append(", ");
-            }
-        }
-        return paramList.toString();
-    }
-
-    private String buildParameterListTypesOnly(Parameter[] parameters) {
-        StringBuilder argList = new StringBuilder();
-        for (int i = 0; i < parameters.length; i++) {
-            Parameter param = parameters[i];
-            String typeName = TypeNameConverter.toReadableTypeName(param.getType().getName());
-            argList.append(typeName);
-            if (i < parameters.length - 1) {
-                argList.append(", ");
-            }
-        }
-        return argList.toString();
-    }
-
-    private String buildParameterListNamesOnly(Parameter[] parameters) {
-        StringBuilder argList = new StringBuilder();
-        for (int i = 0; i < parameters.length; i++) {
-            Parameter param = parameters[i];
-            argList.append(param.getName());
-            if (i < parameters.length - 1) {
-                argList.append(", ");
-            }
-        }
-        return argList.toString();
     }
 
     private String generateBuildMethod() {
@@ -247,9 +182,10 @@ public class BuilderClassGenerator {
             methodName = Character.toLowerCase(methodName.charAt(0)) + methodName.substring(1);
 
             Parameter[] parameters = method.getParameters();
-            String parameterList = buildParameterListWithTypes(parameters, method.isVarArgs());
-            String parameterTypeList = buildParameterListTypesOnly(parameters);
-            String argumentList = buildParameterListNamesOnly(parameters);
+            String parameterList = Parameters.buildParameterListWithTypes(parameters, classMetadata.getClassName(),
+                    method.isVarArgs());
+            String parameterTypeList = Parameters.buildParameterListTypesOnly(parameters);
+            String argumentList = Parameters.buildParameterListNamesOnly(parameters);
 
             String methodAnnotation = MethodAnnotationManager.getMethodAnnotation(classMetadata.getClassName(),
                     method.getName());

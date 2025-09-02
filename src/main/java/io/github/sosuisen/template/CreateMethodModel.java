@@ -1,6 +1,10 @@
 package io.github.sosuisen.template;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Parameter;
+
 import io.github.sosuisen.model.ClassMetadata;
+import io.github.sosuisen.model.Parameters;
 
 /**
  * Data model for constructor method JTE template
@@ -21,33 +25,34 @@ public record CreateMethodModel(
 
     public static class Builder {
         private ClassMetadata classMetadata;
-        private String parameterList;
-        private String argumentList;
-        private boolean isVarArgs;
+        private Constructor<?> constructor;
 
         public Builder classMetadata(ClassMetadata classMetadata) {
             this.classMetadata = classMetadata;
             return this;
         }
 
-        public Builder parameterList(String parameterList) {
-            this.parameterList = parameterList;
+        public Builder constructor(Constructor<?> constructor) {
+            this.constructor = constructor;
             return this;
         }
 
-        public Builder argumentList(String argumentList) {
-            this.argumentList = argumentList;
-            return this;
-        }
+        public CreateMethodModel build() {
+            if (classMetadata == null || constructor == null) {
+                throw new IllegalStateException("classMetadata and constructor are required");
+            }
 
-        public Builder isVarArgs(boolean isVarArgs) {
-            this.isVarArgs = isVarArgs;
-            return this;
-        }
+            Parameter[] parameters = constructor.getParameters();
+            boolean isDefaultConstructor = parameters.length == 0;
 
-        public CreateMethodModel buildDefault() {
-            if (classMetadata == null) {
-                throw new IllegalStateException("classMetadata is required");
+            String parameterList = "";
+            String argumentList = "";
+            boolean isVarArgs = constructor.isVarArgs();
+
+            if (!isDefaultConstructor) {
+                parameterList = Parameters.buildParameterListWithTypes(parameters, classMetadata.getClassName(),
+                        isVarArgs);
+                argumentList = Parameters.buildParameterListNamesOnly(parameters);
             }
 
             return new CreateMethodModel(
@@ -55,28 +60,12 @@ public record CreateMethodModel(
                     classMetadata.gettypeParametersWithExtends(),
                     classMetadata.builderClassNameWithTypeParameter(),
                     classMetadata.getBuilderClassName(),
-                    true,
-                    "",
-                    "",
-                    false);
-        }
-
-        public CreateMethodModel buildParameterized() {
-            if (classMetadata == null || parameterList == null || argumentList == null) {
-                throw new IllegalStateException(
-                        "classMetadata, parameterList, and argumentList are required for parameterized constructor");
-            }
-
-            return new CreateMethodModel(
-                    classMetadata.getTypeParameters(),
-                    classMetadata.gettypeParametersWithExtends(),
-                    classMetadata.builderClassNameWithTypeParameter(),
-                    classMetadata.getBuilderClassName(),
-                    false,
+                    isDefaultConstructor,
                     parameterList,
                     argumentList,
                     isVarArgs);
         }
+
     }
 
 }

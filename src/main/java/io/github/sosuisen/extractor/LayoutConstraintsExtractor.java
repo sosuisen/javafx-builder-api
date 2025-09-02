@@ -9,6 +9,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import io.github.sosuisen.model.ParameterInfo;
+import io.github.sosuisen.model.StaticSetterInfo;
+
 public class LayoutConstraintsExtractor {
 
     // LAYOUT_CONSTRAINTS_JAR contains static setter methods for layout constraints
@@ -47,10 +50,11 @@ public class LayoutConstraintsExtractor {
     private List<StaticSetterInfo> extractStaticSettersFromClass(Class<?> clazz) {
         Method[] methods = clazz.getMethods();
 
-        // Filter static setter methods and sort them by their string representation to ensure consistent output order
+        // Filter static setter methods and sort them by their string representation to
+        // ensure consistent output order
         List<Method> staticSetterMethods = Arrays.stream(methods)
                 .filter(method -> Modifier.isStatic(method.getModifiers()) &&
-                                 method.getName().startsWith("set"))
+                        method.getName().startsWith("set"))
                 .sorted(MethodComparator.forMethod())
                 .collect(Collectors.toList());
 
