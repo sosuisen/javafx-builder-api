@@ -12,8 +12,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 import io.github.sosuisen.extractor.MethodComparator;
@@ -23,7 +21,6 @@ import io.github.sosuisen.extractor.TypeNameConverter;
 import io.github.sosuisen.mapper.ClassAnnotationManager;
 import io.github.sosuisen.mapper.MethodAnnotationManager;
 import io.github.sosuisen.mapper.TypeMappingManager;
-import io.github.sosuisen.parser.ConstructorParser;
 import gg.jte.ContentType;
 import gg.jte.TemplateEngine;
 import gg.jte.TemplateOutput;
@@ -61,7 +58,7 @@ public class BuilderClassGenerator {
         this.outputDir = outputDir;
         this.clazz = clazz;
         typeParameters = getTypeParameterString(clazz);
-        typeParametersExtends = getTypeParameterExtendsString(clazz);
+        typeParametersExtends = getTypeParametersWithExtendsString(clazz);
         className = clazz.getCanonicalName();
         classNameWithTypeParameter = className + typeParameters;
         builderClassName = createBuilderClassName();
@@ -117,7 +114,7 @@ public class BuilderClassGenerator {
         return typeParameterBuilder.toString();
     }
 
-    private String getTypeParameterExtendsString(Class<?> clazz) {
+    private String getTypeParametersWithExtendsString(Class<?> clazz) {
         if (clazz.getTypeParameters().length == 0) {
             return "";
         }
@@ -398,47 +395,22 @@ public class BuilderClassGenerator {
     }
 
     private String generateAddAndWithMethod(String getterMethodName) {
-        String propertyName = getterMethodName.substring(3); // Remove "get"
-
-        String addMethodName = "add" + propertyName;
-
-        String withMethodName = null;
-        List<String> ignoreList = List.of(
-                "getStylesheets",
-                "getTransforms",
-                "getStyleClass");
-        if (!ignoreList.contains(getterMethodName) && ConstructorParser.hasDefaultConstructor(clazz)) {
-            withMethodName = "with" + propertyName;
-        }
-
         try {
-            Method getterMethod = clazz.getMethod(getterMethodName);
-            String returnType = getterMethod.getGenericReturnType().getTypeName();
-            if (returnType.startsWith("javafx.collections.ObservableList<")) {
-                Pattern pattern = Pattern.compile("<(.+)>$");
-                Matcher matcher = pattern.matcher(returnType);
-                if (matcher.find()) {
-                    String observableListTypeParameter = matcher.group(1).replace("$", ".");
-                    observableListTypeParameter = TypeMappingManager.getReplacement(className,
-                            observableListTypeParameter);
-                    AddWithMethodModel model = AddWithMethodModel.create(
-                            builderClassNameWithTypeParameter,
-                            observableListTypeParameter,
-                            typeParametersExtends,
-                            addMethodName,
-                            withMethodName,
-                            getterMethodName,
-                            className);
-                    TemplateOutput output = new StringOutput();
-                    templateEngine.render("add-with-methods.jte", model, output);
+            AddWithMethodModel model = AddWithMethodModel.builder()
+                    .getterMethodName(getterMethodName)
+                    .targetClass(clazz)
+                    .builderClassName(builderClassName)
+                    .typeParameters(typeParameters)
+                    .typeParametersExtends(typeParametersExtends)
+                    .build();
 
-                    return output.toString();
-                }
-            }
-        } catch (NoSuchMethodException e) {
-            // Class doesn't have the method, skip
+            TemplateOutput output = new StringOutput();
+            templateEngine.render("add-with-methods.jte", model, output);
+            return output.toString();
+        } catch (IllegalArgumentException e) {
+            // Method doesn't exist or doesn't return ObservableList, skip
+            return "";
         }
-        return "";
     }
 
     private String generateBorderPaneMethods() {
