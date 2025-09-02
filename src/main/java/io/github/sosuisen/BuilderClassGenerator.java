@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
-import java.lang.reflect.Type;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -21,6 +20,7 @@ import io.github.sosuisen.extractor.TypeNameConverter;
 import io.github.sosuisen.mapper.ClassAnnotationManager;
 import io.github.sosuisen.mapper.MethodAnnotationManager;
 import io.github.sosuisen.mapper.TypeMappingManager;
+import io.github.sosuisen.model.ClassMetadata;
 import gg.jte.ContentType;
 import gg.jte.TemplateEngine;
 import gg.jte.TemplateOutput;
@@ -44,12 +44,8 @@ public class BuilderClassGenerator {
     private final String packageName;
     private final String[] outputDir;
     private final Class<?> clazz;
-    private final String typeParameters;
-    private final String typeParametersExtends;
-    private final String className;
-    private final String classNameWithTypeParameter;
-    private final String builderClassName;
-    private final String builderClassNameWithTypeParameter;
+    private final ClassMetadata classMetadata;
+
     private final List<StaticSetterInfo> staticSetters;
 
     public BuilderClassGenerator(String packageName, String[] outputDir, Class<?> clazz,
@@ -57,14 +53,9 @@ public class BuilderClassGenerator {
         this.packageName = packageName;
         this.outputDir = outputDir;
         this.clazz = clazz;
-        typeParameters = getTypeParameterString(clazz);
-        typeParametersExtends = getTypeParametersWithExtendsString(clazz);
-        className = clazz.getCanonicalName();
-        classNameWithTypeParameter = className + typeParameters;
-        builderClassName = createBuilderClassName();
-        builderClassNameWithTypeParameter = builderClassName + typeParameters;
-
         this.staticSetters = staticSetters;
+
+        classMetadata = new ClassMetadata(clazz);
     }
 
     public void generate() throws IOException {
@@ -72,74 +63,10 @@ public class BuilderClassGenerator {
         writeToFiles(content);
     }
 
-    private String createBuilderClassName() {
-        // Find the first uppercase letter
-        int firstUpperCaseIndex = -1;
-        for (int i = 0; i < className.length(); i++) {
-            if (Character.isUpperCase(className.charAt(i))) {
-                firstUpperCaseIndex = i;
-                break;
-            }
-        }
-
-        // If no uppercase letter found, use the entire className
-        if (firstUpperCaseIndex == -1) {
-            return className.replace(".", "") + "Builder";
-        }
-
-        // Extract substring from first uppercase letter onwards and remove dots
-        String result = className.substring(firstUpperCaseIndex).replace(".", "") + "Builder";
-        return result;
-    }
-
     private static TemplateEngine initializeTemplateEngine() {
         Path templatePath = Paths.get("src/main/resources/templates");
         DirectoryCodeResolver codeResolver = new DirectoryCodeResolver(templatePath);
         return TemplateEngine.create(codeResolver, ContentType.Plain);
-    }
-
-    private String getTypeParameterString(Class<?> clazz) {
-        if (clazz.getTypeParameters().length == 0) {
-            return "";
-        }
-
-        StringBuilder typeParameterBuilder = new StringBuilder("<");
-        for (int i = 0; i < clazz.getTypeParameters().length; i++) {
-            if (i > 0)
-                typeParameterBuilder.append(", ");
-
-            typeParameterBuilder.append(clazz.getTypeParameters()[i].getName());
-        }
-        typeParameterBuilder.append(">");
-        return typeParameterBuilder.toString();
-    }
-
-    private String getTypeParametersWithExtendsString(Class<?> clazz) {
-        if (clazz.getTypeParameters().length == 0) {
-            return "";
-        }
-
-        StringBuilder typeParameterBuilder = new StringBuilder("<");
-        for (int i = 0; i < clazz.getTypeParameters().length; i++) {
-            if (i > 0)
-                typeParameterBuilder.append(", ");
-
-            Type[] bounds = clazz.getTypeParameters()[i].getBounds();
-            if (bounds.length > 0) {
-                if (!bounds[0].getTypeName().equals("java.lang.Object")) {
-                    // e.g.) CellSkinBase<C extends Cell>
-                    typeParameterBuilder
-                            .append(clazz.getTypeParameters()[i].getName() + " extends " + bounds[0].getTypeName());
-                } else {
-                    typeParameterBuilder.append(clazz.getTypeParameters()[i].getName());
-                }
-            } else {
-                typeParameterBuilder.append(clazz.getTypeParameters()[i].getName());
-            }
-
-        }
-        typeParameterBuilder.append(">");
-        return typeParameterBuilder.toString();
     }
 
     private String generateBuilderClass() {
@@ -176,15 +103,13 @@ public class BuilderClassGenerator {
     }
 
     private String generateClassHeader() {
-        String classAnnotation = ClassAnnotationManager.getClassAnnotation(className);
+        String classAnnotation = ClassAnnotationManager.getClassAnnotation(classMetadata.getClassName());
 
-        ClassHeaderModel model = ClassHeaderModel.create(
-                packageName,
-                builderClassName,
-                typeParameters,
-                typeParametersExtends,
-                classNameWithTypeParameter,
-                classAnnotation);
+        ClassHeaderModel model = ClassHeaderModel.builder()
+                .packageName(packageName)
+                .classMetadata(classMetadata)
+                .classAnnotation(classAnnotation)
+                .build();
 
         TemplateOutput output = new StringOutput();
         templateEngine.render("class-header.jte", model, output);
@@ -224,23 +149,19 @@ public class BuilderClassGenerator {
         CreateMethodModel model;
 
         if (parameters.length == 0) {
-            model = CreateMethodModel.createDefault(
-                    typeParameters,
-                    typeParametersExtends,
-                    builderClassNameWithTypeParameter,
-                    builderClassName);
+            model = CreateMethodModel.builder()
+                    .classMetadata(classMetadata)
+                    .buildDefault();
         } else {
             String parameterList = buildParameterListWithTypes(parameters, constructor.isVarArgs());
             String argumentList = buildParameterListNamesOnly(parameters);
 
-            model = CreateMethodModel.createParameterized(
-                    typeParameters,
-                    typeParametersExtends,
-                    builderClassNameWithTypeParameter,
-                    builderClassName,
-                    parameterList,
-                    argumentList,
-                    constructor.isVarArgs());
+            model = CreateMethodModel.builder()
+                    .classMetadata(classMetadata)
+                    .parameterList(parameterList)
+                    .argumentList(argumentList)
+                    .isVarArgs(constructor.isVarArgs())
+                    .buildParameterized();
         }
 
         TemplateOutput output = new StringOutput();
@@ -260,7 +181,7 @@ public class BuilderClassGenerator {
             paramType = paramType.replaceAll("\\$", ".");
 
             // Check for type replacement first
-            paramType = TypeMappingManager.getReplacement(className, paramType);
+            paramType = TypeMappingManager.getReplacement(classMetadata.getClassName(), paramType);
 
             paramList.append(paramType);
             paramList.append(" ").append(param.getName());
@@ -297,14 +218,16 @@ public class BuilderClassGenerator {
     }
 
     private String generateBuildMethod() {
-        BuildMethodModel model = BuildMethodModel.create(clazz, className, classNameWithTypeParameter, typeParameters);
+        BuildMethodModel model = BuildMethodModel.builder()
+                .classMetadata(classMetadata)
+                .build();
         TemplateOutput output = new StringOutput();
         templateEngine.render("build-method.jte", model, output);
         return output.toString();
     }
 
     private String generateApplyMethod() {
-        ApplyMethodModel model = ApplyMethodModel.create(builderClassNameWithTypeParameter, classNameWithTypeParameter);
+        ApplyMethodModel model = ApplyMethodModel.create(classMetadata.builderClassNameWithTypeParameter(), classMetadata.classNameWithTypeParameter());
         TemplateOutput output = new StringOutput();
         templateEngine.render("apply-method.jte", model, output);
         return output.toString();
@@ -332,16 +255,16 @@ public class BuilderClassGenerator {
             String parameterTypeList = buildParameterListTypesOnly(parameters);
             String argumentList = buildParameterListNamesOnly(parameters);
 
-            String methodAnnotation = MethodAnnotationManager.getMethodAnnotation(className, method.getName());
-            SetterMethodModel model = SetterMethodModel.create(
-                    builderClassNameWithTypeParameter,
-                    methodName,
-                    parameterList,
-                    parameterTypeList,
-                    argumentList,
-                    className,
-                    method.getName(),
-                    methodAnnotation);
+            String methodAnnotation = MethodAnnotationManager.getMethodAnnotation(classMetadata.getClassName(), method.getName());
+            SetterMethodModel model = SetterMethodModel.builder()
+                    .classMetadata(classMetadata)
+                    .methodName(methodName)
+                    .parameterList(parameterList)
+                    .parameterTypeList(parameterTypeList)
+                    .argumentList(argumentList)
+                    .originalMethodName(method.getName())
+                    .methodAnnotation(methodAnnotation)
+                    .build();
 
             TemplateOutput output = new StringOutput();
             templateEngine.render("setter-method.jte", model, output);
@@ -398,10 +321,7 @@ public class BuilderClassGenerator {
         try {
             AddWithMethodModel model = AddWithMethodModel.builder()
                     .getterMethodName(getterMethodName)
-                    .targetClass(clazz)
-                    .builderClassName(builderClassName)
-                    .typeParameters(typeParameters)
-                    .typeParametersExtends(typeParametersExtends)
+                    .classMetadata(classMetadata)
                     .build();
 
             TemplateOutput output = new StringOutput();
@@ -414,14 +334,14 @@ public class BuilderClassGenerator {
     }
 
     private String generateBorderPaneMethods() {
-        BorderPaneMethodModel model = BorderPaneMethodModel.create(clazz, builderClassName);
+        BorderPaneMethodModel model = BorderPaneMethodModel.create(clazz, classMetadata.getBuilderClassName());
         TemplateOutput output = new StringOutput();
         templateEngine.render("borderpane-methods.jte", model, output);
         return output.toString();
     }
 
     private String generateGridPaneMethods() {
-        GridPaneMethodModel model = GridPaneMethodModel.create(builderClassName);
+        GridPaneMethodModel model = GridPaneMethodModel.create(classMetadata.getBuilderClassName());
         TemplateOutput output = new StringOutput();
         templateEngine.render("gridpane-methods.jte", model, output);
         return output.toString();
@@ -429,7 +349,7 @@ public class BuilderClassGenerator {
 
     private String generateStylesheetMethod() {
         StylesheetMethodModel model = StylesheetMethodModel.create(
-                clazz.getSimpleName(), builderClassName, builderClassNameWithTypeParameter);
+                clazz.getSimpleName(), classMetadata.getBuilderClassName(), classMetadata.builderClassNameWithTypeParameter());
         TemplateOutput output = new StringOutput();
         templateEngine.render("stylesheet-method.jte", model, output);
         return output.toString();
@@ -472,7 +392,7 @@ public class BuilderClassGenerator {
 
             // Filter out Node parameters and create parameter list
             var filteredParams = ParameterInfo.filterNodeParameters(setterInfo.parameters());
-            String parameterList = ParameterInfo.buildParameterList(filteredParams, className);
+            String parameterList = ParameterInfo.buildParameterList(filteredParams, classMetadata.getClassName());
             String argumentList = ParameterInfo.buildArgumentList(filteredParams);
 
             // Create single StaticCall for this setter
@@ -492,7 +412,7 @@ public class BuilderClassGenerator {
         }
 
         LayoutConstraintMethodModel model = LayoutConstraintMethodModel.create(
-                builderClassNameWithTypeParameter,
+                classMetadata.builderClassNameWithTypeParameter(),
                 methods);
 
         TemplateOutput output = new StringOutput();
@@ -537,16 +457,16 @@ public class BuilderClassGenerator {
                 // StringProperty, ObservableList<Node>)
                 String propertyType = method.getGenericReturnType().getTypeName().replace("$", ".");
                 // Check for type replacement
-                propertyType = TypeMappingManager.getReplacement(className, propertyType);
+                propertyType = TypeMappingManager.getReplacement(classMetadata.getClassName(), propertyType);
 
-                String methodAnnotation = MethodAnnotationManager.getMethodAnnotation(className, propertyName);
-                PropertyMethodModel model = PropertyMethodModel.create(
-                        builderClassNameWithTypeParameter,
-                        methodName,
-                        propertyName,
-                        propertyType,
-                        className,
-                        methodAnnotation);
+                String methodAnnotation = MethodAnnotationManager.getMethodAnnotation(classMetadata.getClassName(), propertyName);
+                PropertyMethodModel model = PropertyMethodModel.builder()
+                        .classMetadata(classMetadata)
+                        .methodName(methodName)
+                        .propertyName(propertyName)
+                        .propertyType(propertyType)
+                        .methodAnnotation(methodAnnotation)
+                        .build();
 
                 TemplateOutput output = new StringOutput();
                 templateEngine.render("property-method.jte", model, output);
@@ -564,7 +484,7 @@ public class BuilderClassGenerator {
             Path outputDir = Paths.get(outputDirPath);
             Files.createDirectories(outputDir);
 
-            Path outputFile = outputDir.resolve(builderClassName + ".java");
+            Path outputFile = outputDir.resolve(classMetadata.getBuilderClassName() + ".java");
             Files.write(outputFile, content.getBytes());
         }
     }

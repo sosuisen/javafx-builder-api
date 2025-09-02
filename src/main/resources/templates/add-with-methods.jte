@@ -27,14 +27,14 @@
         return this;
     }
 
-@if(model.withMethodName() != null && !model.withMethodName().equals(""))
+@if(model.hasWithMethod())
     /**
      * Create an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link ${model.originalClassName()}#${model.getterMethodName()}()} method.
      * 
      * @return builder instance
      */     
     @SafeVarargs
-    public static ${model.typeParametersExtends().isEmpty() ? "" : model.typeParametersExtends() + " "}${model.builderClassNameWithTypeParameter()} ${model.withMethodName()}(${model.observableListTypeParameter()}... elements) {
+    public static ${model.typeParametersWithExtends().isEmpty() ? "" : model.typeParametersWithExtends() + " "}${model.builderClassNameWithTypeParameter()} ${model.withMethodName()}(${model.observableListTypeParameter()}... elements) {
         ${model.builderClassNameWithTypeParameter()} builder = new ${model.builderClassNameWithTypeParameter()}();
         return builder.${model.addMethodName()}(elements);
     }
@@ -44,7 +44,7 @@
      * 
      * @return builder instance
      */     
-    public static ${model.typeParametersExtends().isEmpty() ? "" : model.typeParametersExtends() + " "}${model.builderClassNameWithTypeParameter()} ${model.withMethodName()}(java.util.Collection<? extends ${model.observableListTypeParameter()}> col) {
+    public static ${model.typeParametersWithExtends().isEmpty() ? "" : model.typeParametersWithExtends() + " "}${model.builderClassNameWithTypeParameter()} ${model.withMethodName()}(java.util.Collection<? extends ${model.observableListTypeParameter()}> col) {
         ${model.builderClassNameWithTypeParameter()} builder = new ${model.builderClassNameWithTypeParameter()}();
         return builder.${model.addMethodName()}(col);
     }
