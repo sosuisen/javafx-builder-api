@@ -1,6 +1,27 @@
 
 package io.github.sosuisen.jfxbuilder.controls;
 
+/**
+ * The {@code DialogBuilder} class constructs instances of the {@link javafx.scene.control.Dialog Dialog} class 
+ * and offers a fluent interface for creating and configuring it. 
+ *
+ * <p>
+ * This class includes a static {@code create} method that accepts the same arguments as the original {@link javafx.scene.control.Dialog Dialog} constructor
+ * and returns an instance of the {@code DialogBuilder}.
+ * </p>
+ *
+ * <p>
+ * You can use method chaining to call the builder methods for configuring the {@link javafx.scene.control.Dialog Dialog}.
+ * Finally, invoke the {@code build} method to generate an instance of the {@link javafx.scene.control.Dialog Dialog} class.
+ * </p>
+ *
+ * <p>
+ * Note that intermediate builder methods are not evaluated until the {@code build} method
+ * is called, meaning they are evaluated lazily.
+ * </p>
+ *
+ * @author Hidekazu Kubota &lt;hidekazu.kubota@gmail.com&gt;
+ */
 
 public class DialogBuilder<R> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.Dialog<R>>> operations = new java.util.ArrayList<>();

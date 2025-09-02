@@ -8,6 +8,8 @@ import io.github.sosuisen.model.mapper.ClassAnnotationManager;
  */
 public record ClassHeaderModel(
         String packageName,
+        String canonicalClassName,
+        String simpleClassName,
         String builderClassName,
         String typeParameters,
         String typeParametersWithExtends,
@@ -33,6 +35,8 @@ public record ClassHeaderModel(
             String classAnnotation = ClassAnnotationManager.getClassAnnotation(classMetadata.getCanonicalClassName());
             return new ClassHeaderModel(
                     classMetadata.getPackageName(),
+                    classMetadata.getCanonicalClassName(),
+                    classMetadata.getSimpleClassName(),
                     classMetadata.getBuilderClassName(),
                     classMetadata.getTypeParameters(),
                     classMetadata.gettypeParametersWithExtends(),

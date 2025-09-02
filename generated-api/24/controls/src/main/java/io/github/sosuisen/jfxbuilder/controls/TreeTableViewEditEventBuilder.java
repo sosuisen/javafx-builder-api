@@ -1,6 +1,27 @@
 
 package io.github.sosuisen.jfxbuilder.controls;
 
+/**
+ * The {@code TreeTableViewEditEventBuilder} class constructs instances of the {@link javafx.scene.control.TreeTableView.EditEvent EditEvent} class 
+ * and offers a fluent interface for creating and configuring it. 
+ *
+ * <p>
+ * This class includes a static {@code create} method that accepts the same arguments as the original {@link javafx.scene.control.TreeTableView.EditEvent EditEvent} constructor
+ * and returns an instance of the {@code TreeTableViewEditEventBuilder}.
+ * </p>
+ *
+ * <p>
+ * You can use method chaining to call the builder methods for configuring the {@link javafx.scene.control.TreeTableView.EditEvent EditEvent}.
+ * Finally, invoke the {@code build} method to generate an instance of the {@link javafx.scene.control.TreeTableView.EditEvent EditEvent} class.
+ * </p>
+ *
+ * <p>
+ * Note that intermediate builder methods are not evaluated until the {@code build} method
+ * is called, meaning they are evaluated lazily.
+ * </p>
+ *
+ * @author Hidekazu Kubota &lt;hidekazu.kubota@gmail.com&gt;
+ */
 @SuppressWarnings("rawtypes")
 public class TreeTableViewEditEventBuilder<S> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeTableView.EditEvent<S>>> operations = new java.util.ArrayList<>();

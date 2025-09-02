@@ -2,8 +2,25 @@
 package io.github.sosuisen.jfxbuilder.web;
 
 /**
+ * The {@code PopupFeaturesBuilder} class constructs instances of the {@link javafx.scene.web.PopupFeatures PopupFeatures} class 
+ * and offers a fluent interface for creating and configuring it. 
  *
- * @author Hidekazu Kubota
+ * <p>
+ * This class includes a static {@code create} method that accepts the same arguments as the original {@link javafx.scene.web.PopupFeatures PopupFeatures} constructor
+ * and returns an instance of the {@code PopupFeaturesBuilder}.
+ * </p>
+ *
+ * <p>
+ * You can use method chaining to call the builder methods for configuring the {@link javafx.scene.web.PopupFeatures PopupFeatures}.
+ * Finally, invoke the {@code build} method to generate an instance of the {@link javafx.scene.web.PopupFeatures PopupFeatures} class.
+ * </p>
+ *
+ * <p>
+ * Note that intermediate builder methods are not evaluated until the {@code build} method
+ * is called, meaning they are evaluated lazily.
+ * </p>
+ *
+ * @author Hidekazu Kubota &lt;hidekazu.kubota@gmail.com&gt;
  */
 
 public class PopupFeaturesBuilder {

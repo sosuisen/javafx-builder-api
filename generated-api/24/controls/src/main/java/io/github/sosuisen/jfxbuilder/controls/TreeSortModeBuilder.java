@@ -1,6 +1,27 @@
 
 package io.github.sosuisen.jfxbuilder.controls;
 
+/**
+ * The {@code TreeSortModeBuilder} class constructs instances of the {@link javafx.scene.control.TreeSortMode TreeSortMode} class 
+ * and offers a fluent interface for creating and configuring it. 
+ *
+ * <p>
+ * This class includes a static {@code create} method that accepts the same arguments as the original {@link javafx.scene.control.TreeSortMode TreeSortMode} constructor
+ * and returns an instance of the {@code TreeSortModeBuilder}.
+ * </p>
+ *
+ * <p>
+ * You can use method chaining to call the builder methods for configuring the {@link javafx.scene.control.TreeSortMode TreeSortMode}.
+ * Finally, invoke the {@code build} method to generate an instance of the {@link javafx.scene.control.TreeSortMode TreeSortMode} class.
+ * </p>
+ *
+ * <p>
+ * Note that intermediate builder methods are not evaluated until the {@code build} method
+ * is called, meaning they are evaluated lazily.
+ * </p>
+ *
+ * @author Hidekazu Kubota &lt;hidekazu.kubota@gmail.com&gt;
+ */
 
 public class TreeSortModeBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeSortMode>> operations = new java.util.ArrayList<>();

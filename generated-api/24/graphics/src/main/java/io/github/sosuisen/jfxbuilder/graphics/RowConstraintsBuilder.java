@@ -1,6 +1,27 @@
 
 package io.github.sosuisen.jfxbuilder.graphics;
 
+/**
+ * The {@code RowConstraintsBuilder} class constructs instances of the {@link javafx.scene.layout.RowConstraints RowConstraints} class 
+ * and offers a fluent interface for creating and configuring it. 
+ *
+ * <p>
+ * This class includes a static {@code create} method that accepts the same arguments as the original {@link javafx.scene.layout.RowConstraints RowConstraints} constructor
+ * and returns an instance of the {@code RowConstraintsBuilder}.
+ * </p>
+ *
+ * <p>
+ * You can use method chaining to call the builder methods for configuring the {@link javafx.scene.layout.RowConstraints RowConstraints}.
+ * Finally, invoke the {@code build} method to generate an instance of the {@link javafx.scene.layout.RowConstraints RowConstraints} class.
+ * </p>
+ *
+ * <p>
+ * Note that intermediate builder methods are not evaluated until the {@code build} method
+ * is called, meaning they are evaluated lazily.
+ * </p>
+ *
+ * @author Hidekazu Kubota &lt;hidekazu.kubota@gmail.com&gt;
+ */
 
 public class RowConstraintsBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.layout.RowConstraints>> operations = new java.util.ArrayList<>();
