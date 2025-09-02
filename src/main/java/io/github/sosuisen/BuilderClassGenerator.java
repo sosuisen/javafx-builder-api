@@ -14,8 +14,6 @@ import java.util.stream.Collectors;
 import io.github.sosuisen.model.MethodComparator;
 import io.github.sosuisen.model.data.ClassMetadata;
 import io.github.sosuisen.model.data.StaticSetterInfo;
-import io.github.sosuisen.model.mapper.MethodAnnotationManager;
-import io.github.sosuisen.model.mapper.TypeMappingManager;
 import io.github.sosuisen.model.template.AddWithMethodModel;
 import io.github.sosuisen.model.template.ApplyMethodModel;
 import io.github.sosuisen.model.template.BorderPaneMethodModel;
@@ -305,14 +303,18 @@ public class BuilderClassGenerator {
     }
 
     private String generateBorderPaneMethods() {
-        BorderPaneMethodModel model = BorderPaneMethodModel.create(clazz, classMetadata.getBuilderClassName());
+        BorderPaneMethodModel model = BorderPaneMethodModel.builder()
+                .classMetadata(classMetadata)
+                .build();
         TemplateOutput output = new StringOutput();
         templateEngine.render("borderpane-methods.jte", model, output);
         return output.toString();
     }
 
     private String generateGridPaneMethods() {
-        GridPaneMethodModel model = GridPaneMethodModel.create(classMetadata.getBuilderClassName());
+        GridPaneMethodModel model = GridPaneMethodModel.builder()
+                .classMetadata(classMetadata)
+                .build();
         TemplateOutput output = new StringOutput();
         templateEngine.render("gridpane-methods.jte", model, output);
         return output.toString();
