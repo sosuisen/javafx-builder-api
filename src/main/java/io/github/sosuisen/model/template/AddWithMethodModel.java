@@ -1,12 +1,12 @@
-package io.github.sosuisen.template;
+package io.github.sosuisen.model.template;
 
 import java.lang.reflect.Method;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import io.github.sosuisen.mapper.TypeMappingManager;
 import io.github.sosuisen.model.data.ClassMetadata;
+import io.github.sosuisen.model.mapper.TypeMappingManager;
 
 /**
  * Data model for add/with method JTE template

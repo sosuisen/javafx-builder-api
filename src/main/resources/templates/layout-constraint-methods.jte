@@ -1,4 +1,4 @@
-@import io.github.sosuisen.template.LayoutConstraintMethodModel
+@import io.github.sosuisen.model.template.LayoutConstraintMethodModel
 
 @param LayoutConstraintMethodModel model
 

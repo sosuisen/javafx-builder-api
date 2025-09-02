@@ -1,4 +1,4 @@
-@import io.github.sosuisen.template.StylesheetMethodModel
+@import io.github.sosuisen.model.template.StylesheetMethodModel
 
 @param StylesheetMethodModel model
     

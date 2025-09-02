@@ -1,4 +1,4 @@
-package io.github.sosuisen.mapper;
+package io.github.sosuisen.model.mapper;
 
 import java.io.IOException;
 import java.io.InputStream;

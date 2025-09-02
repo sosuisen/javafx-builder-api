@@ -3,7 +3,7 @@ package io.github.sosuisen.model;
 import java.lang.reflect.Parameter;
 import java.util.Map;
 
-import io.github.sosuisen.mapper.TypeMappingManager;
+import io.github.sosuisen.model.mapper.TypeMappingManager;
 
 public class ParameterStringBuilder {
     public static String buildParameterListWithTypes(Parameter[] parameters, String className, boolean isVarArgs) {

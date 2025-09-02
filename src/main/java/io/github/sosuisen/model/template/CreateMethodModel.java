@@ -1,4 +1,4 @@
-package io.github.sosuisen.template;
+package io.github.sosuisen.model.template;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Parameter;

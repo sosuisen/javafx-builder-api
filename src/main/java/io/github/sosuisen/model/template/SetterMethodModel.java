@@ -1,4 +1,4 @@
-package io.github.sosuisen.template;
+package io.github.sosuisen.model.template;
 
 import io.github.sosuisen.model.data.ClassMetadata;
 

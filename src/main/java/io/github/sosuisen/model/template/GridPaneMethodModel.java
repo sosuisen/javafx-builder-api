@@ -1,4 +1,4 @@
-package io.github.sosuisen.template;
+package io.github.sosuisen.model.template;
 
 /**
  * Data model for children method JTE template

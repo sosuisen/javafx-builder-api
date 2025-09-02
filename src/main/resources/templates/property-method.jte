@@ -1,4 +1,4 @@
-@import io.github.sosuisen.template.PropertyMethodModel
+@import io.github.sosuisen.model.template.PropertyMethodModel
 
 @param PropertyMethodModel model
     

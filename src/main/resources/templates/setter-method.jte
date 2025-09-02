@@ -1,4 +1,4 @@
-@import io.github.sosuisen.template.SetterMethodModel
+@import io.github.sosuisen.model.template.SetterMethodModel
 
 @param SetterMethodModel model
 

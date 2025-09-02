@@ -1,4 +1,4 @@
-@import io.github.sosuisen.template.ClassHeaderModel
+@import io.github.sosuisen.model.template.ClassHeaderModel
 
 @param ClassHeaderModel model
 
