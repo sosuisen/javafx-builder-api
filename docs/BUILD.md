@@ -6,17 +6,17 @@
 ├── generated-api/          # Generated builder API projects
 ├── sdk/                    # JavaFX SDK JAR files
 ├── src/main/java/io/github/sosuisen/
-│   ├── extractor/          # JAR analysis and metadata extraction
-│   ├── jfxbuilder/         # Copied generated code, kept under the source path 
-│   │                         for easier static verification.
-│   ├── mapper/             # Class and method annotation mapping
-│   ├── parser/             # Code parsing utilities
-│   └── template/           # Template model classes
-|   App.java                # Entry point called from Launcher
-|   BuilderClassGenerator.java # Generator class
-|   Launcher.java           # Launch from this point
+|   ├── jfxbuilder/         # Copied generated code under the source path (for quick static verification)
+|   ├── model/
+│   │     ├── data/         # Data classes
+│   │     ├── mapper/       # Manager for individual rules
+│   │     └── template/     # Model classes for JTE
+|   ├── App.java            # Entry point called from Launcher
+|   ├── BuilderClassGenerator.java # Generator class
+|   ├── Launcher.java       # Launch from this point
 ├── src/main/resources/
 │   ├── mapper/             # Individual rules
+│   ├── package-info/       # package-info files for JavaDoc
 │   ├── pom/                # pom.xml templates for builder API projects
 │   └── templates/          # JTE template files
 ```
@@ -98,11 +98,18 @@ Run the generator to analyze JavaFX SDK and generate builder classes:
 ./generate_builder_v24.sh
 ```
 
+### Generate Builder JavaDocs
+
+```bash
+./generate_javadoc_v24.sh
+```
+
 ### Install JavaFX Builder API to Your Local Maven Repository
 
 ```bash
 ./install_builder_to_local_v24.sh
 ```
+JavaDocs will be generated under `docs` directory.
 
 ## Architecture
 
