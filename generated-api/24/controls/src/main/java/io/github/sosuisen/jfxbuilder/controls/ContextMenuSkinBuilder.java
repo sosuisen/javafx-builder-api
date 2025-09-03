@@ -29,7 +29,7 @@ public class ContextMenuSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.ContextMenuSkin#ContextMenuSkin(javafx.scene.control.ContextMenu control) ContextMenuSkin(ContextMenu)}
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ContextMenuSkin#ContextMenuSkin(ContextMenu) ContextMenuSkin(ContextMenu)}
      * and returns an instance of the {@code ContextMenuSkinBuilder}.
      *
      * @return an instance of the {@code ContextMenuSkinBuilder}.
@@ -44,10 +44,10 @@ public class ContextMenuSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.ContextMenuSkin} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

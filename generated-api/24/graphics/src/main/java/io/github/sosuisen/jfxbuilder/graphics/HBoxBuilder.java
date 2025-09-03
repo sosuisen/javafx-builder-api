@@ -37,7 +37,7 @@ public class HBoxBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.HBox#HBox(double spacing) HBox(double)}
+     * Accepts the same arguments as {@link javafx.scene.layout.HBox#HBox(double) HBox(double)}
      * and returns an instance of the {@code HBoxBuilder}.
      *
      * @return an instance of the {@code HBoxBuilder}.
@@ -51,7 +51,7 @@ public class HBoxBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.HBox#HBox(double spacing, javafx.scene.Node... children) HBox(double, Node...)}
+     * Accepts the same arguments as {@link javafx.scene.layout.HBox#HBox(double, Node...) HBox(double, Node...)}
      * and returns an instance of the {@code HBoxBuilder}.
      *
      * @return an instance of the {@code HBoxBuilder}.
@@ -65,7 +65,7 @@ public class HBoxBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.HBox#HBox(javafx.scene.Node... children) HBox(Node...)}
+     * Accepts the same arguments as {@link javafx.scene.layout.HBox#HBox(Node...) HBox(Node...)}
      * and returns an instance of the {@code HBoxBuilder}.
      *
      * @return an instance of the {@code HBoxBuilder}.
@@ -80,10 +80,10 @@ public class HBoxBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.HBox} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -84,7 +84,7 @@
               <outputDirectory>generated-api/${javafx.major.version}/${builder.component}/</outputDirectory>
               <resources>
                 <resource>
-                  <directory>src/main/resources/pom/${builder.component}</directory>
+                  <directory>src/main/resources/pom/</directory>
                   <filtering>true</filtering>
                   <includes>
                     <include>pom.xml</include>

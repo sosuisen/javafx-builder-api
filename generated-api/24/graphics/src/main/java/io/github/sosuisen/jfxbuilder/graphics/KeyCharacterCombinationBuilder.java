@@ -29,7 +29,7 @@ public class KeyCharacterCombinationBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.KeyCharacterCombination#KeyCharacterCombination(java.lang.String character, javafx.scene.input.KeyCombination.ModifierValue shift, javafx.scene.input.KeyCombination.ModifierValue control, javafx.scene.input.KeyCombination.ModifierValue alt, javafx.scene.input.KeyCombination.ModifierValue meta, javafx.scene.input.KeyCombination.ModifierValue shortcut) KeyCharacterCombination(String, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue)}
+     * Accepts the same arguments as {@link javafx.scene.input.KeyCharacterCombination#KeyCharacterCombination(String, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue) KeyCharacterCombination(String, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue)}
      * and returns an instance of the {@code KeyCharacterCombinationBuilder}.
      *
      * @return an instance of the {@code KeyCharacterCombinationBuilder}.
@@ -43,7 +43,7 @@ public class KeyCharacterCombinationBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.KeyCharacterCombination#KeyCharacterCombination(java.lang.String character, javafx.scene.input.KeyCombination.Modifier... modifiers) KeyCharacterCombination(String, KeyCombination$Modifier...)}
+     * Accepts the same arguments as {@link javafx.scene.input.KeyCharacterCombination#KeyCharacterCombination(String, KeyCombination$Modifier...) KeyCharacterCombination(String, KeyCombination$Modifier...)}
      * and returns an instance of the {@code KeyCharacterCombinationBuilder}.
      *
      * @return an instance of the {@code KeyCharacterCombinationBuilder}.
@@ -58,10 +58,10 @@ public class KeyCharacterCombinationBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.input.KeyCharacterCombination} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

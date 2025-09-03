@@ -29,18 +29,18 @@ public class TreeItemBuilder<T> {
     
 
     /**
-     * Returns an instance of the {@code <T> TreeItemBuilder<T>}.
+     * Returns an instance of the {@code TreeItemBuilder<T>}.
      *
-     * @return an instance of the {@code <T> TreeItemBuilder<T>}.
+     * @return an instance of the {@code TreeItemBuilder<T>}.
      */
     public static <T> TreeItemBuilder<T> create() { return new TreeItemBuilder<T>(); }
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeItem#TreeItem(T value) TreeItem(Object)}
-     * and returns an instance of the {@code <T> TreeItemBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.TreeItem#TreeItem(Object) TreeItem(Object)}
+     * and returns an instance of the {@code TreeItemBuilder<T>}.
      *
-     * @return an instance of the {@code <T> TreeItemBuilder<T>}.
+     * @return an instance of the {@code TreeItemBuilder<T>}.
      */
     
     public static <T> TreeItemBuilder<T> create(T value) {
@@ -51,10 +51,10 @@ public class TreeItemBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeItem#TreeItem(T value, javafx.scene.Node graphic) TreeItem(Object, Node)}
-     * and returns an instance of the {@code <T> TreeItemBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.TreeItem#TreeItem(Object, Node) TreeItem(Object, Node)}
+     * and returns an instance of the {@code TreeItemBuilder<T>}.
      *
-     * @return an instance of the {@code <T> TreeItemBuilder<T>}.
+     * @return an instance of the {@code TreeItemBuilder<T>}.
      */
     
     public static <T> TreeItemBuilder<T> create(T value, javafx.scene.Node graphic) {
@@ -66,10 +66,10 @@ public class TreeItemBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TreeItem<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

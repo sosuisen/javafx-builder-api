@@ -37,7 +37,7 @@ public class ShearBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Shear#Shear(double x, double y) Shear(double, double)}
+     * Accepts the same arguments as {@link javafx.scene.transform.Shear#Shear(double, double) Shear(double, double)}
      * and returns an instance of the {@code ShearBuilder}.
      *
      * @return an instance of the {@code ShearBuilder}.
@@ -51,7 +51,7 @@ public class ShearBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Shear#Shear(double x, double y, double pivotX, double pivotY) Shear(double, double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.transform.Shear#Shear(double, double, double, double) Shear(double, double, double, double)}
      * and returns an instance of the {@code ShearBuilder}.
      *
      * @return an instance of the {@code ShearBuilder}.
@@ -66,10 +66,10 @@ public class ShearBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.transform.Shear} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

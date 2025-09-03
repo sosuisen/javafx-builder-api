@@ -29,7 +29,7 @@ public class PromptDataBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.web.PromptData#PromptData(java.lang.String message, java.lang.String defaultValue) PromptData(String, String)}
+     * Accepts the same arguments as {@link javafx.scene.web.PromptData#PromptData(String, String) PromptData(String, String)}
      * and returns an instance of the {@code PromptDataBuilder}.
      *
      * @return an instance of the {@code PromptDataBuilder}.
@@ -44,10 +44,10 @@ public class PromptDataBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.web.PromptData} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

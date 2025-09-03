@@ -29,7 +29,7 @@ public class ProgressBarSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.ProgressBarSkin#ProgressBarSkin(javafx.scene.control.ProgressBar control) ProgressBarSkin(ProgressBar)}
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ProgressBarSkin#ProgressBarSkin(ProgressBar) ProgressBarSkin(ProgressBar)}
      * and returns an instance of the {@code ProgressBarSkinBuilder}.
      *
      * @return an instance of the {@code ProgressBarSkinBuilder}.
@@ -44,10 +44,10 @@ public class ProgressBarSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.ProgressBarSkin} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

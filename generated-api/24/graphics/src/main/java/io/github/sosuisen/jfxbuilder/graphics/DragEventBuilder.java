@@ -29,7 +29,7 @@ public class DragEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.DragEvent#DragEvent(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.DragEvent> eventType, javafx.scene.input.Dragboard dragboard, double x, double y, double screenX, double screenY, javafx.scene.input.TransferMode transferMode, java.lang.Object gestureSource, java.lang.Object gestureTarget, javafx.scene.input.PickResult pickResult) DragEvent(Object, EventTarget, EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult)}
+     * Accepts the same arguments as {@link javafx.scene.input.DragEvent#DragEvent(Object, EventTarget, EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult) DragEvent(Object, EventTarget, EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult)}
      * and returns an instance of the {@code DragEventBuilder}.
      *
      * @return an instance of the {@code DragEventBuilder}.
@@ -43,7 +43,7 @@ public class DragEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.DragEvent#DragEvent(javafx.event.EventType<javafx.scene.input.DragEvent> eventType, javafx.scene.input.Dragboard dragboard, double x, double y, double screenX, double screenY, javafx.scene.input.TransferMode transferMode, java.lang.Object gestureSource, java.lang.Object gestureTarget, javafx.scene.input.PickResult pickResult) DragEvent(EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult)}
+     * Accepts the same arguments as {@link javafx.scene.input.DragEvent#DragEvent(EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult) DragEvent(EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult)}
      * and returns an instance of the {@code DragEventBuilder}.
      *
      * @return an instance of the {@code DragEventBuilder}.
@@ -58,10 +58,10 @@ public class DragEventBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.input.DragEvent} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

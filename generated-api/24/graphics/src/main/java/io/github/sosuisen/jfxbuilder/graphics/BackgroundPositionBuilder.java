@@ -29,7 +29,7 @@ public class BackgroundPositionBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BackgroundPosition#BackgroundPosition(javafx.geometry.Side horizontalSide, double horizontalPosition, boolean horizontalAsPercentage, javafx.geometry.Side verticalSide, double verticalPosition, boolean verticalAsPercentage) BackgroundPosition(Side, double, boolean, Side, double, boolean)}
+     * Accepts the same arguments as {@link javafx.scene.layout.BackgroundPosition#BackgroundPosition(Side, double, boolean, Side, double, boolean) BackgroundPosition(Side, double, boolean, Side, double, boolean)}
      * and returns an instance of the {@code BackgroundPositionBuilder}.
      *
      * @return an instance of the {@code BackgroundPositionBuilder}.
@@ -44,10 +44,10 @@ public class BackgroundPositionBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.BackgroundPosition} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

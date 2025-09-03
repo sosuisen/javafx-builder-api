@@ -29,10 +29,10 @@ public class SortEventBuilder<C> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.SortEvent#SortEvent(C source, javafx.event.EventTarget target) SortEvent(Object, EventTarget)}
-     * and returns an instance of the {@code <C> SortEventBuilder<C>}.
+     * Accepts the same arguments as {@link javafx.scene.control.SortEvent#SortEvent(Object, EventTarget) SortEvent(Object, EventTarget)}
+     * and returns an instance of the {@code SortEventBuilder<C>}.
      *
-     * @return an instance of the {@code <C> SortEventBuilder<C>}.
+     * @return an instance of the {@code SortEventBuilder<C>}.
      */
     
     public static <C> SortEventBuilder<C> create(C source, javafx.event.EventTarget target) {
@@ -44,10 +44,10 @@ public class SortEventBuilder<C> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.SortEvent<C>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

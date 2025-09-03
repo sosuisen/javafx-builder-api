@@ -37,7 +37,7 @@ public class TabPaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TabPane#TabPane(javafx.scene.control.Tab... tabs) TabPane(Tab...)}
+     * Accepts the same arguments as {@link javafx.scene.control.TabPane#TabPane(Tab...) TabPane(Tab...)}
      * and returns an instance of the {@code TabPaneBuilder}.
      *
      * @return an instance of the {@code TabPaneBuilder}.
@@ -52,10 +52,10 @@ public class TabPaneBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TabPane} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

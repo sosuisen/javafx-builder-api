@@ -34,12 +34,6 @@
       <version>24</version>
     </dependency>
     <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-controls</artifactId>
-      <version>24</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
       <version>5.10.1</version>
@@ -91,9 +85,16 @@
         </executions>
       </plugin>
       <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
-        <version>3.3.0</version>
+        <version>3.11.3</version>
         <configuration>
+          <source>17</source>
+          <locale>en_US</locale>
+          <outputDirectory>F:\\JavaFXProject\\javafx-builder-api-generator/docs/24/graphics</outputDirectory>
+          <links>
+            <link>https://openjfx.io/javadoc/24/</link>
+          </links>
           <additionalOptions>
             <!-- skip strict check java doc-->
             <additionalOption>-Xdoclint:none</additionalOption>
@@ -108,19 +109,6 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-javadoc-plugin</artifactId>
-        <version>3.11.3</version>
-        <configuration>
-          <source>17</source>
-          <locale>en_US</locale>
-          <outputDirectory>F:\\JavaFXProject\\javafx-builder-api-generator/docs/24/graphics</outputDirectory>
-          <links>
-            <link>https://openjfx.io/javadoc/24/</link>
-          </links>
-        </configuration>
       </plugin>
     </plugins>
   </build>

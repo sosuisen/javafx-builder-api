@@ -29,7 +29,7 @@ public class AlertBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Alert#Alert(javafx.scene.control.Alert.AlertType alertType) Alert(Alert$AlertType)}
+     * Accepts the same arguments as {@link javafx.scene.control.Alert#Alert(Alert$AlertType) Alert(Alert$AlertType)}
      * and returns an instance of the {@code AlertBuilder}.
      *
      * @return an instance of the {@code AlertBuilder}.
@@ -43,7 +43,7 @@ public class AlertBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Alert#Alert(javafx.scene.control.Alert.AlertType alertType, java.lang.String contentText, javafx.scene.control.ButtonType... buttons) Alert(Alert$AlertType, String, ButtonType...)}
+     * Accepts the same arguments as {@link javafx.scene.control.Alert#Alert(Alert$AlertType, String, ButtonType...) Alert(Alert$AlertType, String, ButtonType...)}
      * and returns an instance of the {@code AlertBuilder}.
      *
      * @return an instance of the {@code AlertBuilder}.
@@ -58,10 +58,10 @@ public class AlertBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.Alert} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

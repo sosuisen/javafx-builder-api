@@ -37,7 +37,7 @@ public class InnerShadowBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.InnerShadow#InnerShadow(double radius, double offsetX, double offsetY, javafx.scene.paint.Color color) InnerShadow(double, double, double, Color)}
+     * Accepts the same arguments as {@link javafx.scene.effect.InnerShadow#InnerShadow(double, double, double, Color) InnerShadow(double, double, double, Color)}
      * and returns an instance of the {@code InnerShadowBuilder}.
      *
      * @return an instance of the {@code InnerShadowBuilder}.
@@ -51,7 +51,7 @@ public class InnerShadowBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.InnerShadow#InnerShadow(double radius, javafx.scene.paint.Color color) InnerShadow(double, Color)}
+     * Accepts the same arguments as {@link javafx.scene.effect.InnerShadow#InnerShadow(double, Color) InnerShadow(double, Color)}
      * and returns an instance of the {@code InnerShadowBuilder}.
      *
      * @return an instance of the {@code InnerShadowBuilder}.
@@ -65,7 +65,7 @@ public class InnerShadowBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.InnerShadow#InnerShadow(javafx.scene.effect.BlurType blurType, javafx.scene.paint.Color color, double radius, double choke, double offsetX, double offsetY) InnerShadow(BlurType, Color, double, double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.effect.InnerShadow#InnerShadow(BlurType, Color, double, double, double, double) InnerShadow(BlurType, Color, double, double, double, double)}
      * and returns an instance of the {@code InnerShadowBuilder}.
      *
      * @return an instance of the {@code InnerShadowBuilder}.
@@ -80,10 +80,10 @@ public class InnerShadowBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.InnerShadow} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -37,7 +37,7 @@ public class RadioMenuItemBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.RadioMenuItem#RadioMenuItem(java.lang.String text) RadioMenuItem(String)}
+     * Accepts the same arguments as {@link javafx.scene.control.RadioMenuItem#RadioMenuItem(String) RadioMenuItem(String)}
      * and returns an instance of the {@code RadioMenuItemBuilder}.
      *
      * @return an instance of the {@code RadioMenuItemBuilder}.
@@ -51,7 +51,7 @@ public class RadioMenuItemBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.RadioMenuItem#RadioMenuItem(java.lang.String text, javafx.scene.Node graphic) RadioMenuItem(String, Node)}
+     * Accepts the same arguments as {@link javafx.scene.control.RadioMenuItem#RadioMenuItem(String, Node) RadioMenuItem(String, Node)}
      * and returns an instance of the {@code RadioMenuItemBuilder}.
      *
      * @return an instance of the {@code RadioMenuItemBuilder}.
@@ -66,10 +66,10 @@ public class RadioMenuItemBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.RadioMenuItem} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

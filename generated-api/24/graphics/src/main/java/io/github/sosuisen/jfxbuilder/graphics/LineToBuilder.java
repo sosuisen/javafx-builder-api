@@ -37,7 +37,7 @@ public class LineToBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.LineTo#LineTo(double x, double y) LineTo(double, double)}
+     * Accepts the same arguments as {@link javafx.scene.shape.LineTo#LineTo(double, double) LineTo(double, double)}
      * and returns an instance of the {@code LineToBuilder}.
      *
      * @return an instance of the {@code LineToBuilder}.
@@ -52,10 +52,10 @@ public class LineToBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.LineTo} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

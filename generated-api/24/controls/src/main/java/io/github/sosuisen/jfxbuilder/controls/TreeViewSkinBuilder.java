@@ -29,10 +29,10 @@ public class TreeViewSkinBuilder<T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.TreeViewSkin#TreeViewSkin(javafx.scene.control.TreeView control) TreeViewSkin(TreeView)}
-     * and returns an instance of the {@code <T> TreeViewSkinBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.skin.TreeViewSkin#TreeViewSkin(TreeView) TreeViewSkin(TreeView)}
+     * and returns an instance of the {@code TreeViewSkinBuilder<T>}.
      *
-     * @return an instance of the {@code <T> TreeViewSkinBuilder<T>}.
+     * @return an instance of the {@code TreeViewSkinBuilder<T>}.
      */
     
     public static <T> TreeViewSkinBuilder<T> create(javafx.scene.control.TreeView control) {
@@ -44,10 +44,10 @@ public class TreeViewSkinBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.TreeViewSkin<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

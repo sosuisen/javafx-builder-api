@@ -29,18 +29,18 @@ public class TableViewBuilder<S> {
     
 
     /**
-     * Returns an instance of the {@code <S> TableViewBuilder<S>}.
+     * Returns an instance of the {@code TableViewBuilder<S>}.
      *
-     * @return an instance of the {@code <S> TableViewBuilder<S>}.
+     * @return an instance of the {@code TableViewBuilder<S>}.
      */
     public static <S> TableViewBuilder<S> create() { return new TableViewBuilder<S>(); }
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TableView#TableView(javafx.collections.ObservableList<S> items) TableView(ObservableList)}
-     * and returns an instance of the {@code <S> TableViewBuilder<S>}.
+     * Accepts the same arguments as {@link javafx.scene.control.TableView#TableView(ObservableList) TableView(ObservableList)}
+     * and returns an instance of the {@code TableViewBuilder<S>}.
      *
-     * @return an instance of the {@code <S> TableViewBuilder<S>}.
+     * @return an instance of the {@code TableViewBuilder<S>}.
      */
     
     public static <S> TableViewBuilder<S> create(javafx.collections.ObservableList<S> items) {
@@ -52,10 +52,10 @@ public class TableViewBuilder<S> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TableView<S>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

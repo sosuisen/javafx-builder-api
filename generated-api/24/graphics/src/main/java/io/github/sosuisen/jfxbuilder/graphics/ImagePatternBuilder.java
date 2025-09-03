@@ -29,7 +29,7 @@ public class ImagePatternBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.ImagePattern#ImagePattern(javafx.scene.image.Image image) ImagePattern(Image)}
+     * Accepts the same arguments as {@link javafx.scene.paint.ImagePattern#ImagePattern(Image) ImagePattern(Image)}
      * and returns an instance of the {@code ImagePatternBuilder}.
      *
      * @return an instance of the {@code ImagePatternBuilder}.
@@ -43,7 +43,7 @@ public class ImagePatternBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.ImagePattern#ImagePattern(javafx.scene.image.Image image, double x, double y, double width, double height, boolean proportional) ImagePattern(Image, double, double, double, double, boolean)}
+     * Accepts the same arguments as {@link javafx.scene.paint.ImagePattern#ImagePattern(Image, double, double, double, double, boolean) ImagePattern(Image, double, double, double, double, boolean)}
      * and returns an instance of the {@code ImagePatternBuilder}.
      *
      * @return an instance of the {@code ImagePatternBuilder}.
@@ -58,10 +58,10 @@ public class ImagePatternBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.paint.ImagePattern} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

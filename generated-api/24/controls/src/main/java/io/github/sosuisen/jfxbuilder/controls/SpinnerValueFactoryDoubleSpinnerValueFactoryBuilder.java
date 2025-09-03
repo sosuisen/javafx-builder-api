@@ -29,7 +29,7 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#DoubleSpinnerValueFactory(double min, double max) DoubleSpinnerValueFactory(double, double)}
+     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#DoubleSpinnerValueFactory(double, double) DoubleSpinnerValueFactory(double, double)}
      * and returns an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
      *
      * @return an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
@@ -43,7 +43,7 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#DoubleSpinnerValueFactory(double min, double max, double initialValue) DoubleSpinnerValueFactory(double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#DoubleSpinnerValueFactory(double, double, double) DoubleSpinnerValueFactory(double, double, double)}
      * and returns an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
      *
      * @return an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
@@ -57,7 +57,7 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#DoubleSpinnerValueFactory(double min, double max, double initialValue, double amountToStepBy) DoubleSpinnerValueFactory(double, double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory#DoubleSpinnerValueFactory(double, double, double, double) DoubleSpinnerValueFactory(double, double, double, double)}
      * and returns an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
      *
      * @return an instance of the {@code SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder}.
@@ -72,10 +72,10 @@ public class SpinnerValueFactoryDoubleSpinnerValueFactoryBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.SpinnerValueFactory.DoubleSpinnerValueFactory} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

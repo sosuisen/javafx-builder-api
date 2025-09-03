@@ -37,7 +37,7 @@ public class SphereBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Sphere#Sphere(double radius) Sphere(double)}
+     * Accepts the same arguments as {@link javafx.scene.shape.Sphere#Sphere(double) Sphere(double)}
      * and returns an instance of the {@code SphereBuilder}.
      *
      * @return an instance of the {@code SphereBuilder}.
@@ -51,7 +51,7 @@ public class SphereBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Sphere#Sphere(double radius, int divisions) Sphere(double, int)}
+     * Accepts the same arguments as {@link javafx.scene.shape.Sphere#Sphere(double, int) Sphere(double, int)}
      * and returns an instance of the {@code SphereBuilder}.
      *
      * @return an instance of the {@code SphereBuilder}.
@@ -66,10 +66,10 @@ public class SphereBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.Sphere} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

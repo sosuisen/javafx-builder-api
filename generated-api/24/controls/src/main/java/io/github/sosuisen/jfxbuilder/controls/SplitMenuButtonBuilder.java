@@ -37,7 +37,7 @@ public class SplitMenuButtonBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.SplitMenuButton#SplitMenuButton(java.lang.String text) SplitMenuButton(String)}
+     * Accepts the same arguments as {@link javafx.scene.control.SplitMenuButton#SplitMenuButton(String) SplitMenuButton(String)}
      * and returns an instance of the {@code SplitMenuButtonBuilder}.
      *
      * @return an instance of the {@code SplitMenuButtonBuilder}.
@@ -51,7 +51,7 @@ public class SplitMenuButtonBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.SplitMenuButton#SplitMenuButton(java.lang.String text, javafx.scene.Node graphic) SplitMenuButton(String, Node)}
+     * Accepts the same arguments as {@link javafx.scene.control.SplitMenuButton#SplitMenuButton(String, Node) SplitMenuButton(String, Node)}
      * and returns an instance of the {@code SplitMenuButtonBuilder}.
      *
      * @return an instance of the {@code SplitMenuButtonBuilder}.
@@ -65,7 +65,7 @@ public class SplitMenuButtonBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.SplitMenuButton#SplitMenuButton(java.lang.String text, javafx.scene.Node graphic, javafx.scene.control.MenuItem... items) SplitMenuButton(String, Node, MenuItem...)}
+     * Accepts the same arguments as {@link javafx.scene.control.SplitMenuButton#SplitMenuButton(String, Node, MenuItem...) SplitMenuButton(String, Node, MenuItem...)}
      * and returns an instance of the {@code SplitMenuButtonBuilder}.
      *
      * @return an instance of the {@code SplitMenuButtonBuilder}.
@@ -79,7 +79,7 @@ public class SplitMenuButtonBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.SplitMenuButton#SplitMenuButton(javafx.scene.control.MenuItem... items) SplitMenuButton(MenuItem...)}
+     * Accepts the same arguments as {@link javafx.scene.control.SplitMenuButton#SplitMenuButton(MenuItem...) SplitMenuButton(MenuItem...)}
      * and returns an instance of the {@code SplitMenuButtonBuilder}.
      *
      * @return an instance of the {@code SplitMenuButtonBuilder}.
@@ -94,10 +94,10 @@ public class SplitMenuButtonBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.SplitMenuButton} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

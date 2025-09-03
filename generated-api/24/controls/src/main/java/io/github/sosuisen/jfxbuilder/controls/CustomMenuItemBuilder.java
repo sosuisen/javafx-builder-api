@@ -37,7 +37,7 @@ public class CustomMenuItemBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.CustomMenuItem#CustomMenuItem(javafx.scene.Node node) CustomMenuItem(Node)}
+     * Accepts the same arguments as {@link javafx.scene.control.CustomMenuItem#CustomMenuItem(Node) CustomMenuItem(Node)}
      * and returns an instance of the {@code CustomMenuItemBuilder}.
      *
      * @return an instance of the {@code CustomMenuItemBuilder}.
@@ -51,7 +51,7 @@ public class CustomMenuItemBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.CustomMenuItem#CustomMenuItem(javafx.scene.Node node, boolean hideOnClick) CustomMenuItem(Node, boolean)}
+     * Accepts the same arguments as {@link javafx.scene.control.CustomMenuItem#CustomMenuItem(Node, boolean) CustomMenuItem(Node, boolean)}
      * and returns an instance of the {@code CustomMenuItemBuilder}.
      *
      * @return an instance of the {@code CustomMenuItemBuilder}.
@@ -66,10 +66,10 @@ public class CustomMenuItemBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.CustomMenuItem} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

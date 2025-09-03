@@ -37,7 +37,7 @@ public class MenuItemBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.MenuItem#MenuItem(java.lang.String text) MenuItem(String)}
+     * Accepts the same arguments as {@link javafx.scene.control.MenuItem#MenuItem(String) MenuItem(String)}
      * and returns an instance of the {@code MenuItemBuilder}.
      *
      * @return an instance of the {@code MenuItemBuilder}.
@@ -51,7 +51,7 @@ public class MenuItemBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.MenuItem#MenuItem(java.lang.String text, javafx.scene.Node graphic) MenuItem(String, Node)}
+     * Accepts the same arguments as {@link javafx.scene.control.MenuItem#MenuItem(String, Node) MenuItem(String, Node)}
      * and returns an instance of the {@code MenuItemBuilder}.
      *
      * @return an instance of the {@code MenuItemBuilder}.
@@ -66,10 +66,10 @@ public class MenuItemBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.MenuItem} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -37,7 +37,7 @@ public class TitledPaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TitledPane#TitledPane(java.lang.String title, javafx.scene.Node content) TitledPane(String, Node)}
+     * Accepts the same arguments as {@link javafx.scene.control.TitledPane#TitledPane(String, Node) TitledPane(String, Node)}
      * and returns an instance of the {@code TitledPaneBuilder}.
      *
      * @return an instance of the {@code TitledPaneBuilder}.
@@ -52,10 +52,10 @@ public class TitledPaneBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TitledPane} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -37,7 +37,7 @@ public class CircleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Circle#Circle(double radius) Circle(double)}
+     * Accepts the same arguments as {@link javafx.scene.shape.Circle#Circle(double) Circle(double)}
      * and returns an instance of the {@code CircleBuilder}.
      *
      * @return an instance of the {@code CircleBuilder}.
@@ -51,7 +51,7 @@ public class CircleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Circle#Circle(double centerX, double centerY, double radius) Circle(double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.shape.Circle#Circle(double, double, double) Circle(double, double, double)}
      * and returns an instance of the {@code CircleBuilder}.
      *
      * @return an instance of the {@code CircleBuilder}.
@@ -65,7 +65,7 @@ public class CircleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Circle#Circle(double centerX, double centerY, double radius, javafx.scene.paint.Paint fill) Circle(double, double, double, Paint)}
+     * Accepts the same arguments as {@link javafx.scene.shape.Circle#Circle(double, double, double, Paint) Circle(double, double, double, Paint)}
      * and returns an instance of the {@code CircleBuilder}.
      *
      * @return an instance of the {@code CircleBuilder}.
@@ -79,7 +79,7 @@ public class CircleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Circle#Circle(double radius, javafx.scene.paint.Paint fill) Circle(double, Paint)}
+     * Accepts the same arguments as {@link javafx.scene.shape.Circle#Circle(double, Paint) Circle(double, Paint)}
      * and returns an instance of the {@code CircleBuilder}.
      *
      * @return an instance of the {@code CircleBuilder}.
@@ -94,10 +94,10 @@ public class CircleBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.Circle} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

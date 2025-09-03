@@ -37,7 +37,7 @@ public class LightPointBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.Light.Point#Point(double x, double y, double z, javafx.scene.paint.Color color) Point(double, double, double, Color)}
+     * Accepts the same arguments as {@link javafx.scene.effect.Light.Point#Point(double, double, double, Color) Point(double, double, double, Color)}
      * and returns an instance of the {@code LightPointBuilder}.
      *
      * @return an instance of the {@code LightPointBuilder}.
@@ -52,10 +52,10 @@ public class LightPointBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.Light.Point} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

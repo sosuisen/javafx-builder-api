@@ -37,7 +37,7 @@ public class WebEngineBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.web.WebEngine#WebEngine(java.lang.String url) WebEngine(String)}
+     * Accepts the same arguments as {@link javafx.scene.web.WebEngine#WebEngine(String) WebEngine(String)}
      * and returns an instance of the {@code WebEngineBuilder}.
      *
      * @return an instance of the {@code WebEngineBuilder}.
@@ -52,10 +52,10 @@ public class WebEngineBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.web.WebEngine} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

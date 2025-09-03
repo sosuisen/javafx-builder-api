@@ -29,7 +29,7 @@ public class ButtonSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.ButtonSkin#ButtonSkin(javafx.scene.control.Button control) ButtonSkin(Button)}
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ButtonSkin#ButtonSkin(Button) ButtonSkin(Button)}
      * and returns an instance of the {@code ButtonSkinBuilder}.
      *
      * @return an instance of the {@code ButtonSkinBuilder}.
@@ -44,10 +44,10 @@ public class ButtonSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.ButtonSkin} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

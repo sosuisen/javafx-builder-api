@@ -29,7 +29,7 @@ public class NonInvertibleTransformExceptionBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.NonInvertibleTransformException#NonInvertibleTransformException(java.lang.String message) NonInvertibleTransformException(String)}
+     * Accepts the same arguments as {@link javafx.scene.transform.NonInvertibleTransformException#NonInvertibleTransformException(String) NonInvertibleTransformException(String)}
      * and returns an instance of the {@code NonInvertibleTransformExceptionBuilder}.
      *
      * @return an instance of the {@code NonInvertibleTransformExceptionBuilder}.
@@ -44,10 +44,10 @@ public class NonInvertibleTransformExceptionBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.transform.NonInvertibleTransformException} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

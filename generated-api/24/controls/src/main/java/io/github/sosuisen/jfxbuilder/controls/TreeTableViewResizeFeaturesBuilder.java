@@ -29,10 +29,10 @@ public class TreeTableViewResizeFeaturesBuilder<S> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeTableView.ResizeFeatures#ResizeFeatures(javafx.scene.control.TreeTableView<S> treeTable, javafx.scene.control.TreeTableColumn<S, ?> column, java.lang.Double delta) ResizeFeatures(TreeTableView, TreeTableColumn, Double)}
-     * and returns an instance of the {@code <S> TreeTableViewResizeFeaturesBuilder<S>}.
+     * Accepts the same arguments as {@link javafx.scene.control.TreeTableView.ResizeFeatures#ResizeFeatures(TreeTableView, TreeTableColumn, Double) ResizeFeatures(TreeTableView, TreeTableColumn, Double)}
+     * and returns an instance of the {@code TreeTableViewResizeFeaturesBuilder<S>}.
      *
-     * @return an instance of the {@code <S> TreeTableViewResizeFeaturesBuilder<S>}.
+     * @return an instance of the {@code TreeTableViewResizeFeaturesBuilder<S>}.
      */
     
     public static <S> TreeTableViewResizeFeaturesBuilder<S> create(javafx.scene.control.TreeTableView<S> treeTable, javafx.scene.control.TreeTableColumn<S, ?> column, java.lang.Double delta) {
@@ -44,10 +44,10 @@ public class TreeTableViewResizeFeaturesBuilder<S> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableView.ResizeFeatures<S>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

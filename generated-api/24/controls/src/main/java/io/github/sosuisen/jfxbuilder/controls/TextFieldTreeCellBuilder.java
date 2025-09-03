@@ -29,18 +29,18 @@ public class TextFieldTreeCellBuilder<T> {
     
 
     /**
-     * Returns an instance of the {@code <T> TextFieldTreeCellBuilder<T>}.
+     * Returns an instance of the {@code TextFieldTreeCellBuilder<T>}.
      *
-     * @return an instance of the {@code <T> TextFieldTreeCellBuilder<T>}.
+     * @return an instance of the {@code TextFieldTreeCellBuilder<T>}.
      */
     public static <T> TextFieldTreeCellBuilder<T> create() { return new TextFieldTreeCellBuilder<T>(); }
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.TextFieldTreeCell#TextFieldTreeCell(javafx.util.StringConverter<T> converter) TextFieldTreeCell(StringConverter)}
-     * and returns an instance of the {@code <T> TextFieldTreeCellBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.cell.TextFieldTreeCell#TextFieldTreeCell(StringConverter) TextFieldTreeCell(StringConverter)}
+     * and returns an instance of the {@code TextFieldTreeCellBuilder<T>}.
      *
-     * @return an instance of the {@code <T> TextFieldTreeCellBuilder<T>}.
+     * @return an instance of the {@code TextFieldTreeCellBuilder<T>}.
      */
     
     public static <T> TextFieldTreeCellBuilder<T> create(javafx.util.StringConverter<T> converter) {
@@ -52,10 +52,10 @@ public class TextFieldTreeCellBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.cell.TextFieldTreeCell<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

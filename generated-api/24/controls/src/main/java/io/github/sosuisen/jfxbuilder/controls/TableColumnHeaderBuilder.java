@@ -29,7 +29,7 @@ public class TableColumnHeaderBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.TableColumnHeader#TableColumnHeader(javafx.scene.control.TableColumnBase tc) TableColumnHeader(TableColumnBase)}
+     * Accepts the same arguments as {@link javafx.scene.control.skin.TableColumnHeader#TableColumnHeader(TableColumnBase) TableColumnHeader(TableColumnBase)}
      * and returns an instance of the {@code TableColumnHeaderBuilder}.
      *
      * @return an instance of the {@code TableColumnHeaderBuilder}.
@@ -44,10 +44,10 @@ public class TableColumnHeaderBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.TableColumnHeader} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

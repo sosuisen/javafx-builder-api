@@ -29,10 +29,10 @@ public class ComboBoxListViewSkinBuilder<T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.ComboBoxListViewSkin#ComboBoxListViewSkin(javafx.scene.control.ComboBox<T> control) ComboBoxListViewSkin(ComboBox)}
-     * and returns an instance of the {@code <T> ComboBoxListViewSkinBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ComboBoxListViewSkin#ComboBoxListViewSkin(ComboBox) ComboBoxListViewSkin(ComboBox)}
+     * and returns an instance of the {@code ComboBoxListViewSkinBuilder<T>}.
      *
-     * @return an instance of the {@code <T> ComboBoxListViewSkinBuilder<T>}.
+     * @return an instance of the {@code ComboBoxListViewSkinBuilder<T>}.
      */
     
     public static <T> ComboBoxListViewSkinBuilder<T> create(javafx.scene.control.ComboBox<T> control) {
@@ -44,10 +44,10 @@ public class ComboBoxListViewSkinBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.ComboBoxListViewSkin<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

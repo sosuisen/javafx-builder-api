@@ -29,7 +29,7 @@ public class DialogEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.DialogEvent#DialogEvent(javafx.scene.control.Dialog<?> source, javafx.event.EventType<? extends javafx.event.Event> eventType) DialogEvent(Dialog, EventType)}
+     * Accepts the same arguments as {@link javafx.scene.control.DialogEvent#DialogEvent(Dialog, EventType) DialogEvent(Dialog, EventType)}
      * and returns an instance of the {@code DialogEventBuilder}.
      *
      * @return an instance of the {@code DialogEventBuilder}.
@@ -44,10 +44,10 @@ public class DialogEventBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.DialogEvent} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -29,7 +29,7 @@ public class TabPaneSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.TabPaneSkin#TabPaneSkin(javafx.scene.control.TabPane control) TabPaneSkin(TabPane)}
+     * Accepts the same arguments as {@link javafx.scene.control.skin.TabPaneSkin#TabPaneSkin(TabPane) TabPaneSkin(TabPane)}
      * and returns an instance of the {@code TabPaneSkinBuilder}.
      *
      * @return an instance of the {@code TabPaneSkinBuilder}.
@@ -44,10 +44,10 @@ public class TabPaneSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.TabPaneSkin} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

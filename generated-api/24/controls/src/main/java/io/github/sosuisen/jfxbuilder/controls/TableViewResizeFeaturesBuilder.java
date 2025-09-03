@@ -29,10 +29,10 @@ public class TableViewResizeFeaturesBuilder<S> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TableView.ResizeFeatures#ResizeFeatures(javafx.scene.control.TableView<S> table, javafx.scene.control.TableColumn<S, ?> column, java.lang.Double delta) ResizeFeatures(TableView, TableColumn, Double)}
-     * and returns an instance of the {@code <S> TableViewResizeFeaturesBuilder<S>}.
+     * Accepts the same arguments as {@link javafx.scene.control.TableView.ResizeFeatures#ResizeFeatures(TableView, TableColumn, Double) ResizeFeatures(TableView, TableColumn, Double)}
+     * and returns an instance of the {@code TableViewResizeFeaturesBuilder<S>}.
      *
-     * @return an instance of the {@code <S> TableViewResizeFeaturesBuilder<S>}.
+     * @return an instance of the {@code TableViewResizeFeaturesBuilder<S>}.
      */
     
     public static <S> TableViewResizeFeaturesBuilder<S> create(javafx.scene.control.TableView<S> table, javafx.scene.control.TableColumn<S, ?> column, java.lang.Double delta) {
@@ -44,10 +44,10 @@ public class TableViewResizeFeaturesBuilder<S> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TableView.ResizeFeatures<S>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

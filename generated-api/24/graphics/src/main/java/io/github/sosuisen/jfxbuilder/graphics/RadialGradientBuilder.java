@@ -29,7 +29,7 @@ public class RadialGradientBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.RadialGradient#RadialGradient(double focusAngle, double focusDistance, double centerX, double centerY, double radius, boolean proportional, javafx.scene.paint.CycleMethod cycleMethod, java.util.List<javafx.scene.paint.Stop> stops) RadialGradient(double, double, double, double, double, boolean, CycleMethod, List)}
+     * Accepts the same arguments as {@link javafx.scene.paint.RadialGradient#RadialGradient(double, double, double, double, double, boolean, CycleMethod, List) RadialGradient(double, double, double, double, double, boolean, CycleMethod, List)}
      * and returns an instance of the {@code RadialGradientBuilder}.
      *
      * @return an instance of the {@code RadialGradientBuilder}.
@@ -43,7 +43,7 @@ public class RadialGradientBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.RadialGradient#RadialGradient(double focusAngle, double focusDistance, double centerX, double centerY, double radius, boolean proportional, javafx.scene.paint.CycleMethod cycleMethod, javafx.scene.paint.Stop... stops) RadialGradient(double, double, double, double, double, boolean, CycleMethod, Stop...)}
+     * Accepts the same arguments as {@link javafx.scene.paint.RadialGradient#RadialGradient(double, double, double, double, double, boolean, CycleMethod, Stop...) RadialGradient(double, double, double, double, double, boolean, CycleMethod, Stop...)}
      * and returns an instance of the {@code RadialGradientBuilder}.
      *
      * @return an instance of the {@code RadialGradientBuilder}.
@@ -58,10 +58,10 @@ public class RadialGradientBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.paint.RadialGradient} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

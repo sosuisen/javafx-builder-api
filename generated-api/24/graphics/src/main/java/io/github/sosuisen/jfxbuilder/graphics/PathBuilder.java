@@ -37,7 +37,7 @@ public class PathBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Path#Path(java.util.Collection<? extends javafx.scene.shape.PathElement> elements) Path(Collection)}
+     * Accepts the same arguments as {@link javafx.scene.shape.Path#Path(Collection) Path(Collection)}
      * and returns an instance of the {@code PathBuilder}.
      *
      * @return an instance of the {@code PathBuilder}.
@@ -51,7 +51,7 @@ public class PathBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Path#Path(javafx.scene.shape.PathElement... elements) Path(PathElement...)}
+     * Accepts the same arguments as {@link javafx.scene.shape.Path#Path(PathElement...) Path(PathElement...)}
      * and returns an instance of the {@code PathBuilder}.
      *
      * @return an instance of the {@code PathBuilder}.
@@ -66,10 +66,10 @@ public class PathBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.Path} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

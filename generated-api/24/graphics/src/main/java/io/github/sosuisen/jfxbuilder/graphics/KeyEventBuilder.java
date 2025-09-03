@@ -29,7 +29,7 @@ public class KeyEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.KeyEvent#KeyEvent(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.KeyEvent> eventType, java.lang.String character, java.lang.String text, javafx.scene.input.KeyCode code, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown) KeyEvent(Object, EventTarget, EventType, String, String, KeyCode, boolean, boolean, boolean, boolean)}
+     * Accepts the same arguments as {@link javafx.scene.input.KeyEvent#KeyEvent(Object, EventTarget, EventType, String, String, KeyCode, boolean, boolean, boolean, boolean) KeyEvent(Object, EventTarget, EventType, String, String, KeyCode, boolean, boolean, boolean, boolean)}
      * and returns an instance of the {@code KeyEventBuilder}.
      *
      * @return an instance of the {@code KeyEventBuilder}.
@@ -43,7 +43,7 @@ public class KeyEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.KeyEvent#KeyEvent(javafx.event.EventType<javafx.scene.input.KeyEvent> eventType, java.lang.String character, java.lang.String text, javafx.scene.input.KeyCode code, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown) KeyEvent(EventType, String, String, KeyCode, boolean, boolean, boolean, boolean)}
+     * Accepts the same arguments as {@link javafx.scene.input.KeyEvent#KeyEvent(EventType, String, String, KeyCode, boolean, boolean, boolean, boolean) KeyEvent(EventType, String, String, KeyCode, boolean, boolean, boolean, boolean)}
      * and returns an instance of the {@code KeyEventBuilder}.
      *
      * @return an instance of the {@code KeyEventBuilder}.
@@ -58,10 +58,10 @@ public class KeyEventBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.input.KeyEvent} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

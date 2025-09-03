@@ -37,7 +37,7 @@ public class AccordionBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Accordion#Accordion(javafx.scene.control.TitledPane... titledPanes) Accordion(TitledPane...)}
+     * Accepts the same arguments as {@link javafx.scene.control.Accordion#Accordion(TitledPane...) Accordion(TitledPane...)}
      * and returns an instance of the {@code AccordionBuilder}.
      *
      * @return an instance of the {@code AccordionBuilder}.
@@ -52,10 +52,10 @@ public class AccordionBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.Accordion} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

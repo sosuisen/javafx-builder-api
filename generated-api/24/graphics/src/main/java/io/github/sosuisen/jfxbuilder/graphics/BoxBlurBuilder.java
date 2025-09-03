@@ -37,7 +37,7 @@ public class BoxBlurBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.BoxBlur#BoxBlur(double width, double height, int iterations) BoxBlur(double, double, int)}
+     * Accepts the same arguments as {@link javafx.scene.effect.BoxBlur#BoxBlur(double, double, int) BoxBlur(double, double, int)}
      * and returns an instance of the {@code BoxBlurBuilder}.
      *
      * @return an instance of the {@code BoxBlurBuilder}.
@@ -52,10 +52,10 @@ public class BoxBlurBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.BoxBlur} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

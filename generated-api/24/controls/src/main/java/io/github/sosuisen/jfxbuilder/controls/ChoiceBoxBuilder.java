@@ -29,18 +29,18 @@ public class ChoiceBoxBuilder<T> {
     
 
     /**
-     * Returns an instance of the {@code <T> ChoiceBoxBuilder<T>}.
+     * Returns an instance of the {@code ChoiceBoxBuilder<T>}.
      *
-     * @return an instance of the {@code <T> ChoiceBoxBuilder<T>}.
+     * @return an instance of the {@code ChoiceBoxBuilder<T>}.
      */
     public static <T> ChoiceBoxBuilder<T> create() { return new ChoiceBoxBuilder<T>(); }
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.ChoiceBox#ChoiceBox(javafx.collections.ObservableList<T> items) ChoiceBox(ObservableList)}
-     * and returns an instance of the {@code <T> ChoiceBoxBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.ChoiceBox#ChoiceBox(ObservableList) ChoiceBox(ObservableList)}
+     * and returns an instance of the {@code ChoiceBoxBuilder<T>}.
      *
-     * @return an instance of the {@code <T> ChoiceBoxBuilder<T>}.
+     * @return an instance of the {@code ChoiceBoxBuilder<T>}.
      */
     
     public static <T> ChoiceBoxBuilder<T> create(javafx.collections.ObservableList<T> items) {
@@ -52,10 +52,10 @@ public class ChoiceBoxBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.ChoiceBox<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

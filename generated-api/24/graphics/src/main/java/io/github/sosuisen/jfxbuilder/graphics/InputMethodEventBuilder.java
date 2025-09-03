@@ -29,7 +29,7 @@ public class InputMethodEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.InputMethodEvent#InputMethodEvent(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.InputMethodEvent> eventType, java.util.List<javafx.scene.input.InputMethodTextRun> composed, java.lang.String committed, int caretPosition) InputMethodEvent(Object, EventTarget, EventType, List, String, int)}
+     * Accepts the same arguments as {@link javafx.scene.input.InputMethodEvent#InputMethodEvent(Object, EventTarget, EventType, List, String, int) InputMethodEvent(Object, EventTarget, EventType, List, String, int)}
      * and returns an instance of the {@code InputMethodEventBuilder}.
      *
      * @return an instance of the {@code InputMethodEventBuilder}.
@@ -43,7 +43,7 @@ public class InputMethodEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.InputMethodEvent#InputMethodEvent(javafx.event.EventType<javafx.scene.input.InputMethodEvent> eventType, java.util.List<javafx.scene.input.InputMethodTextRun> composed, java.lang.String committed, int caretPosition) InputMethodEvent(EventType, List, String, int)}
+     * Accepts the same arguments as {@link javafx.scene.input.InputMethodEvent#InputMethodEvent(EventType, List, String, int) InputMethodEvent(EventType, List, String, int)}
      * and returns an instance of the {@code InputMethodEventBuilder}.
      *
      * @return an instance of the {@code InputMethodEventBuilder}.
@@ -58,10 +58,10 @@ public class InputMethodEventBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.input.InputMethodEvent} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

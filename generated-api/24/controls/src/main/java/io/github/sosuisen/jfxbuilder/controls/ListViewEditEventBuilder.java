@@ -29,10 +29,10 @@ public class ListViewEditEventBuilder<T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.ListView.EditEvent#EditEvent(javafx.scene.control.ListView<T> source, javafx.event.EventType<? extends javafx.scene.control.ListView.EditEvent<T>> eventType, T newValue, int editIndex) EditEvent(ListView, EventType, Object, int)}
-     * and returns an instance of the {@code <T> ListViewEditEventBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.ListView.EditEvent#EditEvent(ListView, EventType, Object, int) EditEvent(ListView, EventType, Object, int)}
+     * and returns an instance of the {@code ListViewEditEventBuilder<T>}.
      *
-     * @return an instance of the {@code <T> ListViewEditEventBuilder<T>}.
+     * @return an instance of the {@code ListViewEditEventBuilder<T>}.
      */
     
     public static <T> ListViewEditEventBuilder<T> create(javafx.scene.control.ListView<T> source, javafx.event.EventType<? extends javafx.scene.control.ListView.EditEvent<T>> eventType, T newValue, int editIndex) {
@@ -44,10 +44,10 @@ public class ListViewEditEventBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.ListView.EditEvent<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

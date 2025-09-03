@@ -29,7 +29,7 @@ public class StopBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.Stop#Stop(double offset, javafx.scene.paint.Color color) Stop(double, Color)}
+     * Accepts the same arguments as {@link javafx.scene.paint.Stop#Stop(double, Color) Stop(double, Color)}
      * and returns an instance of the {@code StopBuilder}.
      *
      * @return an instance of the {@code StopBuilder}.
@@ -44,10 +44,10 @@ public class StopBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.paint.Stop} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

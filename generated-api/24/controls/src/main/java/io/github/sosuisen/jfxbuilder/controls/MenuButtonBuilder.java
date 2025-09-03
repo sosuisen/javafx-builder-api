@@ -37,7 +37,7 @@ public class MenuButtonBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.MenuButton#MenuButton(java.lang.String text) MenuButton(String)}
+     * Accepts the same arguments as {@link javafx.scene.control.MenuButton#MenuButton(String) MenuButton(String)}
      * and returns an instance of the {@code MenuButtonBuilder}.
      *
      * @return an instance of the {@code MenuButtonBuilder}.
@@ -51,7 +51,7 @@ public class MenuButtonBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.MenuButton#MenuButton(java.lang.String text, javafx.scene.Node graphic) MenuButton(String, Node)}
+     * Accepts the same arguments as {@link javafx.scene.control.MenuButton#MenuButton(String, Node) MenuButton(String, Node)}
      * and returns an instance of the {@code MenuButtonBuilder}.
      *
      * @return an instance of the {@code MenuButtonBuilder}.
@@ -65,7 +65,7 @@ public class MenuButtonBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.MenuButton#MenuButton(java.lang.String text, javafx.scene.Node graphic, javafx.scene.control.MenuItem... items) MenuButton(String, Node, MenuItem...)}
+     * Accepts the same arguments as {@link javafx.scene.control.MenuButton#MenuButton(String, Node, MenuItem...) MenuButton(String, Node, MenuItem...)}
      * and returns an instance of the {@code MenuButtonBuilder}.
      *
      * @return an instance of the {@code MenuButtonBuilder}.
@@ -80,10 +80,10 @@ public class MenuButtonBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.MenuButton} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -29,10 +29,10 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#ListSpinnerValueFactory(javafx.collections.ObservableList<T> items) ListSpinnerValueFactory(ObservableList)}
-     * and returns an instance of the {@code <T> SpinnerValueFactoryListSpinnerValueFactoryBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#ListSpinnerValueFactory(ObservableList) ListSpinnerValueFactory(ObservableList)}
+     * and returns an instance of the {@code SpinnerValueFactoryListSpinnerValueFactoryBuilder<T>}.
      *
-     * @return an instance of the {@code <T> SpinnerValueFactoryListSpinnerValueFactoryBuilder<T>}.
+     * @return an instance of the {@code SpinnerValueFactoryListSpinnerValueFactoryBuilder<T>}.
      */
     
     public static <T> SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> create(javafx.collections.ObservableList<T> items) {
@@ -44,10 +44,10 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -29,7 +29,7 @@ public class WebErrorEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.web.WebErrorEvent#WebErrorEvent(java.lang.Object source, javafx.event.EventType<javafx.scene.web.WebErrorEvent> type, java.lang.String message, java.lang.Throwable exception) WebErrorEvent(Object, EventType, String, Throwable)}
+     * Accepts the same arguments as {@link javafx.scene.web.WebErrorEvent#WebErrorEvent(Object, EventType, String, Throwable) WebErrorEvent(Object, EventType, String, Throwable)}
      * and returns an instance of the {@code WebErrorEventBuilder}.
      *
      * @return an instance of the {@code WebErrorEventBuilder}.
@@ -44,10 +44,10 @@ public class WebErrorEventBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.web.WebErrorEvent} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -29,7 +29,7 @@ public class PieChartDataBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.PieChart.Data#Data(java.lang.String name, double value) Data(String, double)}
+     * Accepts the same arguments as {@link javafx.scene.chart.PieChart.Data#Data(String, double) Data(String, double)}
      * and returns an instance of the {@code PieChartDataBuilder}.
      *
      * @return an instance of the {@code PieChartDataBuilder}.
@@ -44,10 +44,10 @@ public class PieChartDataBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.PieChart.Data} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

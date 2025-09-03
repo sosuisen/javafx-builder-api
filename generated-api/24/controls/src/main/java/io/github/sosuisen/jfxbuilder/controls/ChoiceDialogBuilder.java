@@ -29,18 +29,18 @@ public class ChoiceDialogBuilder<T> {
     
 
     /**
-     * Returns an instance of the {@code <T> ChoiceDialogBuilder<T>}.
+     * Returns an instance of the {@code ChoiceDialogBuilder<T>}.
      *
-     * @return an instance of the {@code <T> ChoiceDialogBuilder<T>}.
+     * @return an instance of the {@code ChoiceDialogBuilder<T>}.
      */
     public static <T> ChoiceDialogBuilder<T> create() { return new ChoiceDialogBuilder<T>(); }
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.ChoiceDialog#ChoiceDialog(T defaultChoice, T... choices) ChoiceDialog(Object, Object...)}
-     * and returns an instance of the {@code <T> ChoiceDialogBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.ChoiceDialog#ChoiceDialog(Object, Object...) ChoiceDialog(Object, Object...)}
+     * and returns an instance of the {@code ChoiceDialogBuilder<T>}.
      *
-     * @return an instance of the {@code <T> ChoiceDialogBuilder<T>}.
+     * @return an instance of the {@code ChoiceDialogBuilder<T>}.
      */
     @SafeVarargs
     public static <T> ChoiceDialogBuilder<T> create(T defaultChoice, T... choices) {
@@ -51,10 +51,10 @@ public class ChoiceDialogBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.ChoiceDialog#ChoiceDialog(T defaultChoice, java.util.Collection<T> choices) ChoiceDialog(Object, Collection)}
-     * and returns an instance of the {@code <T> ChoiceDialogBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.ChoiceDialog#ChoiceDialog(Object, Collection) ChoiceDialog(Object, Collection)}
+     * and returns an instance of the {@code ChoiceDialogBuilder<T>}.
      *
-     * @return an instance of the {@code <T> ChoiceDialogBuilder<T>}.
+     * @return an instance of the {@code ChoiceDialogBuilder<T>}.
      */
     
     public static <T> ChoiceDialogBuilder<T> create(T defaultChoice, java.util.Collection<T> choices) {
@@ -66,10 +66,10 @@ public class ChoiceDialogBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.ChoiceDialog<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

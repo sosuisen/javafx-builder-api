@@ -29,18 +29,18 @@ public class SpinnerBuilder<T> {
     
 
     /**
-     * Returns an instance of the {@code <T> SpinnerBuilder<T>}.
+     * Returns an instance of the {@code SpinnerBuilder<T>}.
      *
-     * @return an instance of the {@code <T> SpinnerBuilder<T>}.
+     * @return an instance of the {@code SpinnerBuilder<T>}.
      */
     public static <T> SpinnerBuilder<T> create() { return new SpinnerBuilder<T>(); }
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Spinner#Spinner(double min, double max, double initialValue) Spinner(double, double, double)}
-     * and returns an instance of the {@code <T> SpinnerBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.Spinner#Spinner(double, double, double) Spinner(double, double, double)}
+     * and returns an instance of the {@code SpinnerBuilder<T>}.
      *
-     * @return an instance of the {@code <T> SpinnerBuilder<T>}.
+     * @return an instance of the {@code SpinnerBuilder<T>}.
      */
     
     public static <T> SpinnerBuilder<T> create(double min, double max, double initialValue) {
@@ -51,10 +51,10 @@ public class SpinnerBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Spinner#Spinner(double min, double max, double initialValue, double amountToStepBy) Spinner(double, double, double, double)}
-     * and returns an instance of the {@code <T> SpinnerBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.Spinner#Spinner(double, double, double, double) Spinner(double, double, double, double)}
+     * and returns an instance of the {@code SpinnerBuilder<T>}.
      *
-     * @return an instance of the {@code <T> SpinnerBuilder<T>}.
+     * @return an instance of the {@code SpinnerBuilder<T>}.
      */
     
     public static <T> SpinnerBuilder<T> create(double min, double max, double initialValue, double amountToStepBy) {
@@ -65,10 +65,10 @@ public class SpinnerBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Spinner#Spinner(int min, int max, int initialValue) Spinner(int, int, int)}
-     * and returns an instance of the {@code <T> SpinnerBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.Spinner#Spinner(int, int, int) Spinner(int, int, int)}
+     * and returns an instance of the {@code SpinnerBuilder<T>}.
      *
-     * @return an instance of the {@code <T> SpinnerBuilder<T>}.
+     * @return an instance of the {@code SpinnerBuilder<T>}.
      */
     
     public static <T> SpinnerBuilder<T> create(int min, int max, int initialValue) {
@@ -79,10 +79,10 @@ public class SpinnerBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Spinner#Spinner(int min, int max, int initialValue, int amountToStepBy) Spinner(int, int, int, int)}
-     * and returns an instance of the {@code <T> SpinnerBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.Spinner#Spinner(int, int, int, int) Spinner(int, int, int, int)}
+     * and returns an instance of the {@code SpinnerBuilder<T>}.
      *
-     * @return an instance of the {@code <T> SpinnerBuilder<T>}.
+     * @return an instance of the {@code SpinnerBuilder<T>}.
      */
     
     public static <T> SpinnerBuilder<T> create(int min, int max, int initialValue, int amountToStepBy) {
@@ -93,10 +93,10 @@ public class SpinnerBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Spinner#Spinner(javafx.collections.ObservableList<T> items) Spinner(ObservableList)}
-     * and returns an instance of the {@code <T> SpinnerBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.Spinner#Spinner(ObservableList) Spinner(ObservableList)}
+     * and returns an instance of the {@code SpinnerBuilder<T>}.
      *
-     * @return an instance of the {@code <T> SpinnerBuilder<T>}.
+     * @return an instance of the {@code SpinnerBuilder<T>}.
      */
     
     public static <T> SpinnerBuilder<T> create(javafx.collections.ObservableList<T> items) {
@@ -107,10 +107,10 @@ public class SpinnerBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Spinner#Spinner(javafx.scene.control.SpinnerValueFactory<T> valueFactory) Spinner(SpinnerValueFactory)}
-     * and returns an instance of the {@code <T> SpinnerBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.Spinner#Spinner(SpinnerValueFactory) Spinner(SpinnerValueFactory)}
+     * and returns an instance of the {@code SpinnerBuilder<T>}.
      *
-     * @return an instance of the {@code <T> SpinnerBuilder<T>}.
+     * @return an instance of the {@code SpinnerBuilder<T>}.
      */
     
     public static <T> SpinnerBuilder<T> create(javafx.scene.control.SpinnerValueFactory<T> valueFactory) {
@@ -122,10 +122,10 @@ public class SpinnerBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.Spinner<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

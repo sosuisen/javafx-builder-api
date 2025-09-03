@@ -29,10 +29,10 @@ public class TableColumnCellEditEventBuilder<S, T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TableColumn.CellEditEvent#CellEditEvent(javafx.scene.control.TableView<S> table, javafx.scene.control.TablePosition<S, T> pos, javafx.event.EventType<javafx.scene.control.TableColumn.CellEditEvent<S, T>> eventType, T newValue) CellEditEvent(TableView, TablePosition, EventType, Object)}
-     * and returns an instance of the {@code <S, T> TableColumnCellEditEventBuilder<S, T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.TableColumn.CellEditEvent#CellEditEvent(TableView, TablePosition, EventType, Object) CellEditEvent(TableView, TablePosition, EventType, Object)}
+     * and returns an instance of the {@code TableColumnCellEditEventBuilder<S, T>}.
      *
-     * @return an instance of the {@code <S, T> TableColumnCellEditEventBuilder<S, T>}.
+     * @return an instance of the {@code TableColumnCellEditEventBuilder<S, T>}.
      */
     
     public static <S, T> TableColumnCellEditEventBuilder<S, T> create(javafx.scene.control.TableView<S> table, javafx.scene.control.TablePosition<S, T> pos, javafx.event.EventType<javafx.scene.control.TableColumn.CellEditEvent<S, T>> eventType, T newValue) {
@@ -44,10 +44,10 @@ public class TableColumnCellEditEventBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TableColumn.CellEditEvent<S, T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

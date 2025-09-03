@@ -29,7 +29,7 @@ public class TouchPointBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.TouchPoint#TouchPoint(int id, javafx.scene.input.TouchPoint.State state, double x, double y, double screenX, double screenY, javafx.event.EventTarget target, javafx.scene.input.PickResult pickResult) TouchPoint(int, TouchPoint$State, double, double, double, double, EventTarget, PickResult)}
+     * Accepts the same arguments as {@link javafx.scene.input.TouchPoint#TouchPoint(int, TouchPoint$State, double, double, double, double, EventTarget, PickResult) TouchPoint(int, TouchPoint$State, double, double, double, double, EventTarget, PickResult)}
      * and returns an instance of the {@code TouchPointBuilder}.
      *
      * @return an instance of the {@code TouchPointBuilder}.
@@ -44,10 +44,10 @@ public class TouchPointBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.input.TouchPoint} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

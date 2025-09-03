@@ -29,7 +29,7 @@ public class BorderBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.Border#Border(java.util.List<javafx.scene.layout.BorderStroke> strokes, java.util.List<javafx.scene.layout.BorderImage> images) Border(List, List)}
+     * Accepts the same arguments as {@link javafx.scene.layout.Border#Border(List, List) Border(List, List)}
      * and returns an instance of the {@code BorderBuilder}.
      *
      * @return an instance of the {@code BorderBuilder}.
@@ -43,7 +43,7 @@ public class BorderBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.Border#Border(javafx.scene.layout.BorderImage... images) Border(BorderImage...)}
+     * Accepts the same arguments as {@link javafx.scene.layout.Border#Border(BorderImage...) Border(BorderImage...)}
      * and returns an instance of the {@code BorderBuilder}.
      *
      * @return an instance of the {@code BorderBuilder}.
@@ -57,7 +57,7 @@ public class BorderBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.Border#Border(javafx.scene.layout.BorderStroke... strokes) Border(BorderStroke...)}
+     * Accepts the same arguments as {@link javafx.scene.layout.Border#Border(BorderStroke...) Border(BorderStroke...)}
      * and returns an instance of the {@code BorderBuilder}.
      *
      * @return an instance of the {@code BorderBuilder}.
@@ -71,7 +71,7 @@ public class BorderBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.Border#Border(javafx.scene.layout.BorderStroke[] strokes, javafx.scene.layout.BorderImage[] images) Border(BorderStroke..., BorderImage...)}
+     * Accepts the same arguments as {@link javafx.scene.layout.Border#Border(BorderStroke..., BorderImage...) Border(BorderStroke..., BorderImage...)}
      * and returns an instance of the {@code BorderBuilder}.
      *
      * @return an instance of the {@code BorderBuilder}.
@@ -86,10 +86,10 @@ public class BorderBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.Border} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

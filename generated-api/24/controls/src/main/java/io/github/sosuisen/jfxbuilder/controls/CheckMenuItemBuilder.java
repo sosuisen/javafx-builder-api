@@ -37,7 +37,7 @@ public class CheckMenuItemBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.CheckMenuItem#CheckMenuItem(java.lang.String text) CheckMenuItem(String)}
+     * Accepts the same arguments as {@link javafx.scene.control.CheckMenuItem#CheckMenuItem(String) CheckMenuItem(String)}
      * and returns an instance of the {@code CheckMenuItemBuilder}.
      *
      * @return an instance of the {@code CheckMenuItemBuilder}.
@@ -51,7 +51,7 @@ public class CheckMenuItemBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.CheckMenuItem#CheckMenuItem(java.lang.String text, javafx.scene.Node graphic) CheckMenuItem(String, Node)}
+     * Accepts the same arguments as {@link javafx.scene.control.CheckMenuItem#CheckMenuItem(String, Node) CheckMenuItem(String, Node)}
      * and returns an instance of the {@code CheckMenuItemBuilder}.
      *
      * @return an instance of the {@code CheckMenuItemBuilder}.
@@ -66,10 +66,10 @@ public class CheckMenuItemBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.CheckMenuItem} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

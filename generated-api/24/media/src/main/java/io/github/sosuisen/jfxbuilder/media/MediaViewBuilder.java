@@ -37,7 +37,7 @@ public class MediaViewBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.media.MediaView#MediaView(javafx.scene.media.MediaPlayer mediaPlayer) MediaView(MediaPlayer)}
+     * Accepts the same arguments as {@link javafx.scene.media.MediaView#MediaView(MediaPlayer) MediaView(MediaPlayer)}
      * and returns an instance of the {@code MediaViewBuilder}.
      *
      * @return an instance of the {@code MediaViewBuilder}.
@@ -52,10 +52,10 @@ public class MediaViewBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.media.MediaView} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

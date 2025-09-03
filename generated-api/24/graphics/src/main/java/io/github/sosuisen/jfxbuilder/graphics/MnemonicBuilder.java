@@ -29,7 +29,7 @@ public class MnemonicBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.Mnemonic#Mnemonic(javafx.scene.Node node, javafx.scene.input.KeyCombination keyCombination) Mnemonic(Node, KeyCombination)}
+     * Accepts the same arguments as {@link javafx.scene.input.Mnemonic#Mnemonic(Node, KeyCombination) Mnemonic(Node, KeyCombination)}
      * and returns an instance of the {@code MnemonicBuilder}.
      *
      * @return an instance of the {@code MnemonicBuilder}.
@@ -44,10 +44,10 @@ public class MnemonicBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.input.Mnemonic} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

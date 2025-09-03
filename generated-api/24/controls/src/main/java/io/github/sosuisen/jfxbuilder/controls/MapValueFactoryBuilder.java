@@ -29,10 +29,10 @@ public class MapValueFactoryBuilder<T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.MapValueFactory#MapValueFactory(java.lang.Object key) MapValueFactory(Object)}
-     * and returns an instance of the {@code <T> MapValueFactoryBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.cell.MapValueFactory#MapValueFactory(Object) MapValueFactory(Object)}
+     * and returns an instance of the {@code MapValueFactoryBuilder<T>}.
      *
-     * @return an instance of the {@code <T> MapValueFactoryBuilder<T>}.
+     * @return an instance of the {@code MapValueFactoryBuilder<T>}.
      */
     
     public static <T> MapValueFactoryBuilder<T> create(java.lang.Object key) {
@@ -44,10 +44,10 @@ public class MapValueFactoryBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.cell.MapValueFactory<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

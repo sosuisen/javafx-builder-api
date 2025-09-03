@@ -29,10 +29,10 @@ public class TreeTableViewEditEventBuilder<S> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeTableView.EditEvent#EditEvent(javafx.scene.control.TreeTableView<S> source, javafx.event.EventType<? extends javafx.scene.control.TreeTableView.EditEvent> eventType, javafx.scene.control.TreeItem<S> treeItem, S oldValue, S newValue) EditEvent(TreeTableView, EventType, TreeItem, Object, Object)}
-     * and returns an instance of the {@code <S> TreeTableViewEditEventBuilder<S>}.
+     * Accepts the same arguments as {@link javafx.scene.control.TreeTableView.EditEvent#EditEvent(TreeTableView, EventType, TreeItem, Object, Object) EditEvent(TreeTableView, EventType, TreeItem, Object, Object)}
+     * and returns an instance of the {@code TreeTableViewEditEventBuilder<S>}.
      *
-     * @return an instance of the {@code <S> TreeTableViewEditEventBuilder<S>}.
+     * @return an instance of the {@code TreeTableViewEditEventBuilder<S>}.
      */
     
     public static <S> TreeTableViewEditEventBuilder<S> create(javafx.scene.control.TreeTableView<S> source, javafx.event.EventType<? extends javafx.scene.control.TreeTableView.EditEvent> eventType, javafx.scene.control.TreeItem<S> treeItem, S oldValue, S newValue) {
@@ -44,10 +44,10 @@ public class TreeTableViewEditEventBuilder<S> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableView.EditEvent<S>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -29,7 +29,7 @@ public class AudioClipBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.media.AudioClip#AudioClip(java.lang.String source) AudioClip(String)}
+     * Accepts the same arguments as {@link javafx.scene.media.AudioClip#AudioClip(String) AudioClip(String)}
      * and returns an instance of the {@code AudioClipBuilder}.
      *
      * @return an instance of the {@code AudioClipBuilder}.
@@ -44,10 +44,10 @@ public class AudioClipBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.media.AudioClip} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

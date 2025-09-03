@@ -37,7 +37,7 @@ public class SpotLightBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.SpotLight#SpotLight(javafx.scene.paint.Color color) SpotLight(Color)}
+     * Accepts the same arguments as {@link javafx.scene.SpotLight#SpotLight(Color) SpotLight(Color)}
      * and returns an instance of the {@code SpotLightBuilder}.
      *
      * @return an instance of the {@code SpotLightBuilder}.
@@ -52,10 +52,10 @@ public class SpotLightBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.SpotLight} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

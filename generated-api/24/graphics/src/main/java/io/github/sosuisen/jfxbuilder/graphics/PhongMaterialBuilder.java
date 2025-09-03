@@ -37,7 +37,7 @@ public class PhongMaterialBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.PhongMaterial#PhongMaterial(javafx.scene.paint.Color diffuseColor) PhongMaterial(Color)}
+     * Accepts the same arguments as {@link javafx.scene.paint.PhongMaterial#PhongMaterial(Color) PhongMaterial(Color)}
      * and returns an instance of the {@code PhongMaterialBuilder}.
      *
      * @return an instance of the {@code PhongMaterialBuilder}.
@@ -51,7 +51,7 @@ public class PhongMaterialBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.PhongMaterial#PhongMaterial(javafx.scene.paint.Color diffuseColor, javafx.scene.image.Image diffuseMap, javafx.scene.image.Image specularMap, javafx.scene.image.Image bumpMap, javafx.scene.image.Image selfIlluminationMap) PhongMaterial(Color, Image, Image, Image, Image)}
+     * Accepts the same arguments as {@link javafx.scene.paint.PhongMaterial#PhongMaterial(Color, Image, Image, Image, Image) PhongMaterial(Color, Image, Image, Image, Image)}
      * and returns an instance of the {@code PhongMaterialBuilder}.
      *
      * @return an instance of the {@code PhongMaterialBuilder}.
@@ -66,10 +66,10 @@ public class PhongMaterialBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.paint.PhongMaterial} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

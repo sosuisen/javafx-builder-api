@@ -29,10 +29,10 @@ public class TreeItemPropertyValueFactoryBuilder<S, T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.TreeItemPropertyValueFactory#TreeItemPropertyValueFactory(java.lang.String property) TreeItemPropertyValueFactory(String)}
-     * and returns an instance of the {@code <S, T> TreeItemPropertyValueFactoryBuilder<S, T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.cell.TreeItemPropertyValueFactory#TreeItemPropertyValueFactory(String) TreeItemPropertyValueFactory(String)}
+     * and returns an instance of the {@code TreeItemPropertyValueFactoryBuilder<S, T>}.
      *
-     * @return an instance of the {@code <S, T> TreeItemPropertyValueFactoryBuilder<S, T>}.
+     * @return an instance of the {@code TreeItemPropertyValueFactoryBuilder<S, T>}.
      */
     
     public static <S, T> TreeItemPropertyValueFactoryBuilder<S, T> create(java.lang.String property) {
@@ -44,10 +44,10 @@ public class TreeItemPropertyValueFactoryBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.cell.TreeItemPropertyValueFactory<S, T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -29,7 +29,7 @@ public class TextFieldSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.TextFieldSkin#TextFieldSkin(javafx.scene.control.TextField control) TextFieldSkin(TextField)}
+     * Accepts the same arguments as {@link javafx.scene.control.skin.TextFieldSkin#TextFieldSkin(TextField) TextFieldSkin(TextField)}
      * and returns an instance of the {@code TextFieldSkinBuilder}.
      *
      * @return an instance of the {@code TextFieldSkinBuilder}.
@@ -44,10 +44,10 @@ public class TextFieldSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.TextFieldSkin} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

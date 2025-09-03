@@ -37,7 +37,7 @@ public class TilePaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(double hgap, double vgap) TilePane(double, double)}
+     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(double, double) TilePane(double, double)}
      * and returns an instance of the {@code TilePaneBuilder}.
      *
      * @return an instance of the {@code TilePaneBuilder}.
@@ -51,7 +51,7 @@ public class TilePaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(double hgap, double vgap, javafx.scene.Node... children) TilePane(double, double, Node...)}
+     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(double, double, Node...) TilePane(double, double, Node...)}
      * and returns an instance of the {@code TilePaneBuilder}.
      *
      * @return an instance of the {@code TilePaneBuilder}.
@@ -65,7 +65,7 @@ public class TilePaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(javafx.geometry.Orientation orientation) TilePane(Orientation)}
+     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(Orientation) TilePane(Orientation)}
      * and returns an instance of the {@code TilePaneBuilder}.
      *
      * @return an instance of the {@code TilePaneBuilder}.
@@ -79,7 +79,7 @@ public class TilePaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(javafx.geometry.Orientation orientation, double hgap, double vgap) TilePane(Orientation, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(Orientation, double, double) TilePane(Orientation, double, double)}
      * and returns an instance of the {@code TilePaneBuilder}.
      *
      * @return an instance of the {@code TilePaneBuilder}.
@@ -93,7 +93,7 @@ public class TilePaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(javafx.geometry.Orientation orientation, double hgap, double vgap, javafx.scene.Node... children) TilePane(Orientation, double, double, Node...)}
+     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(Orientation, double, double, Node...) TilePane(Orientation, double, double, Node...)}
      * and returns an instance of the {@code TilePaneBuilder}.
      *
      * @return an instance of the {@code TilePaneBuilder}.
@@ -107,7 +107,7 @@ public class TilePaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(javafx.geometry.Orientation orientation, javafx.scene.Node... children) TilePane(Orientation, Node...)}
+     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(Orientation, Node...) TilePane(Orientation, Node...)}
      * and returns an instance of the {@code TilePaneBuilder}.
      *
      * @return an instance of the {@code TilePaneBuilder}.
@@ -121,7 +121,7 @@ public class TilePaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(javafx.scene.Node... children) TilePane(Node...)}
+     * Accepts the same arguments as {@link javafx.scene.layout.TilePane#TilePane(Node...) TilePane(Node...)}
      * and returns an instance of the {@code TilePaneBuilder}.
      *
      * @return an instance of the {@code TilePaneBuilder}.
@@ -136,10 +136,10 @@ public class TilePaneBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.TilePane} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

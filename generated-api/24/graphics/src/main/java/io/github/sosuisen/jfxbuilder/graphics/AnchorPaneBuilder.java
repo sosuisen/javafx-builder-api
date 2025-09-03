@@ -37,7 +37,7 @@ public class AnchorPaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.AnchorPane#AnchorPane(javafx.scene.Node... children) AnchorPane(Node...)}
+     * Accepts the same arguments as {@link javafx.scene.layout.AnchorPane#AnchorPane(Node...) AnchorPane(Node...)}
      * and returns an instance of the {@code AnchorPaneBuilder}.
      *
      * @return an instance of the {@code AnchorPaneBuilder}.
@@ -52,10 +52,10 @@ public class AnchorPaneBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.AnchorPane} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

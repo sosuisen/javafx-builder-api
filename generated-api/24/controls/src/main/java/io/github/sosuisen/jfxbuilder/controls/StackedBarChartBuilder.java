@@ -29,10 +29,10 @@ public class StackedBarChartBuilder<X, Y> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.StackedBarChart#StackedBarChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) StackedBarChart(Axis, Axis)}
-     * and returns an instance of the {@code <X, Y> StackedBarChartBuilder<X, Y>}.
+     * Accepts the same arguments as {@link javafx.scene.chart.StackedBarChart#StackedBarChart(Axis, Axis) StackedBarChart(Axis, Axis)}
+     * and returns an instance of the {@code StackedBarChartBuilder<X, Y>}.
      *
-     * @return an instance of the {@code <X, Y> StackedBarChartBuilder<X, Y>}.
+     * @return an instance of the {@code StackedBarChartBuilder<X, Y>}.
      */
     
     public static <X, Y> StackedBarChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) {
@@ -43,10 +43,10 @@ public class StackedBarChartBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.StackedBarChart#StackedBarChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) StackedBarChart(Axis, Axis, ObservableList)}
-     * and returns an instance of the {@code <X, Y> StackedBarChartBuilder<X, Y>}.
+     * Accepts the same arguments as {@link javafx.scene.chart.StackedBarChart#StackedBarChart(Axis, Axis, ObservableList) StackedBarChart(Axis, Axis, ObservableList)}
+     * and returns an instance of the {@code StackedBarChartBuilder<X, Y>}.
      *
-     * @return an instance of the {@code <X, Y> StackedBarChartBuilder<X, Y>}.
+     * @return an instance of the {@code StackedBarChartBuilder<X, Y>}.
      */
     
     public static <X, Y> StackedBarChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) {
@@ -57,10 +57,10 @@ public class StackedBarChartBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.StackedBarChart#StackedBarChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data, double categoryGap) StackedBarChart(Axis, Axis, ObservableList, double)}
-     * and returns an instance of the {@code <X, Y> StackedBarChartBuilder<X, Y>}.
+     * Accepts the same arguments as {@link javafx.scene.chart.StackedBarChart#StackedBarChart(Axis, Axis, ObservableList, double) StackedBarChart(Axis, Axis, ObservableList, double)}
+     * and returns an instance of the {@code StackedBarChartBuilder<X, Y>}.
      *
-     * @return an instance of the {@code <X, Y> StackedBarChartBuilder<X, Y>}.
+     * @return an instance of the {@code StackedBarChartBuilder<X, Y>}.
      */
     
     public static <X, Y> StackedBarChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data, double categoryGap) {
@@ -72,10 +72,10 @@ public class StackedBarChartBuilder<X, Y> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.StackedBarChart<X, Y>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *
