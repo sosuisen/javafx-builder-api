@@ -27,14 +27,12 @@ public class ProgressIndicatorBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.ProgressIndicator>> operations = new java.util.ArrayList<>();
     private ProgressIndicatorBuilder() {}
     
-
     /**
      * Returns an instance of the {@code ProgressIndicatorBuilder}.
      *
      * @return an instance of the {@code ProgressIndicatorBuilder}.
      */
     public static ProgressIndicatorBuilder create() { return new ProgressIndicatorBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.ProgressIndicator#ProgressIndicator(double) ProgressIndicator(double)}
@@ -97,7 +95,6 @@ public class ProgressIndicatorBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class ProgressIndicatorBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ProgressIndicator instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -158,966 +156,967 @@ public class ProgressIndicatorBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder accessibleHelp(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder accessibleRole(javafx.scene.AccessibleRole value) {
         operations.add(obj -> obj.setAccessibleRole(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder accessibleRoleDescription(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder accessibleText(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder background(javafx.scene.layout.Background value) {
         operations.add(obj -> obj.setBackground(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder blendMode(javafx.scene.effect.BlendMode value) {
         operations.add(obj -> obj.setBlendMode(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder border(javafx.scene.layout.Border value) {
         operations.add(obj -> obj.setBorder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder cache(boolean value) {
         operations.add(obj -> obj.setCache(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder cacheHint(javafx.scene.CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder cacheShape(boolean value) {
         operations.add(obj -> obj.setCacheShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder centerShape(boolean value) {
         operations.add(obj -> obj.setCenterShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder clip(javafx.scene.Node value) {
         operations.add(obj -> obj.setClip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder contextMenu(javafx.scene.control.ContextMenu value) {
         operations.add(obj -> obj.setContextMenu(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder cursor(javafx.scene.Cursor value) {
         operations.add(obj -> obj.setCursor(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder depthTest(javafx.scene.DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder effect(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setEffect(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder eventDispatcher(javafx.event.EventDispatcher value) {
         operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder focusTraversable(boolean value) {
         operations.add(obj -> obj.setFocusTraversable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
         operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder layoutX(double value) {
         operations.add(obj -> obj.setLayoutX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder layoutY(double value) {
         operations.add(obj -> obj.setLayoutY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder managed(boolean value) {
         operations.add(obj -> obj.setManaged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder maxHeight(double value) {
         operations.add(obj -> obj.setMaxHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder maxSize(double maxWidth, double maxHeight) {
         operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder maxWidth(double value) {
         operations.add(obj -> obj.setMaxWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setMinHeight(double) setMinHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder minHeight(double value) {
         operations.add(obj -> obj.setMinHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setMinSize(double, double) setMinSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder minSize(double minWidth, double minHeight) {
         operations.add(obj -> obj.setMinSize(minWidth, minHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setMinWidth(double) setMinWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder minWidth(double value) {
         operations.add(obj -> obj.setMinWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder mouseTransparent(boolean value) {
         operations.add(obj -> obj.setMouseTransparent(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder nodeOrientation(javafx.geometry.NodeOrientation orientation) {
         operations.add(obj -> obj.setNodeOrientation(orientation));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
         operations.add(obj -> obj.setOnContextMenuRequested(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnDragDetected(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDone(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDropped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
         operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onKeyPressed(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseClicked(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseDragged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onMouseEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMousePressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onScroll(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScroll(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onSwipeRight(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeRight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onTouchMoved(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchStationary(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoom(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder opacity(double value) {
         operations.add(obj -> obj.setOpacity(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder opaqueInsets(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setOpaqueInsets(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder padding(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setPadding(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder pickOnBounds(boolean value) {
         operations.add(obj -> obj.setPickOnBounds(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder prefHeight(double value) {
         operations.add(obj -> obj.setPrefHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder prefSize(double prefWidth, double prefHeight) {
         operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder prefWidth(double value) {
         operations.add(obj -> obj.setPrefWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setProgress(double) setProgress} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder progress(double value) {
         operations.add(obj -> obj.setProgress(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder rotate(double value) {
         operations.add(obj -> obj.setRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder rotationAxis(javafx.geometry.Point3D value) {
         operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder scaleShape(boolean value) {
         operations.add(obj -> obj.setScaleShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder scaleX(double value) {
         operations.add(obj -> obj.setScaleX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder scaleY(double value) {
         operations.add(obj -> obj.setScaleY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder scaleZ(double value) {
         operations.add(obj -> obj.setScaleZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder shape(javafx.scene.shape.Shape value) {
         operations.add(obj -> obj.setShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder skin(javafx.scene.control.Skin<?> value) {
         operations.add(obj -> obj.setSkin(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder snapToPixel(boolean value) {
         operations.add(obj -> obj.setSnapToPixel(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder tooltip(javafx.scene.control.Tooltip value) {
         operations.add(obj -> obj.setTooltip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder translateX(double value) {
         operations.add(obj -> obj.setTranslateX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder translateY(double value) {
         operations.add(obj -> obj.setTranslateY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder translateZ(double value) {
         operations.add(obj -> obj.setTranslateZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder viewOrder(double value) {
         operations.add(obj -> obj.setViewOrder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ProgressIndicator#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ProgressIndicatorBuilder visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressIndicator#getStyleClass()} method.
      * 
@@ -1142,8 +1141,6 @@ public class ProgressIndicatorBuilder {
         });
         return this;
     }
-
-
 
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressIndicator#getStylesheets()} method.
@@ -1170,8 +1167,6 @@ public class ProgressIndicatorBuilder {
         return this;
     }
 
-
-
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ProgressIndicator#getTransforms()} method.
      * 
@@ -1195,10 +1190,7 @@ public class ProgressIndicatorBuilder {
             obj.getTransforms().addAll(col);
         });
         return this;
-    }
-
-
-    
+    }    
     /**
      * Utility setter to add CSS string for this ProgressIndicator's contents.
      * For example:
@@ -1215,6 +1207,7 @@ public class ProgressIndicatorBuilder {
                 java.util.Base64.getEncoder().encodeToString(css.getBytes())));
         return this;
     }
+
     /**
      * Invokes the {@link javafx.scene.layout.AnchorPane#setBottomAnchor(Node child, java.lang.Double value) AnchorPane.setBottomAnchor(Node, Double)} 
      * using a fluent API.
@@ -1230,10 +1223,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .bottomAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .bottomAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1258,10 +1251,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .leftAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .leftAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1286,10 +1279,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .rightAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .rightAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1314,10 +1307,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .topAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .topAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1342,10 +1335,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .alignmentInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1370,10 +1363,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .marginInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1398,10 +1391,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = FlowPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInFlowPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInFlowPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1426,10 +1419,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1454,10 +1447,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1482,10 +1475,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1510,10 +1503,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1538,10 +1531,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1566,10 +1559,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1594,10 +1587,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1622,10 +1615,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillHeightInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillHeightInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1650,10 +1643,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillWidthInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillWidthInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1678,10 +1671,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1706,10 +1699,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1734,10 +1727,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1762,10 +1755,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1790,10 +1783,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1818,10 +1811,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1846,10 +1839,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1874,10 +1867,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .hGrowInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1902,10 +1895,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1930,10 +1923,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .alignmentInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1958,10 +1951,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .marginInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1986,10 +1979,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .alignmentInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2014,10 +2007,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2042,10 +2035,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2070,10 +2063,10 @@ public class ProgressIndicatorBuilder {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .vGrowInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2082,7 +2075,8 @@ public class ProgressIndicatorBuilder {
         operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
         return this;
     }
-    
+
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
@@ -2099,12 +2093,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
@@ -2121,12 +2115,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
@@ -2143,12 +2137,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
@@ -2165,12 +2159,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleTextProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
@@ -2187,12 +2181,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder backgroundPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Background>> op) {
         operations.add(obj -> op.accept(obj.backgroundProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
@@ -2209,12 +2203,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
         operations.add(obj -> op.accept(obj.blendModeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#borderProperty() borderProperty} 
      * of the instance being constructed. 
@@ -2231,12 +2225,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
         operations.add(obj -> op.accept(obj.borderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
@@ -2253,12 +2247,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
@@ -2275,12 +2269,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInParentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
@@ -2297,12 +2291,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
         operations.add(obj -> op.accept(obj.cacheHintProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
@@ -2319,12 +2313,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
@@ -2341,12 +2335,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
@@ -2363,12 +2357,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.centerShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#clipProperty() clipProperty} 
      * of the instance being constructed. 
@@ -2385,12 +2379,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
@@ -2407,12 +2401,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder contextMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.contextMenuProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
@@ -2429,12 +2423,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
         operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
@@ -2451,12 +2445,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
         operations.add(obj -> op.accept(obj.depthTestProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#disableProperty() disableProperty} 
      * of the instance being constructed. 
@@ -2473,12 +2467,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
@@ -2495,12 +2489,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disabledProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#effectProperty() effectProperty} 
      * of the instance being constructed. 
@@ -2517,12 +2511,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.effectProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
@@ -2539,12 +2533,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
@@ -2561,12 +2555,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
         operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
@@ -2583,12 +2577,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusTraversableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
@@ -2605,12 +2599,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
@@ -2627,12 +2621,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
@@ -2649,12 +2643,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -2671,12 +2665,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
@@ -2693,12 +2687,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder hoverPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.hoverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#idProperty() idProperty} 
      * of the instance being constructed. 
@@ -2715,12 +2709,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#indeterminateProperty() indeterminateProperty} 
      * of the instance being constructed. 
@@ -2737,12 +2731,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder indeterminatePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.indeterminateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
@@ -2759,12 +2753,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
         operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
@@ -2781,12 +2775,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder insetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.insetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
@@ -2803,12 +2797,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
@@ -2825,12 +2819,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
@@ -2847,12 +2841,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder layoutYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
@@ -2869,12 +2863,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
@@ -2891,12 +2885,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#managedProperty() managedProperty} 
      * of the instance being constructed. 
@@ -2913,12 +2907,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.managedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
@@ -2935,12 +2929,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
@@ -2957,12 +2951,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
@@ -2979,12 +2973,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
@@ -3001,12 +2995,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
@@ -3023,12 +3017,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
@@ -3045,12 +3039,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder needsLayoutPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.needsLayoutProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
@@ -3067,12 +3061,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
@@ -3089,12 +3083,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
         operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
@@ -3111,12 +3105,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
@@ -3133,12 +3127,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDoneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
@@ -3155,12 +3149,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3177,12 +3171,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
@@ -3199,12 +3193,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
@@ -3221,12 +3215,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
@@ -3243,12 +3237,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
         operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
@@ -3265,12 +3259,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
@@ -3287,12 +3281,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
@@ -3309,12 +3303,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
@@ -3331,12 +3325,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3353,12 +3347,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
@@ -3375,12 +3369,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
@@ -3397,12 +3391,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
@@ -3419,12 +3413,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
@@ -3441,12 +3435,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
@@ -3463,12 +3457,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
@@ -3485,12 +3479,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
@@ -3507,12 +3501,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
@@ -3529,12 +3523,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMousePressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
@@ -3551,12 +3545,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
@@ -3573,12 +3567,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
@@ -3595,12 +3589,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
@@ -3617,12 +3611,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
@@ -3639,12 +3633,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
@@ -3661,12 +3655,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
@@ -3683,12 +3677,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
@@ -3705,12 +3699,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
@@ -3727,12 +3721,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
@@ -3749,12 +3743,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
@@ -3771,12 +3765,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onSwipeUpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeUpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
@@ -3793,12 +3787,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
@@ -3815,12 +3809,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
@@ -3837,12 +3831,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
@@ -3859,12 +3853,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
@@ -3881,12 +3875,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
@@ -3903,12 +3897,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
@@ -3925,12 +3919,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
@@ -3947,12 +3941,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.opacityProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
@@ -3969,12 +3963,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
@@ -3991,12 +3985,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.paddingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#parentProperty() parentProperty} 
      * of the instance being constructed. 
@@ -4013,12 +4007,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Parent>> op) {
         operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
@@ -4035,12 +4029,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder pickOnBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pickOnBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
@@ -4057,12 +4051,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
@@ -4079,12 +4073,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
@@ -4101,12 +4095,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder pressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#progressProperty() progressProperty} 
      * of the instance being constructed. 
@@ -4123,12 +4117,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder progressPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.progressProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
@@ -4145,12 +4139,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
@@ -4167,12 +4161,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
         operations.add(obj -> op.accept(obj.rotationAxisProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
@@ -4189,12 +4183,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.scaleShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
@@ -4211,12 +4205,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
@@ -4233,12 +4227,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
@@ -4255,12 +4249,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
@@ -4277,12 +4271,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
         operations.add(obj -> op.accept(obj.sceneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
@@ -4299,12 +4293,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
         operations.add(obj -> op.accept(obj.shapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#skinProperty() skinProperty} 
      * of the instance being constructed. 
@@ -4321,12 +4315,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder skinPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Skin<?>>> op) {
         operations.add(obj -> op.accept(obj.skinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
@@ -4343,12 +4337,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.snapToPixelProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#styleProperty() styleProperty} 
      * of the instance being constructed. 
@@ -4365,12 +4359,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
@@ -4387,12 +4381,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder tooltipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Tooltip>> op) {
         operations.add(obj -> op.accept(obj.tooltipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
@@ -4409,12 +4403,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
@@ -4431,12 +4425,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
@@ -4453,12 +4447,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
@@ -4475,12 +4469,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder viewOrderPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.viewOrderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
@@ -4497,12 +4491,12 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressIndicator#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -4519,8 +4513,7 @@ public class ProgressIndicatorBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ProgressIndicatorBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;

@@ -27,7 +27,6 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeTableView.TreeTableViewFocusModel<S>>> operations = new java.util.ArrayList<>();
     private TreeTableViewTreeTableViewFocusModelBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#TreeTableViewFocusModel(TreeTableView) TreeTableViewFocusModel(TreeTableView)}
      * and returns an instance of {@code TreeTableViewTreeTableViewFocusModelBuilder<S>}.
@@ -85,7 +84,6 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TreeTableViewFocusModel instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -140,7 +139,8 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
     public TreeTableViewTreeTableViewFocusModelBuilder<S> apply(java.util.function.Consumer<javafx.scene.control.TreeTableView.TreeTableViewFocusModel<S>> func) {
         operations.add(func);
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#focusedCellProperty() focusedCellProperty} 
      * of the instance being constructed. 
@@ -157,12 +157,12 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TreeTableViewTreeTableViewFocusModelBuilder<S> focusedCellPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeTablePosition<S, ?>>> op) {
         operations.add(obj -> op.accept(obj.focusedCellProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#focusedIndexProperty() focusedIndexProperty} 
      * of the instance being constructed. 
@@ -179,12 +179,12 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TreeTableViewTreeTableViewFocusModelBuilder<S> focusedIndexPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
         operations.add(obj -> op.accept(obj.focusedIndexProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#focusedItemProperty() focusedItemProperty} 
      * of the instance being constructed. 
@@ -201,8 +201,7 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TreeTableViewTreeTableViewFocusModelBuilder<S> focusedItemPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeItem<S>>> op) {
         operations.add(obj -> op.accept(obj.focusedItemProperty()));
         return this;

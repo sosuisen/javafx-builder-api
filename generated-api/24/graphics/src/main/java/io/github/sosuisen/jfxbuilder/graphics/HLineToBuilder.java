@@ -27,14 +27,12 @@ public class HLineToBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.shape.HLineTo>> operations = new java.util.ArrayList<>();
     private HLineToBuilder() {}
     
-
     /**
      * Returns an instance of the {@code HLineToBuilder}.
      *
      * @return an instance of the {@code HLineToBuilder}.
      */
     public static HLineToBuilder create() { return new HLineToBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.shape.HLineTo#HLineTo(double) HLineTo(double)}
@@ -97,7 +95,6 @@ public class HLineToBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class HLineToBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the HLineTo instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -153,26 +151,27 @@ public class HLineToBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.HLineTo#setAbsolute(boolean) setAbsolute} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  HLineToBuilder absolute(boolean value) {
         operations.add(obj -> obj.setAbsolute(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.HLineTo#setX(double) setX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  HLineToBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.HLineTo#absoluteProperty() absoluteProperty} 
      * of the instance being constructed. 
@@ -189,12 +188,12 @@ public class HLineToBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public HLineToBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.absoluteProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.HLineTo#xProperty() xProperty} 
      * of the instance being constructed. 
@@ -211,8 +210,7 @@ public class HLineToBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public HLineToBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
         return this;

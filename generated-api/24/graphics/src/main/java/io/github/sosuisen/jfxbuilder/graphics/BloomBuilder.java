@@ -27,14 +27,12 @@ public class BloomBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.effect.Bloom>> operations = new java.util.ArrayList<>();
     private BloomBuilder() {}
     
-
     /**
      * Returns an instance of the {@code BloomBuilder}.
      *
      * @return an instance of the {@code BloomBuilder}.
      */
     public static BloomBuilder create() { return new BloomBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.Bloom#Bloom(double) Bloom(double)}
@@ -97,7 +95,6 @@ public class BloomBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class BloomBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Bloom instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -153,26 +151,27 @@ public class BloomBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Bloom#setInput(javafx.scene.effect.Effect) setInput} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  BloomBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Bloom#setThreshold(double) setThreshold} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  BloomBuilder threshold(double value) {
         operations.add(obj -> obj.setThreshold(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Bloom#inputProperty() inputProperty} 
      * of the instance being constructed. 
@@ -189,12 +188,12 @@ public class BloomBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public BloomBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Bloom#thresholdProperty() thresholdProperty} 
      * of the instance being constructed. 
@@ -211,8 +210,7 @@ public class BloomBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public BloomBuilder thresholdPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.thresholdProperty()));
         return this;

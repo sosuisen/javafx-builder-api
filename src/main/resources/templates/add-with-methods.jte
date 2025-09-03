@@ -2,6 +2,7 @@
 
 @param AddWithMethodModel model
 
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link ${model.originalClassName()}#${model.getterMethodName()}()} method.
      * 
@@ -25,9 +26,8 @@
             obj.${model.getterMethodName()}().addAll(col);
         });
         return this;
-    }
+    }@if(model.hasWithMethod())
 
-@if(model.hasWithMethod())
     /**
      * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link ${model.originalClassName()}#${model.getterMethodName()}()} method.
      * 
@@ -47,5 +47,4 @@
     public static ${model.typeParametersWithExtends().isEmpty() ? "" : model.typeParametersWithExtends() + " "}${model.builderClassNameWithTypeParameter()} ${model.withMethodName()}(java.util.Collection<? extends ${model.observableListTypeParameter()}> col) {
         ${model.builderClassNameWithTypeParameter()} builder = new ${model.builderClassNameWithTypeParameter()}();
         return builder.${model.addMethodName()}(col);
-    }
-@endif
+    }@endif

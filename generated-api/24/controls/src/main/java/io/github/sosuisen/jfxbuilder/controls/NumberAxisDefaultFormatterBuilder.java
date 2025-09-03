@@ -27,7 +27,6 @@ public class NumberAxisDefaultFormatterBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.chart.NumberAxis.DefaultFormatter>> operations = new java.util.ArrayList<>();
     private NumberAxisDefaultFormatterBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.chart.NumberAxis.DefaultFormatter#DefaultFormatter(NumberAxis) DefaultFormatter(NumberAxis)}
      * and returns an instance of {@code NumberAxisDefaultFormatterBuilder}.
@@ -40,7 +39,6 @@ public class NumberAxisDefaultFormatterBuilder {
         builder.constructorArgs = new Object[]{axis};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.chart.NumberAxis.DefaultFormatter#DefaultFormatter(NumberAxis, String, String) DefaultFormatter(NumberAxis, String, String)}
@@ -97,7 +95,6 @@ public class NumberAxisDefaultFormatterBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class NumberAxisDefaultFormatterBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the DefaultFormatter instance being constructed.
      * Most operations on the instance can be performed using this method.

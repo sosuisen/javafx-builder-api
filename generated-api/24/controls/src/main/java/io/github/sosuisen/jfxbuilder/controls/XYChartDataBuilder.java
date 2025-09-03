@@ -27,14 +27,12 @@ public class XYChartDataBuilder<X, Y> {
     private java.util.List<java.util.function.Consumer<javafx.scene.chart.XYChart.Data<X, Y>>> operations = new java.util.ArrayList<>();
     private XYChartDataBuilder() {}
     
-
     /**
      * Returns an instance of the {@code XYChartDataBuilder<X, Y>}.
      *
      * @return an instance of the {@code XYChartDataBuilder<X, Y>}.
      */
     public static <X, Y> XYChartDataBuilder<X, Y> create() { return new XYChartDataBuilder<X, Y>(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.chart.XYChart.Data#Data(Object, Object) Data(Object, Object)}
@@ -48,7 +46,6 @@ public class XYChartDataBuilder<X, Y> {
         builder.constructorArgs = new Object[]{xValue, yValue};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.chart.XYChart.Data#Data(Object, Object, Object) Data(Object, Object, Object)}
@@ -113,7 +110,6 @@ public class XYChartDataBuilder<X, Y> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -158,6 +154,7 @@ public class XYChartDataBuilder<X, Y> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Data instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -169,46 +166,47 @@ public class XYChartDataBuilder<X, Y> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.XYChart.Data#setExtraValue(java.lang.Object) setExtraValue} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  XYChartDataBuilder<X, Y> extraValue(java.lang.Object value) {
         operations.add(obj -> obj.setExtraValue(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.XYChart.Data#setNode(javafx.scene.Node) setNode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  XYChartDataBuilder<X, Y> node(javafx.scene.Node value) {
         operations.add(obj -> obj.setNode(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.XYChart.Data#setXValue(java.lang.Object) setXValue} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  XYChartDataBuilder<X, Y> xValue(X value) {
         operations.add(obj -> obj.setXValue(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.XYChart.Data#setYValue(java.lang.Object) setYValue} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  XYChartDataBuilder<X, Y> yValue(Y value) {
         operations.add(obj -> obj.setYValue(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Data#XValueProperty() XValueProperty} 
      * of the instance being constructed. 
@@ -225,12 +223,12 @@ public class XYChartDataBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public XYChartDataBuilder<X, Y> XValuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<X>> op) {
         operations.add(obj -> op.accept(obj.XValueProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Data#YValueProperty() YValueProperty} 
      * of the instance being constructed. 
@@ -247,12 +245,12 @@ public class XYChartDataBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public XYChartDataBuilder<X, Y> YValuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<Y>> op) {
         operations.add(obj -> op.accept(obj.YValueProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Data#extraValueProperty() extraValueProperty} 
      * of the instance being constructed. 
@@ -269,12 +267,12 @@ public class XYChartDataBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public XYChartDataBuilder<X, Y> extraValuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.Object>> op) {
         operations.add(obj -> op.accept(obj.extraValueProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Data#nodeProperty() nodeProperty} 
      * of the instance being constructed. 
@@ -291,8 +289,7 @@ public class XYChartDataBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public XYChartDataBuilder<X, Y> nodePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.nodeProperty()));
         return this;

@@ -27,14 +27,12 @@ public class MoveToBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.shape.MoveTo>> operations = new java.util.ArrayList<>();
     private MoveToBuilder() {}
     
-
     /**
      * Returns an instance of the {@code MoveToBuilder}.
      *
      * @return an instance of the {@code MoveToBuilder}.
      */
     public static MoveToBuilder create() { return new MoveToBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.shape.MoveTo#MoveTo(double, double) MoveTo(double, double)}
@@ -97,7 +95,6 @@ public class MoveToBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class MoveToBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the MoveTo instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -153,36 +151,37 @@ public class MoveToBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.MoveTo#setAbsolute(boolean) setAbsolute} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MoveToBuilder absolute(boolean value) {
         operations.add(obj -> obj.setAbsolute(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.MoveTo#setX(double) setX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MoveToBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.MoveTo#setY(double) setY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MoveToBuilder y(double value) {
         operations.add(obj -> obj.setY(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.MoveTo#absoluteProperty() absoluteProperty} 
      * of the instance being constructed. 
@@ -199,12 +198,12 @@ public class MoveToBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MoveToBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.absoluteProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.MoveTo#xProperty() xProperty} 
      * of the instance being constructed. 
@@ -221,12 +220,12 @@ public class MoveToBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MoveToBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.MoveTo#yProperty() yProperty} 
      * of the instance being constructed. 
@@ -243,8 +242,7 @@ public class MoveToBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MoveToBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));
         return this;

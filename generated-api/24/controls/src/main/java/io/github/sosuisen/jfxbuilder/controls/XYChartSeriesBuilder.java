@@ -27,14 +27,12 @@ public class XYChartSeriesBuilder<X, Y> {
     private java.util.List<java.util.function.Consumer<javafx.scene.chart.XYChart.Series<X, Y>>> operations = new java.util.ArrayList<>();
     private XYChartSeriesBuilder() {}
     
-
     /**
      * Returns an instance of the {@code XYChartSeriesBuilder<X, Y>}.
      *
      * @return an instance of the {@code XYChartSeriesBuilder<X, Y>}.
      */
     public static <X, Y> XYChartSeriesBuilder<X, Y> create() { return new XYChartSeriesBuilder<X, Y>(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.chart.XYChart.Series#Series(String, ObservableList) Series(String, ObservableList)}
@@ -48,7 +46,6 @@ public class XYChartSeriesBuilder<X, Y> {
         builder.constructorArgs = new Object[]{name, data};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.chart.XYChart.Series#Series(ObservableList) Series(ObservableList)}
@@ -113,7 +110,6 @@ public class XYChartSeriesBuilder<X, Y> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -158,6 +154,7 @@ public class XYChartSeriesBuilder<X, Y> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Series instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -169,36 +166,37 @@ public class XYChartSeriesBuilder<X, Y> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.XYChart.Series#setData(javafx.collections.ObservableList) setData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  XYChartSeriesBuilder<X, Y> data(javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>> value) {
         operations.add(obj -> obj.setData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.XYChart.Series#setName(java.lang.String) setName} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  XYChartSeriesBuilder<X, Y> name(java.lang.String value) {
         operations.add(obj -> obj.setName(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.XYChart.Series#setNode(javafx.scene.Node) setNode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  XYChartSeriesBuilder<X, Y> node(javafx.scene.Node value) {
         operations.add(obj -> obj.setNode(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.XYChart.Series#getData()} method.
      * 
@@ -224,7 +222,6 @@ public class XYChartSeriesBuilder<X, Y> {
         return this;
     }
 
-
     /**
      * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.XYChart.Series#getData()} method.
      * 
@@ -246,7 +243,6 @@ public class XYChartSeriesBuilder<X, Y> {
         return builder.addData(col);
     }
 
-    
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Series#chartProperty() chartProperty} 
      * of the instance being constructed. 
@@ -263,12 +259,12 @@ public class XYChartSeriesBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public XYChartSeriesBuilder<X, Y> chartPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.chart.XYChart<X, Y>>> op) {
         operations.add(obj -> op.accept(obj.chartProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Series#dataProperty() dataProperty} 
      * of the instance being constructed. 
@@ -285,12 +281,12 @@ public class XYChartSeriesBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public XYChartSeriesBuilder<X, Y> dataPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>>>> op) {
         operations.add(obj -> op.accept(obj.dataProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Series#nameProperty() nameProperty} 
      * of the instance being constructed. 
@@ -307,12 +303,12 @@ public class XYChartSeriesBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public XYChartSeriesBuilder<X, Y> namePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.nameProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.XYChart.Series#nodeProperty() nodeProperty} 
      * of the instance being constructed. 
@@ -329,8 +325,7 @@ public class XYChartSeriesBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public XYChartSeriesBuilder<X, Y> nodePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.nodeProperty()));
         return this;

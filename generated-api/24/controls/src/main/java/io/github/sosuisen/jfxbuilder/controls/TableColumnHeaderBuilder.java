@@ -27,7 +27,6 @@ public class TableColumnHeaderBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.TableColumnHeader>> operations = new java.util.ArrayList<>();
     private TableColumnHeaderBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.skin.TableColumnHeader#TableColumnHeader(TableColumnBase) TableColumnHeader(TableColumnBase)}
      * and returns an instance of {@code TableColumnHeaderBuilder}.
@@ -83,7 +82,6 @@ public class TableColumnHeaderBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class TableColumnHeaderBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TableColumnHeader instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -144,926 +143,927 @@ public class TableColumnHeaderBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder accessibleHelp(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder accessibleRole(javafx.scene.AccessibleRole value) {
         operations.add(obj -> obj.setAccessibleRole(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder accessibleRoleDescription(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder accessibleText(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder background(javafx.scene.layout.Background value) {
         operations.add(obj -> obj.setBackground(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder blendMode(javafx.scene.effect.BlendMode value) {
         operations.add(obj -> obj.setBlendMode(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder border(javafx.scene.layout.Border value) {
         operations.add(obj -> obj.setBorder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder cache(boolean value) {
         operations.add(obj -> obj.setCache(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder cacheHint(javafx.scene.CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder cacheShape(boolean value) {
         operations.add(obj -> obj.setCacheShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder centerShape(boolean value) {
         operations.add(obj -> obj.setCenterShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder clip(javafx.scene.Node value) {
         operations.add(obj -> obj.setClip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder cursor(javafx.scene.Cursor value) {
         operations.add(obj -> obj.setCursor(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder depthTest(javafx.scene.DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder effect(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setEffect(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder eventDispatcher(javafx.event.EventDispatcher value) {
         operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder focusTraversable(boolean value) {
         operations.add(obj -> obj.setFocusTraversable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
         operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder layoutX(double value) {
         operations.add(obj -> obj.setLayoutX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder layoutY(double value) {
         operations.add(obj -> obj.setLayoutY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder managed(boolean value) {
         operations.add(obj -> obj.setManaged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder maxHeight(double value) {
         operations.add(obj -> obj.setMaxHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder maxSize(double maxWidth, double maxHeight) {
         operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder maxWidth(double value) {
         operations.add(obj -> obj.setMaxWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setMinHeight(double) setMinHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder minHeight(double value) {
         operations.add(obj -> obj.setMinHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setMinSize(double, double) setMinSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder minSize(double minWidth, double minHeight) {
         operations.add(obj -> obj.setMinSize(minWidth, minHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setMinWidth(double) setMinWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder minWidth(double value) {
         operations.add(obj -> obj.setMinWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder mouseTransparent(boolean value) {
         operations.add(obj -> obj.setMouseTransparent(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder nodeOrientation(javafx.geometry.NodeOrientation orientation) {
         operations.add(obj -> obj.setNodeOrientation(orientation));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
         operations.add(obj -> obj.setOnContextMenuRequested(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnDragDetected(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDone(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDropped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
         operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onKeyPressed(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseClicked(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseDragged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onMouseEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMousePressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onScroll(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScroll(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onSwipeRight(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeRight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onTouchMoved(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchStationary(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoom(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder opacity(double value) {
         operations.add(obj -> obj.setOpacity(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder opaqueInsets(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setOpaqueInsets(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder padding(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setPadding(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder pickOnBounds(boolean value) {
         operations.add(obj -> obj.setPickOnBounds(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder prefHeight(double value) {
         operations.add(obj -> obj.setPrefHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder prefSize(double prefWidth, double prefHeight) {
         operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder prefWidth(double value) {
         operations.add(obj -> obj.setPrefWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder rotate(double value) {
         operations.add(obj -> obj.setRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder rotationAxis(javafx.geometry.Point3D value) {
         operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder scaleShape(boolean value) {
         operations.add(obj -> obj.setScaleShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder scaleX(double value) {
         operations.add(obj -> obj.setScaleX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder scaleY(double value) {
         operations.add(obj -> obj.setScaleY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder scaleZ(double value) {
         operations.add(obj -> obj.setScaleZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder shape(javafx.scene.shape.Shape value) {
         operations.add(obj -> obj.setShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder snapToPixel(boolean value) {
         operations.add(obj -> obj.setSnapToPixel(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder translateX(double value) {
         operations.add(obj -> obj.setTranslateX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder translateY(double value) {
         operations.add(obj -> obj.setTranslateY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder translateZ(double value) {
         operations.add(obj -> obj.setTranslateZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder viewOrder(double value) {
         operations.add(obj -> obj.setViewOrder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TableColumnHeader#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableColumnHeaderBuilder visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableColumnHeader#getStyleClass()} method.
      * 
@@ -1088,8 +1088,6 @@ public class TableColumnHeaderBuilder {
         });
         return this;
     }
-
-
 
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableColumnHeader#getStylesheets()} method.
@@ -1116,8 +1114,6 @@ public class TableColumnHeaderBuilder {
         return this;
     }
 
-
-
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableColumnHeader#getTransforms()} method.
      * 
@@ -1141,10 +1137,7 @@ public class TableColumnHeaderBuilder {
             obj.getTransforms().addAll(col);
         });
         return this;
-    }
-
-
-    
+    }    
     /**
      * Utility setter to add CSS string for this TableColumnHeader's contents.
      * For example:
@@ -1161,6 +1154,7 @@ public class TableColumnHeaderBuilder {
                 java.util.Base64.getEncoder().encodeToString(css.getBytes())));
         return this;
     }
+
     /**
      * Invokes the {@link javafx.scene.layout.AnchorPane#setBottomAnchor(Node child, java.lang.Double value) AnchorPane.setBottomAnchor(Node, Double)} 
      * using a fluent API.
@@ -1176,10 +1170,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .bottomAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .bottomAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1204,10 +1198,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .leftAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .leftAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1232,10 +1226,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .rightAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .rightAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1260,10 +1254,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .topAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .topAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1288,10 +1282,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .alignmentInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1316,10 +1310,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .marginInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1344,10 +1338,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = FlowPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInFlowPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInFlowPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1372,10 +1366,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1400,10 +1394,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1428,10 +1422,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1456,10 +1450,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1484,10 +1478,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1512,10 +1506,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1540,10 +1534,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1568,10 +1562,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillHeightInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillHeightInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1596,10 +1590,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillWidthInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillWidthInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1624,10 +1618,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1652,10 +1646,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1680,10 +1674,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1708,10 +1702,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1736,10 +1730,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1764,10 +1758,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1792,10 +1786,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1820,10 +1814,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .hGrowInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1848,10 +1842,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1876,10 +1870,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .alignmentInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1904,10 +1898,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .marginInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1932,10 +1926,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .alignmentInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1960,10 +1954,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1988,10 +1982,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2016,10 +2010,10 @@ public class TableColumnHeaderBuilder {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .vGrowInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2028,7 +2022,8 @@ public class TableColumnHeaderBuilder {
         operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
         return this;
     }
-    
+
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
@@ -2045,12 +2040,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
@@ -2067,12 +2062,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
@@ -2089,12 +2084,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
@@ -2111,12 +2106,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleTextProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
@@ -2133,12 +2128,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder backgroundPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Background>> op) {
         operations.add(obj -> op.accept(obj.backgroundProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
@@ -2155,12 +2150,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
         operations.add(obj -> op.accept(obj.blendModeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#borderProperty() borderProperty} 
      * of the instance being constructed. 
@@ -2177,12 +2172,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
         operations.add(obj -> op.accept(obj.borderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
@@ -2199,12 +2194,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
@@ -2221,12 +2216,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInParentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
@@ -2243,12 +2238,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
         operations.add(obj -> op.accept(obj.cacheHintProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
@@ -2265,12 +2260,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
@@ -2287,12 +2282,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
@@ -2309,12 +2304,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.centerShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#clipProperty() clipProperty} 
      * of the instance being constructed. 
@@ -2331,12 +2326,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
@@ -2353,12 +2348,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
         operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
@@ -2375,12 +2370,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
         operations.add(obj -> op.accept(obj.depthTestProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#disableProperty() disableProperty} 
      * of the instance being constructed. 
@@ -2397,12 +2392,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
@@ -2419,12 +2414,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disabledProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#effectProperty() effectProperty} 
      * of the instance being constructed. 
@@ -2441,12 +2436,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.effectProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
@@ -2463,12 +2458,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
@@ -2485,12 +2480,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
         operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
@@ -2507,12 +2502,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusTraversableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
@@ -2529,12 +2524,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
@@ -2551,12 +2546,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
@@ -2573,12 +2568,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -2595,12 +2590,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
@@ -2617,12 +2612,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder hoverPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.hoverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#idProperty() idProperty} 
      * of the instance being constructed. 
@@ -2639,12 +2634,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
@@ -2661,12 +2656,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
         operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
@@ -2683,12 +2678,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder insetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.insetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
@@ -2705,12 +2700,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
@@ -2727,12 +2722,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
@@ -2749,12 +2744,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder layoutYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
@@ -2771,12 +2766,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
@@ -2793,12 +2788,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#managedProperty() managedProperty} 
      * of the instance being constructed. 
@@ -2815,12 +2810,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.managedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
@@ -2837,12 +2832,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
@@ -2859,12 +2854,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
@@ -2881,12 +2876,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
@@ -2903,12 +2898,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
@@ -2925,12 +2920,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
@@ -2947,12 +2942,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder needsLayoutPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.needsLayoutProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
@@ -2969,12 +2964,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
@@ -2991,12 +2986,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
         operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
@@ -3013,12 +3008,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
@@ -3035,12 +3030,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDoneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
@@ -3057,12 +3052,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3079,12 +3074,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
@@ -3101,12 +3096,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
@@ -3123,12 +3118,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
@@ -3145,12 +3140,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
         operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
@@ -3167,12 +3162,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
@@ -3189,12 +3184,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
@@ -3211,12 +3206,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
@@ -3233,12 +3228,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3255,12 +3250,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
@@ -3277,12 +3272,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
@@ -3299,12 +3294,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
@@ -3321,12 +3316,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
@@ -3343,12 +3338,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
@@ -3365,12 +3360,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
@@ -3387,12 +3382,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
@@ -3409,12 +3404,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
@@ -3431,12 +3426,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMousePressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
@@ -3453,12 +3448,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
@@ -3475,12 +3470,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
@@ -3497,12 +3492,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
@@ -3519,12 +3514,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
@@ -3541,12 +3536,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
@@ -3563,12 +3558,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
@@ -3585,12 +3580,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
@@ -3607,12 +3602,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
@@ -3629,12 +3624,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
@@ -3651,12 +3646,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
@@ -3673,12 +3668,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onSwipeUpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeUpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
@@ -3695,12 +3690,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
@@ -3717,12 +3712,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
@@ -3739,12 +3734,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
@@ -3761,12 +3756,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
@@ -3783,12 +3778,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
@@ -3805,12 +3800,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
@@ -3827,12 +3822,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
@@ -3849,12 +3844,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.opacityProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
@@ -3871,12 +3866,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
@@ -3893,12 +3888,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.paddingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#parentProperty() parentProperty} 
      * of the instance being constructed. 
@@ -3915,12 +3910,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Parent>> op) {
         operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
@@ -3937,12 +3932,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder pickOnBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pickOnBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
@@ -3959,12 +3954,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
@@ -3981,12 +3976,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
@@ -4003,12 +3998,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder pressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
@@ -4025,12 +4020,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
@@ -4047,12 +4042,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
         operations.add(obj -> op.accept(obj.rotationAxisProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
@@ -4069,12 +4064,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.scaleShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
@@ -4091,12 +4086,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
@@ -4113,12 +4108,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
@@ -4135,12 +4130,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
@@ -4157,12 +4152,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
         operations.add(obj -> op.accept(obj.sceneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
@@ -4179,12 +4174,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
         operations.add(obj -> op.accept(obj.shapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
@@ -4201,12 +4196,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.snapToPixelProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#styleProperty() styleProperty} 
      * of the instance being constructed. 
@@ -4223,12 +4218,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#tableColumnProperty() tableColumnProperty} 
      * of the instance being constructed. 
@@ -4245,12 +4240,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder tableColumnPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TableColumnBase<?, ?>>> op) {
         operations.add(obj -> op.accept(obj.tableColumnProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
@@ -4267,12 +4262,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
@@ -4289,12 +4284,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
@@ -4311,12 +4306,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
@@ -4333,12 +4328,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder viewOrderPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.viewOrderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
@@ -4355,12 +4350,12 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableColumnHeader#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -4377,8 +4372,7 @@ public class TableColumnHeaderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableColumnHeaderBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;

@@ -27,7 +27,6 @@ public class KeyCodeCombinationBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.KeyCodeCombination>> operations = new java.util.ArrayList<>();
     private KeyCodeCombinationBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.KeyCodeCombination#KeyCodeCombination(KeyCode, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue) KeyCodeCombination(KeyCode, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue)}
      * and returns an instance of {@code KeyCodeCombinationBuilder}.
@@ -40,7 +39,6 @@ public class KeyCodeCombinationBuilder {
         builder.constructorArgs = new Object[]{code, shift, control, alt, meta, shortcut};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.KeyCodeCombination#KeyCodeCombination(KeyCode, KeyCombination$Modifier...) KeyCodeCombination(KeyCode, KeyCombination$Modifier...)}
@@ -97,7 +95,6 @@ public class KeyCodeCombinationBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class KeyCodeCombinationBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the KeyCodeCombination instance being constructed.
      * Most operations on the instance can be performed using this method.

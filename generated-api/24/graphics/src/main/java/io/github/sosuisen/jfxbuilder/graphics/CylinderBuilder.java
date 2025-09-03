@@ -27,14 +27,12 @@ public class CylinderBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.shape.Cylinder>> operations = new java.util.ArrayList<>();
     private CylinderBuilder() {}
     
-
     /**
      * Returns an instance of the {@code CylinderBuilder}.
      *
      * @return an instance of the {@code CylinderBuilder}.
      */
     public static CylinderBuilder create() { return new CylinderBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.shape.Cylinder#Cylinder(double, double) Cylinder(double, double)}
@@ -48,7 +46,6 @@ public class CylinderBuilder {
         builder.constructorArgs = new Object[]{radius, height};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.shape.Cylinder#Cylinder(double, double, int) Cylinder(double, double, int)}
@@ -111,7 +108,6 @@ public class CylinderBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -156,6 +152,7 @@ public class CylinderBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Cylinder instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -172,796 +169,797 @@ public class CylinderBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder accessibleHelp(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder accessibleRole(javafx.scene.AccessibleRole value) {
         operations.add(obj -> obj.setAccessibleRole(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder accessibleRoleDescription(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder accessibleText(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder blendMode(javafx.scene.effect.BlendMode value) {
         operations.add(obj -> obj.setBlendMode(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder cache(boolean value) {
         operations.add(obj -> obj.setCache(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder cacheHint(javafx.scene.CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder clip(javafx.scene.Node value) {
         operations.add(obj -> obj.setClip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setCullFace(javafx.scene.shape.CullFace) setCullFace} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder cullFace(javafx.scene.shape.CullFace value) {
         operations.add(obj -> obj.setCullFace(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder cursor(javafx.scene.Cursor value) {
         operations.add(obj -> obj.setCursor(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder depthTest(javafx.scene.DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setDrawMode(javafx.scene.shape.DrawMode) setDrawMode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder drawMode(javafx.scene.shape.DrawMode value) {
         operations.add(obj -> obj.setDrawMode(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder effect(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setEffect(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder eventDispatcher(javafx.event.EventDispatcher value) {
         operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder focusTraversable(boolean value) {
         operations.add(obj -> obj.setFocusTraversable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setHeight(double) setHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder height(double value) {
         operations.add(obj -> obj.setHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
         operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder layoutX(double value) {
         operations.add(obj -> obj.setLayoutX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder layoutY(double value) {
         operations.add(obj -> obj.setLayoutY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder managed(boolean value) {
         operations.add(obj -> obj.setManaged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setMaterial(javafx.scene.paint.Material) setMaterial} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder material(javafx.scene.paint.Material value) {
         operations.add(obj -> obj.setMaterial(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder mouseTransparent(boolean value) {
         operations.add(obj -> obj.setMouseTransparent(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder nodeOrientation(javafx.geometry.NodeOrientation orientation) {
         operations.add(obj -> obj.setNodeOrientation(orientation));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
         operations.add(obj -> obj.setOnContextMenuRequested(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnDragDetected(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDone(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDropped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
         operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onKeyPressed(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseClicked(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseDragged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onMouseEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMousePressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onScroll(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScroll(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onSwipeRight(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeRight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onTouchMoved(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchStationary(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoom(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder opacity(double value) {
         operations.add(obj -> obj.setOpacity(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder pickOnBounds(boolean value) {
         operations.add(obj -> obj.setPickOnBounds(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setRadius(double) setRadius} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder radius(double value) {
         operations.add(obj -> obj.setRadius(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder rotate(double value) {
         operations.add(obj -> obj.setRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder rotationAxis(javafx.geometry.Point3D value) {
         operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder scaleX(double value) {
         operations.add(obj -> obj.setScaleX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder scaleY(double value) {
         operations.add(obj -> obj.setScaleY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder scaleZ(double value) {
         operations.add(obj -> obj.setScaleZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder translateX(double value) {
         operations.add(obj -> obj.setTranslateX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder translateY(double value) {
         operations.add(obj -> obj.setTranslateY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder translateZ(double value) {
         operations.add(obj -> obj.setTranslateZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder viewOrder(double value) {
         operations.add(obj -> obj.setViewOrder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.Cylinder#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  CylinderBuilder visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Cylinder#getStyleClass()} method.
      * 
@@ -987,8 +985,6 @@ public class CylinderBuilder {
         return this;
     }
 
-
-
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.shape.Cylinder#getTransforms()} method.
      * 
@@ -1013,9 +1009,6 @@ public class CylinderBuilder {
         });
         return this;
     }
-
-
-
     /**
      * Invokes the {@link javafx.scene.layout.AnchorPane#setBottomAnchor(Node child, java.lang.Double value) AnchorPane.setBottomAnchor(Node, Double)} 
      * using a fluent API.
@@ -1031,10 +1024,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .bottomAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .bottomAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1059,10 +1052,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .leftAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .leftAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1087,10 +1080,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .rightAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .rightAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1115,10 +1108,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .topAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .topAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1143,10 +1136,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .alignmentInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1171,10 +1164,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .marginInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1199,10 +1192,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = FlowPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInFlowPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInFlowPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1227,10 +1220,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1255,10 +1248,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1283,10 +1276,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1311,10 +1304,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1339,10 +1332,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1367,10 +1360,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1395,10 +1388,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1423,10 +1416,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillHeightInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillHeightInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1451,10 +1444,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillWidthInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillWidthInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1479,10 +1472,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1507,10 +1500,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1535,10 +1528,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1563,10 +1556,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1591,10 +1584,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1619,10 +1612,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1647,10 +1640,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1675,10 +1668,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .hGrowInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1703,10 +1696,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1731,10 +1724,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .alignmentInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1759,10 +1752,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .marginInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1787,10 +1780,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .alignmentInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1815,10 +1808,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1843,10 +1836,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1871,10 +1864,10 @@ public class CylinderBuilder {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .vGrowInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1883,7 +1876,8 @@ public class CylinderBuilder {
         operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
         return this;
     }
-    
+
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
@@ -1900,12 +1894,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
@@ -1922,12 +1916,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
@@ -1944,12 +1938,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
@@ -1966,12 +1960,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleTextProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
@@ -1988,12 +1982,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
         operations.add(obj -> op.accept(obj.blendModeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
@@ -2010,12 +2004,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
@@ -2032,12 +2026,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInParentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
@@ -2054,12 +2048,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
         operations.add(obj -> op.accept(obj.cacheHintProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
@@ -2076,12 +2070,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#clipProperty() clipProperty} 
      * of the instance being constructed. 
@@ -2098,12 +2092,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#cullFaceProperty() cullFaceProperty} 
      * of the instance being constructed. 
@@ -2120,12 +2114,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder cullFacePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.CullFace>> op) {
         operations.add(obj -> op.accept(obj.cullFaceProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
@@ -2142,12 +2136,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
         operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
@@ -2164,12 +2158,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
         operations.add(obj -> op.accept(obj.depthTestProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#disableProperty() disableProperty} 
      * of the instance being constructed. 
@@ -2186,12 +2180,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
@@ -2208,12 +2202,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disabledProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#drawModeProperty() drawModeProperty} 
      * of the instance being constructed. 
@@ -2230,12 +2224,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder drawModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.DrawMode>> op) {
         operations.add(obj -> op.accept(obj.drawModeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#effectProperty() effectProperty} 
      * of the instance being constructed. 
@@ -2252,12 +2246,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.effectProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
@@ -2274,12 +2268,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
@@ -2296,12 +2290,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
         operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
@@ -2318,12 +2312,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusTraversableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
@@ -2340,12 +2334,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
@@ -2362,12 +2356,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
@@ -2384,12 +2378,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -2406,12 +2400,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
@@ -2428,12 +2422,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder hoverPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.hoverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#idProperty() idProperty} 
      * of the instance being constructed. 
@@ -2450,12 +2444,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
@@ -2472,12 +2466,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
         operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
@@ -2494,12 +2488,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
@@ -2516,12 +2510,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
@@ -2538,12 +2532,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder layoutYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
@@ -2560,12 +2554,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
@@ -2582,12 +2576,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#managedProperty() managedProperty} 
      * of the instance being constructed. 
@@ -2604,12 +2598,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.managedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#materialProperty() materialProperty} 
      * of the instance being constructed. 
@@ -2626,12 +2620,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder materialPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Material>> op) {
         operations.add(obj -> op.accept(obj.materialProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
@@ -2648,12 +2642,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
@@ -2670,12 +2664,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
@@ -2692,12 +2686,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
         operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
@@ -2714,12 +2708,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
@@ -2736,12 +2730,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDoneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
@@ -2758,12 +2752,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
@@ -2780,12 +2774,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
@@ -2802,12 +2796,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
@@ -2824,12 +2818,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
@@ -2846,12 +2840,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
         operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
@@ -2868,12 +2862,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
@@ -2890,12 +2884,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
@@ -2912,12 +2906,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
@@ -2934,12 +2928,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
@@ -2956,12 +2950,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
@@ -2978,12 +2972,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
@@ -3000,12 +2994,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
@@ -3022,12 +3016,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
@@ -3044,12 +3038,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
@@ -3066,12 +3060,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
@@ -3088,12 +3082,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
@@ -3110,12 +3104,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
@@ -3132,12 +3126,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMousePressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
@@ -3154,12 +3148,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
@@ -3176,12 +3170,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
@@ -3198,12 +3192,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
@@ -3220,12 +3214,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
@@ -3242,12 +3236,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
@@ -3264,12 +3258,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
@@ -3286,12 +3280,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
@@ -3308,12 +3302,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
@@ -3330,12 +3324,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
@@ -3352,12 +3346,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
@@ -3374,12 +3368,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onSwipeUpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeUpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
@@ -3396,12 +3390,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
@@ -3418,12 +3412,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
@@ -3440,12 +3434,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
@@ -3462,12 +3456,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
@@ -3484,12 +3478,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
@@ -3506,12 +3500,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
@@ -3528,12 +3522,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
@@ -3550,12 +3544,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.opacityProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#parentProperty() parentProperty} 
      * of the instance being constructed. 
@@ -3572,12 +3566,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Parent>> op) {
         operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
@@ -3594,12 +3588,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder pickOnBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pickOnBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
@@ -3616,12 +3610,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder pressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#radiusProperty() radiusProperty} 
      * of the instance being constructed. 
@@ -3638,12 +3632,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.radiusProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
@@ -3660,12 +3654,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
@@ -3682,12 +3676,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
         operations.add(obj -> op.accept(obj.rotationAxisProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
@@ -3704,12 +3698,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
@@ -3726,12 +3720,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
@@ -3748,12 +3742,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
@@ -3770,12 +3764,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
         operations.add(obj -> op.accept(obj.sceneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#styleProperty() styleProperty} 
      * of the instance being constructed. 
@@ -3792,12 +3786,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
@@ -3814,12 +3808,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
@@ -3836,12 +3830,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
@@ -3858,12 +3852,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
@@ -3880,12 +3874,12 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder viewOrderPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.viewOrderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.Cylinder#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
@@ -3902,8 +3896,7 @@ public class CylinderBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public CylinderBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;

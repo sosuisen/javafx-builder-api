@@ -27,7 +27,6 @@ public class TableRowBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.TableRow<T>>> operations = new java.util.ArrayList<>();
     private TableRowBuilder() {}
     
-
     /**
      * Returns an instance of the {@code TableRowBuilder<T>}.
      *
@@ -85,7 +84,6 @@ public class TableRowBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class TableRowBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TableRow instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -146,1116 +145,1117 @@ public class TableRowBuilder<T> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> accessibleHelp(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> accessibleRole(javafx.scene.AccessibleRole value) {
         operations.add(obj -> obj.setAccessibleRole(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> accessibleRoleDescription(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> accessibleText(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> alignment(javafx.geometry.Pos value) {
         operations.add(obj -> obj.setAlignment(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> background(javafx.scene.layout.Background value) {
         operations.add(obj -> obj.setBackground(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> blendMode(javafx.scene.effect.BlendMode value) {
         operations.add(obj -> obj.setBlendMode(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> border(javafx.scene.layout.Border value) {
         operations.add(obj -> obj.setBorder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> cache(boolean value) {
         operations.add(obj -> obj.setCache(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> cacheHint(javafx.scene.CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> cacheShape(boolean value) {
         operations.add(obj -> obj.setCacheShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> centerShape(boolean value) {
         operations.add(obj -> obj.setCenterShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> clip(javafx.scene.Node value) {
         operations.add(obj -> obj.setClip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> contentDisplay(javafx.scene.control.ContentDisplay value) {
         operations.add(obj -> obj.setContentDisplay(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> contextMenu(javafx.scene.control.ContextMenu value) {
         operations.add(obj -> obj.setContextMenu(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> cursor(javafx.scene.Cursor value) {
         operations.add(obj -> obj.setCursor(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> depthTest(javafx.scene.DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setEditable(boolean) setEditable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> editable(boolean value) {
         operations.add(obj -> obj.setEditable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> effect(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setEffect(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> ellipsisString(java.lang.String value) {
         operations.add(obj -> obj.setEllipsisString(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> eventDispatcher(javafx.event.EventDispatcher value) {
         operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> focusTraversable(boolean value) {
         operations.add(obj -> obj.setFocusTraversable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> font(javafx.scene.text.Font value) {
         operations.add(obj -> obj.setFont(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> graphic(javafx.scene.Node value) {
         operations.add(obj -> obj.setGraphic(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> graphicTextGap(double value) {
         operations.add(obj -> obj.setGraphicTextGap(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
         operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setItem(java.lang.Object) setItem} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> item(T value) {
         operations.add(obj -> obj.setItem(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> layoutX(double value) {
         operations.add(obj -> obj.setLayoutX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> layoutY(double value) {
         operations.add(obj -> obj.setLayoutY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> lineSpacing(double value) {
         operations.add(obj -> obj.setLineSpacing(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> managed(boolean value) {
         operations.add(obj -> obj.setManaged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> maxHeight(double value) {
         operations.add(obj -> obj.setMaxHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> maxSize(double maxWidth, double maxHeight) {
         operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> maxWidth(double value) {
         operations.add(obj -> obj.setMaxWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setMinHeight(double) setMinHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> minHeight(double value) {
         operations.add(obj -> obj.setMinHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setMinSize(double, double) setMinSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> minSize(double minWidth, double minHeight) {
         operations.add(obj -> obj.setMinSize(minWidth, minHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setMinWidth(double) setMinWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> minWidth(double value) {
         operations.add(obj -> obj.setMinWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> mnemonicParsing(boolean value) {
         operations.add(obj -> obj.setMnemonicParsing(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> mouseTransparent(boolean value) {
         operations.add(obj -> obj.setMouseTransparent(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> nodeOrientation(javafx.geometry.NodeOrientation orientation) {
         operations.add(obj -> obj.setNodeOrientation(orientation));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
         operations.add(obj -> obj.setOnContextMenuRequested(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnDragDetected(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDone(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDropped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
         operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onKeyPressed(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseClicked(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseDragged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onMouseEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMousePressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onScroll(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScroll(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onSwipeRight(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeRight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onTouchMoved(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchStationary(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoom(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> opacity(double value) {
         operations.add(obj -> obj.setOpacity(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> opaqueInsets(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setOpaqueInsets(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> padding(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setPadding(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> pickOnBounds(boolean value) {
         operations.add(obj -> obj.setPickOnBounds(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> prefHeight(double value) {
         operations.add(obj -> obj.setPrefHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> prefSize(double prefWidth, double prefHeight) {
         operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> prefWidth(double value) {
         operations.add(obj -> obj.setPrefWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> rotate(double value) {
         operations.add(obj -> obj.setRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> rotationAxis(javafx.geometry.Point3D value) {
         operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> scaleShape(boolean value) {
         operations.add(obj -> obj.setScaleShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> scaleX(double value) {
         operations.add(obj -> obj.setScaleX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> scaleY(double value) {
         operations.add(obj -> obj.setScaleY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> scaleZ(double value) {
         operations.add(obj -> obj.setScaleZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> shape(javafx.scene.shape.Shape value) {
         operations.add(obj -> obj.setShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> skin(javafx.scene.control.Skin<?> value) {
         operations.add(obj -> obj.setSkin(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> snapToPixel(boolean value) {
         operations.add(obj -> obj.setSnapToPixel(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setText(java.lang.String) setText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> text(java.lang.String value) {
         operations.add(obj -> obj.setText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> textAlignment(javafx.scene.text.TextAlignment value) {
         operations.add(obj -> obj.setTextAlignment(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> textFill(javafx.scene.paint.Paint value) {
         operations.add(obj -> obj.setTextFill(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> textOverrun(javafx.scene.control.OverrunStyle value) {
         operations.add(obj -> obj.setTextOverrun(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> tooltip(javafx.scene.control.Tooltip value) {
         operations.add(obj -> obj.setTooltip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> translateX(double value) {
         operations.add(obj -> obj.setTranslateX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> translateY(double value) {
         operations.add(obj -> obj.setTranslateY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> translateZ(double value) {
         operations.add(obj -> obj.setTranslateZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setUnderline(boolean) setUnderline} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> underline(boolean value) {
         operations.add(obj -> obj.setUnderline(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> viewOrder(double value) {
         operations.add(obj -> obj.setViewOrder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TableRow#setWrapText(boolean) setWrapText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TableRowBuilder<T> wrapText(boolean value) {
         operations.add(obj -> obj.setWrapText(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableRow#getStyleClass()} method.
      * 
@@ -1280,8 +1280,6 @@ public class TableRowBuilder<T> {
         });
         return this;
     }
-
-
 
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableRow#getStylesheets()} method.
@@ -1308,8 +1306,6 @@ public class TableRowBuilder<T> {
         return this;
     }
 
-
-
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TableRow#getTransforms()} method.
      * 
@@ -1333,10 +1329,7 @@ public class TableRowBuilder<T> {
             obj.getTransforms().addAll(col);
         });
         return this;
-    }
-
-
-    
+    }    
     /**
      * Utility setter to add CSS string for this TableRow's contents.
      * For example:
@@ -1353,6 +1346,7 @@ public class TableRowBuilder<T> {
                 java.util.Base64.getEncoder().encodeToString(css.getBytes())));
         return this;
     }
+
     /**
      * Invokes the {@link javafx.scene.layout.AnchorPane#setBottomAnchor(Node child, java.lang.Double value) AnchorPane.setBottomAnchor(Node, Double)} 
      * using a fluent API.
@@ -1368,10 +1362,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .bottomAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .bottomAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1396,10 +1390,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .leftAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .leftAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1424,10 +1418,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .rightAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .rightAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1452,10 +1446,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .topAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .topAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1480,10 +1474,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .alignmentInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1508,10 +1502,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .marginInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1536,10 +1530,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = FlowPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInFlowPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInFlowPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1564,10 +1558,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1592,10 +1586,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1620,10 +1614,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1648,10 +1642,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1676,10 +1670,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1704,10 +1698,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1732,10 +1726,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1760,10 +1754,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillHeightInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillHeightInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1788,10 +1782,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillWidthInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillWidthInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1816,10 +1810,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1844,10 +1838,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1872,10 +1866,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1900,10 +1894,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1928,10 +1922,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1956,10 +1950,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1984,10 +1978,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2012,10 +2006,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .hGrowInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2040,10 +2034,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2068,10 +2062,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .alignmentInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2096,10 +2090,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .marginInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2124,10 +2118,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .alignmentInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2152,10 +2146,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2180,10 +2174,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2208,10 +2202,10 @@ public class TableRowBuilder<T> {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .vGrowInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2220,7 +2214,8 @@ public class TableRowBuilder<T> {
         operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
         return this;
     }
-    
+
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
@@ -2237,12 +2232,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
@@ -2259,12 +2254,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
@@ -2281,12 +2276,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
@@ -2303,12 +2298,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleTextProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
@@ -2325,12 +2320,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> alignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Pos>> op) {
         operations.add(obj -> op.accept(obj.alignmentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
@@ -2347,12 +2342,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> backgroundPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Background>> op) {
         operations.add(obj -> op.accept(obj.backgroundProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
@@ -2369,12 +2364,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
         operations.add(obj -> op.accept(obj.blendModeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#borderProperty() borderProperty} 
      * of the instance being constructed. 
@@ -2391,12 +2386,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
         operations.add(obj -> op.accept(obj.borderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
@@ -2413,12 +2408,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
@@ -2435,12 +2430,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInParentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
@@ -2457,12 +2452,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
         operations.add(obj -> op.accept(obj.cacheHintProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
@@ -2479,12 +2474,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
@@ -2501,12 +2496,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
@@ -2523,12 +2518,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.centerShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#clipProperty() clipProperty} 
      * of the instance being constructed. 
@@ -2545,12 +2540,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#contentDisplayProperty() contentDisplayProperty} 
      * of the instance being constructed. 
@@ -2567,12 +2562,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> contentDisplayPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ContentDisplay>> op) {
         operations.add(obj -> op.accept(obj.contentDisplayProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
@@ -2589,12 +2584,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> contextMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.contextMenuProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
@@ -2611,12 +2606,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
         operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
@@ -2633,12 +2628,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
         operations.add(obj -> op.accept(obj.depthTestProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#disableProperty() disableProperty} 
      * of the instance being constructed. 
@@ -2655,12 +2650,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
@@ -2677,12 +2672,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disabledProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#editableProperty() editableProperty} 
      * of the instance being constructed. 
@@ -2699,12 +2694,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> editablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.editableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#editingProperty() editingProperty} 
      * of the instance being constructed. 
@@ -2721,12 +2716,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> editingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.editingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#effectProperty() effectProperty} 
      * of the instance being constructed. 
@@ -2743,12 +2738,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.effectProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
@@ -2765,12 +2760,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#ellipsisStringProperty() ellipsisStringProperty} 
      * of the instance being constructed. 
@@ -2787,12 +2782,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> ellipsisStringPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.ellipsisStringProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#emptyProperty() emptyProperty} 
      * of the instance being constructed. 
@@ -2809,12 +2804,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> emptyPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.emptyProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
@@ -2831,12 +2826,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
         operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
@@ -2853,12 +2848,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusTraversableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
@@ -2875,12 +2870,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
@@ -2897,12 +2892,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
@@ -2919,12 +2914,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#fontProperty() fontProperty} 
      * of the instance being constructed. 
@@ -2941,12 +2936,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> fontPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.Font>> op) {
         operations.add(obj -> op.accept(obj.fontProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
@@ -2963,12 +2958,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.graphicProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#graphicTextGapProperty() graphicTextGapProperty} 
      * of the instance being constructed. 
@@ -2985,12 +2980,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> graphicTextGapPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.graphicTextGapProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -3007,12 +3002,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
@@ -3029,12 +3024,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> hoverPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.hoverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#idProperty() idProperty} 
      * of the instance being constructed. 
@@ -3051,12 +3046,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#indexProperty() indexProperty} 
      * of the instance being constructed. 
@@ -3073,12 +3068,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> indexPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyIntegerProperty> op) {
         operations.add(obj -> op.accept(obj.indexProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
@@ -3095,12 +3090,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
         operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
@@ -3117,12 +3112,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> insetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.insetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#itemProperty() itemProperty} 
      * of the instance being constructed. 
@@ -3139,12 +3134,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> itemPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
         operations.add(obj -> op.accept(obj.itemProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#labelPaddingProperty() labelPaddingProperty} 
      * of the instance being constructed. 
@@ -3161,12 +3156,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> labelPaddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.labelPaddingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
@@ -3183,12 +3178,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
@@ -3205,12 +3200,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
@@ -3227,12 +3222,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> layoutYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#lineSpacingProperty() lineSpacingProperty} 
      * of the instance being constructed. 
@@ -3249,12 +3244,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> lineSpacingPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.lineSpacingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
@@ -3271,12 +3266,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
@@ -3293,12 +3288,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#managedProperty() managedProperty} 
      * of the instance being constructed. 
@@ -3315,12 +3310,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.managedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
@@ -3337,12 +3332,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
@@ -3359,12 +3354,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
@@ -3381,12 +3376,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
@@ -3403,12 +3398,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
@@ -3425,12 +3420,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
@@ -3447,12 +3442,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
@@ -3469,12 +3464,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> needsLayoutPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.needsLayoutProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
@@ -3491,12 +3486,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
@@ -3513,12 +3508,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
         operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
@@ -3535,12 +3530,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
@@ -3557,12 +3552,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDoneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
@@ -3579,12 +3574,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3601,12 +3596,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
@@ -3623,12 +3618,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
@@ -3645,12 +3640,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
@@ -3667,12 +3662,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
         operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
@@ -3689,12 +3684,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
@@ -3711,12 +3706,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
@@ -3733,12 +3728,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
@@ -3755,12 +3750,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3777,12 +3772,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
@@ -3799,12 +3794,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
@@ -3821,12 +3816,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
@@ -3843,12 +3838,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
@@ -3865,12 +3860,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
@@ -3887,12 +3882,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
@@ -3909,12 +3904,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
@@ -3931,12 +3926,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
@@ -3953,12 +3948,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMousePressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
@@ -3975,12 +3970,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
@@ -3997,12 +3992,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
@@ -4019,12 +4014,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
@@ -4041,12 +4036,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
@@ -4063,12 +4058,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
@@ -4085,12 +4080,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
@@ -4107,12 +4102,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
@@ -4129,12 +4124,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
@@ -4151,12 +4146,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
@@ -4173,12 +4168,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
@@ -4195,12 +4190,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onSwipeUpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeUpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
@@ -4217,12 +4212,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
@@ -4239,12 +4234,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
@@ -4261,12 +4256,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
@@ -4283,12 +4278,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
@@ -4305,12 +4300,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
@@ -4327,12 +4322,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
@@ -4349,12 +4344,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
@@ -4371,12 +4366,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.opacityProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
@@ -4393,12 +4388,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
@@ -4415,12 +4410,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.paddingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#parentProperty() parentProperty} 
      * of the instance being constructed. 
@@ -4437,12 +4432,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Parent>> op) {
         operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
@@ -4459,12 +4454,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> pickOnBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pickOnBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
@@ -4481,12 +4476,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
@@ -4503,12 +4498,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
@@ -4525,12 +4520,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> pressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
@@ -4547,12 +4542,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
@@ -4569,12 +4564,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
         operations.add(obj -> op.accept(obj.rotationAxisProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
@@ -4591,12 +4586,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.scaleShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
@@ -4613,12 +4608,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
@@ -4635,12 +4630,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
@@ -4657,12 +4652,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
@@ -4679,12 +4674,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
         operations.add(obj -> op.accept(obj.sceneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#selectedProperty() selectedProperty} 
      * of the instance being constructed. 
@@ -4701,12 +4696,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> selectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.selectedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
@@ -4723,12 +4718,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
         operations.add(obj -> op.accept(obj.shapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#skinProperty() skinProperty} 
      * of the instance being constructed. 
@@ -4745,12 +4740,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> skinPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Skin<?>>> op) {
         operations.add(obj -> op.accept(obj.skinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
@@ -4767,12 +4762,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.snapToPixelProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#styleProperty() styleProperty} 
      * of the instance being constructed. 
@@ -4789,12 +4784,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#tableViewProperty() tableViewProperty} 
      * of the instance being constructed. 
@@ -4811,12 +4806,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> tableViewPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TableView<T>>> op) {
         operations.add(obj -> op.accept(obj.tableViewProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#textAlignmentProperty() textAlignmentProperty} 
      * of the instance being constructed. 
@@ -4833,12 +4828,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> textAlignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.TextAlignment>> op) {
         operations.add(obj -> op.accept(obj.textAlignmentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#textFillProperty() textFillProperty} 
      * of the instance being constructed. 
@@ -4855,12 +4850,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> textFillPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Paint>> op) {
         operations.add(obj -> op.accept(obj.textFillProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#textOverrunProperty() textOverrunProperty} 
      * of the instance being constructed. 
@@ -4877,12 +4872,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> textOverrunPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.OverrunStyle>> op) {
         operations.add(obj -> op.accept(obj.textOverrunProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#textProperty() textProperty} 
      * of the instance being constructed. 
@@ -4899,12 +4894,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.textProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#textTruncatedProperty() textTruncatedProperty} 
      * of the instance being constructed. 
@@ -4921,12 +4916,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> textTruncatedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.textTruncatedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
@@ -4943,12 +4938,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> tooltipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Tooltip>> op) {
         operations.add(obj -> op.accept(obj.tooltipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
@@ -4965,12 +4960,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
@@ -4987,12 +4982,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
@@ -5009,12 +5004,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#underlineProperty() underlineProperty} 
      * of the instance being constructed. 
@@ -5031,12 +5026,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> underlinePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.underlineProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
@@ -5053,12 +5048,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> viewOrderPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.viewOrderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
@@ -5075,12 +5070,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -5097,12 +5092,12 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TableRow#wrapTextProperty() wrapTextProperty} 
      * of the instance being constructed. 
@@ -5119,8 +5114,7 @@ public class TableRowBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowBuilder<T> wrapTextPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.wrapTextProperty()));
         return this;

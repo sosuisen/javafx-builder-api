@@ -27,7 +27,6 @@ public class PopupFeaturesBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.web.PopupFeatures>> operations = new java.util.ArrayList<>();
     private PopupFeaturesBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.web.PopupFeatures#PopupFeatures(boolean, boolean, boolean, boolean) PopupFeatures(boolean, boolean, boolean, boolean)}
      * and returns an instance of {@code PopupFeaturesBuilder}.
@@ -83,7 +82,6 @@ public class PopupFeaturesBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class PopupFeaturesBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the PopupFeatures instance being constructed.
      * Most operations on the instance can be performed using this method.

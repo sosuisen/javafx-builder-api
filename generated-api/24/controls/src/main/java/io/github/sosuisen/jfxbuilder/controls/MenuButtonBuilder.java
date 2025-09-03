@@ -27,14 +27,12 @@ public class MenuButtonBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.MenuButton>> operations = new java.util.ArrayList<>();
     private MenuButtonBuilder() {}
     
-
     /**
      * Returns an instance of the {@code MenuButtonBuilder}.
      *
      * @return an instance of the {@code MenuButtonBuilder}.
      */
     public static MenuButtonBuilder create() { return new MenuButtonBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.MenuButton#MenuButton(String) MenuButton(String)}
@@ -49,7 +47,6 @@ public class MenuButtonBuilder {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.MenuButton#MenuButton(String, Node) MenuButton(String, Node)}
      * and returns an instance of {@code MenuButtonBuilder}.
@@ -62,7 +59,6 @@ public class MenuButtonBuilder {
         builder.constructorArgs = new Object[]{text, graphic};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.MenuButton#MenuButton(String, Node, MenuItem...) MenuButton(String, Node, MenuItem...)}
@@ -125,7 +121,6 @@ public class MenuButtonBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -170,6 +165,7 @@ public class MenuButtonBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the MenuButton instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -186,1156 +182,1157 @@ public class MenuButtonBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder accessibleHelp(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder accessibleRole(javafx.scene.AccessibleRole value) {
         operations.add(obj -> obj.setAccessibleRole(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder accessibleRoleDescription(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder accessibleText(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder alignment(javafx.geometry.Pos value) {
         operations.add(obj -> obj.setAlignment(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder background(javafx.scene.layout.Background value) {
         operations.add(obj -> obj.setBackground(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder blendMode(javafx.scene.effect.BlendMode value) {
         operations.add(obj -> obj.setBlendMode(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder border(javafx.scene.layout.Border value) {
         operations.add(obj -> obj.setBorder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder cache(boolean value) {
         operations.add(obj -> obj.setCache(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder cacheHint(javafx.scene.CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder cacheShape(boolean value) {
         operations.add(obj -> obj.setCacheShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder centerShape(boolean value) {
         operations.add(obj -> obj.setCenterShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder clip(javafx.scene.Node value) {
         operations.add(obj -> obj.setClip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder contentDisplay(javafx.scene.control.ContentDisplay value) {
         operations.add(obj -> obj.setContentDisplay(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder contextMenu(javafx.scene.control.ContextMenu value) {
         operations.add(obj -> obj.setContextMenu(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder cursor(javafx.scene.Cursor value) {
         operations.add(obj -> obj.setCursor(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder depthTest(javafx.scene.DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder effect(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setEffect(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder ellipsisString(java.lang.String value) {
         operations.add(obj -> obj.setEllipsisString(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder eventDispatcher(javafx.event.EventDispatcher value) {
         operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder focusTraversable(boolean value) {
         operations.add(obj -> obj.setFocusTraversable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder font(javafx.scene.text.Font value) {
         operations.add(obj -> obj.setFont(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder graphic(javafx.scene.Node value) {
         operations.add(obj -> obj.setGraphic(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder graphicTextGap(double value) {
         operations.add(obj -> obj.setGraphicTextGap(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
         operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder layoutX(double value) {
         operations.add(obj -> obj.setLayoutX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder layoutY(double value) {
         operations.add(obj -> obj.setLayoutY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder lineSpacing(double value) {
         operations.add(obj -> obj.setLineSpacing(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder managed(boolean value) {
         operations.add(obj -> obj.setManaged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder maxHeight(double value) {
         operations.add(obj -> obj.setMaxHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder maxSize(double maxWidth, double maxHeight) {
         operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder maxWidth(double value) {
         operations.add(obj -> obj.setMaxWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setMinHeight(double) setMinHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder minHeight(double value) {
         operations.add(obj -> obj.setMinHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setMinSize(double, double) setMinSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder minSize(double minWidth, double minHeight) {
         operations.add(obj -> obj.setMinSize(minWidth, minHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setMinWidth(double) setMinWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder minWidth(double value) {
         operations.add(obj -> obj.setMinWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder mnemonicParsing(boolean value) {
         operations.add(obj -> obj.setMnemonicParsing(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder mouseTransparent(boolean value) {
         operations.add(obj -> obj.setMouseTransparent(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder nodeOrientation(javafx.geometry.NodeOrientation orientation) {
         operations.add(obj -> obj.setNodeOrientation(orientation));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
         operations.add(obj -> obj.setOnAction(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
         operations.add(obj -> obj.setOnContextMenuRequested(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnDragDetected(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDone(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDropped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onHidden(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnHidden(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onHiding(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnHiding(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
         operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onKeyPressed(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseClicked(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseDragged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onMouseEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMousePressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onScroll(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScroll(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onShowing(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnShowing(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onShown(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnShown(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onSwipeRight(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeRight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onTouchMoved(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchStationary(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoom(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder opacity(double value) {
         operations.add(obj -> obj.setOpacity(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder opaqueInsets(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setOpaqueInsets(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder padding(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setPadding(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder pickOnBounds(boolean value) {
         operations.add(obj -> obj.setPickOnBounds(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setPopupSide(javafx.geometry.Side) setPopupSide} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder popupSide(javafx.geometry.Side value) {
         operations.add(obj -> obj.setPopupSide(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder prefHeight(double value) {
         operations.add(obj -> obj.setPrefHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder prefSize(double prefWidth, double prefHeight) {
         operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder prefWidth(double value) {
         operations.add(obj -> obj.setPrefWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder rotate(double value) {
         operations.add(obj -> obj.setRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder rotationAxis(javafx.geometry.Point3D value) {
         operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder scaleShape(boolean value) {
         operations.add(obj -> obj.setScaleShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder scaleX(double value) {
         operations.add(obj -> obj.setScaleX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder scaleY(double value) {
         operations.add(obj -> obj.setScaleY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder scaleZ(double value) {
         operations.add(obj -> obj.setScaleZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder shape(javafx.scene.shape.Shape value) {
         operations.add(obj -> obj.setShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder skin(javafx.scene.control.Skin<?> value) {
         operations.add(obj -> obj.setSkin(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder snapToPixel(boolean value) {
         operations.add(obj -> obj.setSnapToPixel(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setText(java.lang.String) setText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder text(java.lang.String value) {
         operations.add(obj -> obj.setText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder textAlignment(javafx.scene.text.TextAlignment value) {
         operations.add(obj -> obj.setTextAlignment(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder textFill(javafx.scene.paint.Paint value) {
         operations.add(obj -> obj.setTextFill(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder textOverrun(javafx.scene.control.OverrunStyle value) {
         operations.add(obj -> obj.setTextOverrun(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder tooltip(javafx.scene.control.Tooltip value) {
         operations.add(obj -> obj.setTooltip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder translateX(double value) {
         operations.add(obj -> obj.setTranslateX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder translateY(double value) {
         operations.add(obj -> obj.setTranslateY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder translateZ(double value) {
         operations.add(obj -> obj.setTranslateZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setUnderline(boolean) setUnderline} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder underline(boolean value) {
         operations.add(obj -> obj.setUnderline(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder viewOrder(double value) {
         operations.add(obj -> obj.setViewOrder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.MenuButton#setWrapText(boolean) setWrapText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MenuButtonBuilder wrapText(boolean value) {
         operations.add(obj -> obj.setWrapText(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuButton#getItems()} method.
      * 
@@ -1361,7 +1358,6 @@ public class MenuButtonBuilder {
         return this;
     }
 
-
     /**
      * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuButton#getItems()} method.
      * 
@@ -1382,7 +1378,6 @@ public class MenuButtonBuilder {
         MenuButtonBuilder builder = new MenuButtonBuilder();
         return builder.addItems(col);
     }
-
 
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuButton#getStyleClass()} method.
@@ -1409,8 +1404,6 @@ public class MenuButtonBuilder {
         return this;
     }
 
-
-
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuButton#getStylesheets()} method.
      * 
@@ -1436,8 +1429,6 @@ public class MenuButtonBuilder {
         return this;
     }
 
-
-
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.MenuButton#getTransforms()} method.
      * 
@@ -1461,10 +1452,7 @@ public class MenuButtonBuilder {
             obj.getTransforms().addAll(col);
         });
         return this;
-    }
-
-
-    
+    }    
     /**
      * Utility setter to add CSS string for this MenuButton's contents.
      * For example:
@@ -1481,6 +1469,7 @@ public class MenuButtonBuilder {
                 java.util.Base64.getEncoder().encodeToString(css.getBytes())));
         return this;
     }
+
     /**
      * Invokes the {@link javafx.scene.layout.AnchorPane#setBottomAnchor(Node child, java.lang.Double value) AnchorPane.setBottomAnchor(Node, Double)} 
      * using a fluent API.
@@ -1496,10 +1485,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .bottomAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .bottomAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1524,10 +1513,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .leftAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .leftAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1552,10 +1541,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .rightAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .rightAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1580,10 +1569,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .topAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .topAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1608,10 +1597,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .alignmentInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1636,10 +1625,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .marginInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1664,10 +1653,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = FlowPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInFlowPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInFlowPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1692,10 +1681,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1720,10 +1709,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1748,10 +1737,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1776,10 +1765,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1804,10 +1793,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1832,10 +1821,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1860,10 +1849,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1888,10 +1877,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillHeightInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillHeightInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1916,10 +1905,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillWidthInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillWidthInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1944,10 +1933,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1972,10 +1961,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2000,10 +1989,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2028,10 +2017,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2056,10 +2045,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2084,10 +2073,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2112,10 +2101,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2140,10 +2129,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .hGrowInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2168,10 +2157,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2196,10 +2185,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .alignmentInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2224,10 +2213,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .marginInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2252,10 +2241,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .alignmentInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2280,10 +2269,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2308,10 +2297,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2336,10 +2325,10 @@ public class MenuButtonBuilder {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .vGrowInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2348,7 +2337,8 @@ public class MenuButtonBuilder {
         operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
         return this;
     }
-    
+
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
@@ -2365,12 +2355,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
@@ -2387,12 +2377,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
@@ -2409,12 +2399,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
@@ -2431,12 +2421,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleTextProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#alignmentProperty() alignmentProperty} 
      * of the instance being constructed. 
@@ -2453,12 +2443,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder alignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Pos>> op) {
         operations.add(obj -> op.accept(obj.alignmentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#armedProperty() armedProperty} 
      * of the instance being constructed. 
@@ -2475,12 +2465,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder armedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.armedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
@@ -2497,12 +2487,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder backgroundPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Background>> op) {
         operations.add(obj -> op.accept(obj.backgroundProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
@@ -2519,12 +2509,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
         operations.add(obj -> op.accept(obj.blendModeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#borderProperty() borderProperty} 
      * of the instance being constructed. 
@@ -2541,12 +2531,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
         operations.add(obj -> op.accept(obj.borderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
@@ -2563,12 +2553,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
@@ -2585,12 +2575,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInParentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
@@ -2607,12 +2597,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
         operations.add(obj -> op.accept(obj.cacheHintProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
@@ -2629,12 +2619,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
@@ -2651,12 +2641,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
@@ -2673,12 +2663,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.centerShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#clipProperty() clipProperty} 
      * of the instance being constructed. 
@@ -2695,12 +2685,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#contentDisplayProperty() contentDisplayProperty} 
      * of the instance being constructed. 
@@ -2717,12 +2707,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder contentDisplayPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ContentDisplay>> op) {
         operations.add(obj -> op.accept(obj.contentDisplayProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
@@ -2739,12 +2729,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder contextMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.contextMenuProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
@@ -2761,12 +2751,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
         operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
@@ -2783,12 +2773,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
         operations.add(obj -> op.accept(obj.depthTestProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#disableProperty() disableProperty} 
      * of the instance being constructed. 
@@ -2805,12 +2795,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
@@ -2827,12 +2817,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disabledProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#effectProperty() effectProperty} 
      * of the instance being constructed. 
@@ -2849,12 +2839,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.effectProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
@@ -2871,12 +2861,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#ellipsisStringProperty() ellipsisStringProperty} 
      * of the instance being constructed. 
@@ -2893,12 +2883,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder ellipsisStringPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.ellipsisStringProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
@@ -2915,12 +2905,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
         operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
@@ -2937,12 +2927,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusTraversableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
@@ -2959,12 +2949,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
@@ -2981,12 +2971,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
@@ -3003,12 +2993,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#fontProperty() fontProperty} 
      * of the instance being constructed. 
@@ -3025,12 +3015,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder fontPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.Font>> op) {
         operations.add(obj -> op.accept(obj.fontProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
@@ -3047,12 +3037,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.graphicProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#graphicTextGapProperty() graphicTextGapProperty} 
      * of the instance being constructed. 
@@ -3069,12 +3059,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder graphicTextGapPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.graphicTextGapProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -3091,12 +3081,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
@@ -3113,12 +3103,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder hoverPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.hoverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#idProperty() idProperty} 
      * of the instance being constructed. 
@@ -3135,12 +3125,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
@@ -3157,12 +3147,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
         operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
@@ -3179,12 +3169,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder insetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.insetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#labelPaddingProperty() labelPaddingProperty} 
      * of the instance being constructed. 
@@ -3201,12 +3191,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder labelPaddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.labelPaddingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
@@ -3223,12 +3213,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
@@ -3245,12 +3235,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
@@ -3267,12 +3257,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder layoutYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#lineSpacingProperty() lineSpacingProperty} 
      * of the instance being constructed. 
@@ -3289,12 +3279,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder lineSpacingPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.lineSpacingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
@@ -3311,12 +3301,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
@@ -3333,12 +3323,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#managedProperty() managedProperty} 
      * of the instance being constructed. 
@@ -3355,12 +3345,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.managedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
@@ -3377,12 +3367,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
@@ -3399,12 +3389,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
@@ -3421,12 +3411,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
@@ -3443,12 +3433,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#mnemonicParsingProperty() mnemonicParsingProperty} 
      * of the instance being constructed. 
@@ -3465,12 +3455,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder mnemonicParsingPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mnemonicParsingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
@@ -3487,12 +3477,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
@@ -3509,12 +3499,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder needsLayoutPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.needsLayoutProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
@@ -3531,12 +3521,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
@@ -3553,12 +3543,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
         operations.add(obj -> op.accept(obj.onActionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
@@ -3575,12 +3565,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
         operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
@@ -3597,12 +3587,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
@@ -3619,12 +3609,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDoneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
@@ -3641,12 +3631,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3663,12 +3653,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
@@ -3685,12 +3675,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
@@ -3707,12 +3697,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
@@ -3729,12 +3719,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onHiddenPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onHiddenProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
@@ -3751,12 +3741,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onHidingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onHidingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
@@ -3773,12 +3763,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
         operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
@@ -3795,12 +3785,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
@@ -3817,12 +3807,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
@@ -3839,12 +3829,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
@@ -3861,12 +3851,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3883,12 +3873,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
@@ -3905,12 +3895,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
@@ -3927,12 +3917,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
@@ -3949,12 +3939,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
@@ -3971,12 +3961,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
@@ -3993,12 +3983,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
@@ -4015,12 +4005,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
@@ -4037,12 +4027,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
@@ -4059,12 +4049,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMousePressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
@@ -4081,12 +4071,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
@@ -4103,12 +4093,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
@@ -4125,12 +4115,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
@@ -4147,12 +4137,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
@@ -4169,12 +4159,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
@@ -4191,12 +4181,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
@@ -4213,12 +4203,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
@@ -4235,12 +4225,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onShowingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onShowingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
@@ -4257,12 +4247,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onShownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onShownProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
@@ -4279,12 +4269,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
@@ -4301,12 +4291,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
@@ -4323,12 +4313,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
@@ -4345,12 +4335,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onSwipeUpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeUpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
@@ -4367,12 +4357,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
@@ -4389,12 +4379,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
@@ -4411,12 +4401,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
@@ -4433,12 +4423,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
@@ -4455,12 +4445,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
@@ -4477,12 +4467,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
@@ -4499,12 +4489,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
@@ -4521,12 +4511,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.opacityProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
@@ -4543,12 +4533,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
@@ -4565,12 +4555,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.paddingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#parentProperty() parentProperty} 
      * of the instance being constructed. 
@@ -4587,12 +4577,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Parent>> op) {
         operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
@@ -4609,12 +4599,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder pickOnBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pickOnBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#popupSideProperty() popupSideProperty} 
      * of the instance being constructed. 
@@ -4631,12 +4621,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder popupSidePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Side>> op) {
         operations.add(obj -> op.accept(obj.popupSideProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
@@ -4653,12 +4643,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
@@ -4675,12 +4665,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
@@ -4697,12 +4687,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder pressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
@@ -4719,12 +4709,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
@@ -4741,12 +4731,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
         operations.add(obj -> op.accept(obj.rotationAxisProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
@@ -4763,12 +4753,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.scaleShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
@@ -4785,12 +4775,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
@@ -4807,12 +4797,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
@@ -4829,12 +4819,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
@@ -4851,12 +4841,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
         operations.add(obj -> op.accept(obj.sceneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
@@ -4873,12 +4863,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
         operations.add(obj -> op.accept(obj.shapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#showingProperty() showingProperty} 
      * of the instance being constructed. 
@@ -4895,12 +4885,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.showingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#skinProperty() skinProperty} 
      * of the instance being constructed. 
@@ -4917,12 +4907,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder skinPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Skin<?>>> op) {
         operations.add(obj -> op.accept(obj.skinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
@@ -4939,12 +4929,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.snapToPixelProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#styleProperty() styleProperty} 
      * of the instance being constructed. 
@@ -4961,12 +4951,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#textAlignmentProperty() textAlignmentProperty} 
      * of the instance being constructed. 
@@ -4983,12 +4973,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder textAlignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.text.TextAlignment>> op) {
         operations.add(obj -> op.accept(obj.textAlignmentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#textFillProperty() textFillProperty} 
      * of the instance being constructed. 
@@ -5005,12 +4995,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder textFillPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Paint>> op) {
         operations.add(obj -> op.accept(obj.textFillProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#textOverrunProperty() textOverrunProperty} 
      * of the instance being constructed. 
@@ -5027,12 +5017,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder textOverrunPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.OverrunStyle>> op) {
         operations.add(obj -> op.accept(obj.textOverrunProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#textProperty() textProperty} 
      * of the instance being constructed. 
@@ -5049,12 +5039,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder textPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.textProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#textTruncatedProperty() textTruncatedProperty} 
      * of the instance being constructed. 
@@ -5071,12 +5061,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder textTruncatedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.textTruncatedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
@@ -5093,12 +5083,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder tooltipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Tooltip>> op) {
         operations.add(obj -> op.accept(obj.tooltipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
@@ -5115,12 +5105,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
@@ -5137,12 +5127,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
@@ -5159,12 +5149,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#underlineProperty() underlineProperty} 
      * of the instance being constructed. 
@@ -5181,12 +5171,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder underlinePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.underlineProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
@@ -5203,12 +5193,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder viewOrderPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.viewOrderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
@@ -5225,12 +5215,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -5247,12 +5237,12 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#wrapTextProperty() wrapTextProperty} 
      * of the instance being constructed. 
@@ -5269,8 +5259,7 @@ public class MenuButtonBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public MenuButtonBuilder wrapTextPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.wrapTextProperty()));
         return this;

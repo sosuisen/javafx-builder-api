@@ -27,14 +27,12 @@ public class BlendBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.effect.Blend>> operations = new java.util.ArrayList<>();
     private BlendBuilder() {}
     
-
     /**
      * Returns an instance of the {@code BlendBuilder}.
      *
      * @return an instance of the {@code BlendBuilder}.
      */
     public static BlendBuilder create() { return new BlendBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.Blend#Blend(BlendMode) Blend(BlendMode)}
@@ -48,7 +46,6 @@ public class BlendBuilder {
         builder.constructorArgs = new Object[]{mode};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.Blend#Blend(BlendMode, Effect, Effect) Blend(BlendMode, Effect, Effect)}
@@ -111,7 +108,6 @@ public class BlendBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -156,6 +152,7 @@ public class BlendBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Blend instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -167,46 +164,47 @@ public class BlendBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Blend#setBottomInput(javafx.scene.effect.Effect) setBottomInput} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  BlendBuilder bottomInput(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setBottomInput(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Blend#setMode(javafx.scene.effect.BlendMode) setMode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  BlendBuilder mode(javafx.scene.effect.BlendMode value) {
         operations.add(obj -> obj.setMode(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Blend#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  BlendBuilder opacity(double value) {
         operations.add(obj -> obj.setOpacity(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Blend#setTopInput(javafx.scene.effect.Effect) setTopInput} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  BlendBuilder topInput(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setTopInput(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Blend#bottomInputProperty() bottomInputProperty} 
      * of the instance being constructed. 
@@ -223,12 +221,12 @@ public class BlendBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public BlendBuilder bottomInputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.bottomInputProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Blend#modeProperty() modeProperty} 
      * of the instance being constructed. 
@@ -245,12 +243,12 @@ public class BlendBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public BlendBuilder modePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
         operations.add(obj -> op.accept(obj.modeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Blend#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
@@ -267,12 +265,12 @@ public class BlendBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public BlendBuilder opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.opacityProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Blend#topInputProperty() topInputProperty} 
      * of the instance being constructed. 
@@ -289,8 +287,7 @@ public class BlendBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public BlendBuilder topInputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.topInputProperty()));
         return this;

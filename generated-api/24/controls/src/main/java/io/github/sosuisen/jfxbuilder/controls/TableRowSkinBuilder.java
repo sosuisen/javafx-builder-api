@@ -27,7 +27,6 @@ public class TableRowSkinBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.TableRowSkin<T>>> operations = new java.util.ArrayList<>();
     private TableRowSkinBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.skin.TableRowSkin#TableRowSkin(TableRow) TableRowSkin(TableRow)}
      * and returns an instance of {@code TableRowSkinBuilder<T>}.
@@ -85,7 +84,6 @@ public class TableRowSkinBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class TableRowSkinBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TableRowSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -141,6 +140,7 @@ public class TableRowSkinBuilder<T> {
         operations.add(func);
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TableRowSkin#getChildren()} method.
      * 
@@ -166,8 +166,6 @@ public class TableRowSkinBuilder<T> {
         return this;
     }
 
-
-    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TableRowSkin#cellSizeProperty() cellSizeProperty} 
      * of the instance being constructed. 
@@ -184,8 +182,7 @@ public class TableRowSkinBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TableRowSkinBuilder<T> cellSizePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.cellSizeProperty()));
         return this;

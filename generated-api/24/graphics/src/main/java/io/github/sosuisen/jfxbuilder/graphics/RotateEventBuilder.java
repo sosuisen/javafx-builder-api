@@ -27,7 +27,6 @@ public class RotateEventBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.RotateEvent>> operations = new java.util.ArrayList<>();
     private RotateEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.RotateEvent#RotateEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult) RotateEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
      * and returns an instance of {@code RotateEventBuilder}.
@@ -40,7 +39,6 @@ public class RotateEventBuilder {
         builder.constructorArgs = new Object[]{source, target, eventType, x, y, screenX, screenY, shiftDown, controlDown, altDown, metaDown, direct, inertia, angle, totalAngle, pickResult};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.RotateEvent#RotateEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult) RotateEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
@@ -97,7 +95,6 @@ public class RotateEventBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class RotateEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the RotateEvent instance being constructed.
      * Most operations on the instance can be performed using this method.

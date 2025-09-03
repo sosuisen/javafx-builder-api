@@ -27,7 +27,6 @@ public class PickResultBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.PickResult>> operations = new java.util.ArrayList<>();
     private PickResultBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.PickResult#PickResult(EventTarget, double, double) PickResult(EventTarget, double, double)}
      * and returns an instance of {@code PickResultBuilder}.
@@ -40,7 +39,6 @@ public class PickResultBuilder {
         builder.constructorArgs = new Object[]{target, sceneX, sceneY};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.PickResult#PickResult(Node, Point3D, double) PickResult(Node, Point3D, double)}
@@ -55,7 +53,6 @@ public class PickResultBuilder {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.PickResult#PickResult(Node, Point3D, double, int, Point2D) PickResult(Node, Point3D, double, int, Point2D)}
      * and returns an instance of {@code PickResultBuilder}.
@@ -68,7 +65,6 @@ public class PickResultBuilder {
         builder.constructorArgs = new Object[]{node, point, distance, face, texCoord};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.PickResult#PickResult(Node, Point3D, double, int, Point3D, Point2D) PickResult(Node, Point3D, double, int, Point3D, Point2D)}
@@ -125,7 +121,6 @@ public class PickResultBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -170,6 +165,7 @@ public class PickResultBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the PickResult instance being constructed.
      * Most operations on the instance can be performed using this method.

@@ -27,7 +27,6 @@ public class TreeTablePositionBuilder<S, T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeTablePosition<S, T>>> operations = new java.util.ArrayList<>();
     private TreeTablePositionBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TreeTablePosition#TreeTablePosition(TreeTableView, int, TreeTableColumn) TreeTablePosition(TreeTableView, int, TreeTableColumn)}
      * and returns an instance of {@code TreeTablePositionBuilder<S, T>}.
@@ -85,7 +84,6 @@ public class TreeTablePositionBuilder<S, T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class TreeTablePositionBuilder<S, T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TreeTablePosition instance being constructed.
      * Most operations on the instance can be performed using this method.

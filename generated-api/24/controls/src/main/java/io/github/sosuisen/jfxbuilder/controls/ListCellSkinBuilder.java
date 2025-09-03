@@ -27,7 +27,6 @@ public class ListCellSkinBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.ListCellSkin<T>>> operations = new java.util.ArrayList<>();
     private ListCellSkinBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.skin.ListCellSkin#ListCellSkin(ListCell) ListCellSkin(ListCell)}
      * and returns an instance of {@code ListCellSkinBuilder<T>}.
@@ -85,7 +84,6 @@ public class ListCellSkinBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class ListCellSkinBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ListCellSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -141,6 +140,7 @@ public class ListCellSkinBuilder<T> {
         operations.add(func);
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ListCellSkin#getChildren()} method.
      * 
@@ -166,8 +166,6 @@ public class ListCellSkinBuilder<T> {
         return this;
     }
 
-
-    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.ListCellSkin#cellSizeProperty() cellSizeProperty} 
      * of the instance being constructed. 
@@ -184,8 +182,7 @@ public class ListCellSkinBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ListCellSkinBuilder<T> cellSizePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.cellSizeProperty()));
         return this;

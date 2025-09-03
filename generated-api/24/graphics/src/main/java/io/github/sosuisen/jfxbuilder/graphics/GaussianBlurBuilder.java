@@ -27,14 +27,12 @@ public class GaussianBlurBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.effect.GaussianBlur>> operations = new java.util.ArrayList<>();
     private GaussianBlurBuilder() {}
     
-
     /**
      * Returns an instance of the {@code GaussianBlurBuilder}.
      *
      * @return an instance of the {@code GaussianBlurBuilder}.
      */
     public static GaussianBlurBuilder create() { return new GaussianBlurBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.GaussianBlur#GaussianBlur(double) GaussianBlur(double)}
@@ -97,7 +95,6 @@ public class GaussianBlurBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class GaussianBlurBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the GaussianBlur instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -153,26 +151,27 @@ public class GaussianBlurBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.GaussianBlur#setInput(javafx.scene.effect.Effect) setInput} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  GaussianBlurBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.GaussianBlur#setRadius(double) setRadius} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  GaussianBlurBuilder radius(double value) {
         operations.add(obj -> obj.setRadius(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.GaussianBlur#inputProperty() inputProperty} 
      * of the instance being constructed. 
@@ -189,12 +188,12 @@ public class GaussianBlurBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public GaussianBlurBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.GaussianBlur#radiusProperty() radiusProperty} 
      * of the instance being constructed. 
@@ -211,8 +210,7 @@ public class GaussianBlurBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public GaussianBlurBuilder radiusPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.radiusProperty()));
         return this;

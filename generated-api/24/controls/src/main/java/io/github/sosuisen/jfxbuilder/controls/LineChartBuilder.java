@@ -27,7 +27,6 @@ public class LineChartBuilder<X, Y> {
     private java.util.List<java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>>> operations = new java.util.ArrayList<>();
     private LineChartBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.chart.LineChart#LineChart(Axis, Axis) LineChart(Axis, Axis)}
      * and returns an instance of {@code LineChartBuilder<X, Y>}.
@@ -40,7 +39,6 @@ public class LineChartBuilder<X, Y> {
         builder.constructorArgs = new Object[]{xAxis, yAxis};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.chart.LineChart#LineChart(Axis, Axis, ObservableList) LineChart(Axis, Axis, ObservableList)}
@@ -99,7 +97,6 @@ public class LineChartBuilder<X, Y> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -144,6 +141,7 @@ public class LineChartBuilder<X, Y> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the LineChart instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -160,1066 +158,1067 @@ public class LineChartBuilder<X, Y> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> accessibleHelp(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> accessibleRole(javafx.scene.AccessibleRole value) {
         operations.add(obj -> obj.setAccessibleRole(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> accessibleRoleDescription(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> accessibleText(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setAlternativeColumnFillVisible(boolean) setAlternativeColumnFillVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> alternativeColumnFillVisible(boolean value) {
         operations.add(obj -> obj.setAlternativeColumnFillVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setAlternativeRowFillVisible(boolean) setAlternativeRowFillVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> alternativeRowFillVisible(boolean value) {
         operations.add(obj -> obj.setAlternativeRowFillVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setAnimated(boolean) setAnimated} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> animated(boolean value) {
         operations.add(obj -> obj.setAnimated(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setAxisSortingPolicy(javafx.scene.chart.LineChart$SortingPolicy) setAxisSortingPolicy} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> axisSortingPolicy(javafx.scene.chart.LineChart.SortingPolicy value) {
         operations.add(obj -> obj.setAxisSortingPolicy(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> background(javafx.scene.layout.Background value) {
         operations.add(obj -> obj.setBackground(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> blendMode(javafx.scene.effect.BlendMode value) {
         operations.add(obj -> obj.setBlendMode(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> border(javafx.scene.layout.Border value) {
         operations.add(obj -> obj.setBorder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> cache(boolean value) {
         operations.add(obj -> obj.setCache(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> cacheHint(javafx.scene.CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> cacheShape(boolean value) {
         operations.add(obj -> obj.setCacheShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> centerShape(boolean value) {
         operations.add(obj -> obj.setCenterShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> clip(javafx.scene.Node value) {
         operations.add(obj -> obj.setClip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setCreateSymbols(boolean) setCreateSymbols} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> createSymbols(boolean value) {
         operations.add(obj -> obj.setCreateSymbols(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> cursor(javafx.scene.Cursor value) {
         operations.add(obj -> obj.setCursor(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setData(javafx.collections.ObservableList) setData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> data(javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> value) {
         operations.add(obj -> obj.setData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> depthTest(javafx.scene.DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> effect(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setEffect(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> eventDispatcher(javafx.event.EventDispatcher value) {
         operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> focusTraversable(boolean value) {
         operations.add(obj -> obj.setFocusTraversable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setHorizontalGridLinesVisible(boolean) setHorizontalGridLinesVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> horizontalGridLinesVisible(boolean value) {
         operations.add(obj -> obj.setHorizontalGridLinesVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setHorizontalZeroLineVisible(boolean) setHorizontalZeroLineVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> horizontalZeroLineVisible(boolean value) {
         operations.add(obj -> obj.setHorizontalZeroLineVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
         operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> layoutX(double value) {
         operations.add(obj -> obj.setLayoutX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> layoutY(double value) {
         operations.add(obj -> obj.setLayoutY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setLegendSide(javafx.geometry.Side) setLegendSide} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> legendSide(javafx.geometry.Side value) {
         operations.add(obj -> obj.setLegendSide(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setLegendVisible(boolean) setLegendVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> legendVisible(boolean value) {
         operations.add(obj -> obj.setLegendVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> managed(boolean value) {
         operations.add(obj -> obj.setManaged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> maxHeight(double value) {
         operations.add(obj -> obj.setMaxHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> maxSize(double maxWidth, double maxHeight) {
         operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> maxWidth(double value) {
         operations.add(obj -> obj.setMaxWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setMinHeight(double) setMinHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> minHeight(double value) {
         operations.add(obj -> obj.setMinHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setMinSize(double, double) setMinSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> minSize(double minWidth, double minHeight) {
         operations.add(obj -> obj.setMinSize(minWidth, minHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setMinWidth(double) setMinWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> minWidth(double value) {
         operations.add(obj -> obj.setMinWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> mouseTransparent(boolean value) {
         operations.add(obj -> obj.setMouseTransparent(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> nodeOrientation(javafx.geometry.NodeOrientation orientation) {
         operations.add(obj -> obj.setNodeOrientation(orientation));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
         operations.add(obj -> obj.setOnContextMenuRequested(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnDragDetected(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDone(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDropped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
         operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onKeyPressed(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseClicked(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseDragged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onMouseEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMousePressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onScroll(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScroll(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onSwipeRight(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeRight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onTouchMoved(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchStationary(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoom(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> opacity(double value) {
         operations.add(obj -> obj.setOpacity(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> opaqueInsets(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setOpaqueInsets(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> padding(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setPadding(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> pickOnBounds(boolean value) {
         operations.add(obj -> obj.setPickOnBounds(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> prefHeight(double value) {
         operations.add(obj -> obj.setPrefHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> prefSize(double prefWidth, double prefHeight) {
         operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> prefWidth(double value) {
         operations.add(obj -> obj.setPrefWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> rotate(double value) {
         operations.add(obj -> obj.setRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> rotationAxis(javafx.geometry.Point3D value) {
         operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> scaleShape(boolean value) {
         operations.add(obj -> obj.setScaleShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> scaleX(double value) {
         operations.add(obj -> obj.setScaleX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> scaleY(double value) {
         operations.add(obj -> obj.setScaleY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> scaleZ(double value) {
         operations.add(obj -> obj.setScaleZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> shape(javafx.scene.shape.Shape value) {
         operations.add(obj -> obj.setShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> snapToPixel(boolean value) {
         operations.add(obj -> obj.setSnapToPixel(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setTitle(java.lang.String) setTitle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> title(java.lang.String value) {
         operations.add(obj -> obj.setTitle(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setTitleSide(javafx.geometry.Side) setTitleSide} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> titleSide(javafx.geometry.Side value) {
         operations.add(obj -> obj.setTitleSide(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> translateX(double value) {
         operations.add(obj -> obj.setTranslateX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> translateY(double value) {
         operations.add(obj -> obj.setTranslateY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> translateZ(double value) {
         operations.add(obj -> obj.setTranslateZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setVerticalGridLinesVisible(boolean) setVerticalGridLinesVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> verticalGridLinesVisible(boolean value) {
         operations.add(obj -> obj.setVerticalGridLinesVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setVerticalZeroLineVisible(boolean) setVerticalZeroLineVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> verticalZeroLineVisible(boolean value) {
         operations.add(obj -> obj.setVerticalZeroLineVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> viewOrder(double value) {
         operations.add(obj -> obj.setViewOrder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.chart.LineChart#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineChartBuilder<X, Y> visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getData()} method.
      * 
@@ -1244,8 +1243,6 @@ public class LineChartBuilder<X, Y> {
         });
         return this;
     }
-
-
 
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getStyleClass()} method.
@@ -1272,8 +1269,6 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
 
-
-
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getStylesheets()} method.
      * 
@@ -1299,8 +1294,6 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
 
-
-
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.chart.LineChart#getTransforms()} method.
      * 
@@ -1324,10 +1317,7 @@ public class LineChartBuilder<X, Y> {
             obj.getTransforms().addAll(col);
         });
         return this;
-    }
-
-
-    
+    }    
     /**
      * Utility setter to add CSS string for this LineChart's contents.
      * For example:
@@ -1344,6 +1334,7 @@ public class LineChartBuilder<X, Y> {
                 java.util.Base64.getEncoder().encodeToString(css.getBytes())));
         return this;
     }
+
     /**
      * Invokes the {@link javafx.scene.layout.AnchorPane#setBottomAnchor(Node child, java.lang.Double value) AnchorPane.setBottomAnchor(Node, Double)} 
      * using a fluent API.
@@ -1359,10 +1350,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .bottomAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .bottomAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1387,10 +1378,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .leftAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .leftAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1415,10 +1406,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .rightAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .rightAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1443,10 +1434,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .topAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .topAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1471,10 +1462,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .alignmentInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1499,10 +1490,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .marginInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1527,10 +1518,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = FlowPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInFlowPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInFlowPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1555,10 +1546,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1583,10 +1574,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1611,10 +1602,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1639,10 +1630,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1667,10 +1658,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1695,10 +1686,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1723,10 +1714,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1751,10 +1742,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillHeightInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillHeightInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1779,10 +1770,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillWidthInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillWidthInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1807,10 +1798,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1835,10 +1826,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1863,10 +1854,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1891,10 +1882,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1919,10 +1910,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1947,10 +1938,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1975,10 +1966,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2003,10 +1994,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .hGrowInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2031,10 +2022,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2059,10 +2050,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .alignmentInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2087,10 +2078,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .marginInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2115,10 +2106,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .alignmentInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2143,10 +2134,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2171,10 +2162,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2199,10 +2190,10 @@ public class LineChartBuilder<X, Y> {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .vGrowInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2211,7 +2202,8 @@ public class LineChartBuilder<X, Y> {
         operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
         return this;
     }
-    
+
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
@@ -2228,12 +2220,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
@@ -2250,12 +2242,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
@@ -2272,12 +2264,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
@@ -2294,12 +2286,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleTextProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#alternativeColumnFillVisibleProperty() alternativeColumnFillVisibleProperty} 
      * of the instance being constructed. 
@@ -2316,12 +2308,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> alternativeColumnFillVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.alternativeColumnFillVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#alternativeRowFillVisibleProperty() alternativeRowFillVisibleProperty} 
      * of the instance being constructed. 
@@ -2338,12 +2330,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> alternativeRowFillVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.alternativeRowFillVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#animatedProperty() animatedProperty} 
      * of the instance being constructed. 
@@ -2360,12 +2352,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> animatedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.animatedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#axisSortingPolicyProperty() axisSortingPolicyProperty} 
      * of the instance being constructed. 
@@ -2382,12 +2374,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> axisSortingPolicyPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.chart.LineChart.SortingPolicy>> op) {
         operations.add(obj -> op.accept(obj.axisSortingPolicyProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
@@ -2404,12 +2396,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> backgroundPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Background>> op) {
         operations.add(obj -> op.accept(obj.backgroundProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
@@ -2426,12 +2418,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
         operations.add(obj -> op.accept(obj.blendModeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#borderProperty() borderProperty} 
      * of the instance being constructed. 
@@ -2448,12 +2440,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
         operations.add(obj -> op.accept(obj.borderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
@@ -2470,12 +2462,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
@@ -2492,12 +2484,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInParentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
@@ -2514,12 +2506,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
         operations.add(obj -> op.accept(obj.cacheHintProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
@@ -2536,12 +2528,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
@@ -2558,12 +2550,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
@@ -2580,12 +2572,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.centerShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#clipProperty() clipProperty} 
      * of the instance being constructed. 
@@ -2602,12 +2594,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#createSymbolsProperty() createSymbolsProperty} 
      * of the instance being constructed. 
@@ -2624,12 +2616,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> createSymbolsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.createSymbolsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
@@ -2646,12 +2638,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
         operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#dataProperty() dataProperty} 
      * of the instance being constructed. 
@@ -2668,12 +2660,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> dataPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>>>> op) {
         operations.add(obj -> op.accept(obj.dataProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
@@ -2690,12 +2682,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
         operations.add(obj -> op.accept(obj.depthTestProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#disableProperty() disableProperty} 
      * of the instance being constructed. 
@@ -2712,12 +2704,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
@@ -2734,12 +2726,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disabledProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#effectProperty() effectProperty} 
      * of the instance being constructed. 
@@ -2756,12 +2748,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.effectProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
@@ -2778,12 +2770,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
@@ -2800,12 +2792,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
         operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
@@ -2822,12 +2814,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusTraversableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
@@ -2844,12 +2836,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
@@ -2866,12 +2858,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
@@ -2888,12 +2880,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -2910,12 +2902,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#horizontalGridLinesVisibleProperty() horizontalGridLinesVisibleProperty} 
      * of the instance being constructed. 
@@ -2932,12 +2924,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> horizontalGridLinesVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.horizontalGridLinesVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#horizontalZeroLineVisibleProperty() horizontalZeroLineVisibleProperty} 
      * of the instance being constructed. 
@@ -2954,12 +2946,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> horizontalZeroLineVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.horizontalZeroLineVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
@@ -2976,12 +2968,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> hoverPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.hoverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#idProperty() idProperty} 
      * of the instance being constructed. 
@@ -2998,12 +2990,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
@@ -3020,12 +3012,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
         operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
@@ -3042,12 +3034,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> insetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.insetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
@@ -3064,12 +3056,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
@@ -3086,12 +3078,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
@@ -3108,12 +3100,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> layoutYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#legendSideProperty() legendSideProperty} 
      * of the instance being constructed. 
@@ -3130,12 +3122,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> legendSidePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Side>> op) {
         operations.add(obj -> op.accept(obj.legendSideProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#legendVisibleProperty() legendVisibleProperty} 
      * of the instance being constructed. 
@@ -3152,12 +3144,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> legendVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.legendVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
@@ -3174,12 +3166,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
@@ -3196,12 +3188,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#managedProperty() managedProperty} 
      * of the instance being constructed. 
@@ -3218,12 +3210,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.managedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
@@ -3240,12 +3232,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
@@ -3262,12 +3254,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
@@ -3284,12 +3276,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
@@ -3306,12 +3298,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
@@ -3328,12 +3320,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
@@ -3350,12 +3342,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> needsLayoutPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.needsLayoutProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
@@ -3372,12 +3364,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
@@ -3394,12 +3386,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
         operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
@@ -3416,12 +3408,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
@@ -3438,12 +3430,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDoneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
@@ -3460,12 +3452,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3482,12 +3474,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
@@ -3504,12 +3496,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
@@ -3526,12 +3518,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
@@ -3548,12 +3540,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
         operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
@@ -3570,12 +3562,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
@@ -3592,12 +3584,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
@@ -3614,12 +3606,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
@@ -3636,12 +3628,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3658,12 +3650,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
@@ -3680,12 +3672,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
@@ -3702,12 +3694,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
@@ -3724,12 +3716,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
@@ -3746,12 +3738,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
@@ -3768,12 +3760,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
@@ -3790,12 +3782,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
@@ -3812,12 +3804,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
@@ -3834,12 +3826,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMousePressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
@@ -3856,12 +3848,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
@@ -3878,12 +3870,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
@@ -3900,12 +3892,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
@@ -3922,12 +3914,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
@@ -3944,12 +3936,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
@@ -3966,12 +3958,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
@@ -3988,12 +3980,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
@@ -4010,12 +4002,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
@@ -4032,12 +4024,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
@@ -4054,12 +4046,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
@@ -4076,12 +4068,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onSwipeUpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeUpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
@@ -4098,12 +4090,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
@@ -4120,12 +4112,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
@@ -4142,12 +4134,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
@@ -4164,12 +4156,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
@@ -4186,12 +4178,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
@@ -4208,12 +4200,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
@@ -4230,12 +4222,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
@@ -4252,12 +4244,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.opacityProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
@@ -4274,12 +4266,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
@@ -4296,12 +4288,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.paddingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#parentProperty() parentProperty} 
      * of the instance being constructed. 
@@ -4318,12 +4310,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Parent>> op) {
         operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
@@ -4340,12 +4332,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> pickOnBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pickOnBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
@@ -4362,12 +4354,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
@@ -4384,12 +4376,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
@@ -4406,12 +4398,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> pressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
@@ -4428,12 +4420,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
@@ -4450,12 +4442,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
         operations.add(obj -> op.accept(obj.rotationAxisProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
@@ -4472,12 +4464,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.scaleShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
@@ -4494,12 +4486,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
@@ -4516,12 +4508,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
@@ -4538,12 +4530,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
@@ -4560,12 +4552,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
         operations.add(obj -> op.accept(obj.sceneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
@@ -4582,12 +4574,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
         operations.add(obj -> op.accept(obj.shapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
@@ -4604,12 +4596,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.snapToPixelProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#styleProperty() styleProperty} 
      * of the instance being constructed. 
@@ -4626,12 +4618,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#titleProperty() titleProperty} 
      * of the instance being constructed. 
@@ -4648,12 +4640,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> titlePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.titleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#titleSideProperty() titleSideProperty} 
      * of the instance being constructed. 
@@ -4670,12 +4662,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> titleSidePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Side>> op) {
         operations.add(obj -> op.accept(obj.titleSideProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
@@ -4692,12 +4684,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
@@ -4714,12 +4706,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
@@ -4736,12 +4728,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#verticalGridLinesVisibleProperty() verticalGridLinesVisibleProperty} 
      * of the instance being constructed. 
@@ -4758,12 +4750,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> verticalGridLinesVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.verticalGridLinesVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#verticalZeroLineVisibleProperty() verticalZeroLineVisibleProperty} 
      * of the instance being constructed. 
@@ -4780,12 +4772,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> verticalZeroLineVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.verticalZeroLineVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
@@ -4802,12 +4794,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> viewOrderPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.viewOrderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
@@ -4824,12 +4816,12 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -4846,8 +4838,7 @@ public class LineChartBuilder<X, Y> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineChartBuilder<X, Y> widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;

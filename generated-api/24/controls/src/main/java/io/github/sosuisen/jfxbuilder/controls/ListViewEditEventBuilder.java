@@ -27,7 +27,6 @@ public class ListViewEditEventBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.ListView.EditEvent<T>>> operations = new java.util.ArrayList<>();
     private ListViewEditEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.ListView.EditEvent#EditEvent(ListView, EventType, Object, int) EditEvent(ListView, EventType, Object, int)}
      * and returns an instance of {@code ListViewEditEventBuilder<T>}.
@@ -85,7 +84,6 @@ public class ListViewEditEventBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class ListViewEditEventBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the EditEvent instance being constructed.
      * Most operations on the instance can be performed using this method.

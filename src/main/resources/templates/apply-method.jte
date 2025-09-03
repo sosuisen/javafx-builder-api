@@ -2,6 +2,7 @@
 
 @param ApplyMethodModel model
 
+
     /**
      * Applies a function to the ${model.simpleClassName()} instance being constructed.
      * Most operations on the instance can be performed using this method.

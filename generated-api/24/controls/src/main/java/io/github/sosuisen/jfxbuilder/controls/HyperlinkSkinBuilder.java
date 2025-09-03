@@ -27,7 +27,6 @@ public class HyperlinkSkinBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.HyperlinkSkin>> operations = new java.util.ArrayList<>();
     private HyperlinkSkinBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.skin.HyperlinkSkin#HyperlinkSkin(Hyperlink) HyperlinkSkin(Hyperlink)}
      * and returns an instance of {@code HyperlinkSkinBuilder}.
@@ -83,7 +82,6 @@ public class HyperlinkSkinBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class HyperlinkSkinBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the HyperlinkSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -139,6 +138,7 @@ public class HyperlinkSkinBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.HyperlinkSkin#getChildren()} method.
      * 
@@ -163,7 +163,4 @@ public class HyperlinkSkinBuilder {
         });
         return this;
     }
-
-
-
 }

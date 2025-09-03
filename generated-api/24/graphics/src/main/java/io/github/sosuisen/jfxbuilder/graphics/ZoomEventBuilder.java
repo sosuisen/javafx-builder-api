@@ -27,7 +27,6 @@ public class ZoomEventBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.ZoomEvent>> operations = new java.util.ArrayList<>();
     private ZoomEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.ZoomEvent#ZoomEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult) ZoomEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
      * and returns an instance of {@code ZoomEventBuilder}.
@@ -40,7 +39,6 @@ public class ZoomEventBuilder {
         builder.constructorArgs = new Object[]{source, target, eventType, x, y, screenX, screenY, shiftDown, controlDown, altDown, metaDown, direct, inertia, zoomFactor, totalZoomFactor, pickResult};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.ZoomEvent#ZoomEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult) ZoomEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
@@ -97,7 +95,6 @@ public class ZoomEventBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class ZoomEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ZoomEvent instance being constructed.
      * Most operations on the instance can be performed using this method.

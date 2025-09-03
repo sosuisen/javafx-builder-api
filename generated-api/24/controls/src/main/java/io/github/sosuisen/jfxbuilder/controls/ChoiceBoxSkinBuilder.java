@@ -27,7 +27,6 @@ public class ChoiceBoxSkinBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.ChoiceBoxSkin<T>>> operations = new java.util.ArrayList<>();
     private ChoiceBoxSkinBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.skin.ChoiceBoxSkin#ChoiceBoxSkin(ChoiceBox) ChoiceBoxSkin(ChoiceBox)}
      * and returns an instance of {@code ChoiceBoxSkinBuilder<T>}.
@@ -85,7 +84,6 @@ public class ChoiceBoxSkinBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class ChoiceBoxSkinBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ChoiceBoxSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -141,6 +140,7 @@ public class ChoiceBoxSkinBuilder<T> {
         operations.add(func);
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ChoiceBoxSkin#getChildren()} method.
      * 
@@ -165,7 +165,4 @@ public class ChoiceBoxSkinBuilder<T> {
         });
         return this;
     }
-
-
-
 }

@@ -27,7 +27,6 @@ public class ClipboardContentBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.ClipboardContent>> operations = new java.util.ArrayList<>();
     private ClipboardContentBuilder() {}
     
-
     /**
      * Returns an instance of the {@code ClipboardContentBuilder}.
      *
@@ -83,7 +82,6 @@ public class ClipboardContentBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class ClipboardContentBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ClipboardContent instance being constructed.
      * Most operations on the instance can be performed using this method.

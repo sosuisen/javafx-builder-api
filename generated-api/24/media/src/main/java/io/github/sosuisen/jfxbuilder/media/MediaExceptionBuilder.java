@@ -69,7 +69,6 @@ public class MediaExceptionBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -114,6 +113,7 @@ public class MediaExceptionBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the MediaException instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -125,12 +125,12 @@ public class MediaExceptionBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.media.MediaException#setStackTrace(java.lang.StackTraceElement...) setStackTrace} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MediaExceptionBuilder stackTrace(java.lang.StackTraceElement[] arg0) {
         operations.add(obj -> obj.setStackTrace(arg0));
         return this;

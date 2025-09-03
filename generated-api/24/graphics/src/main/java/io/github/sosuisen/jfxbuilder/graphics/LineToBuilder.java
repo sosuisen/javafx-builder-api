@@ -27,14 +27,12 @@ public class LineToBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.shape.LineTo>> operations = new java.util.ArrayList<>();
     private LineToBuilder() {}
     
-
     /**
      * Returns an instance of the {@code LineToBuilder}.
      *
      * @return an instance of the {@code LineToBuilder}.
      */
     public static LineToBuilder create() { return new LineToBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.shape.LineTo#LineTo(double, double) LineTo(double, double)}
@@ -97,7 +95,6 @@ public class LineToBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class LineToBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the LineTo instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -153,36 +151,37 @@ public class LineToBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.LineTo#setAbsolute(boolean) setAbsolute} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineToBuilder absolute(boolean value) {
         operations.add(obj -> obj.setAbsolute(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.LineTo#setX(double) setX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineToBuilder x(double value) {
         operations.add(obj -> obj.setX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.shape.LineTo#setY(double) setY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LineToBuilder y(double value) {
         operations.add(obj -> obj.setY(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.LineTo#absoluteProperty() absoluteProperty} 
      * of the instance being constructed. 
@@ -199,12 +198,12 @@ public class LineToBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineToBuilder absolutePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.absoluteProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.LineTo#xProperty() xProperty} 
      * of the instance being constructed. 
@@ -221,12 +220,12 @@ public class LineToBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineToBuilder xPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.xProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.shape.LineTo#yProperty() yProperty} 
      * of the instance being constructed. 
@@ -243,8 +242,7 @@ public class LineToBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LineToBuilder yPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.yProperty()));
         return this;

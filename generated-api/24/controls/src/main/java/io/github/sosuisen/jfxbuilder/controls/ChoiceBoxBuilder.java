@@ -27,14 +27,12 @@ public class ChoiceBoxBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>>> operations = new java.util.ArrayList<>();
     private ChoiceBoxBuilder() {}
     
-
     /**
      * Returns an instance of the {@code ChoiceBoxBuilder<T>}.
      *
      * @return an instance of the {@code ChoiceBoxBuilder<T>}.
      */
     public static <T> ChoiceBoxBuilder<T> create() { return new ChoiceBoxBuilder<T>(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.ChoiceBox#ChoiceBox(ObservableList) ChoiceBox(ObservableList)}
@@ -99,7 +97,6 @@ public class ChoiceBoxBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -144,6 +141,7 @@ public class ChoiceBoxBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ChoiceBox instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -160,1046 +158,1047 @@ public class ChoiceBoxBuilder<T> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> accessibleHelp(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> accessibleRole(javafx.scene.AccessibleRole value) {
         operations.add(obj -> obj.setAccessibleRole(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> accessibleRoleDescription(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> accessibleText(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> background(javafx.scene.layout.Background value) {
         operations.add(obj -> obj.setBackground(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> blendMode(javafx.scene.effect.BlendMode value) {
         operations.add(obj -> obj.setBlendMode(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> border(javafx.scene.layout.Border value) {
         operations.add(obj -> obj.setBorder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> cache(boolean value) {
         operations.add(obj -> obj.setCache(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> cacheHint(javafx.scene.CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> cacheShape(boolean value) {
         operations.add(obj -> obj.setCacheShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> centerShape(boolean value) {
         operations.add(obj -> obj.setCenterShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> clip(javafx.scene.Node value) {
         operations.add(obj -> obj.setClip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> contextMenu(javafx.scene.control.ContextMenu value) {
         operations.add(obj -> obj.setContextMenu(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setConverter(javafx.util.StringConverter) setConverter} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> converter(javafx.util.StringConverter<T> value) {
         operations.add(obj -> obj.setConverter(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> cursor(javafx.scene.Cursor value) {
         operations.add(obj -> obj.setCursor(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> depthTest(javafx.scene.DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> effect(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setEffect(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> eventDispatcher(javafx.event.EventDispatcher value) {
         operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> focusTraversable(boolean value) {
         operations.add(obj -> obj.setFocusTraversable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
         operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setItems(javafx.collections.ObservableList) setItems} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> items(javafx.collections.ObservableList<T> value) {
         operations.add(obj -> obj.setItems(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> layoutX(double value) {
         operations.add(obj -> obj.setLayoutX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> layoutY(double value) {
         operations.add(obj -> obj.setLayoutY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> managed(boolean value) {
         operations.add(obj -> obj.setManaged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> maxHeight(double value) {
         operations.add(obj -> obj.setMaxHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> maxSize(double maxWidth, double maxHeight) {
         operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> maxWidth(double value) {
         operations.add(obj -> obj.setMaxWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setMinHeight(double) setMinHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> minHeight(double value) {
         operations.add(obj -> obj.setMinHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setMinSize(double, double) setMinSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> minSize(double minWidth, double minHeight) {
         operations.add(obj -> obj.setMinSize(minWidth, minHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setMinWidth(double) setMinWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> minWidth(double value) {
         operations.add(obj -> obj.setMinWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> mouseTransparent(boolean value) {
         operations.add(obj -> obj.setMouseTransparent(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> nodeOrientation(javafx.geometry.NodeOrientation orientation) {
         operations.add(obj -> obj.setNodeOrientation(orientation));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
         operations.add(obj -> obj.setOnAction(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
         operations.add(obj -> obj.setOnContextMenuRequested(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnDragDetected(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDone(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDropped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onHidden(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnHidden(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onHiding(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnHiding(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
         operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onKeyPressed(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseClicked(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseDragged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onMouseEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMousePressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onScroll(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScroll(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onShowing(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnShowing(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onShown(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnShown(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onSwipeRight(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeRight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onTouchMoved(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchStationary(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoom(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> opacity(double value) {
         operations.add(obj -> obj.setOpacity(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> opaqueInsets(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setOpaqueInsets(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> padding(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setPadding(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> pickOnBounds(boolean value) {
         operations.add(obj -> obj.setPickOnBounds(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> prefHeight(double value) {
         operations.add(obj -> obj.setPrefHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> prefSize(double prefWidth, double prefHeight) {
         operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> prefWidth(double value) {
         operations.add(obj -> obj.setPrefWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> rotate(double value) {
         operations.add(obj -> obj.setRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> rotationAxis(javafx.geometry.Point3D value) {
         operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> scaleShape(boolean value) {
         operations.add(obj -> obj.setScaleShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> scaleX(double value) {
         operations.add(obj -> obj.setScaleX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> scaleY(double value) {
         operations.add(obj -> obj.setScaleY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> scaleZ(double value) {
         operations.add(obj -> obj.setScaleZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setSelectionModel(javafx.scene.control.SingleSelectionModel) setSelectionModel} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> selectionModel(javafx.scene.control.SingleSelectionModel<T> value) {
         operations.add(obj -> obj.setSelectionModel(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> shape(javafx.scene.shape.Shape value) {
         operations.add(obj -> obj.setShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> skin(javafx.scene.control.Skin<?> value) {
         operations.add(obj -> obj.setSkin(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> snapToPixel(boolean value) {
         operations.add(obj -> obj.setSnapToPixel(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> tooltip(javafx.scene.control.Tooltip value) {
         operations.add(obj -> obj.setTooltip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> translateX(double value) {
         operations.add(obj -> obj.setTranslateX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> translateY(double value) {
         operations.add(obj -> obj.setTranslateY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> translateZ(double value) {
         operations.add(obj -> obj.setTranslateZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setValue(java.lang.Object) setValue} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> value(T value) {
         operations.add(obj -> obj.setValue(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> viewOrder(double value) {
         operations.add(obj -> obj.setViewOrder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ChoiceBoxBuilder<T> visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceBox#getItems()} method.
      * 
@@ -1225,7 +1224,6 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
 
-
     /**
      * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceBox#getItems()} method.
      * 
@@ -1246,7 +1244,6 @@ public class ChoiceBoxBuilder<T> {
         ChoiceBoxBuilder<T> builder = new ChoiceBoxBuilder<T>();
         return builder.addItems(col);
     }
-
 
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceBox#getStyleClass()} method.
@@ -1273,8 +1270,6 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
 
-
-
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceBox#getStylesheets()} method.
      * 
@@ -1300,8 +1295,6 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
 
-
-
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ChoiceBox#getTransforms()} method.
      * 
@@ -1325,10 +1318,7 @@ public class ChoiceBoxBuilder<T> {
             obj.getTransforms().addAll(col);
         });
         return this;
-    }
-
-
-    
+    }    
     /**
      * Utility setter to add CSS string for this ChoiceBox's contents.
      * For example:
@@ -1345,6 +1335,7 @@ public class ChoiceBoxBuilder<T> {
                 java.util.Base64.getEncoder().encodeToString(css.getBytes())));
         return this;
     }
+
     /**
      * Invokes the {@link javafx.scene.layout.AnchorPane#setBottomAnchor(Node child, java.lang.Double value) AnchorPane.setBottomAnchor(Node, Double)} 
      * using a fluent API.
@@ -1360,10 +1351,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .bottomAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .bottomAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1388,10 +1379,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .leftAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .leftAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1416,10 +1407,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .rightAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .rightAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1444,10 +1435,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .topAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .topAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1472,10 +1463,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .alignmentInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1500,10 +1491,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .marginInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1528,10 +1519,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = FlowPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInFlowPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInFlowPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1556,10 +1547,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1584,10 +1575,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1612,10 +1603,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1640,10 +1631,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1668,10 +1659,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1696,10 +1687,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1724,10 +1715,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1752,10 +1743,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillHeightInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillHeightInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1780,10 +1771,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillWidthInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillWidthInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1808,10 +1799,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1836,10 +1827,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1864,10 +1855,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1892,10 +1883,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1920,10 +1911,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1948,10 +1939,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1976,10 +1967,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2004,10 +1995,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .hGrowInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2032,10 +2023,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2060,10 +2051,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .alignmentInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2088,10 +2079,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .marginInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2116,10 +2107,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .alignmentInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2144,10 +2135,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2172,10 +2163,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2200,10 +2191,10 @@ public class ChoiceBoxBuilder<T> {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .vGrowInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2212,7 +2203,8 @@ public class ChoiceBoxBuilder<T> {
         operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
         return this;
     }
-    
+
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
@@ -2229,12 +2221,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
@@ -2251,12 +2243,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
@@ -2273,12 +2265,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
@@ -2295,12 +2287,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleTextProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
@@ -2317,12 +2309,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> backgroundPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Background>> op) {
         operations.add(obj -> op.accept(obj.backgroundProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
@@ -2339,12 +2331,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
         operations.add(obj -> op.accept(obj.blendModeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#borderProperty() borderProperty} 
      * of the instance being constructed. 
@@ -2361,12 +2353,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
         operations.add(obj -> op.accept(obj.borderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
@@ -2383,12 +2375,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
@@ -2405,12 +2397,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInParentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
@@ -2427,12 +2419,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
         operations.add(obj -> op.accept(obj.cacheHintProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
@@ -2449,12 +2441,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
@@ -2471,12 +2463,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
@@ -2493,12 +2485,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.centerShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#clipProperty() clipProperty} 
      * of the instance being constructed. 
@@ -2515,12 +2507,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
@@ -2537,12 +2529,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> contextMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.contextMenuProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#converterProperty() converterProperty} 
      * of the instance being constructed. 
@@ -2559,12 +2551,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<T>>> op) {
         operations.add(obj -> op.accept(obj.converterProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
@@ -2581,12 +2573,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
         operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
@@ -2603,12 +2595,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
         operations.add(obj -> op.accept(obj.depthTestProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#disableProperty() disableProperty} 
      * of the instance being constructed. 
@@ -2625,12 +2617,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
@@ -2647,12 +2639,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disabledProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#effectProperty() effectProperty} 
      * of the instance being constructed. 
@@ -2669,12 +2661,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.effectProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
@@ -2691,12 +2683,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
@@ -2713,12 +2705,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
         operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
@@ -2735,12 +2727,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusTraversableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
@@ -2757,12 +2749,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
@@ -2779,12 +2771,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
@@ -2801,12 +2793,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -2823,12 +2815,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
@@ -2845,12 +2837,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> hoverPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.hoverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#idProperty() idProperty} 
      * of the instance being constructed. 
@@ -2867,12 +2859,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
@@ -2889,12 +2881,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
         operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
@@ -2911,12 +2903,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> insetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.insetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#itemsProperty() itemsProperty} 
      * of the instance being constructed. 
@@ -2933,12 +2925,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> itemsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.collections.ObservableList<T>>> op) {
         operations.add(obj -> op.accept(obj.itemsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
@@ -2955,12 +2947,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
@@ -2977,12 +2969,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
@@ -2999,12 +2991,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> layoutYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
@@ -3021,12 +3013,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
@@ -3043,12 +3035,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#managedProperty() managedProperty} 
      * of the instance being constructed. 
@@ -3065,12 +3057,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.managedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
@@ -3087,12 +3079,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
@@ -3109,12 +3101,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
@@ -3131,12 +3123,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
@@ -3153,12 +3145,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
@@ -3175,12 +3167,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
@@ -3197,12 +3189,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> needsLayoutPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.needsLayoutProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
@@ -3219,12 +3211,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
@@ -3241,12 +3233,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
         operations.add(obj -> op.accept(obj.onActionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
@@ -3263,12 +3255,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
         operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
@@ -3285,12 +3277,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
@@ -3307,12 +3299,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDoneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
@@ -3329,12 +3321,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3351,12 +3343,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
@@ -3373,12 +3365,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
@@ -3395,12 +3387,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
@@ -3417,12 +3409,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onHiddenPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onHiddenProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
@@ -3439,12 +3431,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onHidingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onHidingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
@@ -3461,12 +3453,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
         operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
@@ -3483,12 +3475,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
@@ -3505,12 +3497,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
@@ -3527,12 +3519,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
@@ -3549,12 +3541,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3571,12 +3563,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
@@ -3593,12 +3585,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
@@ -3615,12 +3607,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
@@ -3637,12 +3629,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
@@ -3659,12 +3651,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
@@ -3681,12 +3673,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
@@ -3703,12 +3695,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
@@ -3725,12 +3717,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
@@ -3747,12 +3739,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMousePressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
@@ -3769,12 +3761,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
@@ -3791,12 +3783,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
@@ -3813,12 +3805,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
@@ -3835,12 +3827,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
@@ -3857,12 +3849,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
@@ -3879,12 +3871,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
@@ -3901,12 +3893,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
@@ -3923,12 +3915,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onShowingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onShowingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
@@ -3945,12 +3937,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onShownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onShownProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
@@ -3967,12 +3959,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
@@ -3989,12 +3981,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
@@ -4011,12 +4003,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
@@ -4033,12 +4025,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onSwipeUpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeUpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
@@ -4055,12 +4047,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
@@ -4077,12 +4069,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
@@ -4099,12 +4091,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
@@ -4121,12 +4113,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
@@ -4143,12 +4135,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
@@ -4165,12 +4157,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
@@ -4187,12 +4179,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
@@ -4209,12 +4201,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.opacityProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
@@ -4231,12 +4223,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
@@ -4253,12 +4245,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.paddingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#parentProperty() parentProperty} 
      * of the instance being constructed. 
@@ -4275,12 +4267,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Parent>> op) {
         operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
@@ -4297,12 +4289,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> pickOnBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pickOnBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
@@ -4319,12 +4311,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
@@ -4341,12 +4333,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
@@ -4363,12 +4355,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> pressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
@@ -4385,12 +4377,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
@@ -4407,12 +4399,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
         operations.add(obj -> op.accept(obj.rotationAxisProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
@@ -4429,12 +4421,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.scaleShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
@@ -4451,12 +4443,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
@@ -4473,12 +4465,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
@@ -4495,12 +4487,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
@@ -4517,12 +4509,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
         operations.add(obj -> op.accept(obj.sceneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#selectionModelProperty() selectionModelProperty} 
      * of the instance being constructed. 
@@ -4539,12 +4531,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> selectionModelPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.SingleSelectionModel<T>>> op) {
         operations.add(obj -> op.accept(obj.selectionModelProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
@@ -4561,12 +4553,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
         operations.add(obj -> op.accept(obj.shapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#showingProperty() showingProperty} 
      * of the instance being constructed. 
@@ -4583,12 +4575,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.showingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#skinProperty() skinProperty} 
      * of the instance being constructed. 
@@ -4605,12 +4597,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> skinPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Skin<?>>> op) {
         operations.add(obj -> op.accept(obj.skinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
@@ -4627,12 +4619,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.snapToPixelProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#styleProperty() styleProperty} 
      * of the instance being constructed. 
@@ -4649,12 +4641,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
@@ -4671,12 +4663,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> tooltipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Tooltip>> op) {
         operations.add(obj -> op.accept(obj.tooltipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
@@ -4693,12 +4685,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
@@ -4715,12 +4707,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
@@ -4737,12 +4729,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#valueProperty() valueProperty} 
      * of the instance being constructed. 
@@ -4759,12 +4751,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
         operations.add(obj -> op.accept(obj.valueProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
@@ -4781,12 +4773,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> viewOrderPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.viewOrderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
@@ -4803,12 +4795,12 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -4825,8 +4817,7 @@ public class ChoiceBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ChoiceBoxBuilder<T> widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;

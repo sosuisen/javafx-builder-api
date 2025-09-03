@@ -27,7 +27,6 @@ public class TreeCellSkinBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.TreeCellSkin<T>>> operations = new java.util.ArrayList<>();
     private TreeCellSkinBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.skin.TreeCellSkin#TreeCellSkin(TreeCell) TreeCellSkin(TreeCell)}
      * and returns an instance of {@code TreeCellSkinBuilder<T>}.
@@ -85,7 +84,6 @@ public class TreeCellSkinBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class TreeCellSkinBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TreeCellSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -141,16 +140,17 @@ public class TreeCellSkinBuilder<T> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TreeCellSkin#setIndent(double) setIndent} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TreeCellSkinBuilder<T> indent(double value) {
         operations.add(obj -> obj.setIndent(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TreeCellSkin#getChildren()} method.
      * 
@@ -176,8 +176,6 @@ public class TreeCellSkinBuilder<T> {
         return this;
     }
 
-
-    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TreeCellSkin#cellSizeProperty() cellSizeProperty} 
      * of the instance being constructed. 
@@ -194,12 +192,12 @@ public class TreeCellSkinBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TreeCellSkinBuilder<T> cellSizePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.cellSizeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TreeCellSkin#indentProperty() indentProperty} 
      * of the instance being constructed. 
@@ -216,8 +214,7 @@ public class TreeCellSkinBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TreeCellSkinBuilder<T> indentPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.indentProperty()));
         return this;

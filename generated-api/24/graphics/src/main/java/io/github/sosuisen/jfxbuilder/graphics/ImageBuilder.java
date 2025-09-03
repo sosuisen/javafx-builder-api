@@ -27,7 +27,6 @@ public class ImageBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.image.Image>> operations = new java.util.ArrayList<>();
     private ImageBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.image.Image#Image(InputStream) Image(InputStream)}
      * and returns an instance of {@code ImageBuilder}.
@@ -40,7 +39,6 @@ public class ImageBuilder {
         builder.constructorArgs = new Object[]{is};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.image.Image#Image(InputStream, double, double, boolean, boolean) Image(InputStream, double, double, boolean, boolean)}
@@ -55,7 +53,6 @@ public class ImageBuilder {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.image.Image#Image(String) Image(String)}
      * and returns an instance of {@code ImageBuilder}.
@@ -68,7 +65,6 @@ public class ImageBuilder {
         builder.constructorArgs = new Object[]{url};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.image.Image#Image(String, boolean) Image(String, boolean)}
@@ -83,7 +79,6 @@ public class ImageBuilder {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.image.Image#Image(String, double, double, boolean, boolean) Image(String, double, double, boolean, boolean)}
      * and returns an instance of {@code ImageBuilder}.
@@ -96,7 +91,6 @@ public class ImageBuilder {
         builder.constructorArgs = new Object[]{url, requestedWidth, requestedHeight, preserveRatio, smooth};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.image.Image#Image(String, double, double, boolean, boolean, boolean) Image(String, double, double, boolean, boolean, boolean)}
@@ -153,7 +147,6 @@ public class ImageBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -198,6 +191,7 @@ public class ImageBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Image instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -208,7 +202,8 @@ public class ImageBuilder {
     public ImageBuilder apply(java.util.function.Consumer<javafx.scene.image.Image> func) {
         operations.add(func);
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.image.Image#errorProperty() errorProperty} 
      * of the instance being constructed. 
@@ -225,12 +220,12 @@ public class ImageBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ImageBuilder errorPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.errorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.image.Image#exceptionProperty() exceptionProperty} 
      * of the instance being constructed. 
@@ -247,12 +242,12 @@ public class ImageBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ImageBuilder exceptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<java.lang.Exception>> op) {
         operations.add(obj -> op.accept(obj.exceptionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.image.Image#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -269,12 +264,12 @@ public class ImageBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ImageBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.image.Image#progressProperty() progressProperty} 
      * of the instance being constructed. 
@@ -291,12 +286,12 @@ public class ImageBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ImageBuilder progressPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.progressProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.image.Image#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -313,8 +308,7 @@ public class ImageBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ImageBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;

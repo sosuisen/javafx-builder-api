@@ -58,9 +58,6 @@
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-@if(model.isPaneSubclass())
-        newInstance.getStyleClass().add("${model.styleClass()}");
-@endif
         return newInstance;
     }
 

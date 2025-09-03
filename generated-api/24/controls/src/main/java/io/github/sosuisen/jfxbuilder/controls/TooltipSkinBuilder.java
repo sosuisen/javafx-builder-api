@@ -27,7 +27,6 @@ public class TooltipSkinBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.TooltipSkin>> operations = new java.util.ArrayList<>();
     private TooltipSkinBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.skin.TooltipSkin#TooltipSkin(Tooltip) TooltipSkin(Tooltip)}
      * and returns an instance of {@code TooltipSkinBuilder}.
@@ -83,7 +82,6 @@ public class TooltipSkinBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class TooltipSkinBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TooltipSkin instance being constructed.
      * Most operations on the instance can be performed using this method.

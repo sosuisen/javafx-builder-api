@@ -69,7 +69,6 @@ public class TreeSortModeBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -114,6 +113,7 @@ public class TreeSortModeBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TreeSortMode instance being constructed.
      * Most operations on the instance can be performed using this method.

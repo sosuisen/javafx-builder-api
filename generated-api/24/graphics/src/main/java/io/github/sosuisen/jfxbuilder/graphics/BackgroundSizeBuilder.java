@@ -27,7 +27,6 @@ public class BackgroundSizeBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.layout.BackgroundSize>> operations = new java.util.ArrayList<>();
     private BackgroundSizeBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.BackgroundSize#BackgroundSize(double, double, boolean, boolean, boolean, boolean) BackgroundSize(double, double, boolean, boolean, boolean, boolean)}
      * and returns an instance of {@code BackgroundSizeBuilder}.
@@ -83,7 +82,6 @@ public class BackgroundSizeBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class BackgroundSizeBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the BackgroundSize instance being constructed.
      * Most operations on the instance can be performed using this method.

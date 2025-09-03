@@ -27,7 +27,6 @@ public class BackgroundPositionBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.layout.BackgroundPosition>> operations = new java.util.ArrayList<>();
     private BackgroundPositionBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.BackgroundPosition#BackgroundPosition(Side, double, boolean, Side, double, boolean) BackgroundPosition(Side, double, boolean, Side, double, boolean)}
      * and returns an instance of {@code BackgroundPositionBuilder}.
@@ -83,7 +82,6 @@ public class BackgroundPositionBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class BackgroundPositionBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the BackgroundPosition instance being constructed.
      * Most operations on the instance can be performed using this method.

@@ -17,10 +17,10 @@
      *
      * // Fluent API
      * var root = ${model.sourceClassSimpleName()}Builder.create(
-     * ${model.sourceClassSimpleName().replaceAll(".", " ")}                       ButtonBuilder.create()
-     * ${model.sourceClassSimpleName().replaceAll(".", " ")}                                    .${model.methodName()}(new Insets(10))
-     * ${model.sourceClassSimpleName().replaceAll(".", " ")}                                    .build())
-     * ${model.sourceClassSimpleName().replaceAll(".", " ")}                  .build();
+     *                  ButtonBuilder.create()
+     *                      .${model.methodName()}(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance

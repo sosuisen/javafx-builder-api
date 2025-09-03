@@ -27,14 +27,12 @@ public class TreeItemBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.TreeItem<T>>> operations = new java.util.ArrayList<>();
     private TreeItemBuilder() {}
     
-
     /**
      * Returns an instance of the {@code TreeItemBuilder<T>}.
      *
      * @return an instance of the {@code TreeItemBuilder<T>}.
      */
     public static <T> TreeItemBuilder<T> create() { return new TreeItemBuilder<T>(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TreeItem#TreeItem(Object) TreeItem(Object)}
@@ -48,7 +46,6 @@ public class TreeItemBuilder<T> {
         builder.constructorArgs = new Object[]{value};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.TreeItem#TreeItem(Object, Node) TreeItem(Object, Node)}
@@ -113,7 +110,6 @@ public class TreeItemBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -158,6 +154,7 @@ public class TreeItemBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TreeItem instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -169,36 +166,37 @@ public class TreeItemBuilder<T> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TreeItem#setExpanded(boolean) setExpanded} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TreeItemBuilder<T> expanded(boolean value) {
         operations.add(obj -> obj.setExpanded(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TreeItem#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TreeItemBuilder<T> graphic(javafx.scene.Node value) {
         operations.add(obj -> obj.setGraphic(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.TreeItem#setValue(java.lang.Object) setValue} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TreeItemBuilder<T> value(T value) {
         operations.add(obj -> obj.setValue(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeItem#getChildren()} method.
      * 
@@ -224,7 +222,6 @@ public class TreeItemBuilder<T> {
         return this;
     }
 
-
     /**
      * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.TreeItem#getChildren()} method.
      * 
@@ -246,7 +243,6 @@ public class TreeItemBuilder<T> {
         return builder.addChildren(col);
     }
 
-    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeItem#expandedProperty() expandedProperty} 
      * of the instance being constructed. 
@@ -263,12 +259,12 @@ public class TreeItemBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TreeItemBuilder<T> expandedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.expandedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TreeItem#graphicProperty() graphicProperty} 
      * of the instance being constructed. 
@@ -285,12 +281,12 @@ public class TreeItemBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TreeItemBuilder<T> graphicPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.graphicProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TreeItem#leafProperty() leafProperty} 
      * of the instance being constructed. 
@@ -307,12 +303,12 @@ public class TreeItemBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TreeItemBuilder<T> leafPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.leafProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TreeItem#parentProperty() parentProperty} 
      * of the instance being constructed. 
@@ -329,12 +325,12 @@ public class TreeItemBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TreeItemBuilder<T> parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TreeItem<T>>> op) {
         operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.TreeItem#valueProperty() valueProperty} 
      * of the instance being constructed. 
@@ -351,8 +347,7 @@ public class TreeItemBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TreeItemBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
         operations.add(obj -> op.accept(obj.valueProperty()));
         return this;

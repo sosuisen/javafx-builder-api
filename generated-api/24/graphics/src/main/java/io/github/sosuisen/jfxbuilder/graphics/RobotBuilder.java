@@ -27,7 +27,6 @@ public class RobotBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.robot.Robot>> operations = new java.util.ArrayList<>();
     private RobotBuilder() {}
     
-
     /**
      * Returns an instance of the {@code RobotBuilder}.
      *
@@ -83,7 +82,6 @@ public class RobotBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class RobotBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Robot instance being constructed.
      * Most operations on the instance can be performed using this method.

@@ -27,7 +27,6 @@ public class BorderBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.layout.Border>> operations = new java.util.ArrayList<>();
     private BorderBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.Border#Border(List, List) Border(List, List)}
      * and returns an instance of {@code BorderBuilder}.
@@ -40,7 +39,6 @@ public class BorderBuilder {
         builder.constructorArgs = new Object[]{strokes, images};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.Border#Border(BorderImage...) Border(BorderImage...)}
@@ -55,7 +53,6 @@ public class BorderBuilder {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.Border#Border(BorderStroke...) Border(BorderStroke...)}
      * and returns an instance of {@code BorderBuilder}.
@@ -68,7 +65,6 @@ public class BorderBuilder {
         builder.constructorArgs = new Object[]{strokes};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.Border#Border(BorderStroke..., BorderImage...) Border(BorderStroke..., BorderImage...)}
@@ -125,7 +121,6 @@ public class BorderBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -170,6 +165,7 @@ public class BorderBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Border instance being constructed.
      * Most operations on the instance can be performed using this method.

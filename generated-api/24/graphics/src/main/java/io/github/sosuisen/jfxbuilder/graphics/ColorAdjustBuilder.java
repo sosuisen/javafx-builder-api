@@ -27,14 +27,12 @@ public class ColorAdjustBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.effect.ColorAdjust>> operations = new java.util.ArrayList<>();
     private ColorAdjustBuilder() {}
     
-
     /**
      * Returns an instance of the {@code ColorAdjustBuilder}.
      *
      * @return an instance of the {@code ColorAdjustBuilder}.
      */
     public static ColorAdjustBuilder create() { return new ColorAdjustBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.ColorAdjust#ColorAdjust(double, double, double, double) ColorAdjust(double, double, double, double)}
@@ -97,7 +95,6 @@ public class ColorAdjustBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class ColorAdjustBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ColorAdjust instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -153,56 +151,57 @@ public class ColorAdjustBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.ColorAdjust#setBrightness(double) setBrightness} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ColorAdjustBuilder brightness(double value) {
         operations.add(obj -> obj.setBrightness(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.ColorAdjust#setContrast(double) setContrast} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ColorAdjustBuilder contrast(double value) {
         operations.add(obj -> obj.setContrast(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.ColorAdjust#setHue(double) setHue} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ColorAdjustBuilder hue(double value) {
         operations.add(obj -> obj.setHue(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.ColorAdjust#setInput(javafx.scene.effect.Effect) setInput} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ColorAdjustBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.ColorAdjust#setSaturation(double) setSaturation} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ColorAdjustBuilder saturation(double value) {
         operations.add(obj -> obj.setSaturation(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorAdjust#brightnessProperty() brightnessProperty} 
      * of the instance being constructed. 
@@ -219,12 +218,12 @@ public class ColorAdjustBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ColorAdjustBuilder brightnessPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.brightnessProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorAdjust#contrastProperty() contrastProperty} 
      * of the instance being constructed. 
@@ -241,12 +240,12 @@ public class ColorAdjustBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ColorAdjustBuilder contrastPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.contrastProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorAdjust#hueProperty() hueProperty} 
      * of the instance being constructed. 
@@ -263,12 +262,12 @@ public class ColorAdjustBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ColorAdjustBuilder huePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.hueProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorAdjust#inputProperty() inputProperty} 
      * of the instance being constructed. 
@@ -285,12 +284,12 @@ public class ColorAdjustBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ColorAdjustBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.ColorAdjust#saturationProperty() saturationProperty} 
      * of the instance being constructed. 
@@ -307,8 +306,7 @@ public class ColorAdjustBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ColorAdjustBuilder saturationPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.saturationProperty()));
         return this;

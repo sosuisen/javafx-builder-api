@@ -27,7 +27,6 @@ public class BorderImageBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.layout.BorderImage>> operations = new java.util.ArrayList<>();
     private BorderImageBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.BorderImage#BorderImage(Image, BorderWidths, Insets, BorderWidths, boolean, BorderRepeat, BorderRepeat) BorderImage(Image, BorderWidths, Insets, BorderWidths, boolean, BorderRepeat, BorderRepeat)}
      * and returns an instance of {@code BorderImageBuilder}.
@@ -83,7 +82,6 @@ public class BorderImageBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class BorderImageBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the BorderImage instance being constructed.
      * Most operations on the instance can be performed using this method.

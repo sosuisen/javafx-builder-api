@@ -27,7 +27,6 @@ public class CornerRadiiBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.layout.CornerRadii>> operations = new java.util.ArrayList<>();
     private CornerRadiiBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.CornerRadii#CornerRadii(double) CornerRadii(double)}
      * and returns an instance of {@code CornerRadiiBuilder}.
@@ -40,7 +39,6 @@ public class CornerRadiiBuilder {
         builder.constructorArgs = new Object[]{radius};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.CornerRadii#CornerRadii(double, boolean) CornerRadii(double, boolean)}
@@ -55,7 +53,6 @@ public class CornerRadiiBuilder {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.CornerRadii#CornerRadii(double, double, double, double, boolean) CornerRadii(double, double, double, double, boolean)}
      * and returns an instance of {@code CornerRadiiBuilder}.
@@ -68,7 +65,6 @@ public class CornerRadiiBuilder {
         builder.constructorArgs = new Object[]{topLeft, topRight, bottomRight, bottomLeft, asPercent};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.CornerRadii#CornerRadii(double, double, double, double, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) CornerRadii(double, double, double, double, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean)}
@@ -125,7 +121,6 @@ public class CornerRadiiBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -170,6 +165,7 @@ public class CornerRadiiBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the CornerRadii instance being constructed.
      * Most operations on the instance can be performed using this method.

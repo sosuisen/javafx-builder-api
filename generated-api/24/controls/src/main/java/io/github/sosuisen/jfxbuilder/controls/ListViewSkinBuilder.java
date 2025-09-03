@@ -27,7 +27,6 @@ public class ListViewSkinBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.ListViewSkin<T>>> operations = new java.util.ArrayList<>();
     private ListViewSkinBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.skin.ListViewSkin#ListViewSkin(ListView) ListViewSkin(ListView)}
      * and returns an instance of {@code ListViewSkinBuilder<T>}.
@@ -85,7 +84,6 @@ public class ListViewSkinBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class ListViewSkinBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ListViewSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -141,6 +140,7 @@ public class ListViewSkinBuilder<T> {
         operations.add(func);
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.ListViewSkin#getChildren()} method.
      * 
@@ -165,7 +165,4 @@ public class ListViewSkinBuilder<T> {
         });
         return this;
     }
-
-
-
 }

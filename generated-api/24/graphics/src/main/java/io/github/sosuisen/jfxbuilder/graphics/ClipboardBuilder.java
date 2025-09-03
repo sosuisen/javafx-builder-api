@@ -69,7 +69,6 @@ public class ClipboardBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -114,6 +113,7 @@ public class ClipboardBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Clipboard instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -125,12 +125,12 @@ public class ClipboardBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.input.Clipboard#setContent(java.util.Map) setContent} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ClipboardBuilder content(java.util.Map<javafx.scene.input.DataFormat, java.lang.Object> content) {
         operations.add(obj -> obj.setContent(content));
         return this;

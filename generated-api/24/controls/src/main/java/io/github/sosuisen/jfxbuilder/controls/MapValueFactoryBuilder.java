@@ -27,7 +27,6 @@ public class MapValueFactoryBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.cell.MapValueFactory<T>>> operations = new java.util.ArrayList<>();
     private MapValueFactoryBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.cell.MapValueFactory#MapValueFactory(Object) MapValueFactory(Object)}
      * and returns an instance of {@code MapValueFactoryBuilder<T>}.
@@ -85,7 +84,6 @@ public class MapValueFactoryBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class MapValueFactoryBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the MapValueFactory instance being constructed.
      * Most operations on the instance can be performed using this method.

@@ -69,7 +69,6 @@ public class DragboardBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -114,6 +113,7 @@ public class DragboardBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Dragboard instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -125,52 +125,52 @@ public class DragboardBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.input.Dragboard#setContent(java.util.Map) setContent} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DragboardBuilder content(java.util.Map<javafx.scene.input.DataFormat, java.lang.Object> content) {
         operations.add(obj -> obj.setContent(content));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.input.Dragboard#setDragView(javafx.scene.image.Image) setDragView} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DragboardBuilder dragView(javafx.scene.image.Image image) {
         operations.add(obj -> obj.setDragView(image));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.input.Dragboard#setDragView(javafx.scene.image.Image, double, double) setDragView} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DragboardBuilder dragView(javafx.scene.image.Image image, double offsetX, double offsetY) {
         operations.add(obj -> obj.setDragView(image, offsetX, offsetY));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.input.Dragboard#setDragViewOffsetX(double) setDragViewOffsetX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DragboardBuilder dragViewOffsetX(double offsetX) {
         operations.add(obj -> obj.setDragViewOffsetX(offsetX));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.input.Dragboard#setDragViewOffsetY(double) setDragViewOffsetY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DragboardBuilder dragViewOffsetY(double offsetY) {
         operations.add(obj -> obj.setDragViewOffsetY(offsetY));
         return this;

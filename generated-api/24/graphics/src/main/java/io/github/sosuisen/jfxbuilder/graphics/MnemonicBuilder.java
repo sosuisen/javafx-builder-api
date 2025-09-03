@@ -27,7 +27,6 @@ public class MnemonicBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.Mnemonic>> operations = new java.util.ArrayList<>();
     private MnemonicBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.Mnemonic#Mnemonic(Node, KeyCombination) Mnemonic(Node, KeyCombination)}
      * and returns an instance of {@code MnemonicBuilder}.
@@ -83,7 +82,6 @@ public class MnemonicBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class MnemonicBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Mnemonic instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -139,22 +138,22 @@ public class MnemonicBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.input.Mnemonic#setKeyCombination(javafx.scene.input.KeyCombination) setKeyCombination} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MnemonicBuilder keyCombination(javafx.scene.input.KeyCombination keyCombination) {
         operations.add(obj -> obj.setKeyCombination(keyCombination));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.input.Mnemonic#setNode(javafx.scene.Node) setNode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MnemonicBuilder node(javafx.scene.Node node) {
         operations.add(obj -> obj.setNode(node));
         return this;

@@ -27,7 +27,6 @@ public class MouseEventBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.MouseEvent>> operations = new java.util.ArrayList<>();
     private MouseEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.MouseEvent#MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
      * and returns an instance of {@code MouseEventBuilder}.
@@ -40,7 +39,6 @@ public class MouseEventBuilder {
         builder.constructorArgs = new Object[]{source, target, eventType, x, y, screenX, screenY, button, clickCount, shiftDown, controlDown, altDown, metaDown, primaryButtonDown, middleButtonDown, secondaryButtonDown, backButtonDown, forwardButtonDown, synthesized, popupTrigger, stillSincePress, pickResult};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.MouseEvent#MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
@@ -55,7 +53,6 @@ public class MouseEventBuilder {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.MouseEvent#MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
      * and returns an instance of {@code MouseEventBuilder}.
@@ -68,7 +65,6 @@ public class MouseEventBuilder {
         builder.constructorArgs = new Object[]{eventType, x, y, screenX, screenY, button, clickCount, shiftDown, controlDown, altDown, metaDown, primaryButtonDown, middleButtonDown, secondaryButtonDown, backButtonDown, forwardButtonDown, synthesized, popupTrigger, stillSincePress, pickResult};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.MouseEvent#MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
@@ -125,7 +121,6 @@ public class MouseEventBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -170,6 +165,7 @@ public class MouseEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the MouseEvent instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -181,12 +177,12 @@ public class MouseEventBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.input.MouseEvent#setDragDetect(boolean) setDragDetect} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  MouseEventBuilder dragDetect(boolean dragDetect) {
         operations.add(obj -> obj.setDragDetect(dragDetect));
         return this;

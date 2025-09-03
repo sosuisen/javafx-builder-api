@@ -27,7 +27,6 @@ public class BorderWidthsBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.layout.BorderWidths>> operations = new java.util.ArrayList<>();
     private BorderWidthsBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.BorderWidths#BorderWidths(double) BorderWidths(double)}
      * and returns an instance of {@code BorderWidthsBuilder}.
@@ -41,7 +40,6 @@ public class BorderWidthsBuilder {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.BorderWidths#BorderWidths(double, double, double, double) BorderWidths(double, double, double, double)}
      * and returns an instance of {@code BorderWidthsBuilder}.
@@ -54,7 +52,6 @@ public class BorderWidthsBuilder {
         builder.constructorArgs = new Object[]{top, right, bottom, left};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.BorderWidths#BorderWidths(double, double, double, double, boolean, boolean, boolean, boolean) BorderWidths(double, double, double, double, boolean, boolean, boolean, boolean)}
@@ -111,7 +108,6 @@ public class BorderWidthsBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -156,6 +152,7 @@ public class BorderWidthsBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the BorderWidths instance being constructed.
      * Most operations on the instance can be performed using this method.

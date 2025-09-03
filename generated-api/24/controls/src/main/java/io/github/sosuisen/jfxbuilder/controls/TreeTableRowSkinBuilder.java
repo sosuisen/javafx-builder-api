@@ -27,7 +27,6 @@ public class TreeTableRowSkinBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.TreeTableRowSkin<T>>> operations = new java.util.ArrayList<>();
     private TreeTableRowSkinBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.skin.TreeTableRowSkin#TreeTableRowSkin(TreeTableRow) TreeTableRowSkin(TreeTableRow)}
      * and returns an instance of {@code TreeTableRowSkinBuilder<T>}.
@@ -85,7 +84,6 @@ public class TreeTableRowSkinBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class TreeTableRowSkinBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TreeTableRowSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -141,16 +140,17 @@ public class TreeTableRowSkinBuilder<T> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.skin.TreeTableRowSkin#setIndent(double) setIndent} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  TreeTableRowSkinBuilder<T> indent(double value) {
         operations.add(obj -> obj.setIndent(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.TreeTableRowSkin#getChildren()} method.
      * 
@@ -176,8 +176,6 @@ public class TreeTableRowSkinBuilder<T> {
         return this;
     }
 
-
-    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TreeTableRowSkin#cellSizeProperty() cellSizeProperty} 
      * of the instance being constructed. 
@@ -194,12 +192,12 @@ public class TreeTableRowSkinBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TreeTableRowSkinBuilder<T> cellSizePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.cellSizeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TreeTableRowSkin#indentProperty() indentProperty} 
      * of the instance being constructed. 
@@ -216,8 +214,7 @@ public class TreeTableRowSkinBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public TreeTableRowSkinBuilder<T> indentPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.indentProperty()));
         return this;

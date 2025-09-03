@@ -27,14 +27,12 @@ public class ComboBoxBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.ComboBox<T>>> operations = new java.util.ArrayList<>();
     private ComboBoxBuilder() {}
     
-
     /**
      * Returns an instance of the {@code ComboBoxBuilder<T>}.
      *
      * @return an instance of the {@code ComboBoxBuilder<T>}.
      */
     public static <T> ComboBoxBuilder<T> create() { return new ComboBoxBuilder<T>(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.ComboBox#ComboBox(ObservableList) ComboBox(ObservableList)}
@@ -99,7 +97,6 @@ public class ComboBoxBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -144,6 +141,7 @@ public class ComboBoxBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ComboBox instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -160,1106 +158,1107 @@ public class ComboBoxBuilder<T> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> accessibleHelp(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> accessibleRole(javafx.scene.AccessibleRole value) {
         operations.add(obj -> obj.setAccessibleRole(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> accessibleRoleDescription(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> accessibleText(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> background(javafx.scene.layout.Background value) {
         operations.add(obj -> obj.setBackground(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> blendMode(javafx.scene.effect.BlendMode value) {
         operations.add(obj -> obj.setBlendMode(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> border(javafx.scene.layout.Border value) {
         operations.add(obj -> obj.setBorder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setButtonCell(javafx.scene.control.ListCell) setButtonCell} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> buttonCell(javafx.scene.control.ListCell<T> value) {
         operations.add(obj -> obj.setButtonCell(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> cache(boolean value) {
         operations.add(obj -> obj.setCache(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> cacheHint(javafx.scene.CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> cacheShape(boolean value) {
         operations.add(obj -> obj.setCacheShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setCellFactory(javafx.util.Callback) setCellFactory} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> cellFactory(javafx.util.Callback<javafx.scene.control.ListView<T>, javafx.scene.control.ListCell<T>> value) {
         operations.add(obj -> obj.setCellFactory(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> centerShape(boolean value) {
         operations.add(obj -> obj.setCenterShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> clip(javafx.scene.Node value) {
         operations.add(obj -> obj.setClip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> contextMenu(javafx.scene.control.ContextMenu value) {
         operations.add(obj -> obj.setContextMenu(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setConverter(javafx.util.StringConverter) setConverter} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> converter(javafx.util.StringConverter<T> value) {
         operations.add(obj -> obj.setConverter(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> cursor(javafx.scene.Cursor value) {
         operations.add(obj -> obj.setCursor(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> depthTest(javafx.scene.DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setEditable(boolean) setEditable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> editable(boolean value) {
         operations.add(obj -> obj.setEditable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> effect(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setEffect(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> eventDispatcher(javafx.event.EventDispatcher value) {
         operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> focusTraversable(boolean value) {
         operations.add(obj -> obj.setFocusTraversable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
         operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setItems(javafx.collections.ObservableList) setItems} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> items(javafx.collections.ObservableList<T> value) {
         operations.add(obj -> obj.setItems(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> layoutX(double value) {
         operations.add(obj -> obj.setLayoutX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> layoutY(double value) {
         operations.add(obj -> obj.setLayoutY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> managed(boolean value) {
         operations.add(obj -> obj.setManaged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> maxHeight(double value) {
         operations.add(obj -> obj.setMaxHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> maxSize(double maxWidth, double maxHeight) {
         operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> maxWidth(double value) {
         operations.add(obj -> obj.setMaxWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setMinHeight(double) setMinHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> minHeight(double value) {
         operations.add(obj -> obj.setMinHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setMinSize(double, double) setMinSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> minSize(double minWidth, double minHeight) {
         operations.add(obj -> obj.setMinSize(minWidth, minHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setMinWidth(double) setMinWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> minWidth(double value) {
         operations.add(obj -> obj.setMinWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> mouseTransparent(boolean value) {
         operations.add(obj -> obj.setMouseTransparent(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> nodeOrientation(javafx.geometry.NodeOrientation orientation) {
         operations.add(obj -> obj.setNodeOrientation(orientation));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
         operations.add(obj -> obj.setOnAction(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
         operations.add(obj -> obj.setOnContextMenuRequested(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnDragDetected(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDone(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDropped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onHidden(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnHidden(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onHiding(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnHiding(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
         operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onKeyPressed(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseClicked(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseDragged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onMouseEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMousePressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onScroll(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScroll(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onShowing(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnShowing(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onShown(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnShown(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onSwipeRight(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeRight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onTouchMoved(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchStationary(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoom(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> opacity(double value) {
         operations.add(obj -> obj.setOpacity(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> opaqueInsets(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setOpaqueInsets(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> padding(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setPadding(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> pickOnBounds(boolean value) {
         operations.add(obj -> obj.setPickOnBounds(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setPlaceholder(javafx.scene.Node) setPlaceholder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> placeholder(javafx.scene.Node value) {
         operations.add(obj -> obj.setPlaceholder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> prefHeight(double value) {
         operations.add(obj -> obj.setPrefHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> prefSize(double prefWidth, double prefHeight) {
         operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> prefWidth(double value) {
         operations.add(obj -> obj.setPrefWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setPromptText(java.lang.String) setPromptText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> promptText(java.lang.String value) {
         operations.add(obj -> obj.setPromptText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> rotate(double value) {
         operations.add(obj -> obj.setRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> rotationAxis(javafx.geometry.Point3D value) {
         operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> scaleShape(boolean value) {
         operations.add(obj -> obj.setScaleShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> scaleX(double value) {
         operations.add(obj -> obj.setScaleX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> scaleY(double value) {
         operations.add(obj -> obj.setScaleY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> scaleZ(double value) {
         operations.add(obj -> obj.setScaleZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setSelectionModel(javafx.scene.control.SingleSelectionModel) setSelectionModel} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> selectionModel(javafx.scene.control.SingleSelectionModel<T> value) {
         operations.add(obj -> obj.setSelectionModel(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> shape(javafx.scene.shape.Shape value) {
         operations.add(obj -> obj.setShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> skin(javafx.scene.control.Skin<?> value) {
         operations.add(obj -> obj.setSkin(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> snapToPixel(boolean value) {
         operations.add(obj -> obj.setSnapToPixel(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> tooltip(javafx.scene.control.Tooltip value) {
         operations.add(obj -> obj.setTooltip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> translateX(double value) {
         operations.add(obj -> obj.setTranslateX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> translateY(double value) {
         operations.add(obj -> obj.setTranslateY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> translateZ(double value) {
         operations.add(obj -> obj.setTranslateZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setValue(java.lang.Object) setValue} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> value(T value) {
         operations.add(obj -> obj.setValue(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> viewOrder(double value) {
         operations.add(obj -> obj.setViewOrder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.ComboBox#setVisibleRowCount(int) setVisibleRowCount} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  ComboBoxBuilder<T> visibleRowCount(int value) {
         operations.add(obj -> obj.setVisibleRowCount(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ComboBox#getItems()} method.
      * 
@@ -1285,7 +1284,6 @@ public class ComboBoxBuilder<T> {
         return this;
     }
 
-
     /**
      * Creates an instance of the builder, then call the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ComboBox#getItems()} method.
      * 
@@ -1306,7 +1304,6 @@ public class ComboBoxBuilder<T> {
         ComboBoxBuilder<T> builder = new ComboBoxBuilder<T>();
         return builder.addItems(col);
     }
-
 
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ComboBox#getStyleClass()} method.
@@ -1333,8 +1330,6 @@ public class ComboBoxBuilder<T> {
         return this;
     }
 
-
-
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ComboBox#getStylesheets()} method.
      * 
@@ -1360,8 +1355,6 @@ public class ComboBoxBuilder<T> {
         return this;
     }
 
-
-
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.ComboBox#getTransforms()} method.
      * 
@@ -1385,10 +1378,7 @@ public class ComboBoxBuilder<T> {
             obj.getTransforms().addAll(col);
         });
         return this;
-    }
-
-
-    
+    }    
     /**
      * Utility setter to add CSS string for this ComboBox's contents.
      * For example:
@@ -1405,6 +1395,7 @@ public class ComboBoxBuilder<T> {
                 java.util.Base64.getEncoder().encodeToString(css.getBytes())));
         return this;
     }
+
     /**
      * Invokes the {@link javafx.scene.layout.AnchorPane#setBottomAnchor(Node child, java.lang.Double value) AnchorPane.setBottomAnchor(Node, Double)} 
      * using a fluent API.
@@ -1420,10 +1411,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .bottomAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .bottomAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1448,10 +1439,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .leftAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .leftAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1476,10 +1467,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .rightAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .rightAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1504,10 +1495,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .topAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .topAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1532,10 +1523,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .alignmentInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1560,10 +1551,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .marginInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1588,10 +1579,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = FlowPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInFlowPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInFlowPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1616,10 +1607,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1644,10 +1635,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1672,10 +1663,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1700,10 +1691,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1728,10 +1719,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1756,10 +1747,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1784,10 +1775,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1812,10 +1803,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillHeightInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillHeightInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1840,10 +1831,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillWidthInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillWidthInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1868,10 +1859,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1896,10 +1887,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1924,10 +1915,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1952,10 +1943,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1980,10 +1971,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2008,10 +1999,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2036,10 +2027,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2064,10 +2055,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .hGrowInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2092,10 +2083,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2120,10 +2111,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .alignmentInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2148,10 +2139,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .marginInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2176,10 +2167,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .alignmentInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2204,10 +2195,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2232,10 +2223,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2260,10 +2251,10 @@ public class ComboBoxBuilder<T> {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .vGrowInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2272,7 +2263,8 @@ public class ComboBoxBuilder<T> {
         operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
         return this;
     }
-    
+
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
@@ -2289,12 +2281,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
@@ -2311,12 +2303,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
@@ -2333,12 +2325,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
@@ -2355,12 +2347,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleTextProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#armedProperty() armedProperty} 
      * of the instance being constructed. 
@@ -2377,12 +2369,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> armedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.armedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
@@ -2399,12 +2391,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> backgroundPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Background>> op) {
         operations.add(obj -> op.accept(obj.backgroundProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
@@ -2421,12 +2413,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
         operations.add(obj -> op.accept(obj.blendModeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#borderProperty() borderProperty} 
      * of the instance being constructed. 
@@ -2443,12 +2435,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
         operations.add(obj -> op.accept(obj.borderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
@@ -2465,12 +2457,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
@@ -2487,12 +2479,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInParentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#buttonCellProperty() buttonCellProperty} 
      * of the instance being constructed. 
@@ -2509,12 +2501,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> buttonCellPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ListCell<T>>> op) {
         operations.add(obj -> op.accept(obj.buttonCellProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
@@ -2531,12 +2523,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
         operations.add(obj -> op.accept(obj.cacheHintProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
@@ -2553,12 +2545,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
@@ -2575,12 +2567,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#cellFactoryProperty() cellFactoryProperty} 
      * of the instance being constructed. 
@@ -2597,12 +2589,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> cellFactoryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.control.ListView<T>, javafx.scene.control.ListCell<T>>>> op) {
         operations.add(obj -> op.accept(obj.cellFactoryProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
@@ -2619,12 +2611,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.centerShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#clipProperty() clipProperty} 
      * of the instance being constructed. 
@@ -2641,12 +2633,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
@@ -2663,12 +2655,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> contextMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.contextMenuProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#converterProperty() converterProperty} 
      * of the instance being constructed. 
@@ -2685,12 +2677,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<T>>> op) {
         operations.add(obj -> op.accept(obj.converterProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
@@ -2707,12 +2699,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
         operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
@@ -2729,12 +2721,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
         operations.add(obj -> op.accept(obj.depthTestProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#disableProperty() disableProperty} 
      * of the instance being constructed. 
@@ -2751,12 +2743,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
@@ -2773,12 +2765,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disabledProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#editableProperty() editableProperty} 
      * of the instance being constructed. 
@@ -2795,12 +2787,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> editablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.editableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#editorProperty() editorProperty} 
      * of the instance being constructed. 
@@ -2817,12 +2809,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> editorPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TextField>> op) {
         operations.add(obj -> op.accept(obj.editorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#effectProperty() effectProperty} 
      * of the instance being constructed. 
@@ -2839,12 +2831,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.effectProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
@@ -2861,12 +2853,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
@@ -2883,12 +2875,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
         operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
@@ -2905,12 +2897,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusTraversableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
@@ -2927,12 +2919,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
@@ -2949,12 +2941,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
@@ -2971,12 +2963,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -2993,12 +2985,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
@@ -3015,12 +3007,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> hoverPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.hoverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#idProperty() idProperty} 
      * of the instance being constructed. 
@@ -3037,12 +3029,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
@@ -3059,12 +3051,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
         operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
@@ -3081,12 +3073,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> insetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.insetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#itemsProperty() itemsProperty} 
      * of the instance being constructed. 
@@ -3103,12 +3095,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> itemsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.collections.ObservableList<T>>> op) {
         operations.add(obj -> op.accept(obj.itemsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
@@ -3125,12 +3117,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
@@ -3147,12 +3139,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
@@ -3169,12 +3161,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> layoutYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
@@ -3191,12 +3183,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
@@ -3213,12 +3205,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#managedProperty() managedProperty} 
      * of the instance being constructed. 
@@ -3235,12 +3227,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.managedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
@@ -3257,12 +3249,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
@@ -3279,12 +3271,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
@@ -3301,12 +3293,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
@@ -3323,12 +3315,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
@@ -3345,12 +3337,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
@@ -3367,12 +3359,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> needsLayoutPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.needsLayoutProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
@@ -3389,12 +3381,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
@@ -3411,12 +3403,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
         operations.add(obj -> op.accept(obj.onActionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
@@ -3433,12 +3425,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
         operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
@@ -3455,12 +3447,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
@@ -3477,12 +3469,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDoneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
@@ -3499,12 +3491,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3521,12 +3513,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
@@ -3543,12 +3535,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
@@ -3565,12 +3557,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
@@ -3587,12 +3579,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onHiddenPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onHiddenProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
@@ -3609,12 +3601,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onHidingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onHidingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
@@ -3631,12 +3623,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
         operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
@@ -3653,12 +3645,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
@@ -3675,12 +3667,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
@@ -3697,12 +3689,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
@@ -3719,12 +3711,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3741,12 +3733,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
@@ -3763,12 +3755,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
@@ -3785,12 +3777,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
@@ -3807,12 +3799,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
@@ -3829,12 +3821,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
@@ -3851,12 +3843,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
@@ -3873,12 +3865,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
@@ -3895,12 +3887,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
@@ -3917,12 +3909,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMousePressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
@@ -3939,12 +3931,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
@@ -3961,12 +3953,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
@@ -3983,12 +3975,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
@@ -4005,12 +3997,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
@@ -4027,12 +4019,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
@@ -4049,12 +4041,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
@@ -4071,12 +4063,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
@@ -4093,12 +4085,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onShowingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onShowingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
@@ -4115,12 +4107,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onShownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onShownProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
@@ -4137,12 +4129,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
@@ -4159,12 +4151,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
@@ -4181,12 +4173,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
@@ -4203,12 +4195,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onSwipeUpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeUpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
@@ -4225,12 +4217,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
@@ -4247,12 +4239,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
@@ -4269,12 +4261,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
@@ -4291,12 +4283,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
@@ -4313,12 +4305,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
@@ -4335,12 +4327,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
@@ -4357,12 +4349,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
@@ -4379,12 +4371,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.opacityProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
@@ -4401,12 +4393,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
@@ -4423,12 +4415,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.paddingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#parentProperty() parentProperty} 
      * of the instance being constructed. 
@@ -4445,12 +4437,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Parent>> op) {
         operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
@@ -4467,12 +4459,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> pickOnBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pickOnBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#placeholderProperty() placeholderProperty} 
      * of the instance being constructed. 
@@ -4489,12 +4481,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> placeholderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.placeholderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
@@ -4511,12 +4503,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
@@ -4533,12 +4525,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
@@ -4555,12 +4547,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> pressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#promptTextProperty() promptTextProperty} 
      * of the instance being constructed. 
@@ -4577,12 +4569,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> promptTextPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.promptTextProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
@@ -4599,12 +4591,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
@@ -4621,12 +4613,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
         operations.add(obj -> op.accept(obj.rotationAxisProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
@@ -4643,12 +4635,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.scaleShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
@@ -4665,12 +4657,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
@@ -4687,12 +4679,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
@@ -4709,12 +4701,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
@@ -4731,12 +4723,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
         operations.add(obj -> op.accept(obj.sceneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#selectionModelProperty() selectionModelProperty} 
      * of the instance being constructed. 
@@ -4753,12 +4745,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> selectionModelPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.SingleSelectionModel<T>>> op) {
         operations.add(obj -> op.accept(obj.selectionModelProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
@@ -4775,12 +4767,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
         operations.add(obj -> op.accept(obj.shapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#showingProperty() showingProperty} 
      * of the instance being constructed. 
@@ -4797,12 +4789,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.showingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#skinProperty() skinProperty} 
      * of the instance being constructed. 
@@ -4819,12 +4811,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> skinPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Skin<?>>> op) {
         operations.add(obj -> op.accept(obj.skinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
@@ -4841,12 +4833,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.snapToPixelProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#styleProperty() styleProperty} 
      * of the instance being constructed. 
@@ -4863,12 +4855,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
@@ -4885,12 +4877,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> tooltipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Tooltip>> op) {
         operations.add(obj -> op.accept(obj.tooltipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
@@ -4907,12 +4899,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
@@ -4929,12 +4921,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
@@ -4951,12 +4943,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#valueProperty() valueProperty} 
      * of the instance being constructed. 
@@ -4973,12 +4965,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
         operations.add(obj -> op.accept(obj.valueProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
@@ -4995,12 +4987,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> viewOrderPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.viewOrderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
@@ -5017,12 +5009,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#visibleRowCountProperty() visibleRowCountProperty} 
      * of the instance being constructed. 
@@ -5039,12 +5031,12 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> visibleRowCountPropertyApply(java.util.function.Consumer<javafx.beans.property.IntegerProperty> op) {
         operations.add(obj -> op.accept(obj.visibleRowCountProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.ComboBox#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -5061,8 +5053,7 @@ public class ComboBoxBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public ComboBoxBuilder<T> widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;

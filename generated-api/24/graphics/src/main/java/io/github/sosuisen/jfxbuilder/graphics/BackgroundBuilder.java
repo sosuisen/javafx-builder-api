@@ -27,7 +27,6 @@ public class BackgroundBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.layout.Background>> operations = new java.util.ArrayList<>();
     private BackgroundBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.Background#Background(List, List) Background(List, List)}
      * and returns an instance of {@code BackgroundBuilder}.
@@ -40,7 +39,6 @@ public class BackgroundBuilder {
         builder.constructorArgs = new Object[]{fills, images};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.Background#Background(BackgroundFill...) Background(BackgroundFill...)}
@@ -55,7 +53,6 @@ public class BackgroundBuilder {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.Background#Background(BackgroundFill..., BackgroundImage...) Background(BackgroundFill..., BackgroundImage...)}
      * and returns an instance of {@code BackgroundBuilder}.
@@ -68,7 +65,6 @@ public class BackgroundBuilder {
         builder.constructorArgs = new Object[]{fills, images};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.Background#Background(BackgroundImage...) Background(BackgroundImage...)}
@@ -125,7 +121,6 @@ public class BackgroundBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -170,6 +165,7 @@ public class BackgroundBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Background instance being constructed.
      * Most operations on the instance can be performed using this method.

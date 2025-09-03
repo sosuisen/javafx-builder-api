@@ -27,14 +27,12 @@ public class DatePickerBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.DatePicker>> operations = new java.util.ArrayList<>();
     private DatePickerBuilder() {}
     
-
     /**
      * Returns an instance of the {@code DatePickerBuilder}.
      *
      * @return an instance of the {@code DatePickerBuilder}.
      */
     public static DatePickerBuilder create() { return new DatePickerBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.DatePicker#DatePicker(LocalDate) DatePicker(LocalDate)}
@@ -97,7 +95,6 @@ public class DatePickerBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class DatePickerBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the DatePicker instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -158,1076 +156,1077 @@ public class DatePickerBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder accessibleHelp(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleHelp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder accessibleRole(javafx.scene.AccessibleRole value) {
         operations.add(obj -> obj.setAccessibleRole(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder accessibleRoleDescription(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleRoleDescription(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder accessibleText(java.lang.String value) {
         operations.add(obj -> obj.setAccessibleText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder background(javafx.scene.layout.Background value) {
         operations.add(obj -> obj.setBackground(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder blendMode(javafx.scene.effect.BlendMode value) {
         operations.add(obj -> obj.setBlendMode(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder border(javafx.scene.layout.Border value) {
         operations.add(obj -> obj.setBorder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setCache(boolean) setCache} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder cache(boolean value) {
         operations.add(obj -> obj.setCache(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder cacheHint(javafx.scene.CacheHint value) {
         operations.add(obj -> obj.setCacheHint(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder cacheShape(boolean value) {
         operations.add(obj -> obj.setCacheShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder centerShape(boolean value) {
         operations.add(obj -> obj.setCenterShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setChronology(java.time.chrono.Chronology) setChronology} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder chronology(java.time.chrono.Chronology value) {
         operations.add(obj -> obj.setChronology(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder clip(javafx.scene.Node value) {
         operations.add(obj -> obj.setClip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder contextMenu(javafx.scene.control.ContextMenu value) {
         operations.add(obj -> obj.setContextMenu(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setConverter(javafx.util.StringConverter) setConverter} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder converter(javafx.util.StringConverter<java.time.LocalDate> value) {
         operations.add(obj -> obj.setConverter(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder cursor(javafx.scene.Cursor value) {
         operations.add(obj -> obj.setCursor(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setDayCellFactory(javafx.util.Callback) setDayCellFactory} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder dayCellFactory(javafx.util.Callback<javafx.scene.control.DatePicker, javafx.scene.control.DateCell> value) {
         operations.add(obj -> obj.setDayCellFactory(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder depthTest(javafx.scene.DepthTest value) {
         operations.add(obj -> obj.setDepthTest(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setDisable(boolean) setDisable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder disable(boolean value) {
         operations.add(obj -> obj.setDisable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setEditable(boolean) setEditable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder editable(boolean value) {
         operations.add(obj -> obj.setEditable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder effect(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setEffect(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder eventDispatcher(javafx.event.EventDispatcher value) {
         operations.add(obj -> obj.setEventDispatcher(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder focusTraversable(boolean value) {
         operations.add(obj -> obj.setFocusTraversable(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setId(java.lang.String) setId} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder id(java.lang.String value) {
         operations.add(obj -> obj.setId(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder inputMethodRequests(javafx.scene.input.InputMethodRequests value) {
         operations.add(obj -> obj.setInputMethodRequests(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setLayoutX(double) setLayoutX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder layoutX(double value) {
         operations.add(obj -> obj.setLayoutX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setLayoutY(double) setLayoutY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder layoutY(double value) {
         operations.add(obj -> obj.setLayoutY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setManaged(boolean) setManaged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder managed(boolean value) {
         operations.add(obj -> obj.setManaged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder maxHeight(double value) {
         operations.add(obj -> obj.setMaxHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder maxSize(double maxWidth, double maxHeight) {
         operations.add(obj -> obj.setMaxSize(maxWidth, maxHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder maxWidth(double value) {
         operations.add(obj -> obj.setMaxWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setMinHeight(double) setMinHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder minHeight(double value) {
         operations.add(obj -> obj.setMinHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setMinSize(double, double) setMinSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder minSize(double minWidth, double minHeight) {
         operations.add(obj -> obj.setMinSize(minWidth, minHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setMinWidth(double) setMinWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder minWidth(double value) {
         operations.add(obj -> obj.setMinWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder mouseTransparent(boolean value) {
         operations.add(obj -> obj.setMouseTransparent(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder nodeOrientation(javafx.geometry.NodeOrientation orientation) {
         operations.add(obj -> obj.setNodeOrientation(orientation));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onAction(javafx.event.EventHandler<javafx.event.ActionEvent> value) {
         operations.add(obj -> obj.setOnAction(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onContextMenuRequested(javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent> value) {
         operations.add(obj -> obj.setOnContextMenuRequested(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onDragDetected(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnDragDetected(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onDragDone(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDone(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onDragDropped(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragDropped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onDragEntered(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onDragExited(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onDragOver(javafx.event.EventHandler<? super javafx.scene.input.DragEvent> value) {
         operations.add(obj -> obj.setOnDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onHidden(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnHidden(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onHiding(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnHiding(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onInputMethodTextChanged(javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent> value) {
         operations.add(obj -> obj.setOnInputMethodTextChanged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onKeyPressed(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onKeyReleased(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onKeyTyped(javafx.event.EventHandler<? super javafx.scene.input.KeyEvent> value) {
         operations.add(obj -> obj.setOnKeyTyped(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onMouseClicked(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseClicked(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onMouseDragEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onMouseDragExited(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onMouseDragOver(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragOver(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onMouseDragReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent> value) {
         operations.add(obj -> obj.setOnMouseDragReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onMouseDragged(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseDragged(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onMouseEntered(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseEntered(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onMouseExited(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseExited(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onMouseMoved(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onMousePressed(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMousePressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onMouseReleased(javafx.event.EventHandler<? super javafx.scene.input.MouseEvent> value) {
         operations.add(obj -> obj.setOnMouseReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onRotate(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onRotationFinished(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onRotationStarted(javafx.event.EventHandler<? super javafx.scene.input.RotateEvent> value) {
         operations.add(obj -> obj.setOnRotationStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onScroll(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScroll(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onScrollFinished(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onScrollStarted(javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent> value) {
         operations.add(obj -> obj.setOnScrollStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onShowing(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnShowing(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onShown(javafx.event.EventHandler<javafx.event.Event> value) {
         operations.add(obj -> obj.setOnShown(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onSwipeDown(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeDown(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onSwipeLeft(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeLeft(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onSwipeRight(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeRight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onSwipeUp(javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent> value) {
         operations.add(obj -> obj.setOnSwipeUp(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onTouchMoved(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchMoved(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onTouchPressed(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchPressed(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onTouchReleased(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchReleased(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onTouchStationary(javafx.event.EventHandler<? super javafx.scene.input.TouchEvent> value) {
         operations.add(obj -> obj.setOnTouchStationary(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onZoom(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoom(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onZoomFinished(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomFinished(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder onZoomStarted(javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent> value) {
         operations.add(obj -> obj.setOnZoomStarted(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOpacity(double) setOpacity} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder opacity(double value) {
         operations.add(obj -> obj.setOpacity(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder opaqueInsets(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setOpaqueInsets(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder padding(javafx.geometry.Insets value) {
         operations.add(obj -> obj.setPadding(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder pickOnBounds(boolean value) {
         operations.add(obj -> obj.setPickOnBounds(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder prefHeight(double value) {
         operations.add(obj -> obj.setPrefHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder prefSize(double prefWidth, double prefHeight) {
         operations.add(obj -> obj.setPrefSize(prefWidth, prefHeight));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder prefWidth(double value) {
         operations.add(obj -> obj.setPrefWidth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setPromptText(java.lang.String) setPromptText} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder promptText(java.lang.String value) {
         operations.add(obj -> obj.setPromptText(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setRotate(double) setRotate} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder rotate(double value) {
         operations.add(obj -> obj.setRotate(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder rotationAxis(javafx.geometry.Point3D value) {
         operations.add(obj -> obj.setRotationAxis(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder scaleShape(boolean value) {
         operations.add(obj -> obj.setScaleShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder scaleX(double value) {
         operations.add(obj -> obj.setScaleX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder scaleY(double value) {
         operations.add(obj -> obj.setScaleY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setScaleZ(double) setScaleZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder scaleZ(double value) {
         operations.add(obj -> obj.setScaleZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder shape(javafx.scene.shape.Shape value) {
         operations.add(obj -> obj.setShape(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setShowWeekNumbers(boolean) setShowWeekNumbers} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder showWeekNumbers(boolean value) {
         operations.add(obj -> obj.setShowWeekNumbers(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder skin(javafx.scene.control.Skin<?> value) {
         operations.add(obj -> obj.setSkin(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder snapToPixel(boolean value) {
         operations.add(obj -> obj.setSnapToPixel(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setStyle(java.lang.String) setStyle} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder style(java.lang.String value) {
         operations.add(obj -> obj.setStyle(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder tooltip(javafx.scene.control.Tooltip value) {
         operations.add(obj -> obj.setTooltip(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setTranslateX(double) setTranslateX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder translateX(double value) {
         operations.add(obj -> obj.setTranslateX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setTranslateY(double) setTranslateY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder translateY(double value) {
         operations.add(obj -> obj.setTranslateY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder translateZ(double value) {
         operations.add(obj -> obj.setTranslateZ(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder userData(java.lang.Object value) {
         operations.add(obj -> obj.setUserData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setValue(java.lang.Object) setValue} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder value(java.time.LocalDate value) {
         operations.add(obj -> obj.setValue(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setViewOrder(double) setViewOrder} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder viewOrder(double value) {
         operations.add(obj -> obj.setViewOrder(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.DatePicker#setVisible(boolean) setVisible} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DatePickerBuilder visible(boolean value) {
         operations.add(obj -> obj.setVisible(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DatePicker#getStyleClass()} method.
      * 
@@ -1252,8 +1251,6 @@ public class DatePickerBuilder {
         });
         return this;
     }
-
-
 
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DatePicker#getStylesheets()} method.
@@ -1280,8 +1277,6 @@ public class DatePickerBuilder {
         return this;
     }
 
-
-
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.DatePicker#getTransforms()} method.
      * 
@@ -1305,10 +1300,7 @@ public class DatePickerBuilder {
             obj.getTransforms().addAll(col);
         });
         return this;
-    }
-
-
-    
+    }    
     /**
      * Utility setter to add CSS string for this DatePicker's contents.
      * For example:
@@ -1325,6 +1317,7 @@ public class DatePickerBuilder {
                 java.util.Base64.getEncoder().encodeToString(css.getBytes())));
         return this;
     }
+
     /**
      * Invokes the {@link javafx.scene.layout.AnchorPane#setBottomAnchor(Node child, java.lang.Double value) AnchorPane.setBottomAnchor(Node, Double)} 
      * using a fluent API.
@@ -1340,10 +1333,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .bottomAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .bottomAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1368,10 +1361,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .leftAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .leftAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1396,10 +1389,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .rightAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .rightAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1424,10 +1417,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = AnchorPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .topAnchorInAnchorPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .topAnchorInAnchorPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1452,10 +1445,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .alignmentInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1480,10 +1473,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = BorderPaneBuilder.create(
-     *                                  ButtonBuilder.create()
-     *                                               .marginInBorderPane(new Insets(10))
-     *                                               .build())
-     *                             .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInBorderPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1508,10 +1501,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = FlowPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInFlowPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInFlowPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1536,10 +1529,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1564,10 +1557,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .columnSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .columnSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1592,10 +1585,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1620,10 +1613,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1648,10 +1641,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1676,10 +1669,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1704,10 +1697,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .constraintsInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .constraintsInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1732,10 +1725,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillHeightInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillHeightInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1760,10 +1753,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .fillWidthInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .fillWidthInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1788,10 +1781,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1816,10 +1809,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .hGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1844,10 +1837,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1872,10 +1865,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowIndexInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowIndexInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1900,10 +1893,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .rowSpanInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .rowSpanInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1928,10 +1921,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vAlignmentInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vAlignmentInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1956,10 +1949,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = GridPaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .vGrowInGridPane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInGridPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -1984,10 +1977,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .hGrowInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .hGrowInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2012,10 +2005,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = HBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInHBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInHBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2040,10 +2033,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .alignmentInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2068,10 +2061,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = StackPaneBuilder.create(
-     *                                 ButtonBuilder.create()
-     *                                              .marginInStackPane(new Insets(10))
-     *                                              .build())
-     *                            .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInStackPane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2096,10 +2089,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .alignmentInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .alignmentInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2124,10 +2117,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = TilePaneBuilder.create(
-     *                                ButtonBuilder.create()
-     *                                             .marginInTilePane(new Insets(10))
-     *                                             .build())
-     *                           .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInTilePane(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2152,10 +2145,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .marginInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .marginInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2180,10 +2173,10 @@ public class DatePickerBuilder {
      *
      * // Fluent API
      * var root = VBoxBuilder.create(
-     *                            ButtonBuilder.create()
-     *                                         .vGrowInVBox(new Insets(10))
-     *                                         .build())
-     *                       .build();
+     *                  ButtonBuilder.create()
+     *                      .vGrowInVBox(new Insets(10))
+     *                      .build())
+     *                .build();
      * }</pre>
      *
      * @return builder instance
@@ -2192,7 +2185,8 @@ public class DatePickerBuilder {
         operations.add(obj -> javafx.scene.layout.VBox.setVgrow(obj, value));
         return this;
     }
-    
+
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#accessibleHelpProperty() accessibleHelpProperty} 
      * of the instance being constructed. 
@@ -2209,12 +2203,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder accessibleHelpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleHelpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
      * of the instance being constructed. 
@@ -2231,12 +2225,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder accessibleRoleDescriptionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleDescriptionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#accessibleRoleProperty() accessibleRoleProperty} 
      * of the instance being constructed. 
@@ -2253,12 +2247,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder accessibleRolePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.AccessibleRole>> op) {
         operations.add(obj -> op.accept(obj.accessibleRoleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#accessibleTextProperty() accessibleTextProperty} 
      * of the instance being constructed. 
@@ -2275,12 +2269,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder accessibleTextPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.lang.String>> op) {
         operations.add(obj -> op.accept(obj.accessibleTextProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#armedProperty() armedProperty} 
      * of the instance being constructed. 
@@ -2297,12 +2291,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder armedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.armedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#backgroundProperty() backgroundProperty} 
      * of the instance being constructed. 
@@ -2319,12 +2313,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder backgroundPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Background>> op) {
         operations.add(obj -> op.accept(obj.backgroundProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#blendModeProperty() blendModeProperty} 
      * of the instance being constructed. 
@@ -2341,12 +2335,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder blendModePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.BlendMode>> op) {
         operations.add(obj -> op.accept(obj.blendModeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#borderProperty() borderProperty} 
      * of the instance being constructed. 
@@ -2363,12 +2357,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder borderPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Border>> op) {
         operations.add(obj -> op.accept(obj.borderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#boundsInLocalProperty() boundsInLocalProperty} 
      * of the instance being constructed. 
@@ -2385,12 +2379,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder boundsInLocalPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInLocalProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#boundsInParentProperty() boundsInParentProperty} 
      * of the instance being constructed. 
@@ -2407,12 +2401,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder boundsInParentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.boundsInParentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#cacheHintProperty() cacheHintProperty} 
      * of the instance being constructed. 
@@ -2429,12 +2423,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder cacheHintPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.CacheHint>> op) {
         operations.add(obj -> op.accept(obj.cacheHintProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#cacheProperty() cacheProperty} 
      * of the instance being constructed. 
@@ -2451,12 +2445,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder cachePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#cacheShapeProperty() cacheShapeProperty} 
      * of the instance being constructed. 
@@ -2473,12 +2467,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder cacheShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.cacheShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#centerShapeProperty() centerShapeProperty} 
      * of the instance being constructed. 
@@ -2495,12 +2489,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder centerShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.centerShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#chronologyProperty() chronologyProperty} 
      * of the instance being constructed. 
@@ -2517,12 +2511,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder chronologyPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.time.chrono.Chronology>> op) {
         operations.add(obj -> op.accept(obj.chronologyProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#clipProperty() clipProperty} 
      * of the instance being constructed. 
@@ -2539,12 +2533,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder clipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Node>> op) {
         operations.add(obj -> op.accept(obj.clipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#contextMenuProperty() contextMenuProperty} 
      * of the instance being constructed. 
@@ -2561,12 +2555,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder contextMenuPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.ContextMenu>> op) {
         operations.add(obj -> op.accept(obj.contextMenuProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#converterProperty() converterProperty} 
      * of the instance being constructed. 
@@ -2583,12 +2577,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<java.time.LocalDate>>> op) {
         operations.add(obj -> op.accept(obj.converterProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#cursorProperty() cursorProperty} 
      * of the instance being constructed. 
@@ -2605,12 +2599,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder cursorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.Cursor>> op) {
         operations.add(obj -> op.accept(obj.cursorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#dayCellFactoryProperty() dayCellFactoryProperty} 
      * of the instance being constructed. 
@@ -2627,12 +2621,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder dayCellFactoryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.Callback<javafx.scene.control.DatePicker, javafx.scene.control.DateCell>>> op) {
         operations.add(obj -> op.accept(obj.dayCellFactoryProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#depthTestProperty() depthTestProperty} 
      * of the instance being constructed. 
@@ -2649,12 +2643,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder depthTestPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.DepthTest>> op) {
         operations.add(obj -> op.accept(obj.depthTestProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#disableProperty() disableProperty} 
      * of the instance being constructed. 
@@ -2671,12 +2665,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder disablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#disabledProperty() disabledProperty} 
      * of the instance being constructed. 
@@ -2693,12 +2687,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder disabledPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.disabledProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#editableProperty() editableProperty} 
      * of the instance being constructed. 
@@ -2715,12 +2709,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder editablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.editableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#editorProperty() editorProperty} 
      * of the instance being constructed. 
@@ -2737,12 +2731,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder editorPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.control.TextField>> op) {
         operations.add(obj -> op.accept(obj.editorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#effectProperty() effectProperty} 
      * of the instance being constructed. 
@@ -2759,12 +2753,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder effectPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.effectProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
      * of the instance being constructed. 
@@ -2781,12 +2775,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder effectiveNodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.effectiveNodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#eventDispatcherProperty() eventDispatcherProperty} 
      * of the instance being constructed. 
@@ -2803,12 +2797,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder eventDispatcherPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventDispatcher>> op) {
         operations.add(obj -> op.accept(obj.eventDispatcherProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#focusTraversableProperty() focusTraversableProperty} 
      * of the instance being constructed. 
@@ -2825,12 +2819,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder focusTraversablePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusTraversableProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#focusVisibleProperty() focusVisibleProperty} 
      * of the instance being constructed. 
@@ -2847,12 +2841,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder focusVisiblePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusVisibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#focusWithinProperty() focusWithinProperty} 
      * of the instance being constructed. 
@@ -2869,12 +2863,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder focusWithinPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusWithinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#focusedProperty() focusedProperty} 
      * of the instance being constructed. 
@@ -2891,12 +2885,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder focusedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.focusedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#heightProperty() heightProperty} 
      * of the instance being constructed. 
@@ -2913,12 +2907,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder heightPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.heightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#hoverProperty() hoverProperty} 
      * of the instance being constructed. 
@@ -2935,12 +2929,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder hoverPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.hoverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#idProperty() idProperty} 
      * of the instance being constructed. 
@@ -2957,12 +2951,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder idPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.idProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#inputMethodRequestsProperty() inputMethodRequestsProperty} 
      * of the instance being constructed. 
@@ -2979,12 +2973,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder inputMethodRequestsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.input.InputMethodRequests>> op) {
         operations.add(obj -> op.accept(obj.inputMethodRequestsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#insetsProperty() insetsProperty} 
      * of the instance being constructed. 
@@ -3001,12 +2995,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder insetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.insetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#layoutBoundsProperty() layoutBoundsProperty} 
      * of the instance being constructed. 
@@ -3023,12 +3017,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder layoutBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.geometry.Bounds>> op) {
         operations.add(obj -> op.accept(obj.layoutBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#layoutXProperty() layoutXProperty} 
      * of the instance being constructed. 
@@ -3045,12 +3039,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder layoutXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#layoutYProperty() layoutYProperty} 
      * of the instance being constructed. 
@@ -3067,12 +3061,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder layoutYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.layoutYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#localToParentTransformProperty() localToParentTransformProperty} 
      * of the instance being constructed. 
@@ -3089,12 +3083,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder localToParentTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToParentTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#localToSceneTransformProperty() localToSceneTransformProperty} 
      * of the instance being constructed. 
@@ -3111,12 +3105,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder localToSceneTransformPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.transform.Transform>> op) {
         operations.add(obj -> op.accept(obj.localToSceneTransformProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#managedProperty() managedProperty} 
      * of the instance being constructed. 
@@ -3133,12 +3127,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder managedPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.managedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
@@ -3155,12 +3149,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#maxWidthProperty() maxWidthProperty} 
      * of the instance being constructed. 
@@ -3177,12 +3171,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder maxWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
@@ -3199,12 +3193,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#minWidthProperty() minWidthProperty} 
      * of the instance being constructed. 
@@ -3221,12 +3215,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder minWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#mouseTransparentProperty() mouseTransparentProperty} 
      * of the instance being constructed. 
@@ -3243,12 +3237,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder mouseTransparentPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.mouseTransparentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#needsLayoutProperty() needsLayoutProperty} 
      * of the instance being constructed. 
@@ -3265,12 +3259,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder needsLayoutPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.needsLayoutProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#nodeOrientationProperty() nodeOrientationProperty} 
      * of the instance being constructed. 
@@ -3287,12 +3281,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder nodeOrientationPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.NodeOrientation>> op) {
         operations.add(obj -> op.accept(obj.nodeOrientationProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onActionProperty() onActionProperty} 
      * of the instance being constructed. 
@@ -3309,12 +3303,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onActionPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.ActionEvent>>> op) {
         operations.add(obj -> op.accept(obj.onActionProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
      * of the instance being constructed. 
@@ -3331,12 +3325,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onContextMenuRequestedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ContextMenuEvent>>> op) {
         operations.add(obj -> op.accept(obj.onContextMenuRequestedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onDragDetectedProperty() onDragDetectedProperty} 
      * of the instance being constructed. 
@@ -3353,12 +3347,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onDragDetectedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDetectedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onDragDoneProperty() onDragDoneProperty} 
      * of the instance being constructed. 
@@ -3375,12 +3369,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onDragDonePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDoneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onDragDroppedProperty() onDragDroppedProperty} 
      * of the instance being constructed. 
@@ -3397,12 +3391,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onDragDroppedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragDroppedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onDragEnteredProperty() onDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3419,12 +3413,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onDragExitedProperty() onDragExitedProperty} 
      * of the instance being constructed. 
@@ -3441,12 +3435,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onDragOverProperty() onDragOverProperty} 
      * of the instance being constructed. 
@@ -3463,12 +3457,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.DragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onHiddenProperty() onHiddenProperty} 
      * of the instance being constructed. 
@@ -3485,12 +3479,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onHiddenPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onHiddenProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onHidingProperty() onHidingProperty} 
      * of the instance being constructed. 
@@ -3507,12 +3501,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onHidingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onHidingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
      * of the instance being constructed. 
@@ -3529,12 +3523,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onInputMethodTextChangedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.InputMethodEvent>>> op) {
         operations.add(obj -> op.accept(obj.onInputMethodTextChangedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onKeyPressedProperty() onKeyPressedProperty} 
      * of the instance being constructed. 
@@ -3551,12 +3545,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onKeyPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onKeyReleasedProperty() onKeyReleasedProperty} 
      * of the instance being constructed. 
@@ -3573,12 +3567,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onKeyReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onKeyTypedProperty() onKeyTypedProperty} 
      * of the instance being constructed. 
@@ -3595,12 +3589,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onKeyTypedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.KeyEvent>>> op) {
         operations.add(obj -> op.accept(obj.onKeyTypedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseClickedProperty() onMouseClickedProperty} 
      * of the instance being constructed. 
@@ -3617,12 +3611,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onMouseClickedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseClickedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
      * of the instance being constructed. 
@@ -3639,12 +3633,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onMouseDragEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseDragExitedProperty() onMouseDragExitedProperty} 
      * of the instance being constructed. 
@@ -3661,12 +3655,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onMouseDragExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseDragOverProperty() onMouseDragOverProperty} 
      * of the instance being constructed. 
@@ -3683,12 +3677,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onMouseDragOverPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragOverProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
      * of the instance being constructed. 
@@ -3705,12 +3699,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onMouseDragReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseDragEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDragReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseDraggedProperty() onMouseDraggedProperty} 
      * of the instance being constructed. 
@@ -3727,12 +3721,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onMouseDraggedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseDraggedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseEnteredProperty() onMouseEnteredProperty} 
      * of the instance being constructed. 
@@ -3749,12 +3743,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onMouseEnteredPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseEnteredProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseExitedProperty() onMouseExitedProperty} 
      * of the instance being constructed. 
@@ -3771,12 +3765,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onMouseExitedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseExitedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseMovedProperty() onMouseMovedProperty} 
      * of the instance being constructed. 
@@ -3793,12 +3787,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onMouseMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMousePressedProperty() onMousePressedProperty} 
      * of the instance being constructed. 
@@ -3815,12 +3809,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onMousePressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMousePressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onMouseReleasedProperty() onMouseReleasedProperty} 
      * of the instance being constructed. 
@@ -3837,12 +3831,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onMouseReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.MouseEvent>>> op) {
         operations.add(obj -> op.accept(obj.onMouseReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onRotateProperty() onRotateProperty} 
      * of the instance being constructed. 
@@ -3859,12 +3853,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onRotatePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onRotationFinishedProperty() onRotationFinishedProperty} 
      * of the instance being constructed. 
@@ -3881,12 +3875,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onRotationFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onRotationStartedProperty() onRotationStartedProperty} 
      * of the instance being constructed. 
@@ -3903,12 +3897,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onRotationStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.RotateEvent>>> op) {
         operations.add(obj -> op.accept(obj.onRotationStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onScrollFinishedProperty() onScrollFinishedProperty} 
      * of the instance being constructed. 
@@ -3925,12 +3919,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onScrollFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onScrollProperty() onScrollProperty} 
      * of the instance being constructed. 
@@ -3947,12 +3941,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onScrollPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onScrollStartedProperty() onScrollStartedProperty} 
      * of the instance being constructed. 
@@ -3969,12 +3963,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onScrollStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ScrollEvent>>> op) {
         operations.add(obj -> op.accept(obj.onScrollStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onShowingProperty() onShowingProperty} 
      * of the instance being constructed. 
@@ -3991,12 +3985,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onShowingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onShowingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onShownProperty() onShownProperty} 
      * of the instance being constructed. 
@@ -4013,12 +4007,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onShownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<javafx.event.Event>>> op) {
         operations.add(obj -> op.accept(obj.onShownProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onSwipeDownProperty() onSwipeDownProperty} 
      * of the instance being constructed. 
@@ -4035,12 +4029,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onSwipeDownPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeDownProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onSwipeLeftProperty() onSwipeLeftProperty} 
      * of the instance being constructed. 
@@ -4057,12 +4051,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onSwipeLeftPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeLeftProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onSwipeRightProperty() onSwipeRightProperty} 
      * of the instance being constructed. 
@@ -4079,12 +4073,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onSwipeRightPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeRightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onSwipeUpProperty() onSwipeUpProperty} 
      * of the instance being constructed. 
@@ -4101,12 +4095,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onSwipeUpPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.SwipeEvent>>> op) {
         operations.add(obj -> op.accept(obj.onSwipeUpProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onTouchMovedProperty() onTouchMovedProperty} 
      * of the instance being constructed. 
@@ -4123,12 +4117,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onTouchMovedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchMovedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onTouchPressedProperty() onTouchPressedProperty} 
      * of the instance being constructed. 
@@ -4145,12 +4139,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onTouchPressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchPressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onTouchReleasedProperty() onTouchReleasedProperty} 
      * of the instance being constructed. 
@@ -4167,12 +4161,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onTouchReleasedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchReleasedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onTouchStationaryProperty() onTouchStationaryProperty} 
      * of the instance being constructed. 
@@ -4189,12 +4183,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onTouchStationaryPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.TouchEvent>>> op) {
         operations.add(obj -> op.accept(obj.onTouchStationaryProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onZoomFinishedProperty() onZoomFinishedProperty} 
      * of the instance being constructed. 
@@ -4211,12 +4205,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onZoomFinishedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomFinishedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onZoomProperty() onZoomProperty} 
      * of the instance being constructed. 
@@ -4233,12 +4227,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onZoomPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#onZoomStartedProperty() onZoomStartedProperty} 
      * of the instance being constructed. 
@@ -4255,12 +4249,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder onZoomStartedPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.event.EventHandler<? super javafx.scene.input.ZoomEvent>>> op) {
         operations.add(obj -> op.accept(obj.onZoomStartedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#opacityProperty() opacityProperty} 
      * of the instance being constructed. 
@@ -4277,12 +4271,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder opacityPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.opacityProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#opaqueInsetsProperty() opaqueInsetsProperty} 
      * of the instance being constructed. 
@@ -4299,12 +4293,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder opaqueInsetsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.opaqueInsetsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#paddingProperty() paddingProperty} 
      * of the instance being constructed. 
@@ -4321,12 +4315,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder paddingPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Insets>> op) {
         operations.add(obj -> op.accept(obj.paddingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#parentProperty() parentProperty} 
      * of the instance being constructed. 
@@ -4343,12 +4337,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder parentPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Parent>> op) {
         operations.add(obj -> op.accept(obj.parentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#pickOnBoundsProperty() pickOnBoundsProperty} 
      * of the instance being constructed. 
@@ -4365,12 +4359,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder pickOnBoundsPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pickOnBoundsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
@@ -4387,12 +4381,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#prefWidthProperty() prefWidthProperty} 
      * of the instance being constructed. 
@@ -4409,12 +4403,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder prefWidthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefWidthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#pressedProperty() pressedProperty} 
      * of the instance being constructed. 
@@ -4431,12 +4425,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder pressedPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.pressedProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#promptTextProperty() promptTextProperty} 
      * of the instance being constructed. 
@@ -4453,12 +4447,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder promptTextPropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.promptTextProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#rotateProperty() rotateProperty} 
      * of the instance being constructed. 
@@ -4475,12 +4469,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder rotatePropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.rotateProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#rotationAxisProperty() rotationAxisProperty} 
      * of the instance being constructed. 
@@ -4497,12 +4491,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder rotationAxisPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.Point3D>> op) {
         operations.add(obj -> op.accept(obj.rotationAxisProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#scaleShapeProperty() scaleShapeProperty} 
      * of the instance being constructed. 
@@ -4519,12 +4513,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder scaleShapePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.scaleShapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
@@ -4541,12 +4535,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
@@ -4563,12 +4557,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#scaleZProperty() scaleZProperty} 
      * of the instance being constructed. 
@@ -4585,12 +4579,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder scaleZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#sceneProperty() sceneProperty} 
      * of the instance being constructed. 
@@ -4607,12 +4601,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder scenePropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyObjectProperty<javafx.scene.Scene>> op) {
         operations.add(obj -> op.accept(obj.sceneProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#shapeProperty() shapeProperty} 
      * of the instance being constructed. 
@@ -4629,12 +4623,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder shapePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.shape.Shape>> op) {
         operations.add(obj -> op.accept(obj.shapeProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#showWeekNumbersProperty() showWeekNumbersProperty} 
      * of the instance being constructed. 
@@ -4651,12 +4645,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder showWeekNumbersPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.showWeekNumbersProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#showingProperty() showingProperty} 
      * of the instance being constructed. 
@@ -4673,12 +4667,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder showingPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyBooleanProperty> op) {
         operations.add(obj -> op.accept(obj.showingProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#skinProperty() skinProperty} 
      * of the instance being constructed. 
@@ -4695,12 +4689,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder skinPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Skin<?>>> op) {
         operations.add(obj -> op.accept(obj.skinProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#snapToPixelProperty() snapToPixelProperty} 
      * of the instance being constructed. 
@@ -4717,12 +4711,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder snapToPixelPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.snapToPixelProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#styleProperty() styleProperty} 
      * of the instance being constructed. 
@@ -4739,12 +4733,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder stylePropertyApply(java.util.function.Consumer<javafx.beans.property.StringProperty> op) {
         operations.add(obj -> op.accept(obj.styleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#tooltipProperty() tooltipProperty} 
      * of the instance being constructed. 
@@ -4761,12 +4755,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder tooltipPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.control.Tooltip>> op) {
         operations.add(obj -> op.accept(obj.tooltipProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#translateXProperty() translateXProperty} 
      * of the instance being constructed. 
@@ -4783,12 +4777,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder translateXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#translateYProperty() translateYProperty} 
      * of the instance being constructed. 
@@ -4805,12 +4799,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder translateYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#translateZProperty() translateZProperty} 
      * of the instance being constructed. 
@@ -4827,12 +4821,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder translateZPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.translateZProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#valueProperty() valueProperty} 
      * of the instance being constructed. 
@@ -4849,12 +4843,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<java.time.LocalDate>> op) {
         operations.add(obj -> op.accept(obj.valueProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#viewOrderProperty() viewOrderProperty} 
      * of the instance being constructed. 
@@ -4871,12 +4865,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder viewOrderPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.viewOrderProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#visibleProperty() visibleProperty} 
      * of the instance being constructed. 
@@ -4893,12 +4887,12 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder visiblePropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.visibleProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.DatePicker#widthProperty() widthProperty} 
      * of the instance being constructed. 
@@ -4915,8 +4909,7 @@ public class DatePickerBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DatePickerBuilder widthPropertyApply(java.util.function.Consumer<javafx.beans.property.ReadOnlyDoubleProperty> op) {
         operations.add(obj -> op.accept(obj.widthProperty()));
         return this;

@@ -27,7 +27,6 @@ public class BorderStrokeBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.layout.BorderStroke>> operations = new java.util.ArrayList<>();
     private BorderStrokeBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.BorderStroke#BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths) BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths)}
      * and returns an instance of {@code BorderStrokeBuilder}.
@@ -41,7 +40,6 @@ public class BorderStrokeBuilder {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.BorderStroke#BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths, Insets) BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths, Insets)}
      * and returns an instance of {@code BorderStrokeBuilder}.
@@ -54,7 +52,6 @@ public class BorderStrokeBuilder {
         builder.constructorArgs = new Object[]{stroke, style, radii, widths, insets};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.BorderStroke#BorderStroke(Paint, Paint, Paint, Paint, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, CornerRadii, BorderWidths, Insets) BorderStroke(Paint, Paint, Paint, Paint, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, CornerRadii, BorderWidths, Insets)}
@@ -111,7 +108,6 @@ public class BorderStrokeBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -156,6 +152,7 @@ public class BorderStrokeBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the BorderStroke instance being constructed.
      * Most operations on the instance can be performed using this method.

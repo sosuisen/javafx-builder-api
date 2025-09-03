@@ -27,7 +27,6 @@ public class RadialGradientBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.paint.RadialGradient>> operations = new java.util.ArrayList<>();
     private RadialGradientBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.paint.RadialGradient#RadialGradient(double, double, double, double, double, boolean, CycleMethod, List) RadialGradient(double, double, double, double, double, boolean, CycleMethod, List)}
      * and returns an instance of {@code RadialGradientBuilder}.
@@ -40,7 +39,6 @@ public class RadialGradientBuilder {
         builder.constructorArgs = new Object[]{focusAngle, focusDistance, centerX, centerY, radius, proportional, cycleMethod, stops};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.paint.RadialGradient#RadialGradient(double, double, double, double, double, boolean, CycleMethod, Stop...) RadialGradient(double, double, double, double, double, boolean, CycleMethod, Stop...)}
@@ -97,7 +95,6 @@ public class RadialGradientBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class RadialGradientBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the RadialGradient instance being constructed.
      * Most operations on the instance can be performed using this method.

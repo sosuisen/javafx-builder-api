@@ -27,7 +27,6 @@ public class DataFormatBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.DataFormat>> operations = new java.util.ArrayList<>();
     private DataFormatBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.DataFormat#DataFormat(String...) DataFormat(String...)}
      * and returns an instance of {@code DataFormatBuilder}.
@@ -83,7 +82,6 @@ public class DataFormatBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class DataFormatBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the DataFormat instance being constructed.
      * Most operations on the instance can be performed using this method.

@@ -27,7 +27,6 @@ public class DialogEventBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.DialogEvent>> operations = new java.util.ArrayList<>();
     private DialogEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.DialogEvent#DialogEvent(Dialog, EventType) DialogEvent(Dialog, EventType)}
      * and returns an instance of {@code DialogEventBuilder}.
@@ -83,7 +82,6 @@ public class DialogEventBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class DialogEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the DialogEvent instance being constructed.
      * Most operations on the instance can be performed using this method.

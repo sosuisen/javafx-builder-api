@@ -27,14 +27,12 @@ public class DisplacementMapBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.effect.DisplacementMap>> operations = new java.util.ArrayList<>();
     private DisplacementMapBuilder() {}
     
-
     /**
      * Returns an instance of the {@code DisplacementMapBuilder}.
      *
      * @return an instance of the {@code DisplacementMapBuilder}.
      */
     public static DisplacementMapBuilder create() { return new DisplacementMapBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.DisplacementMap#DisplacementMap(FloatMap) DisplacementMap(FloatMap)}
@@ -48,7 +46,6 @@ public class DisplacementMapBuilder {
         builder.constructorArgs = new Object[]{mapData};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.DisplacementMap#DisplacementMap(FloatMap, double, double, double, double) DisplacementMap(FloatMap, double, double, double, double)}
@@ -111,7 +108,6 @@ public class DisplacementMapBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -156,6 +152,7 @@ public class DisplacementMapBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the DisplacementMap instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -167,76 +164,77 @@ public class DisplacementMapBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.DisplacementMap#setInput(javafx.scene.effect.Effect) setInput} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DisplacementMapBuilder input(javafx.scene.effect.Effect value) {
         operations.add(obj -> obj.setInput(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.DisplacementMap#setMapData(javafx.scene.effect.FloatMap) setMapData} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DisplacementMapBuilder mapData(javafx.scene.effect.FloatMap value) {
         operations.add(obj -> obj.setMapData(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.DisplacementMap#setOffsetX(double) setOffsetX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DisplacementMapBuilder offsetX(double value) {
         operations.add(obj -> obj.setOffsetX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.DisplacementMap#setOffsetY(double) setOffsetY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DisplacementMapBuilder offsetY(double value) {
         operations.add(obj -> obj.setOffsetY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.DisplacementMap#setScaleX(double) setScaleX} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DisplacementMapBuilder scaleX(double value) {
         operations.add(obj -> obj.setScaleX(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.DisplacementMap#setScaleY(double) setScaleY} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DisplacementMapBuilder scaleY(double value) {
         operations.add(obj -> obj.setScaleY(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.DisplacementMap#setWrap(boolean) setWrap} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DisplacementMapBuilder wrap(boolean value) {
         operations.add(obj -> obj.setWrap(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.DisplacementMap#inputProperty() inputProperty} 
      * of the instance being constructed. 
@@ -253,12 +251,12 @@ public class DisplacementMapBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DisplacementMapBuilder inputPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.Effect>> op) {
         operations.add(obj -> op.accept(obj.inputProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.DisplacementMap#mapDataProperty() mapDataProperty} 
      * of the instance being constructed. 
@@ -275,12 +273,12 @@ public class DisplacementMapBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DisplacementMapBuilder mapDataPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.effect.FloatMap>> op) {
         operations.add(obj -> op.accept(obj.mapDataProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.DisplacementMap#offsetXProperty() offsetXProperty} 
      * of the instance being constructed. 
@@ -297,12 +295,12 @@ public class DisplacementMapBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DisplacementMapBuilder offsetXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.offsetXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.DisplacementMap#offsetYProperty() offsetYProperty} 
      * of the instance being constructed. 
@@ -319,12 +317,12 @@ public class DisplacementMapBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DisplacementMapBuilder offsetYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.offsetYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.DisplacementMap#scaleXProperty() scaleXProperty} 
      * of the instance being constructed. 
@@ -341,12 +339,12 @@ public class DisplacementMapBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DisplacementMapBuilder scaleXPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleXProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.DisplacementMap#scaleYProperty() scaleYProperty} 
      * of the instance being constructed. 
@@ -363,12 +361,12 @@ public class DisplacementMapBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DisplacementMapBuilder scaleYPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.scaleYProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.DisplacementMap#wrapProperty() wrapProperty} 
      * of the instance being constructed. 
@@ -385,8 +383,7 @@ public class DisplacementMapBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public DisplacementMapBuilder wrapPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.wrapProperty()));
         return this;

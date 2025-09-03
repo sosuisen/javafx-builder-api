@@ -27,14 +27,12 @@ public class RowConstraintsBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.layout.RowConstraints>> operations = new java.util.ArrayList<>();
     private RowConstraintsBuilder() {}
     
-
     /**
      * Returns an instance of the {@code RowConstraintsBuilder}.
      *
      * @return an instance of the {@code RowConstraintsBuilder}.
      */
     public static RowConstraintsBuilder create() { return new RowConstraintsBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.RowConstraints#RowConstraints(double) RowConstraints(double)}
@@ -49,7 +47,6 @@ public class RowConstraintsBuilder {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.RowConstraints#RowConstraints(double, double, double) RowConstraints(double, double, double)}
      * and returns an instance of {@code RowConstraintsBuilder}.
@@ -62,7 +59,6 @@ public class RowConstraintsBuilder {
         builder.constructorArgs = new Object[]{minHeight, prefHeight, maxHeight};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.layout.RowConstraints#RowConstraints(double, double, double, Priority, VPos, boolean) RowConstraints(double, double, double, Priority, VPos, boolean)}
@@ -125,7 +121,6 @@ public class RowConstraintsBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -170,6 +165,7 @@ public class RowConstraintsBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the RowConstraints instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -181,76 +177,77 @@ public class RowConstraintsBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.layout.RowConstraints#setFillHeight(boolean) setFillHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  RowConstraintsBuilder fillHeight(boolean value) {
         operations.add(obj -> obj.setFillHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.layout.RowConstraints#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  RowConstraintsBuilder maxHeight(double value) {
         operations.add(obj -> obj.setMaxHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.layout.RowConstraints#setMinHeight(double) setMinHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  RowConstraintsBuilder minHeight(double value) {
         operations.add(obj -> obj.setMinHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.layout.RowConstraints#setPercentHeight(double) setPercentHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  RowConstraintsBuilder percentHeight(double value) {
         operations.add(obj -> obj.setPercentHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.layout.RowConstraints#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  RowConstraintsBuilder prefHeight(double value) {
         operations.add(obj -> obj.setPrefHeight(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.layout.RowConstraints#setValignment(javafx.geometry.VPos) setValignment} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  RowConstraintsBuilder valignment(javafx.geometry.VPos value) {
         operations.add(obj -> obj.setValignment(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.layout.RowConstraints#setVgrow(javafx.scene.layout.Priority) setVgrow} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  RowConstraintsBuilder vgrow(javafx.scene.layout.Priority value) {
         operations.add(obj -> obj.setVgrow(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.layout.RowConstraints#fillHeightProperty() fillHeightProperty} 
      * of the instance being constructed. 
@@ -267,12 +264,12 @@ public class RowConstraintsBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public RowConstraintsBuilder fillHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.fillHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.layout.RowConstraints#maxHeightProperty() maxHeightProperty} 
      * of the instance being constructed. 
@@ -289,12 +286,12 @@ public class RowConstraintsBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public RowConstraintsBuilder maxHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.maxHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.layout.RowConstraints#minHeightProperty() minHeightProperty} 
      * of the instance being constructed. 
@@ -311,12 +308,12 @@ public class RowConstraintsBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public RowConstraintsBuilder minHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.minHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.layout.RowConstraints#percentHeightProperty() percentHeightProperty} 
      * of the instance being constructed. 
@@ -333,12 +330,12 @@ public class RowConstraintsBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public RowConstraintsBuilder percentHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.percentHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.layout.RowConstraints#prefHeightProperty() prefHeightProperty} 
      * of the instance being constructed. 
@@ -355,12 +352,12 @@ public class RowConstraintsBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public RowConstraintsBuilder prefHeightPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.prefHeightProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.layout.RowConstraints#valignmentProperty() valignmentProperty} 
      * of the instance being constructed. 
@@ -377,12 +374,12 @@ public class RowConstraintsBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public RowConstraintsBuilder valignmentPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.geometry.VPos>> op) {
         operations.add(obj -> op.accept(obj.valignmentProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.layout.RowConstraints#vgrowProperty() vgrowProperty} 
      * of the instance being constructed. 
@@ -399,8 +396,7 @@ public class RowConstraintsBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public RowConstraintsBuilder vgrowPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.layout.Priority>> op) {
         operations.add(obj -> op.accept(obj.vgrowProperty()));
         return this;

@@ -27,7 +27,6 @@ public class ColorBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.paint.Color>> operations = new java.util.ArrayList<>();
     private ColorBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.paint.Color#Color(double, double, double, double) Color(double, double, double, double)}
      * and returns an instance of {@code ColorBuilder}.
@@ -83,7 +82,6 @@ public class ColorBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class ColorBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Color instance being constructed.
      * Most operations on the instance can be performed using this method.

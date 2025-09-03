@@ -27,7 +27,6 @@ public class ScrollEventBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.ScrollEvent>> operations = new java.util.ArrayList<>();
     private ScrollEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.ScrollEvent#ScrollEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, double, double, ScrollEvent$HorizontalTextScrollUnits, double, ScrollEvent$VerticalTextScrollUnits, double, int, PickResult) ScrollEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, double, double, ScrollEvent$HorizontalTextScrollUnits, double, ScrollEvent$VerticalTextScrollUnits, double, int, PickResult)}
      * and returns an instance of {@code ScrollEventBuilder}.
@@ -41,7 +40,6 @@ public class ScrollEventBuilder {
         return builder;
     }
 
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.ScrollEvent#ScrollEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, double, double, double, double, ScrollEvent$HorizontalTextScrollUnits, double, ScrollEvent$VerticalTextScrollUnits, double, int, PickResult) ScrollEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, double, double, double, double, ScrollEvent$HorizontalTextScrollUnits, double, ScrollEvent$VerticalTextScrollUnits, double, int, PickResult)}
      * and returns an instance of {@code ScrollEventBuilder}.
@@ -54,7 +52,6 @@ public class ScrollEventBuilder {
         builder.constructorArgs = new Object[]{eventType, x, y, screenX, screenY, shiftDown, controlDown, altDown, metaDown, direct, inertia, deltaX, deltaY, totalDeltaX, totalDeltaY, multiplierX, multiplierY, textDeltaXUnits, textDeltaX, textDeltaYUnits, textDeltaY, touchCount, pickResult};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.ScrollEvent#ScrollEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, double, double, ScrollEvent$HorizontalTextScrollUnits, double, ScrollEvent$VerticalTextScrollUnits, double, int, PickResult) ScrollEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, double, double, ScrollEvent$HorizontalTextScrollUnits, double, ScrollEvent$VerticalTextScrollUnits, double, int, PickResult)}
@@ -111,7 +108,6 @@ public class ScrollEventBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -156,6 +152,7 @@ public class ScrollEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ScrollEvent instance being constructed.
      * Most operations on the instance can be performed using this method.

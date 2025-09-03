@@ -27,7 +27,6 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory<T>>> operations = new java.util.ArrayList<>();
     private SpinnerValueFactoryListSpinnerValueFactoryBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#ListSpinnerValueFactory(ObservableList) ListSpinnerValueFactory(ObservableList)}
      * and returns an instance of {@code SpinnerValueFactoryListSpinnerValueFactoryBuilder<T>}.
@@ -85,7 +84,6 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -130,6 +128,7 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the ListSpinnerValueFactory instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -141,46 +140,47 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#setConverter(javafx.util.StringConverter) setConverter} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> converter(javafx.util.StringConverter<T> newValue) {
         operations.add(obj -> obj.setConverter(newValue));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#setItems(javafx.collections.ObservableList) setItems} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> items(javafx.collections.ObservableList<T> value) {
         operations.add(obj -> obj.setItems(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#setValue(java.lang.Object) setValue} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> value(T newValue) {
         operations.add(obj -> obj.setValue(newValue));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#setWrapAround(boolean) setWrapAround} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> wrapAround(boolean value) {
         operations.add(obj -> obj.setWrapAround(value));
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#getItems()} method.
      * 
@@ -206,8 +206,6 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
         return this;
     }
 
-
-    
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#converterProperty() converterProperty} 
      * of the instance being constructed. 
@@ -224,12 +222,12 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> converterPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.util.StringConverter<T>>> op) {
         operations.add(obj -> op.accept(obj.converterProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#itemsProperty() itemsProperty} 
      * of the instance being constructed. 
@@ -246,12 +244,12 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> itemsPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.collections.ObservableList<T>>> op) {
         operations.add(obj -> op.accept(obj.itemsProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#valueProperty() valueProperty} 
      * of the instance being constructed. 
@@ -268,12 +266,12 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> valuePropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<T>> op) {
         operations.add(obj -> op.accept(obj.valueProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.ListSpinnerValueFactory#wrapAroundProperty() wrapAroundProperty} 
      * of the instance being constructed. 
@@ -290,8 +288,7 @@ public class SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public SpinnerValueFactoryListSpinnerValueFactoryBuilder<T> wrapAroundPropertyApply(java.util.function.Consumer<javafx.beans.property.BooleanProperty> op) {
         operations.add(obj -> op.accept(obj.wrapAroundProperty()));
         return this;

@@ -27,7 +27,6 @@ public class SnapshotParametersBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.SnapshotParameters>> operations = new java.util.ArrayList<>();
     private SnapshotParametersBuilder() {}
     
-
     /**
      * Returns an instance of the {@code SnapshotParametersBuilder}.
      *
@@ -83,7 +82,6 @@ public class SnapshotParametersBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class SnapshotParametersBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the SnapshotParameters instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -139,52 +138,52 @@ public class SnapshotParametersBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.SnapshotParameters#setCamera(javafx.scene.Camera) setCamera} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SnapshotParametersBuilder camera(javafx.scene.Camera camera) {
         operations.add(obj -> obj.setCamera(camera));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.SnapshotParameters#setDepthBuffer(boolean) setDepthBuffer} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SnapshotParametersBuilder depthBuffer(boolean depthBuffer) {
         operations.add(obj -> obj.setDepthBuffer(depthBuffer));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.SnapshotParameters#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SnapshotParametersBuilder fill(javafx.scene.paint.Paint fill) {
         operations.add(obj -> obj.setFill(fill));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.SnapshotParameters#setTransform(javafx.scene.transform.Transform) setTransform} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SnapshotParametersBuilder transform(javafx.scene.transform.Transform transform) {
         operations.add(obj -> obj.setTransform(transform));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.SnapshotParameters#setViewport(javafx.geometry.Rectangle2D) setViewport} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  SnapshotParametersBuilder viewport(javafx.geometry.Rectangle2D viewport) {
         operations.add(obj -> obj.setViewport(viewport));
         return this;

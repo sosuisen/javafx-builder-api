@@ -27,7 +27,6 @@ public class TouchEventBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.TouchEvent>> operations = new java.util.ArrayList<>();
     private TouchEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.TouchEvent#TouchEvent(Object, EventTarget, EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean) TouchEvent(Object, EventTarget, EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean)}
      * and returns an instance of {@code TouchEventBuilder}.
@@ -40,7 +39,6 @@ public class TouchEventBuilder {
         builder.constructorArgs = new Object[]{source, target, eventType, touchPoint, touchPoints, eventSetId, shiftDown, controlDown, altDown, metaDown};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.TouchEvent#TouchEvent(EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean) TouchEvent(EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean)}
@@ -97,7 +95,6 @@ public class TouchEventBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class TouchEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the TouchEvent instance being constructed.
      * Most operations on the instance can be performed using this method.

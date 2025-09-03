@@ -27,7 +27,6 @@ public class DragEventBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.input.DragEvent>> operations = new java.util.ArrayList<>();
     private DragEventBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.DragEvent#DragEvent(Object, EventTarget, EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult) DragEvent(Object, EventTarget, EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult)}
      * and returns an instance of {@code DragEventBuilder}.
@@ -40,7 +39,6 @@ public class DragEventBuilder {
         builder.constructorArgs = new Object[]{source, target, eventType, dragboard, x, y, screenX, screenY, transferMode, gestureSource, gestureTarget, pickResult};
         return builder;
     }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.input.DragEvent#DragEvent(EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult) DragEvent(EventType, Dragboard, double, double, double, double, TransferMode, Object, Object, PickResult)}
@@ -97,7 +95,6 @@ public class DragEventBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class DragEventBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the DragEvent instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -153,12 +151,12 @@ public class DragEventBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.input.DragEvent#setDropCompleted(boolean) setDropCompleted} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  DragEventBuilder dropCompleted(boolean isTransferDone) {
         operations.add(obj -> obj.setDropCompleted(isTransferDone));
         return this;

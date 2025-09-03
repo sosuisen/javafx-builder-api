@@ -27,14 +27,12 @@ public class LightDistantBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.effect.Light.Distant>> operations = new java.util.ArrayList<>();
     private LightDistantBuilder() {}
     
-
     /**
      * Returns an instance of the {@code LightDistantBuilder}.
      *
      * @return an instance of the {@code LightDistantBuilder}.
      */
     public static LightDistantBuilder create() { return new LightDistantBuilder(); }
-
 
     /**
      * Accepts the constructor arguments of {@link javafx.scene.effect.Light.Distant#Distant(double, double, Color) Distant(double, double, Color)}
@@ -97,7 +95,6 @@ public class LightDistantBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -142,6 +139,7 @@ public class LightDistantBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the Distant instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -153,36 +151,37 @@ public class LightDistantBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Light.Distant#setAzimuth(double) setAzimuth} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LightDistantBuilder azimuth(double value) {
         operations.add(obj -> obj.setAzimuth(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Light.Distant#setColor(javafx.scene.paint.Color) setColor} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LightDistantBuilder color(javafx.scene.paint.Color value) {
         operations.add(obj -> obj.setColor(value));
         return this;
     }
+
     /**
      * A builder method that invokes the {@link javafx.scene.effect.Light.Distant#setElevation(double) setElevation} method on the instance being constructed.
      *
      * @return builder instance
-     */    
-    
+     */
     public  LightDistantBuilder elevation(double value) {
         operations.add(obj -> obj.setElevation(value));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Distant#azimuthProperty() azimuthProperty} 
      * of the instance being constructed. 
@@ -199,12 +198,12 @@ public class LightDistantBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LightDistantBuilder azimuthPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.azimuthProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Distant#colorProperty() colorProperty} 
      * of the instance being constructed. 
@@ -221,12 +220,12 @@ public class LightDistantBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LightDistantBuilder colorPropertyApply(java.util.function.Consumer<javafx.beans.property.ObjectProperty<javafx.scene.paint.Color>> op) {
         operations.add(obj -> op.accept(obj.colorProperty()));
         return this;
-    }    
+    }
+
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Distant#elevationProperty() elevationProperty} 
      * of the instance being constructed. 
@@ -243,8 +242,7 @@ public class LightDistantBuilder {
      * </pre>
      *
      * @return builder instance
-     */    
-    
+     */
     public LightDistantBuilder elevationPropertyApply(java.util.function.Consumer<javafx.beans.property.DoubleProperty> op) {
         operations.add(obj -> op.accept(obj.elevationProperty()));
         return this;

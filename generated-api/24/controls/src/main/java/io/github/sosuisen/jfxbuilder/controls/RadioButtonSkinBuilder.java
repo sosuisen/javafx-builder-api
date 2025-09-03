@@ -27,7 +27,6 @@ public class RadioButtonSkinBuilder {
     private java.util.List<java.util.function.Consumer<javafx.scene.control.skin.RadioButtonSkin>> operations = new java.util.ArrayList<>();
     private RadioButtonSkinBuilder() {}
     
-
     /**
      * Accepts the constructor arguments of {@link javafx.scene.control.skin.RadioButtonSkin#RadioButtonSkin(RadioButton) RadioButtonSkin(RadioButton)}
      * and returns an instance of {@code RadioButtonSkinBuilder}.
@@ -83,7 +82,6 @@ public class RadioButtonSkinBuilder {
         } catch (Exception e) {
             throw new RuntimeException("Failed to create instance", e);
         }
-
         return newInstance;
     }
 
@@ -128,6 +126,7 @@ public class RadioButtonSkinBuilder {
         if (primitiveType == double.class) return wrapperType == Double.class;
         return false;
     }
+
     /**
      * Applies a function to the RadioButtonSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
@@ -139,6 +138,7 @@ public class RadioButtonSkinBuilder {
         operations.add(func);
         return this;
     }
+
     /**
      * Calls the {@link javafx.collections.ObservableList#addAll(E... elements) addAll} method on the ObservableList returned by the {@link javafx.scene.control.skin.RadioButtonSkin#getChildren()} method.
      * 
@@ -163,7 +163,4 @@ public class RadioButtonSkinBuilder {
         });
         return this;
     }
-
-
-
 }
