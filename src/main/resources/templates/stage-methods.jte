@@ -48,7 +48,7 @@ public class StageBuilder {
     private javafx.stage.StageStyle style = javafx.stage.StageStyle.DECORATED;
 
     /**
-     * Creates an instance of the builder and then calls the {@link setScene(Scene scene)} method.
+     * Creates an instance of the builder and then calls the {@link javafx.stage.Stage#setScene(Scene scene)} method.
      * This shorthand ensures consistency with other methods, such as the `withChildren` method found in container classes.
      *
      * @return an instance of the StageBuilder.
