@@ -29,7 +29,7 @@ public class BorderImageBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BorderImage#BorderImage(javafx.scene.image.Image image, javafx.scene.layout.BorderWidths widths, javafx.geometry.Insets insets, javafx.scene.layout.BorderWidths slices, boolean filled, javafx.scene.layout.BorderRepeat repeatX, javafx.scene.layout.BorderRepeat repeatY) BorderImage(Image, BorderWidths, Insets, BorderWidths, boolean, BorderRepeat, BorderRepeat)}
+     * Accepts the same arguments as {@link javafx.scene.layout.BorderImage#BorderImage(Image, BorderWidths, Insets, BorderWidths, boolean, BorderRepeat, BorderRepeat) BorderImage(Image, BorderWidths, Insets, BorderWidths, boolean, BorderRepeat, BorderRepeat)}
      * and returns an instance of the {@code BorderImageBuilder}.
      *
      * @return an instance of the {@code BorderImageBuilder}.
@@ -44,10 +44,10 @@ public class BorderImageBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.BorderImage} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

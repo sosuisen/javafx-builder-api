@@ -29,7 +29,7 @@ public class HyperlinkSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.HyperlinkSkin#HyperlinkSkin(javafx.scene.control.Hyperlink control) HyperlinkSkin(Hyperlink)}
+     * Accepts the same arguments as {@link javafx.scene.control.skin.HyperlinkSkin#HyperlinkSkin(Hyperlink) HyperlinkSkin(Hyperlink)}
      * and returns an instance of the {@code HyperlinkSkinBuilder}.
      *
      * @return an instance of the {@code HyperlinkSkinBuilder}.
@@ -44,10 +44,10 @@ public class HyperlinkSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.HyperlinkSkin} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

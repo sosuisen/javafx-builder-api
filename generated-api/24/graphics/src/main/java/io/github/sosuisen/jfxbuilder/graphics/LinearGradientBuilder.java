@@ -29,7 +29,7 @@ public class LinearGradientBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.LinearGradient#LinearGradient(double startX, double startY, double endX, double endY, boolean proportional, javafx.scene.paint.CycleMethod cycleMethod, java.util.List<javafx.scene.paint.Stop> stops) LinearGradient(double, double, double, double, boolean, CycleMethod, List)}
+     * Accepts the same arguments as {@link javafx.scene.paint.LinearGradient#LinearGradient(double, double, double, double, boolean, CycleMethod, List) LinearGradient(double, double, double, double, boolean, CycleMethod, List)}
      * and returns an instance of the {@code LinearGradientBuilder}.
      *
      * @return an instance of the {@code LinearGradientBuilder}.
@@ -43,7 +43,7 @@ public class LinearGradientBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.paint.LinearGradient#LinearGradient(double startX, double startY, double endX, double endY, boolean proportional, javafx.scene.paint.CycleMethod cycleMethod, javafx.scene.paint.Stop... stops) LinearGradient(double, double, double, double, boolean, CycleMethod, Stop...)}
+     * Accepts the same arguments as {@link javafx.scene.paint.LinearGradient#LinearGradient(double, double, double, double, boolean, CycleMethod, Stop...) LinearGradient(double, double, double, double, boolean, CycleMethod, Stop...)}
      * and returns an instance of the {@code LinearGradientBuilder}.
      *
      * @return an instance of the {@code LinearGradientBuilder}.
@@ -58,10 +58,10 @@ public class LinearGradientBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.paint.LinearGradient} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

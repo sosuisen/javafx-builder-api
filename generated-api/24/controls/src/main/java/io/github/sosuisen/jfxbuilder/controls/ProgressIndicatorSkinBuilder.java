@@ -29,7 +29,7 @@ public class ProgressIndicatorSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.ProgressIndicatorSkin#ProgressIndicatorSkin(javafx.scene.control.ProgressIndicator control) ProgressIndicatorSkin(ProgressIndicator)}
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ProgressIndicatorSkin#ProgressIndicatorSkin(ProgressIndicator) ProgressIndicatorSkin(ProgressIndicator)}
      * and returns an instance of the {@code ProgressIndicatorSkinBuilder}.
      *
      * @return an instance of the {@code ProgressIndicatorSkinBuilder}.
@@ -44,10 +44,10 @@ public class ProgressIndicatorSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.ProgressIndicatorSkin} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

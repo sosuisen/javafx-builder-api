@@ -29,18 +29,18 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
     
 
     /**
-     * Returns an instance of the {@code <S, T> CheckBoxTreeTableCellBuilder<S, T>}.
+     * Returns an instance of the {@code CheckBoxTreeTableCellBuilder<S, T>}.
      *
-     * @return an instance of the {@code <S, T> CheckBoxTreeTableCellBuilder<S, T>}.
+     * @return an instance of the {@code CheckBoxTreeTableCellBuilder<S, T>}.
      */
     public static <S, T> CheckBoxTreeTableCellBuilder<S, T> create() { return new CheckBoxTreeTableCellBuilder<S, T>(); }
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.CheckBoxTreeTableCell#CheckBoxTreeTableCell(javafx.util.Callback<java.lang.Integer, javafx.beans.value.ObservableValue<java.lang.Boolean>> getSelectedProperty) CheckBoxTreeTableCell(Callback)}
-     * and returns an instance of the {@code <S, T> CheckBoxTreeTableCellBuilder<S, T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.cell.CheckBoxTreeTableCell#CheckBoxTreeTableCell(Callback) CheckBoxTreeTableCell(Callback)}
+     * and returns an instance of the {@code CheckBoxTreeTableCellBuilder<S, T>}.
      *
-     * @return an instance of the {@code <S, T> CheckBoxTreeTableCellBuilder<S, T>}.
+     * @return an instance of the {@code CheckBoxTreeTableCellBuilder<S, T>}.
      */
     
     public static <S, T> CheckBoxTreeTableCellBuilder<S, T> create(javafx.util.Callback<java.lang.Integer, javafx.beans.value.ObservableValue<java.lang.Boolean>> getSelectedProperty) {
@@ -51,10 +51,10 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.CheckBoxTreeTableCell#CheckBoxTreeTableCell(javafx.util.Callback<java.lang.Integer, javafx.beans.value.ObservableValue<java.lang.Boolean>> getSelectedProperty, javafx.util.StringConverter<T> converter) CheckBoxTreeTableCell(Callback, StringConverter)}
-     * and returns an instance of the {@code <S, T> CheckBoxTreeTableCellBuilder<S, T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.cell.CheckBoxTreeTableCell#CheckBoxTreeTableCell(Callback, StringConverter) CheckBoxTreeTableCell(Callback, StringConverter)}
+     * and returns an instance of the {@code CheckBoxTreeTableCellBuilder<S, T>}.
      *
-     * @return an instance of the {@code <S, T> CheckBoxTreeTableCellBuilder<S, T>}.
+     * @return an instance of the {@code CheckBoxTreeTableCellBuilder<S, T>}.
      */
     
     public static <S, T> CheckBoxTreeTableCellBuilder<S, T> create(javafx.util.Callback<java.lang.Integer, javafx.beans.value.ObservableValue<java.lang.Boolean>> getSelectedProperty, javafx.util.StringConverter<T> converter) {
@@ -66,10 +66,10 @@ public class CheckBoxTreeTableCellBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.cell.CheckBoxTreeTableCell<S, T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

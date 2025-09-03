@@ -37,7 +37,7 @@ public class MotionBlurBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.MotionBlur#MotionBlur(double angle, double radius) MotionBlur(double, double)}
+     * Accepts the same arguments as {@link javafx.scene.effect.MotionBlur#MotionBlur(double, double) MotionBlur(double, double)}
      * and returns an instance of the {@code MotionBlurBuilder}.
      *
      * @return an instance of the {@code MotionBlurBuilder}.
@@ -52,10 +52,10 @@ public class MotionBlurBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.MotionBlur} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

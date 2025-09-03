@@ -37,7 +37,7 @@ public class ProgressBarBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.ProgressBar#ProgressBar(double progress) ProgressBar(double)}
+     * Accepts the same arguments as {@link javafx.scene.control.ProgressBar#ProgressBar(double) ProgressBar(double)}
      * and returns an instance of the {@code ProgressBarBuilder}.
      *
      * @return an instance of the {@code ProgressBarBuilder}.
@@ -52,10 +52,10 @@ public class ProgressBarBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.ProgressBar} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

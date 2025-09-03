@@ -29,18 +29,18 @@ public class XYChartSeriesBuilder<X, Y> {
     
 
     /**
-     * Returns an instance of the {@code <X, Y> XYChartSeriesBuilder<X, Y>}.
+     * Returns an instance of the {@code XYChartSeriesBuilder<X, Y>}.
      *
-     * @return an instance of the {@code <X, Y> XYChartSeriesBuilder<X, Y>}.
+     * @return an instance of the {@code XYChartSeriesBuilder<X, Y>}.
      */
     public static <X, Y> XYChartSeriesBuilder<X, Y> create() { return new XYChartSeriesBuilder<X, Y>(); }
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.XYChart.Series#Series(java.lang.String name, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>> data) Series(String, ObservableList)}
-     * and returns an instance of the {@code <X, Y> XYChartSeriesBuilder<X, Y>}.
+     * Accepts the same arguments as {@link javafx.scene.chart.XYChart.Series#Series(String, ObservableList) Series(String, ObservableList)}
+     * and returns an instance of the {@code XYChartSeriesBuilder<X, Y>}.
      *
-     * @return an instance of the {@code <X, Y> XYChartSeriesBuilder<X, Y>}.
+     * @return an instance of the {@code XYChartSeriesBuilder<X, Y>}.
      */
     
     public static <X, Y> XYChartSeriesBuilder<X, Y> create(java.lang.String name, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>> data) {
@@ -51,10 +51,10 @@ public class XYChartSeriesBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.XYChart.Series#Series(javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>> data) Series(ObservableList)}
-     * and returns an instance of the {@code <X, Y> XYChartSeriesBuilder<X, Y>}.
+     * Accepts the same arguments as {@link javafx.scene.chart.XYChart.Series#Series(ObservableList) Series(ObservableList)}
+     * and returns an instance of the {@code XYChartSeriesBuilder<X, Y>}.
      *
-     * @return an instance of the {@code <X, Y> XYChartSeriesBuilder<X, Y>}.
+     * @return an instance of the {@code XYChartSeriesBuilder<X, Y>}.
      */
     
     public static <X, Y> XYChartSeriesBuilder<X, Y> create(javafx.collections.ObservableList<javafx.scene.chart.XYChart.Data<X, Y>> data) {
@@ -66,10 +66,10 @@ public class XYChartSeriesBuilder<X, Y> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.XYChart.Series<X, Y>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

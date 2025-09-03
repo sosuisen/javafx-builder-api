@@ -37,7 +37,7 @@ public class TranslateBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Translate#Translate(double x, double y) Translate(double, double)}
+     * Accepts the same arguments as {@link javafx.scene.transform.Translate#Translate(double, double) Translate(double, double)}
      * and returns an instance of the {@code TranslateBuilder}.
      *
      * @return an instance of the {@code TranslateBuilder}.
@@ -51,7 +51,7 @@ public class TranslateBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Translate#Translate(double x, double y, double z) Translate(double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.transform.Translate#Translate(double, double, double) Translate(double, double, double)}
      * and returns an instance of the {@code TranslateBuilder}.
      *
      * @return an instance of the {@code TranslateBuilder}.
@@ -66,10 +66,10 @@ public class TranslateBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.transform.Translate} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

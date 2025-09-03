@@ -29,7 +29,7 @@ public class InputEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.InputEvent#InputEvent(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<? extends javafx.scene.input.InputEvent> eventType) InputEvent(Object, EventTarget, EventType)}
+     * Accepts the same arguments as {@link javafx.scene.input.InputEvent#InputEvent(Object, EventTarget, EventType) InputEvent(Object, EventTarget, EventType)}
      * and returns an instance of the {@code InputEventBuilder}.
      *
      * @return an instance of the {@code InputEventBuilder}.
@@ -43,7 +43,7 @@ public class InputEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.InputEvent#InputEvent(javafx.event.EventType<? extends javafx.scene.input.InputEvent> eventType) InputEvent(EventType)}
+     * Accepts the same arguments as {@link javafx.scene.input.InputEvent#InputEvent(EventType) InputEvent(EventType)}
      * and returns an instance of the {@code InputEventBuilder}.
      *
      * @return an instance of the {@code InputEventBuilder}.
@@ -58,10 +58,10 @@ public class InputEventBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.input.InputEvent} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

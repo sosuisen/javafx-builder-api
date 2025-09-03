@@ -29,10 +29,10 @@ public class ScatterChartBuilder<X, Y> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.ScatterChart#ScatterChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) ScatterChart(Axis, Axis)}
-     * and returns an instance of the {@code <X, Y> ScatterChartBuilder<X, Y>}.
+     * Accepts the same arguments as {@link javafx.scene.chart.ScatterChart#ScatterChart(Axis, Axis) ScatterChart(Axis, Axis)}
+     * and returns an instance of the {@code ScatterChartBuilder<X, Y>}.
      *
-     * @return an instance of the {@code <X, Y> ScatterChartBuilder<X, Y>}.
+     * @return an instance of the {@code ScatterChartBuilder<X, Y>}.
      */
     
     public static <X, Y> ScatterChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) {
@@ -43,10 +43,10 @@ public class ScatterChartBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.ScatterChart#ScatterChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) ScatterChart(Axis, Axis, ObservableList)}
-     * and returns an instance of the {@code <X, Y> ScatterChartBuilder<X, Y>}.
+     * Accepts the same arguments as {@link javafx.scene.chart.ScatterChart#ScatterChart(Axis, Axis, ObservableList) ScatterChart(Axis, Axis, ObservableList)}
+     * and returns an instance of the {@code ScatterChartBuilder<X, Y>}.
      *
-     * @return an instance of the {@code <X, Y> ScatterChartBuilder<X, Y>}.
+     * @return an instance of the {@code ScatterChartBuilder<X, Y>}.
      */
     
     public static <X, Y> ScatterChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) {
@@ -58,10 +58,10 @@ public class ScatterChartBuilder<X, Y> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.ScatterChart<X, Y>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

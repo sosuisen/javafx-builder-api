@@ -29,18 +29,18 @@ public class ComboBoxBuilder<T> {
     
 
     /**
-     * Returns an instance of the {@code <T> ComboBoxBuilder<T>}.
+     * Returns an instance of the {@code ComboBoxBuilder<T>}.
      *
-     * @return an instance of the {@code <T> ComboBoxBuilder<T>}.
+     * @return an instance of the {@code ComboBoxBuilder<T>}.
      */
     public static <T> ComboBoxBuilder<T> create() { return new ComboBoxBuilder<T>(); }
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.ComboBox#ComboBox(javafx.collections.ObservableList<T> items) ComboBox(ObservableList)}
-     * and returns an instance of the {@code <T> ComboBoxBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.ComboBox#ComboBox(ObservableList) ComboBox(ObservableList)}
+     * and returns an instance of the {@code ComboBoxBuilder<T>}.
      *
-     * @return an instance of the {@code <T> ComboBoxBuilder<T>}.
+     * @return an instance of the {@code ComboBoxBuilder<T>}.
      */
     
     public static <T> ComboBoxBuilder<T> create(javafx.collections.ObservableList<T> items) {
@@ -52,10 +52,10 @@ public class ComboBoxBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.ComboBox<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

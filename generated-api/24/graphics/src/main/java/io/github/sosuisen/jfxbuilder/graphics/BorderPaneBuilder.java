@@ -37,7 +37,7 @@ public class BorderPaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BorderPane#BorderPane(javafx.scene.Node center) BorderPane(Node)}
+     * Accepts the same arguments as {@link javafx.scene.layout.BorderPane#BorderPane(Node) BorderPane(Node)}
      * and returns an instance of the {@code BorderPaneBuilder}.
      *
      * @return an instance of the {@code BorderPaneBuilder}.
@@ -51,7 +51,7 @@ public class BorderPaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BorderPane#BorderPane(javafx.scene.Node center, javafx.scene.Node top, javafx.scene.Node right, javafx.scene.Node bottom, javafx.scene.Node left) BorderPane(Node, Node, Node, Node, Node)}
+     * Accepts the same arguments as {@link javafx.scene.layout.BorderPane#BorderPane(Node, Node, Node, Node, Node) BorderPane(Node, Node, Node, Node, Node)}
      * and returns an instance of the {@code BorderPaneBuilder}.
      *
      * @return an instance of the {@code BorderPaneBuilder}.
@@ -66,10 +66,10 @@ public class BorderPaneBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.BorderPane} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -29,7 +29,7 @@ public class PopupFeaturesBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.web.PopupFeatures#PopupFeatures(boolean menu, boolean status, boolean toolbar, boolean resizable) PopupFeatures(boolean, boolean, boolean, boolean)}
+     * Accepts the same arguments as {@link javafx.scene.web.PopupFeatures#PopupFeatures(boolean, boolean, boolean, boolean) PopupFeatures(boolean, boolean, boolean, boolean)}
      * and returns an instance of the {@code PopupFeaturesBuilder}.
      *
      * @return an instance of the {@code PopupFeaturesBuilder}.
@@ -44,10 +44,10 @@ public class PopupFeaturesBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.web.PopupFeatures} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -29,10 +29,10 @@ public class StackedAreaChartBuilder<X, Y> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.StackedAreaChart#StackedAreaChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) StackedAreaChart(Axis, Axis)}
-     * and returns an instance of the {@code <X, Y> StackedAreaChartBuilder<X, Y>}.
+     * Accepts the same arguments as {@link javafx.scene.chart.StackedAreaChart#StackedAreaChart(Axis, Axis) StackedAreaChart(Axis, Axis)}
+     * and returns an instance of the {@code StackedAreaChartBuilder<X, Y>}.
      *
-     * @return an instance of the {@code <X, Y> StackedAreaChartBuilder<X, Y>}.
+     * @return an instance of the {@code StackedAreaChartBuilder<X, Y>}.
      */
     
     public static <X, Y> StackedAreaChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) {
@@ -43,10 +43,10 @@ public class StackedAreaChartBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.StackedAreaChart#StackedAreaChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) StackedAreaChart(Axis, Axis, ObservableList)}
-     * and returns an instance of the {@code <X, Y> StackedAreaChartBuilder<X, Y>}.
+     * Accepts the same arguments as {@link javafx.scene.chart.StackedAreaChart#StackedAreaChart(Axis, Axis, ObservableList) StackedAreaChart(Axis, Axis, ObservableList)}
+     * and returns an instance of the {@code StackedAreaChartBuilder<X, Y>}.
      *
-     * @return an instance of the {@code <X, Y> StackedAreaChartBuilder<X, Y>}.
+     * @return an instance of the {@code StackedAreaChartBuilder<X, Y>}.
      */
     
     public static <X, Y> StackedAreaChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) {
@@ -58,10 +58,10 @@ public class StackedAreaChartBuilder<X, Y> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.StackedAreaChart<X, Y>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

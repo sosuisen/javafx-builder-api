@@ -29,18 +29,18 @@ public class ComboBoxListCellBuilder<T> {
     
 
     /**
-     * Returns an instance of the {@code <T> ComboBoxListCellBuilder<T>}.
+     * Returns an instance of the {@code ComboBoxListCellBuilder<T>}.
      *
-     * @return an instance of the {@code <T> ComboBoxListCellBuilder<T>}.
+     * @return an instance of the {@code ComboBoxListCellBuilder<T>}.
      */
     public static <T> ComboBoxListCellBuilder<T> create() { return new ComboBoxListCellBuilder<T>(); }
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.ComboBoxListCell#ComboBoxListCell(T... items) ComboBoxListCell(Object...)}
-     * and returns an instance of the {@code <T> ComboBoxListCellBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ComboBoxListCell#ComboBoxListCell(Object...) ComboBoxListCell(Object...)}
+     * and returns an instance of the {@code ComboBoxListCellBuilder<T>}.
      *
-     * @return an instance of the {@code <T> ComboBoxListCellBuilder<T>}.
+     * @return an instance of the {@code ComboBoxListCellBuilder<T>}.
      */
     @SafeVarargs
     public static <T> ComboBoxListCellBuilder<T> create(T... items) {
@@ -51,10 +51,10 @@ public class ComboBoxListCellBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.ComboBoxListCell#ComboBoxListCell(javafx.collections.ObservableList<T> items) ComboBoxListCell(ObservableList)}
-     * and returns an instance of the {@code <T> ComboBoxListCellBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ComboBoxListCell#ComboBoxListCell(ObservableList) ComboBoxListCell(ObservableList)}
+     * and returns an instance of the {@code ComboBoxListCellBuilder<T>}.
      *
-     * @return an instance of the {@code <T> ComboBoxListCellBuilder<T>}.
+     * @return an instance of the {@code ComboBoxListCellBuilder<T>}.
      */
     
     public static <T> ComboBoxListCellBuilder<T> create(javafx.collections.ObservableList<T> items) {
@@ -65,10 +65,10 @@ public class ComboBoxListCellBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.ComboBoxListCell#ComboBoxListCell(javafx.util.StringConverter<T> converter, T... items) ComboBoxListCell(StringConverter, Object...)}
-     * and returns an instance of the {@code <T> ComboBoxListCellBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ComboBoxListCell#ComboBoxListCell(StringConverter, Object...) ComboBoxListCell(StringConverter, Object...)}
+     * and returns an instance of the {@code ComboBoxListCellBuilder<T>}.
      *
-     * @return an instance of the {@code <T> ComboBoxListCellBuilder<T>}.
+     * @return an instance of the {@code ComboBoxListCellBuilder<T>}.
      */
     @SafeVarargs
     public static <T> ComboBoxListCellBuilder<T> create(javafx.util.StringConverter<T> converter, T... items) {
@@ -79,10 +79,10 @@ public class ComboBoxListCellBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.ComboBoxListCell#ComboBoxListCell(javafx.util.StringConverter<T> converter, javafx.collections.ObservableList<T> items) ComboBoxListCell(StringConverter, ObservableList)}
-     * and returns an instance of the {@code <T> ComboBoxListCellBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ComboBoxListCell#ComboBoxListCell(StringConverter, ObservableList) ComboBoxListCell(StringConverter, ObservableList)}
+     * and returns an instance of the {@code ComboBoxListCellBuilder<T>}.
      *
-     * @return an instance of the {@code <T> ComboBoxListCellBuilder<T>}.
+     * @return an instance of the {@code ComboBoxListCellBuilder<T>}.
      */
     
     public static <T> ComboBoxListCellBuilder<T> create(javafx.util.StringConverter<T> converter, javafx.collections.ObservableList<T> items) {
@@ -94,10 +94,10 @@ public class ComboBoxListCellBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.cell.ComboBoxListCell<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

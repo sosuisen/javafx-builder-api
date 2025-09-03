@@ -29,19 +29,19 @@ public class TableCellBuilder<S, T> {
     
 
     /**
-     * Returns an instance of the {@code <S, T> TableCellBuilder<S, T>}.
+     * Returns an instance of the {@code TableCellBuilder<S, T>}.
      *
-     * @return an instance of the {@code <S, T> TableCellBuilder<S, T>}.
+     * @return an instance of the {@code TableCellBuilder<S, T>}.
      */
     public static <S, T> TableCellBuilder<S, T> create() { return new TableCellBuilder<S, T>(); }
 
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TableCell<S, T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

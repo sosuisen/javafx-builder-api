@@ -29,7 +29,7 @@ public class TableHeaderRowBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.TableHeaderRow#TableHeaderRow(javafx.scene.control.skin.TableViewSkinBase skin) TableHeaderRow(TableViewSkinBase)}
+     * Accepts the same arguments as {@link javafx.scene.control.skin.TableHeaderRow#TableHeaderRow(TableViewSkinBase) TableHeaderRow(TableViewSkinBase)}
      * and returns an instance of the {@code TableHeaderRowBuilder}.
      *
      * @return an instance of the {@code TableHeaderRowBuilder}.
@@ -44,10 +44,10 @@ public class TableHeaderRowBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.TableHeaderRow} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

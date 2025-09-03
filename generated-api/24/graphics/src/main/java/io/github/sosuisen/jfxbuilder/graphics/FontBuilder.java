@@ -29,7 +29,7 @@ public class FontBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.text.Font#Font(double size) Font(double)}
+     * Accepts the same arguments as {@link javafx.scene.text.Font#Font(double) Font(double)}
      * and returns an instance of the {@code FontBuilder}.
      *
      * @return an instance of the {@code FontBuilder}.
@@ -43,7 +43,7 @@ public class FontBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.text.Font#Font(java.lang.String name, double size) Font(String, double)}
+     * Accepts the same arguments as {@link javafx.scene.text.Font#Font(String, double) Font(String, double)}
      * and returns an instance of the {@code FontBuilder}.
      *
      * @return an instance of the {@code FontBuilder}.
@@ -58,10 +58,10 @@ public class FontBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.text.Font} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

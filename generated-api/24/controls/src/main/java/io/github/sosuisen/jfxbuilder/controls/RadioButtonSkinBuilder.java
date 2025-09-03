@@ -29,7 +29,7 @@ public class RadioButtonSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.RadioButtonSkin#RadioButtonSkin(javafx.scene.control.RadioButton control) RadioButtonSkin(RadioButton)}
+     * Accepts the same arguments as {@link javafx.scene.control.skin.RadioButtonSkin#RadioButtonSkin(RadioButton) RadioButtonSkin(RadioButton)}
      * and returns an instance of the {@code RadioButtonSkinBuilder}.
      *
      * @return an instance of the {@code RadioButtonSkinBuilder}.
@@ -44,10 +44,10 @@ public class RadioButtonSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.RadioButtonSkin} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

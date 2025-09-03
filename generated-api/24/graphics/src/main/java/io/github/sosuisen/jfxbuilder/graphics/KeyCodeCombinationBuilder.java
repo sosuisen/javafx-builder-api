@@ -29,7 +29,7 @@ public class KeyCodeCombinationBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.KeyCodeCombination#KeyCodeCombination(javafx.scene.input.KeyCode code, javafx.scene.input.KeyCombination.ModifierValue shift, javafx.scene.input.KeyCombination.ModifierValue control, javafx.scene.input.KeyCombination.ModifierValue alt, javafx.scene.input.KeyCombination.ModifierValue meta, javafx.scene.input.KeyCombination.ModifierValue shortcut) KeyCodeCombination(KeyCode, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue)}
+     * Accepts the same arguments as {@link javafx.scene.input.KeyCodeCombination#KeyCodeCombination(KeyCode, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue) KeyCodeCombination(KeyCode, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue, KeyCombination$ModifierValue)}
      * and returns an instance of the {@code KeyCodeCombinationBuilder}.
      *
      * @return an instance of the {@code KeyCodeCombinationBuilder}.
@@ -43,7 +43,7 @@ public class KeyCodeCombinationBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.KeyCodeCombination#KeyCodeCombination(javafx.scene.input.KeyCode code, javafx.scene.input.KeyCombination.Modifier... modifiers) KeyCodeCombination(KeyCode, KeyCombination$Modifier...)}
+     * Accepts the same arguments as {@link javafx.scene.input.KeyCodeCombination#KeyCodeCombination(KeyCode, KeyCombination$Modifier...) KeyCodeCombination(KeyCode, KeyCombination$Modifier...)}
      * and returns an instance of the {@code KeyCodeCombinationBuilder}.
      *
      * @return an instance of the {@code KeyCodeCombinationBuilder}.
@@ -58,10 +58,10 @@ public class KeyCodeCombinationBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.input.KeyCodeCombination} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

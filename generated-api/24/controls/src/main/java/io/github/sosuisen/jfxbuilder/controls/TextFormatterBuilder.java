@@ -29,10 +29,10 @@ public class TextFormatterBuilder<V> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TextFormatter#TextFormatter(java.util.function.UnaryOperator<javafx.scene.control.TextFormatter.Change> filter) TextFormatter(UnaryOperator)}
-     * and returns an instance of the {@code <V> TextFormatterBuilder<V>}.
+     * Accepts the same arguments as {@link javafx.scene.control.TextFormatter#TextFormatter(UnaryOperator) TextFormatter(UnaryOperator)}
+     * and returns an instance of the {@code TextFormatterBuilder<V>}.
      *
-     * @return an instance of the {@code <V> TextFormatterBuilder<V>}.
+     * @return an instance of the {@code TextFormatterBuilder<V>}.
      */
     
     public static <V> TextFormatterBuilder<V> create(java.util.function.UnaryOperator<javafx.scene.control.TextFormatter.Change> filter) {
@@ -43,10 +43,10 @@ public class TextFormatterBuilder<V> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TextFormatter#TextFormatter(javafx.util.StringConverter<V> valueConverter) TextFormatter(StringConverter)}
-     * and returns an instance of the {@code <V> TextFormatterBuilder<V>}.
+     * Accepts the same arguments as {@link javafx.scene.control.TextFormatter#TextFormatter(StringConverter) TextFormatter(StringConverter)}
+     * and returns an instance of the {@code TextFormatterBuilder<V>}.
      *
-     * @return an instance of the {@code <V> TextFormatterBuilder<V>}.
+     * @return an instance of the {@code TextFormatterBuilder<V>}.
      */
     
     public static <V> TextFormatterBuilder<V> create(javafx.util.StringConverter<V> valueConverter) {
@@ -57,10 +57,10 @@ public class TextFormatterBuilder<V> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TextFormatter#TextFormatter(javafx.util.StringConverter<V> valueConverter, V defaultValue) TextFormatter(StringConverter, Object)}
-     * and returns an instance of the {@code <V> TextFormatterBuilder<V>}.
+     * Accepts the same arguments as {@link javafx.scene.control.TextFormatter#TextFormatter(StringConverter, Object) TextFormatter(StringConverter, Object)}
+     * and returns an instance of the {@code TextFormatterBuilder<V>}.
      *
-     * @return an instance of the {@code <V> TextFormatterBuilder<V>}.
+     * @return an instance of the {@code TextFormatterBuilder<V>}.
      */
     
     public static <V> TextFormatterBuilder<V> create(javafx.util.StringConverter<V> valueConverter, V defaultValue) {
@@ -71,10 +71,10 @@ public class TextFormatterBuilder<V> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TextFormatter#TextFormatter(javafx.util.StringConverter<V> valueConverter, V defaultValue, java.util.function.UnaryOperator<javafx.scene.control.TextFormatter.Change> filter) TextFormatter(StringConverter, Object, UnaryOperator)}
-     * and returns an instance of the {@code <V> TextFormatterBuilder<V>}.
+     * Accepts the same arguments as {@link javafx.scene.control.TextFormatter#TextFormatter(StringConverter, Object, UnaryOperator) TextFormatter(StringConverter, Object, UnaryOperator)}
+     * and returns an instance of the {@code TextFormatterBuilder<V>}.
      *
-     * @return an instance of the {@code <V> TextFormatterBuilder<V>}.
+     * @return an instance of the {@code TextFormatterBuilder<V>}.
      */
     
     public static <V> TextFormatterBuilder<V> create(javafx.util.StringConverter<V> valueConverter, V defaultValue, java.util.function.UnaryOperator<javafx.scene.control.TextFormatter.Change> filter) {
@@ -86,10 +86,10 @@ public class TextFormatterBuilder<V> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TextFormatter<V>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

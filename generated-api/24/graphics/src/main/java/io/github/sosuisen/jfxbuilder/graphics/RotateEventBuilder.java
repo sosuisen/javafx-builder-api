@@ -29,7 +29,7 @@ public class RotateEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.RotateEvent#RotateEvent(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.RotateEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, boolean inertia, double angle, double totalAngle, javafx.scene.input.PickResult pickResult) RotateEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
+     * Accepts the same arguments as {@link javafx.scene.input.RotateEvent#RotateEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult) RotateEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
      * and returns an instance of the {@code RotateEventBuilder}.
      *
      * @return an instance of the {@code RotateEventBuilder}.
@@ -43,7 +43,7 @@ public class RotateEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.RotateEvent#RotateEvent(javafx.event.EventType<javafx.scene.input.RotateEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, boolean inertia, double angle, double totalAngle, javafx.scene.input.PickResult pickResult) RotateEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
+     * Accepts the same arguments as {@link javafx.scene.input.RotateEvent#RotateEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult) RotateEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, double, double, PickResult)}
      * and returns an instance of the {@code RotateEventBuilder}.
      *
      * @return an instance of the {@code RotateEventBuilder}.
@@ -58,10 +58,10 @@ public class RotateEventBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.input.RotateEvent} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

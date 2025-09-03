@@ -37,7 +37,7 @@ public class ScaleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Scale#Scale(double x, double y) Scale(double, double)}
+     * Accepts the same arguments as {@link javafx.scene.transform.Scale#Scale(double, double) Scale(double, double)}
      * and returns an instance of the {@code ScaleBuilder}.
      *
      * @return an instance of the {@code ScaleBuilder}.
@@ -51,7 +51,7 @@ public class ScaleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Scale#Scale(double x, double y, double z) Scale(double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.transform.Scale#Scale(double, double, double) Scale(double, double, double)}
      * and returns an instance of the {@code ScaleBuilder}.
      *
      * @return an instance of the {@code ScaleBuilder}.
@@ -65,7 +65,7 @@ public class ScaleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Scale#Scale(double x, double y, double pivotX, double pivotY) Scale(double, double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.transform.Scale#Scale(double, double, double, double) Scale(double, double, double, double)}
      * and returns an instance of the {@code ScaleBuilder}.
      *
      * @return an instance of the {@code ScaleBuilder}.
@@ -79,7 +79,7 @@ public class ScaleBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Scale#Scale(double x, double y, double z, double pivotX, double pivotY, double pivotZ) Scale(double, double, double, double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.transform.Scale#Scale(double, double, double, double, double, double) Scale(double, double, double, double, double, double)}
      * and returns an instance of the {@code ScaleBuilder}.
      *
      * @return an instance of the {@code ScaleBuilder}.
@@ -94,10 +94,10 @@ public class ScaleBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.transform.Scale} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

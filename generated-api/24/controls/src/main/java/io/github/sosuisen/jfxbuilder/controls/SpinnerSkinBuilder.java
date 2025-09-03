@@ -29,10 +29,10 @@ public class SpinnerSkinBuilder<T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.SpinnerSkin#SpinnerSkin(javafx.scene.control.Spinner<T> control) SpinnerSkin(Spinner)}
-     * and returns an instance of the {@code <T> SpinnerSkinBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.skin.SpinnerSkin#SpinnerSkin(Spinner) SpinnerSkin(Spinner)}
+     * and returns an instance of the {@code SpinnerSkinBuilder<T>}.
      *
-     * @return an instance of the {@code <T> SpinnerSkinBuilder<T>}.
+     * @return an instance of the {@code SpinnerSkinBuilder<T>}.
      */
     
     public static <T> SpinnerSkinBuilder<T> create(javafx.scene.control.Spinner<T> control) {
@@ -44,10 +44,10 @@ public class SpinnerSkinBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.SpinnerSkin<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

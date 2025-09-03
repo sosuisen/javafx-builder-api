@@ -37,7 +37,7 @@ public class TriangleMeshBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.TriangleMesh#TriangleMesh(javafx.scene.shape.VertexFormat vertexFormat) TriangleMesh(VertexFormat)}
+     * Accepts the same arguments as {@link javafx.scene.shape.TriangleMesh#TriangleMesh(VertexFormat) TriangleMesh(VertexFormat)}
      * and returns an instance of the {@code TriangleMeshBuilder}.
      *
      * @return an instance of the {@code TriangleMeshBuilder}.
@@ -52,10 +52,10 @@ public class TriangleMeshBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.TriangleMesh} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

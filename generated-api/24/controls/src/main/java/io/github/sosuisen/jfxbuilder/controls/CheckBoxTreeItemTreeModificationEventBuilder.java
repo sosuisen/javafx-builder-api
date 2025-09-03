@@ -29,10 +29,10 @@ public class CheckBoxTreeItemTreeModificationEventBuilder<T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.CheckBoxTreeItem.TreeModificationEvent#TreeModificationEvent(javafx.event.EventType<? extends javafx.event.Event> eventType, javafx.scene.control.CheckBoxTreeItem<T> treeItem, boolean selectionChanged) TreeModificationEvent(EventType, CheckBoxTreeItem, boolean)}
-     * and returns an instance of the {@code <T> CheckBoxTreeItemTreeModificationEventBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.CheckBoxTreeItem.TreeModificationEvent#TreeModificationEvent(EventType, CheckBoxTreeItem, boolean) TreeModificationEvent(EventType, CheckBoxTreeItem, boolean)}
+     * and returns an instance of the {@code CheckBoxTreeItemTreeModificationEventBuilder<T>}.
      *
-     * @return an instance of the {@code <T> CheckBoxTreeItemTreeModificationEventBuilder<T>}.
+     * @return an instance of the {@code CheckBoxTreeItemTreeModificationEventBuilder<T>}.
      */
     
     public static <T> CheckBoxTreeItemTreeModificationEventBuilder<T> create(javafx.event.EventType<? extends javafx.event.Event> eventType, javafx.scene.control.CheckBoxTreeItem<T> treeItem, boolean selectionChanged) {
@@ -44,10 +44,10 @@ public class CheckBoxTreeItemTreeModificationEventBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.CheckBoxTreeItem.TreeModificationEvent<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

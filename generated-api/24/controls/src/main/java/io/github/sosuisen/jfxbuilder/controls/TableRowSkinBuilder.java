@@ -29,10 +29,10 @@ public class TableRowSkinBuilder<T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.TableRowSkin#TableRowSkin(javafx.scene.control.TableRow<T> control) TableRowSkin(TableRow)}
-     * and returns an instance of the {@code <T> TableRowSkinBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.skin.TableRowSkin#TableRowSkin(TableRow) TableRowSkin(TableRow)}
+     * and returns an instance of the {@code TableRowSkinBuilder<T>}.
      *
-     * @return an instance of the {@code <T> TableRowSkinBuilder<T>}.
+     * @return an instance of the {@code TableRowSkinBuilder<T>}.
      */
     
     public static <T> TableRowSkinBuilder<T> create(javafx.scene.control.TableRow<T> control) {
@@ -44,10 +44,10 @@ public class TableRowSkinBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.TableRowSkin<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

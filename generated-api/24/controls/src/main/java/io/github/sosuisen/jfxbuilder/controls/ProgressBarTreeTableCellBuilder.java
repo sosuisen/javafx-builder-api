@@ -29,19 +29,19 @@ public class ProgressBarTreeTableCellBuilder<S> {
     
 
     /**
-     * Returns an instance of the {@code <S> ProgressBarTreeTableCellBuilder<S>}.
+     * Returns an instance of the {@code ProgressBarTreeTableCellBuilder<S>}.
      *
-     * @return an instance of the {@code <S> ProgressBarTreeTableCellBuilder<S>}.
+     * @return an instance of the {@code ProgressBarTreeTableCellBuilder<S>}.
      */
     public static <S> ProgressBarTreeTableCellBuilder<S> create() { return new ProgressBarTreeTableCellBuilder<S>(); }
 
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.cell.ProgressBarTreeTableCell<S>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

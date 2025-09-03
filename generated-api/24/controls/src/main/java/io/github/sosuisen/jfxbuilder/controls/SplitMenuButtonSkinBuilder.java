@@ -29,7 +29,7 @@ public class SplitMenuButtonSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.SplitMenuButtonSkin#SplitMenuButtonSkin(javafx.scene.control.SplitMenuButton control) SplitMenuButtonSkin(SplitMenuButton)}
+     * Accepts the same arguments as {@link javafx.scene.control.skin.SplitMenuButtonSkin#SplitMenuButtonSkin(SplitMenuButton) SplitMenuButtonSkin(SplitMenuButton)}
      * and returns an instance of the {@code SplitMenuButtonSkinBuilder}.
      *
      * @return an instance of the {@code SplitMenuButtonSkinBuilder}.
@@ -44,10 +44,10 @@ public class SplitMenuButtonSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.SplitMenuButtonSkin} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

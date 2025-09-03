@@ -29,7 +29,7 @@ public class ContextMenuEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.ContextMenuEvent#ContextMenuEvent(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.ContextMenuEvent> eventType, double x, double y, double screenX, double screenY, boolean keyboardTrigger, javafx.scene.input.PickResult pickResult) ContextMenuEvent(Object, EventTarget, EventType, double, double, double, double, boolean, PickResult)}
+     * Accepts the same arguments as {@link javafx.scene.input.ContextMenuEvent#ContextMenuEvent(Object, EventTarget, EventType, double, double, double, double, boolean, PickResult) ContextMenuEvent(Object, EventTarget, EventType, double, double, double, double, boolean, PickResult)}
      * and returns an instance of the {@code ContextMenuEventBuilder}.
      *
      * @return an instance of the {@code ContextMenuEventBuilder}.
@@ -43,7 +43,7 @@ public class ContextMenuEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.ContextMenuEvent#ContextMenuEvent(javafx.event.EventType<javafx.scene.input.ContextMenuEvent> eventType, double x, double y, double screenX, double screenY, boolean keyboardTrigger, javafx.scene.input.PickResult pickResult) ContextMenuEvent(EventType, double, double, double, double, boolean, PickResult)}
+     * Accepts the same arguments as {@link javafx.scene.input.ContextMenuEvent#ContextMenuEvent(EventType, double, double, double, double, boolean, PickResult) ContextMenuEvent(EventType, double, double, double, double, boolean, PickResult)}
      * and returns an instance of the {@code ContextMenuEventBuilder}.
      *
      * @return an instance of the {@code ContextMenuEventBuilder}.
@@ -58,10 +58,10 @@ public class ContextMenuEventBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.input.ContextMenuEvent} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

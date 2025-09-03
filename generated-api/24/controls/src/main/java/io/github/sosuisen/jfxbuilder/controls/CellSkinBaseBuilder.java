@@ -29,10 +29,10 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.CellSkinBase#CellSkinBase(C control) CellSkinBase(Cell)}
-     * and returns an instance of the {@code <C extends javafx.scene.control.Cell> CellSkinBaseBuilder<C>}.
+     * Accepts the same arguments as {@link javafx.scene.control.skin.CellSkinBase#CellSkinBase(Cell) CellSkinBase(Cell)}
+     * and returns an instance of the {@code CellSkinBaseBuilder<C>}.
      *
-     * @return an instance of the {@code <C extends javafx.scene.control.Cell> CellSkinBaseBuilder<C>}.
+     * @return an instance of the {@code CellSkinBaseBuilder<C>}.
      */
     
     public static <C extends javafx.scene.control.Cell> CellSkinBaseBuilder<C> create(C control) {
@@ -44,10 +44,10 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.CellSkinBase<C>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

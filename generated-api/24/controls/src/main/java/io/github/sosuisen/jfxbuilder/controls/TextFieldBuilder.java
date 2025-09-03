@@ -37,7 +37,7 @@ public class TextFieldBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TextField#TextField(java.lang.String text) TextField(String)}
+     * Accepts the same arguments as {@link javafx.scene.control.TextField#TextField(String) TextField(String)}
      * and returns an instance of the {@code TextFieldBuilder}.
      *
      * @return an instance of the {@code TextFieldBuilder}.
@@ -52,10 +52,10 @@ public class TextFieldBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TextField} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

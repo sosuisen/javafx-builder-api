@@ -37,7 +37,7 @@ public class NumberAxisBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.NumberAxis#NumberAxis(double lowerBound, double upperBound, double tickUnit) NumberAxis(double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.chart.NumberAxis#NumberAxis(double, double, double) NumberAxis(double, double, double)}
      * and returns an instance of the {@code NumberAxisBuilder}.
      *
      * @return an instance of the {@code NumberAxisBuilder}.
@@ -51,7 +51,7 @@ public class NumberAxisBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.NumberAxis#NumberAxis(java.lang.String axisLabel, double lowerBound, double upperBound, double tickUnit) NumberAxis(String, double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.chart.NumberAxis#NumberAxis(String, double, double, double) NumberAxis(String, double, double, double)}
      * and returns an instance of the {@code NumberAxisBuilder}.
      *
      * @return an instance of the {@code NumberAxisBuilder}.
@@ -66,10 +66,10 @@ public class NumberAxisBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.NumberAxis} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -37,7 +37,7 @@ public class BlendBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.Blend#Blend(javafx.scene.effect.BlendMode mode) Blend(BlendMode)}
+     * Accepts the same arguments as {@link javafx.scene.effect.Blend#Blend(BlendMode) Blend(BlendMode)}
      * and returns an instance of the {@code BlendBuilder}.
      *
      * @return an instance of the {@code BlendBuilder}.
@@ -51,7 +51,7 @@ public class BlendBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.Blend#Blend(javafx.scene.effect.BlendMode mode, javafx.scene.effect.Effect bottomInput, javafx.scene.effect.Effect topInput) Blend(BlendMode, Effect, Effect)}
+     * Accepts the same arguments as {@link javafx.scene.effect.Blend#Blend(BlendMode, Effect, Effect) Blend(BlendMode, Effect, Effect)}
      * and returns an instance of the {@code BlendBuilder}.
      *
      * @return an instance of the {@code BlendBuilder}.
@@ -66,10 +66,10 @@ public class BlendBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.Blend} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

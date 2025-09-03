@@ -37,7 +37,7 @@ public class LabelBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Label#Label(java.lang.String text) Label(String)}
+     * Accepts the same arguments as {@link javafx.scene.control.Label#Label(String) Label(String)}
      * and returns an instance of the {@code LabelBuilder}.
      *
      * @return an instance of the {@code LabelBuilder}.
@@ -51,7 +51,7 @@ public class LabelBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.Label#Label(java.lang.String text, javafx.scene.Node graphic) Label(String, Node)}
+     * Accepts the same arguments as {@link javafx.scene.control.Label#Label(String, Node) Label(String, Node)}
      * and returns an instance of the {@code LabelBuilder}.
      *
      * @return an instance of the {@code LabelBuilder}.
@@ -66,10 +66,10 @@ public class LabelBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.Label} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

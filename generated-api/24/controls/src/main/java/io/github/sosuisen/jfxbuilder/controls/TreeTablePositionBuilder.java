@@ -29,10 +29,10 @@ public class TreeTablePositionBuilder<S, T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeTablePosition#TreeTablePosition(javafx.scene.control.TreeTableView<S> treeTableView, int row, javafx.scene.control.TreeTableColumn<S, T> tableColumn) TreeTablePosition(TreeTableView, int, TreeTableColumn)}
-     * and returns an instance of the {@code <S, T> TreeTablePositionBuilder<S, T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.TreeTablePosition#TreeTablePosition(TreeTableView, int, TreeTableColumn) TreeTablePosition(TreeTableView, int, TreeTableColumn)}
+     * and returns an instance of the {@code TreeTablePositionBuilder<S, T>}.
      *
-     * @return an instance of the {@code <S, T> TreeTablePositionBuilder<S, T>}.
+     * @return an instance of the {@code TreeTablePositionBuilder<S, T>}.
      */
     
     public static <S, T> TreeTablePositionBuilder<S, T> create(javafx.scene.control.TreeTableView<S> treeTableView, int row, javafx.scene.control.TreeTableColumn<S, T> tableColumn) {
@@ -44,10 +44,10 @@ public class TreeTablePositionBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TreeTablePosition<S, T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

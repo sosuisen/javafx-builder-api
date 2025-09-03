@@ -37,7 +37,7 @@ public class HLineToBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.HLineTo#HLineTo(double x) HLineTo(double)}
+     * Accepts the same arguments as {@link javafx.scene.shape.HLineTo#HLineTo(double) HLineTo(double)}
      * and returns an instance of the {@code HLineToBuilder}.
      *
      * @return an instance of the {@code HLineToBuilder}.
@@ -52,10 +52,10 @@ public class HLineToBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.HLineTo} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -29,10 +29,10 @@ public class ListViewSkinBuilder<T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.ListViewSkin#ListViewSkin(javafx.scene.control.ListView<T> control) ListViewSkin(ListView)}
-     * and returns an instance of the {@code <T> ListViewSkinBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.skin.ListViewSkin#ListViewSkin(ListView) ListViewSkin(ListView)}
+     * and returns an instance of the {@code ListViewSkinBuilder<T>}.
      *
-     * @return an instance of the {@code <T> ListViewSkinBuilder<T>}.
+     * @return an instance of the {@code ListViewSkinBuilder<T>}.
      */
     
     public static <T> ListViewSkinBuilder<T> create(javafx.scene.control.ListView<T> control) {
@@ -44,10 +44,10 @@ public class ListViewSkinBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.ListViewSkin<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

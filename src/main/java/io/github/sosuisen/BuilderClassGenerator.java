@@ -63,13 +63,12 @@ public class BuilderClassGenerator {
     private String generateBuilderClass() {
         StringBuilder content = new StringBuilder();
 
-        content.append(generateClassHeader());
-
         if ("Stage".equals(clazz.getSimpleName())) {
             content.append(generateStageMethods());
         } else if ("Scene".equals(clazz.getSimpleName())) {
             content.append(generateSceneMethods());
         } else {
+            content.append(generateClassHeader());
             content.append(generateCreateMethods());
             content.append(generateBuildMethod());
         }

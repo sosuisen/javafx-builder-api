@@ -37,7 +37,7 @@ public class TextAreaBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TextArea#TextArea(java.lang.String text) TextArea(String)}
+     * Accepts the same arguments as {@link javafx.scene.control.TextArea#TextArea(String) TextArea(String)}
      * and returns an instance of the {@code TextAreaBuilder}.
      *
      * @return an instance of the {@code TextAreaBuilder}.
@@ -52,10 +52,10 @@ public class TextAreaBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TextArea} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

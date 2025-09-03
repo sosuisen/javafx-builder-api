@@ -29,7 +29,7 @@ public class BorderStrokeBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BorderStroke#BorderStroke(javafx.scene.paint.Paint stroke, javafx.scene.layout.BorderStrokeStyle style, javafx.scene.layout.CornerRadii radii, javafx.scene.layout.BorderWidths widths) BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths)}
+     * Accepts the same arguments as {@link javafx.scene.layout.BorderStroke#BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths) BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths)}
      * and returns an instance of the {@code BorderStrokeBuilder}.
      *
      * @return an instance of the {@code BorderStrokeBuilder}.
@@ -43,7 +43,7 @@ public class BorderStrokeBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BorderStroke#BorderStroke(javafx.scene.paint.Paint stroke, javafx.scene.layout.BorderStrokeStyle style, javafx.scene.layout.CornerRadii radii, javafx.scene.layout.BorderWidths widths, javafx.geometry.Insets insets) BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths, Insets)}
+     * Accepts the same arguments as {@link javafx.scene.layout.BorderStroke#BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths, Insets) BorderStroke(Paint, BorderStrokeStyle, CornerRadii, BorderWidths, Insets)}
      * and returns an instance of the {@code BorderStrokeBuilder}.
      *
      * @return an instance of the {@code BorderStrokeBuilder}.
@@ -57,7 +57,7 @@ public class BorderStrokeBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BorderStroke#BorderStroke(javafx.scene.paint.Paint topStroke, javafx.scene.paint.Paint rightStroke, javafx.scene.paint.Paint bottomStroke, javafx.scene.paint.Paint leftStroke, javafx.scene.layout.BorderStrokeStyle topStyle, javafx.scene.layout.BorderStrokeStyle rightStyle, javafx.scene.layout.BorderStrokeStyle bottomStyle, javafx.scene.layout.BorderStrokeStyle leftStyle, javafx.scene.layout.CornerRadii radii, javafx.scene.layout.BorderWidths widths, javafx.geometry.Insets insets) BorderStroke(Paint, Paint, Paint, Paint, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, CornerRadii, BorderWidths, Insets)}
+     * Accepts the same arguments as {@link javafx.scene.layout.BorderStroke#BorderStroke(Paint, Paint, Paint, Paint, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, CornerRadii, BorderWidths, Insets) BorderStroke(Paint, Paint, Paint, Paint, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, BorderStrokeStyle, CornerRadii, BorderWidths, Insets)}
      * and returns an instance of the {@code BorderStrokeBuilder}.
      *
      * @return an instance of the {@code BorderStrokeBuilder}.
@@ -72,10 +72,10 @@ public class BorderStrokeBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.BorderStroke} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

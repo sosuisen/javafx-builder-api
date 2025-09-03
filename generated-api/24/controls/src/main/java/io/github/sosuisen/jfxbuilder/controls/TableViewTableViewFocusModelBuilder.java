@@ -29,10 +29,10 @@ public class TableViewTableViewFocusModelBuilder<S> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TableView.TableViewFocusModel#TableViewFocusModel(javafx.scene.control.TableView<S> tableView) TableViewFocusModel(TableView)}
-     * and returns an instance of the {@code <S> TableViewTableViewFocusModelBuilder<S>}.
+     * Accepts the same arguments as {@link javafx.scene.control.TableView.TableViewFocusModel#TableViewFocusModel(TableView) TableViewFocusModel(TableView)}
+     * and returns an instance of the {@code TableViewTableViewFocusModelBuilder<S>}.
      *
-     * @return an instance of the {@code <S> TableViewTableViewFocusModelBuilder<S>}.
+     * @return an instance of the {@code TableViewTableViewFocusModelBuilder<S>}.
      */
     
     public static <S> TableViewTableViewFocusModelBuilder<S> create(javafx.scene.control.TableView<S> tableView) {
@@ -44,10 +44,10 @@ public class TableViewTableViewFocusModelBuilder<S> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TableView.TableViewFocusModel<S>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

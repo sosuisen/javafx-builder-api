@@ -37,7 +37,7 @@ public class PerspectiveTransformBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.PerspectiveTransform#PerspectiveTransform(double ulx, double uly, double urx, double ury, double lrx, double lry, double llx, double lly) PerspectiveTransform(double, double, double, double, double, double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.effect.PerspectiveTransform#PerspectiveTransform(double, double, double, double, double, double, double, double) PerspectiveTransform(double, double, double, double, double, double, double, double)}
      * and returns an instance of the {@code PerspectiveTransformBuilder}.
      *
      * @return an instance of the {@code PerspectiveTransformBuilder}.
@@ -52,10 +52,10 @@ public class PerspectiveTransformBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.PerspectiveTransform} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

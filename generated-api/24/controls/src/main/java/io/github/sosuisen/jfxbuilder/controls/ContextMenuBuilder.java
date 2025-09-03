@@ -37,7 +37,7 @@ public class ContextMenuBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.ContextMenu#ContextMenu(javafx.scene.control.MenuItem... items) ContextMenu(MenuItem...)}
+     * Accepts the same arguments as {@link javafx.scene.control.ContextMenu#ContextMenu(MenuItem...) ContextMenu(MenuItem...)}
      * and returns an instance of the {@code ContextMenuBuilder}.
      *
      * @return an instance of the {@code ContextMenuBuilder}.
@@ -52,10 +52,10 @@ public class ContextMenuBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.ContextMenu} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

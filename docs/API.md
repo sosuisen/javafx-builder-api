@@ -4,7 +4,7 @@ The builder classes provide a fluent API for creating JavaFX components:
 
 ```java
 // Example using generated Builders
-textProp = new SimpleStringProperty("100");
+StringProperty textProp = new SimpleStringProperty("100");
 
 Scene scene = SceneBuilder.withRoot(
                   HBoxBuilder.withChildren(
@@ -247,7 +247,7 @@ StageBuilder.withScene(
         SceneBuilder.withRoot(
                 AnchorPaneBuilder.withChildren(
                         LabelBuilder.create()
-                                .text("BMI Calculator")
+                                .text("Hello, JavaFX!")
                                 .style("-fx-font-weight: bold;")
                                 .build())
                         .build())

@@ -37,7 +37,7 @@ public class RotateBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Rotate#Rotate(double angle) Rotate(double)}
+     * Accepts the same arguments as {@link javafx.scene.transform.Rotate#Rotate(double) Rotate(double)}
      * and returns an instance of the {@code RotateBuilder}.
      *
      * @return an instance of the {@code RotateBuilder}.
@@ -51,7 +51,7 @@ public class RotateBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Rotate#Rotate(double angle, double pivotX, double pivotY) Rotate(double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.transform.Rotate#Rotate(double, double, double) Rotate(double, double, double)}
      * and returns an instance of the {@code RotateBuilder}.
      *
      * @return an instance of the {@code RotateBuilder}.
@@ -65,7 +65,7 @@ public class RotateBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Rotate#Rotate(double angle, double pivotX, double pivotY, double pivotZ) Rotate(double, double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.transform.Rotate#Rotate(double, double, double, double) Rotate(double, double, double, double)}
      * and returns an instance of the {@code RotateBuilder}.
      *
      * @return an instance of the {@code RotateBuilder}.
@@ -79,7 +79,7 @@ public class RotateBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Rotate#Rotate(double angle, double pivotX, double pivotY, double pivotZ, javafx.geometry.Point3D axis) Rotate(double, double, double, double, Point3D)}
+     * Accepts the same arguments as {@link javafx.scene.transform.Rotate#Rotate(double, double, double, double, Point3D) Rotate(double, double, double, double, Point3D)}
      * and returns an instance of the {@code RotateBuilder}.
      *
      * @return an instance of the {@code RotateBuilder}.
@@ -93,7 +93,7 @@ public class RotateBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.transform.Rotate#Rotate(double angle, javafx.geometry.Point3D axis) Rotate(double, Point3D)}
+     * Accepts the same arguments as {@link javafx.scene.transform.Rotate#Rotate(double, Point3D) Rotate(double, Point3D)}
      * and returns an instance of the {@code RotateBuilder}.
      *
      * @return an instance of the {@code RotateBuilder}.
@@ -108,10 +108,10 @@ public class RotateBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.transform.Rotate} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

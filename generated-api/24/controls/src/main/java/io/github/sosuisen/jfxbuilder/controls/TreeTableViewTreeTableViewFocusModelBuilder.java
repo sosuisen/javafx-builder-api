@@ -29,10 +29,10 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#TreeTableViewFocusModel(javafx.scene.control.TreeTableView<S> treeTableView) TreeTableViewFocusModel(TreeTableView)}
-     * and returns an instance of the {@code <S> TreeTableViewTreeTableViewFocusModelBuilder<S>}.
+     * Accepts the same arguments as {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#TreeTableViewFocusModel(TreeTableView) TreeTableViewFocusModel(TreeTableView)}
+     * and returns an instance of the {@code TreeTableViewTreeTableViewFocusModelBuilder<S>}.
      *
-     * @return an instance of the {@code <S> TreeTableViewTreeTableViewFocusModelBuilder<S>}.
+     * @return an instance of the {@code TreeTableViewTreeTableViewFocusModelBuilder<S>}.
      */
     
     public static <S> TreeTableViewTreeTableViewFocusModelBuilder<S> create(javafx.scene.control.TreeTableView<S> treeTableView) {
@@ -44,10 +44,10 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel<S>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

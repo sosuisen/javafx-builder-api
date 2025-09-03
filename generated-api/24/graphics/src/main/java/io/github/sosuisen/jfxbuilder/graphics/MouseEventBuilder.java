@@ -29,7 +29,7 @@ public class MouseEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.MouseEvent#MouseEvent(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<? extends javafx.scene.input.MouseEvent> eventType, double x, double y, double screenX, double screenY, javafx.scene.input.MouseButton button, int clickCount, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean primaryButtonDown, boolean middleButtonDown, boolean secondaryButtonDown, boolean backButtonDown, boolean forwardButtonDown, boolean synthesized, boolean popupTrigger, boolean stillSincePress, javafx.scene.input.PickResult pickResult) MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
+     * Accepts the same arguments as {@link javafx.scene.input.MouseEvent#MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
      * and returns an instance of the {@code MouseEventBuilder}.
      *
      * @return an instance of the {@code MouseEventBuilder}.
@@ -43,7 +43,7 @@ public class MouseEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.MouseEvent#MouseEvent(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<? extends javafx.scene.input.MouseEvent> eventType, double x, double y, double screenX, double screenY, javafx.scene.input.MouseButton button, int clickCount, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean primaryButtonDown, boolean middleButtonDown, boolean secondaryButtonDown, boolean synthesized, boolean popupTrigger, boolean stillSincePress, javafx.scene.input.PickResult pickResult) MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
+     * Accepts the same arguments as {@link javafx.scene.input.MouseEvent#MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(Object, EventTarget, EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
      * and returns an instance of the {@code MouseEventBuilder}.
      *
      * @return an instance of the {@code MouseEventBuilder}.
@@ -57,7 +57,7 @@ public class MouseEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.MouseEvent#MouseEvent(javafx.event.EventType<? extends javafx.scene.input.MouseEvent> eventType, double x, double y, double screenX, double screenY, javafx.scene.input.MouseButton button, int clickCount, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean primaryButtonDown, boolean middleButtonDown, boolean secondaryButtonDown, boolean backButtonDown, boolean forwardButtonDown, boolean synthesized, boolean popupTrigger, boolean stillSincePress, javafx.scene.input.PickResult pickResult) MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
+     * Accepts the same arguments as {@link javafx.scene.input.MouseEvent#MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
      * and returns an instance of the {@code MouseEventBuilder}.
      *
      * @return an instance of the {@code MouseEventBuilder}.
@@ -71,7 +71,7 @@ public class MouseEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.MouseEvent#MouseEvent(javafx.event.EventType<? extends javafx.scene.input.MouseEvent> eventType, double x, double y, double screenX, double screenY, javafx.scene.input.MouseButton button, int clickCount, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean primaryButtonDown, boolean middleButtonDown, boolean secondaryButtonDown, boolean synthesized, boolean popupTrigger, boolean stillSincePress, javafx.scene.input.PickResult pickResult) MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
+     * Accepts the same arguments as {@link javafx.scene.input.MouseEvent#MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult) MouseEvent(EventType, double, double, double, double, MouseButton, int, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean, PickResult)}
      * and returns an instance of the {@code MouseEventBuilder}.
      *
      * @return an instance of the {@code MouseEventBuilder}.
@@ -86,10 +86,10 @@ public class MouseEventBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.input.MouseEvent} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

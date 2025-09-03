@@ -29,7 +29,7 @@ public class BackgroundBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.Background#Background(java.util.List<javafx.scene.layout.BackgroundFill> fills, java.util.List<javafx.scene.layout.BackgroundImage> images) Background(List, List)}
+     * Accepts the same arguments as {@link javafx.scene.layout.Background#Background(List, List) Background(List, List)}
      * and returns an instance of the {@code BackgroundBuilder}.
      *
      * @return an instance of the {@code BackgroundBuilder}.
@@ -43,7 +43,7 @@ public class BackgroundBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.Background#Background(javafx.scene.layout.BackgroundFill... fills) Background(BackgroundFill...)}
+     * Accepts the same arguments as {@link javafx.scene.layout.Background#Background(BackgroundFill...) Background(BackgroundFill...)}
      * and returns an instance of the {@code BackgroundBuilder}.
      *
      * @return an instance of the {@code BackgroundBuilder}.
@@ -57,7 +57,7 @@ public class BackgroundBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.Background#Background(javafx.scene.layout.BackgroundFill[] fills, javafx.scene.layout.BackgroundImage[] images) Background(BackgroundFill..., BackgroundImage...)}
+     * Accepts the same arguments as {@link javafx.scene.layout.Background#Background(BackgroundFill..., BackgroundImage...) Background(BackgroundFill..., BackgroundImage...)}
      * and returns an instance of the {@code BackgroundBuilder}.
      *
      * @return an instance of the {@code BackgroundBuilder}.
@@ -71,7 +71,7 @@ public class BackgroundBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.Background#Background(javafx.scene.layout.BackgroundImage... images) Background(BackgroundImage...)}
+     * Accepts the same arguments as {@link javafx.scene.layout.Background#Background(BackgroundImage...) Background(BackgroundImage...)}
      * and returns an instance of the {@code BackgroundBuilder}.
      *
      * @return an instance of the {@code BackgroundBuilder}.
@@ -86,10 +86,10 @@ public class BackgroundBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.Background} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

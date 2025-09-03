@@ -29,10 +29,10 @@ public class WebEventBuilder<T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.web.WebEvent#WebEvent(java.lang.Object source, javafx.event.EventType<javafx.scene.web.WebEvent> type, T data) WebEvent(Object, EventType, Object)}
-     * and returns an instance of the {@code <T> WebEventBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.web.WebEvent#WebEvent(Object, EventType, Object) WebEvent(Object, EventType, Object)}
+     * and returns an instance of the {@code WebEventBuilder<T>}.
      *
-     * @return an instance of the {@code <T> WebEventBuilder<T>}.
+     * @return an instance of the {@code WebEventBuilder<T>}.
      */
     
     public static <T> WebEventBuilder<T> create(java.lang.Object source, javafx.event.EventType<javafx.scene.web.WebEvent> type, T data) {
@@ -44,10 +44,10 @@ public class WebEventBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.web.WebEvent<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

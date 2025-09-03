@@ -29,10 +29,10 @@ public class LineChartBuilder<X, Y> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.LineChart#LineChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) LineChart(Axis, Axis)}
-     * and returns an instance of the {@code <X, Y> LineChartBuilder<X, Y>}.
+     * Accepts the same arguments as {@link javafx.scene.chart.LineChart#LineChart(Axis, Axis) LineChart(Axis, Axis)}
+     * and returns an instance of the {@code LineChartBuilder<X, Y>}.
      *
-     * @return an instance of the {@code <X, Y> LineChartBuilder<X, Y>}.
+     * @return an instance of the {@code LineChartBuilder<X, Y>}.
      */
     
     public static <X, Y> LineChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) {
@@ -43,10 +43,10 @@ public class LineChartBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.LineChart#LineChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) LineChart(Axis, Axis, ObservableList)}
-     * and returns an instance of the {@code <X, Y> LineChartBuilder<X, Y>}.
+     * Accepts the same arguments as {@link javafx.scene.chart.LineChart#LineChart(Axis, Axis, ObservableList) LineChart(Axis, Axis, ObservableList)}
+     * and returns an instance of the {@code LineChartBuilder<X, Y>}.
      *
-     * @return an instance of the {@code <X, Y> LineChartBuilder<X, Y>}.
+     * @return an instance of the {@code LineChartBuilder<X, Y>}.
      */
     
     public static <X, Y> LineChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) {
@@ -58,10 +58,10 @@ public class LineChartBuilder<X, Y> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.LineChart<X, Y>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

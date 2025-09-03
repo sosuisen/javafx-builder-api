@@ -29,7 +29,7 @@ public class NumberAxisDefaultFormatterBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.NumberAxis.DefaultFormatter#DefaultFormatter(javafx.scene.chart.NumberAxis axis) DefaultFormatter(NumberAxis)}
+     * Accepts the same arguments as {@link javafx.scene.chart.NumberAxis.DefaultFormatter#DefaultFormatter(NumberAxis) DefaultFormatter(NumberAxis)}
      * and returns an instance of the {@code NumberAxisDefaultFormatterBuilder}.
      *
      * @return an instance of the {@code NumberAxisDefaultFormatterBuilder}.
@@ -43,7 +43,7 @@ public class NumberAxisDefaultFormatterBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.NumberAxis.DefaultFormatter#DefaultFormatter(javafx.scene.chart.NumberAxis axis, java.lang.String prefix, java.lang.String suffix) DefaultFormatter(NumberAxis, String, String)}
+     * Accepts the same arguments as {@link javafx.scene.chart.NumberAxis.DefaultFormatter#DefaultFormatter(NumberAxis, String, String) DefaultFormatter(NumberAxis, String, String)}
      * and returns an instance of the {@code NumberAxisDefaultFormatterBuilder}.
      *
      * @return an instance of the {@code NumberAxisDefaultFormatterBuilder}.
@@ -58,10 +58,10 @@ public class NumberAxisDefaultFormatterBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.NumberAxis.DefaultFormatter} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

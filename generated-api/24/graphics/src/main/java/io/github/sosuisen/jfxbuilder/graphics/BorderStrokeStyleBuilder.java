@@ -29,7 +29,7 @@ public class BorderStrokeStyleBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BorderStrokeStyle#BorderStrokeStyle(javafx.scene.shape.StrokeType type, javafx.scene.shape.StrokeLineJoin lineJoin, javafx.scene.shape.StrokeLineCap lineCap, double miterLimit, double dashOffset, java.util.List<java.lang.Double> dashArray) BorderStrokeStyle(StrokeType, StrokeLineJoin, StrokeLineCap, double, double, List)}
+     * Accepts the same arguments as {@link javafx.scene.layout.BorderStrokeStyle#BorderStrokeStyle(StrokeType, StrokeLineJoin, StrokeLineCap, double, double, List) BorderStrokeStyle(StrokeType, StrokeLineJoin, StrokeLineCap, double, double, List)}
      * and returns an instance of the {@code BorderStrokeStyleBuilder}.
      *
      * @return an instance of the {@code BorderStrokeStyleBuilder}.
@@ -44,10 +44,10 @@ public class BorderStrokeStyleBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.BorderStrokeStyle} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -29,7 +29,7 @@ public class BackgroundSizeBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.BackgroundSize#BackgroundSize(double width, double height, boolean widthAsPercentage, boolean heightAsPercentage, boolean contain, boolean cover) BackgroundSize(double, double, boolean, boolean, boolean, boolean)}
+     * Accepts the same arguments as {@link javafx.scene.layout.BackgroundSize#BackgroundSize(double, double, boolean, boolean, boolean, boolean) BackgroundSize(double, double, boolean, boolean, boolean, boolean)}
      * and returns an instance of the {@code BackgroundSizeBuilder}.
      *
      * @return an instance of the {@code BackgroundSizeBuilder}.
@@ -44,10 +44,10 @@ public class BackgroundSizeBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.BackgroundSize} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

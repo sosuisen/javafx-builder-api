@@ -37,7 +37,7 @@ public class StackPaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.StackPane#StackPane(javafx.scene.Node... children) StackPane(Node...)}
+     * Accepts the same arguments as {@link javafx.scene.layout.StackPane#StackPane(Node...) StackPane(Node...)}
      * and returns an instance of the {@code StackPaneBuilder}.
      *
      * @return an instance of the {@code StackPaneBuilder}.
@@ -52,10 +52,10 @@ public class StackPaneBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.StackPane} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

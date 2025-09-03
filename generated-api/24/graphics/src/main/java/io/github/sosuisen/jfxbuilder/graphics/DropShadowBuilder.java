@@ -37,7 +37,7 @@ public class DropShadowBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.DropShadow#DropShadow(double radius, double offsetX, double offsetY, javafx.scene.paint.Color color) DropShadow(double, double, double, Color)}
+     * Accepts the same arguments as {@link javafx.scene.effect.DropShadow#DropShadow(double, double, double, Color) DropShadow(double, double, double, Color)}
      * and returns an instance of the {@code DropShadowBuilder}.
      *
      * @return an instance of the {@code DropShadowBuilder}.
@@ -51,7 +51,7 @@ public class DropShadowBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.DropShadow#DropShadow(double radius, javafx.scene.paint.Color color) DropShadow(double, Color)}
+     * Accepts the same arguments as {@link javafx.scene.effect.DropShadow#DropShadow(double, Color) DropShadow(double, Color)}
      * and returns an instance of the {@code DropShadowBuilder}.
      *
      * @return an instance of the {@code DropShadowBuilder}.
@@ -65,7 +65,7 @@ public class DropShadowBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.DropShadow#DropShadow(javafx.scene.effect.BlurType blurType, javafx.scene.paint.Color color, double radius, double spread, double offsetX, double offsetY) DropShadow(BlurType, Color, double, double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.effect.DropShadow#DropShadow(BlurType, Color, double, double, double, double) DropShadow(BlurType, Color, double, double, double, double)}
      * and returns an instance of the {@code DropShadowBuilder}.
      *
      * @return an instance of the {@code DropShadowBuilder}.
@@ -80,10 +80,10 @@ public class DropShadowBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.DropShadow} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

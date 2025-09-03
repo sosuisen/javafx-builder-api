@@ -37,7 +37,7 @@ public class CubicCurveBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.CubicCurve#CubicCurve(double startX, double startY, double controlX1, double controlY1, double controlX2, double controlY2, double endX, double endY) CubicCurve(double, double, double, double, double, double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.shape.CubicCurve#CubicCurve(double, double, double, double, double, double, double, double) CubicCurve(double, double, double, double, double, double, double, double)}
      * and returns an instance of the {@code CubicCurveBuilder}.
      *
      * @return an instance of the {@code CubicCurveBuilder}.
@@ -52,10 +52,10 @@ public class CubicCurveBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.CubicCurve} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

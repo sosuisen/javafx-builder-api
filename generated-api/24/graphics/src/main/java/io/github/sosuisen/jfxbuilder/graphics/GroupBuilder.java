@@ -37,7 +37,7 @@ public class GroupBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.Group#Group(java.util.Collection<javafx.scene.Node> children) Group(Collection)}
+     * Accepts the same arguments as {@link javafx.scene.Group#Group(Collection) Group(Collection)}
      * and returns an instance of the {@code GroupBuilder}.
      *
      * @return an instance of the {@code GroupBuilder}.
@@ -51,7 +51,7 @@ public class GroupBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.Group#Group(javafx.scene.Node... children) Group(Node...)}
+     * Accepts the same arguments as {@link javafx.scene.Group#Group(Node...) Group(Node...)}
      * and returns an instance of the {@code GroupBuilder}.
      *
      * @return an instance of the {@code GroupBuilder}.
@@ -66,10 +66,10 @@ public class GroupBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.Group} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -37,7 +37,7 @@ public class LightingBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.Lighting#Lighting(javafx.scene.effect.Light light) Lighting(Light)}
+     * Accepts the same arguments as {@link javafx.scene.effect.Lighting#Lighting(Light) Lighting(Light)}
      * and returns an instance of the {@code LightingBuilder}.
      *
      * @return an instance of the {@code LightingBuilder}.
@@ -52,10 +52,10 @@ public class LightingBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.Lighting} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

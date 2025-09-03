@@ -29,18 +29,18 @@ public class CheckBoxTreeItemBuilder<T> {
     
 
     /**
-     * Returns an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     * Returns an instance of the {@code CheckBoxTreeItemBuilder<T>}.
      *
-     * @return an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     * @return an instance of the {@code CheckBoxTreeItemBuilder<T>}.
      */
     public static <T> CheckBoxTreeItemBuilder<T> create() { return new CheckBoxTreeItemBuilder<T>(); }
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(T value) CheckBoxTreeItem(Object)}
-     * and returns an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(Object) CheckBoxTreeItem(Object)}
+     * and returns an instance of the {@code CheckBoxTreeItemBuilder<T>}.
      *
-     * @return an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     * @return an instance of the {@code CheckBoxTreeItemBuilder<T>}.
      */
     
     public static <T> CheckBoxTreeItemBuilder<T> create(T value) {
@@ -51,10 +51,10 @@ public class CheckBoxTreeItemBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(T value, javafx.scene.Node graphic) CheckBoxTreeItem(Object, Node)}
-     * and returns an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(Object, Node) CheckBoxTreeItem(Object, Node)}
+     * and returns an instance of the {@code CheckBoxTreeItemBuilder<T>}.
      *
-     * @return an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     * @return an instance of the {@code CheckBoxTreeItemBuilder<T>}.
      */
     
     public static <T> CheckBoxTreeItemBuilder<T> create(T value, javafx.scene.Node graphic) {
@@ -65,10 +65,10 @@ public class CheckBoxTreeItemBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(T value, javafx.scene.Node graphic, boolean selected) CheckBoxTreeItem(Object, Node, boolean)}
-     * and returns an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(Object, Node, boolean) CheckBoxTreeItem(Object, Node, boolean)}
+     * and returns an instance of the {@code CheckBoxTreeItemBuilder<T>}.
      *
-     * @return an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     * @return an instance of the {@code CheckBoxTreeItemBuilder<T>}.
      */
     
     public static <T> CheckBoxTreeItemBuilder<T> create(T value, javafx.scene.Node graphic, boolean selected) {
@@ -79,10 +79,10 @@ public class CheckBoxTreeItemBuilder<T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(T value, javafx.scene.Node graphic, boolean selected, boolean independent) CheckBoxTreeItem(Object, Node, boolean, boolean)}
-     * and returns an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.CheckBoxTreeItem#CheckBoxTreeItem(Object, Node, boolean, boolean) CheckBoxTreeItem(Object, Node, boolean, boolean)}
+     * and returns an instance of the {@code CheckBoxTreeItemBuilder<T>}.
      *
-     * @return an instance of the {@code <T> CheckBoxTreeItemBuilder<T>}.
+     * @return an instance of the {@code CheckBoxTreeItemBuilder<T>}.
      */
     
     public static <T> CheckBoxTreeItemBuilder<T> create(T value, javafx.scene.Node graphic, boolean selected, boolean independent) {
@@ -94,10 +94,10 @@ public class CheckBoxTreeItemBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.CheckBoxTreeItem<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

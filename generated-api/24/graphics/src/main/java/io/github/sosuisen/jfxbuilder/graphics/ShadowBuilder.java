@@ -37,7 +37,7 @@ public class ShadowBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.Shadow#Shadow(double radius, javafx.scene.paint.Color color) Shadow(double, Color)}
+     * Accepts the same arguments as {@link javafx.scene.effect.Shadow#Shadow(double, Color) Shadow(double, Color)}
      * and returns an instance of the {@code ShadowBuilder}.
      *
      * @return an instance of the {@code ShadowBuilder}.
@@ -51,7 +51,7 @@ public class ShadowBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.Shadow#Shadow(javafx.scene.effect.BlurType blurType, javafx.scene.paint.Color color, double radius) Shadow(BlurType, Color, double)}
+     * Accepts the same arguments as {@link javafx.scene.effect.Shadow#Shadow(BlurType, Color, double) Shadow(BlurType, Color, double)}
      * and returns an instance of the {@code ShadowBuilder}.
      *
      * @return an instance of the {@code ShadowBuilder}.
@@ -66,10 +66,10 @@ public class ShadowBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.Shadow} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

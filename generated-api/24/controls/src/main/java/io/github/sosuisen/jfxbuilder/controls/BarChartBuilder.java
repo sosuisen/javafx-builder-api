@@ -29,10 +29,10 @@ public class BarChartBuilder<X, Y> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.BarChart#BarChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) BarChart(Axis, Axis)}
-     * and returns an instance of the {@code <X, Y> BarChartBuilder<X, Y>}.
+     * Accepts the same arguments as {@link javafx.scene.chart.BarChart#BarChart(Axis, Axis) BarChart(Axis, Axis)}
+     * and returns an instance of the {@code BarChartBuilder<X, Y>}.
      *
-     * @return an instance of the {@code <X, Y> BarChartBuilder<X, Y>}.
+     * @return an instance of the {@code BarChartBuilder<X, Y>}.
      */
     
     public static <X, Y> BarChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) {
@@ -43,10 +43,10 @@ public class BarChartBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.BarChart#BarChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) BarChart(Axis, Axis, ObservableList)}
-     * and returns an instance of the {@code <X, Y> BarChartBuilder<X, Y>}.
+     * Accepts the same arguments as {@link javafx.scene.chart.BarChart#BarChart(Axis, Axis, ObservableList) BarChart(Axis, Axis, ObservableList)}
+     * and returns an instance of the {@code BarChartBuilder<X, Y>}.
      *
-     * @return an instance of the {@code <X, Y> BarChartBuilder<X, Y>}.
+     * @return an instance of the {@code BarChartBuilder<X, Y>}.
      */
     
     public static <X, Y> BarChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) {
@@ -57,10 +57,10 @@ public class BarChartBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.BarChart#BarChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data, double categoryGap) BarChart(Axis, Axis, ObservableList, double)}
-     * and returns an instance of the {@code <X, Y> BarChartBuilder<X, Y>}.
+     * Accepts the same arguments as {@link javafx.scene.chart.BarChart#BarChart(Axis, Axis, ObservableList, double) BarChart(Axis, Axis, ObservableList, double)}
+     * and returns an instance of the {@code BarChartBuilder<X, Y>}.
      *
-     * @return an instance of the {@code <X, Y> BarChartBuilder<X, Y>}.
+     * @return an instance of the {@code BarChartBuilder<X, Y>}.
      */
     
     public static <X, Y> BarChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data, double categoryGap) {
@@ -72,10 +72,10 @@ public class BarChartBuilder<X, Y> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.BarChart<X, Y>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

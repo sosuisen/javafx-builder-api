@@ -29,10 +29,10 @@ public class PixelBufferBuilder<T extends java.nio.Buffer> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.image.PixelBuffer#PixelBuffer(int width, int height, T buffer, javafx.scene.image.PixelFormat<T> pixelFormat) PixelBuffer(int, int, Buffer, PixelFormat)}
-     * and returns an instance of the {@code <T extends java.nio.Buffer> PixelBufferBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.image.PixelBuffer#PixelBuffer(int, int, Buffer, PixelFormat) PixelBuffer(int, int, Buffer, PixelFormat)}
+     * and returns an instance of the {@code PixelBufferBuilder<T>}.
      *
-     * @return an instance of the {@code <T extends java.nio.Buffer> PixelBufferBuilder<T>}.
+     * @return an instance of the {@code PixelBufferBuilder<T>}.
      */
     
     public static <T extends java.nio.Buffer> PixelBufferBuilder<T> create(int width, int height, T buffer, javafx.scene.image.PixelFormat<T> pixelFormat) {
@@ -44,10 +44,10 @@ public class PixelBufferBuilder<T extends java.nio.Buffer> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.image.PixelBuffer<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -29,7 +29,7 @@ public class TouchEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.TouchEvent#TouchEvent(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.TouchEvent> eventType, javafx.scene.input.TouchPoint touchPoint, java.util.List<javafx.scene.input.TouchPoint> touchPoints, int eventSetId, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown) TouchEvent(Object, EventTarget, EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean)}
+     * Accepts the same arguments as {@link javafx.scene.input.TouchEvent#TouchEvent(Object, EventTarget, EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean) TouchEvent(Object, EventTarget, EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean)}
      * and returns an instance of the {@code TouchEventBuilder}.
      *
      * @return an instance of the {@code TouchEventBuilder}.
@@ -43,7 +43,7 @@ public class TouchEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.TouchEvent#TouchEvent(javafx.event.EventType<javafx.scene.input.TouchEvent> eventType, javafx.scene.input.TouchPoint touchPoint, java.util.List<javafx.scene.input.TouchPoint> touchPoints, int eventSetId, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown) TouchEvent(EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean)}
+     * Accepts the same arguments as {@link javafx.scene.input.TouchEvent#TouchEvent(EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean) TouchEvent(EventType, TouchPoint, List, int, boolean, boolean, boolean, boolean)}
      * and returns an instance of the {@code TouchEventBuilder}.
      *
      * @return an instance of the {@code TouchEventBuilder}.
@@ -58,10 +58,10 @@ public class TouchEventBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.input.TouchEvent} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

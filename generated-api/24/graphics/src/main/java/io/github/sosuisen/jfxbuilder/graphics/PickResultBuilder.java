@@ -29,7 +29,7 @@ public class PickResultBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.PickResult#PickResult(javafx.event.EventTarget target, double sceneX, double sceneY) PickResult(EventTarget, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.input.PickResult#PickResult(EventTarget, double, double) PickResult(EventTarget, double, double)}
      * and returns an instance of the {@code PickResultBuilder}.
      *
      * @return an instance of the {@code PickResultBuilder}.
@@ -43,7 +43,7 @@ public class PickResultBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.PickResult#PickResult(javafx.scene.Node node, javafx.geometry.Point3D point, double distance) PickResult(Node, Point3D, double)}
+     * Accepts the same arguments as {@link javafx.scene.input.PickResult#PickResult(Node, Point3D, double) PickResult(Node, Point3D, double)}
      * and returns an instance of the {@code PickResultBuilder}.
      *
      * @return an instance of the {@code PickResultBuilder}.
@@ -57,7 +57,7 @@ public class PickResultBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.PickResult#PickResult(javafx.scene.Node node, javafx.geometry.Point3D point, double distance, int face, javafx.geometry.Point2D texCoord) PickResult(Node, Point3D, double, int, Point2D)}
+     * Accepts the same arguments as {@link javafx.scene.input.PickResult#PickResult(Node, Point3D, double, int, Point2D) PickResult(Node, Point3D, double, int, Point2D)}
      * and returns an instance of the {@code PickResultBuilder}.
      *
      * @return an instance of the {@code PickResultBuilder}.
@@ -71,7 +71,7 @@ public class PickResultBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.PickResult#PickResult(javafx.scene.Node node, javafx.geometry.Point3D point, double distance, int face, javafx.geometry.Point3D normal, javafx.geometry.Point2D texCoord) PickResult(Node, Point3D, double, int, Point3D, Point2D)}
+     * Accepts the same arguments as {@link javafx.scene.input.PickResult#PickResult(Node, Point3D, double, int, Point3D, Point2D) PickResult(Node, Point3D, double, int, Point3D, Point2D)}
      * and returns an instance of the {@code PickResultBuilder}.
      *
      * @return an instance of the {@code PickResultBuilder}.
@@ -86,10 +86,10 @@ public class PickResultBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.input.PickResult} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

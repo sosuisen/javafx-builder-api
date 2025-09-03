@@ -37,7 +37,7 @@ public class TextBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.text.Text#Text(double x, double y, java.lang.String text) Text(double, double, String)}
+     * Accepts the same arguments as {@link javafx.scene.text.Text#Text(double, double, String) Text(double, double, String)}
      * and returns an instance of the {@code TextBuilder}.
      *
      * @return an instance of the {@code TextBuilder}.
@@ -51,7 +51,7 @@ public class TextBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.text.Text#Text(java.lang.String text) Text(String)}
+     * Accepts the same arguments as {@link javafx.scene.text.Text#Text(String) Text(String)}
      * and returns an instance of the {@code TextBuilder}.
      *
      * @return an instance of the {@code TextBuilder}.
@@ -66,10 +66,10 @@ public class TextBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.text.Text} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

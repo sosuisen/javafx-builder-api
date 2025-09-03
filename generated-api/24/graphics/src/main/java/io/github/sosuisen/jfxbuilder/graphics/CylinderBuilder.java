@@ -37,7 +37,7 @@ public class CylinderBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Cylinder#Cylinder(double radius, double height) Cylinder(double, double)}
+     * Accepts the same arguments as {@link javafx.scene.shape.Cylinder#Cylinder(double, double) Cylinder(double, double)}
      * and returns an instance of the {@code CylinderBuilder}.
      *
      * @return an instance of the {@code CylinderBuilder}.
@@ -51,7 +51,7 @@ public class CylinderBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Cylinder#Cylinder(double radius, double height, int divisions) Cylinder(double, double, int)}
+     * Accepts the same arguments as {@link javafx.scene.shape.Cylinder#Cylinder(double, double, int) Cylinder(double, double, int)}
      * and returns an instance of the {@code CylinderBuilder}.
      *
      * @return an instance of the {@code CylinderBuilder}.
@@ -66,10 +66,10 @@ public class CylinderBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.Cylinder} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

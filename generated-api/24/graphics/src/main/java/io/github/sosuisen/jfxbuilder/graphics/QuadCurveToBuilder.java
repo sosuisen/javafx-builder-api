@@ -37,7 +37,7 @@ public class QuadCurveToBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.QuadCurveTo#QuadCurveTo(double controlX, double controlY, double x, double y) QuadCurveTo(double, double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.shape.QuadCurveTo#QuadCurveTo(double, double, double, double) QuadCurveTo(double, double, double, double)}
      * and returns an instance of the {@code QuadCurveToBuilder}.
      *
      * @return an instance of the {@code QuadCurveToBuilder}.
@@ -52,10 +52,10 @@ public class QuadCurveToBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.QuadCurveTo} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

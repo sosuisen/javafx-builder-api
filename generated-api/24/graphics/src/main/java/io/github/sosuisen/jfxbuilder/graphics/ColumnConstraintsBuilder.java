@@ -37,7 +37,7 @@ public class ColumnConstraintsBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.ColumnConstraints#ColumnConstraints(double width) ColumnConstraints(double)}
+     * Accepts the same arguments as {@link javafx.scene.layout.ColumnConstraints#ColumnConstraints(double) ColumnConstraints(double)}
      * and returns an instance of the {@code ColumnConstraintsBuilder}.
      *
      * @return an instance of the {@code ColumnConstraintsBuilder}.
@@ -51,7 +51,7 @@ public class ColumnConstraintsBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.ColumnConstraints#ColumnConstraints(double minWidth, double prefWidth, double maxWidth) ColumnConstraints(double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.layout.ColumnConstraints#ColumnConstraints(double, double, double) ColumnConstraints(double, double, double)}
      * and returns an instance of the {@code ColumnConstraintsBuilder}.
      *
      * @return an instance of the {@code ColumnConstraintsBuilder}.
@@ -65,7 +65,7 @@ public class ColumnConstraintsBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.ColumnConstraints#ColumnConstraints(double minWidth, double prefWidth, double maxWidth, javafx.scene.layout.Priority hgrow, javafx.geometry.HPos halignment, boolean fillWidth) ColumnConstraints(double, double, double, Priority, HPos, boolean)}
+     * Accepts the same arguments as {@link javafx.scene.layout.ColumnConstraints#ColumnConstraints(double, double, double, Priority, HPos, boolean) ColumnConstraints(double, double, double, Priority, HPos, boolean)}
      * and returns an instance of the {@code ColumnConstraintsBuilder}.
      *
      * @return an instance of the {@code ColumnConstraintsBuilder}.
@@ -80,10 +80,10 @@ public class ColumnConstraintsBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.ColumnConstraints} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

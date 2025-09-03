@@ -29,18 +29,18 @@ public class ChoiceBoxTableCellBuilder<S, T> {
     
 
     /**
-     * Returns an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     * Returns an instance of the {@code ChoiceBoxTableCellBuilder<S, T>}.
      *
-     * @return an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     * @return an instance of the {@code ChoiceBoxTableCellBuilder<S, T>}.
      */
     public static <S, T> ChoiceBoxTableCellBuilder<S, T> create() { return new ChoiceBoxTableCellBuilder<S, T>(); }
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(T... items) ChoiceBoxTableCell(Object...)}
-     * and returns an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(Object...) ChoiceBoxTableCell(Object...)}
+     * and returns an instance of the {@code ChoiceBoxTableCellBuilder<S, T>}.
      *
-     * @return an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     * @return an instance of the {@code ChoiceBoxTableCellBuilder<S, T>}.
      */
     @SafeVarargs
     public static <S, T> ChoiceBoxTableCellBuilder<S, T> create(T... items) {
@@ -51,10 +51,10 @@ public class ChoiceBoxTableCellBuilder<S, T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(javafx.collections.ObservableList<T> items) ChoiceBoxTableCell(ObservableList)}
-     * and returns an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(ObservableList) ChoiceBoxTableCell(ObservableList)}
+     * and returns an instance of the {@code ChoiceBoxTableCellBuilder<S, T>}.
      *
-     * @return an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     * @return an instance of the {@code ChoiceBoxTableCellBuilder<S, T>}.
      */
     
     public static <S, T> ChoiceBoxTableCellBuilder<S, T> create(javafx.collections.ObservableList<T> items) {
@@ -65,10 +65,10 @@ public class ChoiceBoxTableCellBuilder<S, T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(javafx.util.StringConverter<T> converter, T... items) ChoiceBoxTableCell(StringConverter, Object...)}
-     * and returns an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(StringConverter, Object...) ChoiceBoxTableCell(StringConverter, Object...)}
+     * and returns an instance of the {@code ChoiceBoxTableCellBuilder<S, T>}.
      *
-     * @return an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     * @return an instance of the {@code ChoiceBoxTableCellBuilder<S, T>}.
      */
     @SafeVarargs
     public static <S, T> ChoiceBoxTableCellBuilder<S, T> create(javafx.util.StringConverter<T> converter, T... items) {
@@ -79,10 +79,10 @@ public class ChoiceBoxTableCellBuilder<S, T> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(javafx.util.StringConverter<T> converter, javafx.collections.ObservableList<T> items) ChoiceBoxTableCell(StringConverter, ObservableList)}
-     * and returns an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.cell.ChoiceBoxTableCell#ChoiceBoxTableCell(StringConverter, ObservableList) ChoiceBoxTableCell(StringConverter, ObservableList)}
+     * and returns an instance of the {@code ChoiceBoxTableCellBuilder<S, T>}.
      *
-     * @return an instance of the {@code <S, T> ChoiceBoxTableCellBuilder<S, T>}.
+     * @return an instance of the {@code ChoiceBoxTableCellBuilder<S, T>}.
      */
     
     public static <S, T> ChoiceBoxTableCellBuilder<S, T> create(javafx.util.StringConverter<T> converter, javafx.collections.ObservableList<T> items) {
@@ -94,10 +94,10 @@ public class ChoiceBoxTableCellBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.cell.ChoiceBoxTableCell<S, T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

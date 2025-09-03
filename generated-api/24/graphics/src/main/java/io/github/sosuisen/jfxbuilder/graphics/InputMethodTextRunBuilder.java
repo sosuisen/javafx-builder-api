@@ -29,7 +29,7 @@ public class InputMethodTextRunBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.InputMethodTextRun#InputMethodTextRun(java.lang.String text, javafx.scene.input.InputMethodHighlight highlight) InputMethodTextRun(String, InputMethodHighlight)}
+     * Accepts the same arguments as {@link javafx.scene.input.InputMethodTextRun#InputMethodTextRun(String, InputMethodHighlight) InputMethodTextRun(String, InputMethodHighlight)}
      * and returns an instance of the {@code InputMethodTextRunBuilder}.
      *
      * @return an instance of the {@code InputMethodTextRunBuilder}.
@@ -44,10 +44,10 @@ public class InputMethodTextRunBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.input.InputMethodTextRun} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

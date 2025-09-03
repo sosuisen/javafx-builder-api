@@ -29,18 +29,18 @@ public class TextFieldListCellBuilder<T> {
     
 
     /**
-     * Returns an instance of the {@code <T> TextFieldListCellBuilder<T>}.
+     * Returns an instance of the {@code TextFieldListCellBuilder<T>}.
      *
-     * @return an instance of the {@code <T> TextFieldListCellBuilder<T>}.
+     * @return an instance of the {@code TextFieldListCellBuilder<T>}.
      */
     public static <T> TextFieldListCellBuilder<T> create() { return new TextFieldListCellBuilder<T>(); }
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.cell.TextFieldListCell#TextFieldListCell(javafx.util.StringConverter<T> converter) TextFieldListCell(StringConverter)}
-     * and returns an instance of the {@code <T> TextFieldListCellBuilder<T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.cell.TextFieldListCell#TextFieldListCell(StringConverter) TextFieldListCell(StringConverter)}
+     * and returns an instance of the {@code TextFieldListCellBuilder<T>}.
      *
-     * @return an instance of the {@code <T> TextFieldListCellBuilder<T>}.
+     * @return an instance of the {@code TextFieldListCellBuilder<T>}.
      */
     
     public static <T> TextFieldListCellBuilder<T> create(javafx.util.StringConverter<T> converter) {
@@ -52,10 +52,10 @@ public class TextFieldListCellBuilder<T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.cell.TextFieldListCell<T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -37,7 +37,7 @@ public class BoxBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.shape.Box#Box(double width, double height, double depth) Box(double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.shape.Box#Box(double, double, double) Box(double, double, double)}
      * and returns an instance of the {@code BoxBuilder}.
      *
      * @return an instance of the {@code BoxBuilder}.
@@ -52,10 +52,10 @@ public class BoxBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.shape.Box} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

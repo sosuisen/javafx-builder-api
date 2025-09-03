@@ -29,10 +29,10 @@ public class TreeTableColumnCellEditEventBuilder<S, T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeTableColumn.CellEditEvent#CellEditEvent(javafx.scene.control.TreeTableView<S> table, javafx.scene.control.TreeTablePosition<S, T> pos, javafx.event.EventType<javafx.scene.control.TreeTableColumn.CellEditEvent<S, T>> eventType, T newValue) CellEditEvent(TreeTableView, TreeTablePosition, EventType, Object)}
-     * and returns an instance of the {@code <S, T> TreeTableColumnCellEditEventBuilder<S, T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.TreeTableColumn.CellEditEvent#CellEditEvent(TreeTableView, TreeTablePosition, EventType, Object) CellEditEvent(TreeTableView, TreeTablePosition, EventType, Object)}
+     * and returns an instance of the {@code TreeTableColumnCellEditEventBuilder<S, T>}.
      *
-     * @return an instance of the {@code <S, T> TreeTableColumnCellEditEventBuilder<S, T>}.
+     * @return an instance of the {@code TreeTableColumnCellEditEventBuilder<S, T>}.
      */
     
     public static <S, T> TreeTableColumnCellEditEventBuilder<S, T> create(javafx.scene.control.TreeTableView<S> table, javafx.scene.control.TreeTablePosition<S, T> pos, javafx.event.EventType<javafx.scene.control.TreeTableColumn.CellEditEvent<S, T>> eventType, T newValue) {
@@ -44,10 +44,10 @@ public class TreeTableColumnCellEditEventBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableColumn.CellEditEvent<S, T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

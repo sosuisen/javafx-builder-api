@@ -29,7 +29,7 @@ public class CornerRadiiBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.CornerRadii#CornerRadii(double radius) CornerRadii(double)}
+     * Accepts the same arguments as {@link javafx.scene.layout.CornerRadii#CornerRadii(double) CornerRadii(double)}
      * and returns an instance of the {@code CornerRadiiBuilder}.
      *
      * @return an instance of the {@code CornerRadiiBuilder}.
@@ -43,7 +43,7 @@ public class CornerRadiiBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.CornerRadii#CornerRadii(double radius, boolean asPercent) CornerRadii(double, boolean)}
+     * Accepts the same arguments as {@link javafx.scene.layout.CornerRadii#CornerRadii(double, boolean) CornerRadii(double, boolean)}
      * and returns an instance of the {@code CornerRadiiBuilder}.
      *
      * @return an instance of the {@code CornerRadiiBuilder}.
@@ -57,7 +57,7 @@ public class CornerRadiiBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.CornerRadii#CornerRadii(double topLeft, double topRight, double bottomRight, double bottomLeft, boolean asPercent) CornerRadii(double, double, double, double, boolean)}
+     * Accepts the same arguments as {@link javafx.scene.layout.CornerRadii#CornerRadii(double, double, double, double, boolean) CornerRadii(double, double, double, double, boolean)}
      * and returns an instance of the {@code CornerRadiiBuilder}.
      *
      * @return an instance of the {@code CornerRadiiBuilder}.
@@ -71,7 +71,7 @@ public class CornerRadiiBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.CornerRadii#CornerRadii(double topLeftHorizontalRadius, double topLeftVerticalRadius, double topRightVerticalRadius, double topRightHorizontalRadius, double bottomRightHorizontalRadius, double bottomRightVerticalRadius, double bottomLeftVerticalRadius, double bottomLeftHorizontalRadius, boolean topLeftHorizontalRadiusAsPercent, boolean topLeftVerticalRadiusAsPercent, boolean topRightVerticalRadiusAsPercent, boolean topRightHorizontalRadiusAsPercent, boolean bottomRightHorizontalRadiusAsPercent, boolean bottomRightVerticalRadiusAsPercent, boolean bottomLeftVerticalRadiusAsPercent, boolean bottomLeftHorizontalRadiusAsPercent) CornerRadii(double, double, double, double, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean)}
+     * Accepts the same arguments as {@link javafx.scene.layout.CornerRadii#CornerRadii(double, double, double, double, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) CornerRadii(double, double, double, double, double, double, double, double, boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean)}
      * and returns an instance of the {@code CornerRadiiBuilder}.
      *
      * @return an instance of the {@code CornerRadiiBuilder}.
@@ -86,10 +86,10 @@ public class CornerRadiiBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.CornerRadii} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

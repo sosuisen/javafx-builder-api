@@ -29,10 +29,10 @@ public class TreeTableColumnCellDataFeaturesBuilder<S, T> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.TreeTableColumn.CellDataFeatures#CellDataFeatures(javafx.scene.control.TreeTableView<S> treeTableView, javafx.scene.control.TreeTableColumn<S, T> tableColumn, javafx.scene.control.TreeItem<S> value) CellDataFeatures(TreeTableView, TreeTableColumn, TreeItem)}
-     * and returns an instance of the {@code <S, T> TreeTableColumnCellDataFeaturesBuilder<S, T>}.
+     * Accepts the same arguments as {@link javafx.scene.control.TreeTableColumn.CellDataFeatures#CellDataFeatures(TreeTableView, TreeTableColumn, TreeItem) CellDataFeatures(TreeTableView, TreeTableColumn, TreeItem)}
+     * and returns an instance of the {@code TreeTableColumnCellDataFeaturesBuilder<S, T>}.
      *
-     * @return an instance of the {@code <S, T> TreeTableColumnCellDataFeaturesBuilder<S, T>}.
+     * @return an instance of the {@code TreeTableColumnCellDataFeaturesBuilder<S, T>}.
      */
     
     public static <S, T> TreeTableColumnCellDataFeaturesBuilder<S, T> create(javafx.scene.control.TreeTableView<S> treeTableView, javafx.scene.control.TreeTableColumn<S, T> tableColumn, javafx.scene.control.TreeItem<S> value) {
@@ -44,10 +44,10 @@ public class TreeTableColumnCellDataFeaturesBuilder<S, T> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.TreeTableColumn.CellDataFeatures<S, T>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

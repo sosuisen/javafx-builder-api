@@ -37,7 +37,7 @@ public class EqualizerBandBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.media.EqualizerBand#EqualizerBand(double centerFrequency, double bandwidth, double gain) EqualizerBand(double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.media.EqualizerBand#EqualizerBand(double, double, double) EqualizerBand(double, double, double)}
      * and returns an instance of the {@code EqualizerBandBuilder}.
      *
      * @return an instance of the {@code EqualizerBandBuilder}.
@@ -52,10 +52,10 @@ public class EqualizerBandBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.media.EqualizerBand} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -29,10 +29,10 @@ public class BubbleChartBuilder<X, Y> {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.BubbleChart#BubbleChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) BubbleChart(Axis, Axis)}
-     * and returns an instance of the {@code <X, Y> BubbleChartBuilder<X, Y>}.
+     * Accepts the same arguments as {@link javafx.scene.chart.BubbleChart#BubbleChart(Axis, Axis) BubbleChart(Axis, Axis)}
+     * and returns an instance of the {@code BubbleChartBuilder<X, Y>}.
      *
-     * @return an instance of the {@code <X, Y> BubbleChartBuilder<X, Y>}.
+     * @return an instance of the {@code BubbleChartBuilder<X, Y>}.
      */
     
     public static <X, Y> BubbleChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis) {
@@ -43,10 +43,10 @@ public class BubbleChartBuilder<X, Y> {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.chart.BubbleChart#BubbleChart(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) BubbleChart(Axis, Axis, ObservableList)}
-     * and returns an instance of the {@code <X, Y> BubbleChartBuilder<X, Y>}.
+     * Accepts the same arguments as {@link javafx.scene.chart.BubbleChart#BubbleChart(Axis, Axis, ObservableList) BubbleChart(Axis, Axis, ObservableList)}
+     * and returns an instance of the {@code BubbleChartBuilder<X, Y>}.
      *
-     * @return an instance of the {@code <X, Y> BubbleChartBuilder<X, Y>}.
+     * @return an instance of the {@code BubbleChartBuilder<X, Y>}.
      */
     
     public static <X, Y> BubbleChartBuilder<X, Y> create(javafx.scene.chart.Axis<X> xAxis, javafx.scene.chart.Axis<Y> yAxis, javafx.collections.ObservableList<javafx.scene.chart.XYChart.Series<X, Y>> data) {
@@ -58,10 +58,10 @@ public class BubbleChartBuilder<X, Y> {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.chart.BubbleChart<X, Y>} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

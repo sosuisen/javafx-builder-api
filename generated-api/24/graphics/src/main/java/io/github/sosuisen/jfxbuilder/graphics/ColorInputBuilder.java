@@ -37,7 +37,7 @@ public class ColorInputBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.ColorInput#ColorInput(double x, double y, double width, double height, javafx.scene.paint.Paint paint) ColorInput(double, double, double, double, Paint)}
+     * Accepts the same arguments as {@link javafx.scene.effect.ColorInput#ColorInput(double, double, double, double, Paint) ColorInput(double, double, double, double, Paint)}
      * and returns an instance of the {@code ColorInputBuilder}.
      *
      * @return an instance of the {@code ColorInputBuilder}.
@@ -52,10 +52,10 @@ public class ColorInputBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.ColorInput} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -29,7 +29,7 @@ public class SwipeEventBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.SwipeEvent#SwipeEvent(java.lang.Object source, javafx.event.EventTarget target, javafx.event.EventType<javafx.scene.input.SwipeEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, int touchCount, javafx.scene.input.PickResult pickResult) SwipeEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult)}
+     * Accepts the same arguments as {@link javafx.scene.input.SwipeEvent#SwipeEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult) SwipeEvent(Object, EventTarget, EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult)}
      * and returns an instance of the {@code SwipeEventBuilder}.
      *
      * @return an instance of the {@code SwipeEventBuilder}.
@@ -43,7 +43,7 @@ public class SwipeEventBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.input.SwipeEvent#SwipeEvent(javafx.event.EventType<javafx.scene.input.SwipeEvent> eventType, double x, double y, double screenX, double screenY, boolean shiftDown, boolean controlDown, boolean altDown, boolean metaDown, boolean direct, int touchCount, javafx.scene.input.PickResult pickResult) SwipeEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult)}
+     * Accepts the same arguments as {@link javafx.scene.input.SwipeEvent#SwipeEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult) SwipeEvent(EventType, double, double, double, double, boolean, boolean, boolean, boolean, boolean, int, PickResult)}
      * and returns an instance of the {@code SwipeEventBuilder}.
      *
      * @return an instance of the {@code SwipeEventBuilder}.
@@ -58,10 +58,10 @@ public class SwipeEventBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.input.SwipeEvent} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

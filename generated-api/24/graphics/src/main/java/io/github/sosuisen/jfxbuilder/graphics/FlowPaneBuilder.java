@@ -37,7 +37,7 @@ public class FlowPaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(double hgap, double vgap) FlowPane(double, double)}
+     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(double, double) FlowPane(double, double)}
      * and returns an instance of the {@code FlowPaneBuilder}.
      *
      * @return an instance of the {@code FlowPaneBuilder}.
@@ -51,7 +51,7 @@ public class FlowPaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(double hgap, double vgap, javafx.scene.Node... children) FlowPane(double, double, Node...)}
+     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(double, double, Node...) FlowPane(double, double, Node...)}
      * and returns an instance of the {@code FlowPaneBuilder}.
      *
      * @return an instance of the {@code FlowPaneBuilder}.
@@ -65,7 +65,7 @@ public class FlowPaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(javafx.geometry.Orientation orientation) FlowPane(Orientation)}
+     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(Orientation) FlowPane(Orientation)}
      * and returns an instance of the {@code FlowPaneBuilder}.
      *
      * @return an instance of the {@code FlowPaneBuilder}.
@@ -79,7 +79,7 @@ public class FlowPaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(javafx.geometry.Orientation orientation, double hgap, double vgap) FlowPane(Orientation, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(Orientation, double, double) FlowPane(Orientation, double, double)}
      * and returns an instance of the {@code FlowPaneBuilder}.
      *
      * @return an instance of the {@code FlowPaneBuilder}.
@@ -93,7 +93,7 @@ public class FlowPaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(javafx.geometry.Orientation orientation, double hgap, double vgap, javafx.scene.Node... children) FlowPane(Orientation, double, double, Node...)}
+     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(Orientation, double, double, Node...) FlowPane(Orientation, double, double, Node...)}
      * and returns an instance of the {@code FlowPaneBuilder}.
      *
      * @return an instance of the {@code FlowPaneBuilder}.
@@ -107,7 +107,7 @@ public class FlowPaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(javafx.geometry.Orientation orientation, javafx.scene.Node... children) FlowPane(Orientation, Node...)}
+     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(Orientation, Node...) FlowPane(Orientation, Node...)}
      * and returns an instance of the {@code FlowPaneBuilder}.
      *
      * @return an instance of the {@code FlowPaneBuilder}.
@@ -121,7 +121,7 @@ public class FlowPaneBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(javafx.scene.Node... children) FlowPane(Node...)}
+     * Accepts the same arguments as {@link javafx.scene.layout.FlowPane#FlowPane(Node...) FlowPane(Node...)}
      * and returns an instance of the {@code FlowPaneBuilder}.
      *
      * @return an instance of the {@code FlowPaneBuilder}.
@@ -136,10 +136,10 @@ public class FlowPaneBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.FlowPane} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

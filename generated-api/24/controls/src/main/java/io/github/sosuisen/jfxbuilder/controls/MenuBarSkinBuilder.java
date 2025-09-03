@@ -29,7 +29,7 @@ public class MenuBarSkinBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.skin.MenuBarSkin#MenuBarSkin(javafx.scene.control.MenuBar control) MenuBarSkin(MenuBar)}
+     * Accepts the same arguments as {@link javafx.scene.control.skin.MenuBarSkin#MenuBarSkin(MenuBar) MenuBarSkin(MenuBar)}
      * and returns an instance of the {@code MenuBarSkinBuilder}.
      *
      * @return an instance of the {@code MenuBarSkinBuilder}.
@@ -44,10 +44,10 @@ public class MenuBarSkinBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.skin.MenuBarSkin} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

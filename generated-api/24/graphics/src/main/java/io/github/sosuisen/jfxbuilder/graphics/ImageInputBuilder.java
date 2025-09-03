@@ -37,7 +37,7 @@ public class ImageInputBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.ImageInput#ImageInput(javafx.scene.image.Image source) ImageInput(Image)}
+     * Accepts the same arguments as {@link javafx.scene.effect.ImageInput#ImageInput(Image) ImageInput(Image)}
      * and returns an instance of the {@code ImageInputBuilder}.
      *
      * @return an instance of the {@code ImageInputBuilder}.
@@ -51,7 +51,7 @@ public class ImageInputBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.effect.ImageInput#ImageInput(javafx.scene.image.Image source, double x, double y) ImageInput(Image, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.effect.ImageInput#ImageInput(Image, double, double) ImageInput(Image, double, double)}
      * and returns an instance of the {@code ImageInputBuilder}.
      *
      * @return an instance of the {@code ImageInputBuilder}.
@@ -66,10 +66,10 @@ public class ImageInputBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.effect.ImageInput} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

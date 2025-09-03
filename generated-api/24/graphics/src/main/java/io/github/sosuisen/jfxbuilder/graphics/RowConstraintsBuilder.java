@@ -37,7 +37,7 @@ public class RowConstraintsBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.RowConstraints#RowConstraints(double height) RowConstraints(double)}
+     * Accepts the same arguments as {@link javafx.scene.layout.RowConstraints#RowConstraints(double) RowConstraints(double)}
      * and returns an instance of the {@code RowConstraintsBuilder}.
      *
      * @return an instance of the {@code RowConstraintsBuilder}.
@@ -51,7 +51,7 @@ public class RowConstraintsBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.RowConstraints#RowConstraints(double minHeight, double prefHeight, double maxHeight) RowConstraints(double, double, double)}
+     * Accepts the same arguments as {@link javafx.scene.layout.RowConstraints#RowConstraints(double, double, double) RowConstraints(double, double, double)}
      * and returns an instance of the {@code RowConstraintsBuilder}.
      *
      * @return an instance of the {@code RowConstraintsBuilder}.
@@ -65,7 +65,7 @@ public class RowConstraintsBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.layout.RowConstraints#RowConstraints(double minHeight, double prefHeight, double maxHeight, javafx.scene.layout.Priority vgrow, javafx.geometry.VPos valignment, boolean fillHeight) RowConstraints(double, double, double, Priority, VPos, boolean)}
+     * Accepts the same arguments as {@link javafx.scene.layout.RowConstraints#RowConstraints(double, double, double, Priority, VPos, boolean) RowConstraints(double, double, double, Priority, VPos, boolean)}
      * and returns an instance of the {@code RowConstraintsBuilder}.
      *
      * @return an instance of the {@code RowConstraintsBuilder}.
@@ -80,10 +80,10 @@ public class RowConstraintsBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.layout.RowConstraints} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *

@@ -29,7 +29,7 @@ public class IndexRangeBuilder {
     
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.IndexRange#IndexRange(int start, int end) IndexRange(int, int)}
+     * Accepts the same arguments as {@link javafx.scene.control.IndexRange#IndexRange(int, int) IndexRange(int, int)}
      * and returns an instance of the {@code IndexRangeBuilder}.
      *
      * @return an instance of the {@code IndexRangeBuilder}.
@@ -43,7 +43,7 @@ public class IndexRangeBuilder {
 
 
     /**
-     * Accepts the same arguments as {@link javafx.scene.control.IndexRange#IndexRange(javafx.scene.control.IndexRange range) IndexRange(IndexRange)}
+     * Accepts the same arguments as {@link javafx.scene.control.IndexRange#IndexRange(IndexRange) IndexRange(IndexRange)}
      * and returns an instance of the {@code IndexRangeBuilder}.
      *
      * @return an instance of the {@code IndexRangeBuilder}.
@@ -58,10 +58,10 @@ public class IndexRangeBuilder {
     private Object[] constructorArgs;
 
     /**
-     * This method builds and returns an instance of the original class.
+     * Builds and returns an instance of the {@link javafx.scene.control.IndexRange} class.
      * 
      * <p>
-     * Intermediate builder methods are not evaluated until the build() method
+     * Intermediate builder methods are not evaluated until the {@code build} method
      * is called; in other words, they are evaluated lazily.
      * </p>
      *
