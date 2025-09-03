@@ -210,7 +210,7 @@ The builder implementation depends solely on the original JavaFX compoment.
 
 **Important**: Maven automatically manages transitive dependencies for JavaFX components; however, builder API components must be installed individually.
 
-For example, `javafx-builder-graphics` is not strictly necessary, but it is generally required when your project depends on `javafx-controls`, since `javafx-graphics` is a transitive dependency.
+For example, `javafx-builder-graphics` is generally required when your project depends on `javafx-controls`, since `javafx-graphics` is a transitive dependency.
 
 pom.xml
 ```xml
