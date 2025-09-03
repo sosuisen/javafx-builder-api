@@ -131,7 +131,7 @@ public class TreeTableColumnCellEditEventBuilder<S, T> {
         return false;
     }
     /**
-     * Applies a function to the CellEditEvent instance currently being built.
+     * Applies a function to the CellEditEvent instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

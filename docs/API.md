@@ -127,7 +127,7 @@ For example, the following `apply` notation has a shorthand form:
 
 - Original form: `.apply(obj -> obj.textProperty().bind(anotherProperty))`
 
-- Shorthand form: `.textPropertyApply(prop->prop.bind(anotherProperty))`
+- Shorthand form: `.textPropertyApply(prop -> prop.bind(anotherProperty))`
 
 
 ## xxxIn{ContainerClass} - Parent Container Methods Called from Child Nodes

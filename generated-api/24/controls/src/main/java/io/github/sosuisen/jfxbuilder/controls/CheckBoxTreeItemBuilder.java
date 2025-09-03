@@ -187,7 +187,7 @@ public class CheckBoxTreeItemBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the CheckBoxTreeItem instance currently being built.
+     * Applies a function to the CheckBoxTreeItem instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -306,8 +306,20 @@ public class CheckBoxTreeItemBuilder<T> {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#expandedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#expandedProperty() expandedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBoxTreeItem<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.expandedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .expandedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -316,8 +328,20 @@ public class CheckBoxTreeItemBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#graphicProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#graphicProperty() graphicProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBoxTreeItem<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.graphicProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -326,8 +350,20 @@ public class CheckBoxTreeItemBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#independentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#independentProperty() independentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBoxTreeItem<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.independentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .independentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -336,8 +372,20 @@ public class CheckBoxTreeItemBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#indeterminateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#indeterminateProperty() indeterminateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBoxTreeItem<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.indeterminateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .indeterminatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -346,8 +394,20 @@ public class CheckBoxTreeItemBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#leafProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#leafProperty() leafProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBoxTreeItem<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.leafProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .leafPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -356,8 +416,20 @@ public class CheckBoxTreeItemBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBoxTreeItem<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -366,8 +438,20 @@ public class CheckBoxTreeItemBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#selectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#selectedProperty() selectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBoxTreeItem<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.selectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .selectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -376,8 +460,20 @@ public class CheckBoxTreeItemBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#valueProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.CheckBoxTreeItem#valueProperty() valueProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.CheckBoxTreeItem<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.valueProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .valuePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

@@ -159,7 +159,7 @@ public class XYChartSeriesBuilder<X, Y> {
         return false;
     }
     /**
-     * Applies a function to the Series instance currently being built.
+     * Applies a function to the Series instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -248,8 +248,20 @@ public class XYChartSeriesBuilder<X, Y> {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.chart.XYChart.Series#chartProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.XYChart.Series#chartProperty() chartProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Series<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.chartProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .chartPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -258,8 +270,20 @@ public class XYChartSeriesBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.XYChart.Series#dataProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.XYChart.Series#dataProperty() dataProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Series<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.dataProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .dataPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -268,8 +292,20 @@ public class XYChartSeriesBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.XYChart.Series#nameProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.XYChart.Series#nameProperty() nameProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Series<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nameProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .namePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -278,8 +314,20 @@ public class XYChartSeriesBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.XYChart.Series#nodeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.XYChart.Series#nodeProperty() nodeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Series<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

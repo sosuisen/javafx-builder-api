@@ -157,7 +157,7 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return false;
     }
     /**
-     * Applies a function to the IntegerSpinnerValueFactory instance currently being built.
+     * Applies a function to the IntegerSpinnerValueFactory instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -228,8 +228,20 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#amountToStepByProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#amountToStepByProperty() amountToStepByProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.amountToStepByProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .amountToStepByPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -238,8 +250,20 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#converterProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#converterProperty() converterProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.converterProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .converterPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -248,8 +272,20 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#maxProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#maxProperty() maxProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -258,8 +294,20 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#minProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#minProperty() minProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -268,8 +316,20 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#valueProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#valueProperty() valueProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.valueProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .valuePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -278,8 +338,20 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#wrapAroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#wrapAroundProperty() wrapAroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.wrapAroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .wrapAroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

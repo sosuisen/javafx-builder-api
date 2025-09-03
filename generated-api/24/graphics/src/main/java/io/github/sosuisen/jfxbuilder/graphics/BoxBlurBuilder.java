@@ -143,7 +143,7 @@ public class BoxBlurBuilder {
         return false;
     }
     /**
-     * Applies a function to the BoxBlur instance currently being built.
+     * Applies a function to the BoxBlur instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -194,8 +194,20 @@ public class BoxBlurBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.BoxBlur#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.BoxBlur#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.BoxBlur> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -204,8 +216,20 @@ public class BoxBlurBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.BoxBlur#inputProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.BoxBlur#inputProperty() inputProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.BoxBlur> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -214,8 +238,20 @@ public class BoxBlurBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.BoxBlur#iterationsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.BoxBlur#iterationsProperty() iterationsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.BoxBlur> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.iterationsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .iterationsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -224,8 +260,20 @@ public class BoxBlurBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.BoxBlur#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.BoxBlur#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.BoxBlur> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

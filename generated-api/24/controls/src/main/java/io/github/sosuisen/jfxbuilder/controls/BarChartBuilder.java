@@ -159,7 +159,7 @@ public class BarChartBuilder<X, Y> {
         return false;
     }
     /**
-     * Applies a function to the BarChart instance currently being built.
+     * Applies a function to the BarChart instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2227,8 +2227,20 @@ public class BarChartBuilder<X, Y> {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2237,8 +2249,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2247,8 +2271,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2257,8 +2293,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2267,8 +2315,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#alternativeColumnFillVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#alternativeColumnFillVisibleProperty() alternativeColumnFillVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.alternativeColumnFillVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .alternativeColumnFillVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2277,8 +2337,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#alternativeRowFillVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#alternativeRowFillVisibleProperty() alternativeRowFillVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.alternativeRowFillVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .alternativeRowFillVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2287,8 +2359,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#animatedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#animatedProperty() animatedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.animatedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .animatedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2297,8 +2381,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#backgroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#backgroundProperty() backgroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2307,8 +2403,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#barGapProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#barGapProperty() barGapProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.barGapProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .barGapPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2317,8 +2425,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2327,8 +2447,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#borderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#borderProperty() borderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.borderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2337,8 +2469,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2347,8 +2491,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2357,8 +2513,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2367,8 +2535,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2377,8 +2557,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#cacheShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#cacheShapeProperty() cacheShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2387,8 +2579,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#categoryGapProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#categoryGapProperty() categoryGapProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.categoryGapProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .categoryGapPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2397,8 +2601,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#centerShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#centerShapeProperty() centerShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2407,8 +2623,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2417,8 +2645,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2427,8 +2667,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#dataProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#dataProperty() dataProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.dataProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .dataPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2437,8 +2689,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2447,8 +2711,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2457,8 +2733,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2467,8 +2755,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2477,8 +2777,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2487,8 +2799,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2497,8 +2821,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2507,8 +2843,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2517,8 +2865,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2527,8 +2887,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2537,8 +2909,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2547,8 +2931,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#horizontalGridLinesVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#horizontalGridLinesVisibleProperty() horizontalGridLinesVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.horizontalGridLinesVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .horizontalGridLinesVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2557,8 +2953,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#horizontalZeroLineVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#horizontalZeroLineVisibleProperty() horizontalZeroLineVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.horizontalZeroLineVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .horizontalZeroLineVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2567,8 +2975,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2577,8 +2997,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2587,8 +3019,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2597,8 +3041,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#insetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#insetsProperty() insetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2607,8 +3063,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2617,8 +3085,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2627,8 +3107,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2637,8 +3129,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#legendSideProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#legendSideProperty() legendSideProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.legendSideProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .legendSidePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2647,8 +3151,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#legendVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#legendVisibleProperty() legendVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.legendVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .legendVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2657,8 +3173,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2667,8 +3195,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2677,8 +3217,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2687,8 +3239,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2697,8 +3261,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2707,8 +3283,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2717,8 +3305,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2727,8 +3327,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2737,8 +3349,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#needsLayoutProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#needsLayoutProperty() needsLayoutProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2747,8 +3371,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2757,8 +3393,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2767,8 +3415,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2777,8 +3437,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2787,8 +3459,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2797,8 +3481,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2807,8 +3503,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2817,8 +3525,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2827,8 +3547,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2837,8 +3569,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2847,8 +3591,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2857,8 +3613,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2867,8 +3635,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2877,8 +3657,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2887,8 +3679,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2897,8 +3701,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2907,8 +3723,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2917,8 +3745,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2927,8 +3767,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2937,8 +3789,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2947,8 +3811,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2957,8 +3833,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2967,8 +3855,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2977,8 +3877,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2987,8 +3899,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2997,8 +3921,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3007,8 +3943,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3017,8 +3965,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3027,8 +3987,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3037,8 +4009,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3047,8 +4031,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3057,8 +4053,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3067,8 +4075,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3077,8 +4097,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3087,8 +4119,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3097,8 +4141,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3107,8 +4163,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3117,8 +4185,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3127,8 +4207,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3137,8 +4229,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3147,8 +4251,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3157,8 +4273,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#opaqueInsetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3167,8 +4295,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#paddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#paddingProperty() paddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3177,8 +4317,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3187,8 +4339,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3197,8 +4361,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3207,8 +4383,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3217,8 +4405,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3227,8 +4427,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3237,8 +4449,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3247,8 +4471,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#scaleShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#scaleShapeProperty() scaleShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3257,8 +4493,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3267,8 +4515,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3277,8 +4537,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3287,8 +4559,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3297,8 +4581,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#shapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#shapeProperty() shapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3307,8 +4603,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#snapToPixelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#snapToPixelProperty() snapToPixelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3317,8 +4625,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3327,8 +4647,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#titleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#titleProperty() titleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.titleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .titlePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3337,8 +4669,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#titleSideProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#titleSideProperty() titleSideProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.titleSideProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .titleSidePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3347,8 +4691,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3357,8 +4713,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3367,8 +4735,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3377,8 +4757,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#verticalGridLinesVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#verticalGridLinesVisibleProperty() verticalGridLinesVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.verticalGridLinesVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .verticalGridLinesVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3387,8 +4779,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#verticalZeroLineVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#verticalZeroLineVisibleProperty() verticalZeroLineVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.verticalZeroLineVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .verticalZeroLineVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3397,8 +4801,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3407,8 +4823,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3417,8 +4845,20 @@ public class BarChartBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.BarChart#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.BarChart#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.BarChart<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

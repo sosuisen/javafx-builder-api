@@ -131,7 +131,7 @@ public class TableCellSkinBuilder<S, T> {
         return false;
     }
     /**
-     * Applies a function to the TableCellSkin instance currently being built.
+     * Applies a function to the TableCellSkin instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -169,8 +169,20 @@ public class TableCellSkinBuilder<S, T> {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.TableCellSkin#cellSizeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.TableCellSkin#cellSizeProperty() cellSizeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableCellSkin<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cellSizeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cellSizePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -179,8 +191,20 @@ public class TableCellSkinBuilder<S, T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.TableCellSkin#tableColumnProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.TableCellSkin#tableColumnProperty() tableColumnProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TableCellSkin<S, T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tableColumnProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tableColumnPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

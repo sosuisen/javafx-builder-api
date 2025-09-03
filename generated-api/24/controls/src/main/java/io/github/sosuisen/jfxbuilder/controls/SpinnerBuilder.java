@@ -215,7 +215,7 @@ public class SpinnerBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the Spinner instance currently being built.
+     * Applies a function to the Spinner instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2196,8 +2196,20 @@ public class SpinnerBuilder<T> {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2206,8 +2218,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2216,8 +2240,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2226,8 +2262,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2236,8 +2284,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#backgroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#backgroundProperty() backgroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2246,8 +2306,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2256,8 +2328,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#borderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#borderProperty() borderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.borderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2266,8 +2350,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2276,8 +2372,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2286,8 +2394,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2296,8 +2416,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2306,8 +2438,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#cacheShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#cacheShapeProperty() cacheShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2316,8 +2460,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#centerShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#centerShapeProperty() centerShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2326,8 +2482,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2336,8 +2504,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#contextMenuProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#contextMenuProperty() contextMenuProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contextMenuProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contextMenuPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2346,8 +2526,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2356,8 +2548,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2366,8 +2570,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2376,8 +2592,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2386,8 +2614,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#editableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#editableProperty() editableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.editableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .editablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2396,8 +2636,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#editorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#editorProperty() editorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.editorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .editorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2406,8 +2658,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2416,8 +2680,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2426,8 +2702,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2436,8 +2724,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2446,8 +2746,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2456,8 +2768,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2466,8 +2790,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2476,8 +2812,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2486,8 +2834,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2496,8 +2856,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2506,8 +2878,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#initialDelayProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#initialDelayProperty() initialDelayProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.initialDelayProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .initialDelayPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2516,8 +2900,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2526,8 +2922,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#insetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#insetsProperty() insetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2536,8 +2944,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2546,8 +2966,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2556,8 +2988,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2566,8 +3010,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2576,8 +3032,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2586,8 +3054,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2596,8 +3076,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2606,8 +3098,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2616,8 +3120,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2626,8 +3142,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2636,8 +3164,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2646,8 +3186,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#needsLayoutProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#needsLayoutProperty() needsLayoutProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2656,8 +3208,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2666,8 +3230,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2676,8 +3252,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2686,8 +3274,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2696,8 +3296,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2706,8 +3318,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2716,8 +3340,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2726,8 +3362,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2736,8 +3384,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2746,8 +3406,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2756,8 +3428,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2766,8 +3450,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2776,8 +3472,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2786,8 +3494,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2796,8 +3516,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2806,8 +3538,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2816,8 +3560,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2826,8 +3582,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2836,8 +3604,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2846,8 +3626,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2856,8 +3648,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2866,8 +3670,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2876,8 +3692,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2886,8 +3714,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2896,8 +3736,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2906,8 +3758,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2916,8 +3780,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2926,8 +3802,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2936,8 +3824,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2946,8 +3846,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2956,8 +3868,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2966,8 +3890,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2976,8 +3912,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2986,8 +3934,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2996,8 +3956,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3006,8 +3978,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3016,8 +4000,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3026,8 +4022,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3036,8 +4044,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3046,8 +4066,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3056,8 +4088,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3066,8 +4110,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#opaqueInsetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3076,8 +4132,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#paddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#paddingProperty() paddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3086,8 +4154,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3096,8 +4176,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3106,8 +4198,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3116,8 +4220,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3126,8 +4242,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3136,8 +4264,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#promptTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#promptTextProperty() promptTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.promptTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .promptTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3146,8 +4286,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#repeatDelayProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#repeatDelayProperty() repeatDelayProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.repeatDelayProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .repeatDelayPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3156,8 +4308,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3166,8 +4330,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3176,8 +4352,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#scaleShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#scaleShapeProperty() scaleShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3186,8 +4374,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3196,8 +4396,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3206,8 +4418,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3216,8 +4440,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3226,8 +4462,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#shapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#shapeProperty() shapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3236,8 +4484,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#skinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#skinProperty() skinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.skinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .skinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3246,8 +4506,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#snapToPixelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#snapToPixelProperty() snapToPixelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3256,8 +4528,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3266,8 +4550,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#tooltipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#tooltipProperty() tooltipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tooltipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tooltipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3276,8 +4572,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3286,8 +4594,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3296,8 +4616,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3306,8 +4638,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#valueFactoryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#valueFactoryProperty() valueFactoryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.valueFactoryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .valueFactoryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3316,8 +4660,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#valueProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#valueProperty() valueProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.valueProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .valuePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3326,8 +4682,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3336,8 +4704,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3346,8 +4726,20 @@ public class SpinnerBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Spinner#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Spinner#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

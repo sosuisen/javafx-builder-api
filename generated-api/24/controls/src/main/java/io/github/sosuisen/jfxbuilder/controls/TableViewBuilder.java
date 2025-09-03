@@ -145,7 +145,7 @@ public class TableViewBuilder<S> {
         return false;
     }
     /**
-     * Applies a function to the TableView instance currently being built.
+     * Applies a function to the TableView instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2398,8 +2398,20 @@ public class TableViewBuilder<S> {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2408,8 +2420,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2418,8 +2442,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2428,8 +2464,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2438,8 +2486,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#backgroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#backgroundProperty() backgroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2448,8 +2508,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2458,8 +2530,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#borderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#borderProperty() borderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.borderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2468,8 +2552,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2478,8 +2574,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2488,8 +2596,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2498,8 +2618,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2508,8 +2640,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#cacheShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#cacheShapeProperty() cacheShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2518,8 +2662,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#centerShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#centerShapeProperty() centerShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2528,8 +2684,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2538,8 +2706,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#columnResizePolicyProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#columnResizePolicyProperty() columnResizePolicyProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.columnResizePolicyProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .columnResizePolicyPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     @SuppressWarnings("rawtypes")
@@ -2548,8 +2728,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#comparatorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#comparatorProperty() comparatorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.comparatorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .comparatorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2558,8 +2750,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#contextMenuProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#contextMenuProperty() contextMenuProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contextMenuProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contextMenuPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2568,8 +2772,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2578,8 +2794,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2588,8 +2816,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2598,8 +2838,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2608,8 +2860,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#editableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#editableProperty() editableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.editableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .editablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2618,8 +2882,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#editingCellProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#editingCellProperty() editingCellProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.editingCellProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .editingCellPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2628,8 +2904,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2638,8 +2926,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2648,8 +2948,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2658,8 +2970,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#fixedCellSizeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#fixedCellSizeProperty() fixedCellSizeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fixedCellSizeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fixedCellSizePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2668,8 +2992,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#focusModelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#focusModelProperty() focusModelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusModelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusModelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2678,8 +3014,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2688,8 +3036,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2698,8 +3058,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2708,8 +3080,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2718,8 +3102,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2728,8 +3124,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2738,8 +3146,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2748,8 +3168,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2758,8 +3190,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#insetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#insetsProperty() insetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2768,8 +3212,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#itemsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#itemsProperty() itemsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.itemsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .itemsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2778,8 +3234,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2788,8 +3256,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2798,8 +3278,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2808,8 +3300,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2818,8 +3322,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2828,8 +3344,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2838,8 +3366,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2848,8 +3388,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2858,8 +3410,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2868,8 +3432,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2878,8 +3454,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2888,8 +3476,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#needsLayoutProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#needsLayoutProperty() needsLayoutProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2898,8 +3498,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2908,8 +3520,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2918,8 +3542,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2928,8 +3564,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2938,8 +3586,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2948,8 +3608,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2958,8 +3630,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2968,8 +3652,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2978,8 +3674,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2988,8 +3696,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2998,8 +3718,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3008,8 +3740,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3018,8 +3762,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3028,8 +3784,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3038,8 +3806,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3048,8 +3828,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3058,8 +3850,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3068,8 +3872,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3078,8 +3894,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3088,8 +3916,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3098,8 +3938,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3108,8 +3960,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3118,8 +3982,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3128,8 +4004,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3138,8 +4026,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3148,8 +4048,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3158,8 +4070,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3168,8 +4092,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3178,8 +4114,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3188,8 +4136,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onScrollToColumnProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onScrollToColumnProperty() onScrollToColumnProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollToColumnProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollToColumnPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3198,8 +4158,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onScrollToProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onScrollToProperty() onScrollToProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollToProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollToPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3208,8 +4180,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onSortProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onSortProperty() onSortProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSortProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSortPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3218,8 +4202,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3228,8 +4224,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3238,8 +4246,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3248,8 +4268,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3258,8 +4290,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3268,8 +4312,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3278,8 +4334,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3288,8 +4356,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3298,8 +4378,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3308,8 +4400,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3318,8 +4422,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3328,8 +4444,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3338,8 +4466,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#opaqueInsetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3348,8 +4488,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#paddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#paddingProperty() paddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3358,8 +4510,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3368,8 +4532,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3378,8 +4554,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#placeholderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#placeholderProperty() placeholderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.placeholderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .placeholderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3388,8 +4576,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3398,8 +4598,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3408,8 +4620,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3418,8 +4642,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3428,8 +4664,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3438,8 +4686,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#rowFactoryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#rowFactoryProperty() rowFactoryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rowFactoryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rowFactoryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3448,8 +4708,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#scaleShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#scaleShapeProperty() scaleShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3458,8 +4730,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3468,8 +4752,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3478,8 +4774,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3488,8 +4796,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3498,8 +4818,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#selectionModelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#selectionModelProperty() selectionModelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.selectionModelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .selectionModelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3508,8 +4840,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#shapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#shapeProperty() shapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3518,8 +4862,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#skinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#skinProperty() skinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.skinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .skinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3528,8 +4884,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#snapToPixelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#snapToPixelProperty() snapToPixelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3538,8 +4906,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#sortPolicyProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#sortPolicyProperty() sortPolicyProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sortPolicyProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .sortPolicyPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3548,8 +4928,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3558,8 +4950,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#tableMenuButtonVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#tableMenuButtonVisibleProperty() tableMenuButtonVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tableMenuButtonVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tableMenuButtonVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3568,8 +4972,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#tooltipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#tooltipProperty() tooltipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tooltipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tooltipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3578,8 +4994,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3588,8 +5016,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3598,8 +5038,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3608,8 +5060,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3618,8 +5082,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3628,8 +5104,20 @@ public class TableViewBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

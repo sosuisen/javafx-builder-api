@@ -157,7 +157,7 @@ public class LabelBuilder {
         return false;
     }
     /**
-     * Applies a function to the Label instance currently being built.
+     * Applies a function to the Label instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2238,8 +2238,20 @@ public class LabelBuilder {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2248,8 +2260,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2258,8 +2282,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2268,8 +2304,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2278,8 +2326,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#alignmentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#alignmentProperty() alignmentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.alignmentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .alignmentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2288,8 +2348,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#backgroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#backgroundProperty() backgroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2298,8 +2370,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2308,8 +2392,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#borderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#borderProperty() borderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.borderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2318,8 +2414,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2328,8 +2436,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2338,8 +2458,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2348,8 +2480,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2358,8 +2502,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#cacheShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#cacheShapeProperty() cacheShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2368,8 +2524,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#centerShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#centerShapeProperty() centerShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2378,8 +2546,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2388,8 +2568,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#contentDisplayProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#contentDisplayProperty() contentDisplayProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contentDisplayProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contentDisplayPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2398,8 +2590,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#contextMenuProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#contextMenuProperty() contextMenuProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contextMenuProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contextMenuPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2408,8 +2612,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2418,8 +2634,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2428,8 +2656,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2438,8 +2678,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2448,8 +2700,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2458,8 +2722,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2468,8 +2744,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#ellipsisStringProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#ellipsisStringProperty() ellipsisStringProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.ellipsisStringProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .ellipsisStringPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2478,8 +2766,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2488,8 +2788,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2498,8 +2810,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2508,8 +2832,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2518,8 +2854,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2528,8 +2876,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#fontProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#fontProperty() fontProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fontProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fontPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2538,8 +2898,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#graphicProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#graphicProperty() graphicProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.graphicProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2548,8 +2920,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#graphicTextGapProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#graphicTextGapProperty() graphicTextGapProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.graphicTextGapProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .graphicTextGapPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2558,8 +2942,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2568,8 +2964,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2578,8 +2986,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2588,8 +3008,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2598,8 +3030,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#insetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#insetsProperty() insetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2608,8 +3052,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#labelForProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#labelForProperty() labelForProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.labelForProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .labelForPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2618,8 +3074,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#labelPaddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#labelPaddingProperty() labelPaddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.labelPaddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .labelPaddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2628,8 +3096,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2638,8 +3118,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2648,8 +3140,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2658,8 +3162,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#lineSpacingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#lineSpacingProperty() lineSpacingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.lineSpacingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .lineSpacingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2668,8 +3184,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2678,8 +3206,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2688,8 +3228,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2698,8 +3250,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2708,8 +3272,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2718,8 +3294,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2728,8 +3316,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2738,8 +3338,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#mnemonicParsingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#mnemonicParsingProperty() mnemonicParsingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mnemonicParsingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mnemonicParsingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2748,8 +3360,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2758,8 +3382,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#needsLayoutProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#needsLayoutProperty() needsLayoutProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2768,8 +3404,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2778,8 +3426,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2788,8 +3448,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2798,8 +3470,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2808,8 +3492,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2818,8 +3514,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2828,8 +3536,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2838,8 +3558,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2848,8 +3580,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2858,8 +3602,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2868,8 +3624,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2878,8 +3646,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2888,8 +3668,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2898,8 +3690,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2908,8 +3712,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2918,8 +3734,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2928,8 +3756,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2938,8 +3778,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2948,8 +3800,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2958,8 +3822,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2968,8 +3844,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2978,8 +3866,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2988,8 +3888,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2998,8 +3910,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3008,8 +3932,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3018,8 +3954,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3028,8 +3976,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3038,8 +3998,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3048,8 +4020,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3058,8 +4042,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3068,8 +4064,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3078,8 +4086,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3088,8 +4108,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3098,8 +4130,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3108,8 +4152,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3118,8 +4174,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3128,8 +4196,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3138,8 +4218,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3148,8 +4240,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3158,8 +4262,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3168,8 +4284,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3178,8 +4306,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#opaqueInsetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3188,8 +4328,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#paddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#paddingProperty() paddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3198,8 +4350,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3208,8 +4372,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3218,8 +4394,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3228,8 +4416,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3238,8 +4438,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3248,8 +4460,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3258,8 +4482,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3268,8 +4504,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#scaleShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#scaleShapeProperty() scaleShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3278,8 +4526,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3288,8 +4548,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3298,8 +4570,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3308,8 +4592,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3318,8 +4614,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#shapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#shapeProperty() shapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3328,8 +4636,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#skinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#skinProperty() skinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.skinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .skinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3338,8 +4658,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#snapToPixelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#snapToPixelProperty() snapToPixelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3348,8 +4680,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3358,8 +4702,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#textAlignmentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#textAlignmentProperty() textAlignmentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textAlignmentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textAlignmentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3368,8 +4724,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#textFillProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#textFillProperty() textFillProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textFillProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textFillPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3378,8 +4746,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#textOverrunProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#textOverrunProperty() textOverrunProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textOverrunProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textOverrunPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3388,8 +4768,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#textProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#textProperty() textProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3398,8 +4790,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#textTruncatedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#textTruncatedProperty() textTruncatedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textTruncatedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textTruncatedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3408,8 +4812,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#tooltipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#tooltipProperty() tooltipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tooltipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tooltipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3418,8 +4834,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3428,8 +4856,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3438,8 +4878,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3448,8 +4900,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#underlineProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#underlineProperty() underlineProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.underlineProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .underlinePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3458,8 +4922,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3468,8 +4944,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3478,8 +4966,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3488,8 +4988,20 @@ public class LabelBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Label#wrapTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Label#wrapTextProperty() wrapTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Label> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.wrapTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .wrapTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

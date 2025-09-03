@@ -143,7 +143,7 @@ public class SpotLightBuilder {
         return false;
     }
     /**
-     * Applies a function to the SpotLight instance currently being built.
+     * Applies a function to the SpotLight instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2017,8 +2017,20 @@ public class SpotLightBuilder {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2027,8 +2039,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2037,8 +2061,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2047,8 +2083,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2057,8 +2105,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2067,8 +2127,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2077,8 +2149,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2087,8 +2171,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2097,8 +2193,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2107,8 +2215,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2117,8 +2237,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#colorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#colorProperty() colorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.colorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .colorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2127,8 +2259,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#constantAttenuationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#constantAttenuationProperty() constantAttenuationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.constantAttenuationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .constantAttenuationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2137,8 +2281,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2147,8 +2303,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2157,8 +2325,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#directionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#directionProperty() directionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.directionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .directionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2167,8 +2347,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2177,8 +2369,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2187,8 +2391,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2197,8 +2413,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2207,8 +2435,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2217,8 +2457,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#falloffProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#falloffProperty() falloffProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.falloffProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .falloffPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2227,8 +2479,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2237,8 +2501,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2247,8 +2523,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2257,8 +2545,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2267,8 +2567,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2277,8 +2589,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2287,8 +2611,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#innerAngleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#innerAngleProperty() innerAngleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.innerAngleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .innerAnglePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2297,8 +2633,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2307,8 +2655,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2317,8 +2677,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2327,8 +2699,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2337,8 +2721,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#lightOnProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#lightOnProperty() lightOnProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.lightOnProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .lightOnPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2347,8 +2743,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#linearAttenuationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#linearAttenuationProperty() linearAttenuationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.linearAttenuationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .linearAttenuationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2357,8 +2765,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2367,8 +2787,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2377,8 +2809,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2387,8 +2831,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#maxRangeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#maxRangeProperty() maxRangeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxRangeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxRangePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2397,8 +2853,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2407,8 +2875,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2417,8 +2897,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2427,8 +2919,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2437,8 +2941,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2447,8 +2963,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2457,8 +2985,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2467,8 +3007,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2477,8 +3029,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2487,8 +3051,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2497,8 +3073,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2507,8 +3095,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2517,8 +3117,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2527,8 +3139,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2537,8 +3161,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2547,8 +3183,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2557,8 +3205,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2567,8 +3227,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2577,8 +3249,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2587,8 +3271,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2597,8 +3293,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2607,8 +3315,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2617,8 +3337,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2627,8 +3359,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2637,8 +3381,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2647,8 +3403,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2657,8 +3425,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2667,8 +3447,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2677,8 +3469,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2687,8 +3491,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2697,8 +3513,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2707,8 +3535,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2717,8 +3557,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2727,8 +3579,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2737,8 +3601,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2747,8 +3623,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2757,8 +3645,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2767,8 +3667,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2777,8 +3689,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2787,8 +3711,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2797,8 +3733,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2807,8 +3755,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2817,8 +3777,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#outerAngleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#outerAngleProperty() outerAngleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.outerAngleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .outerAnglePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2827,8 +3799,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2837,8 +3821,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2847,8 +3843,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2857,8 +3865,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#quadraticAttenuationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#quadraticAttenuationProperty() quadraticAttenuationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.quadraticAttenuationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .quadraticAttenuationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2867,8 +3887,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2877,8 +3909,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2887,8 +3931,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2897,8 +3953,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2907,8 +3975,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2917,8 +3997,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2927,8 +4019,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2937,8 +4041,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2947,8 +4063,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2957,8 +4085,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2967,8 +4107,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2977,8 +4129,20 @@ public class SpotLightBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.SpotLight#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.SpotLight#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.SpotLight> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

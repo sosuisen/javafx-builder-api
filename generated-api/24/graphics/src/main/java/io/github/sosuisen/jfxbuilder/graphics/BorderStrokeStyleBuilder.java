@@ -129,7 +129,7 @@ public class BorderStrokeStyleBuilder {
         return false;
     }
     /**
-     * Applies a function to the BorderStrokeStyle instance currently being built.
+     * Applies a function to the BorderStrokeStyle instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

@@ -143,7 +143,7 @@ public class PolylineBuilder {
         return false;
     }
     /**
-     * Applies a function to the Polyline instance currently being built.
+     * Applies a function to the Polyline instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2007,8 +2007,20 @@ public class PolylineBuilder {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2017,8 +2029,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2027,8 +2051,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2037,8 +2073,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2047,8 +2095,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2057,8 +2117,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2067,8 +2139,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2077,8 +2161,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2087,8 +2183,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2097,8 +2205,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2107,8 +2227,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2117,8 +2249,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2127,8 +2271,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2137,8 +2293,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2147,8 +2315,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2157,8 +2337,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2167,8 +2359,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2177,8 +2381,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#fillProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#fillProperty() fillProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fillProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fillPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2187,8 +2403,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2197,8 +2425,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2207,8 +2447,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2217,8 +2469,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2227,8 +2491,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2237,8 +2513,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2247,8 +2535,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2257,8 +2557,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2267,8 +2579,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2277,8 +2601,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2287,8 +2623,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2297,8 +2645,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2307,8 +2667,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2317,8 +2689,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2327,8 +2711,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2337,8 +2733,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2347,8 +2755,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2357,8 +2777,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2367,8 +2799,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2377,8 +2821,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2387,8 +2843,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2397,8 +2865,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2407,8 +2887,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2417,8 +2909,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2427,8 +2931,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2437,8 +2953,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2447,8 +2975,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2457,8 +2997,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2467,8 +3019,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2477,8 +3041,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2487,8 +3063,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2497,8 +3085,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2507,8 +3107,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2517,8 +3129,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2527,8 +3151,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2537,8 +3173,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2547,8 +3195,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2557,8 +3217,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2567,8 +3239,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2577,8 +3261,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2587,8 +3283,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2597,8 +3305,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2607,8 +3327,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2617,8 +3349,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2627,8 +3371,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2637,8 +3393,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2647,8 +3415,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2657,8 +3437,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2667,8 +3459,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2677,8 +3481,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2687,8 +3503,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2697,8 +3525,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2707,8 +3547,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2717,8 +3569,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2727,8 +3591,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2737,8 +3613,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2747,8 +3635,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2757,8 +3657,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2767,8 +3679,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2777,8 +3701,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2787,8 +3723,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2797,8 +3745,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2807,8 +3767,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2817,8 +3789,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2827,8 +3811,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#smoothProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#smoothProperty() smoothProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.smoothProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .smoothPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2837,8 +3833,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#strokeDashOffsetProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#strokeDashOffsetProperty() strokeDashOffsetProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeDashOffsetProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeDashOffsetPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2847,8 +3855,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#strokeLineCapProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#strokeLineCapProperty() strokeLineCapProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeLineCapProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeLineCapPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2857,8 +3877,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#strokeLineJoinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#strokeLineJoinProperty() strokeLineJoinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeLineJoinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeLineJoinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2867,8 +3899,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#strokeMiterLimitProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#strokeMiterLimitProperty() strokeMiterLimitProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeMiterLimitProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeMiterLimitPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2877,8 +3921,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#strokeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#strokeProperty() strokeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2887,8 +3943,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#strokeTypeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#strokeTypeProperty() strokeTypeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeTypeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeTypePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2897,8 +3965,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#strokeWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#strokeWidthProperty() strokeWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2907,8 +3987,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2917,8 +4009,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2927,8 +4031,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2937,8 +4053,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2947,8 +4075,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2957,8 +4097,20 @@ public class PolylineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.Polyline#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.Polyline#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Polyline> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

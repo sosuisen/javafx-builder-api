@@ -143,7 +143,7 @@ public class LightingBuilder {
         return false;
     }
     /**
-     * Applies a function to the Lighting instance currently being built.
+     * Applies a function to the Lighting instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -224,8 +224,20 @@ public class LightingBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Lighting#bumpInputProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Lighting#bumpInputProperty() bumpInputProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Lighting> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.bumpInputProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .bumpInputPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -234,8 +246,20 @@ public class LightingBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Lighting#contentInputProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Lighting#contentInputProperty() contentInputProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Lighting> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contentInputProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contentInputPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -244,8 +268,20 @@ public class LightingBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Lighting#diffuseConstantProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Lighting#diffuseConstantProperty() diffuseConstantProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Lighting> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.diffuseConstantProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .diffuseConstantPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -254,8 +290,20 @@ public class LightingBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Lighting#lightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Lighting#lightProperty() lightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Lighting> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.lightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .lightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -264,8 +312,20 @@ public class LightingBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Lighting#specularConstantProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Lighting#specularConstantProperty() specularConstantProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Lighting> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.specularConstantProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .specularConstantPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -274,8 +334,20 @@ public class LightingBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Lighting#specularExponentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Lighting#specularExponentProperty() specularExponentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Lighting> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.specularExponentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .specularExponentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -284,8 +356,20 @@ public class LightingBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Lighting#surfaceScaleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Lighting#surfaceScaleProperty() surfaceScaleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Lighting> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.surfaceScaleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .surfaceScalePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

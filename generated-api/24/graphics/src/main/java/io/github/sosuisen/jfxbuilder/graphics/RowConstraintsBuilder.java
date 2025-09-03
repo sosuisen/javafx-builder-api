@@ -171,7 +171,7 @@ public class RowConstraintsBuilder {
         return false;
     }
     /**
-     * Applies a function to the RowConstraints instance currently being built.
+     * Applies a function to the RowConstraints instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -252,8 +252,20 @@ public class RowConstraintsBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.RowConstraints#fillHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.RowConstraints#fillHeightProperty() fillHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.RowConstraints> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fillHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fillHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -262,8 +274,20 @@ public class RowConstraintsBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.RowConstraints#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.RowConstraints#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.RowConstraints> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -272,8 +296,20 @@ public class RowConstraintsBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.RowConstraints#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.RowConstraints#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.RowConstraints> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -282,8 +318,20 @@ public class RowConstraintsBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.RowConstraints#percentHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.RowConstraints#percentHeightProperty() percentHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.RowConstraints> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.percentHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .percentHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -292,8 +340,20 @@ public class RowConstraintsBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.RowConstraints#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.RowConstraints#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.RowConstraints> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -302,8 +362,20 @@ public class RowConstraintsBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.RowConstraints#valignmentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.RowConstraints#valignmentProperty() valignmentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.RowConstraints> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.valignmentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .valignmentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -312,8 +384,20 @@ public class RowConstraintsBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.RowConstraints#vgrowProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.RowConstraints#vgrowProperty() vgrowProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.RowConstraints> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.vgrowProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .vgrowPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

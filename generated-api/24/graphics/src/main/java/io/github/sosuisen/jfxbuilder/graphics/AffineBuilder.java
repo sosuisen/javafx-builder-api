@@ -185,7 +185,7 @@ public class AffineBuilder {
         return false;
     }
     /**
-     * Applies a function to the Affine instance currently being built.
+     * Applies a function to the Affine instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -386,8 +386,20 @@ public class AffineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Affine#identityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Affine#identityProperty() identityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.identityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .identityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -396,8 +408,20 @@ public class AffineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Affine#mxxProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Affine#mxxProperty() mxxProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mxxProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mxxPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -406,8 +430,20 @@ public class AffineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Affine#mxyProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Affine#mxyProperty() mxyProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mxyProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mxyPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -416,8 +452,20 @@ public class AffineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Affine#mxzProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Affine#mxzProperty() mxzProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mxzProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mxzPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -426,8 +474,20 @@ public class AffineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Affine#myxProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Affine#myxProperty() myxProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.myxProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .myxPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -436,8 +496,20 @@ public class AffineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Affine#myyProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Affine#myyProperty() myyProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.myyProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .myyPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -446,8 +518,20 @@ public class AffineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Affine#myzProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Affine#myzProperty() myzProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.myzProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .myzPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -456,8 +540,20 @@ public class AffineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Affine#mzxProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Affine#mzxProperty() mzxProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mzxProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mzxPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -466,8 +562,20 @@ public class AffineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Affine#mzyProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Affine#mzyProperty() mzyProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mzyProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mzyPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -476,8 +584,20 @@ public class AffineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Affine#mzzProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Affine#mzzProperty() mzzProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mzzProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mzzPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -486,8 +606,20 @@ public class AffineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Affine#onTransformChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Affine#onTransformChangedProperty() onTransformChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTransformChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTransformChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -496,8 +628,20 @@ public class AffineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Affine#txProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Affine#txProperty() txProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.txProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .txPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -506,8 +650,20 @@ public class AffineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Affine#tyProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Affine#tyProperty() tyProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tyProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tyPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -516,8 +672,20 @@ public class AffineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Affine#type2DProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Affine#type2DProperty() type2DProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.type2DProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .type2DPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -526,8 +694,20 @@ public class AffineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Affine#tzProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Affine#tzProperty() tzProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Affine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tzProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tzPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

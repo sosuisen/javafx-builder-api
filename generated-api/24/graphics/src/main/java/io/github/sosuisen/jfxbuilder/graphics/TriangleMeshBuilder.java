@@ -143,7 +143,7 @@ public class TriangleMeshBuilder {
         return false;
     }
     /**
-     * Applies a function to the TriangleMesh instance currently being built.
+     * Applies a function to the TriangleMesh instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -164,8 +164,20 @@ public class TriangleMeshBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.TriangleMesh#vertexFormatProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.TriangleMesh#vertexFormatProperty() vertexFormatProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.TriangleMesh> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.vertexFormatProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .vertexFormatPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

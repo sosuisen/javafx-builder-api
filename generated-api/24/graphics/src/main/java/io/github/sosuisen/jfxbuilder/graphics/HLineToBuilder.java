@@ -143,7 +143,7 @@ public class HLineToBuilder {
         return false;
     }
     /**
-     * Applies a function to the HLineTo instance currently being built.
+     * Applies a function to the HLineTo instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -174,8 +174,20 @@ public class HLineToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.HLineTo#absoluteProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.HLineTo#absoluteProperty() absoluteProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.HLineTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.absoluteProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .absolutePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -184,8 +196,20 @@ public class HLineToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.HLineTo#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.HLineTo#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.HLineTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

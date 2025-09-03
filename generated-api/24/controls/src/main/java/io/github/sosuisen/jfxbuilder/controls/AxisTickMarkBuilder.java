@@ -131,7 +131,7 @@ public class AxisTickMarkBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the TickMark instance currently being built.
+     * Applies a function to the TickMark instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -182,8 +182,20 @@ public class AxisTickMarkBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.Axis.TickMark#labelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.Axis.TickMark#labelProperty() labelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.Axis.TickMark<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.labelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .labelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -192,8 +204,20 @@ public class AxisTickMarkBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.Axis.TickMark#positionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.Axis.TickMark#positionProperty() positionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.Axis.TickMark<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.positionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .positionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -202,8 +226,20 @@ public class AxisTickMarkBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.Axis.TickMark#valueProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.Axis.TickMark#valueProperty() valueProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.Axis.TickMark<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.valueProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .valuePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

@@ -143,7 +143,7 @@ public class RadialGradientBuilder {
         return false;
     }
     /**
-     * Applies a function to the RadialGradient instance currently being built.
+     * Applies a function to the RadialGradient instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

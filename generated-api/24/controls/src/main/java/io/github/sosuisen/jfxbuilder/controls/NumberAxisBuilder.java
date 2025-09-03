@@ -157,7 +157,7 @@ public class NumberAxisBuilder {
         return false;
     }
     /**
-     * Applies a function to the NumberAxis instance currently being built.
+     * Applies a function to the NumberAxis instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2296,8 +2296,20 @@ public class NumberAxisBuilder {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2306,8 +2318,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2316,8 +2340,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2326,8 +2362,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2336,8 +2384,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#animatedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#animatedProperty() animatedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.animatedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .animatedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2346,8 +2406,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#autoRangingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#autoRangingProperty() autoRangingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.autoRangingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .autoRangingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2356,8 +2428,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#backgroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#backgroundProperty() backgroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2366,8 +2450,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2376,8 +2472,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#borderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#borderProperty() borderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.borderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2386,8 +2494,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2396,8 +2516,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2406,8 +2538,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2416,8 +2560,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2426,8 +2582,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#cacheShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#cacheShapeProperty() cacheShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2436,8 +2604,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#centerShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#centerShapeProperty() centerShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2446,8 +2626,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2456,8 +2648,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2466,8 +2670,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2476,8 +2692,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2486,8 +2714,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2496,8 +2736,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2506,8 +2758,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2516,8 +2780,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2526,8 +2802,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2536,8 +2824,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2546,8 +2846,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2556,8 +2868,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2566,8 +2890,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#forceZeroInRangeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#forceZeroInRangeProperty() forceZeroInRangeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.forceZeroInRangeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .forceZeroInRangePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2576,8 +2912,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2586,8 +2934,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2596,8 +2956,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2606,8 +2978,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2616,8 +3000,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#insetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#insetsProperty() insetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2626,8 +3022,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#labelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#labelProperty() labelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.labelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .labelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2636,8 +3044,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2646,8 +3066,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2656,8 +3088,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2666,8 +3110,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2676,8 +3132,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2686,8 +3154,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#lowerBoundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#lowerBoundProperty() lowerBoundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.lowerBoundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .lowerBoundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2696,8 +3176,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2706,8 +3198,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2716,8 +3220,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2726,8 +3242,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2736,8 +3264,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2746,8 +3286,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#minorTickCountProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#minorTickCountProperty() minorTickCountProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minorTickCountProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minorTickCountPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2756,8 +3308,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#minorTickLengthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#minorTickLengthProperty() minorTickLengthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minorTickLengthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minorTickLengthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2766,8 +3330,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#minorTickVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#minorTickVisibleProperty() minorTickVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minorTickVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minorTickVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2776,8 +3352,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2786,8 +3374,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#needsLayoutProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#needsLayoutProperty() needsLayoutProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2796,8 +3396,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2806,8 +3418,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2816,8 +3440,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2826,8 +3462,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2836,8 +3484,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2846,8 +3506,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2856,8 +3528,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2866,8 +3550,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2876,8 +3572,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2886,8 +3594,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2896,8 +3616,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2906,8 +3638,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2916,8 +3660,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2926,8 +3682,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2936,8 +3704,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2946,8 +3726,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2956,8 +3748,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2966,8 +3770,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2976,8 +3792,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2986,8 +3814,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2996,8 +3836,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3006,8 +3858,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3016,8 +3880,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3026,8 +3902,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3036,8 +3924,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3046,8 +3946,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3056,8 +3968,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3066,8 +3990,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3076,8 +4012,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3086,8 +4034,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3096,8 +4056,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3106,8 +4078,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3116,8 +4100,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3126,8 +4122,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3136,8 +4144,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3146,8 +4166,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3156,8 +4188,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3166,8 +4210,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3176,8 +4232,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3186,8 +4254,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3196,8 +4276,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3206,8 +4298,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#opaqueInsetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3216,8 +4320,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#paddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#paddingProperty() paddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3226,8 +4342,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3236,8 +4364,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3246,8 +4386,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3256,8 +4408,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3266,8 +4430,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3276,8 +4452,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3286,8 +4474,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3296,8 +4496,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#scaleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#scaleProperty() scaleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scalePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3306,8 +4518,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#scaleShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#scaleShapeProperty() scaleShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3316,8 +4540,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3326,8 +4562,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3336,8 +4584,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3346,8 +4606,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3356,8 +4628,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#shapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#shapeProperty() shapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3366,8 +4650,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#sideProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#sideProperty() sideProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sideProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .sidePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3376,8 +4672,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#snapToPixelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#snapToPixelProperty() snapToPixelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3386,8 +4694,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3396,8 +4716,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLabelFillProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLabelFillProperty() tickLabelFillProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tickLabelFillProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tickLabelFillPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3406,8 +4738,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLabelFontProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLabelFontProperty() tickLabelFontProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tickLabelFontProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tickLabelFontPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3416,8 +4760,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLabelFormatterProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLabelFormatterProperty() tickLabelFormatterProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tickLabelFormatterProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tickLabelFormatterPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3426,8 +4782,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLabelGapProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLabelGapProperty() tickLabelGapProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tickLabelGapProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tickLabelGapPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3436,8 +4804,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLabelRotationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLabelRotationProperty() tickLabelRotationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tickLabelRotationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tickLabelRotationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3446,8 +4826,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLabelsVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLabelsVisibleProperty() tickLabelsVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tickLabelsVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tickLabelsVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3456,8 +4848,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLengthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickLengthProperty() tickLengthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tickLengthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tickLengthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3466,8 +4870,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickMarkVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickMarkVisibleProperty() tickMarkVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tickMarkVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tickMarkVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3476,8 +4892,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickUnitProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#tickUnitProperty() tickUnitProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tickUnitProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tickUnitPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3486,8 +4914,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3496,8 +4936,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3506,8 +4958,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3516,8 +4980,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#upperBoundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#upperBoundProperty() upperBoundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.upperBoundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .upperBoundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3526,8 +5002,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3536,8 +5024,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3546,8 +5046,20 @@ public class NumberAxisBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.NumberAxis#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.NumberAxis#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.NumberAxis> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

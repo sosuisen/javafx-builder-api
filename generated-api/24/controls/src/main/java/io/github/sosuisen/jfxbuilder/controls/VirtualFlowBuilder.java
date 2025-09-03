@@ -131,7 +131,7 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return false;
     }
     /**
-     * Applies a function to the VirtualFlow instance currently being built.
+     * Applies a function to the VirtualFlow instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2092,8 +2092,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2102,8 +2114,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2112,8 +2136,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2122,8 +2158,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2132,8 +2180,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#backgroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#backgroundProperty() backgroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2142,8 +2202,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2152,8 +2224,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#borderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#borderProperty() borderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.borderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2162,8 +2246,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2172,8 +2268,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2182,8 +2290,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2192,8 +2312,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2202,8 +2334,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#cacheShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#cacheShapeProperty() cacheShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2212,8 +2356,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#cellCountProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#cellCountProperty() cellCountProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cellCountProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cellCountPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2222,8 +2378,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#cellFactoryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#cellFactoryProperty() cellFactoryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cellFactoryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cellFactoryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2232,8 +2400,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#centerShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#centerShapeProperty() centerShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2242,8 +2422,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2252,8 +2444,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2262,8 +2466,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2272,8 +2488,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2282,8 +2510,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2292,8 +2532,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2302,8 +2554,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2312,8 +2576,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2322,8 +2598,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#fixedCellSizeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#fixedCellSizeProperty() fixedCellSizeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fixedCellSizeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fixedCellSizePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2332,8 +2620,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2342,8 +2642,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2352,8 +2664,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2362,8 +2686,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2372,8 +2708,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2382,8 +2730,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2392,8 +2752,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2402,8 +2774,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2412,8 +2796,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#insetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#insetsProperty() insetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2422,8 +2818,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2432,8 +2840,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2442,8 +2862,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2452,8 +2884,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2462,8 +2906,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2472,8 +2928,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2482,8 +2950,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2492,8 +2972,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2502,8 +2994,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2512,8 +3016,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2522,8 +3038,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2532,8 +3060,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#needsLayoutProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#needsLayoutProperty() needsLayoutProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2542,8 +3082,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2552,8 +3104,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2562,8 +3126,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2572,8 +3148,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2582,8 +3170,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2592,8 +3192,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2602,8 +3214,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2612,8 +3236,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2622,8 +3258,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2632,8 +3280,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2642,8 +3302,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2652,8 +3324,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2662,8 +3346,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2672,8 +3368,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2682,8 +3390,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2692,8 +3412,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2702,8 +3434,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2712,8 +3456,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2722,8 +3478,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2732,8 +3500,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2742,8 +3522,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2752,8 +3544,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2762,8 +3566,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2772,8 +3588,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2782,8 +3610,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2792,8 +3632,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2802,8 +3654,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2812,8 +3676,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2822,8 +3698,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2832,8 +3720,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2842,8 +3742,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2852,8 +3764,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2862,8 +3786,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2872,8 +3808,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2882,8 +3830,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2892,8 +3852,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2902,8 +3874,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2912,8 +3896,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2922,8 +3918,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2932,8 +3940,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2942,8 +3962,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2952,8 +3984,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#opaqueInsetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2962,8 +4006,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#paddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#paddingProperty() paddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2972,8 +4028,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#pannableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#pannableProperty() pannableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pannableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pannablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2982,8 +4050,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2992,8 +4072,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3002,8 +4094,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#positionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#positionProperty() positionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.positionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .positionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3012,8 +4116,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3022,8 +4138,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3032,8 +4160,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3042,8 +4182,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3052,8 +4204,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3062,8 +4226,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#scaleShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#scaleShapeProperty() scaleShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3072,8 +4248,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3082,8 +4270,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3092,8 +4292,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3102,8 +4314,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3112,8 +4336,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#shapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#shapeProperty() shapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3122,8 +4358,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#snapToPixelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#snapToPixelProperty() snapToPixelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3132,8 +4380,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3142,8 +4402,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3152,8 +4424,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3162,8 +4446,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3172,8 +4468,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#verticalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#verticalProperty() verticalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.verticalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .verticalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3182,8 +4490,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3192,8 +4512,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3202,8 +4534,20 @@ public class VirtualFlowBuilder<T extends javafx.scene.control.IndexedCell> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.VirtualFlow#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.VirtualFlow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

@@ -157,7 +157,7 @@ public class MenuItemBuilder {
         return false;
     }
     /**
-     * Applies a function to the MenuItem instance currently being built.
+     * Applies a function to the MenuItem instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -305,8 +305,20 @@ public class MenuItemBuilder {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.control.MenuItem#acceleratorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#acceleratorProperty() acceleratorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.acceleratorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .acceleratorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -315,8 +327,20 @@ public class MenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.MenuItem#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -325,8 +349,20 @@ public class MenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.MenuItem#graphicProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#graphicProperty() graphicProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.graphicProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -335,8 +371,20 @@ public class MenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.MenuItem#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -345,8 +393,20 @@ public class MenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.MenuItem#mnemonicParsingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#mnemonicParsingProperty() mnemonicParsingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mnemonicParsingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mnemonicParsingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -355,8 +415,20 @@ public class MenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.MenuItem#onActionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#onActionProperty() onActionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onActionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onActionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -365,8 +437,20 @@ public class MenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.MenuItem#onMenuValidationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#onMenuValidationProperty() onMenuValidationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMenuValidationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMenuValidationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -375,8 +459,20 @@ public class MenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.MenuItem#parentMenuProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#parentMenuProperty() parentMenuProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentMenuProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentMenuPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -385,8 +481,20 @@ public class MenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.MenuItem#parentPopupProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#parentPopupProperty() parentPopupProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentPopupProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPopupPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -395,8 +503,20 @@ public class MenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.MenuItem#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -405,8 +525,20 @@ public class MenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.MenuItem#textProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#textProperty() textProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -415,8 +547,20 @@ public class MenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.MenuItem#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.MenuItem#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

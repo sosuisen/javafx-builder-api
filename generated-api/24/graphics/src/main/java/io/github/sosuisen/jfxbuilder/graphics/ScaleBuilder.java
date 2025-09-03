@@ -185,7 +185,7 @@ public class ScaleBuilder {
         return false;
     }
     /**
-     * Applies a function to the Scale instance currently being built.
+     * Applies a function to the Scale instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -266,8 +266,20 @@ public class ScaleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Scale#identityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Scale#identityProperty() identityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.identityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .identityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -276,8 +288,20 @@ public class ScaleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Scale#onTransformChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Scale#onTransformChangedProperty() onTransformChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTransformChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTransformChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -286,8 +310,20 @@ public class ScaleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Scale#pivotXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Scale#pivotXProperty() pivotXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pivotXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pivotXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -296,8 +332,20 @@ public class ScaleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Scale#pivotYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Scale#pivotYProperty() pivotYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pivotYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pivotYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -306,8 +354,20 @@ public class ScaleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Scale#pivotZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Scale#pivotZProperty() pivotZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pivotZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pivotZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -316,8 +376,20 @@ public class ScaleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Scale#type2DProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Scale#type2DProperty() type2DProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.type2DProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .type2DPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -326,8 +398,20 @@ public class ScaleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Scale#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Scale#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -336,8 +420,20 @@ public class ScaleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Scale#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Scale#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -346,8 +442,20 @@ public class ScaleBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Scale#zProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Scale#zProperty() zProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Scale> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.zProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .zPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

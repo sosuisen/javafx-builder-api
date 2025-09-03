@@ -143,7 +143,7 @@ public class QuadCurveToBuilder {
         return false;
     }
     /**
-     * Applies a function to the QuadCurveTo instance currently being built.
+     * Applies a function to the QuadCurveTo instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -204,8 +204,20 @@ public class QuadCurveToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#absoluteProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#absoluteProperty() absoluteProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurveTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.absoluteProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .absolutePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -214,8 +226,20 @@ public class QuadCurveToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#controlXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#controlXProperty() controlXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurveTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.controlXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .controlXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -224,8 +248,20 @@ public class QuadCurveToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#controlYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#controlYProperty() controlYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurveTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.controlYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .controlYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -234,8 +270,20 @@ public class QuadCurveToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurveTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -244,8 +292,20 @@ public class QuadCurveToBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurveTo> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

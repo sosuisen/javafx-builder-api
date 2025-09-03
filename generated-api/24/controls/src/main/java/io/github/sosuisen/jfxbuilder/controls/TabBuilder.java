@@ -157,7 +157,7 @@ public class TabBuilder {
         return false;
     }
     /**
-     * Applies a function to the Tab instance currently being built.
+     * Applies a function to the Tab instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -325,8 +325,20 @@ public class TabBuilder {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.control.Tab#closableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Tab#closableProperty() closableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.closableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .closablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -335,8 +347,20 @@ public class TabBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Tab#contentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Tab#contentProperty() contentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -345,8 +369,20 @@ public class TabBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Tab#contextMenuProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Tab#contextMenuProperty() contextMenuProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contextMenuProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contextMenuPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -355,8 +391,20 @@ public class TabBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Tab#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Tab#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -365,8 +413,20 @@ public class TabBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Tab#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Tab#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -375,8 +435,20 @@ public class TabBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Tab#graphicProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Tab#graphicProperty() graphicProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.graphicProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -385,8 +457,20 @@ public class TabBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Tab#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Tab#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -395,8 +479,20 @@ public class TabBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Tab#onCloseRequestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Tab#onCloseRequestProperty() onCloseRequestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onCloseRequestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onCloseRequestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -405,8 +501,20 @@ public class TabBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Tab#onClosedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Tab#onClosedProperty() onClosedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onClosedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onClosedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -415,8 +523,20 @@ public class TabBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Tab#onSelectionChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Tab#onSelectionChangedProperty() onSelectionChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSelectionChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSelectionChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -425,8 +545,20 @@ public class TabBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Tab#selectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Tab#selectedProperty() selectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.selectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .selectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -435,8 +567,20 @@ public class TabBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Tab#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Tab#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -445,8 +589,20 @@ public class TabBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Tab#tabPaneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Tab#tabPaneProperty() tabPaneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tabPaneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tabPanePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -455,8 +611,20 @@ public class TabBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Tab#textProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Tab#textProperty() textProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -465,8 +633,20 @@ public class TabBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Tab#tooltipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Tab#tooltipProperty() tooltipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tab> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tooltipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tooltipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

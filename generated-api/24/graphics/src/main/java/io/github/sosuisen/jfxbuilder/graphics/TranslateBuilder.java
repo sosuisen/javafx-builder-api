@@ -157,7 +157,7 @@ public class TranslateBuilder {
         return false;
     }
     /**
-     * Applies a function to the Translate instance currently being built.
+     * Applies a function to the Translate instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -208,8 +208,20 @@ public class TranslateBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Translate#identityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Translate#identityProperty() identityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Translate> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.identityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .identityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -218,8 +230,20 @@ public class TranslateBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Translate#onTransformChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Translate#onTransformChangedProperty() onTransformChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Translate> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTransformChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTransformChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -228,8 +252,20 @@ public class TranslateBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Translate#type2DProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Translate#type2DProperty() type2DProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Translate> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.type2DProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .type2DPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -238,8 +274,20 @@ public class TranslateBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Translate#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Translate#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Translate> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -248,8 +296,20 @@ public class TranslateBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Translate#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Translate#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Translate> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -258,8 +318,20 @@ public class TranslateBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Translate#zProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Translate#zProperty() zProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Translate> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.zProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .zPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

@@ -143,7 +143,7 @@ public class SepiaToneBuilder {
         return false;
     }
     /**
-     * Applies a function to the SepiaTone instance currently being built.
+     * Applies a function to the SepiaTone instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -174,8 +174,20 @@ public class SepiaToneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.SepiaTone#inputProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.SepiaTone#inputProperty() inputProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.SepiaTone> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -184,8 +196,20 @@ public class SepiaToneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.SepiaTone#levelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.SepiaTone#levelProperty() levelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.SepiaTone> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.levelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .levelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

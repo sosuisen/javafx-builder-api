@@ -143,7 +143,7 @@ public class ColorAdjustBuilder {
         return false;
     }
     /**
-     * Applies a function to the ColorAdjust instance currently being built.
+     * Applies a function to the ColorAdjust instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -204,8 +204,20 @@ public class ColorAdjustBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.ColorAdjust#brightnessProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.ColorAdjust#brightnessProperty() brightnessProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorAdjust> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.brightnessProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .brightnessPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -214,8 +226,20 @@ public class ColorAdjustBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.ColorAdjust#contrastProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.ColorAdjust#contrastProperty() contrastProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorAdjust> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contrastProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contrastPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -224,8 +248,20 @@ public class ColorAdjustBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.ColorAdjust#hueProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.ColorAdjust#hueProperty() hueProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorAdjust> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hueProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .huePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -234,8 +270,20 @@ public class ColorAdjustBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.ColorAdjust#inputProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.ColorAdjust#inputProperty() inputProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorAdjust> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -244,8 +292,20 @@ public class ColorAdjustBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.ColorAdjust#saturationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.ColorAdjust#saturationProperty() saturationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.ColorAdjust> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.saturationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .saturationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

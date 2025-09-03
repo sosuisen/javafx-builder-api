@@ -129,7 +129,7 @@ public class PopupControlBuilder {
         return false;
     }
     /**
-     * Applies a function to the PopupControl instance currently being built.
+     * Applies a function to the PopupControl instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -517,8 +517,20 @@ public class PopupControlBuilder {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#anchorLocationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#anchorLocationProperty() anchorLocationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.anchorLocationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .anchorLocationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -527,8 +539,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#anchorXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#anchorXProperty() anchorXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.anchorXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .anchorXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -537,8 +561,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#anchorYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#anchorYProperty() anchorYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.anchorYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .anchorYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -547,8 +583,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#autoFixProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#autoFixProperty() autoFixProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.autoFixProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .autoFixPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -557,8 +605,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#autoHideProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#autoHideProperty() autoHideProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.autoHideProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .autoHidePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -567,8 +627,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#consumeAutoHidingEventsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#consumeAutoHidingEventsProperty() consumeAutoHidingEventsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.consumeAutoHidingEventsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .consumeAutoHidingEventsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -577,8 +649,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -587,8 +671,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -597,8 +693,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#forceIntegerRenderScaleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#forceIntegerRenderScaleProperty() forceIntegerRenderScaleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.forceIntegerRenderScaleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .forceIntegerRenderScalePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -607,8 +715,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -617,8 +737,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#hideOnEscapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#hideOnEscapeProperty() hideOnEscapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hideOnEscapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hideOnEscapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -627,8 +759,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -637,8 +781,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -647,8 +803,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -657,8 +825,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -667,8 +847,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -677,8 +869,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#onAutoHideProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#onAutoHideProperty() onAutoHideProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onAutoHideProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onAutoHidePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -687,8 +891,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#onCloseRequestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#onCloseRequestProperty() onCloseRequestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onCloseRequestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onCloseRequestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -697,8 +913,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#onHiddenProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#onHiddenProperty() onHiddenProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onHiddenProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onHiddenPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -707,8 +935,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#onHidingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#onHidingProperty() onHidingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onHidingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onHidingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -717,8 +957,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#onShowingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#onShowingProperty() onShowingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onShowingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onShowingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -727,8 +979,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#onShownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#onShownProperty() onShownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onShownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onShownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -737,8 +1001,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -747,8 +1023,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#outputScaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#outputScaleXProperty() outputScaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.outputScaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .outputScaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -757,8 +1045,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#outputScaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#outputScaleYProperty() outputScaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.outputScaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .outputScaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -767,8 +1067,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#ownerNodeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#ownerNodeProperty() ownerNodeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.ownerNodeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .ownerNodePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -777,8 +1089,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#ownerWindowProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#ownerWindowProperty() ownerWindowProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.ownerWindowProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .ownerWindowPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -787,8 +1111,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -797,8 +1133,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -807,8 +1155,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#renderScaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#renderScaleXProperty() renderScaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.renderScaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .renderScaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -817,8 +1177,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#renderScaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#renderScaleYProperty() renderScaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.renderScaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .renderScaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -827,8 +1199,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -837,8 +1221,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#showingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#showingProperty() showingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.showingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .showingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -847,8 +1243,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#skinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#skinProperty() skinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.skinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .skinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -857,8 +1265,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -867,8 +1287,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -877,8 +1309,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -887,8 +1331,20 @@ public class PopupControlBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.PopupControl#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.PopupControl#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.PopupControl> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

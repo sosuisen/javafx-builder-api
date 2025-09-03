@@ -143,7 +143,7 @@ public class EqualizerBandBuilder {
         return false;
     }
     /**
-     * Applies a function to the EqualizerBand instance currently being built.
+     * Applies a function to the EqualizerBand instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -184,8 +184,20 @@ public class EqualizerBandBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.EqualizerBand#bandwidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.EqualizerBand#bandwidthProperty() bandwidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.EqualizerBand> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.bandwidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .bandwidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -194,8 +206,20 @@ public class EqualizerBandBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.EqualizerBand#centerFrequencyProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.EqualizerBand#centerFrequencyProperty() centerFrequencyProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.EqualizerBand> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerFrequencyProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerFrequencyPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -204,8 +228,20 @@ public class EqualizerBandBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.EqualizerBand#gainProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.EqualizerBand#gainProperty() gainProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.EqualizerBand> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.gainProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .gainPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

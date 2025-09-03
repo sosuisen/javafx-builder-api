@@ -131,7 +131,7 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
         return false;
     }
     /**
-     * Applies a function to the TreeTableViewFocusModel instance currently being built.
+     * Applies a function to the TreeTableViewFocusModel instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -142,8 +142,20 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#focusedCellProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#focusedCellProperty() focusedCellProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableView.TreeTableViewFocusModel<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedCellProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedCellPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -152,8 +164,20 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#focusedIndexProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#focusedIndexProperty() focusedIndexProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableView.TreeTableViewFocusModel<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedIndexProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedIndexPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -162,8 +186,20 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#focusedItemProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#focusedItemProperty() focusedItemProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableView.TreeTableViewFocusModel<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedItemProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedItemPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

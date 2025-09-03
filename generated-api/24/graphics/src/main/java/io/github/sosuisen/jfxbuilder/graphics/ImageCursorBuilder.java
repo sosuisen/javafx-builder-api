@@ -157,7 +157,7 @@ public class ImageCursorBuilder {
         return false;
     }
     /**
-     * Applies a function to the ImageCursor instance currently being built.
+     * Applies a function to the ImageCursor instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -168,8 +168,20 @@ public class ImageCursorBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.ImageCursor#hotspotXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.ImageCursor#hotspotXProperty() hotspotXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ImageCursor> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hotspotXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hotspotXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -178,8 +190,20 @@ public class ImageCursorBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.ImageCursor#hotspotYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.ImageCursor#hotspotYProperty() hotspotYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ImageCursor> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hotspotYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hotspotYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -188,8 +212,20 @@ public class ImageCursorBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.ImageCursor#imageProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.ImageCursor#imageProperty() imageProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.ImageCursor> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.imageProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .imagePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

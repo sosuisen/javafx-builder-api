@@ -131,7 +131,7 @@ public class DialogBuilder<R> {
         return false;
     }
     /**
-     * Applies a function to the Dialog instance currently being built.
+     * Applies a function to the Dialog instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -312,8 +312,20 @@ public class DialogBuilder<R> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Dialog#contentTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Dialog#contentTextProperty() contentTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contentTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contentTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -322,8 +334,20 @@ public class DialogBuilder<R> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Dialog#dialogPaneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Dialog#dialogPaneProperty() dialogPaneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.dialogPaneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .dialogPanePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -332,8 +356,20 @@ public class DialogBuilder<R> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Dialog#graphicProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Dialog#graphicProperty() graphicProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.graphicProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -342,8 +378,20 @@ public class DialogBuilder<R> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Dialog#headerTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Dialog#headerTextProperty() headerTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.headerTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .headerTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -352,8 +400,20 @@ public class DialogBuilder<R> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Dialog#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Dialog#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -362,8 +422,20 @@ public class DialogBuilder<R> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Dialog#onCloseRequestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Dialog#onCloseRequestProperty() onCloseRequestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onCloseRequestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onCloseRequestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -372,8 +444,20 @@ public class DialogBuilder<R> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Dialog#onHiddenProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Dialog#onHiddenProperty() onHiddenProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onHiddenProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onHiddenPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -382,8 +466,20 @@ public class DialogBuilder<R> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Dialog#onHidingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Dialog#onHidingProperty() onHidingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onHidingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onHidingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -392,8 +488,20 @@ public class DialogBuilder<R> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Dialog#onShowingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Dialog#onShowingProperty() onShowingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onShowingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onShowingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -402,8 +510,20 @@ public class DialogBuilder<R> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Dialog#onShownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Dialog#onShownProperty() onShownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onShownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onShownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -412,8 +532,20 @@ public class DialogBuilder<R> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Dialog#resizableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Dialog#resizableProperty() resizableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.resizableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .resizablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -422,8 +554,20 @@ public class DialogBuilder<R> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Dialog#resultConverterProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Dialog#resultConverterProperty() resultConverterProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.resultConverterProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .resultConverterPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -432,8 +576,20 @@ public class DialogBuilder<R> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Dialog#resultProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Dialog#resultProperty() resultProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.resultProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .resultPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -442,8 +598,20 @@ public class DialogBuilder<R> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Dialog#showingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Dialog#showingProperty() showingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.showingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .showingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -452,8 +620,20 @@ public class DialogBuilder<R> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Dialog#titleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Dialog#titleProperty() titleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.titleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .titlePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -462,8 +642,20 @@ public class DialogBuilder<R> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Dialog#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Dialog#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -472,8 +664,20 @@ public class DialogBuilder<R> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Dialog#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Dialog#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -482,8 +686,20 @@ public class DialogBuilder<R> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Dialog#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Dialog#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

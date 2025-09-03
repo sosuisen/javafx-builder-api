@@ -157,7 +157,7 @@ public class ShadowBuilder {
         return false;
     }
     /**
-     * Applies a function to the Shadow instance currently being built.
+     * Applies a function to the Shadow instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -228,8 +228,20 @@ public class ShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Shadow#blurTypeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Shadow#blurTypeProperty() blurTypeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Shadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blurTypeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blurTypePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -238,8 +250,20 @@ public class ShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Shadow#colorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Shadow#colorProperty() colorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Shadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.colorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .colorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -248,8 +272,20 @@ public class ShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Shadow#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Shadow#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Shadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -258,8 +294,20 @@ public class ShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Shadow#inputProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Shadow#inputProperty() inputProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Shadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -268,8 +316,20 @@ public class ShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Shadow#radiusProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Shadow#radiusProperty() radiusProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Shadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.radiusProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .radiusPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -278,8 +338,20 @@ public class ShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.Shadow#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.Shadow#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Shadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

@@ -143,7 +143,7 @@ public class TextAreaBuilder {
         return false;
     }
     /**
-     * Applies a function to the TextArea instance currently being built.
+     * Applies a function to the TextArea instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2222,8 +2222,20 @@ public class TextAreaBuilder {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2232,8 +2244,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2242,8 +2266,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2252,8 +2288,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2262,8 +2310,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#anchorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#anchorProperty() anchorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.anchorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .anchorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2272,8 +2332,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#backgroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#backgroundProperty() backgroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2282,8 +2354,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2292,8 +2376,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#borderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#borderProperty() borderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.borderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2302,8 +2398,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2312,8 +2420,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2322,8 +2442,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2332,8 +2464,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2342,8 +2486,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#cacheShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#cacheShapeProperty() cacheShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2352,8 +2508,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#caretPositionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#caretPositionProperty() caretPositionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.caretPositionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .caretPositionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2362,8 +2530,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#centerShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#centerShapeProperty() centerShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2372,8 +2552,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2382,8 +2574,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#contextMenuProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#contextMenuProperty() contextMenuProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contextMenuProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contextMenuPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2392,8 +2596,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2402,8 +2618,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2412,8 +2640,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2422,8 +2662,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2432,8 +2684,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#editableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#editableProperty() editableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.editableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .editablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2442,8 +2706,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2452,8 +2728,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2462,8 +2750,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2472,8 +2772,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2482,8 +2794,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2492,8 +2816,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2502,8 +2838,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2512,8 +2860,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#fontProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#fontProperty() fontProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fontProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fontPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2522,8 +2882,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2532,8 +2904,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2542,8 +2926,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2552,8 +2948,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2562,8 +2970,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#insetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#insetsProperty() insetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2572,8 +2992,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2582,8 +3014,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2592,8 +3036,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2602,8 +3058,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#lengthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#lengthProperty() lengthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.lengthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .lengthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2612,8 +3080,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2622,8 +3102,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2632,8 +3124,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2642,8 +3146,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2652,8 +3168,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2662,8 +3190,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2672,8 +3212,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2682,8 +3234,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2692,8 +3256,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#needsLayoutProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#needsLayoutProperty() needsLayoutProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2702,8 +3278,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2712,8 +3300,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2722,8 +3322,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2732,8 +3344,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2742,8 +3366,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2752,8 +3388,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2762,8 +3410,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2772,8 +3432,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2782,8 +3454,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2792,8 +3476,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2802,8 +3498,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2812,8 +3520,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2822,8 +3542,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2832,8 +3564,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2842,8 +3586,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2852,8 +3608,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2862,8 +3630,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2872,8 +3652,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2882,8 +3674,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2892,8 +3696,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2902,8 +3718,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2912,8 +3740,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2922,8 +3762,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2932,8 +3784,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2942,8 +3806,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2952,8 +3828,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2962,8 +3850,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2972,8 +3872,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2982,8 +3894,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2992,8 +3916,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3002,8 +3938,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3012,8 +3960,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3022,8 +3982,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3032,8 +4004,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3042,8 +4026,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3052,8 +4048,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3062,8 +4070,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3072,8 +4092,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3082,8 +4114,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3092,8 +4136,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3102,8 +4158,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3112,8 +4180,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#opaqueInsetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3122,8 +4202,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#paddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#paddingProperty() paddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3132,8 +4224,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3142,8 +4246,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3152,8 +4268,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#prefColumnCountProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#prefColumnCountProperty() prefColumnCountProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefColumnCountProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefColumnCountPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3162,8 +4290,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3172,8 +4312,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#prefRowCountProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#prefRowCountProperty() prefRowCountProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefRowCountProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefRowCountPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3182,8 +4334,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3192,8 +4356,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3202,8 +4378,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#promptTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#promptTextProperty() promptTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.promptTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .promptTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3212,8 +4400,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#redoableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#redoableProperty() redoableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.redoableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .redoablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3222,8 +4422,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3232,8 +4444,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3242,8 +4466,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#scaleShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#scaleShapeProperty() scaleShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3252,8 +4488,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3262,8 +4510,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3272,8 +4532,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3282,8 +4554,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3292,8 +4576,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#scrollLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#scrollLeftProperty() scrollLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scrollLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scrollLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3302,8 +4598,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#scrollTopProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#scrollTopProperty() scrollTopProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scrollTopProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scrollTopPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3312,8 +4620,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#selectedTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#selectedTextProperty() selectedTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.selectedTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .selectedTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3322,8 +4642,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#selectionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#selectionProperty() selectionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.selectionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .selectionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3332,8 +4664,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#shapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#shapeProperty() shapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3342,8 +4686,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#skinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#skinProperty() skinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.skinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .skinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3352,8 +4708,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#snapToPixelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#snapToPixelProperty() snapToPixelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3362,8 +4730,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3372,8 +4752,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#textFormatterProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#textFormatterProperty() textFormatterProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textFormatterProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textFormatterPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3382,8 +4774,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#textProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#textProperty() textProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3392,8 +4796,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#tooltipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#tooltipProperty() tooltipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tooltipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tooltipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3402,8 +4818,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3412,8 +4840,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3422,8 +4862,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3432,8 +4884,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#undoableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#undoableProperty() undoableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.undoableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .undoablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3442,8 +4906,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3452,8 +4928,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3462,8 +4950,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3472,8 +4972,20 @@ public class TextAreaBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TextArea#wrapTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TextArea#wrapTextProperty() wrapTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.wrapTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .wrapTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

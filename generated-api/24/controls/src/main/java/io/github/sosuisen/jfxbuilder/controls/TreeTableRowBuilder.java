@@ -131,7 +131,7 @@ public class TreeTableRowBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the TreeTableRow instance currently being built.
+     * Applies a function to the TreeTableRow instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2232,8 +2232,20 @@ public class TreeTableRowBuilder<T> {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2242,8 +2254,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2252,8 +2276,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2262,8 +2298,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2272,8 +2320,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#alignmentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#alignmentProperty() alignmentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.alignmentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .alignmentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2282,8 +2342,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#backgroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#backgroundProperty() backgroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2292,8 +2364,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2302,8 +2386,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#borderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#borderProperty() borderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.borderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2312,8 +2408,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2322,8 +2430,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2332,8 +2452,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2342,8 +2474,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2352,8 +2496,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#cacheShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#cacheShapeProperty() cacheShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2362,8 +2518,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#centerShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#centerShapeProperty() centerShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2372,8 +2540,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2382,8 +2562,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#contentDisplayProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#contentDisplayProperty() contentDisplayProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contentDisplayProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contentDisplayPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2392,8 +2584,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#contextMenuProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#contextMenuProperty() contextMenuProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contextMenuProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contextMenuPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2402,8 +2606,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2412,8 +2628,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2422,8 +2650,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2432,8 +2672,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2442,8 +2694,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#disclosureNodeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#disclosureNodeProperty() disclosureNodeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disclosureNodeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disclosureNodePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2452,8 +2716,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#editableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#editableProperty() editableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.editableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .editablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2462,8 +2738,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#editingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#editingProperty() editingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.editingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .editingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2472,8 +2760,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2482,8 +2782,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2492,8 +2804,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#ellipsisStringProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#ellipsisStringProperty() ellipsisStringProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.ellipsisStringProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .ellipsisStringPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2502,8 +2826,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#emptyProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#emptyProperty() emptyProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.emptyProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .emptyPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2512,8 +2848,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2522,8 +2870,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2532,8 +2892,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2542,8 +2914,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2552,8 +2936,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2562,8 +2958,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#fontProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#fontProperty() fontProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fontProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fontPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2572,8 +2980,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#graphicProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#graphicProperty() graphicProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.graphicProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2582,8 +3002,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#graphicTextGapProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#graphicTextGapProperty() graphicTextGapProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.graphicTextGapProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .graphicTextGapPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2592,8 +3024,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2602,8 +3046,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2612,8 +3068,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2622,8 +3090,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#indexProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#indexProperty() indexProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.indexProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .indexPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2632,8 +3112,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2642,8 +3134,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#insetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#insetsProperty() insetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2652,8 +3156,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#itemProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#itemProperty() itemProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.itemProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .itemPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2662,8 +3178,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#labelPaddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#labelPaddingProperty() labelPaddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.labelPaddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .labelPaddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2672,8 +3200,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2682,8 +3222,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2692,8 +3244,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2702,8 +3266,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#lineSpacingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#lineSpacingProperty() lineSpacingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.lineSpacingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .lineSpacingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2712,8 +3288,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2722,8 +3310,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2732,8 +3332,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2742,8 +3354,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2752,8 +3376,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2762,8 +3398,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2772,8 +3420,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2782,8 +3442,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#mnemonicParsingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#mnemonicParsingProperty() mnemonicParsingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mnemonicParsingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mnemonicParsingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2792,8 +3464,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2802,8 +3486,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#needsLayoutProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#needsLayoutProperty() needsLayoutProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2812,8 +3508,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2822,8 +3530,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2832,8 +3552,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2842,8 +3574,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2852,8 +3596,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2862,8 +3618,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2872,8 +3640,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2882,8 +3662,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2892,8 +3684,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2902,8 +3706,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2912,8 +3728,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2922,8 +3750,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2932,8 +3772,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2942,8 +3794,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2952,8 +3816,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2962,8 +3838,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2972,8 +3860,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2982,8 +3882,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2992,8 +3904,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3002,8 +3926,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3012,8 +3948,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3022,8 +3970,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3032,8 +3992,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3042,8 +4014,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3052,8 +4036,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3062,8 +4058,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3072,8 +4080,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3082,8 +4102,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3092,8 +4124,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3102,8 +4146,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3112,8 +4168,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3122,8 +4190,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3132,8 +4212,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3142,8 +4234,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3152,8 +4256,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3162,8 +4278,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3172,8 +4300,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3182,8 +4322,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3192,8 +4344,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3202,8 +4366,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3212,8 +4388,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3222,8 +4410,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#opaqueInsetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3232,8 +4432,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#paddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#paddingProperty() paddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3242,8 +4454,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3252,8 +4476,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3262,8 +4498,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3272,8 +4520,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3282,8 +4542,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3292,8 +4564,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3302,8 +4586,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3312,8 +4608,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#scaleShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#scaleShapeProperty() scaleShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3322,8 +4630,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3332,8 +4652,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3342,8 +4674,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3352,8 +4696,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3362,8 +4718,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#selectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#selectedProperty() selectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.selectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .selectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3372,8 +4740,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#shapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#shapeProperty() shapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3382,8 +4762,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#skinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#skinProperty() skinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.skinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .skinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3392,8 +4784,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#snapToPixelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#snapToPixelProperty() snapToPixelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3402,8 +4806,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3412,8 +4828,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#textAlignmentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#textAlignmentProperty() textAlignmentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textAlignmentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textAlignmentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3422,8 +4850,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#textFillProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#textFillProperty() textFillProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textFillProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textFillPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3432,8 +4872,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#textOverrunProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#textOverrunProperty() textOverrunProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textOverrunProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textOverrunPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3442,8 +4894,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#textProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#textProperty() textProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3452,8 +4916,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#textTruncatedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#textTruncatedProperty() textTruncatedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textTruncatedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textTruncatedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3462,8 +4938,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#tooltipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#tooltipProperty() tooltipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tooltipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tooltipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3472,8 +4960,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3482,8 +4982,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3492,8 +5004,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3502,8 +5026,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#treeItemProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#treeItemProperty() treeItemProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.treeItemProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .treeItemPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3512,8 +5048,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#treeTableViewProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#treeTableViewProperty() treeTableViewProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.treeTableViewProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .treeTableViewPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3522,8 +5070,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#underlineProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#underlineProperty() underlineProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.underlineProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .underlinePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3532,8 +5092,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3542,8 +5114,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3552,8 +5136,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3562,8 +5158,20 @@ public class TreeTableRowBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeTableRow#wrapTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeTableRow#wrapTextProperty() wrapTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableRow<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.wrapTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .wrapTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

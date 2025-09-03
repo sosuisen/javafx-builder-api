@@ -129,7 +129,7 @@ public class SeparatorMenuItemBuilder {
         return false;
     }
     /**
-     * Applies a function to the SeparatorMenuItem instance currently being built.
+     * Applies a function to the SeparatorMenuItem instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -297,8 +297,20 @@ public class SeparatorMenuItemBuilder {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#acceleratorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#acceleratorProperty() acceleratorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SeparatorMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.acceleratorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .acceleratorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -307,8 +319,20 @@ public class SeparatorMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#contentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#contentProperty() contentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SeparatorMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -317,8 +341,20 @@ public class SeparatorMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SeparatorMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -327,8 +363,20 @@ public class SeparatorMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#graphicProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#graphicProperty() graphicProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SeparatorMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.graphicProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -337,8 +385,20 @@ public class SeparatorMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#hideOnClickProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#hideOnClickProperty() hideOnClickProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SeparatorMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hideOnClickProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hideOnClickPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -347,8 +407,20 @@ public class SeparatorMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SeparatorMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -357,8 +429,20 @@ public class SeparatorMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#mnemonicParsingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#mnemonicParsingProperty() mnemonicParsingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SeparatorMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mnemonicParsingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mnemonicParsingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -367,8 +451,20 @@ public class SeparatorMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#onActionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#onActionProperty() onActionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SeparatorMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onActionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onActionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -377,8 +473,20 @@ public class SeparatorMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#onMenuValidationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#onMenuValidationProperty() onMenuValidationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SeparatorMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMenuValidationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMenuValidationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -387,8 +495,20 @@ public class SeparatorMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#parentMenuProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#parentMenuProperty() parentMenuProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SeparatorMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentMenuProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentMenuPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -397,8 +517,20 @@ public class SeparatorMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#parentPopupProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#parentPopupProperty() parentPopupProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SeparatorMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentPopupProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPopupPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -407,8 +539,20 @@ public class SeparatorMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SeparatorMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -417,8 +561,20 @@ public class SeparatorMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#textProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#textProperty() textProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SeparatorMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -427,8 +583,20 @@ public class SeparatorMenuItemBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.SeparatorMenuItem#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SeparatorMenuItem> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

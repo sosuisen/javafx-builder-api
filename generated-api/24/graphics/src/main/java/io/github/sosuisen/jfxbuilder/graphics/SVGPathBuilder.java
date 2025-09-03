@@ -129,7 +129,7 @@ public class SVGPathBuilder {
         return false;
     }
     /**
-     * Applies a function to the SVGPath instance currently being built.
+     * Applies a function to the SVGPath instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -1965,8 +1965,20 @@ public class SVGPathBuilder {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1975,8 +1987,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1985,8 +2009,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1995,8 +2031,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2005,8 +2053,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2015,8 +2075,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2025,8 +2097,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2035,8 +2119,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2045,8 +2141,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2055,8 +2163,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2065,8 +2185,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#contentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#contentProperty() contentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2075,8 +2207,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2085,8 +2229,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2095,8 +2251,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2105,8 +2273,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2115,8 +2295,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2125,8 +2317,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2135,8 +2339,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2145,8 +2361,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#fillProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#fillProperty() fillProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fillProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fillPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2155,8 +2383,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#fillRuleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#fillRuleProperty() fillRuleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fillRuleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fillRulePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2165,8 +2405,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2175,8 +2427,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2185,8 +2449,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2195,8 +2471,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2205,8 +2493,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2215,8 +2515,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2225,8 +2537,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2235,8 +2559,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2245,8 +2581,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2255,8 +2603,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2265,8 +2625,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2275,8 +2647,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2285,8 +2669,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2295,8 +2691,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2305,8 +2713,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2315,8 +2735,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2325,8 +2757,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2335,8 +2779,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2345,8 +2801,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2355,8 +2823,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2365,8 +2845,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2375,8 +2867,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2385,8 +2889,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2395,8 +2911,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2405,8 +2933,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2415,8 +2955,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2425,8 +2977,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2435,8 +2999,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2445,8 +3021,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2455,8 +3043,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2465,8 +3065,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2475,8 +3087,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2485,8 +3109,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2495,8 +3131,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2505,8 +3153,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2515,8 +3175,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2525,8 +3197,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2535,8 +3219,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2545,8 +3241,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2555,8 +3263,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2565,8 +3285,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2575,8 +3307,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2585,8 +3329,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2595,8 +3351,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2605,8 +3373,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2615,8 +3395,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2625,8 +3417,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2635,8 +3439,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2645,8 +3461,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2655,8 +3483,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2665,8 +3505,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2675,8 +3527,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2685,8 +3549,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2695,8 +3571,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2705,8 +3593,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2715,8 +3615,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2725,8 +3637,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2735,8 +3659,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2745,8 +3681,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2755,8 +3703,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2765,8 +3725,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2775,8 +3747,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2785,8 +3769,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2795,8 +3791,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2805,8 +3813,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#smoothProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#smoothProperty() smoothProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.smoothProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .smoothPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2815,8 +3835,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeDashOffsetProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeDashOffsetProperty() strokeDashOffsetProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeDashOffsetProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeDashOffsetPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2825,8 +3857,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeLineCapProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeLineCapProperty() strokeLineCapProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeLineCapProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeLineCapPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2835,8 +3879,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeLineJoinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeLineJoinProperty() strokeLineJoinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeLineJoinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeLineJoinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2845,8 +3901,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeMiterLimitProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeMiterLimitProperty() strokeMiterLimitProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeMiterLimitProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeMiterLimitPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2855,8 +3923,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeProperty() strokeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2865,8 +3945,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeTypeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeTypeProperty() strokeTypeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeTypeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeTypePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2875,8 +3967,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeWidthProperty() strokeWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.strokeWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .strokeWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2885,8 +3989,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2895,8 +4011,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2905,8 +4033,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2915,8 +4055,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2925,8 +4077,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2935,8 +4099,20 @@ public class SVGPathBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.shape.SVGPath#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.shape.SVGPath#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

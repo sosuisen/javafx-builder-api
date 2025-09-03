@@ -199,7 +199,7 @@ public class RotateBuilder {
         return false;
     }
     /**
-     * Applies a function to the Rotate instance currently being built.
+     * Applies a function to the Rotate instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -270,8 +270,20 @@ public class RotateBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Rotate#angleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Rotate#angleProperty() angleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Rotate> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.angleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .anglePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -280,8 +292,20 @@ public class RotateBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Rotate#axisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Rotate#axisProperty() axisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Rotate> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.axisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .axisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -290,8 +314,20 @@ public class RotateBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Rotate#identityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Rotate#identityProperty() identityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Rotate> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.identityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .identityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -300,8 +336,20 @@ public class RotateBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Rotate#onTransformChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Rotate#onTransformChangedProperty() onTransformChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Rotate> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTransformChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTransformChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -310,8 +358,20 @@ public class RotateBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Rotate#pivotXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Rotate#pivotXProperty() pivotXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Rotate> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pivotXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pivotXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -320,8 +380,20 @@ public class RotateBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Rotate#pivotYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Rotate#pivotYProperty() pivotYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Rotate> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pivotYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pivotYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -330,8 +402,20 @@ public class RotateBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Rotate#pivotZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Rotate#pivotZProperty() pivotZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Rotate> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pivotZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pivotZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -340,8 +424,20 @@ public class RotateBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.transform.Rotate#type2DProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.transform.Rotate#type2DProperty() type2DProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Rotate> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.type2DProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .type2DPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

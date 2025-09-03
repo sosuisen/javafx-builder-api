@@ -171,7 +171,7 @@ public class DropShadowBuilder {
         return false;
     }
     /**
-     * Applies a function to the DropShadow instance currently being built.
+     * Applies a function to the DropShadow instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -272,8 +272,20 @@ public class DropShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.DropShadow#blurTypeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.DropShadow#blurTypeProperty() blurTypeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blurTypeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blurTypePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -282,8 +294,20 @@ public class DropShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.DropShadow#colorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.DropShadow#colorProperty() colorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.colorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .colorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -292,8 +316,20 @@ public class DropShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.DropShadow#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.DropShadow#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -302,8 +338,20 @@ public class DropShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.DropShadow#inputProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.DropShadow#inputProperty() inputProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -312,8 +360,20 @@ public class DropShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.DropShadow#offsetXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.DropShadow#offsetXProperty() offsetXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.offsetXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .offsetXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -322,8 +382,20 @@ public class DropShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.DropShadow#offsetYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.DropShadow#offsetYProperty() offsetYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.offsetYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .offsetYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -332,8 +404,20 @@ public class DropShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.DropShadow#radiusProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.DropShadow#radiusProperty() radiusProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.radiusProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .radiusPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -342,8 +426,20 @@ public class DropShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.DropShadow#spreadProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.DropShadow#spreadProperty() spreadProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.spreadProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .spreadPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -352,8 +448,20 @@ public class DropShadowBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.effect.DropShadow#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.effect.DropShadow#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

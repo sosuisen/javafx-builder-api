@@ -161,7 +161,7 @@ public class BorderPaneBuilder {
         return false;
     }
     /**
-     * Applies a function to the BorderPane instance currently being built.
+     * Applies a function to the BorderPane instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2160,8 +2160,20 @@ public class BorderPaneBuilder {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2170,8 +2182,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2180,8 +2204,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2190,8 +2226,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2200,8 +2248,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#backgroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#backgroundProperty() backgroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2210,8 +2270,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2220,8 +2292,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#borderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#borderProperty() borderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.borderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2230,8 +2314,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#bottomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#bottomProperty() bottomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.bottomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .bottomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2240,8 +2336,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2250,8 +2358,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2260,8 +2380,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2270,8 +2402,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2280,8 +2424,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#cacheShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#cacheShapeProperty() cacheShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2290,8 +2446,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#centerProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#centerProperty() centerProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2300,8 +2468,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#centerShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#centerShapeProperty() centerShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2310,8 +2490,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2320,8 +2512,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2330,8 +2534,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2340,8 +2556,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2350,8 +2578,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2360,8 +2600,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2370,8 +2622,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2380,8 +2644,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2390,8 +2666,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2400,8 +2688,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2410,8 +2710,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2420,8 +2732,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2430,8 +2754,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2440,8 +2776,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2450,8 +2798,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2460,8 +2820,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2470,8 +2842,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#insetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#insetsProperty() insetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2480,8 +2864,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2490,8 +2886,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2500,8 +2908,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2510,8 +2930,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#leftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#leftProperty() leftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.leftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .leftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2520,8 +2952,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2530,8 +2974,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2540,8 +2996,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2550,8 +3018,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2560,8 +3040,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2570,8 +3062,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2580,8 +3084,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2590,8 +3106,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2600,8 +3128,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#needsLayoutProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#needsLayoutProperty() needsLayoutProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2610,8 +3150,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2620,8 +3172,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2630,8 +3194,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2640,8 +3216,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2650,8 +3238,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2660,8 +3260,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2670,8 +3282,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2680,8 +3304,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2690,8 +3326,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2700,8 +3348,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2710,8 +3370,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2720,8 +3392,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2730,8 +3414,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2740,8 +3436,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2750,8 +3458,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2760,8 +3480,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2770,8 +3502,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2780,8 +3524,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2790,8 +3546,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2800,8 +3568,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2810,8 +3590,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2820,8 +3612,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2830,8 +3634,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2840,8 +3656,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2850,8 +3678,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2860,8 +3700,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2870,8 +3722,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2880,8 +3744,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2890,8 +3766,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2900,8 +3788,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2910,8 +3810,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2920,8 +3832,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2930,8 +3854,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2940,8 +3876,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2950,8 +3898,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2960,8 +3920,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2970,8 +3942,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2980,8 +3964,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2990,8 +3986,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3000,8 +4008,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3010,8 +4030,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3020,8 +4052,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#opaqueInsetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3030,8 +4074,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#paddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#paddingProperty() paddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3040,8 +4096,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3050,8 +4118,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3060,8 +4140,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3070,8 +4162,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3080,8 +4184,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3090,8 +4206,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#rightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#rightProperty() rightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3100,8 +4228,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3110,8 +4250,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3120,8 +4272,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#scaleShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#scaleShapeProperty() scaleShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3130,8 +4294,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3140,8 +4316,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3150,8 +4338,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3160,8 +4360,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3170,8 +4382,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#shapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#shapeProperty() shapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3180,8 +4404,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#snapToPixelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#snapToPixelProperty() snapToPixelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3190,8 +4426,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3200,8 +4448,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#topProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#topProperty() topProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.topProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .topPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3210,8 +4470,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3220,8 +4492,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3230,8 +4514,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3240,8 +4536,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3250,8 +4558,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3260,8 +4580,20 @@ public class BorderPaneBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.BorderPane#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.BorderPane#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.BorderPane> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

@@ -159,7 +159,7 @@ public class XYChartDataBuilder<X, Y> {
         return false;
     }
     /**
-     * Applies a function to the Data instance currently being built.
+     * Applies a function to the Data instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -210,8 +210,20 @@ public class XYChartDataBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.XYChart.Data#XValueProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.XYChart.Data#XValueProperty() XValueProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Data<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.XValueProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .XValuePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -220,8 +232,20 @@ public class XYChartDataBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.XYChart.Data#YValueProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.XYChart.Data#YValueProperty() YValueProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Data<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.YValueProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .YValuePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -230,8 +254,20 @@ public class XYChartDataBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.XYChart.Data#extraValueProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.XYChart.Data#extraValueProperty() extraValueProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Data<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.extraValueProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .extraValuePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -240,8 +276,20 @@ public class XYChartDataBuilder<X, Y> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.chart.XYChart.Data#nodeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.chart.XYChart.Data#nodeProperty() nodeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.XYChart.Data<X, Y>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

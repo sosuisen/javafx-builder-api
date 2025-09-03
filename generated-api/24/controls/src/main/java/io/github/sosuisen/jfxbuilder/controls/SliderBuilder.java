@@ -143,7 +143,7 @@ public class SliderBuilder {
         return false;
     }
     /**
-     * Applies a function to the Slider instance currently being built.
+     * Applies a function to the Slider instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2194,8 +2194,20 @@ public class SliderBuilder {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2204,8 +2216,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2214,8 +2238,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2224,8 +2260,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2234,8 +2282,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#backgroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#backgroundProperty() backgroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2244,8 +2304,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2254,8 +2326,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#blockIncrementProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#blockIncrementProperty() blockIncrementProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blockIncrementProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blockIncrementPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2264,8 +2348,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#borderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#borderProperty() borderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.borderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2274,8 +2370,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2284,8 +2392,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2294,8 +2414,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2304,8 +2436,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2314,8 +2458,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#cacheShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#cacheShapeProperty() cacheShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2324,8 +2480,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#centerShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#centerShapeProperty() centerShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2334,8 +2502,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2344,8 +2524,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#contextMenuProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#contextMenuProperty() contextMenuProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contextMenuProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contextMenuPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2354,8 +2546,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2364,8 +2568,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2374,8 +2590,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2384,8 +2612,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2394,8 +2634,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2404,8 +2656,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2414,8 +2678,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2424,8 +2700,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2434,8 +2722,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2444,8 +2744,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2454,8 +2766,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2464,8 +2788,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2474,8 +2810,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2484,8 +2832,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2494,8 +2854,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2504,8 +2876,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#insetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#insetsProperty() insetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2514,8 +2898,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#labelFormatterProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#labelFormatterProperty() labelFormatterProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.labelFormatterProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .labelFormatterPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2524,8 +2920,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2534,8 +2942,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2544,8 +2964,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2554,8 +2986,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2564,8 +3008,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2574,8 +3030,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#majorTickUnitProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#majorTickUnitProperty() majorTickUnitProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.majorTickUnitProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .majorTickUnitPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2584,8 +3052,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2594,8 +3074,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2604,8 +3096,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#maxProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#maxProperty() maxProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2614,8 +3118,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2624,8 +3140,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2634,8 +3162,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#minProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#minProperty() minProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2644,8 +3184,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2654,8 +3206,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#minorTickCountProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#minorTickCountProperty() minorTickCountProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minorTickCountProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minorTickCountPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2664,8 +3228,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2674,8 +3250,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#needsLayoutProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#needsLayoutProperty() needsLayoutProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2684,8 +3272,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2694,8 +3294,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2704,8 +3316,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2714,8 +3338,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2724,8 +3360,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2734,8 +3382,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2744,8 +3404,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2754,8 +3426,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2764,8 +3448,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2774,8 +3470,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2784,8 +3492,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2794,8 +3514,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2804,8 +3536,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2814,8 +3558,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2824,8 +3580,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2834,8 +3602,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2844,8 +3624,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2854,8 +3646,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2864,8 +3668,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2874,8 +3690,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2884,8 +3712,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2894,8 +3734,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2904,8 +3756,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2914,8 +3778,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2924,8 +3800,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2934,8 +3822,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2944,8 +3844,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2954,8 +3866,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2964,8 +3888,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2974,8 +3910,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2984,8 +3932,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2994,8 +3954,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3004,8 +3976,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3014,8 +3998,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3024,8 +4020,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3034,8 +4042,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3044,8 +4064,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3054,8 +4086,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3064,8 +4108,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3074,8 +4130,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3084,8 +4152,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3094,8 +4174,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#opaqueInsetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3104,8 +4196,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#orientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#orientationProperty() orientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.orientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .orientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3114,8 +4218,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#paddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#paddingProperty() paddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3124,8 +4240,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3134,8 +4262,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3144,8 +4284,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3154,8 +4306,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3164,8 +4328,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3174,8 +4350,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3184,8 +4372,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3194,8 +4394,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#scaleShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#scaleShapeProperty() scaleShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3204,8 +4416,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3214,8 +4438,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3224,8 +4460,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3234,8 +4482,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3244,8 +4504,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#shapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#shapeProperty() shapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3254,8 +4526,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#showTickLabelsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#showTickLabelsProperty() showTickLabelsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.showTickLabelsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .showTickLabelsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3264,8 +4548,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#showTickMarksProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#showTickMarksProperty() showTickMarksProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.showTickMarksProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .showTickMarksPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3274,8 +4570,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#skinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#skinProperty() skinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.skinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .skinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3284,8 +4592,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#snapToPixelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#snapToPixelProperty() snapToPixelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3294,8 +4614,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#snapToTicksProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#snapToTicksProperty() snapToTicksProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToTicksProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToTicksPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3304,8 +4636,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3314,8 +4658,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#tooltipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#tooltipProperty() tooltipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tooltipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tooltipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3324,8 +4680,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3334,8 +4702,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3344,8 +4724,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3354,8 +4746,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#valueChangingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#valueChangingProperty() valueChangingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.valueChangingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .valueChangingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3364,8 +4768,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#valueProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#valueProperty() valueProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.valueProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .valuePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3374,8 +4790,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3384,8 +4812,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3394,8 +4834,20 @@ public class SliderBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.Slider#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.Slider#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

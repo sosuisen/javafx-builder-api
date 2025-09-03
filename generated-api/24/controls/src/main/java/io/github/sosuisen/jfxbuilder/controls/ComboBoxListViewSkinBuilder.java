@@ -131,7 +131,7 @@ public class ComboBoxListViewSkinBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the ComboBoxListViewSkin instance currently being built.
+     * Applies a function to the ComboBoxListViewSkin instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -179,8 +179,20 @@ public class ComboBoxListViewSkinBuilder<T> {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.ComboBoxListViewSkin#hideOnClickProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.ComboBoxListViewSkin#hideOnClickProperty() hideOnClickProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.ComboBoxListViewSkin<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hideOnClickProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hideOnClickPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

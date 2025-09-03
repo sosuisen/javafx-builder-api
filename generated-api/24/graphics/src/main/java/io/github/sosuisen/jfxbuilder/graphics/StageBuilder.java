@@ -65,7 +65,7 @@ public class StageBuilder {
 
 
     /**
-     * Applies a function to the Stage instance currently being built.
+     * Applies a function to the Stage instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -404,8 +404,20 @@ public class StageBuilder {
 
     
     /**
-     * Applies a function to the {@link javafx.stage.Stage#alwaysOnTopProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#alwaysOnTopProperty() alwaysOnTopProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.alwaysOnTopProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .alwaysOnTopPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -414,8 +426,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -424,8 +448,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -434,8 +470,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#forceIntegerRenderScaleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#forceIntegerRenderScaleProperty() forceIntegerRenderScaleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.forceIntegerRenderScaleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .forceIntegerRenderScalePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -444,8 +492,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#fullScreenExitHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#fullScreenExitHintProperty() fullScreenExitHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fullScreenExitHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fullScreenExitHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -454,8 +514,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#fullScreenExitKeyProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#fullScreenExitKeyProperty() fullScreenExitKeyProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fullScreenExitKeyProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fullScreenExitKeyPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -464,8 +536,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#fullScreenProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#fullScreenProperty() fullScreenProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fullScreenProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fullScreenPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -474,8 +558,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -484,8 +580,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#iconifiedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#iconifiedProperty() iconifiedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.iconifiedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .iconifiedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -494,8 +602,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -504,8 +624,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -514,8 +646,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#maximizedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#maximizedProperty() maximizedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maximizedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maximizedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -524,8 +668,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -534,8 +690,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -544,8 +712,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#onCloseRequestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#onCloseRequestProperty() onCloseRequestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onCloseRequestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onCloseRequestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -554,8 +734,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#onHiddenProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#onHiddenProperty() onHiddenProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onHiddenProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onHiddenPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -564,8 +756,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#onHidingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#onHidingProperty() onHidingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onHidingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onHidingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -574,8 +778,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#onShowingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#onShowingProperty() onShowingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onShowingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onShowingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -584,8 +800,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#onShownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#onShownProperty() onShownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onShownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onShownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -594,8 +822,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -604,8 +844,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#outputScaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#outputScaleXProperty() outputScaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.outputScaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .outputScaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -614,8 +866,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#outputScaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#outputScaleYProperty() outputScaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.outputScaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .outputScaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -624,8 +888,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#renderScaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#renderScaleXProperty() renderScaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.renderScaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .renderScaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -634,8 +910,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#renderScaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#renderScaleYProperty() renderScaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.renderScaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .renderScaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -644,8 +932,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#resizableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#resizableProperty() resizableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.resizableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .resizablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -654,8 +954,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -664,8 +976,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#showingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#showingProperty() showingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.showingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .showingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -674,8 +998,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#titleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#titleProperty() titleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.titleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .titlePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -684,8 +1020,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -694,8 +1042,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -704,8 +1064,20 @@ public class StageBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.stage.Stage#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.stage.Stage#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.stage.Stage> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

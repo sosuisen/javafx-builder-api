@@ -143,7 +143,7 @@ public class WebEngineBuilder {
         return false;
     }
     /**
-     * Applies a function to the WebEngine instance currently being built.
+     * Applies a function to the WebEngine instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -274,8 +274,20 @@ public class WebEngineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.web.WebEngine#confirmHandlerProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebEngine#confirmHandlerProperty() confirmHandlerProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.confirmHandlerProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .confirmHandlerPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -284,8 +296,20 @@ public class WebEngineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.web.WebEngine#createPopupHandlerProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebEngine#createPopupHandlerProperty() createPopupHandlerProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.createPopupHandlerProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .createPopupHandlerPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -294,8 +318,20 @@ public class WebEngineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.web.WebEngine#documentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebEngine#documentProperty() documentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.documentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .documentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -304,8 +340,20 @@ public class WebEngineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.web.WebEngine#javaScriptEnabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebEngine#javaScriptEnabledProperty() javaScriptEnabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.javaScriptEnabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .javaScriptEnabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -314,8 +362,20 @@ public class WebEngineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.web.WebEngine#locationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebEngine#locationProperty() locationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.locationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .locationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -324,8 +384,20 @@ public class WebEngineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.web.WebEngine#onAlertProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebEngine#onAlertProperty() onAlertProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onAlertProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onAlertPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -334,8 +406,20 @@ public class WebEngineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.web.WebEngine#onErrorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebEngine#onErrorProperty() onErrorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onErrorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onErrorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -344,8 +428,20 @@ public class WebEngineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.web.WebEngine#onResizedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebEngine#onResizedProperty() onResizedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onResizedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onResizedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -354,8 +450,20 @@ public class WebEngineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.web.WebEngine#onStatusChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebEngine#onStatusChangedProperty() onStatusChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onStatusChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onStatusChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -364,8 +472,20 @@ public class WebEngineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.web.WebEngine#onVisibilityChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebEngine#onVisibilityChangedProperty() onVisibilityChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onVisibilityChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onVisibilityChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -374,8 +494,20 @@ public class WebEngineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.web.WebEngine#promptHandlerProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebEngine#promptHandlerProperty() promptHandlerProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.promptHandlerProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .promptHandlerPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -384,8 +516,20 @@ public class WebEngineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.web.WebEngine#titleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebEngine#titleProperty() titleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.titleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .titlePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -394,8 +538,20 @@ public class WebEngineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.web.WebEngine#userAgentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebEngine#userAgentProperty() userAgentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.userAgentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .userAgentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -404,8 +560,20 @@ public class WebEngineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.web.WebEngine#userDataDirectoryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebEngine#userDataDirectoryProperty() userDataDirectoryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.userDataDirectoryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .userDataDirectoryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -414,8 +582,20 @@ public class WebEngineBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.web.WebEngine#userStyleSheetLocationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.web.WebEngine#userStyleSheetLocationProperty() userStyleSheetLocationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebEngine> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.userStyleSheetLocationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .userStyleSheetLocationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

@@ -131,7 +131,7 @@ public class TreeTableRowSkinBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the TreeTableRowSkin instance currently being built.
+     * Applies a function to the TreeTableRowSkin instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -179,8 +179,20 @@ public class TreeTableRowSkinBuilder<T> {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.TreeTableRowSkin#cellSizeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.TreeTableRowSkin#cellSizeProperty() cellSizeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TreeTableRowSkin<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cellSizeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cellSizePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -189,8 +201,20 @@ public class TreeTableRowSkinBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.TreeTableRowSkin#indentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.TreeTableRowSkin#indentProperty() indentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TreeTableRowSkin<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.indentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .indentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

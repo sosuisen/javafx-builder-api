@@ -143,7 +143,7 @@ public class LinearGradientBuilder {
         return false;
     }
     /**
-     * Applies a function to the LinearGradient instance currently being built.
+     * Applies a function to the LinearGradient instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

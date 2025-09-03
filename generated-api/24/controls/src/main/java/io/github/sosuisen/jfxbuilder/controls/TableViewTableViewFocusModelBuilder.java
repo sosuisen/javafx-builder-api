@@ -131,7 +131,7 @@ public class TableViewTableViewFocusModelBuilder<S> {
         return false;
     }
     /**
-     * Applies a function to the TableViewFocusModel instance currently being built.
+     * Applies a function to the TableViewFocusModel instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -142,8 +142,20 @@ public class TableViewTableViewFocusModelBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView.TableViewFocusModel#focusedCellProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView.TableViewFocusModel#focusedCellProperty() focusedCellProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView.TableViewFocusModel<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedCellProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedCellPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     @SuppressWarnings("rawtypes")
@@ -152,8 +164,20 @@ public class TableViewTableViewFocusModelBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView.TableViewFocusModel#focusedIndexProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView.TableViewFocusModel#focusedIndexProperty() focusedIndexProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView.TableViewFocusModel<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedIndexProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedIndexPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -162,8 +186,20 @@ public class TableViewTableViewFocusModelBuilder<S> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TableView.TableViewFocusModel#focusedItemProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TableView.TableViewFocusModel#focusedItemProperty() focusedItemProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TableView.TableViewFocusModel<S>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedItemProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedItemPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

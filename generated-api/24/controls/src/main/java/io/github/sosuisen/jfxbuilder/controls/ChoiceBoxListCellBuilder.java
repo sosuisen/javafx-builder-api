@@ -187,7 +187,7 @@ public class ChoiceBoxListCellBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the ChoiceBoxListCell instance currently being built.
+     * Applies a function to the ChoiceBoxListCell instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2336,8 +2336,20 @@ public class ChoiceBoxListCellBuilder<T> {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2346,8 +2358,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2356,8 +2380,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2366,8 +2402,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2376,8 +2424,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#alignmentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#alignmentProperty() alignmentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.alignmentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .alignmentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2386,8 +2446,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#backgroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#backgroundProperty() backgroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2396,8 +2468,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2406,8 +2490,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#borderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#borderProperty() borderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.borderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2416,8 +2512,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2426,8 +2534,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2436,8 +2556,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2446,8 +2578,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2456,8 +2600,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#cacheShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#cacheShapeProperty() cacheShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2466,8 +2622,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#centerShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#centerShapeProperty() centerShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2476,8 +2644,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2486,8 +2666,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#contentDisplayProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#contentDisplayProperty() contentDisplayProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contentDisplayProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contentDisplayPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2496,8 +2688,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#contextMenuProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#contextMenuProperty() contextMenuProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.contextMenuProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .contextMenuPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2506,8 +2710,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#converterProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#converterProperty() converterProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.converterProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .converterPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2516,8 +2732,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2526,8 +2754,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2536,8 +2776,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2546,8 +2798,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2556,8 +2820,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#editableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#editableProperty() editableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.editableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .editablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2566,8 +2842,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#editingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#editingProperty() editingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.editingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .editingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2576,8 +2864,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2586,8 +2886,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2596,8 +2908,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#ellipsisStringProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#ellipsisStringProperty() ellipsisStringProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.ellipsisStringProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .ellipsisStringPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2606,8 +2930,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#emptyProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#emptyProperty() emptyProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.emptyProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .emptyPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2616,8 +2952,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2626,8 +2974,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2636,8 +2996,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2646,8 +3018,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2656,8 +3040,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2666,8 +3062,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#fontProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#fontProperty() fontProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fontProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fontPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2676,8 +3084,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#graphicProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#graphicProperty() graphicProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.graphicProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2686,8 +3106,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#graphicTextGapProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#graphicTextGapProperty() graphicTextGapProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.graphicTextGapProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .graphicTextGapPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2696,8 +3128,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2706,8 +3150,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2716,8 +3172,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2726,8 +3194,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#indexProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#indexProperty() indexProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.indexProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .indexPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2736,8 +3216,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2746,8 +3238,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#insetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#insetsProperty() insetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2756,8 +3260,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#itemProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#itemProperty() itemProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.itemProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .itemPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2766,8 +3282,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#labelPaddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#labelPaddingProperty() labelPaddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.labelPaddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .labelPaddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2776,8 +3304,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2786,8 +3326,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2796,8 +3348,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2806,8 +3370,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#lineSpacingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#lineSpacingProperty() lineSpacingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.lineSpacingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .lineSpacingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2816,8 +3392,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#listViewProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#listViewProperty() listViewProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.listViewProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .listViewPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2826,8 +3414,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2836,8 +3436,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2846,8 +3458,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2856,8 +3480,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2866,8 +3502,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2876,8 +3524,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2886,8 +3546,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2896,8 +3568,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#mnemonicParsingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#mnemonicParsingProperty() mnemonicParsingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mnemonicParsingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mnemonicParsingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2906,8 +3590,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2916,8 +3612,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#needsLayoutProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#needsLayoutProperty() needsLayoutProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2926,8 +3634,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2936,8 +3656,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2946,8 +3678,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2956,8 +3700,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2966,8 +3722,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2976,8 +3744,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2986,8 +3766,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2996,8 +3788,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3006,8 +3810,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3016,8 +3832,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3026,8 +3854,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3036,8 +3876,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3046,8 +3898,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3056,8 +3920,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3066,8 +3942,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3076,8 +3964,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3086,8 +3986,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3096,8 +4008,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3106,8 +4030,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3116,8 +4052,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3126,8 +4074,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3136,8 +4096,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3146,8 +4118,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3156,8 +4140,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3166,8 +4162,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3176,8 +4184,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3186,8 +4206,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3196,8 +4228,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3206,8 +4250,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3216,8 +4272,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3226,8 +4294,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3236,8 +4316,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3246,8 +4338,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3256,8 +4360,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3266,8 +4382,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3276,8 +4404,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3286,8 +4426,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3296,8 +4448,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3306,8 +4470,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3316,8 +4492,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3326,8 +4514,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3336,8 +4536,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#opaqueInsetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3346,8 +4558,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#paddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#paddingProperty() paddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3356,8 +4580,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3366,8 +4602,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3376,8 +4624,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3386,8 +4646,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3396,8 +4668,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3406,8 +4690,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3416,8 +4712,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3426,8 +4734,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#scaleShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#scaleShapeProperty() scaleShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3436,8 +4756,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3446,8 +4778,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3456,8 +4800,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3466,8 +4822,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3476,8 +4844,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#selectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#selectedProperty() selectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.selectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .selectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3486,8 +4866,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#shapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#shapeProperty() shapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3496,8 +4888,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#skinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#skinProperty() skinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.skinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .skinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3506,8 +4910,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#snapToPixelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#snapToPixelProperty() snapToPixelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3516,8 +4932,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3526,8 +4954,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#textAlignmentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#textAlignmentProperty() textAlignmentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textAlignmentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textAlignmentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3536,8 +4976,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#textFillProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#textFillProperty() textFillProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textFillProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textFillPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3546,8 +4998,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#textOverrunProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#textOverrunProperty() textOverrunProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textOverrunProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textOverrunPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3556,8 +5020,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#textProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#textProperty() textProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3566,8 +5042,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#textTruncatedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#textTruncatedProperty() textTruncatedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.textTruncatedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .textTruncatedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3576,8 +5064,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#tooltipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#tooltipProperty() tooltipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.tooltipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .tooltipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3586,8 +5086,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3596,8 +5108,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3606,8 +5130,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3616,8 +5152,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#underlineProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#underlineProperty() underlineProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.underlineProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .underlinePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3626,8 +5174,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3636,8 +5196,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3646,8 +5218,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3656,8 +5240,20 @@ public class ChoiceBoxListCellBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#wrapTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxListCell#wrapTextProperty() wrapTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxListCell<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.wrapTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .wrapTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

@@ -129,7 +129,7 @@ public class DateCellSkinBuilder {
         return false;
     }
     /**
-     * Applies a function to the DateCellSkin instance currently being built.
+     * Applies a function to the DateCellSkin instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -167,8 +167,20 @@ public class DateCellSkinBuilder {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.control.skin.DateCellSkin#cellSizeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.skin.DateCellSkin#cellSizeProperty() cellSizeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.DateCellSkin> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cellSizeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cellSizePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

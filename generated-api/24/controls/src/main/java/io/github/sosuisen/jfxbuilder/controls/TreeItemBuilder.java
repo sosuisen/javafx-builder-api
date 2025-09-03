@@ -159,7 +159,7 @@ public class TreeItemBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the TreeItem instance currently being built.
+     * Applies a function to the TreeItem instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -248,8 +248,20 @@ public class TreeItemBuilder<T> {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeItem#expandedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeItem#expandedProperty() expandedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeItem<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.expandedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .expandedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -258,8 +270,20 @@ public class TreeItemBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeItem#graphicProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeItem#graphicProperty() graphicProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeItem<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.graphicProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .graphicPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -268,8 +292,20 @@ public class TreeItemBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeItem#leafProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeItem#leafProperty() leafProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeItem<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.leafProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .leafPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -278,8 +314,20 @@ public class TreeItemBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeItem#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeItem#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeItem<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -288,8 +336,20 @@ public class TreeItemBuilder<T> {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.TreeItem#valueProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.TreeItem#valueProperty() valueProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeItem<T>> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.valueProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .valuePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

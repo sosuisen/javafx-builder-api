@@ -143,7 +143,7 @@ public class PerspectiveCameraBuilder {
         return false;
     }
     /**
-     * Applies a function to the PerspectiveCamera instance currently being built.
+     * Applies a function to the PerspectiveCamera instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -1861,8 +1861,20 @@ public class PerspectiveCameraBuilder {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1871,8 +1883,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1881,8 +1905,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1891,8 +1927,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1901,8 +1949,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1911,8 +1971,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1921,8 +1993,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1931,8 +2015,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1941,8 +2037,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1951,8 +2059,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1961,8 +2081,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1971,8 +2103,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1981,8 +2125,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -1991,8 +2147,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2001,8 +2169,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2011,8 +2191,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2021,8 +2213,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2031,8 +2235,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#farClipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#farClipProperty() farClipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.farClipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .farClipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2041,8 +2257,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#fieldOfViewProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#fieldOfViewProperty() fieldOfViewProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fieldOfViewProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fieldOfViewPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2051,8 +2279,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2061,8 +2301,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2071,8 +2323,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2081,8 +2345,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2091,8 +2367,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2101,8 +2389,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2111,8 +2411,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2121,8 +2433,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2131,8 +2455,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2141,8 +2477,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2151,8 +2499,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2161,8 +2521,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2171,8 +2543,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2181,8 +2565,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2191,8 +2587,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#nearClipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#nearClipProperty() nearClipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nearClipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nearClipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2201,8 +2609,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2211,8 +2631,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2221,8 +2653,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2231,8 +2675,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2241,8 +2697,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2251,8 +2719,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2261,8 +2741,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2271,8 +2763,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2281,8 +2785,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2291,8 +2807,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2301,8 +2829,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2311,8 +2851,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2321,8 +2873,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2331,8 +2895,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2341,8 +2917,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2351,8 +2939,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2361,8 +2961,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2371,8 +2983,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2381,8 +3005,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2391,8 +3027,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2401,8 +3049,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2411,8 +3071,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2421,8 +3093,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2431,8 +3115,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2441,8 +3137,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2451,8 +3159,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2461,8 +3181,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2471,8 +3203,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2481,8 +3225,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2491,8 +3247,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2501,8 +3269,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2511,8 +3291,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2521,8 +3313,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2531,8 +3335,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2541,8 +3357,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2551,8 +3379,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2561,8 +3401,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2571,8 +3423,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2581,8 +3445,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2591,8 +3467,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2601,8 +3489,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2611,8 +3511,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2621,8 +3533,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2631,8 +3555,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2641,8 +3577,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2651,8 +3599,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2661,8 +3621,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2671,8 +3643,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2681,8 +3665,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2691,8 +3687,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2701,8 +3709,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2711,8 +3731,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2721,8 +3753,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2731,8 +3775,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2741,8 +3797,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#verticalFieldOfViewProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#verticalFieldOfViewProperty() verticalFieldOfViewProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.verticalFieldOfViewProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .verticalFieldOfViewPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2751,8 +3819,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2761,8 +3841,20 @@ public class PerspectiveCameraBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.PerspectiveCamera#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.PerspectiveCamera#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

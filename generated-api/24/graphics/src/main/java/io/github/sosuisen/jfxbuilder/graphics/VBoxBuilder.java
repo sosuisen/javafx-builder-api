@@ -175,7 +175,7 @@ public class VBoxBuilder {
         return false;
     }
     /**
-     * Applies a function to the VBox instance currently being built.
+     * Applies a function to the VBox instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -2154,8 +2154,20 @@ public class VBoxBuilder {
     }
     
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#accessibleHelpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#accessibleHelpProperty() accessibleHelpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleHelpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleHelpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2164,8 +2176,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#accessibleRoleDescriptionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleDescriptionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRoleDescriptionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2174,8 +2198,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#accessibleRoleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#accessibleRoleProperty() accessibleRoleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleRoleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleRolePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2184,8 +2220,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#accessibleTextProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#accessibleTextProperty() accessibleTextProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.accessibleTextProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .accessibleTextPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2194,8 +2242,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#alignmentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#alignmentProperty() alignmentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.alignmentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .alignmentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2204,8 +2264,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#backgroundProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#backgroundProperty() backgroundProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.backgroundProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .backgroundPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2214,8 +2286,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#blendModeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#blendModeProperty() blendModeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.blendModeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .blendModePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2224,8 +2308,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#borderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#borderProperty() borderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.borderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .borderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2234,8 +2330,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#boundsInLocalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#boundsInLocalProperty() boundsInLocalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInLocalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInLocalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2244,8 +2352,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#boundsInParentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#boundsInParentProperty() boundsInParentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.boundsInParentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .boundsInParentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2254,8 +2374,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#cacheHintProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#cacheHintProperty() cacheHintProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheHintProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheHintPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2264,8 +2396,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#cacheProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#cacheProperty() cacheProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cachePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2274,8 +2418,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#cacheShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#cacheShapeProperty() cacheShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cacheShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cacheShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2284,8 +2440,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#centerShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#centerShapeProperty() centerShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.centerShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .centerShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2294,8 +2462,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#clipProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#clipProperty() clipProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.clipProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .clipPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2304,8 +2484,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#cursorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#cursorProperty() cursorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cursorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cursorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2314,8 +2506,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#depthTestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#depthTestProperty() depthTestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.depthTestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .depthTestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2324,8 +2528,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#disableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#disableProperty() disableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2334,8 +2550,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#disabledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#disabledProperty() disabledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.disabledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .disabledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2344,8 +2572,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#effectProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#effectProperty() effectProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2354,8 +2594,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#effectiveNodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.effectiveNodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .effectiveNodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2364,8 +2616,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2374,8 +2638,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#fillWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#fillWidthProperty() fillWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.fillWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .fillWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2384,8 +2660,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#focusTraversableProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#focusTraversableProperty() focusTraversableProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusTraversableProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusTraversablePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2394,8 +2682,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#focusVisibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#focusVisibleProperty() focusVisibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusVisibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusVisiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2404,8 +2704,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#focusWithinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#focusWithinProperty() focusWithinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusWithinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusWithinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2414,8 +2726,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2424,8 +2748,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2434,8 +2770,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#hoverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#hoverProperty() hoverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hoverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hoverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2444,8 +2792,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2454,8 +2814,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#inputMethodRequestsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#inputMethodRequestsProperty() inputMethodRequestsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.inputMethodRequestsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .inputMethodRequestsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2464,8 +2836,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#insetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#insetsProperty() insetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.insetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .insetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2474,8 +2858,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#layoutBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#layoutBoundsProperty() layoutBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2484,8 +2880,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#layoutXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#layoutXProperty() layoutXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2494,8 +2902,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#layoutYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#layoutYProperty() layoutYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.layoutYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .layoutYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2504,8 +2924,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#localToParentTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#localToParentTransformProperty() localToParentTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToParentTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToParentTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2514,8 +2946,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#localToSceneTransformProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#localToSceneTransformProperty() localToSceneTransformProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.localToSceneTransformProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .localToSceneTransformPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2524,8 +2968,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#managedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#managedProperty() managedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.managedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .managedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2534,8 +2990,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2544,8 +3012,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2554,8 +3034,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2564,8 +3056,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2574,8 +3078,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#mouseTransparentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#mouseTransparentProperty() mouseTransparentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.mouseTransparentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mouseTransparentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2584,8 +3100,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#needsLayoutProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#needsLayoutProperty() needsLayoutProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.needsLayoutProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .needsLayoutPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2594,8 +3122,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#nodeOrientationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#nodeOrientationProperty() nodeOrientationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.nodeOrientationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .nodeOrientationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2604,8 +3144,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onContextMenuRequestedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onContextMenuRequestedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onContextMenuRequestedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2614,8 +3166,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onDragDetectedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onDragDetectedProperty() onDragDetectedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDetectedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDetectedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2624,8 +3188,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onDragDoneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onDragDoneProperty() onDragDoneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDoneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDonePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2634,8 +3210,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onDragDroppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onDragDroppedProperty() onDragDroppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragDroppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragDroppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2644,8 +3232,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onDragEnteredProperty() onDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2654,8 +3254,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onDragExitedProperty() onDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2664,8 +3276,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onDragOverProperty() onDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2674,8 +3298,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onInputMethodTextChangedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onInputMethodTextChangedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onInputMethodTextChangedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2684,8 +3320,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onKeyPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onKeyPressedProperty() onKeyPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2694,8 +3342,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onKeyReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onKeyReleasedProperty() onKeyReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2704,8 +3364,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onKeyTypedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onKeyTypedProperty() onKeyTypedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onKeyTypedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onKeyTypedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2714,8 +3386,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseClickedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseClickedProperty() onMouseClickedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseClickedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseClickedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2724,8 +3408,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDragEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2734,8 +3430,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDragExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDragExitedProperty() onMouseDragExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2744,8 +3452,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDragOverProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDragOverProperty() onMouseDragOverProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragOverProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragOverPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2754,8 +3474,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDragReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDragReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDragReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2764,8 +3496,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDraggedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseDraggedProperty() onMouseDraggedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseDraggedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseDraggedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2774,8 +3518,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseEnteredProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseEnteredProperty() onMouseEnteredProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseEnteredProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseEnteredPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2784,8 +3540,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseExitedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseExitedProperty() onMouseExitedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseExitedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseExitedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2794,8 +3562,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseMovedProperty() onMouseMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2804,8 +3584,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onMousePressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onMousePressedProperty() onMousePressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMousePressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMousePressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2814,8 +3606,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onMouseReleasedProperty() onMouseReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMouseReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMouseReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2824,8 +3628,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onRotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onRotateProperty() onRotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2834,8 +3650,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onRotationFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onRotationFinishedProperty() onRotationFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2844,8 +3672,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onRotationStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onRotationStartedProperty() onRotationStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRotationStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRotationStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2854,8 +3694,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onScrollFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onScrollFinishedProperty() onScrollFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2864,8 +3716,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onScrollProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onScrollProperty() onScrollProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2874,8 +3738,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onScrollStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onScrollStartedProperty() onScrollStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onScrollStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onScrollStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2884,8 +3760,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onSwipeDownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onSwipeDownProperty() onSwipeDownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeDownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeDownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2894,8 +3782,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onSwipeLeftProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onSwipeLeftProperty() onSwipeLeftProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeLeftProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeLeftPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2904,8 +3804,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onSwipeRightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onSwipeRightProperty() onSwipeRightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeRightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeRightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2914,8 +3826,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onSwipeUpProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onSwipeUpProperty() onSwipeUpProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onSwipeUpProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onSwipeUpPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2924,8 +3848,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onTouchMovedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onTouchMovedProperty() onTouchMovedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchMovedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchMovedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2934,8 +3870,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onTouchPressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onTouchPressedProperty() onTouchPressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchPressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchPressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2944,8 +3892,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onTouchReleasedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onTouchReleasedProperty() onTouchReleasedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchReleasedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchReleasedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2954,8 +3914,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onTouchStationaryProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onTouchStationaryProperty() onTouchStationaryProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onTouchStationaryProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onTouchStationaryPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2964,8 +3936,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onZoomFinishedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onZoomFinishedProperty() onZoomFinishedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomFinishedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomFinishedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2974,8 +3958,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onZoomProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onZoomProperty() onZoomProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2984,8 +3980,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#onZoomStartedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#onZoomStartedProperty() onZoomStartedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onZoomStartedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onZoomStartedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -2994,8 +4002,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3004,8 +4024,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#opaqueInsetsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#opaqueInsetsProperty() opaqueInsetsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opaqueInsetsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opaqueInsetsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3014,8 +4046,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#paddingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#paddingProperty() paddingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.paddingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .paddingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3024,8 +4068,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#parentProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#parentProperty() parentProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.parentProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .parentPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3034,8 +4090,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#pickOnBoundsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#pickOnBoundsProperty() pickOnBoundsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pickOnBoundsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pickOnBoundsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3044,8 +4112,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3054,8 +4134,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3064,8 +4156,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#pressedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#pressedProperty() pressedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.pressedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .pressedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3074,8 +4178,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#rotateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#rotateProperty() rotateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3084,8 +4200,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#rotationAxisProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#rotationAxisProperty() rotationAxisProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rotationAxisProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .rotationAxisPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3094,8 +4222,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#scaleShapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#scaleShapeProperty() scaleShapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleShapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleShapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3104,8 +4244,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#scaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#scaleXProperty() scaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3114,8 +4266,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#scaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#scaleYProperty() scaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3124,8 +4288,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#scaleZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#scaleZProperty() scaleZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.scaleZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scaleZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3134,8 +4310,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3144,8 +4332,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#shapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#shapeProperty() shapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.shapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .shapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3154,8 +4354,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#snapToPixelProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#snapToPixelProperty() snapToPixelProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.snapToPixelProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .snapToPixelPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3164,8 +4376,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#spacingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#spacingProperty() spacingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.spacingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .spacingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3174,8 +4398,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3184,8 +4420,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#translateXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#translateXProperty() translateXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3194,8 +4442,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#translateYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#translateYProperty() translateYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3204,8 +4464,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#translateZProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#translateZProperty() translateZProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.translateZProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .translateZPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3214,8 +4486,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#viewOrderProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#viewOrderProperty() viewOrderProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.viewOrderProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .viewOrderPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3224,8 +4508,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#visibleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#visibleProperty() visibleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.visibleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .visiblePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -3234,8 +4530,20 @@ public class VBoxBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.layout.VBox#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.layout.VBox#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.VBox> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

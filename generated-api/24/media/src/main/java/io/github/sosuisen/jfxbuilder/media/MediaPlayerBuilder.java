@@ -129,7 +129,7 @@ public class MediaPlayerBuilder {
         return false;
     }
     /**
-     * Applies a function to the MediaPlayer instance currently being built.
+     * Applies a function to the MediaPlayer instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -360,8 +360,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#audioSpectrumIntervalProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#audioSpectrumIntervalProperty() audioSpectrumIntervalProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.audioSpectrumIntervalProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .audioSpectrumIntervalPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -370,8 +382,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#audioSpectrumListenerProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#audioSpectrumListenerProperty() audioSpectrumListenerProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.audioSpectrumListenerProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .audioSpectrumListenerPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -380,8 +404,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#audioSpectrumNumBandsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#audioSpectrumNumBandsProperty() audioSpectrumNumBandsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.audioSpectrumNumBandsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .audioSpectrumNumBandsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -390,8 +426,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#audioSpectrumThresholdProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#audioSpectrumThresholdProperty() audioSpectrumThresholdProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.audioSpectrumThresholdProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .audioSpectrumThresholdPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -400,8 +448,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#autoPlayProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#autoPlayProperty() autoPlayProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.autoPlayProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .autoPlayPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -410,8 +470,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#balanceProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#balanceProperty() balanceProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.balanceProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .balancePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -420,8 +492,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#bufferProgressTimeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#bufferProgressTimeProperty() bufferProgressTimeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.bufferProgressTimeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .bufferProgressTimePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -430,8 +514,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#currentCountProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#currentCountProperty() currentCountProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.currentCountProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .currentCountPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -440,8 +536,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#currentRateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#currentRateProperty() currentRateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.currentRateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .currentRatePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -450,8 +558,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#currentTimeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#currentTimeProperty() currentTimeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.currentTimeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .currentTimePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -460,8 +580,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#cycleCountProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#cycleCountProperty() cycleCountProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cycleCountProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cycleCountPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -470,8 +602,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#cycleDurationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#cycleDurationProperty() cycleDurationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.cycleDurationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .cycleDurationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -480,8 +624,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#errorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#errorProperty() errorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.errorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .errorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -490,8 +646,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#muteProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#muteProperty() muteProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.muteProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .mutePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -500,8 +668,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onEndOfMediaProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onEndOfMediaProperty() onEndOfMediaProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onEndOfMediaProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onEndOfMediaPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -510,8 +690,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onErrorProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onErrorProperty() onErrorProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onErrorProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onErrorPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -520,8 +712,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onHaltedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onHaltedProperty() onHaltedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onHaltedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onHaltedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -530,8 +734,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onMarkerProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onMarkerProperty() onMarkerProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onMarkerProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onMarkerPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -540,8 +756,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onPausedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onPausedProperty() onPausedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onPausedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onPausedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -550,8 +778,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onPlayingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onPlayingProperty() onPlayingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onPlayingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onPlayingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -560,8 +800,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onReadyProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onReadyProperty() onReadyProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onReadyProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onReadyPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -570,8 +822,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onRepeatProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onRepeatProperty() onRepeatProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onRepeatProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onRepeatPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -580,8 +844,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onStalledProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onStalledProperty() onStalledProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onStalledProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onStalledPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -590,8 +866,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onStoppedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#onStoppedProperty() onStoppedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onStoppedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onStoppedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -600,8 +888,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#rateProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#rateProperty() rateProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.rateProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .ratePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -610,8 +910,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#startTimeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#startTimeProperty() startTimeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.startTimeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .startTimePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -620,8 +932,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#statusProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#statusProperty() statusProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.statusProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .statusPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -630,8 +954,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#stopTimeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#stopTimeProperty() stopTimeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.stopTimeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stopTimePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -640,8 +976,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#totalDurationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#totalDurationProperty() totalDurationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.totalDurationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .totalDurationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -650,8 +998,20 @@ public class MediaPlayerBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.media.MediaPlayer#volumeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.media.MediaPlayer#volumeProperty() volumeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.MediaPlayer> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.volumeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .volumePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     

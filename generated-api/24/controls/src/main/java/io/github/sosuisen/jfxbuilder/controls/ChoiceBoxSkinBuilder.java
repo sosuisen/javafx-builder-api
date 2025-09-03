@@ -131,7 +131,7 @@ public class ChoiceBoxSkinBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the ChoiceBoxSkin instance currently being built.
+     * Applies a function to the ChoiceBoxSkin instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

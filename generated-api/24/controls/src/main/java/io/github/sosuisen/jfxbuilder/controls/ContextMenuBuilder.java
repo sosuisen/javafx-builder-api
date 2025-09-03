@@ -143,7 +143,7 @@ public class ContextMenuBuilder {
         return false;
     }
     /**
-     * Applies a function to the ContextMenu instance currently being built.
+     * Applies a function to the ContextMenu instance currently being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -589,8 +589,20 @@ public class ContextMenuBuilder {
 
     
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#anchorLocationProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#anchorLocationProperty() anchorLocationProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.anchorLocationProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .anchorLocationPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -599,8 +611,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#anchorXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#anchorXProperty() anchorXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.anchorXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .anchorXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -609,8 +633,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#anchorYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#anchorYProperty() anchorYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.anchorYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .anchorYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -619,8 +655,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#autoFixProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#autoFixProperty() autoFixProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.autoFixProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .autoFixPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -629,8 +677,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#autoHideProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#autoHideProperty() autoHideProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.autoHideProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .autoHidePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -639,8 +699,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#consumeAutoHidingEventsProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#consumeAutoHidingEventsProperty() consumeAutoHidingEventsProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.consumeAutoHidingEventsProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .consumeAutoHidingEventsPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -649,8 +721,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#eventDispatcherProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#eventDispatcherProperty() eventDispatcherProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.eventDispatcherProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .eventDispatcherPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -659,8 +743,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#focusedProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#focusedProperty() focusedProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.focusedProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .focusedPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -669,8 +765,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#forceIntegerRenderScaleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#forceIntegerRenderScaleProperty() forceIntegerRenderScaleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.forceIntegerRenderScaleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .forceIntegerRenderScalePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -679,8 +787,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#heightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#heightProperty() heightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.heightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .heightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -689,8 +809,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#hideOnEscapeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#hideOnEscapeProperty() hideOnEscapeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.hideOnEscapeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .hideOnEscapePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -699,8 +831,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#idProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#idProperty() idProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.idProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .idPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -709,8 +853,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#maxHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#maxHeightProperty() maxHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -719,8 +875,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#maxWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#maxWidthProperty() maxWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.maxWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .maxWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -729,8 +897,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#minHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#minHeightProperty() minHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -739,8 +919,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#minWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#minWidthProperty() minWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.minWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .minWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -749,8 +941,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#onActionProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#onActionProperty() onActionProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onActionProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onActionPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -759,8 +963,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#onAutoHideProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#onAutoHideProperty() onAutoHideProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onAutoHideProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onAutoHidePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -769,8 +985,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#onCloseRequestProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#onCloseRequestProperty() onCloseRequestProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onCloseRequestProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onCloseRequestPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -779,8 +1007,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#onHiddenProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#onHiddenProperty() onHiddenProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onHiddenProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onHiddenPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -789,8 +1029,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#onHidingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#onHidingProperty() onHidingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onHidingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onHidingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -799,8 +1051,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#onShowingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#onShowingProperty() onShowingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onShowingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onShowingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -809,8 +1073,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#onShownProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#onShownProperty() onShownProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.onShownProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .onShownPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -819,8 +1095,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#opacityProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#opacityProperty() opacityProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.opacityProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .opacityPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -829,8 +1117,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#outputScaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#outputScaleXProperty() outputScaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.outputScaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .outputScaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -839,8 +1139,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#outputScaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#outputScaleYProperty() outputScaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.outputScaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .outputScaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -849,8 +1161,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#ownerNodeProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#ownerNodeProperty() ownerNodeProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.ownerNodeProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .ownerNodePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -859,8 +1183,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#ownerWindowProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#ownerWindowProperty() ownerWindowProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.ownerWindowProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .ownerWindowPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -869,8 +1205,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#prefHeightProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#prefHeightProperty() prefHeightProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefHeightProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefHeightPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -879,8 +1227,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#prefWidthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#prefWidthProperty() prefWidthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.prefWidthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .prefWidthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -889,8 +1249,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#renderScaleXProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#renderScaleXProperty() renderScaleXProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.renderScaleXProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .renderScaleXPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -899,8 +1271,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#renderScaleYProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#renderScaleYProperty() renderScaleYProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.renderScaleYProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .renderScaleYPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -909,8 +1293,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#sceneProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#sceneProperty() sceneProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.sceneProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .scenePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -919,8 +1315,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#showingProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#showingProperty() showingProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.showingProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .showingPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -929,8 +1337,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#skinProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#skinProperty() skinProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.skinProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .skinPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -939,8 +1359,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#styleProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#styleProperty() styleProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.styleProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .stylePropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -949,8 +1381,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#widthProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#widthProperty() widthProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.widthProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .widthPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -959,8 +1403,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#xProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#xProperty() xProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.xProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .xPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
@@ -969,8 +1425,20 @@ public class ContextMenuBuilder {
         return this;
     }    
     /**
-     * Applies a function to the {@link javafx.scene.control.ContextMenu#yProperty()}.
-     * 
+     * Applies a function to the {@link javafx.scene.control.ContextMenu#yProperty() yProperty} 
+     * of the instance currently being constructed. 
+     * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
+     * <p>
+     * Example: 
+     * </p>
+     * <pre>{@code
+     * // Use apply
+     * .apply(obj -> obj.yProperty().bind(anotherProperty))
+     *
+     * // Use shorthand form
+     * .yPropertyApply(prop -> prop.bind(anotherProperty))}
+     * </pre>
+     *
      * @return builder instance
      */    
     
