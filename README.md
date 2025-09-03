@@ -47,7 +47,7 @@ Scene scene = SceneBuilder.withRoot(
 
 This project aims to reintroduce builder classes to JavaFX.
 
-The builder classes were included in JavaFX 2.0 but were removed from the official class library due to concerns about maintenance overhead and memory usage, as noted in a 2013 post:
+The builder classes were included in JavaFX 2 but were removed from the official class library due to concerns about maintenance overhead and memory usage, as noted in a 2013 post:
 
 https://mail.openjdk.org/pipermail/openjfx-dev/2013-March/006725.html
 
