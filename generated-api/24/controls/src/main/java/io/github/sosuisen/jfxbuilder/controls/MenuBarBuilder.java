@@ -1250,10 +1250,10 @@ public class MenuBarBuilder {
     /**
      * Utility setter to add CSS string for this MenuBar's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * MenuBarBuilder builder = MenuBarBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

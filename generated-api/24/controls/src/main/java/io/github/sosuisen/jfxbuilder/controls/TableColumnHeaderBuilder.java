@@ -1148,10 +1148,10 @@ public class TableColumnHeaderBuilder {
     /**
      * Utility setter to add CSS string for this TableColumnHeader's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * TableColumnHeaderBuilder builder = TableColumnHeaderBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

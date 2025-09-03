@@ -1312,10 +1312,10 @@ public class SliderBuilder {
     /**
      * Utility setter to add CSS string for this Slider's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * SliderBuilder builder = SliderBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

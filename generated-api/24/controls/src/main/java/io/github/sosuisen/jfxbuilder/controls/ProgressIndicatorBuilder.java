@@ -1202,10 +1202,10 @@ public class ProgressIndicatorBuilder {
     /**
      * Utility setter to add CSS string for this ProgressIndicator's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * ProgressIndicatorBuilder builder = ProgressIndicatorBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

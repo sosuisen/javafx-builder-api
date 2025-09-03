@@ -1310,10 +1310,10 @@ public class PieChartBuilder {
     /**
      * Utility setter to add CSS string for this PieChart's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * PieChartBuilder builder = PieChartBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

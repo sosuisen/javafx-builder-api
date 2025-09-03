@@ -1224,10 +1224,10 @@ public class StackPaneBuilder {
     /**
      * Utility setter to add CSS string for this StackPane's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * StackPaneBuilder builder = StackPaneBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

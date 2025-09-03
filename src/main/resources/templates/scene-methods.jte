@@ -22,7 +22,7 @@ package io.github.sosuisen.jfxbuilder.graphics;
  * Note 2: The constructor arguments {@code width}, {@code height}, {@code depthBuffer}, and {@code antiAliasing} do not have setters on the {@link javafx.scene.Scene} class, but custom setters have been added to {@code SceneBuilder}.
  * </p>
  * <p>
- * Exapmle:
+ * Example:
  * </p>
  * <pre>{@code
  * StringProperty textProp = new SimpleStringProperty("100");

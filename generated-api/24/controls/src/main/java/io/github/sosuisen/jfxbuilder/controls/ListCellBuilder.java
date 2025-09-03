@@ -1340,10 +1340,10 @@ public class ListCellBuilder<T> {
     /**
      * Utility setter to add CSS string for this ListCell's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * ListCellBuilder builder = ListCellBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

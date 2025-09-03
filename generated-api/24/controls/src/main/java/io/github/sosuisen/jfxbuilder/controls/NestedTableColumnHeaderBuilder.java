@@ -1175,10 +1175,10 @@ public class NestedTableColumnHeaderBuilder {
     /**
      * Utility setter to add CSS string for this NestedTableColumnHeader's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * NestedTableColumnHeaderBuilder builder = NestedTableColumnHeaderBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

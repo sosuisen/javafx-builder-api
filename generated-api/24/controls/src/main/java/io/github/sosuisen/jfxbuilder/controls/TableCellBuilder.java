@@ -1340,10 +1340,10 @@ public class TableCellBuilder<S, T> {
     /**
      * Utility setter to add CSS string for this TableCell's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * TableCellBuilder builder = TableCellBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

@@ -1388,10 +1388,10 @@ public class CheckBoxListCellBuilder<T> {
     /**
      * Utility setter to add CSS string for this CheckBoxListCell's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * CheckBoxListCellBuilder builder = CheckBoxListCellBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

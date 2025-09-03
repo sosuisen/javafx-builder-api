@@ -1362,10 +1362,10 @@ public class ScrollPaneBuilder {
     /**
      * Utility setter to add CSS string for this ScrollPane's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * ScrollPaneBuilder builder = ScrollPaneBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

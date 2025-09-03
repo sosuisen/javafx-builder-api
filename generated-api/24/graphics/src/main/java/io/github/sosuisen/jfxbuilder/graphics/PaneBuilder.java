@@ -1214,10 +1214,10 @@ public class PaneBuilder {
     /**
      * Utility setter to add CSS string for this Pane's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * PaneBuilder builder = PaneBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

@@ -22,32 +22,32 @@ package io.github.sosuisen.jfxbuilder.graphics;
  * Note 2: The constructor arguments {@code width}, {@code height}, {@code depthBuffer}, and {@code antiAliasing} do not have setters on the {@link javafx.scene.Scene} class, but custom setters have been added to {@code SceneBuilder}.
  * </p>
  * <p>
- * Exapmle:
+ * Example:
  * </p>
  * <pre>{@code
  * StringProperty textProp = new SimpleStringProperty("100");
  *
  * Scene scene = SceneBuilder.withRoot(
- *                   HBoxBuilder.withChildren(
- *                                   TextFieldBuilder.create()
- *                                       .textPropertyApply(prop -> prop.bindBidirectional(textProp))
- *                                       .style("""
- *                                              -fx-font-weight: bold;
- *                                              -fx-alignment: center;
- *                                              """)
- *                                       .hGrowInHBox(Priority.ALWAYS)
- *                                       .maxWidth(Double.MAX_VALUE)
- *                                       .build(),
- *                                   ButtonBuilder.create()
- *                                       .text("Send")
- *                                       .onAction(e -> System.out.println("Sending..."))
- *                                       .minWidth(50)
- *                                       .build())
- *                              .padding(new Insets(10))
- *                              .build())
- *                 .width(150) // custom setter
- *                 .height(100) // custom setter
- *                 .build();
+ *                     HBoxBuilder.withChildren(
+ *                           TextFieldBuilder.create()
+ *                               .textPropertyApply(prop -> prop.bindBidirectional(textProp))
+ *                               .style("""
+ *                                      -fx-font-weight: bold;
+ *                                      -fx-alignment: center;
+ *                                      """)
+ *                               .hGrowInHBox(Priority.ALWAYS)
+ *                               .maxWidth(Double.MAX_VALUE)
+ *                               .build(),
+ *                           ButtonBuilder.create()
+ *                               .text("Send")
+ *                               .onAction(e -> System.out.println("Sending..."))
+ *                               .minWidth(50)
+ *                               .build())
+ *                         .padding(new Insets(10))
+ *                         .build())
+ *                   .width(150) // custom setter
+ *                   .height(100) // custom setter
+ *                   .build();
  * }</pre>
  *
  * @author Hidekazu Kubota &lt;hidekazu.kubota@gmail.com&gt;

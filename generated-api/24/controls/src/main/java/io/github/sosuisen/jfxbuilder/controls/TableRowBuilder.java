@@ -1340,10 +1340,10 @@ public class TableRowBuilder<T> {
     /**
      * Utility setter to add CSS string for this TableRow's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * TableRowBuilder builder = TableRowBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

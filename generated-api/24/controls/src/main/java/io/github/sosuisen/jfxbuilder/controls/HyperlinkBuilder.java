@@ -1366,10 +1366,10 @@ public class HyperlinkBuilder {
     /**
      * Utility setter to add CSS string for this Hyperlink's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * HyperlinkBuilder builder = HyperlinkBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

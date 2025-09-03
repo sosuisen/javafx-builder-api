@@ -1321,10 +1321,10 @@ public class StackedAreaChartBuilder<X, Y> {
     /**
      * Utility setter to add CSS string for this StackedAreaChart's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * StackedAreaChartBuilder builder = StackedAreaChartBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

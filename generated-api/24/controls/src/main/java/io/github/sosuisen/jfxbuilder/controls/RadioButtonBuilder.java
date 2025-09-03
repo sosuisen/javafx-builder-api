@@ -1362,10 +1362,10 @@ public class RadioButtonBuilder {
     /**
      * Utility setter to add CSS string for this RadioButton's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * RadioButtonBuilder builder = RadioButtonBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

@@ -1350,10 +1350,10 @@ public class GridPaneBuilder {
     /**
      * Utility setter to add CSS string for this GridPane's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * GridPaneBuilder builder = GridPaneBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

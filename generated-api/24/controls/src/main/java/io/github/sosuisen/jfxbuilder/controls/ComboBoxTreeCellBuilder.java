@@ -1474,10 +1474,10 @@ public class ComboBoxTreeCellBuilder<T> {
     /**
      * Utility setter to add CSS string for this ComboBoxTreeCell's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * ComboBoxTreeCellBuilder builder = ComboBoxTreeCellBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

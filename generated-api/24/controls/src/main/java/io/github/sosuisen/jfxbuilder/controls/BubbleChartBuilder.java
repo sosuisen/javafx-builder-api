@@ -1311,10 +1311,10 @@ public class BubbleChartBuilder<X, Y> {
     /**
      * Utility setter to add CSS string for this BubbleChart's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * BubbleChartBuilder builder = BubbleChartBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

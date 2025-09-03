@@ -1318,10 +1318,10 @@ public class SplitPaneBuilder {
     /**
      * Utility setter to add CSS string for this SplitPane's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * SplitPaneBuilder builder = SplitPaneBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

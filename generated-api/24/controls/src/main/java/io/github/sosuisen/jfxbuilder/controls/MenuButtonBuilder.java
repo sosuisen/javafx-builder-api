@@ -1468,10 +1468,10 @@ public class MenuButtonBuilder {
     /**
      * Utility setter to add CSS string for this MenuButton's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * MenuButtonBuilder builder = MenuButtonBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

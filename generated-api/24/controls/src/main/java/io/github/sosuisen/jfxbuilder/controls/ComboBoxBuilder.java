@@ -1392,10 +1392,10 @@ public class ComboBoxBuilder<T> {
     /**
      * Utility setter to add CSS string for this ComboBox's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * ComboBoxBuilder builder = ComboBoxBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

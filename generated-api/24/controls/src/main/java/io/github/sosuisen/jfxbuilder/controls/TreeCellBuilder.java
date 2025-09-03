@@ -1350,10 +1350,10 @@ public class TreeCellBuilder<T> {
     /**
      * Utility setter to add CSS string for this TreeCell's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * TreeCellBuilder builder = TreeCellBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

@@ -1244,10 +1244,10 @@ public class TextFlowBuilder {
     /**
      * Utility setter to add CSS string for this TextFlow's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * TextFlowBuilder builder = TextFlowBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

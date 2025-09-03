@@ -1376,10 +1376,10 @@ public class ButtonBuilder {
     /**
      * Utility setter to add CSS string for this Button's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * ButtonBuilder builder = ButtonBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

@@ -1148,10 +1148,10 @@ public class RegionBuilder {
     /**
      * Utility setter to add CSS string for this Region's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * RegionBuilder builder = RegionBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

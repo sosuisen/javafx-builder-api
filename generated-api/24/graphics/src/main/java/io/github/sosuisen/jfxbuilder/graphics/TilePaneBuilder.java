@@ -1388,10 +1388,10 @@ public class TilePaneBuilder {
     /**
      * Utility setter to add CSS string for this TilePane's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * TilePaneBuilder builder = TilePaneBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

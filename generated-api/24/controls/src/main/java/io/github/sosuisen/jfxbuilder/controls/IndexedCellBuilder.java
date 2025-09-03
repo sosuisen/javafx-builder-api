@@ -1340,10 +1340,10 @@ public class IndexedCellBuilder<T> {
     /**
      * Utility setter to add CSS string for this IndexedCell's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * IndexedCellBuilder builder = IndexedCellBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

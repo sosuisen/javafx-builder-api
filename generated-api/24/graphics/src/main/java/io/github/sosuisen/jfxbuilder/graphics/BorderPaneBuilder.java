@@ -1278,10 +1278,10 @@ public class BorderPaneBuilder {
     /**
      * Utility setter to add CSS string for this BorderPane's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * BorderPaneBuilder builder = BorderPaneBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

@@ -1364,10 +1364,10 @@ public class TextFieldTableCellBuilder<S, T> {
     /**
      * Utility setter to add CSS string for this TextFieldTableCell's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * TextFieldTableCellBuilder builder = TextFieldTableCellBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

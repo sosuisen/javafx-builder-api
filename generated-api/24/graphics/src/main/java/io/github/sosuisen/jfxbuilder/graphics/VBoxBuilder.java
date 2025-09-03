@@ -1272,10 +1272,10 @@ public class VBoxBuilder {
     /**
      * Utility setter to add CSS string for this VBox's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * VBoxBuilder builder = VBoxBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string

@@ -1340,10 +1340,10 @@ public class ProgressBarTreeTableCellBuilder<S> {
     /**
      * Utility setter to add CSS string for this ProgressBarTreeTableCell's contents.
      * For example:
-     * <pre>
+     * <pre>{@code
      * ProgressBarTreeTableCellBuilder builder = ProgressBarTreeTableCellBuilder.create()
      *          .addStylesheetsText(".my-label { -fx-text-fill: white; }")
-     *          .build();
+     *          .build();}
      * </pre>
      *
      * @param css CSS string
