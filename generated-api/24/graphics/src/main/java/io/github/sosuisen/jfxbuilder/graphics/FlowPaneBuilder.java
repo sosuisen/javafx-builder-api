@@ -231,7 +231,7 @@ public class FlowPaneBuilder {
         return false;
     }
     /**
-     * Applies a function to the FlowPane instance currently being constructed.
+     * Applies a function to the FlowPane instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -247,8 +247,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -257,8 +257,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -267,8 +267,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -277,8 +277,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -287,8 +287,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setAlignment(javafx.geometry.Pos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -297,8 +297,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -307,8 +307,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -317,8 +317,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -327,8 +327,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -337,8 +337,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -347,8 +347,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -357,8 +357,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -367,8 +367,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -377,8 +377,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setColumnHalignment(javafx.geometry.HPos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setColumnHalignment(javafx.geometry.HPos) setColumnHalignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -387,8 +387,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -397,8 +397,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -407,8 +407,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -417,8 +417,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -427,8 +427,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -437,8 +437,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -447,8 +447,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setHgap(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setHgap(double) setHgap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -457,8 +457,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -467,8 +467,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -477,8 +477,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -487,8 +487,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -497,8 +497,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -507,8 +507,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -517,8 +517,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -527,8 +527,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -537,8 +537,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -547,8 +547,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -557,8 +557,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -567,8 +567,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -577,8 +577,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -587,8 +587,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -597,8 +597,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -607,8 +607,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -617,8 +617,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -627,8 +627,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -637,8 +637,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -647,8 +647,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -657,8 +657,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -667,8 +667,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -677,8 +677,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -687,8 +687,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -697,8 +697,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -707,8 +707,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -717,8 +717,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -727,8 +727,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -737,8 +737,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -747,8 +747,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -757,8 +757,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -767,8 +767,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -777,8 +777,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -787,8 +787,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -797,8 +797,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -807,8 +807,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -817,8 +817,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -827,8 +827,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -837,8 +837,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -847,8 +847,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -857,8 +857,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -867,8 +867,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -877,8 +877,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -887,8 +887,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -897,8 +897,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -907,8 +907,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -917,8 +917,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -927,8 +927,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -937,8 +937,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -947,8 +947,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -957,8 +957,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -967,8 +967,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -977,8 +977,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -987,8 +987,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -997,8 +997,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setOrientation(javafx.geometry.Orientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setOrientation(javafx.geometry.Orientation) setOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1007,8 +1007,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1017,8 +1017,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1027,8 +1027,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1037,8 +1037,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1047,8 +1047,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1057,8 +1057,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setPrefWrapLength(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setPrefWrapLength(double) setPrefWrapLength} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1067,8 +1067,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1077,8 +1077,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1087,8 +1087,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setRowValignment(javafx.geometry.VPos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setRowValignment(javafx.geometry.VPos) setRowValignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1097,8 +1097,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1107,8 +1107,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1117,8 +1117,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1127,8 +1127,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1137,8 +1137,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1147,8 +1147,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1157,8 +1157,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1167,8 +1167,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1177,8 +1177,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1187,8 +1187,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1197,8 +1197,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1207,8 +1207,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setVgap(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setVgap(double) setVgap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1217,8 +1217,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1227,8 +1227,8 @@ public class FlowPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.FlowPane#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.FlowPane#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2251,7 +2251,7 @@ public class FlowPaneBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2273,7 +2273,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2295,7 +2295,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2317,7 +2317,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2339,7 +2339,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#alignmentProperty() alignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2361,7 +2361,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2383,7 +2383,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2405,7 +2405,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2427,7 +2427,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2449,7 +2449,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2471,7 +2471,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2493,7 +2493,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2515,7 +2515,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2537,7 +2537,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2559,7 +2559,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2581,7 +2581,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#columnHalignmentProperty() columnHalignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2603,7 +2603,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2625,7 +2625,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2647,7 +2647,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2669,7 +2669,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2691,7 +2691,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2713,7 +2713,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2735,7 +2735,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2757,7 +2757,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2779,7 +2779,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2801,7 +2801,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2823,7 +2823,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2845,7 +2845,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2867,7 +2867,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#hgapProperty() hgapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2889,7 +2889,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2911,7 +2911,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2933,7 +2933,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2955,7 +2955,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2977,7 +2977,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -2999,7 +2999,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3021,7 +3021,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3043,7 +3043,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3065,7 +3065,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3087,7 +3087,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3109,7 +3109,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3131,7 +3131,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3153,7 +3153,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3175,7 +3175,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3197,7 +3197,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3219,7 +3219,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3241,7 +3241,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3263,7 +3263,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3285,7 +3285,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3307,7 +3307,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3329,7 +3329,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3351,7 +3351,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3373,7 +3373,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3395,7 +3395,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3417,7 +3417,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3439,7 +3439,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3461,7 +3461,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3483,7 +3483,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3505,7 +3505,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3527,7 +3527,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3549,7 +3549,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3571,7 +3571,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3593,7 +3593,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3615,7 +3615,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3637,7 +3637,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3659,7 +3659,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3681,7 +3681,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3703,7 +3703,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3725,7 +3725,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3747,7 +3747,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3769,7 +3769,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3791,7 +3791,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3813,7 +3813,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3835,7 +3835,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3857,7 +3857,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3879,7 +3879,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3901,7 +3901,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3923,7 +3923,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3945,7 +3945,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3967,7 +3967,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -3989,7 +3989,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4011,7 +4011,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4033,7 +4033,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4055,7 +4055,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4077,7 +4077,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4099,7 +4099,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4121,7 +4121,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4143,7 +4143,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4165,7 +4165,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#orientationProperty() orientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4187,7 +4187,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4209,7 +4209,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4231,7 +4231,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4253,7 +4253,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4275,7 +4275,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4297,7 +4297,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#prefWrapLengthProperty() prefWrapLengthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4319,7 +4319,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4341,7 +4341,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4363,7 +4363,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4385,7 +4385,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#rowValignmentProperty() rowValignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4407,7 +4407,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4429,7 +4429,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4451,7 +4451,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4473,7 +4473,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4495,7 +4495,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4517,7 +4517,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4539,7 +4539,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4561,7 +4561,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4583,7 +4583,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4605,7 +4605,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4627,7 +4627,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4649,7 +4649,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#vgapProperty() vgapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4671,7 +4671,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4693,7 +4693,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 
@@ -4715,7 +4715,7 @@ public class FlowPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.FlowPane#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.FlowPane> func) apply} method.
      * <p>
      * Example: 

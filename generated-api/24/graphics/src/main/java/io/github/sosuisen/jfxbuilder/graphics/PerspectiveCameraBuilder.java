@@ -143,7 +143,7 @@ public class PerspectiveCameraBuilder {
         return false;
     }
     /**
-     * Applies a function to the PerspectiveCamera instance currently being constructed.
+     * Applies a function to the PerspectiveCamera instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -159,8 +159,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -169,8 +169,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -179,8 +179,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -189,8 +189,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -199,8 +199,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,8 +209,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -219,8 +219,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,8 +229,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -239,8 +239,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,8 +249,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -259,8 +259,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -269,8 +269,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -279,8 +279,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -289,8 +289,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setFarClip(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setFarClip(double) setFarClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -299,8 +299,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setFieldOfView(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setFieldOfView(double) setFieldOfView} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -309,8 +309,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -319,8 +319,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -329,8 +329,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -339,8 +339,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -349,8 +349,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -359,8 +359,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -369,8 +369,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -379,8 +379,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setNearClip(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setNearClip(double) setNearClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -389,8 +389,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -399,8 +399,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -409,8 +409,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -419,8 +419,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -429,8 +429,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -439,8 +439,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -449,8 +449,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -459,8 +459,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -469,8 +469,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -479,8 +479,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -489,8 +489,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -499,8 +499,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -509,8 +509,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -519,8 +519,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -529,8 +529,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -539,8 +539,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -549,8 +549,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -559,8 +559,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -569,8 +569,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -579,8 +579,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -589,8 +589,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -599,8 +599,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -609,8 +609,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -619,8 +619,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -629,8 +629,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -639,8 +639,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -649,8 +649,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -659,8 +659,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -669,8 +669,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -679,8 +679,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -689,8 +689,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -699,8 +699,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -709,8 +709,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -719,8 +719,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -729,8 +729,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -739,8 +739,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -749,8 +749,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -759,8 +759,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -769,8 +769,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -779,8 +779,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -789,8 +789,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -799,8 +799,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -809,8 +809,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -819,8 +819,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -829,8 +829,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -839,8 +839,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -849,8 +849,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -859,8 +859,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -869,8 +869,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -879,8 +879,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -889,8 +889,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -899,8 +899,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -909,8 +909,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setVerticalFieldOfView(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setVerticalFieldOfView(boolean) setVerticalFieldOfView} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -919,8 +919,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -929,8 +929,8 @@ public class PerspectiveCameraBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.PerspectiveCamera#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.PerspectiveCamera#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1862,7 +1862,7 @@ public class PerspectiveCameraBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -1884,7 +1884,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -1906,7 +1906,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -1928,7 +1928,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -1950,7 +1950,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -1972,7 +1972,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -1994,7 +1994,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2016,7 +2016,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2038,7 +2038,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2060,7 +2060,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2082,7 +2082,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2104,7 +2104,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2126,7 +2126,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2148,7 +2148,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2170,7 +2170,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2192,7 +2192,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2214,7 +2214,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2236,7 +2236,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#farClipProperty() farClipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2258,7 +2258,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#fieldOfViewProperty() fieldOfViewProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2280,7 +2280,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2302,7 +2302,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2324,7 +2324,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2346,7 +2346,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2368,7 +2368,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2390,7 +2390,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2412,7 +2412,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2434,7 +2434,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2456,7 +2456,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2478,7 +2478,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2500,7 +2500,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2522,7 +2522,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2544,7 +2544,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2566,7 +2566,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2588,7 +2588,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#nearClipProperty() nearClipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2610,7 +2610,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2632,7 +2632,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2654,7 +2654,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2676,7 +2676,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2698,7 +2698,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2720,7 +2720,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2742,7 +2742,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2764,7 +2764,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2786,7 +2786,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2808,7 +2808,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2830,7 +2830,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2852,7 +2852,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2874,7 +2874,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2896,7 +2896,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2918,7 +2918,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2940,7 +2940,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2962,7 +2962,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -2984,7 +2984,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3006,7 +3006,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3028,7 +3028,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3050,7 +3050,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3072,7 +3072,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3094,7 +3094,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3116,7 +3116,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3138,7 +3138,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3160,7 +3160,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3182,7 +3182,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3204,7 +3204,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3226,7 +3226,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3248,7 +3248,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3270,7 +3270,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3292,7 +3292,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3314,7 +3314,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3336,7 +3336,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3358,7 +3358,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3380,7 +3380,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3402,7 +3402,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3424,7 +3424,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3446,7 +3446,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3468,7 +3468,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3490,7 +3490,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3512,7 +3512,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3534,7 +3534,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3556,7 +3556,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3578,7 +3578,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3600,7 +3600,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3622,7 +3622,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3644,7 +3644,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3666,7 +3666,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3688,7 +3688,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3710,7 +3710,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3732,7 +3732,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3754,7 +3754,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3776,7 +3776,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3798,7 +3798,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#verticalFieldOfViewProperty() verticalFieldOfViewProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3820,7 +3820,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 
@@ -3842,7 +3842,7 @@ public class PerspectiveCameraBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.PerspectiveCamera#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.PerspectiveCamera> func) apply} method.
      * <p>
      * Example: 

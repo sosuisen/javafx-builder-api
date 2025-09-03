@@ -131,7 +131,7 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
         return false;
     }
     /**
-     * Applies a function to the CellSkinBase instance currently being constructed.
+     * Applies a function to the CellSkinBase instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -170,7 +170,7 @@ public class CellSkinBaseBuilder<C extends javafx.scene.control.Cell> {
     
     /**
      * Applies a function to the {@link javafx.scene.control.skin.CellSkinBase#cellSizeProperty() cellSizeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.CellSkinBase<C>> func) apply} method.
      * <p>
      * Example: 

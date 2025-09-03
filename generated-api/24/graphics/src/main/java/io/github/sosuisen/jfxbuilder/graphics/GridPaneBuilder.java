@@ -147,7 +147,7 @@ public class GridPaneBuilder {
         return false;
     }
     /**
-     * Applies a function to the GridPane instance currently being constructed.
+     * Applies a function to the GridPane instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -163,8 +163,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -173,8 +173,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -183,8 +183,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -193,8 +193,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -203,8 +203,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setAlignment(javafx.geometry.Pos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -213,8 +213,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -223,8 +223,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -233,8 +233,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -243,8 +243,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -253,8 +253,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -263,8 +263,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -273,8 +273,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -283,8 +283,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -293,8 +293,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -303,8 +303,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -313,8 +313,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -323,8 +323,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -333,8 +333,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -343,8 +343,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -353,8 +353,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setGridLinesVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setGridLinesVisible(boolean) setGridLinesVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -363,8 +363,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setHgap(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setHgap(double) setHgap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -373,8 +373,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -383,8 +383,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -393,8 +393,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -403,8 +403,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -413,8 +413,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -423,8 +423,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -433,8 +433,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -443,8 +443,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -453,8 +453,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -463,8 +463,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -473,8 +473,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -483,8 +483,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -493,8 +493,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -503,8 +503,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -513,8 +513,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -523,8 +523,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -533,8 +533,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -543,8 +543,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -553,8 +553,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -563,8 +563,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -573,8 +573,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -583,8 +583,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -593,8 +593,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -603,8 +603,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -613,8 +613,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -623,8 +623,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -633,8 +633,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -643,8 +643,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -653,8 +653,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -663,8 +663,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -673,8 +673,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -683,8 +683,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -693,8 +693,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -703,8 +703,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -713,8 +713,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -723,8 +723,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -733,8 +733,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -743,8 +743,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -753,8 +753,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -763,8 +763,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -773,8 +773,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -783,8 +783,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -793,8 +793,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -803,8 +803,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -813,8 +813,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -823,8 +823,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -833,8 +833,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -843,8 +843,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -853,8 +853,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -863,8 +863,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -873,8 +873,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -883,8 +883,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -893,8 +893,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -903,8 +903,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -913,8 +913,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -923,8 +923,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -933,8 +933,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -943,8 +943,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -953,8 +953,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -963,8 +963,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -973,8 +973,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -983,8 +983,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -993,8 +993,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1003,8 +1003,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1013,8 +1013,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1023,8 +1023,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1033,8 +1033,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1043,8 +1043,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1053,8 +1053,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1063,8 +1063,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1073,8 +1073,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1083,8 +1083,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1093,8 +1093,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setVgap(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setVgap(double) setVgap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1103,8 +1103,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1113,8 +1113,8 @@ public class GridPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.GridPane#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.GridPane#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2233,7 +2233,7 @@ public class GridPaneBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2255,7 +2255,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2277,7 +2277,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2299,7 +2299,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2321,7 +2321,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#alignmentProperty() alignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2343,7 +2343,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2365,7 +2365,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2387,7 +2387,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2409,7 +2409,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2431,7 +2431,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2453,7 +2453,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2475,7 +2475,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2497,7 +2497,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2519,7 +2519,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2541,7 +2541,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2563,7 +2563,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2585,7 +2585,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2607,7 +2607,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2629,7 +2629,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2651,7 +2651,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2673,7 +2673,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2695,7 +2695,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2717,7 +2717,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2739,7 +2739,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2761,7 +2761,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2783,7 +2783,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2805,7 +2805,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#gridLinesVisibleProperty() gridLinesVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2827,7 +2827,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2849,7 +2849,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#hgapProperty() hgapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2871,7 +2871,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2893,7 +2893,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2915,7 +2915,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2937,7 +2937,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2959,7 +2959,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -2981,7 +2981,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3003,7 +3003,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3025,7 +3025,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3047,7 +3047,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3069,7 +3069,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3091,7 +3091,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3113,7 +3113,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3135,7 +3135,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3157,7 +3157,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3179,7 +3179,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3201,7 +3201,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3223,7 +3223,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3245,7 +3245,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3267,7 +3267,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3289,7 +3289,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3311,7 +3311,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3333,7 +3333,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3355,7 +3355,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3377,7 +3377,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3399,7 +3399,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3421,7 +3421,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3443,7 +3443,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3465,7 +3465,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3487,7 +3487,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3509,7 +3509,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3531,7 +3531,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3553,7 +3553,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3575,7 +3575,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3597,7 +3597,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3619,7 +3619,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3641,7 +3641,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3663,7 +3663,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3685,7 +3685,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3707,7 +3707,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3729,7 +3729,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3751,7 +3751,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3773,7 +3773,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3795,7 +3795,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3817,7 +3817,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3839,7 +3839,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3861,7 +3861,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3883,7 +3883,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3905,7 +3905,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3927,7 +3927,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3949,7 +3949,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3971,7 +3971,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -3993,7 +3993,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4015,7 +4015,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4037,7 +4037,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4059,7 +4059,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4081,7 +4081,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4103,7 +4103,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4125,7 +4125,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4147,7 +4147,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4169,7 +4169,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4191,7 +4191,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4213,7 +4213,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4235,7 +4235,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4257,7 +4257,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4279,7 +4279,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4301,7 +4301,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4323,7 +4323,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4345,7 +4345,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4367,7 +4367,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4389,7 +4389,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4411,7 +4411,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4433,7 +4433,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4455,7 +4455,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4477,7 +4477,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4499,7 +4499,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4521,7 +4521,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4543,7 +4543,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4565,7 +4565,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#vgapProperty() vgapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4587,7 +4587,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4609,7 +4609,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 
@@ -4631,7 +4631,7 @@ public class GridPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.GridPane#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.GridPane> func) apply} method.
      * <p>
      * Example: 

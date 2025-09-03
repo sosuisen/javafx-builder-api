@@ -129,7 +129,7 @@ public class SVGPathBuilder {
         return false;
     }
     /**
-     * Applies a function to the SVGPath instance currently being constructed.
+     * Applies a function to the SVGPath instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -145,8 +145,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -155,8 +155,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -165,8 +165,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -175,8 +175,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -185,8 +185,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -195,8 +195,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -205,8 +205,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -215,8 +215,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -225,8 +225,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setContent(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setContent(java.lang.String) setContent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -235,8 +235,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -245,8 +245,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -255,8 +255,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -265,8 +265,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -275,8 +275,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -285,8 +285,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -295,8 +295,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setFillRule(javafx.scene.shape.FillRule)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setFillRule(javafx.scene.shape.FillRule) setFillRule} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -305,8 +305,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -315,8 +315,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -325,8 +325,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -335,8 +335,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -345,8 +345,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -355,8 +355,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -365,8 +365,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -375,8 +375,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -385,8 +385,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -395,8 +395,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -405,8 +405,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -415,8 +415,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -425,8 +425,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -435,8 +435,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -445,8 +445,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -455,8 +455,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -465,8 +465,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -475,8 +475,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -485,8 +485,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -495,8 +495,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -505,8 +505,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -515,8 +515,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -525,8 +525,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -535,8 +535,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -545,8 +545,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -555,8 +555,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -565,8 +565,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -575,8 +575,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -585,8 +585,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -595,8 +595,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -605,8 +605,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -615,8 +615,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -625,8 +625,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -635,8 +635,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -645,8 +645,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -655,8 +655,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -665,8 +665,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -675,8 +675,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -685,8 +685,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -695,8 +695,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -705,8 +705,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -715,8 +715,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -725,8 +725,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -735,8 +735,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -745,8 +745,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -755,8 +755,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -765,8 +765,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -775,8 +775,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -785,8 +785,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -795,8 +795,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -805,8 +805,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -815,8 +815,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -825,8 +825,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -835,8 +835,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -845,8 +845,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setSmooth(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setSmooth(boolean) setSmooth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -855,8 +855,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setStroke(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setStroke(javafx.scene.paint.Paint) setStroke} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -865,8 +865,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setStrokeDashOffset(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setStrokeDashOffset(double) setStrokeDashOffset} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -875,8 +875,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setStrokeLineCap(javafx.scene.shape.StrokeLineCap)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setStrokeLineCap(javafx.scene.shape.StrokeLineCap) setStrokeLineCap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -885,8 +885,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin) setStrokeLineJoin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -895,8 +895,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setStrokeMiterLimit(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setStrokeMiterLimit(double) setStrokeMiterLimit} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -905,8 +905,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setStrokeType(javafx.scene.shape.StrokeType)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setStrokeType(javafx.scene.shape.StrokeType) setStrokeType} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -915,8 +915,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setStrokeWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setStrokeWidth(double) setStrokeWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -925,8 +925,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -935,8 +935,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -945,8 +945,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -955,8 +955,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -965,8 +965,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -975,8 +975,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -985,8 +985,8 @@ public class SVGPathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.SVGPath#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.SVGPath#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1966,7 +1966,7 @@ public class SVGPathBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -1988,7 +1988,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2010,7 +2010,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2032,7 +2032,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2054,7 +2054,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2076,7 +2076,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2098,7 +2098,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2120,7 +2120,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2142,7 +2142,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2164,7 +2164,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2186,7 +2186,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#contentProperty() contentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2208,7 +2208,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2230,7 +2230,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2252,7 +2252,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2274,7 +2274,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2296,7 +2296,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2318,7 +2318,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2340,7 +2340,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2362,7 +2362,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#fillProperty() fillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2384,7 +2384,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#fillRuleProperty() fillRuleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2406,7 +2406,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2428,7 +2428,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2450,7 +2450,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2472,7 +2472,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2494,7 +2494,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2516,7 +2516,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2538,7 +2538,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2560,7 +2560,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2582,7 +2582,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2604,7 +2604,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2626,7 +2626,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2648,7 +2648,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2670,7 +2670,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2692,7 +2692,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2714,7 +2714,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2736,7 +2736,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2758,7 +2758,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2780,7 +2780,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2802,7 +2802,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2824,7 +2824,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2846,7 +2846,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2868,7 +2868,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2890,7 +2890,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2912,7 +2912,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2934,7 +2934,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2956,7 +2956,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -2978,7 +2978,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3000,7 +3000,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3022,7 +3022,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3044,7 +3044,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3066,7 +3066,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3088,7 +3088,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3110,7 +3110,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3132,7 +3132,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3154,7 +3154,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3176,7 +3176,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3198,7 +3198,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3220,7 +3220,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3242,7 +3242,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3264,7 +3264,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3286,7 +3286,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3308,7 +3308,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3330,7 +3330,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3352,7 +3352,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3374,7 +3374,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3396,7 +3396,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3418,7 +3418,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3440,7 +3440,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3462,7 +3462,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3484,7 +3484,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3506,7 +3506,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3528,7 +3528,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3550,7 +3550,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3572,7 +3572,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3594,7 +3594,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3616,7 +3616,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3638,7 +3638,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3660,7 +3660,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3682,7 +3682,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3704,7 +3704,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3726,7 +3726,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3748,7 +3748,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3770,7 +3770,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3792,7 +3792,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3814,7 +3814,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#smoothProperty() smoothProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3836,7 +3836,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeDashOffsetProperty() strokeDashOffsetProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3858,7 +3858,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeLineCapProperty() strokeLineCapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3880,7 +3880,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeLineJoinProperty() strokeLineJoinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3902,7 +3902,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeMiterLimitProperty() strokeMiterLimitProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3924,7 +3924,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeProperty() strokeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3946,7 +3946,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeTypeProperty() strokeTypeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3968,7 +3968,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#strokeWidthProperty() strokeWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -3990,7 +3990,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -4012,7 +4012,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -4034,7 +4034,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -4056,7 +4056,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -4078,7 +4078,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 
@@ -4100,7 +4100,7 @@ public class SVGPathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.SVGPath#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.SVGPath> func) apply} method.
      * <p>
      * Example: 

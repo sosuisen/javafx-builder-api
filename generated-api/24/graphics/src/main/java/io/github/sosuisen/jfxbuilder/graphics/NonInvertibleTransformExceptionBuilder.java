@@ -129,7 +129,7 @@ public class NonInvertibleTransformExceptionBuilder {
         return false;
     }
     /**
-     * Applies a function to the NonInvertibleTransformException instance currently being constructed.
+     * Applies a function to the NonInvertibleTransformException instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -140,8 +140,8 @@ public class NonInvertibleTransformExceptionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.NonInvertibleTransformException#setStackTrace(java.lang.StackTraceElement...)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.NonInvertibleTransformException#setStackTrace(java.lang.StackTraceElement...) setStackTrace} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     

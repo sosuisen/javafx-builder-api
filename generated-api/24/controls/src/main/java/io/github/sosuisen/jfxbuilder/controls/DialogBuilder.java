@@ -131,7 +131,7 @@ public class DialogBuilder<R> {
         return false;
     }
     /**
-     * Applies a function to the Dialog instance currently being constructed.
+     * Applies a function to the Dialog instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -142,8 +142,8 @@ public class DialogBuilder<R> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Dialog#setContentText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setContentText(java.lang.String) setContentText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -152,8 +152,8 @@ public class DialogBuilder<R> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Dialog#setDialogPane(javafx.scene.control.DialogPane)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setDialogPane(javafx.scene.control.DialogPane) setDialogPane} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -162,8 +162,8 @@ public class DialogBuilder<R> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Dialog#setGraphic(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -172,8 +172,8 @@ public class DialogBuilder<R> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Dialog#setHeaderText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setHeaderText(java.lang.String) setHeaderText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -182,8 +182,8 @@ public class DialogBuilder<R> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Dialog#setHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setHeight(double) setHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -192,8 +192,8 @@ public class DialogBuilder<R> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Dialog#setOnCloseRequest(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setOnCloseRequest(javafx.event.EventHandler) setOnCloseRequest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -202,8 +202,8 @@ public class DialogBuilder<R> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Dialog#setOnHidden(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -212,8 +212,8 @@ public class DialogBuilder<R> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Dialog#setOnHiding(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -222,8 +222,8 @@ public class DialogBuilder<R> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Dialog#setOnShowing(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -232,8 +232,8 @@ public class DialogBuilder<R> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Dialog#setOnShown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -242,8 +242,8 @@ public class DialogBuilder<R> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Dialog#setResizable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setResizable(boolean) setResizable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -252,8 +252,8 @@ public class DialogBuilder<R> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Dialog#setResult(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setResult(java.lang.Object) setResult} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -262,8 +262,8 @@ public class DialogBuilder<R> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Dialog#setResultConverter(javafx.util.Callback)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setResultConverter(javafx.util.Callback) setResultConverter} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -272,8 +272,8 @@ public class DialogBuilder<R> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Dialog#setTitle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setTitle(java.lang.String) setTitle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -282,8 +282,8 @@ public class DialogBuilder<R> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Dialog#setWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setWidth(double) setWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -292,8 +292,8 @@ public class DialogBuilder<R> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Dialog#setX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setX(double) setX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -302,8 +302,8 @@ public class DialogBuilder<R> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Dialog#setY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Dialog#setY(double) setY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -313,7 +313,7 @@ public class DialogBuilder<R> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#contentTextProperty() contentTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
      * <p>
      * Example: 
@@ -335,7 +335,7 @@ public class DialogBuilder<R> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#dialogPaneProperty() dialogPaneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
      * <p>
      * Example: 
@@ -357,7 +357,7 @@ public class DialogBuilder<R> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#graphicProperty() graphicProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
      * <p>
      * Example: 
@@ -379,7 +379,7 @@ public class DialogBuilder<R> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#headerTextProperty() headerTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
      * <p>
      * Example: 
@@ -401,7 +401,7 @@ public class DialogBuilder<R> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
      * <p>
      * Example: 
@@ -423,7 +423,7 @@ public class DialogBuilder<R> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#onCloseRequestProperty() onCloseRequestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
      * <p>
      * Example: 
@@ -445,7 +445,7 @@ public class DialogBuilder<R> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#onHiddenProperty() onHiddenProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
      * <p>
      * Example: 
@@ -467,7 +467,7 @@ public class DialogBuilder<R> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#onHidingProperty() onHidingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
      * <p>
      * Example: 
@@ -489,7 +489,7 @@ public class DialogBuilder<R> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#onShowingProperty() onShowingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
      * <p>
      * Example: 
@@ -511,7 +511,7 @@ public class DialogBuilder<R> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#onShownProperty() onShownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
      * <p>
      * Example: 
@@ -533,7 +533,7 @@ public class DialogBuilder<R> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#resizableProperty() resizableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
      * <p>
      * Example: 
@@ -555,7 +555,7 @@ public class DialogBuilder<R> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#resultConverterProperty() resultConverterProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
      * <p>
      * Example: 
@@ -577,7 +577,7 @@ public class DialogBuilder<R> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#resultProperty() resultProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
      * <p>
      * Example: 
@@ -599,7 +599,7 @@ public class DialogBuilder<R> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#showingProperty() showingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
      * <p>
      * Example: 
@@ -621,7 +621,7 @@ public class DialogBuilder<R> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#titleProperty() titleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
      * <p>
      * Example: 
@@ -643,7 +643,7 @@ public class DialogBuilder<R> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
      * <p>
      * Example: 
@@ -665,7 +665,7 @@ public class DialogBuilder<R> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#xProperty() xProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
      * <p>
      * Example: 
@@ -687,7 +687,7 @@ public class DialogBuilder<R> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Dialog#yProperty() yProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Dialog<R>> func) apply} method.
      * <p>
      * Example: 

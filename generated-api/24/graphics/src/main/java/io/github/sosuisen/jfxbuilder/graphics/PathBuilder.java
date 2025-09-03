@@ -157,7 +157,7 @@ public class PathBuilder {
         return false;
     }
     /**
-     * Applies a function to the Path instance currently being constructed.
+     * Applies a function to the Path instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -173,8 +173,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -183,8 +183,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -193,8 +193,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -203,8 +203,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -213,8 +213,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -223,8 +223,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -233,8 +233,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -243,8 +243,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -253,8 +253,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -263,8 +263,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -273,8 +273,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -283,8 +283,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -293,8 +293,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -303,8 +303,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -313,8 +313,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setFillRule(javafx.scene.shape.FillRule)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setFillRule(javafx.scene.shape.FillRule) setFillRule} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -323,8 +323,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -333,8 +333,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -343,8 +343,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -353,8 +353,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -363,8 +363,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -373,8 +373,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -383,8 +383,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -393,8 +393,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -403,8 +403,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -413,8 +413,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -423,8 +423,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -433,8 +433,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -443,8 +443,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -453,8 +453,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -463,8 +463,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -473,8 +473,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -483,8 +483,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -493,8 +493,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -503,8 +503,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -513,8 +513,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -523,8 +523,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -533,8 +533,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -543,8 +543,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -553,8 +553,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -563,8 +563,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -573,8 +573,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -583,8 +583,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -593,8 +593,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -603,8 +603,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -613,8 +613,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -623,8 +623,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -633,8 +633,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -643,8 +643,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -653,8 +653,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -663,8 +663,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -673,8 +673,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -683,8 +683,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -693,8 +693,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -703,8 +703,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -713,8 +713,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -723,8 +723,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -733,8 +733,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -743,8 +743,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -753,8 +753,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -763,8 +763,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -773,8 +773,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -783,8 +783,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -793,8 +793,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -803,8 +803,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -813,8 +813,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -823,8 +823,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -833,8 +833,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -843,8 +843,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -853,8 +853,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -863,8 +863,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setSmooth(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setSmooth(boolean) setSmooth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -873,8 +873,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setStroke(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setStroke(javafx.scene.paint.Paint) setStroke} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -883,8 +883,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setStrokeDashOffset(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setStrokeDashOffset(double) setStrokeDashOffset} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -893,8 +893,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setStrokeLineCap(javafx.scene.shape.StrokeLineCap)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setStrokeLineCap(javafx.scene.shape.StrokeLineCap) setStrokeLineCap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -903,8 +903,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin) setStrokeLineJoin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -913,8 +913,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setStrokeMiterLimit(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setStrokeMiterLimit(double) setStrokeMiterLimit} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -923,8 +923,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setStrokeType(javafx.scene.shape.StrokeType)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setStrokeType(javafx.scene.shape.StrokeType) setStrokeType} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -933,8 +933,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setStrokeWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setStrokeWidth(double) setStrokeWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -943,8 +943,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -953,8 +953,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -963,8 +963,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -973,8 +973,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -983,8 +983,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -993,8 +993,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1003,8 +1003,8 @@ public class PathBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Path#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Path#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2032,7 +2032,7 @@ public class PathBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2054,7 +2054,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2076,7 +2076,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2098,7 +2098,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2120,7 +2120,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2142,7 +2142,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2164,7 +2164,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2186,7 +2186,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2208,7 +2208,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2230,7 +2230,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2252,7 +2252,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2274,7 +2274,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2296,7 +2296,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2318,7 +2318,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2340,7 +2340,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2362,7 +2362,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2384,7 +2384,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2406,7 +2406,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#fillProperty() fillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2428,7 +2428,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#fillRuleProperty() fillRuleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2450,7 +2450,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2472,7 +2472,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2494,7 +2494,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2516,7 +2516,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2538,7 +2538,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2560,7 +2560,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2582,7 +2582,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2604,7 +2604,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2626,7 +2626,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2648,7 +2648,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2670,7 +2670,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2692,7 +2692,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2714,7 +2714,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2736,7 +2736,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2758,7 +2758,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2780,7 +2780,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2802,7 +2802,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2824,7 +2824,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2846,7 +2846,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2868,7 +2868,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2890,7 +2890,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2912,7 +2912,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2934,7 +2934,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2956,7 +2956,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -2978,7 +2978,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3000,7 +3000,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3022,7 +3022,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3044,7 +3044,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3066,7 +3066,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3088,7 +3088,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3110,7 +3110,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3132,7 +3132,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3154,7 +3154,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3176,7 +3176,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3198,7 +3198,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3220,7 +3220,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3242,7 +3242,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3264,7 +3264,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3286,7 +3286,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3308,7 +3308,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3330,7 +3330,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3352,7 +3352,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3374,7 +3374,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3396,7 +3396,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3418,7 +3418,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3440,7 +3440,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3462,7 +3462,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3484,7 +3484,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3506,7 +3506,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3528,7 +3528,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3550,7 +3550,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3572,7 +3572,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3594,7 +3594,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3616,7 +3616,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3638,7 +3638,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3660,7 +3660,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3682,7 +3682,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3704,7 +3704,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3726,7 +3726,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3748,7 +3748,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3770,7 +3770,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3792,7 +3792,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3814,7 +3814,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3836,7 +3836,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3858,7 +3858,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#smoothProperty() smoothProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3880,7 +3880,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#strokeDashOffsetProperty() strokeDashOffsetProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3902,7 +3902,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#strokeLineCapProperty() strokeLineCapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3924,7 +3924,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#strokeLineJoinProperty() strokeLineJoinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3946,7 +3946,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#strokeMiterLimitProperty() strokeMiterLimitProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3968,7 +3968,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#strokeProperty() strokeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -3990,7 +3990,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#strokeTypeProperty() strokeTypeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -4012,7 +4012,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#strokeWidthProperty() strokeWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -4034,7 +4034,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -4056,7 +4056,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -4078,7 +4078,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -4100,7 +4100,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -4122,7 +4122,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 
@@ -4144,7 +4144,7 @@ public class PathBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Path#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Path> func) apply} method.
      * <p>
      * Example: 

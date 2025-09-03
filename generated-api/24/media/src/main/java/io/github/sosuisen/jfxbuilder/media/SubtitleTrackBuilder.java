@@ -115,7 +115,7 @@ public class SubtitleTrackBuilder {
         return false;
     }
     /**
-     * Applies a function to the SubtitleTrack instance currently being constructed.
+     * Applies a function to the SubtitleTrack instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

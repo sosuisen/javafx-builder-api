@@ -129,7 +129,7 @@ public class ToggleGroupBuilder {
         return false;
     }
     /**
-     * Applies a function to the ToggleGroup instance currently being constructed.
+     * Applies a function to the ToggleGroup instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -140,8 +140,8 @@ public class ToggleGroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ToggleGroup#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ToggleGroup#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -199,7 +199,7 @@ public class ToggleGroupBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.ToggleGroup#selectedToggleProperty() selectedToggleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ToggleGroup> func) apply} method.
      * <p>
      * Example: 

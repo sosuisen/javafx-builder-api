@@ -171,7 +171,7 @@ public class RectangleBuilder {
         return false;
     }
     /**
-     * Applies a function to the Rectangle instance currently being constructed.
+     * Applies a function to the Rectangle instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -187,8 +187,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -197,8 +197,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -207,8 +207,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -217,8 +217,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -227,8 +227,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setArcHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setArcHeight(double) setArcHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -237,8 +237,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setArcWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setArcWidth(double) setArcWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -247,8 +247,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -257,8 +257,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -267,8 +267,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -277,8 +277,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -287,8 +287,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -297,8 +297,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -307,8 +307,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -317,8 +317,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -327,8 +327,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -337,8 +337,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -347,8 +347,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -357,8 +357,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setHeight(double) setHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -367,8 +367,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -377,8 +377,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -387,8 +387,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -397,8 +397,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -407,8 +407,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -417,8 +417,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -427,8 +427,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -437,8 +437,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -447,8 +447,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -457,8 +457,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -467,8 +467,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -477,8 +477,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -487,8 +487,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -497,8 +497,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -507,8 +507,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -517,8 +517,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -527,8 +527,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -537,8 +537,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -547,8 +547,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -557,8 +557,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -567,8 +567,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -577,8 +577,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -587,8 +587,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -597,8 +597,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -607,8 +607,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -617,8 +617,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -627,8 +627,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -637,8 +637,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -647,8 +647,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -657,8 +657,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -667,8 +667,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -677,8 +677,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -687,8 +687,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -697,8 +697,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -707,8 +707,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -717,8 +717,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -727,8 +727,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -737,8 +737,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -747,8 +747,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -757,8 +757,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -767,8 +767,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -777,8 +777,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -787,8 +787,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -797,8 +797,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -807,8 +807,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -817,8 +817,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -827,8 +827,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -837,8 +837,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -847,8 +847,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -857,8 +857,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -867,8 +867,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -877,8 +877,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -887,8 +887,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -897,8 +897,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setSmooth(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setSmooth(boolean) setSmooth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -907,8 +907,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setStroke(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setStroke(javafx.scene.paint.Paint) setStroke} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -917,8 +917,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setStrokeDashOffset(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setStrokeDashOffset(double) setStrokeDashOffset} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -927,8 +927,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setStrokeLineCap(javafx.scene.shape.StrokeLineCap)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setStrokeLineCap(javafx.scene.shape.StrokeLineCap) setStrokeLineCap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -937,8 +937,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin) setStrokeLineJoin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -947,8 +947,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setStrokeMiterLimit(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setStrokeMiterLimit(double) setStrokeMiterLimit} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -957,8 +957,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setStrokeType(javafx.scene.shape.StrokeType)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setStrokeType(javafx.scene.shape.StrokeType) setStrokeType} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -967,8 +967,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setStrokeWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setStrokeWidth(double) setStrokeWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -977,8 +977,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -987,8 +987,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -997,8 +997,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1007,8 +1007,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1017,8 +1017,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1027,8 +1027,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1037,8 +1037,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1047,8 +1047,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setWidth(double) setWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1057,8 +1057,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setX(double) setX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1067,8 +1067,8 @@ public class RectangleBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Rectangle#setY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Rectangle#setY(double) setY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2048,7 +2048,7 @@ public class RectangleBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2070,7 +2070,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2092,7 +2092,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2114,7 +2114,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2136,7 +2136,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#arcHeightProperty() arcHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2158,7 +2158,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#arcWidthProperty() arcWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2180,7 +2180,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2202,7 +2202,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2224,7 +2224,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2246,7 +2246,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2268,7 +2268,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2290,7 +2290,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2312,7 +2312,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2334,7 +2334,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2356,7 +2356,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2378,7 +2378,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2400,7 +2400,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2422,7 +2422,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2444,7 +2444,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2466,7 +2466,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#fillProperty() fillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2488,7 +2488,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2510,7 +2510,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2532,7 +2532,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2554,7 +2554,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2576,7 +2576,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2598,7 +2598,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2620,7 +2620,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2642,7 +2642,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2664,7 +2664,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2686,7 +2686,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2708,7 +2708,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2730,7 +2730,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2752,7 +2752,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2774,7 +2774,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2796,7 +2796,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2818,7 +2818,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2840,7 +2840,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2862,7 +2862,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2884,7 +2884,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2906,7 +2906,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2928,7 +2928,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2950,7 +2950,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2972,7 +2972,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -2994,7 +2994,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3016,7 +3016,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3038,7 +3038,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3060,7 +3060,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3082,7 +3082,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3104,7 +3104,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3126,7 +3126,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3148,7 +3148,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3170,7 +3170,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3192,7 +3192,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3214,7 +3214,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3236,7 +3236,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3258,7 +3258,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3280,7 +3280,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3302,7 +3302,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3324,7 +3324,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3346,7 +3346,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3368,7 +3368,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3390,7 +3390,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3412,7 +3412,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3434,7 +3434,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3456,7 +3456,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3478,7 +3478,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3500,7 +3500,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3522,7 +3522,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3544,7 +3544,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3566,7 +3566,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3588,7 +3588,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3610,7 +3610,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3632,7 +3632,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3654,7 +3654,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3676,7 +3676,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3698,7 +3698,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3720,7 +3720,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3742,7 +3742,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3764,7 +3764,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3786,7 +3786,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3808,7 +3808,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3830,7 +3830,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3852,7 +3852,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3874,7 +3874,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3896,7 +3896,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3918,7 +3918,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#smoothProperty() smoothProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3940,7 +3940,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeDashOffsetProperty() strokeDashOffsetProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3962,7 +3962,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeLineCapProperty() strokeLineCapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -3984,7 +3984,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeLineJoinProperty() strokeLineJoinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -4006,7 +4006,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeMiterLimitProperty() strokeMiterLimitProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -4028,7 +4028,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeProperty() strokeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -4050,7 +4050,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeTypeProperty() strokeTypeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -4072,7 +4072,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#strokeWidthProperty() strokeWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -4094,7 +4094,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -4116,7 +4116,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -4138,7 +4138,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -4160,7 +4160,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -4182,7 +4182,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -4204,7 +4204,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -4226,7 +4226,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -4248,7 +4248,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#xProperty() xProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 
@@ -4270,7 +4270,7 @@ public class RectangleBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Rectangle#yProperty() yProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Rectangle> func) apply} method.
      * <p>
      * Example: 

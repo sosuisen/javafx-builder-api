@@ -143,7 +143,7 @@ public class QuadCurveToBuilder {
         return false;
     }
     /**
-     * Applies a function to the QuadCurveTo instance currently being constructed.
+     * Applies a function to the QuadCurveTo instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -154,8 +154,8 @@ public class QuadCurveToBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.QuadCurveTo#setAbsolute(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.QuadCurveTo#setAbsolute(boolean) setAbsolute} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -164,8 +164,8 @@ public class QuadCurveToBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.QuadCurveTo#setControlX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.QuadCurveTo#setControlX(double) setControlX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -174,8 +174,8 @@ public class QuadCurveToBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.QuadCurveTo#setControlY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.QuadCurveTo#setControlY(double) setControlY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -184,8 +184,8 @@ public class QuadCurveToBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.QuadCurveTo#setX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.QuadCurveTo#setX(double) setX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -194,8 +194,8 @@ public class QuadCurveToBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.QuadCurveTo#setY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.QuadCurveTo#setY(double) setY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -205,7 +205,7 @@ public class QuadCurveToBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#absoluteProperty() absoluteProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurveTo> func) apply} method.
      * <p>
      * Example: 
@@ -227,7 +227,7 @@ public class QuadCurveToBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#controlXProperty() controlXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurveTo> func) apply} method.
      * <p>
      * Example: 
@@ -249,7 +249,7 @@ public class QuadCurveToBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#controlYProperty() controlYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurveTo> func) apply} method.
      * <p>
      * Example: 
@@ -271,7 +271,7 @@ public class QuadCurveToBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#xProperty() xProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurveTo> func) apply} method.
      * <p>
      * Example: 
@@ -293,7 +293,7 @@ public class QuadCurveToBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.QuadCurveTo#yProperty() yProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.QuadCurveTo> func) apply} method.
      * <p>
      * Example: 

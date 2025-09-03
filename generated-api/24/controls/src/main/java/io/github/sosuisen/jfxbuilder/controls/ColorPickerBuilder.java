@@ -143,7 +143,7 @@ public class ColorPickerBuilder {
         return false;
     }
     /**
-     * Applies a function to the ColorPicker instance currently being constructed.
+     * Applies a function to the ColorPicker instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -159,8 +159,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -169,8 +169,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -179,8 +179,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -189,8 +189,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -199,8 +199,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,8 +209,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -219,8 +219,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,8 +229,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -239,8 +239,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,8 +249,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -259,8 +259,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -269,8 +269,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -279,8 +279,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -289,8 +289,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -299,8 +299,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -309,8 +309,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -319,8 +319,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setEditable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setEditable(boolean) setEditable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -329,8 +329,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -339,8 +339,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -349,8 +349,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -359,8 +359,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -369,8 +369,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -379,8 +379,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -389,8 +389,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -399,8 +399,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -409,8 +409,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -419,8 +419,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -429,8 +429,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -439,8 +439,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -449,8 +449,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -459,8 +459,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -469,8 +469,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -479,8 +479,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -489,8 +489,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnAction(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -499,8 +499,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -509,8 +509,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -519,8 +519,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -529,8 +529,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -539,8 +539,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -549,8 +549,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -559,8 +559,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -569,8 +569,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnHidden(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -579,8 +579,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnHiding(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -589,8 +589,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -599,8 +599,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -609,8 +609,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -619,8 +619,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -629,8 +629,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -639,8 +639,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -649,8 +649,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -659,8 +659,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -669,8 +669,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -679,8 +679,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -689,8 +689,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -699,8 +699,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -709,8 +709,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -719,8 +719,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -729,8 +729,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -739,8 +739,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -749,8 +749,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -759,8 +759,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -769,8 +769,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -779,8 +779,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -789,8 +789,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -799,8 +799,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnShowing(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -809,8 +809,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnShown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -819,8 +819,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -829,8 +829,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -839,8 +839,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -849,8 +849,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -859,8 +859,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -869,8 +869,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -879,8 +879,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -889,8 +889,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -899,8 +899,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -909,8 +909,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -919,8 +919,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -929,8 +929,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -939,8 +939,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -949,8 +949,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -959,8 +959,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -969,8 +969,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -979,8 +979,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -989,8 +989,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -999,8 +999,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setPromptText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setPromptText(java.lang.String) setPromptText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1009,8 +1009,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1019,8 +1019,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1029,8 +1029,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1039,8 +1039,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1049,8 +1049,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1059,8 +1059,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1069,8 +1069,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1079,8 +1079,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1089,8 +1089,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1099,8 +1099,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1109,8 +1109,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1119,8 +1119,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1129,8 +1129,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1139,8 +1139,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1149,8 +1149,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1159,8 +1159,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setValue(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setValue(java.lang.Object) setValue} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1169,8 +1169,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1179,8 +1179,8 @@ public class ColorPickerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ColorPicker#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ColorPicker#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2203,7 +2203,7 @@ public class ColorPickerBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2225,7 +2225,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2247,7 +2247,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2269,7 +2269,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2291,7 +2291,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#armedProperty() armedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2313,7 +2313,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2335,7 +2335,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2357,7 +2357,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2379,7 +2379,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2401,7 +2401,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2423,7 +2423,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2445,7 +2445,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2467,7 +2467,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2489,7 +2489,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2511,7 +2511,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2533,7 +2533,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2555,7 +2555,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2577,7 +2577,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2599,7 +2599,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2621,7 +2621,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2643,7 +2643,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#editableProperty() editableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2665,7 +2665,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2687,7 +2687,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2709,7 +2709,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2731,7 +2731,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2753,7 +2753,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2775,7 +2775,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2797,7 +2797,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2819,7 +2819,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2841,7 +2841,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2863,7 +2863,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2885,7 +2885,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2907,7 +2907,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2929,7 +2929,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2951,7 +2951,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2973,7 +2973,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -2995,7 +2995,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3017,7 +3017,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3039,7 +3039,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3061,7 +3061,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3083,7 +3083,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3105,7 +3105,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3127,7 +3127,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3149,7 +3149,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3171,7 +3171,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3193,7 +3193,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3215,7 +3215,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onActionProperty() onActionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3237,7 +3237,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3259,7 +3259,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3281,7 +3281,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3303,7 +3303,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3325,7 +3325,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3347,7 +3347,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3369,7 +3369,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3391,7 +3391,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onHiddenProperty() onHiddenProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3413,7 +3413,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onHidingProperty() onHidingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3435,7 +3435,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3457,7 +3457,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3479,7 +3479,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3501,7 +3501,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3523,7 +3523,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3545,7 +3545,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3567,7 +3567,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3589,7 +3589,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3611,7 +3611,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3633,7 +3633,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3655,7 +3655,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3677,7 +3677,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3699,7 +3699,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3721,7 +3721,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3743,7 +3743,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3765,7 +3765,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3787,7 +3787,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3809,7 +3809,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3831,7 +3831,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3853,7 +3853,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3875,7 +3875,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3897,7 +3897,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onShowingProperty() onShowingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3919,7 +3919,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onShownProperty() onShownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3941,7 +3941,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3963,7 +3963,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -3985,7 +3985,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4007,7 +4007,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4029,7 +4029,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4051,7 +4051,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4073,7 +4073,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4095,7 +4095,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4117,7 +4117,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4139,7 +4139,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4161,7 +4161,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4183,7 +4183,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4205,7 +4205,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4227,7 +4227,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4249,7 +4249,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4271,7 +4271,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4293,7 +4293,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4315,7 +4315,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4337,7 +4337,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4359,7 +4359,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#promptTextProperty() promptTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4381,7 +4381,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4403,7 +4403,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4425,7 +4425,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4447,7 +4447,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4469,7 +4469,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4491,7 +4491,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4513,7 +4513,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4535,7 +4535,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4557,7 +4557,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#showingProperty() showingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4579,7 +4579,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4601,7 +4601,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4623,7 +4623,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4645,7 +4645,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4667,7 +4667,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4689,7 +4689,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4711,7 +4711,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4733,7 +4733,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#valueProperty() valueProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4755,7 +4755,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4777,7 +4777,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 
@@ -4799,7 +4799,7 @@ public class ColorPickerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ColorPicker#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ColorPicker> func) apply} method.
      * <p>
      * Example: 

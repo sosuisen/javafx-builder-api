@@ -157,7 +157,7 @@ public class PhongMaterialBuilder {
         return false;
     }
     /**
-     * Applies a function to the PhongMaterial instance currently being constructed.
+     * Applies a function to the PhongMaterial instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -168,8 +168,8 @@ public class PhongMaterialBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.paint.PhongMaterial#setBumpMap(javafx.scene.image.Image)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.paint.PhongMaterial#setBumpMap(javafx.scene.image.Image) setBumpMap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -178,8 +178,8 @@ public class PhongMaterialBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.paint.PhongMaterial#setDiffuseColor(javafx.scene.paint.Color)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.paint.PhongMaterial#setDiffuseColor(javafx.scene.paint.Color) setDiffuseColor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -188,8 +188,8 @@ public class PhongMaterialBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.paint.PhongMaterial#setDiffuseMap(javafx.scene.image.Image)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.paint.PhongMaterial#setDiffuseMap(javafx.scene.image.Image) setDiffuseMap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -198,8 +198,8 @@ public class PhongMaterialBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.paint.PhongMaterial#setSelfIlluminationMap(javafx.scene.image.Image)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.paint.PhongMaterial#setSelfIlluminationMap(javafx.scene.image.Image) setSelfIlluminationMap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -208,8 +208,8 @@ public class PhongMaterialBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.paint.PhongMaterial#setSpecularColor(javafx.scene.paint.Color)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.paint.PhongMaterial#setSpecularColor(javafx.scene.paint.Color) setSpecularColor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -218,8 +218,8 @@ public class PhongMaterialBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.paint.PhongMaterial#setSpecularMap(javafx.scene.image.Image)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.paint.PhongMaterial#setSpecularMap(javafx.scene.image.Image) setSpecularMap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -228,8 +228,8 @@ public class PhongMaterialBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.paint.PhongMaterial#setSpecularPower(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.paint.PhongMaterial#setSpecularPower(double) setSpecularPower} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -239,7 +239,7 @@ public class PhongMaterialBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.paint.PhongMaterial#bumpMapProperty() bumpMapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
      * <p>
      * Example: 
@@ -261,7 +261,7 @@ public class PhongMaterialBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.paint.PhongMaterial#diffuseColorProperty() diffuseColorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
      * <p>
      * Example: 
@@ -283,7 +283,7 @@ public class PhongMaterialBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.paint.PhongMaterial#diffuseMapProperty() diffuseMapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
      * <p>
      * Example: 
@@ -305,7 +305,7 @@ public class PhongMaterialBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.paint.PhongMaterial#selfIlluminationMapProperty() selfIlluminationMapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
      * <p>
      * Example: 
@@ -327,7 +327,7 @@ public class PhongMaterialBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.paint.PhongMaterial#specularColorProperty() specularColorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
      * <p>
      * Example: 
@@ -349,7 +349,7 @@ public class PhongMaterialBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.paint.PhongMaterial#specularMapProperty() specularMapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
      * <p>
      * Example: 
@@ -371,7 +371,7 @@ public class PhongMaterialBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.paint.PhongMaterial#specularPowerProperty() specularPowerProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.paint.PhongMaterial> func) apply} method.
      * <p>
      * Example: 

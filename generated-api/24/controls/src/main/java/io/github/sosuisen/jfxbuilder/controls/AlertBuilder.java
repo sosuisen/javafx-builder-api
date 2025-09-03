@@ -143,7 +143,7 @@ public class AlertBuilder {
         return false;
     }
     /**
-     * Applies a function to the Alert instance currently being constructed.
+     * Applies a function to the Alert instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -154,8 +154,8 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Alert#setAlertType(javafx.scene.control.Alert$AlertType)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setAlertType(javafx.scene.control.Alert$AlertType) setAlertType} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -164,8 +164,8 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Alert#setContentText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setContentText(java.lang.String) setContentText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -174,8 +174,8 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Alert#setDialogPane(javafx.scene.control.DialogPane)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setDialogPane(javafx.scene.control.DialogPane) setDialogPane} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -184,8 +184,8 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Alert#setGraphic(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -194,8 +194,8 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Alert#setHeaderText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setHeaderText(java.lang.String) setHeaderText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -204,8 +204,8 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Alert#setHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setHeight(double) setHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -214,8 +214,8 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Alert#setOnCloseRequest(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setOnCloseRequest(javafx.event.EventHandler) setOnCloseRequest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -224,8 +224,8 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Alert#setOnHidden(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -234,8 +234,8 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Alert#setOnHiding(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -244,8 +244,8 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Alert#setOnShowing(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -254,8 +254,8 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Alert#setOnShown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -264,8 +264,8 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Alert#setResizable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setResizable(boolean) setResizable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -274,8 +274,8 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Alert#setResult(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setResult(java.lang.Object) setResult} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -284,8 +284,8 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Alert#setResultConverter(javafx.util.Callback)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setResultConverter(javafx.util.Callback) setResultConverter} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -294,8 +294,8 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Alert#setTitle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setTitle(java.lang.String) setTitle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -304,8 +304,8 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Alert#setWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setWidth(double) setWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -314,8 +314,8 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Alert#setX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setX(double) setX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -324,8 +324,8 @@ public class AlertBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Alert#setY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Alert#setY(double) setY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -362,7 +362,7 @@ public class AlertBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#alertTypeProperty() alertTypeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 
@@ -384,7 +384,7 @@ public class AlertBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#contentTextProperty() contentTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 
@@ -406,7 +406,7 @@ public class AlertBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#dialogPaneProperty() dialogPaneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 
@@ -428,7 +428,7 @@ public class AlertBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#graphicProperty() graphicProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 
@@ -450,7 +450,7 @@ public class AlertBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#headerTextProperty() headerTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 
@@ -472,7 +472,7 @@ public class AlertBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 
@@ -494,7 +494,7 @@ public class AlertBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#onCloseRequestProperty() onCloseRequestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 
@@ -516,7 +516,7 @@ public class AlertBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#onHiddenProperty() onHiddenProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 
@@ -538,7 +538,7 @@ public class AlertBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#onHidingProperty() onHidingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 
@@ -560,7 +560,7 @@ public class AlertBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#onShowingProperty() onShowingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 
@@ -582,7 +582,7 @@ public class AlertBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#onShownProperty() onShownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 
@@ -604,7 +604,7 @@ public class AlertBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#resizableProperty() resizableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 
@@ -626,7 +626,7 @@ public class AlertBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#resultConverterProperty() resultConverterProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 
@@ -648,7 +648,7 @@ public class AlertBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#resultProperty() resultProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 
@@ -670,7 +670,7 @@ public class AlertBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#showingProperty() showingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 
@@ -692,7 +692,7 @@ public class AlertBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#titleProperty() titleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 
@@ -714,7 +714,7 @@ public class AlertBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 
@@ -736,7 +736,7 @@ public class AlertBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#xProperty() xProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 
@@ -758,7 +758,7 @@ public class AlertBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Alert#yProperty() yProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Alert> func) apply} method.
      * <p>
      * Example: 

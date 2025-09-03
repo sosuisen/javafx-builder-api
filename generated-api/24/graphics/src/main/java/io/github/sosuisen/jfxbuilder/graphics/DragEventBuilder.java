@@ -143,7 +143,7 @@ public class DragEventBuilder {
         return false;
     }
     /**
-     * Applies a function to the DragEvent instance currently being constructed.
+     * Applies a function to the DragEvent instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -154,8 +154,8 @@ public class DragEventBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.input.DragEvent#setDropCompleted(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.input.DragEvent#setDropCompleted(boolean) setDropCompleted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     

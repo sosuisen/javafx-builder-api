@@ -143,7 +143,7 @@ public class BoxBlurBuilder {
         return false;
     }
     /**
-     * Applies a function to the BoxBlur instance currently being constructed.
+     * Applies a function to the BoxBlur instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -154,8 +154,8 @@ public class BoxBlurBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.BoxBlur#setHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.BoxBlur#setHeight(double) setHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -164,8 +164,8 @@ public class BoxBlurBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.BoxBlur#setInput(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.BoxBlur#setInput(javafx.scene.effect.Effect) setInput} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -174,8 +174,8 @@ public class BoxBlurBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.BoxBlur#setIterations(int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.BoxBlur#setIterations(int) setIterations} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -184,8 +184,8 @@ public class BoxBlurBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.BoxBlur#setWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.BoxBlur#setWidth(double) setWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -195,7 +195,7 @@ public class BoxBlurBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.BoxBlur#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.BoxBlur> func) apply} method.
      * <p>
      * Example: 
@@ -217,7 +217,7 @@ public class BoxBlurBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.BoxBlur#inputProperty() inputProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.BoxBlur> func) apply} method.
      * <p>
      * Example: 
@@ -239,7 +239,7 @@ public class BoxBlurBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.BoxBlur#iterationsProperty() iterationsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.BoxBlur> func) apply} method.
      * <p>
      * Example: 
@@ -261,7 +261,7 @@ public class BoxBlurBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.BoxBlur#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.BoxBlur> func) apply} method.
      * <p>
      * Example: 

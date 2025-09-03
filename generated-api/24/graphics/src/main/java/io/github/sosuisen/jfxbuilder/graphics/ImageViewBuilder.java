@@ -157,7 +157,7 @@ public class ImageViewBuilder {
         return false;
     }
     /**
-     * Applies a function to the ImageView instance currently being constructed.
+     * Applies a function to the ImageView instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -173,8 +173,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -183,8 +183,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -193,8 +193,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -203,8 +203,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -213,8 +213,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -223,8 +223,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -233,8 +233,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -243,8 +243,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -253,8 +253,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -263,8 +263,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -273,8 +273,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -283,8 +283,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -293,8 +293,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -303,8 +303,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setFitHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setFitHeight(double) setFitHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -313,8 +313,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setFitWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setFitWidth(double) setFitWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -323,8 +323,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -333,8 +333,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -343,8 +343,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setImage(javafx.scene.image.Image)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setImage(javafx.scene.image.Image) setImage} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -353,8 +353,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -363,8 +363,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -373,8 +373,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -383,8 +383,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -393,8 +393,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -403,8 +403,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -413,8 +413,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -423,8 +423,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -433,8 +433,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -443,8 +443,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -453,8 +453,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -463,8 +463,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -473,8 +473,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -483,8 +483,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -493,8 +493,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -503,8 +503,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -513,8 +513,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -523,8 +523,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -533,8 +533,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -543,8 +543,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -553,8 +553,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -563,8 +563,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -573,8 +573,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -583,8 +583,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -593,8 +593,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -603,8 +603,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -613,8 +613,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -623,8 +623,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -633,8 +633,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -643,8 +643,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -653,8 +653,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -663,8 +663,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -673,8 +673,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -683,8 +683,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -693,8 +693,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -703,8 +703,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -713,8 +713,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -723,8 +723,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -733,8 +733,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -743,8 +743,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -753,8 +753,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -763,8 +763,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -773,8 +773,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -783,8 +783,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -793,8 +793,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -803,8 +803,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -813,8 +813,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -823,8 +823,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setPreserveRatio(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setPreserveRatio(boolean) setPreserveRatio} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -833,8 +833,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -843,8 +843,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -853,8 +853,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -863,8 +863,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -873,8 +873,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -883,8 +883,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setSmooth(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setSmooth(boolean) setSmooth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -893,8 +893,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -903,8 +903,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -913,8 +913,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -923,8 +923,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -933,8 +933,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -943,8 +943,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -953,8 +953,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setViewport(javafx.geometry.Rectangle2D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setViewport(javafx.geometry.Rectangle2D) setViewport} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -963,8 +963,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -973,8 +973,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setX(double) setX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -983,8 +983,8 @@ public class ImageViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.image.ImageView#setY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.image.ImageView#setY(double) setY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1916,7 +1916,7 @@ public class ImageViewBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -1938,7 +1938,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -1960,7 +1960,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -1982,7 +1982,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2004,7 +2004,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2026,7 +2026,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2048,7 +2048,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2070,7 +2070,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2092,7 +2092,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2114,7 +2114,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2136,7 +2136,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2158,7 +2158,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2180,7 +2180,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2202,7 +2202,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2224,7 +2224,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2246,7 +2246,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2268,7 +2268,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2290,7 +2290,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#fitHeightProperty() fitHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2312,7 +2312,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#fitWidthProperty() fitWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2334,7 +2334,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2356,7 +2356,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2378,7 +2378,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2400,7 +2400,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2422,7 +2422,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2444,7 +2444,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2466,7 +2466,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#imageProperty() imageProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2488,7 +2488,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2510,7 +2510,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2532,7 +2532,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2554,7 +2554,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2576,7 +2576,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2598,7 +2598,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2620,7 +2620,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2642,7 +2642,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2664,7 +2664,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2686,7 +2686,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2708,7 +2708,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2730,7 +2730,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2752,7 +2752,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2774,7 +2774,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2796,7 +2796,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2818,7 +2818,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2840,7 +2840,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2862,7 +2862,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2884,7 +2884,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2906,7 +2906,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2928,7 +2928,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2950,7 +2950,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2972,7 +2972,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -2994,7 +2994,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3016,7 +3016,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3038,7 +3038,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3060,7 +3060,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3082,7 +3082,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3104,7 +3104,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3126,7 +3126,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3148,7 +3148,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3170,7 +3170,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3192,7 +3192,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3214,7 +3214,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3236,7 +3236,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3258,7 +3258,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3280,7 +3280,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3302,7 +3302,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3324,7 +3324,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3346,7 +3346,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3368,7 +3368,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3390,7 +3390,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3412,7 +3412,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3434,7 +3434,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3456,7 +3456,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3478,7 +3478,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3500,7 +3500,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3522,7 +3522,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3544,7 +3544,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3566,7 +3566,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3588,7 +3588,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3610,7 +3610,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#preserveRatioProperty() preserveRatioProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3632,7 +3632,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3654,7 +3654,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3676,7 +3676,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3698,7 +3698,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3720,7 +3720,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3742,7 +3742,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3764,7 +3764,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3786,7 +3786,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#smoothProperty() smoothProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3808,7 +3808,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3830,7 +3830,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3852,7 +3852,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3874,7 +3874,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3896,7 +3896,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3918,7 +3918,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#viewportProperty() viewportProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3940,7 +3940,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3962,7 +3962,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#xProperty() xProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 
@@ -3984,7 +3984,7 @@ public class ImageViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.ImageView#yProperty() yProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.ImageView> func) apply} method.
      * <p>
      * Example: 

@@ -147,7 +147,7 @@ public class TextFlowBuilder {
         return false;
     }
     /**
-     * Applies a function to the TextFlow instance currently being constructed.
+     * Applies a function to the TextFlow instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -163,8 +163,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -173,8 +173,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -183,8 +183,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -193,8 +193,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -203,8 +203,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -213,8 +213,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -223,8 +223,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -233,8 +233,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -243,8 +243,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -253,8 +253,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -263,8 +263,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -273,8 +273,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -283,8 +283,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -293,8 +293,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -303,8 +303,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -313,8 +313,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -323,8 +323,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -333,8 +333,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -343,8 +343,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -353,8 +353,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -363,8 +363,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -373,8 +373,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -383,8 +383,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setLineSpacing(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -393,8 +393,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -403,8 +403,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -413,8 +413,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -423,8 +423,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -433,8 +433,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -443,8 +443,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -453,8 +453,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -463,8 +463,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -473,8 +473,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -483,8 +483,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -493,8 +493,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -503,8 +503,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -513,8 +513,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -523,8 +523,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -533,8 +533,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -543,8 +543,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -553,8 +553,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -563,8 +563,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -573,8 +573,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -583,8 +583,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -593,8 +593,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -603,8 +603,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -613,8 +613,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -623,8 +623,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -633,8 +633,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -643,8 +643,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -653,8 +653,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -663,8 +663,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -673,8 +673,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -683,8 +683,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -693,8 +693,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -703,8 +703,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -713,8 +713,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -723,8 +723,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -733,8 +733,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -743,8 +743,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -753,8 +753,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -763,8 +763,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -773,8 +773,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -783,8 +783,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -793,8 +793,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -803,8 +803,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -813,8 +813,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -823,8 +823,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -833,8 +833,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -843,8 +843,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -853,8 +853,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -863,8 +863,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -873,8 +873,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -883,8 +883,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -893,8 +893,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -903,8 +903,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -913,8 +913,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -923,8 +923,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -933,8 +933,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -943,8 +943,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -953,8 +953,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -963,8 +963,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -973,8 +973,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -983,8 +983,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -993,8 +993,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1003,8 +1003,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1013,8 +1013,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1023,8 +1023,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1033,8 +1033,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setTabSize(int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setTabSize(int) setTabSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1043,8 +1043,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setTextAlignment(javafx.scene.text.TextAlignment)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1053,8 +1053,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1063,8 +1063,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1073,8 +1073,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1083,8 +1083,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1093,8 +1093,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1103,8 +1103,8 @@ public class TextFlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.text.TextFlow#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.text.TextFlow#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2127,7 +2127,7 @@ public class TextFlowBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2149,7 +2149,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2171,7 +2171,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2193,7 +2193,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2215,7 +2215,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2237,7 +2237,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2259,7 +2259,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2281,7 +2281,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2303,7 +2303,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2325,7 +2325,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2347,7 +2347,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2369,7 +2369,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2391,7 +2391,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2413,7 +2413,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2435,7 +2435,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2457,7 +2457,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2479,7 +2479,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2501,7 +2501,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2523,7 +2523,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2545,7 +2545,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2567,7 +2567,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2589,7 +2589,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2611,7 +2611,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2633,7 +2633,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2655,7 +2655,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2677,7 +2677,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2699,7 +2699,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2721,7 +2721,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2743,7 +2743,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2765,7 +2765,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2787,7 +2787,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2809,7 +2809,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2831,7 +2831,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2853,7 +2853,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#lineSpacingProperty() lineSpacingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2875,7 +2875,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2897,7 +2897,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2919,7 +2919,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2941,7 +2941,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2963,7 +2963,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -2985,7 +2985,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3007,7 +3007,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3029,7 +3029,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3051,7 +3051,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3073,7 +3073,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3095,7 +3095,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3117,7 +3117,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3139,7 +3139,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3161,7 +3161,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3183,7 +3183,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3205,7 +3205,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3227,7 +3227,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3249,7 +3249,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3271,7 +3271,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3293,7 +3293,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3315,7 +3315,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3337,7 +3337,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3359,7 +3359,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3381,7 +3381,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3403,7 +3403,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3425,7 +3425,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3447,7 +3447,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3469,7 +3469,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3491,7 +3491,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3513,7 +3513,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3535,7 +3535,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3557,7 +3557,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3579,7 +3579,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3601,7 +3601,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3623,7 +3623,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3645,7 +3645,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3667,7 +3667,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3689,7 +3689,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3711,7 +3711,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3733,7 +3733,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3755,7 +3755,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3777,7 +3777,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3799,7 +3799,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3821,7 +3821,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3843,7 +3843,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3865,7 +3865,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3887,7 +3887,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3909,7 +3909,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3931,7 +3931,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3953,7 +3953,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3975,7 +3975,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -3997,7 +3997,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4019,7 +4019,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4041,7 +4041,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4063,7 +4063,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4085,7 +4085,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4107,7 +4107,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4129,7 +4129,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4151,7 +4151,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4173,7 +4173,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4195,7 +4195,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4217,7 +4217,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4239,7 +4239,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4261,7 +4261,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4283,7 +4283,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4305,7 +4305,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4327,7 +4327,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4349,7 +4349,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#tabSizeProperty() tabSizeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4371,7 +4371,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#textAlignmentProperty() textAlignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4393,7 +4393,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4415,7 +4415,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4437,7 +4437,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4459,7 +4459,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4481,7 +4481,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 
@@ -4503,7 +4503,7 @@ public class TextFlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.text.TextFlow#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.text.TextFlow> func) apply} method.
      * <p>
      * Example: 

@@ -115,7 +115,7 @@ public class BorderRepeatBuilder {
         return false;
     }
     /**
-     * Applies a function to the BorderRepeat instance currently being constructed.
+     * Applies a function to the BorderRepeat instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

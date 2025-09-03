@@ -143,7 +143,7 @@ public class TextAreaBuilder {
         return false;
     }
     /**
-     * Applies a function to the TextArea instance currently being constructed.
+     * Applies a function to the TextArea instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -159,8 +159,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -169,8 +169,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -179,8 +179,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -189,8 +189,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -199,8 +199,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,8 +209,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -219,8 +219,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,8 +229,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -239,8 +239,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,8 +249,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -259,8 +259,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -269,8 +269,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -279,8 +279,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -289,8 +289,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -299,8 +299,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -309,8 +309,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -319,8 +319,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setEditable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setEditable(boolean) setEditable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -329,8 +329,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -339,8 +339,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -349,8 +349,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -359,8 +359,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setFont(javafx.scene.text.Font)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -369,8 +369,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -379,8 +379,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -389,8 +389,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -399,8 +399,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -409,8 +409,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -419,8 +419,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -429,8 +429,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -439,8 +439,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -449,8 +449,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -459,8 +459,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -469,8 +469,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -479,8 +479,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -489,8 +489,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -499,8 +499,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -509,8 +509,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -519,8 +519,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -529,8 +529,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -539,8 +539,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -549,8 +549,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -559,8 +559,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -569,8 +569,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -579,8 +579,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -589,8 +589,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -599,8 +599,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -609,8 +609,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -619,8 +619,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -629,8 +629,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -639,8 +639,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -649,8 +649,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -659,8 +659,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -669,8 +669,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -679,8 +679,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -689,8 +689,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -699,8 +699,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -709,8 +709,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -719,8 +719,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -729,8 +729,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -739,8 +739,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -749,8 +749,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -759,8 +759,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -769,8 +769,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -779,8 +779,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -789,8 +789,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -799,8 +799,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -809,8 +809,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -819,8 +819,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -829,8 +829,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -839,8 +839,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -849,8 +849,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -859,8 +859,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -869,8 +869,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -879,8 +879,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -889,8 +889,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -899,8 +899,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -909,8 +909,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -919,8 +919,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -929,8 +929,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setPrefColumnCount(int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setPrefColumnCount(int) setPrefColumnCount} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -939,8 +939,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -949,8 +949,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setPrefRowCount(int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setPrefRowCount(int) setPrefRowCount} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -959,8 +959,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -969,8 +969,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -979,8 +979,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setPromptText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setPromptText(java.lang.String) setPromptText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -989,8 +989,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -999,8 +999,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1009,8 +1009,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1019,8 +1019,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1029,8 +1029,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1039,8 +1039,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1049,8 +1049,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setScrollLeft(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setScrollLeft(double) setScrollLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1059,8 +1059,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setScrollTop(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setScrollTop(double) setScrollTop} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1069,8 +1069,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1079,8 +1079,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1089,8 +1089,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1099,8 +1099,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1109,8 +1109,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setText(java.lang.String) setText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1119,8 +1119,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setTextFormatter(javafx.scene.control.TextFormatter)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setTextFormatter(javafx.scene.control.TextFormatter) setTextFormatter} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1129,8 +1129,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1139,8 +1139,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1149,8 +1149,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1159,8 +1159,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1169,8 +1169,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1179,8 +1179,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1189,8 +1189,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1199,8 +1199,8 @@ public class TextAreaBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TextArea#setWrapText(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TextArea#setWrapText(boolean) setWrapText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2223,7 +2223,7 @@ public class TextAreaBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2245,7 +2245,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2267,7 +2267,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2289,7 +2289,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2311,7 +2311,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#anchorProperty() anchorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2333,7 +2333,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2355,7 +2355,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2377,7 +2377,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2399,7 +2399,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2421,7 +2421,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2443,7 +2443,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2465,7 +2465,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2487,7 +2487,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2509,7 +2509,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#caretPositionProperty() caretPositionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2531,7 +2531,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2553,7 +2553,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2575,7 +2575,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2597,7 +2597,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2619,7 +2619,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2641,7 +2641,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2663,7 +2663,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2685,7 +2685,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#editableProperty() editableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2707,7 +2707,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2729,7 +2729,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2751,7 +2751,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2773,7 +2773,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2795,7 +2795,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2817,7 +2817,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2839,7 +2839,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2861,7 +2861,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#fontProperty() fontProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2883,7 +2883,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2905,7 +2905,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2927,7 +2927,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2949,7 +2949,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2971,7 +2971,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -2993,7 +2993,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3015,7 +3015,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3037,7 +3037,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3059,7 +3059,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#lengthProperty() lengthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3081,7 +3081,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3103,7 +3103,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3125,7 +3125,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3147,7 +3147,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3169,7 +3169,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3191,7 +3191,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3213,7 +3213,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3235,7 +3235,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3257,7 +3257,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3279,7 +3279,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3301,7 +3301,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3323,7 +3323,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3345,7 +3345,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3367,7 +3367,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3389,7 +3389,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3411,7 +3411,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3433,7 +3433,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3455,7 +3455,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3477,7 +3477,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3499,7 +3499,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3521,7 +3521,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3543,7 +3543,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3565,7 +3565,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3587,7 +3587,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3609,7 +3609,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3631,7 +3631,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3653,7 +3653,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3675,7 +3675,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3697,7 +3697,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3719,7 +3719,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3741,7 +3741,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3763,7 +3763,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3785,7 +3785,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3807,7 +3807,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3829,7 +3829,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3851,7 +3851,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3873,7 +3873,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3895,7 +3895,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3917,7 +3917,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3939,7 +3939,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3961,7 +3961,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -3983,7 +3983,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4005,7 +4005,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4027,7 +4027,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4049,7 +4049,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4071,7 +4071,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4093,7 +4093,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4115,7 +4115,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4137,7 +4137,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4159,7 +4159,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4181,7 +4181,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4203,7 +4203,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4225,7 +4225,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4247,7 +4247,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4269,7 +4269,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#prefColumnCountProperty() prefColumnCountProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4291,7 +4291,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4313,7 +4313,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#prefRowCountProperty() prefRowCountProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4335,7 +4335,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4357,7 +4357,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4379,7 +4379,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#promptTextProperty() promptTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4401,7 +4401,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#redoableProperty() redoableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4423,7 +4423,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4445,7 +4445,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4467,7 +4467,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4489,7 +4489,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4511,7 +4511,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4533,7 +4533,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4555,7 +4555,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4577,7 +4577,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#scrollLeftProperty() scrollLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4599,7 +4599,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#scrollTopProperty() scrollTopProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4621,7 +4621,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#selectedTextProperty() selectedTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4643,7 +4643,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#selectionProperty() selectionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4665,7 +4665,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4687,7 +4687,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4709,7 +4709,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4731,7 +4731,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4753,7 +4753,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#textFormatterProperty() textFormatterProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4775,7 +4775,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#textProperty() textProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4797,7 +4797,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4819,7 +4819,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4841,7 +4841,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4863,7 +4863,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4885,7 +4885,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#undoableProperty() undoableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4907,7 +4907,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4929,7 +4929,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4951,7 +4951,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 
@@ -4973,7 +4973,7 @@ public class TextAreaBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TextArea#wrapTextProperty() wrapTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TextArea> func) apply} method.
      * <p>
      * Example: 

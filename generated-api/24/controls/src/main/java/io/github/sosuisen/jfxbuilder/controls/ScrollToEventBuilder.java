@@ -131,7 +131,7 @@ public class ScrollToEventBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the ScrollToEvent instance currently being constructed.
+     * Applies a function to the ScrollToEvent instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

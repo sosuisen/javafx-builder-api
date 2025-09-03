@@ -145,7 +145,7 @@ public class LineChartBuilder<X, Y> {
         return false;
     }
     /**
-     * Applies a function to the LineChart instance currently being constructed.
+     * Applies a function to the LineChart instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -161,8 +161,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -171,8 +171,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -181,8 +181,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -191,8 +191,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -201,8 +201,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setAlternativeColumnFillVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setAlternativeColumnFillVisible(boolean) setAlternativeColumnFillVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -211,8 +211,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setAlternativeRowFillVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setAlternativeRowFillVisible(boolean) setAlternativeRowFillVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -221,8 +221,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setAnimated(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setAnimated(boolean) setAnimated} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -231,8 +231,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setAxisSortingPolicy(javafx.scene.chart.LineChart$SortingPolicy)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setAxisSortingPolicy(javafx.scene.chart.LineChart$SortingPolicy) setAxisSortingPolicy} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -241,8 +241,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -251,8 +251,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -261,8 +261,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -271,8 +271,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -281,8 +281,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -291,8 +291,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -301,8 +301,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -311,8 +311,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -321,8 +321,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setCreateSymbols(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setCreateSymbols(boolean) setCreateSymbols} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -331,8 +331,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -341,8 +341,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setData(javafx.collections.ObservableList)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setData(javafx.collections.ObservableList) setData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -351,8 +351,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -361,8 +361,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -371,8 +371,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -381,8 +381,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -391,8 +391,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -401,8 +401,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setHorizontalGridLinesVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setHorizontalGridLinesVisible(boolean) setHorizontalGridLinesVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -411,8 +411,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setHorizontalZeroLineVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setHorizontalZeroLineVisible(boolean) setHorizontalZeroLineVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -421,8 +421,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -431,8 +431,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -441,8 +441,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -451,8 +451,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -461,8 +461,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setLegendSide(javafx.geometry.Side)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setLegendSide(javafx.geometry.Side) setLegendSide} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -471,8 +471,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setLegendVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setLegendVisible(boolean) setLegendVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -481,8 +481,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -491,8 +491,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -501,8 +501,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -511,8 +511,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -521,8 +521,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -531,8 +531,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -541,8 +541,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -551,8 +551,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -561,8 +561,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -571,8 +571,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -581,8 +581,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -591,8 +591,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -601,8 +601,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -611,8 +611,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -621,8 +621,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -631,8 +631,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -641,8 +641,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -651,8 +651,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -661,8 +661,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -671,8 +671,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -681,8 +681,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -691,8 +691,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -701,8 +701,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -711,8 +711,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -721,8 +721,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -731,8 +731,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -741,8 +741,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -751,8 +751,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -761,8 +761,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -771,8 +771,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -781,8 +781,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -791,8 +791,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -801,8 +801,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -811,8 +811,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -821,8 +821,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -831,8 +831,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -841,8 +841,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -851,8 +851,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -861,8 +861,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -871,8 +871,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -881,8 +881,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -891,8 +891,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -901,8 +901,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -911,8 +911,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -921,8 +921,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -931,8 +931,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -941,8 +941,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -951,8 +951,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -961,8 +961,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -971,8 +971,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -981,8 +981,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -991,8 +991,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1001,8 +1001,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1011,8 +1011,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1021,8 +1021,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1031,8 +1031,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1041,8 +1041,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1051,8 +1051,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1061,8 +1061,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1071,8 +1071,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1081,8 +1081,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1091,8 +1091,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1101,8 +1101,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1111,8 +1111,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1121,8 +1121,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setTitle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setTitle(java.lang.String) setTitle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1131,8 +1131,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setTitleSide(javafx.geometry.Side)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setTitleSide(javafx.geometry.Side) setTitleSide} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1141,8 +1141,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1151,8 +1151,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1161,8 +1161,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1171,8 +1171,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1181,8 +1181,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setVerticalGridLinesVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setVerticalGridLinesVisible(boolean) setVerticalGridLinesVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1191,8 +1191,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setVerticalZeroLineVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setVerticalZeroLineVisible(boolean) setVerticalZeroLineVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1201,8 +1201,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1211,8 +1211,8 @@ public class LineChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.LineChart#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.LineChart#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2214,7 +2214,7 @@ public class LineChartBuilder<X, Y> {
     
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2236,7 +2236,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2258,7 +2258,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2280,7 +2280,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2302,7 +2302,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#alternativeColumnFillVisibleProperty() alternativeColumnFillVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2324,7 +2324,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#alternativeRowFillVisibleProperty() alternativeRowFillVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2346,7 +2346,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#animatedProperty() animatedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2368,7 +2368,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#axisSortingPolicyProperty() axisSortingPolicyProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2390,7 +2390,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2412,7 +2412,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2434,7 +2434,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2456,7 +2456,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2478,7 +2478,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2500,7 +2500,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2522,7 +2522,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2544,7 +2544,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2566,7 +2566,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2588,7 +2588,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2610,7 +2610,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#createSymbolsProperty() createSymbolsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2632,7 +2632,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2654,7 +2654,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#dataProperty() dataProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2676,7 +2676,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2698,7 +2698,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2720,7 +2720,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2742,7 +2742,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2764,7 +2764,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2786,7 +2786,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2808,7 +2808,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2830,7 +2830,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2852,7 +2852,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2874,7 +2874,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2896,7 +2896,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2918,7 +2918,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#horizontalGridLinesVisibleProperty() horizontalGridLinesVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2940,7 +2940,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#horizontalZeroLineVisibleProperty() horizontalZeroLineVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2962,7 +2962,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2984,7 +2984,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3006,7 +3006,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3028,7 +3028,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3050,7 +3050,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3072,7 +3072,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3094,7 +3094,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3116,7 +3116,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#legendSideProperty() legendSideProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3138,7 +3138,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#legendVisibleProperty() legendVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3160,7 +3160,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3182,7 +3182,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3204,7 +3204,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3226,7 +3226,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3248,7 +3248,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3270,7 +3270,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3292,7 +3292,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3314,7 +3314,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3336,7 +3336,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3358,7 +3358,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3380,7 +3380,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3402,7 +3402,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3424,7 +3424,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3446,7 +3446,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3468,7 +3468,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3490,7 +3490,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3512,7 +3512,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3534,7 +3534,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3556,7 +3556,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3578,7 +3578,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3600,7 +3600,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3622,7 +3622,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3644,7 +3644,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3666,7 +3666,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3688,7 +3688,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3710,7 +3710,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3732,7 +3732,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3754,7 +3754,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3776,7 +3776,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3798,7 +3798,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3820,7 +3820,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3842,7 +3842,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3864,7 +3864,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3886,7 +3886,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3908,7 +3908,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3930,7 +3930,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3952,7 +3952,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3974,7 +3974,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3996,7 +3996,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4018,7 +4018,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4040,7 +4040,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4062,7 +4062,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4084,7 +4084,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4106,7 +4106,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4128,7 +4128,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4150,7 +4150,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4172,7 +4172,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4194,7 +4194,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4216,7 +4216,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4238,7 +4238,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4260,7 +4260,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4282,7 +4282,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4304,7 +4304,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4326,7 +4326,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4348,7 +4348,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4370,7 +4370,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4392,7 +4392,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4414,7 +4414,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4436,7 +4436,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4458,7 +4458,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4480,7 +4480,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4502,7 +4502,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4524,7 +4524,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4546,7 +4546,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4568,7 +4568,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4590,7 +4590,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4612,7 +4612,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4634,7 +4634,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#titleProperty() titleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4656,7 +4656,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#titleSideProperty() titleSideProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4678,7 +4678,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4700,7 +4700,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4722,7 +4722,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4744,7 +4744,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#verticalGridLinesVisibleProperty() verticalGridLinesVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4766,7 +4766,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#verticalZeroLineVisibleProperty() verticalZeroLineVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4788,7 +4788,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4810,7 +4810,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4832,7 +4832,7 @@ public class LineChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.LineChart#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.LineChart<X, Y>> func) apply} method.
      * <p>
      * Example: 

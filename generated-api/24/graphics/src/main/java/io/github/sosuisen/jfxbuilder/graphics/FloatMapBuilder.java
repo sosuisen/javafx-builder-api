@@ -143,7 +143,7 @@ public class FloatMapBuilder {
         return false;
     }
     /**
-     * Applies a function to the FloatMap instance currently being constructed.
+     * Applies a function to the FloatMap instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -154,8 +154,8 @@ public class FloatMapBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.FloatMap#setHeight(int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.FloatMap#setHeight(int) setHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -164,8 +164,8 @@ public class FloatMapBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.FloatMap#setSample(int, int, int, float)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.FloatMap#setSample(int, int, int, float) setSample} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -174,8 +174,8 @@ public class FloatMapBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.FloatMap#setSamples(int, int, float)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.FloatMap#setSamples(int, int, float) setSamples} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -184,8 +184,8 @@ public class FloatMapBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.FloatMap#setSamples(int, int, float, float)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.FloatMap#setSamples(int, int, float, float) setSamples} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -194,8 +194,8 @@ public class FloatMapBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.FloatMap#setSamples(int, int, float, float, float)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.FloatMap#setSamples(int, int, float, float, float) setSamples} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -204,8 +204,8 @@ public class FloatMapBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.FloatMap#setSamples(int, int, float, float, float, float)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.FloatMap#setSamples(int, int, float, float, float, float) setSamples} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -214,8 +214,8 @@ public class FloatMapBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.FloatMap#setWidth(int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.FloatMap#setWidth(int) setWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -225,7 +225,7 @@ public class FloatMapBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.FloatMap#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.FloatMap> func) apply} method.
      * <p>
      * Example: 
@@ -247,7 +247,7 @@ public class FloatMapBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.FloatMap#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.FloatMap> func) apply} method.
      * <p>
      * Example: 

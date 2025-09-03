@@ -115,7 +115,7 @@ public class AudioEqualizerBuilder {
         return false;
     }
     /**
-     * Applies a function to the AudioEqualizer instance currently being constructed.
+     * Applies a function to the AudioEqualizer instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -126,8 +126,8 @@ public class AudioEqualizerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.media.AudioEqualizer#setEnabled(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.media.AudioEqualizer#setEnabled(boolean) setEnabled} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -164,7 +164,7 @@ public class AudioEqualizerBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.media.AudioEqualizer#enabledProperty() enabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.media.AudioEqualizer> func) apply} method.
      * <p>
      * Example: 

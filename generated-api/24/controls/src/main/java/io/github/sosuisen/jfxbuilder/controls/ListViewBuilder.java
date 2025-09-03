@@ -145,7 +145,7 @@ public class ListViewBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the ListView instance currently being constructed.
+     * Applies a function to the ListView instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -161,8 +161,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -171,8 +171,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -181,8 +181,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -191,8 +191,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -201,8 +201,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -211,8 +211,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -221,8 +221,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -231,8 +231,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -241,8 +241,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -251,8 +251,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -261,8 +261,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setCellFactory(javafx.util.Callback)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setCellFactory(javafx.util.Callback) setCellFactory} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -271,8 +271,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -281,8 +281,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -291,8 +291,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -301,8 +301,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -311,8 +311,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -321,8 +321,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -331,8 +331,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setEditable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setEditable(boolean) setEditable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -341,8 +341,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -351,8 +351,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -361,8 +361,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setFixedCellSize(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setFixedCellSize(double) setFixedCellSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -371,8 +371,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setFocusModel(javafx.scene.control.FocusModel)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setFocusModel(javafx.scene.control.FocusModel) setFocusModel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -381,8 +381,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -391,8 +391,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -401,8 +401,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -411,8 +411,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setItems(javafx.collections.ObservableList)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setItems(javafx.collections.ObservableList) setItems} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -421,8 +421,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -431,8 +431,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -441,8 +441,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -451,8 +451,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -461,8 +461,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -471,8 +471,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -481,8 +481,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -491,8 +491,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -501,8 +501,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -511,8 +511,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -521,8 +521,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -531,8 +531,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -541,8 +541,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -551,8 +551,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -561,8 +561,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -571,8 +571,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -581,8 +581,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -591,8 +591,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -601,8 +601,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnEditCancel(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnEditCancel(javafx.event.EventHandler) setOnEditCancel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -611,8 +611,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnEditCommit(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnEditCommit(javafx.event.EventHandler) setOnEditCommit} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -621,8 +621,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnEditStart(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnEditStart(javafx.event.EventHandler) setOnEditStart} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -631,8 +631,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -641,8 +641,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -651,8 +651,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -661,8 +661,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -671,8 +671,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -681,8 +681,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -691,8 +691,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -701,8 +701,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -711,8 +711,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -721,8 +721,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -731,8 +731,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -741,8 +741,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -751,8 +751,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -761,8 +761,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -771,8 +771,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -781,8 +781,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -791,8 +791,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -801,8 +801,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -811,8 +811,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -821,8 +821,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -831,8 +831,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -841,8 +841,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnScrollTo(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnScrollTo(javafx.event.EventHandler) setOnScrollTo} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -851,8 +851,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -861,8 +861,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -871,8 +871,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -881,8 +881,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -891,8 +891,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -901,8 +901,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -911,8 +911,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -921,8 +921,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -931,8 +931,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -941,8 +941,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -951,8 +951,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -961,8 +961,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -971,8 +971,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -981,8 +981,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setOrientation(javafx.geometry.Orientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setOrientation(javafx.geometry.Orientation) setOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -991,8 +991,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1001,8 +1001,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1011,8 +1011,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setPlaceholder(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setPlaceholder(javafx.scene.Node) setPlaceholder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1021,8 +1021,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1031,8 +1031,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1041,8 +1041,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1051,8 +1051,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1061,8 +1061,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1071,8 +1071,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1081,8 +1081,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1091,8 +1091,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1101,8 +1101,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1111,8 +1111,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setSelectionModel(javafx.scene.control.MultipleSelectionModel)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setSelectionModel(javafx.scene.control.MultipleSelectionModel) setSelectionModel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1121,8 +1121,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1131,8 +1131,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1141,8 +1141,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1151,8 +1151,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1161,8 +1161,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1171,8 +1171,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1181,8 +1181,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1191,8 +1191,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1201,8 +1201,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1211,8 +1211,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1221,8 +1221,8 @@ public class ListViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ListView#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ListView#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2245,7 +2245,7 @@ public class ListViewBuilder<T> {
     
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2267,7 +2267,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2289,7 +2289,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2311,7 +2311,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2333,7 +2333,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2355,7 +2355,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2377,7 +2377,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2399,7 +2399,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2421,7 +2421,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2443,7 +2443,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2465,7 +2465,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2487,7 +2487,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2509,7 +2509,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#cellFactoryProperty() cellFactoryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2531,7 +2531,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2553,7 +2553,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2575,7 +2575,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2597,7 +2597,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2619,7 +2619,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2641,7 +2641,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2663,7 +2663,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2685,7 +2685,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#editableProperty() editableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2707,7 +2707,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#editingIndexProperty() editingIndexProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2729,7 +2729,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2751,7 +2751,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2773,7 +2773,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2795,7 +2795,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#fixedCellSizeProperty() fixedCellSizeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2817,7 +2817,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#focusModelProperty() focusModelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2839,7 +2839,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2861,7 +2861,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2883,7 +2883,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2905,7 +2905,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2927,7 +2927,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2949,7 +2949,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2971,7 +2971,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2993,7 +2993,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3015,7 +3015,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3037,7 +3037,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#itemsProperty() itemsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3059,7 +3059,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3081,7 +3081,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3103,7 +3103,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3125,7 +3125,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3147,7 +3147,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3169,7 +3169,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3191,7 +3191,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3213,7 +3213,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3235,7 +3235,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3257,7 +3257,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3279,7 +3279,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3301,7 +3301,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3323,7 +3323,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3345,7 +3345,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3367,7 +3367,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3389,7 +3389,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3411,7 +3411,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3433,7 +3433,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3455,7 +3455,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3477,7 +3477,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3499,7 +3499,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onEditCancelProperty() onEditCancelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3521,7 +3521,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onEditCommitProperty() onEditCommitProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3543,7 +3543,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onEditStartProperty() onEditStartProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3565,7 +3565,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3587,7 +3587,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3609,7 +3609,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3631,7 +3631,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3653,7 +3653,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3675,7 +3675,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3697,7 +3697,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3719,7 +3719,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3741,7 +3741,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3763,7 +3763,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3785,7 +3785,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3807,7 +3807,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3829,7 +3829,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3851,7 +3851,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3873,7 +3873,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3895,7 +3895,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3917,7 +3917,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3939,7 +3939,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3961,7 +3961,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3983,7 +3983,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4005,7 +4005,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4027,7 +4027,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onScrollToProperty() onScrollToProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4049,7 +4049,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4071,7 +4071,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4093,7 +4093,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4115,7 +4115,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4137,7 +4137,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4159,7 +4159,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4181,7 +4181,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4203,7 +4203,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4225,7 +4225,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4247,7 +4247,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4269,7 +4269,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4291,7 +4291,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4313,7 +4313,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4335,7 +4335,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#orientationProperty() orientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4357,7 +4357,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4379,7 +4379,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4401,7 +4401,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4423,7 +4423,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#placeholderProperty() placeholderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4445,7 +4445,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4467,7 +4467,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4489,7 +4489,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4511,7 +4511,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4533,7 +4533,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4555,7 +4555,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4577,7 +4577,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4599,7 +4599,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4621,7 +4621,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4643,7 +4643,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4665,7 +4665,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#selectionModelProperty() selectionModelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4687,7 +4687,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4709,7 +4709,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4731,7 +4731,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4753,7 +4753,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4775,7 +4775,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4797,7 +4797,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4819,7 +4819,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4841,7 +4841,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4863,7 +4863,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4885,7 +4885,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4907,7 +4907,7 @@ public class ListViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ListView#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ListView<T>> func) apply} method.
      * <p>
      * Example: 

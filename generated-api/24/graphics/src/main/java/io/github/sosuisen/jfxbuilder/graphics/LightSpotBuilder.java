@@ -143,7 +143,7 @@ public class LightSpotBuilder {
         return false;
     }
     /**
-     * Applies a function to the Spot instance currently being constructed.
+     * Applies a function to the Spot instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -154,8 +154,8 @@ public class LightSpotBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Light.Spot#setColor(javafx.scene.paint.Color)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Light.Spot#setColor(javafx.scene.paint.Color) setColor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -164,8 +164,8 @@ public class LightSpotBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Light.Spot#setPointsAtX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Light.Spot#setPointsAtX(double) setPointsAtX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -174,8 +174,8 @@ public class LightSpotBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Light.Spot#setPointsAtY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Light.Spot#setPointsAtY(double) setPointsAtY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -184,8 +184,8 @@ public class LightSpotBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Light.Spot#setPointsAtZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Light.Spot#setPointsAtZ(double) setPointsAtZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -194,8 +194,8 @@ public class LightSpotBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Light.Spot#setSpecularExponent(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Light.Spot#setSpecularExponent(double) setSpecularExponent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -204,8 +204,8 @@ public class LightSpotBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Light.Spot#setX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Light.Spot#setX(double) setX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -214,8 +214,8 @@ public class LightSpotBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Light.Spot#setY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Light.Spot#setY(double) setY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -224,8 +224,8 @@ public class LightSpotBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Light.Spot#setZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Light.Spot#setZ(double) setZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -235,7 +235,7 @@ public class LightSpotBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Spot#colorProperty() colorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
      * <p>
      * Example: 
@@ -257,7 +257,7 @@ public class LightSpotBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Spot#pointsAtXProperty() pointsAtXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
      * <p>
      * Example: 
@@ -279,7 +279,7 @@ public class LightSpotBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Spot#pointsAtYProperty() pointsAtYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
      * <p>
      * Example: 
@@ -301,7 +301,7 @@ public class LightSpotBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Spot#pointsAtZProperty() pointsAtZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
      * <p>
      * Example: 
@@ -323,7 +323,7 @@ public class LightSpotBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Spot#specularExponentProperty() specularExponentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
      * <p>
      * Example: 
@@ -345,7 +345,7 @@ public class LightSpotBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Spot#xProperty() xProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
      * <p>
      * Example: 
@@ -367,7 +367,7 @@ public class LightSpotBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Spot#yProperty() yProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
      * <p>
      * Example: 
@@ -389,7 +389,7 @@ public class LightSpotBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Light.Spot#zProperty() zProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Light.Spot> func) apply} method.
      * <p>
      * Example: 

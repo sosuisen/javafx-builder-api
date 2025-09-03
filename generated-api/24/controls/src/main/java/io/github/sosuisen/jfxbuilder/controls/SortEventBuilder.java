@@ -131,7 +131,7 @@ public class SortEventBuilder<C> {
         return false;
     }
     /**
-     * Applies a function to the SortEvent instance currently being constructed.
+     * Applies a function to the SortEvent instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

@@ -171,7 +171,7 @@ public class ColumnConstraintsBuilder {
         return false;
     }
     /**
-     * Applies a function to the ColumnConstraints instance currently being constructed.
+     * Applies a function to the ColumnConstraints instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -182,8 +182,8 @@ public class ColumnConstraintsBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.ColumnConstraints#setFillWidth(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.ColumnConstraints#setFillWidth(boolean) setFillWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -192,8 +192,8 @@ public class ColumnConstraintsBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.ColumnConstraints#setHalignment(javafx.geometry.HPos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.ColumnConstraints#setHalignment(javafx.geometry.HPos) setHalignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -202,8 +202,8 @@ public class ColumnConstraintsBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.ColumnConstraints#setHgrow(javafx.scene.layout.Priority)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.ColumnConstraints#setHgrow(javafx.scene.layout.Priority) setHgrow} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -212,8 +212,8 @@ public class ColumnConstraintsBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.ColumnConstraints#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.ColumnConstraints#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -222,8 +222,8 @@ public class ColumnConstraintsBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.ColumnConstraints#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.ColumnConstraints#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -232,8 +232,8 @@ public class ColumnConstraintsBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.ColumnConstraints#setPercentWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.ColumnConstraints#setPercentWidth(double) setPercentWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -242,8 +242,8 @@ public class ColumnConstraintsBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.ColumnConstraints#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.ColumnConstraints#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -253,7 +253,7 @@ public class ColumnConstraintsBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#fillWidthProperty() fillWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.ColumnConstraints> func) apply} method.
      * <p>
      * Example: 
@@ -275,7 +275,7 @@ public class ColumnConstraintsBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#halignmentProperty() halignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.ColumnConstraints> func) apply} method.
      * <p>
      * Example: 
@@ -297,7 +297,7 @@ public class ColumnConstraintsBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#hgrowProperty() hgrowProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.ColumnConstraints> func) apply} method.
      * <p>
      * Example: 
@@ -319,7 +319,7 @@ public class ColumnConstraintsBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.ColumnConstraints> func) apply} method.
      * <p>
      * Example: 
@@ -341,7 +341,7 @@ public class ColumnConstraintsBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.ColumnConstraints> func) apply} method.
      * <p>
      * Example: 
@@ -363,7 +363,7 @@ public class ColumnConstraintsBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#percentWidthProperty() percentWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.ColumnConstraints> func) apply} method.
      * <p>
      * Example: 
@@ -385,7 +385,7 @@ public class ColumnConstraintsBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.ColumnConstraints#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.ColumnConstraints> func) apply} method.
      * <p>
      * Example: 

@@ -145,7 +145,7 @@ public class TreeViewBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the TreeView instance currently being constructed.
+     * Applies a function to the TreeView instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -161,8 +161,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -171,8 +171,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -181,8 +181,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -191,8 +191,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -201,8 +201,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -211,8 +211,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -221,8 +221,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -231,8 +231,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -241,8 +241,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -251,8 +251,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -261,8 +261,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setCellFactory(javafx.util.Callback)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setCellFactory(javafx.util.Callback) setCellFactory} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -271,8 +271,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -281,8 +281,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -291,8 +291,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -301,8 +301,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -311,8 +311,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -321,8 +321,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -331,8 +331,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setEditable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setEditable(boolean) setEditable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -341,8 +341,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -351,8 +351,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -361,8 +361,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setFixedCellSize(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setFixedCellSize(double) setFixedCellSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -371,8 +371,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setFocusModel(javafx.scene.control.FocusModel)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setFocusModel(javafx.scene.control.FocusModel) setFocusModel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -381,8 +381,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -391,8 +391,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -401,8 +401,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -411,8 +411,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -421,8 +421,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -431,8 +431,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -441,8 +441,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -451,8 +451,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -461,8 +461,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -471,8 +471,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -481,8 +481,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -491,8 +491,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -501,8 +501,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -511,8 +511,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -521,8 +521,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -531,8 +531,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -541,8 +541,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -551,8 +551,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -561,8 +561,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -571,8 +571,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -581,8 +581,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -591,8 +591,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnEditCancel(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnEditCancel(javafx.event.EventHandler) setOnEditCancel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -601,8 +601,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnEditCommit(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnEditCommit(javafx.event.EventHandler) setOnEditCommit} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -611,8 +611,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnEditStart(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnEditStart(javafx.event.EventHandler) setOnEditStart} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -621,8 +621,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -631,8 +631,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -641,8 +641,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -651,8 +651,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -661,8 +661,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -671,8 +671,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -681,8 +681,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -691,8 +691,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -701,8 +701,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -711,8 +711,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -721,8 +721,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -731,8 +731,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -741,8 +741,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -751,8 +751,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -761,8 +761,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -771,8 +771,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -781,8 +781,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -791,8 +791,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -801,8 +801,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -811,8 +811,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -821,8 +821,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -831,8 +831,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnScrollTo(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnScrollTo(javafx.event.EventHandler) setOnScrollTo} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -841,8 +841,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -851,8 +851,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -861,8 +861,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -871,8 +871,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -881,8 +881,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -891,8 +891,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -901,8 +901,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -911,8 +911,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -921,8 +921,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -931,8 +931,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -941,8 +941,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -951,8 +951,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -961,8 +961,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -971,8 +971,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -981,8 +981,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -991,8 +991,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1001,8 +1001,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1011,8 +1011,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1021,8 +1021,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setRoot(javafx.scene.control.TreeItem)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setRoot(javafx.scene.control.TreeItem) setRoot} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1031,8 +1031,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1041,8 +1041,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1051,8 +1051,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1061,8 +1061,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1071,8 +1071,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1081,8 +1081,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1091,8 +1091,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setSelectionModel(javafx.scene.control.MultipleSelectionModel)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setSelectionModel(javafx.scene.control.MultipleSelectionModel) setSelectionModel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1101,8 +1101,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1111,8 +1111,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setShowRoot(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setShowRoot(boolean) setShowRoot} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1121,8 +1121,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1131,8 +1131,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1141,8 +1141,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1151,8 +1151,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1161,8 +1161,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1171,8 +1171,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1181,8 +1181,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1191,8 +1191,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1201,8 +1201,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1211,8 +1211,8 @@ public class TreeViewBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TreeView#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TreeView#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2187,7 +2187,7 @@ public class TreeViewBuilder<T> {
     
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2209,7 +2209,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2231,7 +2231,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2253,7 +2253,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2275,7 +2275,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2297,7 +2297,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2319,7 +2319,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2341,7 +2341,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2363,7 +2363,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2385,7 +2385,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2407,7 +2407,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2429,7 +2429,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2451,7 +2451,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#cellFactoryProperty() cellFactoryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2473,7 +2473,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2495,7 +2495,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2517,7 +2517,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2539,7 +2539,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2561,7 +2561,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2583,7 +2583,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2605,7 +2605,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2627,7 +2627,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#editableProperty() editableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2649,7 +2649,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#editingItemProperty() editingItemProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2671,7 +2671,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2693,7 +2693,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2715,7 +2715,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2737,7 +2737,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#expandedItemCountProperty() expandedItemCountProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2759,7 +2759,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#fixedCellSizeProperty() fixedCellSizeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2781,7 +2781,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#focusModelProperty() focusModelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2803,7 +2803,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2825,7 +2825,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2847,7 +2847,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2869,7 +2869,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2891,7 +2891,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2913,7 +2913,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2935,7 +2935,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2957,7 +2957,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2979,7 +2979,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3001,7 +3001,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3023,7 +3023,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3045,7 +3045,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3067,7 +3067,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3089,7 +3089,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3111,7 +3111,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3133,7 +3133,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3155,7 +3155,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3177,7 +3177,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3199,7 +3199,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3221,7 +3221,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3243,7 +3243,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3265,7 +3265,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3287,7 +3287,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3309,7 +3309,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3331,7 +3331,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3353,7 +3353,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3375,7 +3375,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3397,7 +3397,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3419,7 +3419,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3441,7 +3441,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onEditCancelProperty() onEditCancelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3463,7 +3463,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onEditCommitProperty() onEditCommitProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3485,7 +3485,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onEditStartProperty() onEditStartProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3507,7 +3507,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3529,7 +3529,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3551,7 +3551,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3573,7 +3573,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3595,7 +3595,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3617,7 +3617,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3639,7 +3639,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3661,7 +3661,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3683,7 +3683,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3705,7 +3705,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3727,7 +3727,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3749,7 +3749,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3771,7 +3771,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3793,7 +3793,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3815,7 +3815,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3837,7 +3837,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3859,7 +3859,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3881,7 +3881,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3903,7 +3903,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3925,7 +3925,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3947,7 +3947,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3969,7 +3969,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onScrollToProperty() onScrollToProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3991,7 +3991,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4013,7 +4013,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4035,7 +4035,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4057,7 +4057,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4079,7 +4079,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4101,7 +4101,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4123,7 +4123,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4145,7 +4145,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4167,7 +4167,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4189,7 +4189,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4211,7 +4211,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4233,7 +4233,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4255,7 +4255,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4277,7 +4277,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4299,7 +4299,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4321,7 +4321,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4343,7 +4343,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4365,7 +4365,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4387,7 +4387,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4409,7 +4409,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#rootProperty() rootProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4431,7 +4431,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4453,7 +4453,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4475,7 +4475,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4497,7 +4497,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4519,7 +4519,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4541,7 +4541,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4563,7 +4563,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4585,7 +4585,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#selectionModelProperty() selectionModelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4607,7 +4607,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4629,7 +4629,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#showRootProperty() showRootProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4651,7 +4651,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4673,7 +4673,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4695,7 +4695,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4717,7 +4717,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4739,7 +4739,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4761,7 +4761,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4783,7 +4783,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4805,7 +4805,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4827,7 +4827,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4849,7 +4849,7 @@ public class TreeViewBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeView#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeView<T>> func) apply} method.
      * <p>
      * Example: 

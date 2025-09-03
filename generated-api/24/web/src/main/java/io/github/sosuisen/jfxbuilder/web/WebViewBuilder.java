@@ -129,7 +129,7 @@ public class WebViewBuilder {
         return false;
     }
     /**
-     * Applies a function to the WebView instance currently being constructed.
+     * Applies a function to the WebView instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -145,8 +145,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -155,8 +155,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -165,8 +165,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -175,8 +175,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -185,8 +185,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -195,8 +195,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -205,8 +205,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -215,8 +215,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -225,8 +225,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setContextMenuEnabled(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setContextMenuEnabled(boolean) setContextMenuEnabled} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -235,8 +235,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -245,8 +245,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -255,8 +255,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -265,8 +265,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -275,8 +275,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -285,8 +285,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -295,8 +295,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setFontScale(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setFontScale(double) setFontScale} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -305,8 +305,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setFontSmoothingType(javafx.scene.text.FontSmoothingType)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setFontSmoothingType(javafx.scene.text.FontSmoothingType) setFontSmoothingType} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -315,8 +315,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -325,8 +325,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -335,8 +335,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -345,8 +345,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -355,8 +355,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -365,8 +365,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -375,8 +375,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -385,8 +385,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -395,8 +395,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -405,8 +405,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -415,8 +415,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -425,8 +425,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -435,8 +435,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -445,8 +445,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -455,8 +455,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -465,8 +465,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -475,8 +475,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -485,8 +485,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -495,8 +495,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -505,8 +505,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -515,8 +515,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -525,8 +525,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -535,8 +535,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -545,8 +545,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -555,8 +555,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -565,8 +565,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -575,8 +575,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -585,8 +585,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -595,8 +595,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -605,8 +605,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -615,8 +615,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -625,8 +625,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -635,8 +635,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -645,8 +645,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -655,8 +655,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -665,8 +665,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -675,8 +675,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -685,8 +685,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -695,8 +695,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -705,8 +705,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -715,8 +715,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -725,8 +725,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -735,8 +735,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -745,8 +745,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -755,8 +755,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -765,8 +765,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -775,8 +775,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -785,8 +785,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -795,8 +795,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -805,8 +805,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -815,8 +815,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -825,8 +825,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -835,8 +835,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -845,8 +845,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setPageFill(javafx.scene.paint.Color)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setPageFill(javafx.scene.paint.Color) setPageFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -855,8 +855,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -865,8 +865,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -875,8 +875,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -885,8 +885,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -895,8 +895,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -905,8 +905,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -915,8 +915,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -925,8 +925,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -935,8 +935,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -945,8 +945,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -955,8 +955,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -965,8 +965,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -975,8 +975,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -985,8 +985,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -995,8 +995,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1005,8 +1005,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1015,8 +1015,8 @@ public class WebViewBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.WebView#setZoom(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.WebView#setZoom(double) setZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1991,7 +1991,7 @@ public class WebViewBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2013,7 +2013,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2035,7 +2035,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2057,7 +2057,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2079,7 +2079,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2101,7 +2101,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2123,7 +2123,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2145,7 +2145,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2167,7 +2167,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2189,7 +2189,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2211,7 +2211,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#contextMenuEnabledProperty() contextMenuEnabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2233,7 +2233,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2255,7 +2255,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2277,7 +2277,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2299,7 +2299,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2321,7 +2321,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2343,7 +2343,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2365,7 +2365,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2387,7 +2387,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2409,7 +2409,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2431,7 +2431,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2453,7 +2453,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2475,7 +2475,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#fontScaleProperty() fontScaleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2497,7 +2497,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#fontSmoothingTypeProperty() fontSmoothingTypeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2519,7 +2519,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2541,7 +2541,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2563,7 +2563,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2585,7 +2585,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2607,7 +2607,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2629,7 +2629,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2651,7 +2651,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2673,7 +2673,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2695,7 +2695,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2717,7 +2717,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2739,7 +2739,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2761,7 +2761,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2783,7 +2783,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2805,7 +2805,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2827,7 +2827,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2849,7 +2849,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2871,7 +2871,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2893,7 +2893,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2915,7 +2915,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2937,7 +2937,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2959,7 +2959,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -2981,7 +2981,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3003,7 +3003,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3025,7 +3025,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3047,7 +3047,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3069,7 +3069,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3091,7 +3091,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3113,7 +3113,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3135,7 +3135,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3157,7 +3157,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3179,7 +3179,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3201,7 +3201,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3223,7 +3223,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3245,7 +3245,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3267,7 +3267,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3289,7 +3289,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3311,7 +3311,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3333,7 +3333,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3355,7 +3355,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3377,7 +3377,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3399,7 +3399,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3421,7 +3421,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3443,7 +3443,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3465,7 +3465,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3487,7 +3487,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3509,7 +3509,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3531,7 +3531,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3553,7 +3553,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3575,7 +3575,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3597,7 +3597,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3619,7 +3619,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3641,7 +3641,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3663,7 +3663,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3685,7 +3685,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3707,7 +3707,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3729,7 +3729,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3751,7 +3751,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3773,7 +3773,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#pageFillProperty() pageFillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3795,7 +3795,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3817,7 +3817,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3839,7 +3839,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3861,7 +3861,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3883,7 +3883,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3905,7 +3905,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3927,7 +3927,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3949,7 +3949,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3971,7 +3971,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -3993,7 +3993,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -4015,7 +4015,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -4037,7 +4037,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -4059,7 +4059,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -4081,7 +4081,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -4103,7 +4103,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -4125,7 +4125,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -4147,7 +4147,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -4169,7 +4169,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 
@@ -4191,7 +4191,7 @@ public class WebViewBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.WebView#zoomProperty() zoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.WebView> func) apply} method.
      * <p>
      * Example: 

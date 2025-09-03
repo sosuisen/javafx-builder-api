@@ -171,7 +171,7 @@ public class MenuButtonBuilder {
         return false;
     }
     /**
-     * Applies a function to the MenuButton instance currently being constructed.
+     * Applies a function to the MenuButton instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -187,8 +187,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -197,8 +197,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -207,8 +207,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -217,8 +217,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -227,8 +227,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setAlignment(javafx.geometry.Pos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -237,8 +237,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -247,8 +247,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -257,8 +257,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -267,8 +267,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -277,8 +277,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -287,8 +287,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -297,8 +297,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -307,8 +307,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -317,8 +317,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setContentDisplay(javafx.scene.control.ContentDisplay)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -327,8 +327,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -337,8 +337,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -347,8 +347,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -357,8 +357,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -367,8 +367,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -377,8 +377,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setEllipsisString(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -387,8 +387,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -397,8 +397,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -407,8 +407,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setFont(javafx.scene.text.Font)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -417,8 +417,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setGraphic(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -427,8 +427,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setGraphicTextGap(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -437,8 +437,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -447,8 +447,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -457,8 +457,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -467,8 +467,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -477,8 +477,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setLineSpacing(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -487,8 +487,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -497,8 +497,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -507,8 +507,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -517,8 +517,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -527,8 +527,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -537,8 +537,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -547,8 +547,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -557,8 +557,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setMnemonicParsing(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -567,8 +567,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -577,8 +577,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -587,8 +587,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnAction(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -597,8 +597,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -607,8 +607,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -617,8 +617,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -627,8 +627,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -637,8 +637,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -647,8 +647,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -657,8 +657,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -667,8 +667,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnHidden(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -677,8 +677,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnHiding(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -687,8 +687,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -697,8 +697,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -707,8 +707,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -717,8 +717,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -727,8 +727,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -737,8 +737,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -747,8 +747,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -757,8 +757,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -767,8 +767,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -777,8 +777,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -787,8 +787,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -797,8 +797,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -807,8 +807,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -817,8 +817,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -827,8 +827,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -837,8 +837,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -847,8 +847,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -857,8 +857,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -867,8 +867,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -877,8 +877,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -887,8 +887,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -897,8 +897,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnShowing(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -907,8 +907,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnShown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -917,8 +917,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -927,8 +927,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -937,8 +937,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -947,8 +947,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -957,8 +957,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -967,8 +967,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -977,8 +977,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -987,8 +987,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -997,8 +997,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1007,8 +1007,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1017,8 +1017,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1027,8 +1027,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1037,8 +1037,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1047,8 +1047,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1057,8 +1057,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1067,8 +1067,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setPopupSide(javafx.geometry.Side)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setPopupSide(javafx.geometry.Side) setPopupSide} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1077,8 +1077,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1087,8 +1087,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1097,8 +1097,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1107,8 +1107,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1117,8 +1117,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1127,8 +1127,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1137,8 +1137,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1147,8 +1147,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1157,8 +1157,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1167,8 +1167,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1177,8 +1177,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1187,8 +1187,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1197,8 +1197,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1207,8 +1207,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setText(java.lang.String) setText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1217,8 +1217,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setTextAlignment(javafx.scene.text.TextAlignment)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1227,8 +1227,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setTextFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1237,8 +1237,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setTextOverrun(javafx.scene.control.OverrunStyle)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1247,8 +1247,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1257,8 +1257,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1267,8 +1267,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1277,8 +1277,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1287,8 +1287,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setUnderline(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setUnderline(boolean) setUnderline} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1297,8 +1297,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1307,8 +1307,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1317,8 +1317,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1327,8 +1327,8 @@ public class MenuButtonBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.MenuButton#setWrapText(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.MenuButton#setWrapText(boolean) setWrapText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2351,7 +2351,7 @@ public class MenuButtonBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2373,7 +2373,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2395,7 +2395,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2417,7 +2417,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2439,7 +2439,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#alignmentProperty() alignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2461,7 +2461,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#armedProperty() armedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2483,7 +2483,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2505,7 +2505,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2527,7 +2527,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2549,7 +2549,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2571,7 +2571,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2593,7 +2593,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2615,7 +2615,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2637,7 +2637,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2659,7 +2659,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2681,7 +2681,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2703,7 +2703,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#contentDisplayProperty() contentDisplayProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2725,7 +2725,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2747,7 +2747,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2769,7 +2769,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2791,7 +2791,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2813,7 +2813,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2835,7 +2835,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2857,7 +2857,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2879,7 +2879,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#ellipsisStringProperty() ellipsisStringProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2901,7 +2901,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2923,7 +2923,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2945,7 +2945,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2967,7 +2967,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -2989,7 +2989,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3011,7 +3011,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#fontProperty() fontProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3033,7 +3033,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#graphicProperty() graphicProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3055,7 +3055,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#graphicTextGapProperty() graphicTextGapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3077,7 +3077,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3099,7 +3099,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3121,7 +3121,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3143,7 +3143,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3165,7 +3165,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3187,7 +3187,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#labelPaddingProperty() labelPaddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3209,7 +3209,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3231,7 +3231,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3253,7 +3253,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3275,7 +3275,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#lineSpacingProperty() lineSpacingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3297,7 +3297,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3319,7 +3319,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3341,7 +3341,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3363,7 +3363,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3385,7 +3385,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3407,7 +3407,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3429,7 +3429,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3451,7 +3451,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#mnemonicParsingProperty() mnemonicParsingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3473,7 +3473,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3495,7 +3495,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3517,7 +3517,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3539,7 +3539,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onActionProperty() onActionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3561,7 +3561,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3583,7 +3583,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3605,7 +3605,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3627,7 +3627,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3649,7 +3649,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3671,7 +3671,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3693,7 +3693,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3715,7 +3715,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onHiddenProperty() onHiddenProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3737,7 +3737,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onHidingProperty() onHidingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3759,7 +3759,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3781,7 +3781,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3803,7 +3803,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3825,7 +3825,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3847,7 +3847,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3869,7 +3869,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3891,7 +3891,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3913,7 +3913,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3935,7 +3935,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3957,7 +3957,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -3979,7 +3979,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4001,7 +4001,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4023,7 +4023,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4045,7 +4045,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4067,7 +4067,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4089,7 +4089,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4111,7 +4111,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4133,7 +4133,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4155,7 +4155,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4177,7 +4177,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4199,7 +4199,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4221,7 +4221,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onShowingProperty() onShowingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4243,7 +4243,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onShownProperty() onShownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4265,7 +4265,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4287,7 +4287,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4309,7 +4309,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4331,7 +4331,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4353,7 +4353,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4375,7 +4375,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4397,7 +4397,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4419,7 +4419,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4441,7 +4441,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4463,7 +4463,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4485,7 +4485,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4507,7 +4507,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4529,7 +4529,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4551,7 +4551,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4573,7 +4573,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4595,7 +4595,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4617,7 +4617,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#popupSideProperty() popupSideProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4639,7 +4639,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4661,7 +4661,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4683,7 +4683,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4705,7 +4705,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4727,7 +4727,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4749,7 +4749,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4771,7 +4771,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4793,7 +4793,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4815,7 +4815,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4837,7 +4837,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4859,7 +4859,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4881,7 +4881,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#showingProperty() showingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4903,7 +4903,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4925,7 +4925,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4947,7 +4947,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4969,7 +4969,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#textAlignmentProperty() textAlignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -4991,7 +4991,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#textFillProperty() textFillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5013,7 +5013,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#textOverrunProperty() textOverrunProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5035,7 +5035,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#textProperty() textProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5057,7 +5057,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#textTruncatedProperty() textTruncatedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5079,7 +5079,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5101,7 +5101,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5123,7 +5123,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5145,7 +5145,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5167,7 +5167,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#underlineProperty() underlineProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5189,7 +5189,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5211,7 +5211,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5233,7 +5233,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 
@@ -5255,7 +5255,7 @@ public class MenuButtonBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.MenuButton#wrapTextProperty() wrapTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.MenuButton> func) apply} method.
      * <p>
      * Example: 

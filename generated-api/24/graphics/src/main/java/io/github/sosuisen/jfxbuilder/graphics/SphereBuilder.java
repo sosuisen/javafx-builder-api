@@ -157,7 +157,7 @@ public class SphereBuilder {
         return false;
     }
     /**
-     * Applies a function to the Sphere instance currently being constructed.
+     * Applies a function to the Sphere instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -173,8 +173,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -183,8 +183,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -193,8 +193,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -203,8 +203,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -213,8 +213,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -223,8 +223,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -233,8 +233,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -243,8 +243,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -253,8 +253,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setCullFace(javafx.scene.shape.CullFace)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setCullFace(javafx.scene.shape.CullFace) setCullFace} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -263,8 +263,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -273,8 +273,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -283,8 +283,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -293,8 +293,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setDrawMode(javafx.scene.shape.DrawMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setDrawMode(javafx.scene.shape.DrawMode) setDrawMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -303,8 +303,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -313,8 +313,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -323,8 +323,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -333,8 +333,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -343,8 +343,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -353,8 +353,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -363,8 +363,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -373,8 +373,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -383,8 +383,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setMaterial(javafx.scene.paint.Material)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setMaterial(javafx.scene.paint.Material) setMaterial} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -393,8 +393,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -403,8 +403,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -413,8 +413,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -423,8 +423,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -433,8 +433,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -443,8 +443,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -453,8 +453,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -463,8 +463,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -473,8 +473,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -483,8 +483,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -493,8 +493,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -503,8 +503,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -513,8 +513,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -523,8 +523,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -533,8 +533,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -543,8 +543,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -553,8 +553,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -563,8 +563,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -573,8 +573,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -583,8 +583,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -593,8 +593,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -603,8 +603,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -613,8 +613,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -623,8 +623,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -633,8 +633,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -643,8 +643,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -653,8 +653,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -663,8 +663,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -673,8 +673,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -683,8 +683,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -693,8 +693,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -703,8 +703,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -713,8 +713,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -723,8 +723,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -733,8 +733,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -743,8 +743,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -753,8 +753,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -763,8 +763,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -773,8 +773,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -783,8 +783,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -793,8 +793,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -803,8 +803,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -813,8 +813,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -823,8 +823,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setRadius(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setRadius(double) setRadius} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -833,8 +833,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -843,8 +843,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -853,8 +853,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -863,8 +863,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -873,8 +873,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -883,8 +883,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -893,8 +893,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -903,8 +903,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -913,8 +913,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -923,8 +923,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -933,8 +933,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -943,8 +943,8 @@ public class SphereBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Sphere#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Sphere#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1876,7 +1876,7 @@ public class SphereBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -1898,7 +1898,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -1920,7 +1920,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -1942,7 +1942,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -1964,7 +1964,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -1986,7 +1986,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2008,7 +2008,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2030,7 +2030,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2052,7 +2052,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2074,7 +2074,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2096,7 +2096,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#cullFaceProperty() cullFaceProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2118,7 +2118,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2140,7 +2140,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2162,7 +2162,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2184,7 +2184,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2206,7 +2206,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#drawModeProperty() drawModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2228,7 +2228,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2250,7 +2250,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2272,7 +2272,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2294,7 +2294,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2316,7 +2316,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2338,7 +2338,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2360,7 +2360,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2382,7 +2382,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2404,7 +2404,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2426,7 +2426,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2448,7 +2448,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2470,7 +2470,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2492,7 +2492,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2514,7 +2514,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2536,7 +2536,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2558,7 +2558,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2580,7 +2580,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#materialProperty() materialProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2602,7 +2602,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2624,7 +2624,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2646,7 +2646,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2668,7 +2668,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2690,7 +2690,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2712,7 +2712,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2734,7 +2734,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2756,7 +2756,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2778,7 +2778,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2800,7 +2800,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2822,7 +2822,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2844,7 +2844,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2866,7 +2866,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2888,7 +2888,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2910,7 +2910,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2932,7 +2932,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2954,7 +2954,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2976,7 +2976,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -2998,7 +2998,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3020,7 +3020,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3042,7 +3042,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3064,7 +3064,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3086,7 +3086,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3108,7 +3108,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3130,7 +3130,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3152,7 +3152,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3174,7 +3174,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3196,7 +3196,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3218,7 +3218,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3240,7 +3240,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3262,7 +3262,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3284,7 +3284,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3306,7 +3306,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3328,7 +3328,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3350,7 +3350,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3372,7 +3372,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3394,7 +3394,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3416,7 +3416,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3438,7 +3438,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3460,7 +3460,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3482,7 +3482,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3504,7 +3504,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3526,7 +3526,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3548,7 +3548,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3570,7 +3570,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3592,7 +3592,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#radiusProperty() radiusProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3614,7 +3614,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3636,7 +3636,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3658,7 +3658,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3680,7 +3680,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3702,7 +3702,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3724,7 +3724,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3746,7 +3746,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3768,7 +3768,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3790,7 +3790,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3812,7 +3812,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3834,7 +3834,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 
@@ -3856,7 +3856,7 @@ public class SphereBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Sphere#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Sphere> func) apply} method.
      * <p>
      * Example: 

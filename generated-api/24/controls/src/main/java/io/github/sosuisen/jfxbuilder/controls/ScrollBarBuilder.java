@@ -129,7 +129,7 @@ public class ScrollBarBuilder {
         return false;
     }
     /**
-     * Applies a function to the ScrollBar instance currently being constructed.
+     * Applies a function to the ScrollBar instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -145,8 +145,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -155,8 +155,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -165,8 +165,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -175,8 +175,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -185,8 +185,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -195,8 +195,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -205,8 +205,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setBlockIncrement(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setBlockIncrement(double) setBlockIncrement} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -215,8 +215,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -225,8 +225,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -235,8 +235,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -245,8 +245,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -255,8 +255,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -265,8 +265,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -275,8 +275,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -285,8 +285,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -295,8 +295,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -305,8 +305,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -315,8 +315,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -325,8 +325,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -335,8 +335,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -345,8 +345,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -355,8 +355,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -365,8 +365,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -375,8 +375,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -385,8 +385,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -395,8 +395,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setMax(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setMax(double) setMax} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -405,8 +405,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -415,8 +415,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -425,8 +425,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -435,8 +435,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setMin(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setMin(double) setMin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -445,8 +445,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -455,8 +455,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -465,8 +465,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -475,8 +475,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -485,8 +485,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -495,8 +495,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -505,8 +505,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -515,8 +515,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -525,8 +525,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -535,8 +535,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -545,8 +545,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -555,8 +555,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -565,8 +565,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -575,8 +575,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -585,8 +585,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -595,8 +595,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -605,8 +605,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -615,8 +615,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -625,8 +625,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -635,8 +635,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -645,8 +645,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -655,8 +655,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -665,8 +665,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -675,8 +675,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -685,8 +685,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -695,8 +695,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -705,8 +705,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -715,8 +715,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -725,8 +725,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -735,8 +735,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -745,8 +745,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -755,8 +755,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -765,8 +765,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -775,8 +775,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -785,8 +785,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -795,8 +795,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -805,8 +805,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -815,8 +815,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -825,8 +825,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -835,8 +835,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -845,8 +845,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -855,8 +855,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -865,8 +865,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -875,8 +875,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -885,8 +885,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -895,8 +895,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -905,8 +905,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setOrientation(javafx.geometry.Orientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setOrientation(javafx.geometry.Orientation) setOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -915,8 +915,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -925,8 +925,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -935,8 +935,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -945,8 +945,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -955,8 +955,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -965,8 +965,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -975,8 +975,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -985,8 +985,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -995,8 +995,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1005,8 +1005,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1015,8 +1015,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1025,8 +1025,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1035,8 +1035,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1045,8 +1045,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1055,8 +1055,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1065,8 +1065,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1075,8 +1075,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1085,8 +1085,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1095,8 +1095,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1105,8 +1105,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setUnitIncrement(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setUnitIncrement(double) setUnitIncrement} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1115,8 +1115,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1125,8 +1125,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setValue(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setValue(double) setValue} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1135,8 +1135,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1145,8 +1145,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1155,8 +1155,8 @@ public class ScrollBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ScrollBar#setVisibleAmount(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ScrollBar#setVisibleAmount(double) setVisibleAmount} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2131,7 +2131,7 @@ public class ScrollBarBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2153,7 +2153,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2175,7 +2175,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2197,7 +2197,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2219,7 +2219,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2241,7 +2241,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2263,7 +2263,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#blockIncrementProperty() blockIncrementProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2285,7 +2285,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2307,7 +2307,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2329,7 +2329,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2351,7 +2351,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2373,7 +2373,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2395,7 +2395,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2417,7 +2417,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2439,7 +2439,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2461,7 +2461,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2483,7 +2483,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2505,7 +2505,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2527,7 +2527,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2549,7 +2549,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2571,7 +2571,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2593,7 +2593,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2615,7 +2615,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2637,7 +2637,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2659,7 +2659,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2681,7 +2681,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2703,7 +2703,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2725,7 +2725,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2747,7 +2747,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2769,7 +2769,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2791,7 +2791,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2813,7 +2813,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2835,7 +2835,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2857,7 +2857,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2879,7 +2879,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2901,7 +2901,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2923,7 +2923,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2945,7 +2945,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2967,7 +2967,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -2989,7 +2989,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#maxProperty() maxProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3011,7 +3011,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3033,7 +3033,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3055,7 +3055,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#minProperty() minProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3077,7 +3077,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3099,7 +3099,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3121,7 +3121,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3143,7 +3143,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3165,7 +3165,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3187,7 +3187,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3209,7 +3209,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3231,7 +3231,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3253,7 +3253,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3275,7 +3275,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3297,7 +3297,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3319,7 +3319,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3341,7 +3341,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3363,7 +3363,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3385,7 +3385,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3407,7 +3407,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3429,7 +3429,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3451,7 +3451,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3473,7 +3473,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3495,7 +3495,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3517,7 +3517,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3539,7 +3539,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3561,7 +3561,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3583,7 +3583,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3605,7 +3605,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3627,7 +3627,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3649,7 +3649,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3671,7 +3671,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3693,7 +3693,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3715,7 +3715,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3737,7 +3737,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3759,7 +3759,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3781,7 +3781,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3803,7 +3803,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3825,7 +3825,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3847,7 +3847,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3869,7 +3869,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3891,7 +3891,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3913,7 +3913,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3935,7 +3935,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3957,7 +3957,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -3979,7 +3979,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4001,7 +4001,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4023,7 +4023,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4045,7 +4045,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4067,7 +4067,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#orientationProperty() orientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4089,7 +4089,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4111,7 +4111,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4133,7 +4133,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4155,7 +4155,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4177,7 +4177,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4199,7 +4199,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4221,7 +4221,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4243,7 +4243,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4265,7 +4265,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4287,7 +4287,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4309,7 +4309,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4331,7 +4331,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4353,7 +4353,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4375,7 +4375,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4397,7 +4397,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4419,7 +4419,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4441,7 +4441,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4463,7 +4463,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4485,7 +4485,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4507,7 +4507,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4529,7 +4529,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4551,7 +4551,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#unitIncrementProperty() unitIncrementProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4573,7 +4573,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#valueProperty() valueProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4595,7 +4595,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4617,7 +4617,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#visibleAmountProperty() visibleAmountProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4639,7 +4639,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 
@@ -4661,7 +4661,7 @@ public class ScrollBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ScrollBar#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ScrollBar> func) apply} method.
      * <p>
      * Example: 

@@ -129,7 +129,7 @@ public class SplitMenuButtonSkinBuilder {
         return false;
     }
     /**
-     * Applies a function to the SplitMenuButtonSkin instance currently being constructed.
+     * Applies a function to the SplitMenuButtonSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

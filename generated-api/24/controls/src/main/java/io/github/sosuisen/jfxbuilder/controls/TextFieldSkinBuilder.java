@@ -129,7 +129,7 @@ public class TextFieldSkinBuilder {
         return false;
     }
     /**
-     * Applies a function to the TextFieldSkin instance currently being constructed.
+     * Applies a function to the TextFieldSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -140,8 +140,8 @@ public class TextFieldSkinBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.TextFieldSkin#setCaretAnimating(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.TextFieldSkin#setCaretAnimating(boolean) setCaretAnimating} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -150,8 +150,8 @@ public class TextFieldSkinBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.skin.TextFieldSkin#setForwardBias(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.skin.TextFieldSkin#setForwardBias(boolean) setForwardBias} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     

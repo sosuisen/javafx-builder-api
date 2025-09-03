@@ -143,7 +143,7 @@ public class GlowBuilder {
         return false;
     }
     /**
-     * Applies a function to the Glow instance currently being constructed.
+     * Applies a function to the Glow instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -154,8 +154,8 @@ public class GlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Glow#setInput(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Glow#setInput(javafx.scene.effect.Effect) setInput} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -164,8 +164,8 @@ public class GlowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Glow#setLevel(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Glow#setLevel(double) setLevel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -175,7 +175,7 @@ public class GlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Glow#inputProperty() inputProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Glow> func) apply} method.
      * <p>
      * Example: 
@@ -197,7 +197,7 @@ public class GlowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Glow#levelProperty() levelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Glow> func) apply} method.
      * <p>
      * Example: 

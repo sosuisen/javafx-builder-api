@@ -147,7 +147,7 @@ public class AnchorPaneBuilder {
         return false;
     }
     /**
-     * Applies a function to the AnchorPane instance currently being constructed.
+     * Applies a function to the AnchorPane instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -163,8 +163,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -173,8 +173,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -183,8 +183,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -193,8 +193,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -203,8 +203,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -213,8 +213,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -223,8 +223,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -233,8 +233,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -243,8 +243,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -253,8 +253,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -263,8 +263,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -273,8 +273,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -283,8 +283,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -293,8 +293,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -303,8 +303,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -313,8 +313,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -323,8 +323,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -333,8 +333,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -343,8 +343,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -353,8 +353,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -363,8 +363,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -373,8 +373,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -383,8 +383,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -393,8 +393,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -403,8 +403,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -413,8 +413,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -423,8 +423,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -433,8 +433,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -443,8 +443,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -453,8 +453,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -463,8 +463,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -473,8 +473,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -483,8 +483,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -493,8 +493,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -503,8 +503,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -513,8 +513,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -523,8 +523,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -533,8 +533,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -543,8 +543,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -553,8 +553,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -563,8 +563,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -573,8 +573,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -583,8 +583,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -593,8 +593,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -603,8 +603,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -613,8 +613,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -623,8 +623,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -633,8 +633,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -643,8 +643,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -653,8 +653,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -663,8 +663,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -673,8 +673,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -683,8 +683,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -693,8 +693,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -703,8 +703,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -713,8 +713,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -723,8 +723,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -733,8 +733,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -743,8 +743,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -753,8 +753,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -763,8 +763,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -773,8 +773,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -783,8 +783,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -793,8 +793,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -803,8 +803,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -813,8 +813,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -823,8 +823,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -833,8 +833,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -843,8 +843,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -853,8 +853,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -863,8 +863,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -873,8 +873,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -883,8 +883,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -893,8 +893,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -903,8 +903,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -913,8 +913,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -923,8 +923,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -933,8 +933,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -943,8 +943,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -953,8 +953,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -963,8 +963,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -973,8 +973,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -983,8 +983,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -993,8 +993,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1003,8 +1003,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1013,8 +1013,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1023,8 +1023,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1033,8 +1033,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1043,8 +1043,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1053,8 +1053,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1063,8 +1063,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1073,8 +1073,8 @@ public class AnchorPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.layout.AnchorPane#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.layout.AnchorPane#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2097,7 +2097,7 @@ public class AnchorPaneBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2119,7 +2119,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2141,7 +2141,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2163,7 +2163,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2185,7 +2185,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2207,7 +2207,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2229,7 +2229,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2251,7 +2251,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2273,7 +2273,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2295,7 +2295,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2317,7 +2317,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2339,7 +2339,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2361,7 +2361,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2383,7 +2383,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2405,7 +2405,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2427,7 +2427,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2449,7 +2449,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2471,7 +2471,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2493,7 +2493,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2515,7 +2515,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2537,7 +2537,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2559,7 +2559,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2581,7 +2581,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2603,7 +2603,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2625,7 +2625,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2647,7 +2647,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2669,7 +2669,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2691,7 +2691,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2713,7 +2713,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2735,7 +2735,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2757,7 +2757,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2779,7 +2779,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2801,7 +2801,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2823,7 +2823,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2845,7 +2845,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2867,7 +2867,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2889,7 +2889,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2911,7 +2911,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2933,7 +2933,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2955,7 +2955,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2977,7 +2977,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -2999,7 +2999,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3021,7 +3021,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3043,7 +3043,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3065,7 +3065,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3087,7 +3087,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3109,7 +3109,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3131,7 +3131,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3153,7 +3153,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3175,7 +3175,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3197,7 +3197,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3219,7 +3219,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3241,7 +3241,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3263,7 +3263,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3285,7 +3285,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3307,7 +3307,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3329,7 +3329,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3351,7 +3351,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3373,7 +3373,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3395,7 +3395,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3417,7 +3417,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3439,7 +3439,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3461,7 +3461,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3483,7 +3483,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3505,7 +3505,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3527,7 +3527,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3549,7 +3549,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3571,7 +3571,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3593,7 +3593,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3615,7 +3615,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3637,7 +3637,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3659,7 +3659,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3681,7 +3681,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3703,7 +3703,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3725,7 +3725,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3747,7 +3747,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3769,7 +3769,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3791,7 +3791,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3813,7 +3813,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3835,7 +3835,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3857,7 +3857,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3879,7 +3879,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3901,7 +3901,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3923,7 +3923,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3945,7 +3945,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3967,7 +3967,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -3989,7 +3989,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4011,7 +4011,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4033,7 +4033,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4055,7 +4055,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4077,7 +4077,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4099,7 +4099,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4121,7 +4121,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4143,7 +4143,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4165,7 +4165,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4187,7 +4187,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4209,7 +4209,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4231,7 +4231,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4253,7 +4253,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4275,7 +4275,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4297,7 +4297,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4319,7 +4319,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4341,7 +4341,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4363,7 +4363,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4385,7 +4385,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 
@@ -4407,7 +4407,7 @@ public class AnchorPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.layout.AnchorPane#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.layout.AnchorPane> func) apply} method.
      * <p>
      * Example: 

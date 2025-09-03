@@ -143,7 +143,7 @@ public class ContextMenuBuilder {
         return false;
     }
     /**
-     * Applies a function to the ContextMenu instance currently being constructed.
+     * Applies a function to the ContextMenu instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -154,8 +154,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setAnchorLocation(javafx.stage.PopupWindow$AnchorLocation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setAnchorLocation(javafx.stage.PopupWindow$AnchorLocation) setAnchorLocation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -164,8 +164,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setAnchorX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setAnchorX(double) setAnchorX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -174,8 +174,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setAnchorY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setAnchorY(double) setAnchorY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -184,8 +184,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setAutoFix(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setAutoFix(boolean) setAutoFix} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -194,8 +194,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setAutoHide(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setAutoHide(boolean) setAutoHide} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -204,8 +204,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setConsumeAutoHidingEvents(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setConsumeAutoHidingEvents(boolean) setConsumeAutoHidingEvents} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -214,8 +214,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -224,8 +224,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setForceIntegerRenderScale(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setForceIntegerRenderScale(boolean) setForceIntegerRenderScale} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -234,8 +234,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setHeight(double) setHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -244,8 +244,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setHideOnEscape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setHideOnEscape(boolean) setHideOnEscape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -254,8 +254,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -264,8 +264,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -274,8 +274,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -284,8 +284,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -294,8 +294,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -304,8 +304,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -314,8 +314,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -324,8 +324,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setOnAction(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -334,8 +334,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setOnAutoHide(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setOnAutoHide(javafx.event.EventHandler) setOnAutoHide} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -344,8 +344,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setOnCloseRequest(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setOnCloseRequest(javafx.event.EventHandler) setOnCloseRequest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -354,8 +354,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setOnHidden(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -364,8 +364,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setOnHiding(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -374,8 +374,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setOnShowing(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -384,8 +384,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setOnShown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -394,8 +394,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -404,8 +404,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -414,8 +414,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -424,8 +424,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -434,8 +434,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setRenderScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setRenderScaleX(double) setRenderScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -444,8 +444,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setRenderScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setRenderScaleY(double) setRenderScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -454,8 +454,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -464,8 +464,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -474,8 +474,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -484,8 +484,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setWidth(double) setWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -494,8 +494,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setX(double) setX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -504,8 +504,8 @@ public class ContextMenuBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ContextMenu#setY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ContextMenu#setY(double) setY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -590,7 +590,7 @@ public class ContextMenuBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#anchorLocationProperty() anchorLocationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -612,7 +612,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#anchorXProperty() anchorXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -634,7 +634,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#anchorYProperty() anchorYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -656,7 +656,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#autoFixProperty() autoFixProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -678,7 +678,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#autoHideProperty() autoHideProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -700,7 +700,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#consumeAutoHidingEventsProperty() consumeAutoHidingEventsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -722,7 +722,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -744,7 +744,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -766,7 +766,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#forceIntegerRenderScaleProperty() forceIntegerRenderScaleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -788,7 +788,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -810,7 +810,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#hideOnEscapeProperty() hideOnEscapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -832,7 +832,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -854,7 +854,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -876,7 +876,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -898,7 +898,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -920,7 +920,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -942,7 +942,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#onActionProperty() onActionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -964,7 +964,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#onAutoHideProperty() onAutoHideProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -986,7 +986,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#onCloseRequestProperty() onCloseRequestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1008,7 +1008,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#onHiddenProperty() onHiddenProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1030,7 +1030,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#onHidingProperty() onHidingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1052,7 +1052,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#onShowingProperty() onShowingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1074,7 +1074,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#onShownProperty() onShownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1096,7 +1096,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1118,7 +1118,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#outputScaleXProperty() outputScaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1140,7 +1140,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#outputScaleYProperty() outputScaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1162,7 +1162,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#ownerNodeProperty() ownerNodeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1184,7 +1184,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#ownerWindowProperty() ownerWindowProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1206,7 +1206,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1228,7 +1228,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1250,7 +1250,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#renderScaleXProperty() renderScaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1272,7 +1272,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#renderScaleYProperty() renderScaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1294,7 +1294,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1316,7 +1316,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#showingProperty() showingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1338,7 +1338,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1360,7 +1360,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1382,7 +1382,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1404,7 +1404,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#xProperty() xProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 
@@ -1426,7 +1426,7 @@ public class ContextMenuBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ContextMenu#yProperty() yProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ContextMenu> func) apply} method.
      * <p>
      * Example: 

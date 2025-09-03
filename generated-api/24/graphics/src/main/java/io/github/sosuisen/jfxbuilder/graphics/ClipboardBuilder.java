@@ -115,7 +115,7 @@ public class ClipboardBuilder {
         return false;
     }
     /**
-     * Applies a function to the Clipboard instance currently being constructed.
+     * Applies a function to the Clipboard instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -126,8 +126,8 @@ public class ClipboardBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.input.Clipboard#setContent(java.util.Map)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.input.Clipboard#setContent(java.util.Map) setContent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     

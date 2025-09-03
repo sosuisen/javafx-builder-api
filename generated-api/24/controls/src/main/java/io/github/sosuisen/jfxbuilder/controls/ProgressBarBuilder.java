@@ -143,7 +143,7 @@ public class ProgressBarBuilder {
         return false;
     }
     /**
-     * Applies a function to the ProgressBar instance currently being constructed.
+     * Applies a function to the ProgressBar instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -159,8 +159,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -169,8 +169,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -179,8 +179,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -189,8 +189,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -199,8 +199,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,8 +209,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -219,8 +219,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,8 +229,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -239,8 +239,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,8 +249,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -259,8 +259,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -269,8 +269,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -279,8 +279,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -289,8 +289,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -299,8 +299,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -309,8 +309,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -319,8 +319,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -329,8 +329,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -339,8 +339,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -349,8 +349,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -359,8 +359,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -369,8 +369,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -379,8 +379,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -389,8 +389,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -399,8 +399,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -409,8 +409,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -419,8 +419,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -429,8 +429,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -439,8 +439,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -449,8 +449,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -459,8 +459,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -469,8 +469,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -479,8 +479,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -489,8 +489,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -499,8 +499,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -509,8 +509,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -519,8 +519,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -529,8 +529,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -539,8 +539,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -549,8 +549,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -559,8 +559,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -569,8 +569,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -579,8 +579,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -589,8 +589,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -599,8 +599,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -609,8 +609,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -619,8 +619,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -629,8 +629,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -639,8 +639,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -649,8 +649,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -659,8 +659,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -669,8 +669,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -679,8 +679,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -689,8 +689,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -699,8 +699,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -709,8 +709,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -719,8 +719,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -729,8 +729,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -739,8 +739,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -749,8 +749,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -759,8 +759,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -769,8 +769,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -779,8 +779,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -789,8 +789,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -799,8 +799,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -809,8 +809,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -819,8 +819,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -829,8 +829,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -839,8 +839,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -849,8 +849,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -859,8 +859,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -869,8 +869,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -879,8 +879,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -889,8 +889,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -899,8 +899,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -909,8 +909,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -919,8 +919,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -929,8 +929,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -939,8 +939,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setProgress(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setProgress(double) setProgress} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -949,8 +949,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -959,8 +959,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -969,8 +969,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -979,8 +979,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -989,8 +989,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -999,8 +999,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1009,8 +1009,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1019,8 +1019,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1029,8 +1029,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1039,8 +1039,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1049,8 +1049,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1059,8 +1059,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1069,8 +1069,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1079,8 +1079,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1089,8 +1089,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1099,8 +1099,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1109,8 +1109,8 @@ public class ProgressBarBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ProgressBar#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ProgressBar#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2085,7 +2085,7 @@ public class ProgressBarBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2107,7 +2107,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2129,7 +2129,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2151,7 +2151,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2173,7 +2173,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2195,7 +2195,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2217,7 +2217,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2239,7 +2239,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2261,7 +2261,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2283,7 +2283,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2305,7 +2305,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2327,7 +2327,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2349,7 +2349,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2371,7 +2371,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2393,7 +2393,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2415,7 +2415,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2437,7 +2437,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2459,7 +2459,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2481,7 +2481,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2503,7 +2503,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2525,7 +2525,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2547,7 +2547,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2569,7 +2569,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2591,7 +2591,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2613,7 +2613,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2635,7 +2635,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2657,7 +2657,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2679,7 +2679,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2701,7 +2701,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2723,7 +2723,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#indeterminateProperty() indeterminateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2745,7 +2745,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2767,7 +2767,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2789,7 +2789,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2811,7 +2811,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2833,7 +2833,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2855,7 +2855,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2877,7 +2877,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2899,7 +2899,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2921,7 +2921,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2943,7 +2943,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2965,7 +2965,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -2987,7 +2987,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3009,7 +3009,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3031,7 +3031,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3053,7 +3053,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3075,7 +3075,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3097,7 +3097,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3119,7 +3119,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3141,7 +3141,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3163,7 +3163,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3185,7 +3185,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3207,7 +3207,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3229,7 +3229,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3251,7 +3251,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3273,7 +3273,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3295,7 +3295,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3317,7 +3317,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3339,7 +3339,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3361,7 +3361,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3383,7 +3383,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3405,7 +3405,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3427,7 +3427,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3449,7 +3449,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3471,7 +3471,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3493,7 +3493,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3515,7 +3515,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3537,7 +3537,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3559,7 +3559,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3581,7 +3581,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3603,7 +3603,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3625,7 +3625,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3647,7 +3647,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3669,7 +3669,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3691,7 +3691,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3713,7 +3713,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3735,7 +3735,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3757,7 +3757,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3779,7 +3779,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3801,7 +3801,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3823,7 +3823,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3845,7 +3845,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3867,7 +3867,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3889,7 +3889,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3911,7 +3911,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3933,7 +3933,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3955,7 +3955,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3977,7 +3977,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -3999,7 +3999,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4021,7 +4021,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4043,7 +4043,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4065,7 +4065,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4087,7 +4087,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4109,7 +4109,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#progressProperty() progressProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4131,7 +4131,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4153,7 +4153,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4175,7 +4175,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4197,7 +4197,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4219,7 +4219,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4241,7 +4241,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4263,7 +4263,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4285,7 +4285,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4307,7 +4307,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4329,7 +4329,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4351,7 +4351,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4373,7 +4373,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4395,7 +4395,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4417,7 +4417,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4439,7 +4439,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4461,7 +4461,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4483,7 +4483,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 
@@ -4505,7 +4505,7 @@ public class ProgressBarBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ProgressBar#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ProgressBar> func) apply} method.
      * <p>
      * Example: 

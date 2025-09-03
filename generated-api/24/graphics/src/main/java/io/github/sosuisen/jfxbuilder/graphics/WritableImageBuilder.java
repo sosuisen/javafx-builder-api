@@ -171,7 +171,7 @@ public class WritableImageBuilder {
         return false;
     }
     /**
-     * Applies a function to the WritableImage instance currently being constructed.
+     * Applies a function to the WritableImage instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -183,7 +183,7 @@ public class WritableImageBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.WritableImage#errorProperty() errorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.WritableImage> func) apply} method.
      * <p>
      * Example: 
@@ -205,7 +205,7 @@ public class WritableImageBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.WritableImage#exceptionProperty() exceptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.WritableImage> func) apply} method.
      * <p>
      * Example: 
@@ -227,7 +227,7 @@ public class WritableImageBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.WritableImage#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.WritableImage> func) apply} method.
      * <p>
      * Example: 
@@ -249,7 +249,7 @@ public class WritableImageBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.WritableImage#progressProperty() progressProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.WritableImage> func) apply} method.
      * <p>
      * Example: 
@@ -271,7 +271,7 @@ public class WritableImageBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.WritableImage#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.WritableImage> func) apply} method.
      * <p>
      * Example: 

@@ -215,7 +215,7 @@ public class SpinnerBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the Spinner instance currently being constructed.
+     * Applies a function to the Spinner instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -231,8 +231,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -241,8 +241,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -251,8 +251,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -261,8 +261,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -271,8 +271,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -281,8 +281,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -291,8 +291,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -301,8 +301,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -311,8 +311,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -321,8 +321,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -331,8 +331,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -341,8 +341,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -351,8 +351,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -361,8 +361,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -371,8 +371,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -381,8 +381,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -391,8 +391,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setEditable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setEditable(boolean) setEditable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -401,8 +401,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -411,8 +411,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -421,8 +421,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -431,8 +431,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -441,8 +441,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setInitialDelay(javafx.util.Duration)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setInitialDelay(javafx.util.Duration) setInitialDelay} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -451,8 +451,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -461,8 +461,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -471,8 +471,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -481,8 +481,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -491,8 +491,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -501,8 +501,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -511,8 +511,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -521,8 +521,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -531,8 +531,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -541,8 +541,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -551,8 +551,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -561,8 +561,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -571,8 +571,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -581,8 +581,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -591,8 +591,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -601,8 +601,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -611,8 +611,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -621,8 +621,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -631,8 +631,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -641,8 +641,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -651,8 +651,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -661,8 +661,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -671,8 +671,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -681,8 +681,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -691,8 +691,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -701,8 +701,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -711,8 +711,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -721,8 +721,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -731,8 +731,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -741,8 +741,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -751,8 +751,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -761,8 +761,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -771,8 +771,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -781,8 +781,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -791,8 +791,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -801,8 +801,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -811,8 +811,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -821,8 +821,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -831,8 +831,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -841,8 +841,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -851,8 +851,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -861,8 +861,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -871,8 +871,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -881,8 +881,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -891,8 +891,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -901,8 +901,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -911,8 +911,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -921,8 +921,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -931,8 +931,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -941,8 +941,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -951,8 +951,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -961,8 +961,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -971,8 +971,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -981,8 +981,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -991,8 +991,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1001,8 +1001,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1011,8 +1011,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1021,8 +1021,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1031,8 +1031,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setPromptText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setPromptText(java.lang.String) setPromptText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1041,8 +1041,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setRepeatDelay(javafx.util.Duration)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setRepeatDelay(javafx.util.Duration) setRepeatDelay} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1051,8 +1051,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1061,8 +1061,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1071,8 +1071,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1081,8 +1081,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1091,8 +1091,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1101,8 +1101,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1111,8 +1111,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1121,8 +1121,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1131,8 +1131,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1141,8 +1141,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1151,8 +1151,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1161,8 +1161,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1171,8 +1171,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1181,8 +1181,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1191,8 +1191,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1201,8 +1201,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setValueFactory(javafx.scene.control.SpinnerValueFactory)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setValueFactory(javafx.scene.control.SpinnerValueFactory) setValueFactory} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1211,8 +1211,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1221,8 +1221,8 @@ public class SpinnerBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Spinner#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Spinner#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2197,7 +2197,7 @@ public class SpinnerBuilder<T> {
     
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2219,7 +2219,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2241,7 +2241,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2263,7 +2263,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2285,7 +2285,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2307,7 +2307,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2329,7 +2329,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2351,7 +2351,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2373,7 +2373,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2395,7 +2395,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2417,7 +2417,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2439,7 +2439,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2461,7 +2461,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2483,7 +2483,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2505,7 +2505,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2527,7 +2527,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2549,7 +2549,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2571,7 +2571,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2593,7 +2593,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2615,7 +2615,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#editableProperty() editableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2637,7 +2637,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#editorProperty() editorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2659,7 +2659,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2681,7 +2681,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2703,7 +2703,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2725,7 +2725,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2747,7 +2747,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2769,7 +2769,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2791,7 +2791,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2813,7 +2813,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2835,7 +2835,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2857,7 +2857,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2879,7 +2879,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#initialDelayProperty() initialDelayProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2901,7 +2901,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2923,7 +2923,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2945,7 +2945,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2967,7 +2967,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2989,7 +2989,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3011,7 +3011,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3033,7 +3033,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3055,7 +3055,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3077,7 +3077,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3099,7 +3099,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3121,7 +3121,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3143,7 +3143,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3165,7 +3165,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3187,7 +3187,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3209,7 +3209,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3231,7 +3231,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3253,7 +3253,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3275,7 +3275,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3297,7 +3297,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3319,7 +3319,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3341,7 +3341,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3363,7 +3363,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3385,7 +3385,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3407,7 +3407,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3429,7 +3429,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3451,7 +3451,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3473,7 +3473,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3495,7 +3495,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3517,7 +3517,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3539,7 +3539,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3561,7 +3561,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3583,7 +3583,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3605,7 +3605,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3627,7 +3627,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3649,7 +3649,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3671,7 +3671,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3693,7 +3693,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3715,7 +3715,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3737,7 +3737,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3759,7 +3759,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3781,7 +3781,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3803,7 +3803,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3825,7 +3825,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3847,7 +3847,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3869,7 +3869,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3891,7 +3891,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3913,7 +3913,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3935,7 +3935,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3957,7 +3957,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3979,7 +3979,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4001,7 +4001,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4023,7 +4023,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4045,7 +4045,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4067,7 +4067,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4089,7 +4089,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4111,7 +4111,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4133,7 +4133,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4155,7 +4155,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4177,7 +4177,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4199,7 +4199,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4221,7 +4221,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4243,7 +4243,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4265,7 +4265,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#promptTextProperty() promptTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4287,7 +4287,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#repeatDelayProperty() repeatDelayProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4309,7 +4309,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4331,7 +4331,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4353,7 +4353,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4375,7 +4375,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4397,7 +4397,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4419,7 +4419,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4441,7 +4441,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4463,7 +4463,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4485,7 +4485,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4507,7 +4507,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4529,7 +4529,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4551,7 +4551,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4573,7 +4573,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4595,7 +4595,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4617,7 +4617,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4639,7 +4639,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#valueFactoryProperty() valueFactoryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4661,7 +4661,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#valueProperty() valueProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4683,7 +4683,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4705,7 +4705,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4727,7 +4727,7 @@ public class SpinnerBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Spinner#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Spinner<T>> func) apply} method.
      * <p>
      * Example: 

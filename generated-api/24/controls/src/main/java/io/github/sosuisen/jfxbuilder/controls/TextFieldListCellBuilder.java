@@ -145,7 +145,7 @@ public class TextFieldListCellBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the TextFieldListCell instance currently being constructed.
+     * Applies a function to the TextFieldListCell instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -161,8 +161,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -171,8 +171,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -181,8 +181,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -191,8 +191,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -201,8 +201,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setAlignment(javafx.geometry.Pos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -211,8 +211,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -221,8 +221,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -231,8 +231,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -241,8 +241,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -251,8 +251,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -261,8 +261,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -271,8 +271,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -281,8 +281,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -291,8 +291,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setContentDisplay(javafx.scene.control.ContentDisplay)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -301,8 +301,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -311,8 +311,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setConverter(javafx.util.StringConverter)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setConverter(javafx.util.StringConverter) setConverter} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -321,8 +321,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -331,8 +331,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -341,8 +341,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -351,8 +351,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setEditable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setEditable(boolean) setEditable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -361,8 +361,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -371,8 +371,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setEllipsisString(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -381,8 +381,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -391,8 +391,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -401,8 +401,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setFont(javafx.scene.text.Font)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -411,8 +411,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setGraphic(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -421,8 +421,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setGraphicTextGap(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -431,8 +431,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -441,8 +441,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -451,8 +451,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setItem(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setItem(java.lang.Object) setItem} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -461,8 +461,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -471,8 +471,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -481,8 +481,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setLineSpacing(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -491,8 +491,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -501,8 +501,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -511,8 +511,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -521,8 +521,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -531,8 +531,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -541,8 +541,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -551,8 +551,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -561,8 +561,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setMnemonicParsing(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -571,8 +571,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -581,8 +581,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -591,8 +591,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -601,8 +601,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -611,8 +611,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -621,8 +621,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -631,8 +631,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -641,8 +641,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -651,8 +651,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -661,8 +661,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -671,8 +671,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -681,8 +681,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -691,8 +691,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -701,8 +701,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -711,8 +711,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -721,8 +721,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -731,8 +731,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -741,8 +741,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -751,8 +751,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -761,8 +761,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -771,8 +771,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -781,8 +781,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -791,8 +791,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -801,8 +801,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -811,8 +811,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -821,8 +821,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -831,8 +831,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -841,8 +841,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -851,8 +851,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -861,8 +861,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -871,8 +871,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -881,8 +881,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -891,8 +891,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -901,8 +901,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -911,8 +911,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -921,8 +921,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -931,8 +931,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -941,8 +941,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -951,8 +951,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -961,8 +961,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -971,8 +971,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -981,8 +981,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -991,8 +991,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1001,8 +1001,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1011,8 +1011,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1021,8 +1021,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1031,8 +1031,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1041,8 +1041,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1051,8 +1051,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1061,8 +1061,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1071,8 +1071,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1081,8 +1081,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1091,8 +1091,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1101,8 +1101,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1111,8 +1111,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1121,8 +1121,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1131,8 +1131,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1141,8 +1141,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1151,8 +1151,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setText(java.lang.String) setText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1161,8 +1161,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setTextAlignment(javafx.scene.text.TextAlignment)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1171,8 +1171,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setTextFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1181,8 +1181,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setTextOverrun(javafx.scene.control.OverrunStyle)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1191,8 +1191,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1201,8 +1201,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1211,8 +1211,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1221,8 +1221,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1231,8 +1231,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setUnderline(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setUnderline(boolean) setUnderline} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1241,8 +1241,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1251,8 +1251,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1261,8 +1261,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1271,8 +1271,8 @@ public class TextFieldListCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.TextFieldListCell#setWrapText(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.TextFieldListCell#setWrapText(boolean) setWrapText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2247,7 +2247,7 @@ public class TextFieldListCellBuilder<T> {
     
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2269,7 +2269,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2291,7 +2291,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2313,7 +2313,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2335,7 +2335,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#alignmentProperty() alignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2357,7 +2357,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2379,7 +2379,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2401,7 +2401,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2423,7 +2423,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2445,7 +2445,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2467,7 +2467,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2489,7 +2489,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2511,7 +2511,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2533,7 +2533,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2555,7 +2555,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2577,7 +2577,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#contentDisplayProperty() contentDisplayProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2599,7 +2599,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2621,7 +2621,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#converterProperty() converterProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2643,7 +2643,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2665,7 +2665,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2687,7 +2687,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2709,7 +2709,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2731,7 +2731,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#editableProperty() editableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2753,7 +2753,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#editingProperty() editingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2775,7 +2775,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2797,7 +2797,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2819,7 +2819,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#ellipsisStringProperty() ellipsisStringProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2841,7 +2841,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#emptyProperty() emptyProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2863,7 +2863,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2885,7 +2885,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2907,7 +2907,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2929,7 +2929,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2951,7 +2951,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2973,7 +2973,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#fontProperty() fontProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2995,7 +2995,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#graphicProperty() graphicProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3017,7 +3017,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#graphicTextGapProperty() graphicTextGapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3039,7 +3039,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3061,7 +3061,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3083,7 +3083,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3105,7 +3105,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#indexProperty() indexProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3127,7 +3127,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3149,7 +3149,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3171,7 +3171,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#itemProperty() itemProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3193,7 +3193,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#labelPaddingProperty() labelPaddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3215,7 +3215,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3237,7 +3237,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3259,7 +3259,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3281,7 +3281,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#lineSpacingProperty() lineSpacingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3303,7 +3303,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#listViewProperty() listViewProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3325,7 +3325,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3347,7 +3347,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3369,7 +3369,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3391,7 +3391,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3413,7 +3413,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3435,7 +3435,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3457,7 +3457,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3479,7 +3479,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#mnemonicParsingProperty() mnemonicParsingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3501,7 +3501,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3523,7 +3523,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3545,7 +3545,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3567,7 +3567,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3589,7 +3589,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3611,7 +3611,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3633,7 +3633,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3655,7 +3655,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3677,7 +3677,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3699,7 +3699,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3721,7 +3721,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3743,7 +3743,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3765,7 +3765,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3787,7 +3787,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3809,7 +3809,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3831,7 +3831,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3853,7 +3853,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3875,7 +3875,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3897,7 +3897,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3919,7 +3919,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3941,7 +3941,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3963,7 +3963,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3985,7 +3985,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4007,7 +4007,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4029,7 +4029,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4051,7 +4051,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4073,7 +4073,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4095,7 +4095,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4117,7 +4117,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4139,7 +4139,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4161,7 +4161,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4183,7 +4183,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4205,7 +4205,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4227,7 +4227,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4249,7 +4249,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4271,7 +4271,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4293,7 +4293,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4315,7 +4315,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4337,7 +4337,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4359,7 +4359,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4381,7 +4381,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4403,7 +4403,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4425,7 +4425,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4447,7 +4447,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4469,7 +4469,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4491,7 +4491,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4513,7 +4513,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4535,7 +4535,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4557,7 +4557,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4579,7 +4579,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4601,7 +4601,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4623,7 +4623,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4645,7 +4645,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4667,7 +4667,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4689,7 +4689,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4711,7 +4711,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4733,7 +4733,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4755,7 +4755,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#selectedProperty() selectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4777,7 +4777,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4799,7 +4799,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4821,7 +4821,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4843,7 +4843,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4865,7 +4865,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#textAlignmentProperty() textAlignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4887,7 +4887,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#textFillProperty() textFillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4909,7 +4909,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#textOverrunProperty() textOverrunProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4931,7 +4931,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#textProperty() textProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4953,7 +4953,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#textTruncatedProperty() textTruncatedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4975,7 +4975,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4997,7 +4997,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5019,7 +5019,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5041,7 +5041,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5063,7 +5063,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#underlineProperty() underlineProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5085,7 +5085,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5107,7 +5107,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5129,7 +5129,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5151,7 +5151,7 @@ public class TextFieldListCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.TextFieldListCell#wrapTextProperty() wrapTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.TextFieldListCell<T>> func) apply} method.
      * <p>
      * Example: 

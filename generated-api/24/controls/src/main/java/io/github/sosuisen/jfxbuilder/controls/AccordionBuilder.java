@@ -143,7 +143,7 @@ public class AccordionBuilder {
         return false;
     }
     /**
-     * Applies a function to the Accordion instance currently being constructed.
+     * Applies a function to the Accordion instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -159,8 +159,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -169,8 +169,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -179,8 +179,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -189,8 +189,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -199,8 +199,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,8 +209,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -219,8 +219,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,8 +229,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -239,8 +239,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,8 +249,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -259,8 +259,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -269,8 +269,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -279,8 +279,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -289,8 +289,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -299,8 +299,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -309,8 +309,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -319,8 +319,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -329,8 +329,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -339,8 +339,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setExpandedPane(javafx.scene.control.TitledPane)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setExpandedPane(javafx.scene.control.TitledPane) setExpandedPane} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -349,8 +349,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -359,8 +359,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -369,8 +369,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -379,8 +379,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -389,8 +389,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -399,8 +399,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -409,8 +409,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -419,8 +419,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -429,8 +429,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -439,8 +439,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -449,8 +449,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -459,8 +459,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -469,8 +469,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -479,8 +479,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -489,8 +489,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -499,8 +499,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -509,8 +509,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -519,8 +519,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -529,8 +529,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -539,8 +539,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -549,8 +549,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -559,8 +559,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -569,8 +569,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -579,8 +579,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -589,8 +589,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -599,8 +599,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -609,8 +609,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -619,8 +619,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -629,8 +629,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -639,8 +639,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -649,8 +649,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -659,8 +659,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -669,8 +669,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -679,8 +679,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -689,8 +689,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -699,8 +699,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -709,8 +709,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -719,8 +719,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -729,8 +729,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -739,8 +739,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -749,8 +749,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -759,8 +759,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -769,8 +769,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -779,8 +779,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -789,8 +789,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -799,8 +799,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -809,8 +809,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -819,8 +819,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -829,8 +829,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -839,8 +839,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -849,8 +849,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -859,8 +859,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -869,8 +869,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -879,8 +879,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -889,8 +889,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -899,8 +899,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -909,8 +909,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -919,8 +919,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -929,8 +929,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -939,8 +939,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -949,8 +949,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -959,8 +959,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -969,8 +969,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -979,8 +979,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -989,8 +989,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -999,8 +999,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1009,8 +1009,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1019,8 +1019,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1029,8 +1029,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1039,8 +1039,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1049,8 +1049,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1059,8 +1059,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1069,8 +1069,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1079,8 +1079,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1089,8 +1089,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1099,8 +1099,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1109,8 +1109,8 @@ public class AccordionBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Accordion#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Accordion#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2133,7 +2133,7 @@ public class AccordionBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2155,7 +2155,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2177,7 +2177,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2199,7 +2199,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2221,7 +2221,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2243,7 +2243,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2265,7 +2265,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2287,7 +2287,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2309,7 +2309,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2331,7 +2331,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2353,7 +2353,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2375,7 +2375,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2397,7 +2397,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2419,7 +2419,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2441,7 +2441,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2463,7 +2463,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2485,7 +2485,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2507,7 +2507,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2529,7 +2529,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2551,7 +2551,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2573,7 +2573,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2595,7 +2595,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2617,7 +2617,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#expandedPaneProperty() expandedPaneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2639,7 +2639,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2661,7 +2661,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2683,7 +2683,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2705,7 +2705,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2727,7 +2727,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2749,7 +2749,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2771,7 +2771,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2793,7 +2793,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2815,7 +2815,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2837,7 +2837,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2859,7 +2859,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2881,7 +2881,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2903,7 +2903,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2925,7 +2925,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2947,7 +2947,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2969,7 +2969,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -2991,7 +2991,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3013,7 +3013,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3035,7 +3035,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3057,7 +3057,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3079,7 +3079,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3101,7 +3101,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3123,7 +3123,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3145,7 +3145,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3167,7 +3167,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3189,7 +3189,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3211,7 +3211,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3233,7 +3233,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3255,7 +3255,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3277,7 +3277,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3299,7 +3299,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3321,7 +3321,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3343,7 +3343,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3365,7 +3365,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3387,7 +3387,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3409,7 +3409,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3431,7 +3431,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3453,7 +3453,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3475,7 +3475,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3497,7 +3497,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3519,7 +3519,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3541,7 +3541,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3563,7 +3563,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3585,7 +3585,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3607,7 +3607,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3629,7 +3629,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3651,7 +3651,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3673,7 +3673,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3695,7 +3695,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3717,7 +3717,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3739,7 +3739,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3761,7 +3761,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3783,7 +3783,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3805,7 +3805,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3827,7 +3827,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3849,7 +3849,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3871,7 +3871,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3893,7 +3893,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3915,7 +3915,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3937,7 +3937,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3959,7 +3959,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -3981,7 +3981,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4003,7 +4003,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4025,7 +4025,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4047,7 +4047,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4069,7 +4069,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4091,7 +4091,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4113,7 +4113,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4135,7 +4135,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4157,7 +4157,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4179,7 +4179,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4201,7 +4201,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4223,7 +4223,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4245,7 +4245,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4267,7 +4267,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4289,7 +4289,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4311,7 +4311,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4333,7 +4333,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4355,7 +4355,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4377,7 +4377,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4399,7 +4399,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4421,7 +4421,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4443,7 +4443,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4465,7 +4465,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4487,7 +4487,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4509,7 +4509,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 
@@ -4531,7 +4531,7 @@ public class AccordionBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Accordion#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Accordion> func) apply} method.
      * <p>
      * Example: 

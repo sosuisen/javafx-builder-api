@@ -145,7 +145,7 @@ public class ChoiceBoxBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the ChoiceBox instance currently being constructed.
+     * Applies a function to the ChoiceBox instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -161,8 +161,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -171,8 +171,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -181,8 +181,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -191,8 +191,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -201,8 +201,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -211,8 +211,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -221,8 +221,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -231,8 +231,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -241,8 +241,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -251,8 +251,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -261,8 +261,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -271,8 +271,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -281,8 +281,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -291,8 +291,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setConverter(javafx.util.StringConverter)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setConverter(javafx.util.StringConverter) setConverter} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -301,8 +301,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -311,8 +311,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -321,8 +321,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -331,8 +331,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -341,8 +341,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -351,8 +351,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -361,8 +361,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -371,8 +371,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -381,8 +381,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setItems(javafx.collections.ObservableList)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setItems(javafx.collections.ObservableList) setItems} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -391,8 +391,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -401,8 +401,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -411,8 +411,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -421,8 +421,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -431,8 +431,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -441,8 +441,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -451,8 +451,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -461,8 +461,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -471,8 +471,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -481,8 +481,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -491,8 +491,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -501,8 +501,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnAction(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -511,8 +511,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -521,8 +521,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -531,8 +531,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -541,8 +541,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -551,8 +551,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -561,8 +561,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -571,8 +571,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -581,8 +581,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnHidden(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -591,8 +591,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnHiding(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -601,8 +601,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -611,8 +611,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -621,8 +621,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -631,8 +631,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -641,8 +641,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -651,8 +651,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -661,8 +661,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -671,8 +671,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -681,8 +681,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -691,8 +691,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -701,8 +701,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -711,8 +711,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -721,8 +721,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -731,8 +731,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -741,8 +741,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -751,8 +751,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -761,8 +761,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -771,8 +771,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -781,8 +781,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -791,8 +791,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -801,8 +801,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -811,8 +811,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnShowing(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -821,8 +821,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnShown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -831,8 +831,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -841,8 +841,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -851,8 +851,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -861,8 +861,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -871,8 +871,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -881,8 +881,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -891,8 +891,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -901,8 +901,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -911,8 +911,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -921,8 +921,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -931,8 +931,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -941,8 +941,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -951,8 +951,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -961,8 +961,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -971,8 +971,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -981,8 +981,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -991,8 +991,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1001,8 +1001,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1011,8 +1011,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1021,8 +1021,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1031,8 +1031,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1041,8 +1041,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1051,8 +1051,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1061,8 +1061,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1071,8 +1071,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setSelectionModel(javafx.scene.control.SingleSelectionModel)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setSelectionModel(javafx.scene.control.SingleSelectionModel) setSelectionModel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1081,8 +1081,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1091,8 +1091,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1101,8 +1101,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1111,8 +1111,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1121,8 +1121,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1131,8 +1131,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1141,8 +1141,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1151,8 +1151,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1161,8 +1161,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1171,8 +1171,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setValue(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setValue(java.lang.Object) setValue} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1181,8 +1181,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1191,8 +1191,8 @@ public class ChoiceBoxBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.ChoiceBox#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.ChoiceBox#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2215,7 +2215,7 @@ public class ChoiceBoxBuilder<T> {
     
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2237,7 +2237,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2259,7 +2259,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2281,7 +2281,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2303,7 +2303,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2325,7 +2325,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2347,7 +2347,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2369,7 +2369,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2391,7 +2391,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2413,7 +2413,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2435,7 +2435,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2457,7 +2457,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2479,7 +2479,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2501,7 +2501,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2523,7 +2523,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2545,7 +2545,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#converterProperty() converterProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2567,7 +2567,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2589,7 +2589,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2611,7 +2611,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2633,7 +2633,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2655,7 +2655,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2677,7 +2677,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2699,7 +2699,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2721,7 +2721,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2743,7 +2743,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2765,7 +2765,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2787,7 +2787,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2809,7 +2809,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2831,7 +2831,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2853,7 +2853,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2875,7 +2875,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2897,7 +2897,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2919,7 +2919,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#itemsProperty() itemsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2941,7 +2941,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2963,7 +2963,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2985,7 +2985,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3007,7 +3007,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3029,7 +3029,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3051,7 +3051,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3073,7 +3073,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3095,7 +3095,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3117,7 +3117,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3139,7 +3139,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3161,7 +3161,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3183,7 +3183,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3205,7 +3205,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3227,7 +3227,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onActionProperty() onActionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3249,7 +3249,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3271,7 +3271,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3293,7 +3293,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3315,7 +3315,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3337,7 +3337,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3359,7 +3359,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3381,7 +3381,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3403,7 +3403,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onHiddenProperty() onHiddenProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3425,7 +3425,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onHidingProperty() onHidingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3447,7 +3447,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3469,7 +3469,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3491,7 +3491,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3513,7 +3513,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3535,7 +3535,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3557,7 +3557,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3579,7 +3579,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3601,7 +3601,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3623,7 +3623,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3645,7 +3645,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3667,7 +3667,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3689,7 +3689,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3711,7 +3711,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3733,7 +3733,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3755,7 +3755,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3777,7 +3777,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3799,7 +3799,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3821,7 +3821,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3843,7 +3843,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3865,7 +3865,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3887,7 +3887,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3909,7 +3909,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onShowingProperty() onShowingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3931,7 +3931,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onShownProperty() onShownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3953,7 +3953,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3975,7 +3975,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3997,7 +3997,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4019,7 +4019,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4041,7 +4041,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4063,7 +4063,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4085,7 +4085,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4107,7 +4107,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4129,7 +4129,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4151,7 +4151,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4173,7 +4173,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4195,7 +4195,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4217,7 +4217,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4239,7 +4239,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4261,7 +4261,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4283,7 +4283,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4305,7 +4305,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4327,7 +4327,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4349,7 +4349,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4371,7 +4371,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4393,7 +4393,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4415,7 +4415,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4437,7 +4437,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4459,7 +4459,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4481,7 +4481,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4503,7 +4503,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4525,7 +4525,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#selectionModelProperty() selectionModelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4547,7 +4547,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4569,7 +4569,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#showingProperty() showingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4591,7 +4591,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4613,7 +4613,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4635,7 +4635,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4657,7 +4657,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4679,7 +4679,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4701,7 +4701,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4723,7 +4723,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4745,7 +4745,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#valueProperty() valueProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4767,7 +4767,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4789,7 +4789,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4811,7 +4811,7 @@ public class ChoiceBoxBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.ChoiceBox#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.ChoiceBox<T>> func) apply} method.
      * <p>
      * Example: 

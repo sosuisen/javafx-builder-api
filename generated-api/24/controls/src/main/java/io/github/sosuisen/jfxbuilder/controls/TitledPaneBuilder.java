@@ -143,7 +143,7 @@ public class TitledPaneBuilder {
         return false;
     }
     /**
-     * Applies a function to the TitledPane instance currently being constructed.
+     * Applies a function to the TitledPane instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -159,8 +159,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -169,8 +169,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -179,8 +179,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -189,8 +189,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -199,8 +199,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setAlignment(javafx.geometry.Pos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,8 +209,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setAnimated(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setAnimated(boolean) setAnimated} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -219,8 +219,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,8 +229,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -239,8 +239,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,8 +249,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -259,8 +259,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -269,8 +269,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -279,8 +279,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -289,8 +289,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -299,8 +299,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setCollapsible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setCollapsible(boolean) setCollapsible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -309,8 +309,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setContent(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setContent(javafx.scene.Node) setContent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -319,8 +319,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setContentDisplay(javafx.scene.control.ContentDisplay)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -329,8 +329,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -339,8 +339,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -349,8 +349,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -359,8 +359,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -369,8 +369,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -379,8 +379,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setEllipsisString(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -389,8 +389,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -399,8 +399,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setExpanded(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setExpanded(boolean) setExpanded} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -409,8 +409,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -419,8 +419,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setFont(javafx.scene.text.Font)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -429,8 +429,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setGraphic(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -439,8 +439,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setGraphicTextGap(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -449,8 +449,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -459,8 +459,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -469,8 +469,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -479,8 +479,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -489,8 +489,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setLineSpacing(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -499,8 +499,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -509,8 +509,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -519,8 +519,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -529,8 +529,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -539,8 +539,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -549,8 +549,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -559,8 +559,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -569,8 +569,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setMnemonicParsing(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -579,8 +579,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -589,8 +589,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -599,8 +599,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -609,8 +609,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -619,8 +619,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -629,8 +629,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -639,8 +639,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -649,8 +649,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -659,8 +659,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -669,8 +669,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -679,8 +679,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -689,8 +689,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -699,8 +699,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -709,8 +709,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -719,8 +719,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -729,8 +729,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -739,8 +739,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -749,8 +749,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -759,8 +759,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -769,8 +769,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -779,8 +779,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -789,8 +789,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -799,8 +799,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -809,8 +809,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -819,8 +819,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -829,8 +829,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -839,8 +839,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -849,8 +849,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -859,8 +859,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -869,8 +869,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -879,8 +879,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -889,8 +889,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -899,8 +899,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -909,8 +909,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -919,8 +919,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -929,8 +929,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -939,8 +939,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -949,8 +949,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -959,8 +959,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -969,8 +969,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -979,8 +979,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -989,8 +989,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -999,8 +999,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1009,8 +1009,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1019,8 +1019,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1029,8 +1029,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1039,8 +1039,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1049,8 +1049,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1059,8 +1059,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1069,8 +1069,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1079,8 +1079,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1089,8 +1089,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1099,8 +1099,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1109,8 +1109,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1119,8 +1119,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1129,8 +1129,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1139,8 +1139,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1149,8 +1149,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1159,8 +1159,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setText(java.lang.String) setText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1169,8 +1169,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setTextAlignment(javafx.scene.text.TextAlignment)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1179,8 +1179,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setTextFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1189,8 +1189,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setTextOverrun(javafx.scene.control.OverrunStyle)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1199,8 +1199,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1209,8 +1209,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1219,8 +1219,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1229,8 +1229,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1239,8 +1239,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setUnderline(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setUnderline(boolean) setUnderline} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1249,8 +1249,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1259,8 +1259,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1269,8 +1269,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1279,8 +1279,8 @@ public class TitledPaneBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.TitledPane#setWrapText(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.TitledPane#setWrapText(boolean) setWrapText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2255,7 +2255,7 @@ public class TitledPaneBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2277,7 +2277,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2299,7 +2299,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2321,7 +2321,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2343,7 +2343,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#alignmentProperty() alignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2365,7 +2365,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#animatedProperty() animatedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2387,7 +2387,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2409,7 +2409,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2431,7 +2431,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2453,7 +2453,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2475,7 +2475,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2497,7 +2497,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2519,7 +2519,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2541,7 +2541,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2563,7 +2563,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2585,7 +2585,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2607,7 +2607,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#collapsibleProperty() collapsibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2629,7 +2629,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#contentDisplayProperty() contentDisplayProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2651,7 +2651,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#contentProperty() contentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2673,7 +2673,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2695,7 +2695,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2717,7 +2717,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2739,7 +2739,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2761,7 +2761,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2783,7 +2783,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2805,7 +2805,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2827,7 +2827,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#ellipsisStringProperty() ellipsisStringProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2849,7 +2849,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2871,7 +2871,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#expandedProperty() expandedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2893,7 +2893,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2915,7 +2915,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2937,7 +2937,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2959,7 +2959,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -2981,7 +2981,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#fontProperty() fontProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3003,7 +3003,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#graphicProperty() graphicProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3025,7 +3025,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#graphicTextGapProperty() graphicTextGapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3047,7 +3047,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3069,7 +3069,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3091,7 +3091,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3113,7 +3113,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3135,7 +3135,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3157,7 +3157,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#labelPaddingProperty() labelPaddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3179,7 +3179,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3201,7 +3201,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3223,7 +3223,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3245,7 +3245,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#lineSpacingProperty() lineSpacingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3267,7 +3267,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3289,7 +3289,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3311,7 +3311,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3333,7 +3333,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3355,7 +3355,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3377,7 +3377,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3399,7 +3399,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3421,7 +3421,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#mnemonicParsingProperty() mnemonicParsingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3443,7 +3443,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3465,7 +3465,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3487,7 +3487,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3509,7 +3509,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3531,7 +3531,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3553,7 +3553,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3575,7 +3575,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3597,7 +3597,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3619,7 +3619,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3641,7 +3641,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3663,7 +3663,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3685,7 +3685,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3707,7 +3707,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3729,7 +3729,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3751,7 +3751,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3773,7 +3773,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3795,7 +3795,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3817,7 +3817,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3839,7 +3839,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3861,7 +3861,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3883,7 +3883,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3905,7 +3905,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3927,7 +3927,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3949,7 +3949,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3971,7 +3971,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -3993,7 +3993,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4015,7 +4015,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4037,7 +4037,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4059,7 +4059,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4081,7 +4081,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4103,7 +4103,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4125,7 +4125,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4147,7 +4147,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4169,7 +4169,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4191,7 +4191,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4213,7 +4213,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4235,7 +4235,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4257,7 +4257,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4279,7 +4279,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4301,7 +4301,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4323,7 +4323,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4345,7 +4345,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4367,7 +4367,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4389,7 +4389,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4411,7 +4411,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4433,7 +4433,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4455,7 +4455,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4477,7 +4477,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4499,7 +4499,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4521,7 +4521,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4543,7 +4543,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4565,7 +4565,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4587,7 +4587,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4609,7 +4609,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4631,7 +4631,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4653,7 +4653,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4675,7 +4675,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4697,7 +4697,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4719,7 +4719,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4741,7 +4741,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4763,7 +4763,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4785,7 +4785,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#textAlignmentProperty() textAlignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4807,7 +4807,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#textFillProperty() textFillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4829,7 +4829,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#textOverrunProperty() textOverrunProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4851,7 +4851,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#textProperty() textProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4873,7 +4873,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#textTruncatedProperty() textTruncatedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4895,7 +4895,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4917,7 +4917,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4939,7 +4939,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4961,7 +4961,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -4983,7 +4983,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#underlineProperty() underlineProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -5005,7 +5005,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -5027,7 +5027,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -5049,7 +5049,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 
@@ -5071,7 +5071,7 @@ public class TitledPaneBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TitledPane#wrapTextProperty() wrapTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TitledPane> func) apply} method.
      * <p>
      * Example: 

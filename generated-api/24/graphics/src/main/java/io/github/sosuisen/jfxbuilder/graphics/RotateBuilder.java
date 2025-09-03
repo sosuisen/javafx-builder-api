@@ -199,7 +199,7 @@ public class RotateBuilder {
         return false;
     }
     /**
-     * Applies a function to the Rotate instance currently being constructed.
+     * Applies a function to the Rotate instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -210,8 +210,8 @@ public class RotateBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Rotate#setAngle(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Rotate#setAngle(double) setAngle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -220,8 +220,8 @@ public class RotateBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Rotate#setAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Rotate#setAxis(javafx.geometry.Point3D) setAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -230,8 +230,8 @@ public class RotateBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Rotate#setOnTransformChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Rotate#setOnTransformChanged(javafx.event.EventHandler) setOnTransformChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -240,8 +240,8 @@ public class RotateBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Rotate#setPivotX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Rotate#setPivotX(double) setPivotX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -250,8 +250,8 @@ public class RotateBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Rotate#setPivotY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Rotate#setPivotY(double) setPivotY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -260,8 +260,8 @@ public class RotateBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.transform.Rotate#setPivotZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.transform.Rotate#setPivotZ(double) setPivotZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -271,7 +271,7 @@ public class RotateBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Rotate#angleProperty() angleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Rotate> func) apply} method.
      * <p>
      * Example: 
@@ -293,7 +293,7 @@ public class RotateBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Rotate#axisProperty() axisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Rotate> func) apply} method.
      * <p>
      * Example: 
@@ -315,7 +315,7 @@ public class RotateBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Rotate#identityProperty() identityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Rotate> func) apply} method.
      * <p>
      * Example: 
@@ -337,7 +337,7 @@ public class RotateBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Rotate#onTransformChangedProperty() onTransformChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Rotate> func) apply} method.
      * <p>
      * Example: 
@@ -359,7 +359,7 @@ public class RotateBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Rotate#pivotXProperty() pivotXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Rotate> func) apply} method.
      * <p>
      * Example: 
@@ -381,7 +381,7 @@ public class RotateBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Rotate#pivotYProperty() pivotYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Rotate> func) apply} method.
      * <p>
      * Example: 
@@ -403,7 +403,7 @@ public class RotateBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Rotate#pivotZProperty() pivotZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Rotate> func) apply} method.
      * <p>
      * Example: 
@@ -425,7 +425,7 @@ public class RotateBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.transform.Rotate#type2DProperty() type2DProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.transform.Rotate> func) apply} method.
      * <p>
      * Example: 

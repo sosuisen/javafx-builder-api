@@ -157,7 +157,7 @@ public class ShadowBuilder {
         return false;
     }
     /**
-     * Applies a function to the Shadow instance currently being constructed.
+     * Applies a function to the Shadow instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -168,8 +168,8 @@ public class ShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Shadow#setBlurType(javafx.scene.effect.BlurType)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Shadow#setBlurType(javafx.scene.effect.BlurType) setBlurType} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -178,8 +178,8 @@ public class ShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Shadow#setColor(javafx.scene.paint.Color)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Shadow#setColor(javafx.scene.paint.Color) setColor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -188,8 +188,8 @@ public class ShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Shadow#setHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Shadow#setHeight(double) setHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -198,8 +198,8 @@ public class ShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Shadow#setInput(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Shadow#setInput(javafx.scene.effect.Effect) setInput} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -208,8 +208,8 @@ public class ShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Shadow#setRadius(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Shadow#setRadius(double) setRadius} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -218,8 +218,8 @@ public class ShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.Shadow#setWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.Shadow#setWidth(double) setWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,7 +229,7 @@ public class ShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Shadow#blurTypeProperty() blurTypeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Shadow> func) apply} method.
      * <p>
      * Example: 
@@ -251,7 +251,7 @@ public class ShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Shadow#colorProperty() colorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Shadow> func) apply} method.
      * <p>
      * Example: 
@@ -273,7 +273,7 @@ public class ShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Shadow#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Shadow> func) apply} method.
      * <p>
      * Example: 
@@ -295,7 +295,7 @@ public class ShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Shadow#inputProperty() inputProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Shadow> func) apply} method.
      * <p>
      * Example: 
@@ -317,7 +317,7 @@ public class ShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Shadow#radiusProperty() radiusProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Shadow> func) apply} method.
      * <p>
      * Example: 
@@ -339,7 +339,7 @@ public class ShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.Shadow#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.Shadow> func) apply} method.
      * <p>
      * Example: 

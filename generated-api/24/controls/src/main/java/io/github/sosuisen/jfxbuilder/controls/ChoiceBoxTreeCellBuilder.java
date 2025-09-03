@@ -187,7 +187,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the ChoiceBoxTreeCell instance currently being constructed.
+     * Applies a function to the ChoiceBoxTreeCell instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -203,8 +203,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -213,8 +213,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -223,8 +223,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -233,8 +233,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -243,8 +243,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setAlignment(javafx.geometry.Pos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -253,8 +253,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -263,8 +263,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -273,8 +273,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -283,8 +283,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -293,8 +293,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -303,8 +303,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -313,8 +313,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -323,8 +323,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -333,8 +333,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setContentDisplay(javafx.scene.control.ContentDisplay)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -343,8 +343,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -353,8 +353,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setConverter(javafx.util.StringConverter)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setConverter(javafx.util.StringConverter) setConverter} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -363,8 +363,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -373,8 +373,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -383,8 +383,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -393,8 +393,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setDisclosureNode(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setDisclosureNode(javafx.scene.Node) setDisclosureNode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -403,8 +403,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setEditable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setEditable(boolean) setEditable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -413,8 +413,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -423,8 +423,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setEllipsisString(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -433,8 +433,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -443,8 +443,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -453,8 +453,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setFont(javafx.scene.text.Font)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -463,8 +463,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setGraphic(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -473,8 +473,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setGraphicTextGap(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -483,8 +483,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -493,8 +493,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -503,8 +503,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setItem(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setItem(java.lang.Object) setItem} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -513,8 +513,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -523,8 +523,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -533,8 +533,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setLineSpacing(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -543,8 +543,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -553,8 +553,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -563,8 +563,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -573,8 +573,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -583,8 +583,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -593,8 +593,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -603,8 +603,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -613,8 +613,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setMnemonicParsing(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -623,8 +623,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -633,8 +633,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -643,8 +643,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -653,8 +653,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -663,8 +663,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -673,8 +673,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -683,8 +683,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -693,8 +693,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -703,8 +703,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -713,8 +713,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -723,8 +723,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -733,8 +733,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -743,8 +743,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -753,8 +753,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -763,8 +763,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -773,8 +773,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -783,8 +783,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -793,8 +793,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -803,8 +803,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -813,8 +813,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -823,8 +823,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -833,8 +833,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -843,8 +843,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -853,8 +853,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -863,8 +863,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -873,8 +873,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -883,8 +883,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -893,8 +893,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -903,8 +903,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -913,8 +913,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -923,8 +923,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -933,8 +933,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -943,8 +943,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -953,8 +953,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -963,8 +963,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -973,8 +973,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -983,8 +983,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -993,8 +993,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1003,8 +1003,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1013,8 +1013,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1023,8 +1023,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1033,8 +1033,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1043,8 +1043,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1053,8 +1053,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1063,8 +1063,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1073,8 +1073,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1083,8 +1083,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1093,8 +1093,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1103,8 +1103,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1113,8 +1113,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1123,8 +1123,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1133,8 +1133,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1143,8 +1143,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1153,8 +1153,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1163,8 +1163,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1173,8 +1173,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1183,8 +1183,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1193,8 +1193,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1203,8 +1203,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setText(java.lang.String) setText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1213,8 +1213,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setTextAlignment(javafx.scene.text.TextAlignment)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1223,8 +1223,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setTextFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1233,8 +1233,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setTextOverrun(javafx.scene.control.OverrunStyle)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1243,8 +1243,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1253,8 +1253,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1263,8 +1263,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1273,8 +1273,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1283,8 +1283,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setUnderline(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setUnderline(boolean) setUnderline} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1293,8 +1293,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1303,8 +1303,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1313,8 +1313,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1323,8 +1323,8 @@ public class ChoiceBoxTreeCellBuilder<T> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setWrapText(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#setWrapText(boolean) setWrapText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2347,7 +2347,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2369,7 +2369,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2391,7 +2391,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2413,7 +2413,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2435,7 +2435,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#alignmentProperty() alignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2457,7 +2457,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2479,7 +2479,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2501,7 +2501,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2523,7 +2523,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2545,7 +2545,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2567,7 +2567,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2589,7 +2589,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2611,7 +2611,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2633,7 +2633,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2655,7 +2655,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2677,7 +2677,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#contentDisplayProperty() contentDisplayProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2699,7 +2699,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2721,7 +2721,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#converterProperty() converterProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2743,7 +2743,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2765,7 +2765,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2787,7 +2787,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2809,7 +2809,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2831,7 +2831,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#disclosureNodeProperty() disclosureNodeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2853,7 +2853,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#editableProperty() editableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2875,7 +2875,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#editingProperty() editingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2897,7 +2897,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2919,7 +2919,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2941,7 +2941,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#ellipsisStringProperty() ellipsisStringProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2963,7 +2963,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#emptyProperty() emptyProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -2985,7 +2985,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3007,7 +3007,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3029,7 +3029,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3051,7 +3051,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3073,7 +3073,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3095,7 +3095,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#fontProperty() fontProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3117,7 +3117,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#graphicProperty() graphicProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3139,7 +3139,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#graphicTextGapProperty() graphicTextGapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3161,7 +3161,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3183,7 +3183,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3205,7 +3205,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3227,7 +3227,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#indexProperty() indexProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3249,7 +3249,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3271,7 +3271,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3293,7 +3293,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#itemProperty() itemProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3315,7 +3315,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#labelPaddingProperty() labelPaddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3337,7 +3337,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3359,7 +3359,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3381,7 +3381,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3403,7 +3403,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#lineSpacingProperty() lineSpacingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3425,7 +3425,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3447,7 +3447,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3469,7 +3469,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3491,7 +3491,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3513,7 +3513,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3535,7 +3535,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3557,7 +3557,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3579,7 +3579,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#mnemonicParsingProperty() mnemonicParsingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3601,7 +3601,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3623,7 +3623,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3645,7 +3645,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3667,7 +3667,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3689,7 +3689,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3711,7 +3711,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3733,7 +3733,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3755,7 +3755,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3777,7 +3777,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3799,7 +3799,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3821,7 +3821,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3843,7 +3843,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3865,7 +3865,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3887,7 +3887,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3909,7 +3909,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3931,7 +3931,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3953,7 +3953,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3975,7 +3975,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -3997,7 +3997,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4019,7 +4019,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4041,7 +4041,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4063,7 +4063,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4085,7 +4085,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4107,7 +4107,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4129,7 +4129,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4151,7 +4151,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4173,7 +4173,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4195,7 +4195,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4217,7 +4217,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4239,7 +4239,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4261,7 +4261,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4283,7 +4283,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4305,7 +4305,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4327,7 +4327,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4349,7 +4349,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4371,7 +4371,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4393,7 +4393,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4415,7 +4415,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4437,7 +4437,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4459,7 +4459,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4481,7 +4481,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4503,7 +4503,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4525,7 +4525,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4547,7 +4547,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4569,7 +4569,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4591,7 +4591,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4613,7 +4613,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4635,7 +4635,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4657,7 +4657,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4679,7 +4679,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4701,7 +4701,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4723,7 +4723,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4745,7 +4745,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4767,7 +4767,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4789,7 +4789,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4811,7 +4811,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4833,7 +4833,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4855,7 +4855,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#selectedProperty() selectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4877,7 +4877,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4899,7 +4899,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4921,7 +4921,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4943,7 +4943,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4965,7 +4965,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#textAlignmentProperty() textAlignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -4987,7 +4987,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#textFillProperty() textFillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5009,7 +5009,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#textOverrunProperty() textOverrunProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5031,7 +5031,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#textProperty() textProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5053,7 +5053,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#textTruncatedProperty() textTruncatedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5075,7 +5075,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5097,7 +5097,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5119,7 +5119,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5141,7 +5141,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5163,7 +5163,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#treeItemProperty() treeItemProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5185,7 +5185,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#treeViewProperty() treeViewProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5207,7 +5207,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#underlineProperty() underlineProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5229,7 +5229,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5251,7 +5251,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5273,7 +5273,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 
@@ -5295,7 +5295,7 @@ public class ChoiceBoxTreeCellBuilder<T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.cell.ChoiceBoxTreeCell#wrapTextProperty() wrapTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.cell.ChoiceBoxTreeCell<T>> func) apply} method.
      * <p>
      * Example: 

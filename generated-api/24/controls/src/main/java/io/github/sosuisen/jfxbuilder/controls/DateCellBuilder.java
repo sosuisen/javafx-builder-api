@@ -129,7 +129,7 @@ public class DateCellBuilder {
         return false;
     }
     /**
-     * Applies a function to the DateCell instance currently being constructed.
+     * Applies a function to the DateCell instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -145,8 +145,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -155,8 +155,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -165,8 +165,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -175,8 +175,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -185,8 +185,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setAlignment(javafx.geometry.Pos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -195,8 +195,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -205,8 +205,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -215,8 +215,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -225,8 +225,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -235,8 +235,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -245,8 +245,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -255,8 +255,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -265,8 +265,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -275,8 +275,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setContentDisplay(javafx.scene.control.ContentDisplay)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -285,8 +285,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -295,8 +295,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -305,8 +305,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -315,8 +315,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -325,8 +325,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setEditable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setEditable(boolean) setEditable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -335,8 +335,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -345,8 +345,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setEllipsisString(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -355,8 +355,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -365,8 +365,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -375,8 +375,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setFont(javafx.scene.text.Font)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -385,8 +385,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setGraphic(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -395,8 +395,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setGraphicTextGap(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -405,8 +405,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -415,8 +415,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -425,8 +425,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setItem(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setItem(java.lang.Object) setItem} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -435,8 +435,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -445,8 +445,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -455,8 +455,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setLineSpacing(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -465,8 +465,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -475,8 +475,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -485,8 +485,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -495,8 +495,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -505,8 +505,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -515,8 +515,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -525,8 +525,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -535,8 +535,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setMnemonicParsing(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -545,8 +545,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -555,8 +555,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -565,8 +565,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -575,8 +575,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -585,8 +585,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -595,8 +595,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -605,8 +605,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -615,8 +615,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -625,8 +625,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -635,8 +635,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -645,8 +645,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -655,8 +655,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -665,8 +665,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -675,8 +675,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -685,8 +685,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -695,8 +695,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -705,8 +705,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -715,8 +715,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -725,8 +725,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -735,8 +735,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -745,8 +745,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -755,8 +755,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -765,8 +765,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -775,8 +775,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -785,8 +785,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -795,8 +795,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -805,8 +805,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -815,8 +815,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -825,8 +825,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -835,8 +835,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -845,8 +845,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -855,8 +855,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -865,8 +865,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -875,8 +875,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -885,8 +885,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -895,8 +895,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -905,8 +905,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -915,8 +915,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -925,8 +925,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -935,8 +935,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -945,8 +945,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -955,8 +955,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -965,8 +965,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -975,8 +975,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -985,8 +985,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -995,8 +995,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1005,8 +1005,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1015,8 +1015,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1025,8 +1025,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1035,8 +1035,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1045,8 +1045,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1055,8 +1055,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1065,8 +1065,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1075,8 +1075,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1085,8 +1085,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1095,8 +1095,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1105,8 +1105,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1115,8 +1115,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1125,8 +1125,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setText(java.lang.String) setText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1135,8 +1135,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setTextAlignment(javafx.scene.text.TextAlignment)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1145,8 +1145,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setTextFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1155,8 +1155,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setTextOverrun(javafx.scene.control.OverrunStyle)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1165,8 +1165,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1175,8 +1175,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1185,8 +1185,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1195,8 +1195,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1205,8 +1205,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setUnderline(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setUnderline(boolean) setUnderline} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1215,8 +1215,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1225,8 +1225,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1235,8 +1235,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1245,8 +1245,8 @@ public class DateCellBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.DateCell#setWrapText(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.DateCell#setWrapText(boolean) setWrapText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2221,7 +2221,7 @@ public class DateCellBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2243,7 +2243,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2265,7 +2265,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2287,7 +2287,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2309,7 +2309,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#alignmentProperty() alignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2331,7 +2331,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2353,7 +2353,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2375,7 +2375,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2397,7 +2397,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2419,7 +2419,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2441,7 +2441,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2463,7 +2463,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2485,7 +2485,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2507,7 +2507,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2529,7 +2529,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2551,7 +2551,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#contentDisplayProperty() contentDisplayProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2573,7 +2573,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2595,7 +2595,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2617,7 +2617,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2639,7 +2639,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2661,7 +2661,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2683,7 +2683,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#editableProperty() editableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2705,7 +2705,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#editingProperty() editingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2727,7 +2727,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2749,7 +2749,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2771,7 +2771,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#ellipsisStringProperty() ellipsisStringProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2793,7 +2793,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#emptyProperty() emptyProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2815,7 +2815,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2837,7 +2837,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2859,7 +2859,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2881,7 +2881,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2903,7 +2903,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2925,7 +2925,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#fontProperty() fontProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2947,7 +2947,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#graphicProperty() graphicProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2969,7 +2969,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#graphicTextGapProperty() graphicTextGapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -2991,7 +2991,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3013,7 +3013,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3035,7 +3035,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3057,7 +3057,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3079,7 +3079,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3101,7 +3101,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#itemProperty() itemProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3123,7 +3123,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#labelPaddingProperty() labelPaddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3145,7 +3145,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3167,7 +3167,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3189,7 +3189,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3211,7 +3211,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#lineSpacingProperty() lineSpacingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3233,7 +3233,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3255,7 +3255,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3277,7 +3277,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3299,7 +3299,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3321,7 +3321,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3343,7 +3343,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3365,7 +3365,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3387,7 +3387,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#mnemonicParsingProperty() mnemonicParsingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3409,7 +3409,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3431,7 +3431,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3453,7 +3453,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3475,7 +3475,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3497,7 +3497,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3519,7 +3519,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3541,7 +3541,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3563,7 +3563,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3585,7 +3585,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3607,7 +3607,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3629,7 +3629,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3651,7 +3651,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3673,7 +3673,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3695,7 +3695,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3717,7 +3717,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3739,7 +3739,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3761,7 +3761,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3783,7 +3783,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3805,7 +3805,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3827,7 +3827,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3849,7 +3849,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3871,7 +3871,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3893,7 +3893,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3915,7 +3915,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3937,7 +3937,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3959,7 +3959,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -3981,7 +3981,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4003,7 +4003,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4025,7 +4025,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4047,7 +4047,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4069,7 +4069,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4091,7 +4091,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4113,7 +4113,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4135,7 +4135,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4157,7 +4157,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4179,7 +4179,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4201,7 +4201,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4223,7 +4223,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4245,7 +4245,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4267,7 +4267,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4289,7 +4289,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4311,7 +4311,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4333,7 +4333,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4355,7 +4355,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4377,7 +4377,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4399,7 +4399,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4421,7 +4421,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4443,7 +4443,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4465,7 +4465,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4487,7 +4487,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4509,7 +4509,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4531,7 +4531,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4553,7 +4553,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4575,7 +4575,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4597,7 +4597,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4619,7 +4619,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4641,7 +4641,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4663,7 +4663,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#selectedProperty() selectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4685,7 +4685,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4707,7 +4707,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4729,7 +4729,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4751,7 +4751,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4773,7 +4773,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#textAlignmentProperty() textAlignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4795,7 +4795,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#textFillProperty() textFillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4817,7 +4817,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#textOverrunProperty() textOverrunProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4839,7 +4839,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#textProperty() textProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4861,7 +4861,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#textTruncatedProperty() textTruncatedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4883,7 +4883,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4905,7 +4905,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4927,7 +4927,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4949,7 +4949,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4971,7 +4971,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#underlineProperty() underlineProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -4993,7 +4993,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -5015,7 +5015,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -5037,7 +5037,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 
@@ -5059,7 +5059,7 @@ public class DateCellBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.DateCell#wrapTextProperty() wrapTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.DateCell> func) apply} method.
      * <p>
      * Example: 

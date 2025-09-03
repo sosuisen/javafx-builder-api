@@ -157,7 +157,7 @@ public class GroupBuilder {
         return false;
     }
     /**
-     * Applies a function to the Group instance currently being constructed.
+     * Applies a function to the Group instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -173,8 +173,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -183,8 +183,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -193,8 +193,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -203,8 +203,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -213,8 +213,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setAutoSizeChildren(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setAutoSizeChildren(boolean) setAutoSizeChildren} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -223,8 +223,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -233,8 +233,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -243,8 +243,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -253,8 +253,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -263,8 +263,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -273,8 +273,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -283,8 +283,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -293,8 +293,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -303,8 +303,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -313,8 +313,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -323,8 +323,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -333,8 +333,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -343,8 +343,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -353,8 +353,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -363,8 +363,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -373,8 +373,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -383,8 +383,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -393,8 +393,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -403,8 +403,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -413,8 +413,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -423,8 +423,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -433,8 +433,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -443,8 +443,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -453,8 +453,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -463,8 +463,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -473,8 +473,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -483,8 +483,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -493,8 +493,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -503,8 +503,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -513,8 +513,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -523,8 +523,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -533,8 +533,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -543,8 +543,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -553,8 +553,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -563,8 +563,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -573,8 +573,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -583,8 +583,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -593,8 +593,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -603,8 +603,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -613,8 +613,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -623,8 +623,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -633,8 +633,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -643,8 +643,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -653,8 +653,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -663,8 +663,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -673,8 +673,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -683,8 +683,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -693,8 +693,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -703,8 +703,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -713,8 +713,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -723,8 +723,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -733,8 +733,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -743,8 +743,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -753,8 +753,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -763,8 +763,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -773,8 +773,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -783,8 +783,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -793,8 +793,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -803,8 +803,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -813,8 +813,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -823,8 +823,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -833,8 +833,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -843,8 +843,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -853,8 +853,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -863,8 +863,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -873,8 +873,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -883,8 +883,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -893,8 +893,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -903,8 +903,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -913,8 +913,8 @@ public class GroupBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.Group#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.Group#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1937,7 +1937,7 @@ public class GroupBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.Group#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -1959,7 +1959,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -1981,7 +1981,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2003,7 +2003,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2025,7 +2025,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#autoSizeChildrenProperty() autoSizeChildrenProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2047,7 +2047,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2069,7 +2069,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2091,7 +2091,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2113,7 +2113,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2135,7 +2135,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2157,7 +2157,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2179,7 +2179,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2201,7 +2201,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2223,7 +2223,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2245,7 +2245,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2267,7 +2267,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2289,7 +2289,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2311,7 +2311,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2333,7 +2333,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2355,7 +2355,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2377,7 +2377,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2399,7 +2399,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2421,7 +2421,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2443,7 +2443,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2465,7 +2465,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2487,7 +2487,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2509,7 +2509,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2531,7 +2531,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2553,7 +2553,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2575,7 +2575,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2597,7 +2597,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2619,7 +2619,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2641,7 +2641,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2663,7 +2663,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2685,7 +2685,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2707,7 +2707,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2729,7 +2729,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2751,7 +2751,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2773,7 +2773,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2795,7 +2795,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2817,7 +2817,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2839,7 +2839,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2861,7 +2861,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2883,7 +2883,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2905,7 +2905,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2927,7 +2927,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2949,7 +2949,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2971,7 +2971,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -2993,7 +2993,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3015,7 +3015,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3037,7 +3037,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3059,7 +3059,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3081,7 +3081,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3103,7 +3103,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3125,7 +3125,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3147,7 +3147,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3169,7 +3169,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3191,7 +3191,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3213,7 +3213,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3235,7 +3235,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3257,7 +3257,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3279,7 +3279,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3301,7 +3301,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3323,7 +3323,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3345,7 +3345,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3367,7 +3367,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3389,7 +3389,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3411,7 +3411,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3433,7 +3433,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3455,7 +3455,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3477,7 +3477,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3499,7 +3499,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3521,7 +3521,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3543,7 +3543,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3565,7 +3565,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3587,7 +3587,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3609,7 +3609,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3631,7 +3631,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3653,7 +3653,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3675,7 +3675,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3697,7 +3697,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3719,7 +3719,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3741,7 +3741,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3763,7 +3763,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3785,7 +3785,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3807,7 +3807,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3829,7 +3829,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3851,7 +3851,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 
@@ -3873,7 +3873,7 @@ public class GroupBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.Group#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.Group> func) apply} method.
      * <p>
      * Example: 

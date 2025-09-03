@@ -3,8 +3,8 @@
 @param SetterMethodModel model
 
     /**
-     * Builder method for {@link ${model.originalClassName()}#${model.originalMethodName()}(${model.parameterTypeList()})}
-     * 
+     * A builder method that invokes the {@link ${model.originalClassName()}#${model.originalMethodName()}(${model.parameterTypeList()}) ${model.originalMethodName()}} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     ${model.methodAnnotation()}

@@ -131,7 +131,7 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
         return false;
     }
     /**
-     * Applies a function to the TreeTableViewFocusModel instance currently being constructed.
+     * Applies a function to the TreeTableViewFocusModel instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -143,7 +143,7 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#focusedCellProperty() focusedCellProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableView.TreeTableViewFocusModel<S>> func) apply} method.
      * <p>
      * Example: 
@@ -165,7 +165,7 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#focusedIndexProperty() focusedIndexProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableView.TreeTableViewFocusModel<S>> func) apply} method.
      * <p>
      * Example: 
@@ -187,7 +187,7 @@ public class TreeTableViewTreeTableViewFocusModelBuilder<S> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.TreeTableView.TreeTableViewFocusModel#focusedItemProperty() focusedItemProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.TreeTableView.TreeTableViewFocusModel<S>> func) apply} method.
      * <p>
      * Example: 

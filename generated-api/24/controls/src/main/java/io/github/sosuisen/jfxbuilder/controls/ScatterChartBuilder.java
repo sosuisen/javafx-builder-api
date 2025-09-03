@@ -145,7 +145,7 @@ public class ScatterChartBuilder<X, Y> {
         return false;
     }
     /**
-     * Applies a function to the ScatterChart instance currently being constructed.
+     * Applies a function to the ScatterChart instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -161,8 +161,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -171,8 +171,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -181,8 +181,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -191,8 +191,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -201,8 +201,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setAlternativeColumnFillVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setAlternativeColumnFillVisible(boolean) setAlternativeColumnFillVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -211,8 +211,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setAlternativeRowFillVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setAlternativeRowFillVisible(boolean) setAlternativeRowFillVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -221,8 +221,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setAnimated(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setAnimated(boolean) setAnimated} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -231,8 +231,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -241,8 +241,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -251,8 +251,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -261,8 +261,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -271,8 +271,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -281,8 +281,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -291,8 +291,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -301,8 +301,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -311,8 +311,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -321,8 +321,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setData(javafx.collections.ObservableList)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setData(javafx.collections.ObservableList) setData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -331,8 +331,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -341,8 +341,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -351,8 +351,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -361,8 +361,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -371,8 +371,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -381,8 +381,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setHorizontalGridLinesVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setHorizontalGridLinesVisible(boolean) setHorizontalGridLinesVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -391,8 +391,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setHorizontalZeroLineVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setHorizontalZeroLineVisible(boolean) setHorizontalZeroLineVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -401,8 +401,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -411,8 +411,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -421,8 +421,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -431,8 +431,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -441,8 +441,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setLegendSide(javafx.geometry.Side)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setLegendSide(javafx.geometry.Side) setLegendSide} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -451,8 +451,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setLegendVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setLegendVisible(boolean) setLegendVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -461,8 +461,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -471,8 +471,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -481,8 +481,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -491,8 +491,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -501,8 +501,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -511,8 +511,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -521,8 +521,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -531,8 +531,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -541,8 +541,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -551,8 +551,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -561,8 +561,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -571,8 +571,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -581,8 +581,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -591,8 +591,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -601,8 +601,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -611,8 +611,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -621,8 +621,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -631,8 +631,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -641,8 +641,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -651,8 +651,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -661,8 +661,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -671,8 +671,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -681,8 +681,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -691,8 +691,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -701,8 +701,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -711,8 +711,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -721,8 +721,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -731,8 +731,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -741,8 +741,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -751,8 +751,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -761,8 +761,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -771,8 +771,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -781,8 +781,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -791,8 +791,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -801,8 +801,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -811,8 +811,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -821,8 +821,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -831,8 +831,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -841,8 +841,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -851,8 +851,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -861,8 +861,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -871,8 +871,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -881,8 +881,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -891,8 +891,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -901,8 +901,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -911,8 +911,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -921,8 +921,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -931,8 +931,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -941,8 +941,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -951,8 +951,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -961,8 +961,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -971,8 +971,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -981,8 +981,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -991,8 +991,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1001,8 +1001,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1011,8 +1011,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1021,8 +1021,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1031,8 +1031,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1041,8 +1041,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1051,8 +1051,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1061,8 +1061,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1071,8 +1071,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1081,8 +1081,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1091,8 +1091,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1101,8 +1101,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setTitle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setTitle(java.lang.String) setTitle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1111,8 +1111,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setTitleSide(javafx.geometry.Side)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setTitleSide(javafx.geometry.Side) setTitleSide} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1121,8 +1121,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1131,8 +1131,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1141,8 +1141,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1151,8 +1151,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1161,8 +1161,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setVerticalGridLinesVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setVerticalGridLinesVisible(boolean) setVerticalGridLinesVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1171,8 +1171,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setVerticalZeroLineVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setVerticalZeroLineVisible(boolean) setVerticalZeroLineVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1181,8 +1181,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1191,8 +1191,8 @@ public class ScatterChartBuilder<X, Y> {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.chart.ScatterChart#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.chart.ScatterChart#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2194,7 +2194,7 @@ public class ScatterChartBuilder<X, Y> {
     
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2216,7 +2216,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2238,7 +2238,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2260,7 +2260,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2282,7 +2282,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#alternativeColumnFillVisibleProperty() alternativeColumnFillVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2304,7 +2304,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#alternativeRowFillVisibleProperty() alternativeRowFillVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2326,7 +2326,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#animatedProperty() animatedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2348,7 +2348,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2370,7 +2370,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2392,7 +2392,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2414,7 +2414,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2436,7 +2436,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2458,7 +2458,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2480,7 +2480,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2502,7 +2502,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2524,7 +2524,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2546,7 +2546,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2568,7 +2568,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2590,7 +2590,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#dataProperty() dataProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2612,7 +2612,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2634,7 +2634,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2656,7 +2656,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2678,7 +2678,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2700,7 +2700,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2722,7 +2722,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2744,7 +2744,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2766,7 +2766,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2788,7 +2788,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2810,7 +2810,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2832,7 +2832,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2854,7 +2854,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#horizontalGridLinesVisibleProperty() horizontalGridLinesVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2876,7 +2876,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#horizontalZeroLineVisibleProperty() horizontalZeroLineVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2898,7 +2898,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2920,7 +2920,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2942,7 +2942,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2964,7 +2964,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -2986,7 +2986,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3008,7 +3008,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3030,7 +3030,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3052,7 +3052,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#legendSideProperty() legendSideProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3074,7 +3074,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#legendVisibleProperty() legendVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3096,7 +3096,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3118,7 +3118,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3140,7 +3140,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3162,7 +3162,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3184,7 +3184,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3206,7 +3206,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3228,7 +3228,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3250,7 +3250,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3272,7 +3272,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3294,7 +3294,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3316,7 +3316,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3338,7 +3338,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3360,7 +3360,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3382,7 +3382,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3404,7 +3404,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3426,7 +3426,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3448,7 +3448,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3470,7 +3470,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3492,7 +3492,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3514,7 +3514,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3536,7 +3536,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3558,7 +3558,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3580,7 +3580,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3602,7 +3602,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3624,7 +3624,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3646,7 +3646,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3668,7 +3668,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3690,7 +3690,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3712,7 +3712,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3734,7 +3734,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3756,7 +3756,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3778,7 +3778,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3800,7 +3800,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3822,7 +3822,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3844,7 +3844,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3866,7 +3866,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3888,7 +3888,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3910,7 +3910,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3932,7 +3932,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3954,7 +3954,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3976,7 +3976,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -3998,7 +3998,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4020,7 +4020,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4042,7 +4042,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4064,7 +4064,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4086,7 +4086,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4108,7 +4108,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4130,7 +4130,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4152,7 +4152,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4174,7 +4174,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4196,7 +4196,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4218,7 +4218,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4240,7 +4240,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4262,7 +4262,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4284,7 +4284,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4306,7 +4306,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4328,7 +4328,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4350,7 +4350,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4372,7 +4372,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4394,7 +4394,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4416,7 +4416,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4438,7 +4438,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4460,7 +4460,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4482,7 +4482,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4504,7 +4504,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4526,7 +4526,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4548,7 +4548,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4570,7 +4570,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#titleProperty() titleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4592,7 +4592,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#titleSideProperty() titleSideProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4614,7 +4614,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4636,7 +4636,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4658,7 +4658,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4680,7 +4680,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#verticalGridLinesVisibleProperty() verticalGridLinesVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4702,7 +4702,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#verticalZeroLineVisibleProperty() verticalZeroLineVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4724,7 +4724,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4746,7 +4746,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 
@@ -4768,7 +4768,7 @@ public class ScatterChartBuilder<X, Y> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.chart.ScatterChart#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.chart.ScatterChart<X, Y>> func) apply} method.
      * <p>
      * Example: 

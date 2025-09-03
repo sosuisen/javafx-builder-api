@@ -171,7 +171,7 @@ public class DropShadowBuilder {
         return false;
     }
     /**
-     * Applies a function to the DropShadow instance currently being constructed.
+     * Applies a function to the DropShadow instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -182,8 +182,8 @@ public class DropShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.DropShadow#setBlurType(javafx.scene.effect.BlurType)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.DropShadow#setBlurType(javafx.scene.effect.BlurType) setBlurType} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -192,8 +192,8 @@ public class DropShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.DropShadow#setColor(javafx.scene.paint.Color)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.DropShadow#setColor(javafx.scene.paint.Color) setColor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -202,8 +202,8 @@ public class DropShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.DropShadow#setHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.DropShadow#setHeight(double) setHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -212,8 +212,8 @@ public class DropShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.DropShadow#setInput(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.DropShadow#setInput(javafx.scene.effect.Effect) setInput} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -222,8 +222,8 @@ public class DropShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.DropShadow#setOffsetX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.DropShadow#setOffsetX(double) setOffsetX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -232,8 +232,8 @@ public class DropShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.DropShadow#setOffsetY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.DropShadow#setOffsetY(double) setOffsetY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -242,8 +242,8 @@ public class DropShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.DropShadow#setRadius(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.DropShadow#setRadius(double) setRadius} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -252,8 +252,8 @@ public class DropShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.DropShadow#setSpread(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.DropShadow#setSpread(double) setSpread} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -262,8 +262,8 @@ public class DropShadowBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.effect.DropShadow#setWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.effect.DropShadow#setWidth(double) setWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -273,7 +273,7 @@ public class DropShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#blurTypeProperty() blurTypeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
      * <p>
      * Example: 
@@ -295,7 +295,7 @@ public class DropShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#colorProperty() colorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
      * <p>
      * Example: 
@@ -317,7 +317,7 @@ public class DropShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
      * <p>
      * Example: 
@@ -339,7 +339,7 @@ public class DropShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#inputProperty() inputProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
      * <p>
      * Example: 
@@ -361,7 +361,7 @@ public class DropShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#offsetXProperty() offsetXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
      * <p>
      * Example: 
@@ -383,7 +383,7 @@ public class DropShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#offsetYProperty() offsetYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
      * <p>
      * Example: 
@@ -405,7 +405,7 @@ public class DropShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#radiusProperty() radiusProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
      * <p>
      * Example: 
@@ -427,7 +427,7 @@ public class DropShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#spreadProperty() spreadProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
      * <p>
      * Example: 
@@ -449,7 +449,7 @@ public class DropShadowBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.effect.DropShadow#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.effect.DropShadow> func) apply} method.
      * <p>
      * Example: 

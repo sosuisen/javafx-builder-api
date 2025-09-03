@@ -129,7 +129,7 @@ public class HTMLEditorBuilder {
         return false;
     }
     /**
-     * Applies a function to the HTMLEditor instance currently being constructed.
+     * Applies a function to the HTMLEditor instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -145,8 +145,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -155,8 +155,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -165,8 +165,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -175,8 +175,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -185,8 +185,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -195,8 +195,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -205,8 +205,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -215,8 +215,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -225,8 +225,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -235,8 +235,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -245,8 +245,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -255,8 +255,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -265,8 +265,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -275,8 +275,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -285,8 +285,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -295,8 +295,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -305,8 +305,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -315,8 +315,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -325,8 +325,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -335,8 +335,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setHtmlText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setHtmlText(java.lang.String) setHtmlText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -345,8 +345,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -355,8 +355,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -365,8 +365,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -375,8 +375,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -385,8 +385,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -395,8 +395,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -405,8 +405,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -415,8 +415,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -425,8 +425,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -435,8 +435,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -445,8 +445,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -455,8 +455,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -465,8 +465,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -475,8 +475,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -485,8 +485,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -495,8 +495,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -505,8 +505,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -515,8 +515,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -525,8 +525,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -535,8 +535,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -545,8 +545,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -555,8 +555,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -565,8 +565,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -575,8 +575,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -585,8 +585,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -595,8 +595,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -605,8 +605,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -615,8 +615,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -625,8 +625,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -635,8 +635,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -645,8 +645,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -655,8 +655,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -665,8 +665,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -675,8 +675,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -685,8 +685,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -695,8 +695,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -705,8 +705,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -715,8 +715,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -725,8 +725,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -735,8 +735,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -745,8 +745,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -755,8 +755,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -765,8 +765,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -775,8 +775,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -785,8 +785,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -795,8 +795,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -805,8 +805,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -815,8 +815,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -825,8 +825,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -835,8 +835,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -845,8 +845,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -855,8 +855,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -865,8 +865,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -875,8 +875,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -885,8 +885,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -895,8 +895,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -905,8 +905,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -915,8 +915,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -925,8 +925,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -935,8 +935,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -945,8 +945,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -955,8 +955,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -965,8 +965,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -975,8 +975,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -985,8 +985,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -995,8 +995,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1005,8 +1005,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1015,8 +1015,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1025,8 +1025,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1035,8 +1035,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1045,8 +1045,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1055,8 +1055,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1065,8 +1065,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1075,8 +1075,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1085,8 +1085,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1095,8 +1095,8 @@ public class HTMLEditorBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.web.HTMLEditor#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.web.HTMLEditor#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2071,7 +2071,7 @@ public class HTMLEditorBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2093,7 +2093,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2115,7 +2115,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2137,7 +2137,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2159,7 +2159,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2181,7 +2181,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2203,7 +2203,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2225,7 +2225,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2247,7 +2247,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2269,7 +2269,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2291,7 +2291,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2313,7 +2313,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2335,7 +2335,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2357,7 +2357,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2379,7 +2379,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2401,7 +2401,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2423,7 +2423,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2445,7 +2445,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2467,7 +2467,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2489,7 +2489,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2511,7 +2511,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2533,7 +2533,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2555,7 +2555,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2577,7 +2577,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2599,7 +2599,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2621,7 +2621,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2643,7 +2643,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2665,7 +2665,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2687,7 +2687,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2709,7 +2709,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2731,7 +2731,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2753,7 +2753,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2775,7 +2775,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2797,7 +2797,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2819,7 +2819,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2841,7 +2841,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2863,7 +2863,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2885,7 +2885,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2907,7 +2907,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2929,7 +2929,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2951,7 +2951,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2973,7 +2973,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -2995,7 +2995,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3017,7 +3017,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3039,7 +3039,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3061,7 +3061,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3083,7 +3083,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3105,7 +3105,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3127,7 +3127,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3149,7 +3149,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3171,7 +3171,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3193,7 +3193,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3215,7 +3215,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3237,7 +3237,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3259,7 +3259,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3281,7 +3281,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3303,7 +3303,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3325,7 +3325,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3347,7 +3347,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3369,7 +3369,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3391,7 +3391,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3413,7 +3413,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3435,7 +3435,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3457,7 +3457,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3479,7 +3479,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3501,7 +3501,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3523,7 +3523,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3545,7 +3545,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3567,7 +3567,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3589,7 +3589,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3611,7 +3611,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3633,7 +3633,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3655,7 +3655,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3677,7 +3677,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3699,7 +3699,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3721,7 +3721,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3743,7 +3743,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3765,7 +3765,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3787,7 +3787,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3809,7 +3809,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3831,7 +3831,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3853,7 +3853,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3875,7 +3875,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3897,7 +3897,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3919,7 +3919,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3941,7 +3941,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3963,7 +3963,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -3985,7 +3985,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4007,7 +4007,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4029,7 +4029,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4051,7 +4051,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4073,7 +4073,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4095,7 +4095,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4117,7 +4117,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4139,7 +4139,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4161,7 +4161,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4183,7 +4183,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4205,7 +4205,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4227,7 +4227,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4249,7 +4249,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4271,7 +4271,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4293,7 +4293,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4315,7 +4315,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4337,7 +4337,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4359,7 +4359,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4381,7 +4381,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4403,7 +4403,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4425,7 +4425,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 
@@ -4447,7 +4447,7 @@ public class HTMLEditorBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.web.HTMLEditor#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.web.HTMLEditor> func) apply} method.
      * <p>
      * Example: 

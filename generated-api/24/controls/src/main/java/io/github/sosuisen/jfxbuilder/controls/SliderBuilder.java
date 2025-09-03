@@ -143,7 +143,7 @@ public class SliderBuilder {
         return false;
     }
     /**
-     * Applies a function to the Slider instance currently being constructed.
+     * Applies a function to the Slider instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -159,8 +159,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -169,8 +169,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -179,8 +179,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -189,8 +189,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -199,8 +199,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,8 +209,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -219,8 +219,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setBlockIncrement(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setBlockIncrement(double) setBlockIncrement} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,8 +229,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -239,8 +239,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,8 +249,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -259,8 +259,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -269,8 +269,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -279,8 +279,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -289,8 +289,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -299,8 +299,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -309,8 +309,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -319,8 +319,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -329,8 +329,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -339,8 +339,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -349,8 +349,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -359,8 +359,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -369,8 +369,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -379,8 +379,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setLabelFormatter(javafx.util.StringConverter)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setLabelFormatter(javafx.util.StringConverter) setLabelFormatter} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -389,8 +389,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -399,8 +399,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -409,8 +409,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setMajorTickUnit(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setMajorTickUnit(double) setMajorTickUnit} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -419,8 +419,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -429,8 +429,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setMax(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setMax(double) setMax} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -439,8 +439,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -449,8 +449,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -459,8 +459,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -469,8 +469,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setMin(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setMin(double) setMin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -479,8 +479,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -489,8 +489,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -499,8 +499,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -509,8 +509,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setMinorTickCount(int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setMinorTickCount(int) setMinorTickCount} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -519,8 +519,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -529,8 +529,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -539,8 +539,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -549,8 +549,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -559,8 +559,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -569,8 +569,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -579,8 +579,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -589,8 +589,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -599,8 +599,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -609,8 +609,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -619,8 +619,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -629,8 +629,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -639,8 +639,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -649,8 +649,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -659,8 +659,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -669,8 +669,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -679,8 +679,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -689,8 +689,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -699,8 +699,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -709,8 +709,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -719,8 +719,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -729,8 +729,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -739,8 +739,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -749,8 +749,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -759,8 +759,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -769,8 +769,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -779,8 +779,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -789,8 +789,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -799,8 +799,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -809,8 +809,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -819,8 +819,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -829,8 +829,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -839,8 +839,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -849,8 +849,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -859,8 +859,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -869,8 +869,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -879,8 +879,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -889,8 +889,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -899,8 +899,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -909,8 +909,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -919,8 +919,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -929,8 +929,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -939,8 +939,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -949,8 +949,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setOrientation(javafx.geometry.Orientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setOrientation(javafx.geometry.Orientation) setOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -959,8 +959,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -969,8 +969,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -979,8 +979,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -989,8 +989,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -999,8 +999,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1009,8 +1009,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1019,8 +1019,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1029,8 +1029,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1039,8 +1039,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1049,8 +1049,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1059,8 +1059,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1069,8 +1069,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1079,8 +1079,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setShowTickLabels(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setShowTickLabels(boolean) setShowTickLabels} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1089,8 +1089,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setShowTickMarks(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setShowTickMarks(boolean) setShowTickMarks} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1099,8 +1099,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1109,8 +1109,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1119,8 +1119,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setSnapToTicks(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setSnapToTicks(boolean) setSnapToTicks} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1129,8 +1129,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1139,8 +1139,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1149,8 +1149,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1159,8 +1159,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1169,8 +1169,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1179,8 +1179,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1189,8 +1189,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setValue(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setValue(double) setValue} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1199,8 +1199,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setValueChanging(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setValueChanging(boolean) setValueChanging} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1209,8 +1209,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1219,8 +1219,8 @@ public class SliderBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Slider#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Slider#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2195,7 +2195,7 @@ public class SliderBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2217,7 +2217,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2239,7 +2239,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2261,7 +2261,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2283,7 +2283,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2305,7 +2305,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2327,7 +2327,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#blockIncrementProperty() blockIncrementProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2349,7 +2349,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2371,7 +2371,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2393,7 +2393,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2415,7 +2415,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2437,7 +2437,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2459,7 +2459,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2481,7 +2481,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2503,7 +2503,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2525,7 +2525,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2547,7 +2547,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2569,7 +2569,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2591,7 +2591,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2613,7 +2613,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2635,7 +2635,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2657,7 +2657,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2679,7 +2679,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2701,7 +2701,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2723,7 +2723,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2745,7 +2745,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2767,7 +2767,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2789,7 +2789,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2811,7 +2811,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2833,7 +2833,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2855,7 +2855,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2877,7 +2877,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2899,7 +2899,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#labelFormatterProperty() labelFormatterProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2921,7 +2921,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2943,7 +2943,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2965,7 +2965,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -2987,7 +2987,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3009,7 +3009,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3031,7 +3031,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#majorTickUnitProperty() majorTickUnitProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3053,7 +3053,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3075,7 +3075,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3097,7 +3097,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#maxProperty() maxProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3119,7 +3119,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3141,7 +3141,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3163,7 +3163,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#minProperty() minProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3185,7 +3185,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3207,7 +3207,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#minorTickCountProperty() minorTickCountProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3229,7 +3229,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3251,7 +3251,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3273,7 +3273,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3295,7 +3295,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3317,7 +3317,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3339,7 +3339,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3361,7 +3361,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3383,7 +3383,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3405,7 +3405,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3427,7 +3427,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3449,7 +3449,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3471,7 +3471,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3493,7 +3493,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3515,7 +3515,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3537,7 +3537,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3559,7 +3559,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3581,7 +3581,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3603,7 +3603,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3625,7 +3625,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3647,7 +3647,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3669,7 +3669,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3691,7 +3691,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3713,7 +3713,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3735,7 +3735,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3757,7 +3757,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3779,7 +3779,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3801,7 +3801,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3823,7 +3823,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3845,7 +3845,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3867,7 +3867,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3889,7 +3889,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3911,7 +3911,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3933,7 +3933,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3955,7 +3955,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3977,7 +3977,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -3999,7 +3999,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4021,7 +4021,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4043,7 +4043,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4065,7 +4065,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4087,7 +4087,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4109,7 +4109,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4131,7 +4131,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4153,7 +4153,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4175,7 +4175,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4197,7 +4197,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#orientationProperty() orientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4219,7 +4219,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4241,7 +4241,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4263,7 +4263,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4285,7 +4285,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4307,7 +4307,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4329,7 +4329,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4351,7 +4351,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4373,7 +4373,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4395,7 +4395,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4417,7 +4417,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4439,7 +4439,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4461,7 +4461,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4483,7 +4483,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4505,7 +4505,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4527,7 +4527,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#showTickLabelsProperty() showTickLabelsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4549,7 +4549,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#showTickMarksProperty() showTickMarksProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4571,7 +4571,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4593,7 +4593,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4615,7 +4615,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#snapToTicksProperty() snapToTicksProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4637,7 +4637,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4659,7 +4659,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4681,7 +4681,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4703,7 +4703,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4725,7 +4725,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4747,7 +4747,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#valueChangingProperty() valueChangingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4769,7 +4769,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#valueProperty() valueProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4791,7 +4791,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4813,7 +4813,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 
@@ -4835,7 +4835,7 @@ public class SliderBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Slider#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Slider> func) apply} method.
      * <p>
      * Example: 

@@ -129,7 +129,7 @@ public class SplitPaneDividerBuilder {
         return false;
     }
     /**
-     * Applies a function to the Divider instance currently being constructed.
+     * Applies a function to the Divider instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -140,8 +140,8 @@ public class SplitPaneDividerBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SplitPane.Divider#setPosition(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SplitPane.Divider#setPosition(double) setPosition} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -151,7 +151,7 @@ public class SplitPaneDividerBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SplitPane.Divider#positionProperty() positionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SplitPane.Divider> func) apply} method.
      * <p>
      * Example: 

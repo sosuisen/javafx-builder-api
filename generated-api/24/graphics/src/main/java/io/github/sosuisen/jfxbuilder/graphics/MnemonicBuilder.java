@@ -129,7 +129,7 @@ public class MnemonicBuilder {
         return false;
     }
     /**
-     * Applies a function to the Mnemonic instance currently being constructed.
+     * Applies a function to the Mnemonic instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -140,8 +140,8 @@ public class MnemonicBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.input.Mnemonic#setKeyCombination(javafx.scene.input.KeyCombination)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.input.Mnemonic#setKeyCombination(javafx.scene.input.KeyCombination) setKeyCombination} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -150,8 +150,8 @@ public class MnemonicBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.input.Mnemonic#setNode(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.input.Mnemonic#setNode(javafx.scene.Node) setNode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     

@@ -129,7 +129,7 @@ public class SnapshotParametersBuilder {
         return false;
     }
     /**
-     * Applies a function to the SnapshotParameters instance currently being constructed.
+     * Applies a function to the SnapshotParameters instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -140,8 +140,8 @@ public class SnapshotParametersBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SnapshotParameters#setCamera(javafx.scene.Camera)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SnapshotParameters#setCamera(javafx.scene.Camera) setCamera} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -150,8 +150,8 @@ public class SnapshotParametersBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SnapshotParameters#setDepthBuffer(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SnapshotParameters#setDepthBuffer(boolean) setDepthBuffer} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -160,8 +160,8 @@ public class SnapshotParametersBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SnapshotParameters#setFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SnapshotParameters#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -170,8 +170,8 @@ public class SnapshotParametersBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SnapshotParameters#setTransform(javafx.scene.transform.Transform)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SnapshotParameters#setTransform(javafx.scene.transform.Transform) setTransform} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -180,8 +180,8 @@ public class SnapshotParametersBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.SnapshotParameters#setViewport(javafx.geometry.Rectangle2D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.SnapshotParameters#setViewport(javafx.geometry.Rectangle2D) setViewport} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     

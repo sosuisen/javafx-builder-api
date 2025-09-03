@@ -131,7 +131,7 @@ public class TreeTableCellSkinBuilder<S, T> {
         return false;
     }
     /**
-     * Applies a function to the TreeTableCellSkin instance currently being constructed.
+     * Applies a function to the TreeTableCellSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -170,7 +170,7 @@ public class TreeTableCellSkinBuilder<S, T> {
     
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TreeTableCellSkin#cellSizeProperty() cellSizeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TreeTableCellSkin<S, T>> func) apply} method.
      * <p>
      * Example: 
@@ -192,7 +192,7 @@ public class TreeTableCellSkinBuilder<S, T> {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.skin.TreeTableCellSkin#tableColumnProperty() tableColumnProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.skin.TreeTableCellSkin<S, T>> func) apply} method.
      * <p>
      * Example: 

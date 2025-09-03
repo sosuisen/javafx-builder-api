@@ -157,7 +157,7 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return false;
     }
     /**
-     * Applies a function to the IntegerSpinnerValueFactory instance currently being constructed.
+     * Applies a function to the IntegerSpinnerValueFactory instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -168,8 +168,8 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#setAmountToStepBy(int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#setAmountToStepBy(int) setAmountToStepBy} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -178,8 +178,8 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#setConverter(javafx.util.StringConverter)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#setConverter(javafx.util.StringConverter) setConverter} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -188,8 +188,8 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#setMax(int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#setMax(int) setMax} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -198,8 +198,8 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#setMin(int)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#setMin(int) setMin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -208,8 +208,8 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#setValue(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#setValue(java.lang.Object) setValue} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -218,8 +218,8 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#setWrapAround(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#setWrapAround(boolean) setWrapAround} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,7 +229,7 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#amountToStepByProperty() amountToStepByProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory> func) apply} method.
      * <p>
      * Example: 
@@ -251,7 +251,7 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#converterProperty() converterProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory> func) apply} method.
      * <p>
      * Example: 
@@ -273,7 +273,7 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#maxProperty() maxProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory> func) apply} method.
      * <p>
      * Example: 
@@ -295,7 +295,7 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#minProperty() minProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory> func) apply} method.
      * <p>
      * Example: 
@@ -317,7 +317,7 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#valueProperty() valueProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory> func) apply} method.
      * <p>
      * Example: 
@@ -339,7 +339,7 @@ public class SpinnerValueFactoryIntegerSpinnerValueFactoryBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory#wrapAroundProperty() wrapAroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory> func) apply} method.
      * <p>
      * Example: 

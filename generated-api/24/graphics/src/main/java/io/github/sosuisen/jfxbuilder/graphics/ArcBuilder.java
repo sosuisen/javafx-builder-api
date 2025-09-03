@@ -143,7 +143,7 @@ public class ArcBuilder {
         return false;
     }
     /**
-     * Applies a function to the Arc instance currently being constructed.
+     * Applies a function to the Arc instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -159,8 +159,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -169,8 +169,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -179,8 +179,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -189,8 +189,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -199,8 +199,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,8 +209,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -219,8 +219,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,8 +229,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setCenterX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setCenterX(double) setCenterX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -239,8 +239,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setCenterY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setCenterY(double) setCenterY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,8 +249,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -259,8 +259,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -269,8 +269,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -279,8 +279,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -289,8 +289,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -299,8 +299,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -309,8 +309,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -319,8 +319,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -329,8 +329,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -339,8 +339,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -349,8 +349,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -359,8 +359,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -369,8 +369,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setLength(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setLength(double) setLength} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -379,8 +379,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -389,8 +389,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -399,8 +399,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -409,8 +409,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -419,8 +419,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -429,8 +429,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -439,8 +439,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -449,8 +449,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -459,8 +459,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -469,8 +469,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -479,8 +479,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -489,8 +489,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -499,8 +499,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -509,8 +509,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -519,8 +519,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -529,8 +529,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -539,8 +539,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -549,8 +549,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -559,8 +559,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -569,8 +569,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -579,8 +579,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -589,8 +589,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -599,8 +599,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -609,8 +609,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -619,8 +619,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -629,8 +629,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -639,8 +639,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -649,8 +649,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -659,8 +659,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -669,8 +669,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -679,8 +679,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -689,8 +689,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -699,8 +699,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -709,8 +709,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -719,8 +719,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -729,8 +729,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -739,8 +739,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -749,8 +749,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -759,8 +759,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -769,8 +769,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -779,8 +779,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -789,8 +789,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -799,8 +799,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -809,8 +809,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -819,8 +819,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setRadiusX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setRadiusX(double) setRadiusX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -829,8 +829,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setRadiusY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setRadiusY(double) setRadiusY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -839,8 +839,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -849,8 +849,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -859,8 +859,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -869,8 +869,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -879,8 +879,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -889,8 +889,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setSmooth(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setSmooth(boolean) setSmooth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -899,8 +899,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setStartAngle(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setStartAngle(double) setStartAngle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -909,8 +909,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setStroke(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setStroke(javafx.scene.paint.Paint) setStroke} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -919,8 +919,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setStrokeDashOffset(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setStrokeDashOffset(double) setStrokeDashOffset} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -929,8 +929,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setStrokeLineCap(javafx.scene.shape.StrokeLineCap)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setStrokeLineCap(javafx.scene.shape.StrokeLineCap) setStrokeLineCap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -939,8 +939,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin) setStrokeLineJoin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -949,8 +949,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setStrokeMiterLimit(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setStrokeMiterLimit(double) setStrokeMiterLimit} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -959,8 +959,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setStrokeType(javafx.scene.shape.StrokeType)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setStrokeType(javafx.scene.shape.StrokeType) setStrokeType} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -969,8 +969,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setStrokeWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setStrokeWidth(double) setStrokeWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -979,8 +979,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -989,8 +989,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -999,8 +999,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1009,8 +1009,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1019,8 +1019,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setType(javafx.scene.shape.ArcType)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setType(javafx.scene.shape.ArcType) setType} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1029,8 +1029,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1039,8 +1039,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1049,8 +1049,8 @@ public class ArcBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Arc#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Arc#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2030,7 +2030,7 @@ public class ArcBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2052,7 +2052,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2074,7 +2074,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2096,7 +2096,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2118,7 +2118,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2140,7 +2140,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2162,7 +2162,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2184,7 +2184,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2206,7 +2206,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2228,7 +2228,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#centerXProperty() centerXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2250,7 +2250,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#centerYProperty() centerYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2272,7 +2272,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2294,7 +2294,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2316,7 +2316,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2338,7 +2338,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2360,7 +2360,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2382,7 +2382,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2404,7 +2404,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2426,7 +2426,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2448,7 +2448,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#fillProperty() fillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2470,7 +2470,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2492,7 +2492,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2514,7 +2514,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2536,7 +2536,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2558,7 +2558,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2580,7 +2580,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2602,7 +2602,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2624,7 +2624,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2646,7 +2646,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2668,7 +2668,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2690,7 +2690,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#lengthProperty() lengthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2712,7 +2712,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2734,7 +2734,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2756,7 +2756,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2778,7 +2778,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2800,7 +2800,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2822,7 +2822,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2844,7 +2844,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2866,7 +2866,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2888,7 +2888,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2910,7 +2910,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2932,7 +2932,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2954,7 +2954,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2976,7 +2976,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -2998,7 +2998,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3020,7 +3020,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3042,7 +3042,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3064,7 +3064,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3086,7 +3086,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3108,7 +3108,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3130,7 +3130,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3152,7 +3152,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3174,7 +3174,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3196,7 +3196,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3218,7 +3218,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3240,7 +3240,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3262,7 +3262,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3284,7 +3284,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3306,7 +3306,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3328,7 +3328,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3350,7 +3350,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3372,7 +3372,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3394,7 +3394,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3416,7 +3416,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3438,7 +3438,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3460,7 +3460,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3482,7 +3482,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3504,7 +3504,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3526,7 +3526,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3548,7 +3548,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3570,7 +3570,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3592,7 +3592,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3614,7 +3614,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3636,7 +3636,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3658,7 +3658,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3680,7 +3680,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3702,7 +3702,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3724,7 +3724,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3746,7 +3746,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3768,7 +3768,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#radiusXProperty() radiusXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3790,7 +3790,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#radiusYProperty() radiusYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3812,7 +3812,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3834,7 +3834,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3856,7 +3856,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3878,7 +3878,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3900,7 +3900,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3922,7 +3922,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3944,7 +3944,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#smoothProperty() smoothProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3966,7 +3966,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#startAngleProperty() startAngleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -3988,7 +3988,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#strokeDashOffsetProperty() strokeDashOffsetProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -4010,7 +4010,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#strokeLineCapProperty() strokeLineCapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -4032,7 +4032,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#strokeLineJoinProperty() strokeLineJoinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -4054,7 +4054,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#strokeMiterLimitProperty() strokeMiterLimitProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -4076,7 +4076,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#strokeProperty() strokeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -4098,7 +4098,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#strokeTypeProperty() strokeTypeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -4120,7 +4120,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#strokeWidthProperty() strokeWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -4142,7 +4142,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -4164,7 +4164,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -4186,7 +4186,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -4208,7 +4208,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -4230,7 +4230,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#typeProperty() typeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -4252,7 +4252,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 
@@ -4274,7 +4274,7 @@ public class ArcBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Arc#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Arc> func) apply} method.
      * <p>
      * Example: 

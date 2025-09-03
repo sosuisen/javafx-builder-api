@@ -171,7 +171,7 @@ public class PickResultBuilder {
         return false;
     }
     /**
-     * Applies a function to the PickResult instance currently being constructed.
+     * Applies a function to the PickResult instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

@@ -143,7 +143,7 @@ public class LineBuilder {
         return false;
     }
     /**
-     * Applies a function to the Line instance currently being constructed.
+     * Applies a function to the Line instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -159,8 +159,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -169,8 +169,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -179,8 +179,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -189,8 +189,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -199,8 +199,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,8 +209,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -219,8 +219,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,8 +229,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -239,8 +239,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,8 +249,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -259,8 +259,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -269,8 +269,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -279,8 +279,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setEndX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setEndX(double) setEndX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -289,8 +289,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setEndY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setEndY(double) setEndY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -299,8 +299,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -309,8 +309,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setFill(javafx.scene.paint.Paint) setFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -319,8 +319,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -329,8 +329,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -339,8 +339,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -349,8 +349,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -359,8 +359,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -369,8 +369,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -379,8 +379,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -389,8 +389,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -399,8 +399,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -409,8 +409,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -419,8 +419,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -429,8 +429,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -439,8 +439,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -449,8 +449,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -459,8 +459,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -469,8 +469,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -479,8 +479,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -489,8 +489,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -499,8 +499,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -509,8 +509,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -519,8 +519,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -529,8 +529,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -539,8 +539,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -549,8 +549,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -559,8 +559,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -569,8 +569,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -579,8 +579,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -589,8 +589,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -599,8 +599,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -609,8 +609,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -619,8 +619,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -629,8 +629,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -639,8 +639,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -649,8 +649,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -659,8 +659,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -669,8 +669,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -679,8 +679,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -689,8 +689,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -699,8 +699,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -709,8 +709,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -719,8 +719,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -729,8 +729,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -739,8 +739,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -749,8 +749,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -759,8 +759,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -769,8 +769,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -779,8 +779,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -789,8 +789,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -799,8 +799,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -809,8 +809,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -819,8 +819,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -829,8 +829,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -839,8 +839,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -849,8 +849,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -859,8 +859,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setSmooth(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setSmooth(boolean) setSmooth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -869,8 +869,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setStartX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setStartX(double) setStartX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -879,8 +879,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setStartY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setStartY(double) setStartY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -889,8 +889,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setStroke(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setStroke(javafx.scene.paint.Paint) setStroke} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -899,8 +899,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setStrokeDashOffset(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setStrokeDashOffset(double) setStrokeDashOffset} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -909,8 +909,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setStrokeLineCap(javafx.scene.shape.StrokeLineCap)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setStrokeLineCap(javafx.scene.shape.StrokeLineCap) setStrokeLineCap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -919,8 +919,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setStrokeLineJoin(javafx.scene.shape.StrokeLineJoin) setStrokeLineJoin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -929,8 +929,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setStrokeMiterLimit(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setStrokeMiterLimit(double) setStrokeMiterLimit} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -939,8 +939,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setStrokeType(javafx.scene.shape.StrokeType)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setStrokeType(javafx.scene.shape.StrokeType) setStrokeType} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -949,8 +949,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setStrokeWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setStrokeWidth(double) setStrokeWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -959,8 +959,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -969,8 +969,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -979,8 +979,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -989,8 +989,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -999,8 +999,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1009,8 +1009,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1019,8 +1019,8 @@ public class LineBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Line#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Line#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2000,7 +2000,7 @@ public class LineBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2022,7 +2022,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2044,7 +2044,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2066,7 +2066,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2088,7 +2088,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2110,7 +2110,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2132,7 +2132,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2154,7 +2154,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2176,7 +2176,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2198,7 +2198,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2220,7 +2220,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2242,7 +2242,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2264,7 +2264,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2286,7 +2286,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2308,7 +2308,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2330,7 +2330,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2352,7 +2352,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#endXProperty() endXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2374,7 +2374,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#endYProperty() endYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2396,7 +2396,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2418,7 +2418,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#fillProperty() fillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2440,7 +2440,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2462,7 +2462,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2484,7 +2484,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2506,7 +2506,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2528,7 +2528,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2550,7 +2550,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2572,7 +2572,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2594,7 +2594,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2616,7 +2616,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2638,7 +2638,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2660,7 +2660,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2682,7 +2682,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2704,7 +2704,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2726,7 +2726,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2748,7 +2748,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2770,7 +2770,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2792,7 +2792,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2814,7 +2814,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2836,7 +2836,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2858,7 +2858,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2880,7 +2880,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2902,7 +2902,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2924,7 +2924,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2946,7 +2946,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2968,7 +2968,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -2990,7 +2990,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3012,7 +3012,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3034,7 +3034,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3056,7 +3056,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3078,7 +3078,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3100,7 +3100,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3122,7 +3122,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3144,7 +3144,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3166,7 +3166,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3188,7 +3188,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3210,7 +3210,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3232,7 +3232,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3254,7 +3254,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3276,7 +3276,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3298,7 +3298,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3320,7 +3320,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3342,7 +3342,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3364,7 +3364,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3386,7 +3386,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3408,7 +3408,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3430,7 +3430,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3452,7 +3452,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3474,7 +3474,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3496,7 +3496,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3518,7 +3518,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3540,7 +3540,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3562,7 +3562,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3584,7 +3584,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3606,7 +3606,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3628,7 +3628,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3650,7 +3650,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3672,7 +3672,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3694,7 +3694,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3716,7 +3716,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3738,7 +3738,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3760,7 +3760,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3782,7 +3782,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3804,7 +3804,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3826,7 +3826,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3848,7 +3848,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#smoothProperty() smoothProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3870,7 +3870,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#startXProperty() startXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3892,7 +3892,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#startYProperty() startYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3914,7 +3914,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#strokeDashOffsetProperty() strokeDashOffsetProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3936,7 +3936,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#strokeLineCapProperty() strokeLineCapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3958,7 +3958,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#strokeLineJoinProperty() strokeLineJoinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -3980,7 +3980,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#strokeMiterLimitProperty() strokeMiterLimitProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -4002,7 +4002,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#strokeProperty() strokeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -4024,7 +4024,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#strokeTypeProperty() strokeTypeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -4046,7 +4046,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#strokeWidthProperty() strokeWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -4068,7 +4068,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -4090,7 +4090,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -4112,7 +4112,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -4134,7 +4134,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -4156,7 +4156,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 
@@ -4178,7 +4178,7 @@ public class LineBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Line#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Line> func) apply} method.
      * <p>
      * Example: 

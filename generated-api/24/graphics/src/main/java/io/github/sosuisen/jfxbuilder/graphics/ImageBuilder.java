@@ -199,7 +199,7 @@ public class ImageBuilder {
         return false;
     }
     /**
-     * Applies a function to the Image instance currently being constructed.
+     * Applies a function to the Image instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -211,7 +211,7 @@ public class ImageBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.Image#errorProperty() errorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.Image> func) apply} method.
      * <p>
      * Example: 
@@ -233,7 +233,7 @@ public class ImageBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.Image#exceptionProperty() exceptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.Image> func) apply} method.
      * <p>
      * Example: 
@@ -255,7 +255,7 @@ public class ImageBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.Image#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.Image> func) apply} method.
      * <p>
      * Example: 
@@ -277,7 +277,7 @@ public class ImageBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.Image#progressProperty() progressProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.Image> func) apply} method.
      * <p>
      * Example: 
@@ -299,7 +299,7 @@ public class ImageBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.image.Image#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.image.Image> func) apply} method.
      * <p>
      * Example: 

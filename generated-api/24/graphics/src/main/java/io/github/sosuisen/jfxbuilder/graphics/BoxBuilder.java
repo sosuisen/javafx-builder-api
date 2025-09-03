@@ -143,7 +143,7 @@ public class BoxBuilder {
         return false;
     }
     /**
-     * Applies a function to the Box instance currently being constructed.
+     * Applies a function to the Box instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -159,8 +159,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -169,8 +169,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -179,8 +179,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -189,8 +189,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -199,8 +199,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -209,8 +209,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -219,8 +219,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -229,8 +229,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -239,8 +239,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setCullFace(javafx.scene.shape.CullFace)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setCullFace(javafx.scene.shape.CullFace) setCullFace} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -249,8 +249,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -259,8 +259,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setDepth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setDepth(double) setDepth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -269,8 +269,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -279,8 +279,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -289,8 +289,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setDrawMode(javafx.scene.shape.DrawMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setDrawMode(javafx.scene.shape.DrawMode) setDrawMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -299,8 +299,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -309,8 +309,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -319,8 +319,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -329,8 +329,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setHeight(double) setHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -339,8 +339,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -349,8 +349,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -359,8 +359,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -369,8 +369,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -379,8 +379,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -389,8 +389,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setMaterial(javafx.scene.paint.Material)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setMaterial(javafx.scene.paint.Material) setMaterial} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -399,8 +399,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -409,8 +409,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -419,8 +419,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -429,8 +429,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -439,8 +439,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -449,8 +449,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -459,8 +459,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -469,8 +469,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -479,8 +479,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -489,8 +489,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -499,8 +499,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -509,8 +509,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -519,8 +519,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -529,8 +529,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -539,8 +539,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -549,8 +549,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -559,8 +559,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -569,8 +569,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -579,8 +579,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -589,8 +589,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -599,8 +599,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -609,8 +609,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -619,8 +619,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -629,8 +629,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -639,8 +639,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -649,8 +649,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -659,8 +659,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -669,8 +669,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -679,8 +679,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -689,8 +689,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -699,8 +699,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -709,8 +709,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -719,8 +719,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -729,8 +729,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -739,8 +739,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -749,8 +749,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -759,8 +759,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -769,8 +769,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -779,8 +779,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -789,8 +789,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -799,8 +799,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -809,8 +809,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -819,8 +819,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -829,8 +829,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -839,8 +839,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -849,8 +849,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -859,8 +859,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -869,8 +869,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -879,8 +879,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -889,8 +889,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -899,8 +899,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -909,8 +909,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -919,8 +919,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -929,8 +929,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -939,8 +939,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -949,8 +949,8 @@ public class BoxBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.shape.Box#setWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.shape.Box#setWidth(double) setWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1882,7 +1882,7 @@ public class BoxBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -1904,7 +1904,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -1926,7 +1926,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -1948,7 +1948,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -1970,7 +1970,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -1992,7 +1992,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2014,7 +2014,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2036,7 +2036,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2058,7 +2058,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2080,7 +2080,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2102,7 +2102,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#cullFaceProperty() cullFaceProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2124,7 +2124,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2146,7 +2146,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#depthProperty() depthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2168,7 +2168,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2190,7 +2190,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2212,7 +2212,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2234,7 +2234,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#drawModeProperty() drawModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2256,7 +2256,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2278,7 +2278,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2300,7 +2300,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2322,7 +2322,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2344,7 +2344,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2366,7 +2366,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2388,7 +2388,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2410,7 +2410,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2432,7 +2432,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2454,7 +2454,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2476,7 +2476,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2498,7 +2498,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2520,7 +2520,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2542,7 +2542,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2564,7 +2564,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2586,7 +2586,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2608,7 +2608,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2630,7 +2630,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#materialProperty() materialProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2652,7 +2652,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2674,7 +2674,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2696,7 +2696,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2718,7 +2718,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2740,7 +2740,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2762,7 +2762,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2784,7 +2784,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2806,7 +2806,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2828,7 +2828,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2850,7 +2850,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2872,7 +2872,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2894,7 +2894,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2916,7 +2916,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2938,7 +2938,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2960,7 +2960,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -2982,7 +2982,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3004,7 +3004,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3026,7 +3026,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3048,7 +3048,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3070,7 +3070,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3092,7 +3092,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3114,7 +3114,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3136,7 +3136,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3158,7 +3158,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3180,7 +3180,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3202,7 +3202,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3224,7 +3224,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3246,7 +3246,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3268,7 +3268,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3290,7 +3290,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3312,7 +3312,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3334,7 +3334,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3356,7 +3356,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3378,7 +3378,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3400,7 +3400,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3422,7 +3422,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3444,7 +3444,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3466,7 +3466,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3488,7 +3488,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3510,7 +3510,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3532,7 +3532,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3554,7 +3554,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3576,7 +3576,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3598,7 +3598,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3620,7 +3620,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3642,7 +3642,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3664,7 +3664,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3686,7 +3686,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3708,7 +3708,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3730,7 +3730,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3752,7 +3752,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3774,7 +3774,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3796,7 +3796,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3818,7 +3818,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3840,7 +3840,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3862,7 +3862,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3884,7 +3884,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 
@@ -3906,7 +3906,7 @@ public class BoxBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.shape.Box#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.shape.Box> func) apply} method.
      * <p>
      * Example: 

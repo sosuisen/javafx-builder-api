@@ -143,7 +143,7 @@ public class TooltipBuilder {
         return false;
     }
     /**
-     * Applies a function to the Tooltip instance currently being constructed.
+     * Applies a function to the Tooltip instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance
@@ -154,8 +154,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setAnchorLocation(javafx.stage.PopupWindow$AnchorLocation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setAnchorLocation(javafx.stage.PopupWindow$AnchorLocation) setAnchorLocation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -164,8 +164,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setAnchorX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setAnchorX(double) setAnchorX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -174,8 +174,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setAnchorY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setAnchorY(double) setAnchorY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -184,8 +184,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setAutoFix(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setAutoFix(boolean) setAutoFix} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -194,8 +194,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setAutoHide(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setAutoHide(boolean) setAutoHide} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -204,8 +204,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setConsumeAutoHidingEvents(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setConsumeAutoHidingEvents(boolean) setConsumeAutoHidingEvents} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -214,8 +214,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setContentDisplay(javafx.scene.control.ContentDisplay)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -224,8 +224,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -234,8 +234,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setFont(javafx.scene.text.Font)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -244,8 +244,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setForceIntegerRenderScale(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setForceIntegerRenderScale(boolean) setForceIntegerRenderScale} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -254,8 +254,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setGraphic(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -264,8 +264,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setGraphicTextGap(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -274,8 +274,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setHeight(double) setHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -284,8 +284,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setHideDelay(javafx.util.Duration)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setHideDelay(javafx.util.Duration) setHideDelay} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -294,8 +294,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setHideOnEscape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setHideOnEscape(boolean) setHideOnEscape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -304,8 +304,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -314,8 +314,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -324,8 +324,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -334,8 +334,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -344,8 +344,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -354,8 +354,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -364,8 +364,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -374,8 +374,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setOnAutoHide(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setOnAutoHide(javafx.event.EventHandler) setOnAutoHide} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -384,8 +384,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setOnCloseRequest(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setOnCloseRequest(javafx.event.EventHandler) setOnCloseRequest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -394,8 +394,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setOnHidden(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setOnHidden(javafx.event.EventHandler) setOnHidden} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -404,8 +404,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setOnHiding(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setOnHiding(javafx.event.EventHandler) setOnHiding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -414,8 +414,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setOnShowing(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setOnShowing(javafx.event.EventHandler) setOnShowing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -424,8 +424,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setOnShown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setOnShown(javafx.event.EventHandler) setOnShown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -434,8 +434,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -444,8 +444,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -454,8 +454,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -464,8 +464,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -474,8 +474,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setRenderScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setRenderScaleX(double) setRenderScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -484,8 +484,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setRenderScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setRenderScaleY(double) setRenderScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -494,8 +494,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setShowDelay(javafx.util.Duration)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setShowDelay(javafx.util.Duration) setShowDelay} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -504,8 +504,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setShowDuration(javafx.util.Duration)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setShowDuration(javafx.util.Duration) setShowDuration} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -514,8 +514,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -524,8 +524,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -534,8 +534,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setText(java.lang.String) setText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -544,8 +544,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setTextAlignment(javafx.scene.text.TextAlignment)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -554,8 +554,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setTextOverrun(javafx.scene.control.OverrunStyle)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -564,8 +564,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -574,8 +574,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setWidth(double) setWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -584,8 +584,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setWrapText(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setWrapText(boolean) setWrapText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -594,8 +594,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setX(double) setX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -604,8 +604,8 @@ public class TooltipBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Tooltip#setY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Tooltip#setY(double) setY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -642,7 +642,7 @@ public class TooltipBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#activatedProperty() activatedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -664,7 +664,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#anchorLocationProperty() anchorLocationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -686,7 +686,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#anchorXProperty() anchorXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -708,7 +708,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#anchorYProperty() anchorYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -730,7 +730,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#autoFixProperty() autoFixProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -752,7 +752,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#autoHideProperty() autoHideProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -774,7 +774,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#consumeAutoHidingEventsProperty() consumeAutoHidingEventsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -796,7 +796,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#contentDisplayProperty() contentDisplayProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -818,7 +818,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -840,7 +840,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -862,7 +862,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#fontProperty() fontProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -884,7 +884,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#forceIntegerRenderScaleProperty() forceIntegerRenderScaleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -906,7 +906,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#graphicProperty() graphicProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -928,7 +928,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#graphicTextGapProperty() graphicTextGapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -950,7 +950,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -972,7 +972,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#hideDelayProperty() hideDelayProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -994,7 +994,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#hideOnEscapeProperty() hideOnEscapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1016,7 +1016,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1038,7 +1038,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1060,7 +1060,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1082,7 +1082,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1104,7 +1104,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1126,7 +1126,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#onAutoHideProperty() onAutoHideProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1148,7 +1148,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#onCloseRequestProperty() onCloseRequestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1170,7 +1170,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#onHiddenProperty() onHiddenProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1192,7 +1192,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#onHidingProperty() onHidingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1214,7 +1214,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#onShowingProperty() onShowingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1236,7 +1236,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#onShownProperty() onShownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1258,7 +1258,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1280,7 +1280,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#outputScaleXProperty() outputScaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1302,7 +1302,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#outputScaleYProperty() outputScaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1324,7 +1324,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#ownerNodeProperty() ownerNodeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1346,7 +1346,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#ownerWindowProperty() ownerWindowProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1368,7 +1368,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1390,7 +1390,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1412,7 +1412,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#renderScaleXProperty() renderScaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1434,7 +1434,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#renderScaleYProperty() renderScaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1456,7 +1456,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1478,7 +1478,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#showDelayProperty() showDelayProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1500,7 +1500,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#showDurationProperty() showDurationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1522,7 +1522,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#showingProperty() showingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1544,7 +1544,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1566,7 +1566,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1588,7 +1588,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#textAlignmentProperty() textAlignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1610,7 +1610,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#textOverrunProperty() textOverrunProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1632,7 +1632,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#textProperty() textProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1654,7 +1654,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1676,7 +1676,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#wrapTextProperty() wrapTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1698,7 +1698,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#xProperty() xProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 
@@ -1720,7 +1720,7 @@ public class TooltipBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Tooltip#yProperty() yProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Tooltip> func) apply} method.
      * <p>
      * Example: 

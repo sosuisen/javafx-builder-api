@@ -131,7 +131,7 @@ public class SpinnerSkinBuilder<T> {
         return false;
     }
     /**
-     * Applies a function to the SpinnerSkin instance currently being constructed.
+     * Applies a function to the SpinnerSkin instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * @return builder instance

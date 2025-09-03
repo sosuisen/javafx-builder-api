@@ -157,7 +157,7 @@ public class HyperlinkBuilder {
         return false;
     }
     /**
-     * Applies a function to the Hyperlink instance currently being constructed.
+     * Applies a function to the Hyperlink instance being constructed.
      * Most operations on the instance can be performed using this method.
      *
      * <p>Example usage:</p>     
@@ -173,8 +173,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setAccessibleHelp(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setAccessibleHelp(java.lang.String) setAccessibleHelp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -183,8 +183,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setAccessibleRole(javafx.scene.AccessibleRole)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setAccessibleRole(javafx.scene.AccessibleRole) setAccessibleRole} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -193,8 +193,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setAccessibleRoleDescription(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setAccessibleRoleDescription(java.lang.String) setAccessibleRoleDescription} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -203,8 +203,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setAccessibleText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setAccessibleText(java.lang.String) setAccessibleText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -213,8 +213,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setAlignment(javafx.geometry.Pos)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setAlignment(javafx.geometry.Pos) setAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -223,8 +223,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setBackground(javafx.scene.layout.Background)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setBackground(javafx.scene.layout.Background) setBackground} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -233,8 +233,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setBlendMode(javafx.scene.effect.BlendMode)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setBlendMode(javafx.scene.effect.BlendMode) setBlendMode} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -243,8 +243,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setBorder(javafx.scene.layout.Border)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setBorder(javafx.scene.layout.Border) setBorder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -253,8 +253,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setCache(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setCache(boolean) setCache} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -263,8 +263,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setCacheHint(javafx.scene.CacheHint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setCacheHint(javafx.scene.CacheHint) setCacheHint} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -273,8 +273,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setCacheShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setCacheShape(boolean) setCacheShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -283,8 +283,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setCenterShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setCenterShape(boolean) setCenterShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -293,8 +293,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setClip(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setClip(javafx.scene.Node) setClip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -303,8 +303,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setContentDisplay(javafx.scene.control.ContentDisplay)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setContentDisplay(javafx.scene.control.ContentDisplay) setContentDisplay} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -313,8 +313,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setContextMenu(javafx.scene.control.ContextMenu)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setContextMenu(javafx.scene.control.ContextMenu) setContextMenu} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -323,8 +323,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setCursor(javafx.scene.Cursor)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setCursor(javafx.scene.Cursor) setCursor} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -333,8 +333,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setDepthTest(javafx.scene.DepthTest)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setDepthTest(javafx.scene.DepthTest) setDepthTest} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -343,8 +343,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setDisable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setDisable(boolean) setDisable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -353,8 +353,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setEffect(javafx.scene.effect.Effect)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setEffect(javafx.scene.effect.Effect) setEffect} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -363,8 +363,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setEllipsisString(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setEllipsisString(java.lang.String) setEllipsisString} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -373,8 +373,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setEventDispatcher(javafx.event.EventDispatcher)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setEventDispatcher(javafx.event.EventDispatcher) setEventDispatcher} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -383,8 +383,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setFocusTraversable(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setFocusTraversable(boolean) setFocusTraversable} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -393,8 +393,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setFont(javafx.scene.text.Font)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setFont(javafx.scene.text.Font) setFont} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -403,8 +403,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setGraphic(javafx.scene.Node)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setGraphic(javafx.scene.Node) setGraphic} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -413,8 +413,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setGraphicTextGap(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setGraphicTextGap(double) setGraphicTextGap} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -423,8 +423,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setId(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setId(java.lang.String) setId} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -433,8 +433,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setInputMethodRequests(javafx.scene.input.InputMethodRequests)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setInputMethodRequests(javafx.scene.input.InputMethodRequests) setInputMethodRequests} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -443,8 +443,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setLayoutX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setLayoutX(double) setLayoutX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -453,8 +453,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setLayoutY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setLayoutY(double) setLayoutY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -463,8 +463,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setLineSpacing(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setLineSpacing(double) setLineSpacing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -473,8 +473,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setManaged(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setManaged(boolean) setManaged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -483,8 +483,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setMaxHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setMaxHeight(double) setMaxHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -493,8 +493,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setMaxSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setMaxSize(double, double) setMaxSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -503,8 +503,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setMaxWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setMaxWidth(double) setMaxWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -513,8 +513,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setMinHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setMinHeight(double) setMinHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -523,8 +523,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setMinSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setMinSize(double, double) setMinSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -533,8 +533,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setMinWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setMinWidth(double) setMinWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -543,8 +543,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setMnemonicParsing(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setMnemonicParsing(boolean) setMnemonicParsing} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -553,8 +553,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setMouseTransparent(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setMouseTransparent(boolean) setMouseTransparent} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -563,8 +563,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setNodeOrientation(javafx.geometry.NodeOrientation)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setNodeOrientation(javafx.geometry.NodeOrientation) setNodeOrientation} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -573,8 +573,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnAction(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnAction(javafx.event.EventHandler) setOnAction} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -583,8 +583,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnContextMenuRequested(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnContextMenuRequested(javafx.event.EventHandler) setOnContextMenuRequested} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -593,8 +593,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnDragDetected(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnDragDetected(javafx.event.EventHandler) setOnDragDetected} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -603,8 +603,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnDragDone(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnDragDone(javafx.event.EventHandler) setOnDragDone} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -613,8 +613,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnDragDropped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnDragDropped(javafx.event.EventHandler) setOnDragDropped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -623,8 +623,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnDragEntered(javafx.event.EventHandler) setOnDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -633,8 +633,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnDragExited(javafx.event.EventHandler) setOnDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -643,8 +643,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnDragOver(javafx.event.EventHandler) setOnDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -653,8 +653,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnInputMethodTextChanged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnInputMethodTextChanged(javafx.event.EventHandler) setOnInputMethodTextChanged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -663,8 +663,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnKeyPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnKeyPressed(javafx.event.EventHandler) setOnKeyPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -673,8 +673,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnKeyReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnKeyReleased(javafx.event.EventHandler) setOnKeyReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -683,8 +683,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnKeyTyped(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnKeyTyped(javafx.event.EventHandler) setOnKeyTyped} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -693,8 +693,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnMouseClicked(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnMouseClicked(javafx.event.EventHandler) setOnMouseClicked} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -703,8 +703,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnMouseDragEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnMouseDragEntered(javafx.event.EventHandler) setOnMouseDragEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -713,8 +713,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnMouseDragExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnMouseDragExited(javafx.event.EventHandler) setOnMouseDragExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -723,8 +723,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnMouseDragOver(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnMouseDragOver(javafx.event.EventHandler) setOnMouseDragOver} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -733,8 +733,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnMouseDragReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnMouseDragReleased(javafx.event.EventHandler) setOnMouseDragReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -743,8 +743,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnMouseDragged(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnMouseDragged(javafx.event.EventHandler) setOnMouseDragged} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -753,8 +753,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnMouseEntered(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnMouseEntered(javafx.event.EventHandler) setOnMouseEntered} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -763,8 +763,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnMouseExited(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnMouseExited(javafx.event.EventHandler) setOnMouseExited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -773,8 +773,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnMouseMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnMouseMoved(javafx.event.EventHandler) setOnMouseMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -783,8 +783,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnMousePressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnMousePressed(javafx.event.EventHandler) setOnMousePressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -793,8 +793,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnMouseReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnMouseReleased(javafx.event.EventHandler) setOnMouseReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -803,8 +803,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnRotate(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnRotate(javafx.event.EventHandler) setOnRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -813,8 +813,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnRotationFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnRotationFinished(javafx.event.EventHandler) setOnRotationFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -823,8 +823,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnRotationStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnRotationStarted(javafx.event.EventHandler) setOnRotationStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -833,8 +833,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnScroll(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnScroll(javafx.event.EventHandler) setOnScroll} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -843,8 +843,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnScrollFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnScrollFinished(javafx.event.EventHandler) setOnScrollFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -853,8 +853,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnScrollStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnScrollStarted(javafx.event.EventHandler) setOnScrollStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -863,8 +863,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnSwipeDown(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnSwipeDown(javafx.event.EventHandler) setOnSwipeDown} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -873,8 +873,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnSwipeLeft(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnSwipeLeft(javafx.event.EventHandler) setOnSwipeLeft} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -883,8 +883,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnSwipeRight(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnSwipeRight(javafx.event.EventHandler) setOnSwipeRight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -893,8 +893,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnSwipeUp(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnSwipeUp(javafx.event.EventHandler) setOnSwipeUp} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -903,8 +903,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnTouchMoved(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnTouchMoved(javafx.event.EventHandler) setOnTouchMoved} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -913,8 +913,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnTouchPressed(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnTouchPressed(javafx.event.EventHandler) setOnTouchPressed} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -923,8 +923,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnTouchReleased(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnTouchReleased(javafx.event.EventHandler) setOnTouchReleased} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -933,8 +933,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnTouchStationary(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnTouchStationary(javafx.event.EventHandler) setOnTouchStationary} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -943,8 +943,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnZoom(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnZoom(javafx.event.EventHandler) setOnZoom} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -953,8 +953,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnZoomFinished(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnZoomFinished(javafx.event.EventHandler) setOnZoomFinished} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -963,8 +963,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOnZoomStarted(javafx.event.EventHandler)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOnZoomStarted(javafx.event.EventHandler) setOnZoomStarted} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -973,8 +973,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOpacity(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOpacity(double) setOpacity} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -983,8 +983,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setOpaqueInsets(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setOpaqueInsets(javafx.geometry.Insets) setOpaqueInsets} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -993,8 +993,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setPadding(javafx.geometry.Insets)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setPadding(javafx.geometry.Insets) setPadding} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1003,8 +1003,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setPickOnBounds(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setPickOnBounds(boolean) setPickOnBounds} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1013,8 +1013,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setPrefHeight(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setPrefHeight(double) setPrefHeight} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1023,8 +1023,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setPrefSize(double, double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setPrefSize(double, double) setPrefSize} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1033,8 +1033,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setPrefWidth(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setPrefWidth(double) setPrefWidth} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1043,8 +1043,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setRotate(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setRotate(double) setRotate} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1053,8 +1053,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setRotationAxis(javafx.geometry.Point3D)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setRotationAxis(javafx.geometry.Point3D) setRotationAxis} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1063,8 +1063,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setScaleShape(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setScaleShape(boolean) setScaleShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1073,8 +1073,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setScaleX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setScaleX(double) setScaleX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1083,8 +1083,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setScaleY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setScaleY(double) setScaleY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1093,8 +1093,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setScaleZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setScaleZ(double) setScaleZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1103,8 +1103,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setShape(javafx.scene.shape.Shape)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setShape(javafx.scene.shape.Shape) setShape} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1113,8 +1113,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setSkin(javafx.scene.control.Skin)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setSkin(javafx.scene.control.Skin) setSkin} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1123,8 +1123,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setSnapToPixel(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setSnapToPixel(boolean) setSnapToPixel} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1133,8 +1133,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setStyle(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setStyle(java.lang.String) setStyle} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1143,8 +1143,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setText(java.lang.String)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setText(java.lang.String) setText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1153,8 +1153,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setTextAlignment(javafx.scene.text.TextAlignment)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setTextAlignment(javafx.scene.text.TextAlignment) setTextAlignment} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1163,8 +1163,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setTextFill(javafx.scene.paint.Paint)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setTextFill(javafx.scene.paint.Paint) setTextFill} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1173,8 +1173,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setTextOverrun(javafx.scene.control.OverrunStyle)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setTextOverrun(javafx.scene.control.OverrunStyle) setTextOverrun} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1183,8 +1183,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setTooltip(javafx.scene.control.Tooltip)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setTooltip(javafx.scene.control.Tooltip) setTooltip} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1193,8 +1193,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setTranslateX(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setTranslateX(double) setTranslateX} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1203,8 +1203,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setTranslateY(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setTranslateY(double) setTranslateY} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1213,8 +1213,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setTranslateZ(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setTranslateZ(double) setTranslateZ} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1223,8 +1223,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setUnderline(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setUnderline(boolean) setUnderline} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1233,8 +1233,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setUserData(java.lang.Object)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setUserData(java.lang.Object) setUserData} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1243,8 +1243,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setViewOrder(double)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setViewOrder(double) setViewOrder} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1253,8 +1253,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setVisible(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setVisible(boolean) setVisible} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1263,8 +1263,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setVisited(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setVisited(boolean) setVisited} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -1273,8 +1273,8 @@ public class HyperlinkBuilder {
         return this;
     }
     /**
-     * Builder method for {@link javafx.scene.control.Hyperlink#setWrapText(boolean)}
-     * 
+     * A builder method that invokes the {@link javafx.scene.control.Hyperlink#setWrapText(boolean) setWrapText} method on the instance being constructed.
+     *
      * @return builder instance
      */    
     
@@ -2249,7 +2249,7 @@ public class HyperlinkBuilder {
     
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#accessibleHelpProperty() accessibleHelpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2271,7 +2271,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#accessibleRoleDescriptionProperty() accessibleRoleDescriptionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2293,7 +2293,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#accessibleRoleProperty() accessibleRoleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2315,7 +2315,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#accessibleTextProperty() accessibleTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2337,7 +2337,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#alignmentProperty() alignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2359,7 +2359,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#armedProperty() armedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2381,7 +2381,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#backgroundProperty() backgroundProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2403,7 +2403,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#blendModeProperty() blendModeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2425,7 +2425,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#borderProperty() borderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2447,7 +2447,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#boundsInLocalProperty() boundsInLocalProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2469,7 +2469,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#boundsInParentProperty() boundsInParentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2491,7 +2491,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#cacheHintProperty() cacheHintProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2513,7 +2513,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#cacheProperty() cacheProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2535,7 +2535,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#cacheShapeProperty() cacheShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2557,7 +2557,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#centerShapeProperty() centerShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2579,7 +2579,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#clipProperty() clipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2601,7 +2601,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#contentDisplayProperty() contentDisplayProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2623,7 +2623,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#contextMenuProperty() contextMenuProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2645,7 +2645,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#cursorProperty() cursorProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2667,7 +2667,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#depthTestProperty() depthTestProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2689,7 +2689,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#disableProperty() disableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2711,7 +2711,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#disabledProperty() disabledProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2733,7 +2733,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#effectProperty() effectProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2755,7 +2755,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#effectiveNodeOrientationProperty() effectiveNodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2777,7 +2777,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#ellipsisStringProperty() ellipsisStringProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2799,7 +2799,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#eventDispatcherProperty() eventDispatcherProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2821,7 +2821,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#focusTraversableProperty() focusTraversableProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2843,7 +2843,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#focusVisibleProperty() focusVisibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2865,7 +2865,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#focusWithinProperty() focusWithinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2887,7 +2887,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#focusedProperty() focusedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2909,7 +2909,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#fontProperty() fontProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2931,7 +2931,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#graphicProperty() graphicProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2953,7 +2953,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#graphicTextGapProperty() graphicTextGapProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2975,7 +2975,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#heightProperty() heightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -2997,7 +2997,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#hoverProperty() hoverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3019,7 +3019,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#idProperty() idProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3041,7 +3041,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#inputMethodRequestsProperty() inputMethodRequestsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3063,7 +3063,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#insetsProperty() insetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3085,7 +3085,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#labelPaddingProperty() labelPaddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3107,7 +3107,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#layoutBoundsProperty() layoutBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3129,7 +3129,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#layoutXProperty() layoutXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3151,7 +3151,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#layoutYProperty() layoutYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3173,7 +3173,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#lineSpacingProperty() lineSpacingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3195,7 +3195,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#localToParentTransformProperty() localToParentTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3217,7 +3217,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#localToSceneTransformProperty() localToSceneTransformProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3239,7 +3239,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#managedProperty() managedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3261,7 +3261,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#maxHeightProperty() maxHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3283,7 +3283,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#maxWidthProperty() maxWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3305,7 +3305,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#minHeightProperty() minHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3327,7 +3327,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#minWidthProperty() minWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3349,7 +3349,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#mnemonicParsingProperty() mnemonicParsingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3371,7 +3371,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#mouseTransparentProperty() mouseTransparentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3393,7 +3393,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#needsLayoutProperty() needsLayoutProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3415,7 +3415,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#nodeOrientationProperty() nodeOrientationProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3437,7 +3437,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onActionProperty() onActionProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3459,7 +3459,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onContextMenuRequestedProperty() onContextMenuRequestedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3481,7 +3481,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onDragDetectedProperty() onDragDetectedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3503,7 +3503,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onDragDoneProperty() onDragDoneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3525,7 +3525,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onDragDroppedProperty() onDragDroppedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3547,7 +3547,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onDragEnteredProperty() onDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3569,7 +3569,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onDragExitedProperty() onDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3591,7 +3591,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onDragOverProperty() onDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3613,7 +3613,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onInputMethodTextChangedProperty() onInputMethodTextChangedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3635,7 +3635,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onKeyPressedProperty() onKeyPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3657,7 +3657,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onKeyReleasedProperty() onKeyReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3679,7 +3679,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onKeyTypedProperty() onKeyTypedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3701,7 +3701,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onMouseClickedProperty() onMouseClickedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3723,7 +3723,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onMouseDragEnteredProperty() onMouseDragEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3745,7 +3745,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onMouseDragExitedProperty() onMouseDragExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3767,7 +3767,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onMouseDragOverProperty() onMouseDragOverProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3789,7 +3789,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onMouseDragReleasedProperty() onMouseDragReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3811,7 +3811,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onMouseDraggedProperty() onMouseDraggedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3833,7 +3833,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onMouseEnteredProperty() onMouseEnteredProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3855,7 +3855,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onMouseExitedProperty() onMouseExitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3877,7 +3877,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onMouseMovedProperty() onMouseMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3899,7 +3899,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onMousePressedProperty() onMousePressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3921,7 +3921,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onMouseReleasedProperty() onMouseReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3943,7 +3943,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onRotateProperty() onRotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3965,7 +3965,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onRotationFinishedProperty() onRotationFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -3987,7 +3987,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onRotationStartedProperty() onRotationStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4009,7 +4009,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onScrollFinishedProperty() onScrollFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4031,7 +4031,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onScrollProperty() onScrollProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4053,7 +4053,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onScrollStartedProperty() onScrollStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4075,7 +4075,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onSwipeDownProperty() onSwipeDownProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4097,7 +4097,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onSwipeLeftProperty() onSwipeLeftProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4119,7 +4119,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onSwipeRightProperty() onSwipeRightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4141,7 +4141,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onSwipeUpProperty() onSwipeUpProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4163,7 +4163,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onTouchMovedProperty() onTouchMovedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4185,7 +4185,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onTouchPressedProperty() onTouchPressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4207,7 +4207,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onTouchReleasedProperty() onTouchReleasedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4229,7 +4229,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onTouchStationaryProperty() onTouchStationaryProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4251,7 +4251,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onZoomFinishedProperty() onZoomFinishedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4273,7 +4273,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onZoomProperty() onZoomProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4295,7 +4295,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#onZoomStartedProperty() onZoomStartedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4317,7 +4317,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#opacityProperty() opacityProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4339,7 +4339,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#opaqueInsetsProperty() opaqueInsetsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4361,7 +4361,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#paddingProperty() paddingProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4383,7 +4383,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#parentProperty() parentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4405,7 +4405,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#pickOnBoundsProperty() pickOnBoundsProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4427,7 +4427,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#prefHeightProperty() prefHeightProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4449,7 +4449,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#prefWidthProperty() prefWidthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4471,7 +4471,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#pressedProperty() pressedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4493,7 +4493,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#rotateProperty() rotateProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4515,7 +4515,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#rotationAxisProperty() rotationAxisProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4537,7 +4537,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#scaleShapeProperty() scaleShapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4559,7 +4559,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#scaleXProperty() scaleXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4581,7 +4581,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#scaleYProperty() scaleYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4603,7 +4603,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#scaleZProperty() scaleZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4625,7 +4625,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#sceneProperty() sceneProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4647,7 +4647,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#shapeProperty() shapeProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4669,7 +4669,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#skinProperty() skinProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4691,7 +4691,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#snapToPixelProperty() snapToPixelProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4713,7 +4713,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#styleProperty() styleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4735,7 +4735,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#textAlignmentProperty() textAlignmentProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4757,7 +4757,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#textFillProperty() textFillProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4779,7 +4779,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#textOverrunProperty() textOverrunProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4801,7 +4801,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#textProperty() textProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4823,7 +4823,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#textTruncatedProperty() textTruncatedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4845,7 +4845,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#tooltipProperty() tooltipProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4867,7 +4867,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#translateXProperty() translateXProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4889,7 +4889,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#translateYProperty() translateYProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4911,7 +4911,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#translateZProperty() translateZProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4933,7 +4933,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#underlineProperty() underlineProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4955,7 +4955,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#viewOrderProperty() viewOrderProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4977,7 +4977,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#visibleProperty() visibleProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -4999,7 +4999,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#visitedProperty() visitedProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -5021,7 +5021,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#widthProperty() widthProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
@@ -5043,7 +5043,7 @@ public class HyperlinkBuilder {
     }    
     /**
      * Applies a function to the {@link javafx.scene.control.Hyperlink#wrapTextProperty() wrapTextProperty} 
-     * of the instance currently being constructed. 
+     * of the instance being constructed. 
      * This serves as a shorthand form of the {@link #apply(java.util.function.Consumer<javafx.scene.control.Hyperlink> func) apply} method.
      * <p>
      * Example: 
